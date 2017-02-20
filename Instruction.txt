@@ -1,0 +1,16 @@
+Must follow all steps to run the project.
+
+1. (Important) Install the Visual Studio 2015 and AccessDatabaseEngine2007 (in the Setup Files folder)
+
+2. Start the project
+	-	Nagivate to Projects -> TheLittleOnes -> TheLittleOnes.sln
+
+3. (Important) Right-click the TheLittleOnes (Website) as the start up project
+
+4. (Important) Right-click the AdminLogin.aspx (Webpage) as the start up page 
+
+5. Press Ctrl+F5 to run without debugging mode
+	-	you may change the type of browser to run
+	-	look for the "Play" icon in green on the top toolbar and select your preferred browser
+
+6. Project will be loaded on your browser. Done.
