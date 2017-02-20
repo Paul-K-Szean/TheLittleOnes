@@ -1,0 +1,10 @@
+C:\Users\PaulKSzean\Documents\Visual Studio 2015\Projects\TheLittleOnes\TheLittleOnesLibrary\bin\Debug\TheLittleOnesLibrary.dll
+C:\Users\PaulKSzean\Documents\Visual Studio 2015\Projects\TheLittleOnes\TheLittleOnesLibrary\bin\Debug\TheLittleOnesLibrary.pdb
+C:\Users\PaulKSzean\Documents\Visual Studio 2015\Projects\TheLittleOnes\TheLittleOnesLibrary\obj\Debug\TheLittleOnesLibrary.csprojResolveAssemblyReference.cache
+C:\Users\PaulKSzean\Documents\Visual Studio 2015\Projects\TheLittleOnes\TheLittleOnesLibrary\obj\Debug\TheLittleOnesLibrary.dll
+C:\Users\PaulKSzean\Documents\Visual Studio 2015\Projects\TheLittleOnes\TheLittleOnesLibrary\obj\Debug\TheLittleOnesLibrary.pdb
+C:\Users\szean\Documents\Visual Studio 2015\Projects\TheLittleOnes\TheLittleOnesLibrary\bin\Debug\TheLittleOnesLibrary.dll
+C:\Users\szean\Documents\Visual Studio 2015\Projects\TheLittleOnes\TheLittleOnesLibrary\bin\Debug\TheLittleOnesLibrary.pdb
+C:\Users\szean\Documents\Visual Studio 2015\Projects\TheLittleOnes\TheLittleOnesLibrary\obj\Debug\TheLittleOnesLibrary.csprojResolveAssemblyReference.cache
+C:\Users\szean\Documents\Visual Studio 2015\Projects\TheLittleOnes\TheLittleOnesLibrary\obj\Debug\TheLittleOnesLibrary.dll
+C:\Users\szean\Documents\Visual Studio 2015\Projects\TheLittleOnes\TheLittleOnesLibrary\obj\Debug\TheLittleOnesLibrary.pdb

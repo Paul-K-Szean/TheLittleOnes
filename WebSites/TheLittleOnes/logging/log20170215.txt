@@ -1,0 +1,192 @@
+20170215@23:31:09 [System] Directory: ~/uploadedFiles/temp/dog/siberianhusky 
+20170215@23:31:09 [System] Total files posted: 5 
+20170215@23:31:09 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier100.jpg 
+20170215@23:31:09 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier101.jpg 
+20170215@23:31:09 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier102.jpg 
+20170215@23:31:09 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier000.jpg 
+20170215@23:31:09 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier001.jpg 
+20170215@23:31:09 [System] File name: SilkyTerrier100.jpg 
+20170215@23:31:09 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier100.jpg 
+20170215@23:31:09 [System] File name: SilkyTerrier101.jpg 
+20170215@23:31:09 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier101.jpg 
+20170215@23:31:09 [System] File name: SilkyTerrier102.jpg 
+20170215@23:31:09 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier102.jpg 
+20170215@23:31:09 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170215@23:31:09 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier000.jpg 
+20170215@23:31:09 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170215@23:31:09 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier001.jpg 
+20170215@23:34:47 [System] Directory: ~/uploadedFiles/temp/dog/maltese 
+20170215@23:34:47 [System] Total files posted: 7 
+20170215@23:34:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\maltese\GermanShepherd101.jpg 
+20170215@23:34:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\maltese\SilkyTerrier000.jpg 
+20170215@23:34:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\maltese\SilkyTerrier100.jpg 
+20170215@23:34:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\maltese\SilkyTerrier101.jpg 
+20170215@23:34:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\maltese\SilkyTerrier102.jpg 
+20170215@23:34:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\maltese\WestHighlandWhiteTerrier000.jpg 
+20170215@23:34:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\maltese\WestHighlandWhiteTerrier001.jpg 
+20170215@23:34:47 [System] File name: GermanShepherd101.jpg 
+20170215@23:34:47 [System] ~/uploadedFiles/temp/dog/maltese/GermanShepherd101.jpg 
+20170215@23:34:47 [System] File name: SilkyTerrier000.jpg 
+20170215@23:34:47 [System] ~/uploadedFiles/temp/dog/maltese/SilkyTerrier000.jpg 
+20170215@23:34:47 [System] File name: SilkyTerrier100.jpg 
+20170215@23:34:47 [System] ~/uploadedFiles/temp/dog/maltese/SilkyTerrier100.jpg 
+20170215@23:34:47 [System] File name: SilkyTerrier101.jpg 
+20170215@23:34:47 [System] ~/uploadedFiles/temp/dog/maltese/SilkyTerrier101.jpg 
+20170215@23:34:47 [System] File name: SilkyTerrier102.jpg 
+20170215@23:34:47 [System] ~/uploadedFiles/temp/dog/maltese/SilkyTerrier102.jpg 
+20170215@23:34:47 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170215@23:34:47 [System] ~/uploadedFiles/temp/dog/maltese/WestHighlandWhiteTerrier000.jpg 
+20170215@23:34:47 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170215@23:34:47 [System] ~/uploadedFiles/temp/dog/maltese/WestHighlandWhiteTerrier001.jpg 
+20170215@23:37:10 [System] Directory: ~/uploadedFiles/temp/dog/siberianhusky 
+20170215@23:37:10 [System] Total files posted: 8 
+20170215@23:37:10 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\GermanShepherd100.jpg 
+20170215@23:37:10 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\GermanShepherd101.jpg 
+20170215@23:37:10 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier000.jpg 
+20170215@23:37:10 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier100.jpg 
+20170215@23:37:10 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier101.jpg 
+20170215@23:37:10 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier102.jpg 
+20170215@23:37:10 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier000.jpg 
+20170215@23:37:10 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier001.jpg 
+20170215@23:37:10 [System] File name: GermanShepherd100.jpg 
+20170215@23:37:10 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd100.jpg 
+20170215@23:37:10 [System] File name: GermanShepherd101.jpg 
+20170215@23:37:10 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd101.jpg 
+20170215@23:37:10 [System] File name: SilkyTerrier000.jpg 
+20170215@23:37:10 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier000.jpg 
+20170215@23:37:10 [System] File name: SilkyTerrier100.jpg 
+20170215@23:37:10 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier100.jpg 
+20170215@23:37:10 [System] File name: SilkyTerrier101.jpg 
+20170215@23:37:10 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier101.jpg 
+20170215@23:37:10 [System] File name: SilkyTerrier102.jpg 
+20170215@23:37:10 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier102.jpg 
+20170215@23:37:10 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170215@23:37:10 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier000.jpg 
+20170215@23:37:10 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170215@23:37:10 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier001.jpg 
+20170215@23:37:47 [System] Directory: ~/uploadedFiles/temp/dog/siberianhusky 
+20170215@23:37:47 [System] Total files posted: 8 
+20170215@23:37:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\GermanShepherd100.jpg 
+20170215@23:37:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\GermanShepherd101.jpg 
+20170215@23:37:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier000.jpg 
+20170215@23:37:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier100.jpg 
+20170215@23:37:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier101.jpg 
+20170215@23:37:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier102.jpg 
+20170215@23:37:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier000.jpg 
+20170215@23:37:47 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier001.jpg 
+20170215@23:37:47 [System] File name: GermanShepherd100.jpg 
+20170215@23:37:47 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd100.jpg 
+20170215@23:37:47 [System] File name: GermanShepherd101.jpg 
+20170215@23:37:47 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd101.jpg 
+20170215@23:37:47 [System] File name: SilkyTerrier000.jpg 
+20170215@23:37:47 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier000.jpg 
+20170215@23:37:47 [System] File name: SilkyTerrier100.jpg 
+20170215@23:37:47 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier100.jpg 
+20170215@23:37:47 [System] File name: SilkyTerrier101.jpg 
+20170215@23:37:47 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier101.jpg 
+20170215@23:37:47 [System] File name: SilkyTerrier102.jpg 
+20170215@23:37:47 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier102.jpg 
+20170215@23:37:47 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170215@23:37:47 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier000.jpg 
+20170215@23:37:47 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170215@23:37:47 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier001.jpg 
+20170215@23:38:04 [System] Directory: ~/uploadedFiles/temp/dog/siberianhusky 
+20170215@23:38:04 [System] Total files posted: 8 
+20170215@23:38:04 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\GermanShepherd100.jpg 
+20170215@23:38:04 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\GermanShepherd101.jpg 
+20170215@23:38:04 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier000.jpg 
+20170215@23:38:04 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier100.jpg 
+20170215@23:38:04 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier101.jpg 
+20170215@23:38:04 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier102.jpg 
+20170215@23:38:04 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier000.jpg 
+20170215@23:38:04 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier001.jpg 
+20170215@23:38:04 [System] File name: GermanShepherd100.jpg 
+20170215@23:38:04 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd100.jpg 
+20170215@23:38:04 [System] File name: GermanShepherd101.jpg 
+20170215@23:38:04 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd101.jpg 
+20170215@23:38:04 [System] File name: SilkyTerrier000.jpg 
+20170215@23:38:04 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier000.jpg 
+20170215@23:38:04 [System] File name: SilkyTerrier100.jpg 
+20170215@23:38:04 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier100.jpg 
+20170215@23:38:04 [System] File name: SilkyTerrier101.jpg 
+20170215@23:38:04 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier101.jpg 
+20170215@23:38:04 [System] File name: SilkyTerrier102.jpg 
+20170215@23:38:04 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier102.jpg 
+20170215@23:38:04 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170215@23:38:04 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier000.jpg 
+20170215@23:38:04 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170215@23:38:04 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier001.jpg 
+20170215@23:38:21 [System] Directory: ~/uploadedFiles/temp/dog/siberianhusky 
+20170215@23:38:21 [System] Total files posted: 8 
+20170215@23:38:21 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\GermanShepherd100.jpg 
+20170215@23:38:21 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\GermanShepherd101.jpg 
+20170215@23:38:21 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier000.jpg 
+20170215@23:38:21 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier100.jpg 
+20170215@23:38:21 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier101.jpg 
+20170215@23:38:21 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier102.jpg 
+20170215@23:38:21 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier000.jpg 
+20170215@23:38:21 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier001.jpg 
+20170215@23:38:21 [System] File name: GermanShepherd100.jpg 
+20170215@23:38:21 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd100.jpg 
+20170215@23:38:21 [System] File name: GermanShepherd101.jpg 
+20170215@23:38:21 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd101.jpg 
+20170215@23:38:21 [System] File name: SilkyTerrier000.jpg 
+20170215@23:38:21 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier000.jpg 
+20170215@23:38:21 [System] File name: SilkyTerrier100.jpg 
+20170215@23:38:21 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier100.jpg 
+20170215@23:38:21 [System] File name: SilkyTerrier101.jpg 
+20170215@23:38:21 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier101.jpg 
+20170215@23:38:21 [System] File name: SilkyTerrier102.jpg 
+20170215@23:38:21 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier102.jpg 
+20170215@23:38:21 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170215@23:38:21 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier000.jpg 
+20170215@23:38:21 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170215@23:38:21 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier001.jpg 
+20170215@23:39:05 [System] Directory: ~/uploadedFiles/temp/dog/siberianhusky 
+20170215@23:39:05 [System] Total files posted: 8 
+20170215@23:39:05 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\GermanShepherd100.jpg 
+20170215@23:39:05 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\GermanShepherd101.jpg 
+20170215@23:39:05 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier000.jpg 
+20170215@23:39:05 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier100.jpg 
+20170215@23:39:05 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier101.jpg 
+20170215@23:39:05 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier102.jpg 
+20170215@23:39:05 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier000.jpg 
+20170215@23:39:05 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\WestHighlandWhiteTerrier001.jpg 
+20170215@23:39:05 [System] File name: GermanShepherd100.jpg 
+20170215@23:39:05 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd100.jpg 
+20170215@23:39:05 [System] File name: GermanShepherd101.jpg 
+20170215@23:39:05 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd101.jpg 
+20170215@23:39:05 [System] File name: SilkyTerrier000.jpg 
+20170215@23:39:05 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier000.jpg 
+20170215@23:39:05 [System] File name: SilkyTerrier100.jpg 
+20170215@23:39:05 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier100.jpg 
+20170215@23:39:05 [System] File name: SilkyTerrier101.jpg 
+20170215@23:39:05 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier101.jpg 
+20170215@23:39:05 [System] File name: SilkyTerrier102.jpg 
+20170215@23:39:05 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier102.jpg 
+20170215@23:39:05 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170215@23:39:05 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier000.jpg 
+20170215@23:39:05 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170215@23:39:05 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier001.jpg 
+20170215@23:59:54 [System] Directory: ~/uploadedFiles/temp/dog/siberianhusky 
+20170215@23:59:54 [System] Total files posted: 4 
+20170215@23:59:54 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier000.jpg 
+20170215@23:59:54 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier100.jpg 
+20170215@23:59:54 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier101.jpg 
+20170215@23:59:54 [System] Posted files saved at: C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\uploadedFiles\temp\dog\siberianhusky\SilkyTerrier102.jpg 
+20170215@23:59:54 [System] File name: GermanShepherd100.jpg 
+20170215@23:59:54 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd100.jpg 
+20170215@23:59:54 [System] File name: GermanShepherd101.jpg 
+20170215@23:59:54 [System] ~/uploadedFiles/temp/dog/siberianhusky/GermanShepherd101.jpg 
+20170215@23:59:54 [System] File name: SilkyTerrier000.jpg 
+20170215@23:59:54 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier000.jpg 
+20170215@23:59:54 [System] File name: SilkyTerrier100.jpg 
+20170215@23:59:54 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier100.jpg 
+20170215@23:59:54 [System] File name: SilkyTerrier101.jpg 
+20170215@23:59:54 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier101.jpg 
+20170215@23:59:54 [System] File name: SilkyTerrier102.jpg 
+20170215@23:59:54 [System] ~/uploadedFiles/temp/dog/siberianhusky/SilkyTerrier102.jpg 
+20170215@23:59:54 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170215@23:59:54 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier000.jpg 
+20170215@23:59:54 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170215@23:59:54 [System] ~/uploadedFiles/temp/dog/siberianhusky/WestHighlandWhiteTerrier001.jpg 

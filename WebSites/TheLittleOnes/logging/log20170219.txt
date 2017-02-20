@@ -1,0 +1,366 @@
+20170219@23:35:26 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170219@23:35:26 [System] Page loaded: http://localhost:65063/Dashboard.aspx 
+20170219@23:35:31 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:35:31 [System] Page_Load 
+20170219@23:35:31 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:35:33 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:35:33 [System] Page_Load 
+20170219@23:35:33 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:35:33 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170219@23:35:33 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:35:33 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:35:33 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:35:33 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:35:34 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:35:34 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:35:34 [System] Page_Load 
+20170219@23:35:34 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:35:34 [System] DLPetInfoDetails_EditCommand 
+20170219@23:35:34 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:35:34 [System] FileUpload1 
+20170219@23:35:34 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:35:34 [System] c: BTNPreview 
+20170219@23:35:40 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:35:40 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:35:40 [System] FileUpload1 
+20170219@23:35:40 [System] Page_Load 
+20170219@23:35:40 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:35:40 [System] BTNPreview_Click 
+20170219@23:35:40 [System] getEditedValues_Photos 
+20170219@23:35:40 [System] Dog 
+20170219@23:35:40 [System] GoldenRetriever 
+20170219@23:35:40 [System] photoPreview 
+20170219@23:35:40 [System] FileUpload1 total files: 0 
+20170219@23:35:40 [System] Check directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:35:40 [System] Check directory result: True 
+20170219@23:35:40 [System] Removing old files: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:35:40 [System] Temp directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:35:40 [System] 
+ 
+20170219@23:37:52 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:37:52 [System] No account logged in 
+20170219@23:37:52 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170219@23:37:56 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170219@23:37:57 [System] Page loaded: http://localhost:65063/Dashboard.aspx 
+20170219@23:37:59 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:37:59 [System] Page_Load 
+20170219@23:37:59 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:38:01 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:38:01 [System] Page_Load 
+20170219@23:38:01 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:38:01 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170219@23:38:01 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:38:01 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:38:02 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:38:02 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:38:03 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:38:03 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:38:03 [System] Page_Load 
+20170219@23:38:03 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:38:03 [System] DLPetInfoDetails_EditCommand 
+20170219@23:38:03 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:38:03 [System] FileUpload1 
+20170219@23:38:03 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:38:03 [System] c: BTNPreview 
+20170219@23:38:06 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:38:06 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:38:06 [System] FileUpload1 
+20170219@23:38:06 [System] Page_Load 
+20170219@23:38:06 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:38:06 [System] BTNPreview_Click 
+20170219@23:38:06 [System] getEditedValues_Photos 
+20170219@23:38:06 [System] Dog 
+20170219@23:38:06 [System] GoldenRetriever 
+20170219@23:38:06 [System] photoPreview 
+20170219@23:38:06 [System] FileUpload1 total files: 3 
+20170219@23:38:06 [System] Check directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:38:06 [System] Check directory result: True 
+20170219@23:38:06 [System] Removing old files: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:38:07 [System] Temp directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:38:07 [System] Total files posted: 3 
+20170219@23:38:07 [System] File name: SilkyTerrier102.jpg 
+20170219@23:38:07 [System] ~/uploadedFiles/temp/dog/goldenretriever/SilkyTerrier102.jpg 
+20170219@23:38:07 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170219@23:38:07 [System] ~/uploadedFiles/temp/dog/goldenretriever/WestHighlandWhiteTerrier000.jpg 
+20170219@23:38:07 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170219@23:38:07 [System] ~/uploadedFiles/temp/dog/goldenretriever/WestHighlandWhiteTerrier001.jpg 
+20170219@23:38:07 [System] 
+ 
+20170219@23:39:15 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:39:15 [System] Page_Load 
+20170219@23:39:15 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:39:18 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:39:18 [System] Page_Load 
+20170219@23:39:18 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:39:18 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170219@23:39:18 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:39:18 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:39:18 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:39:18 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:39:19 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:39:19 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:39:19 [System] Page_Load 
+20170219@23:39:19 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:39:19 [System] DLPetInfoDetails_EditCommand 
+20170219@23:39:19 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:39:20 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:39:20 [System] c: BTNPreview 
+20170219@23:39:28 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:39:28 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:39:28 [System] Page_Load 
+20170219@23:39:28 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:39:28 [System] BTNPreview_Click 
+20170219@23:39:28 [System] getEditedValues_Photos 
+20170219@23:39:49 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170219@23:39:55 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170219@23:39:55 [System] Page loaded: http://localhost:65063/Dashboard.aspx 
+20170219@23:39:59 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:39:59 [System] Page_Load 
+20170219@23:39:59 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:40:01 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:40:01 [System] Page_Load 
+20170219@23:40:01 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:40:01 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170219@23:40:01 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:40:01 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:40:01 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:40:01 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:40:02 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:40:02 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:40:02 [System] Page_Load 
+20170219@23:40:02 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:40:02 [System] DLPetInfoDetails_EditCommand 
+20170219@23:40:02 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:40:02 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:40:02 [System] c: BTNPreview 
+20170219@23:40:07 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:40:07 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:40:07 [System] Page_Load 
+20170219@23:40:07 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:40:07 [System] BTNPreview_Click 
+20170219@23:40:07 [System] getEditedValues_Photos 
+20170219@23:40:07 [System] Dog 
+20170219@23:40:07 [System] GoldenRetriever 
+20170219@23:40:07 [System] photoPreview 
+20170219@23:40:07 [System] FileUpload1 total files: 0 
+20170219@23:40:07 [System] Check directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:40:07 [System] Check directory result: True 
+20170219@23:40:07 [System] Removing old files: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:40:07 [System] Temp directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:40:07 [System] 
+ 
+20170219@23:40:51 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170219@23:40:59 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170219@23:40:59 [System] Page loaded: http://localhost:65063/Dashboard.aspx 
+20170219@23:41:06 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:41:06 [System] Page_Load 
+20170219@23:41:06 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:41:07 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:41:07 [System] Page_Load 
+20170219@23:41:07 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:41:07 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170219@23:41:07 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:41:07 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:41:07 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:41:08 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:41:08 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:41:08 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:41:08 [System] Page_Load 
+20170219@23:41:08 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:41:09 [System] DLPetInfoDetails_EditCommand 
+20170219@23:41:09 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:41:09 [System] FileUpload1 
+20170219@23:41:09 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:41:09 [System] c: BTNPreview 
+20170219@23:41:17 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:41:17 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:41:17 [System] FileUpload1 
+20170219@23:41:17 [System] Page_Load 
+20170219@23:41:17 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:41:17 [System] BTNPreview_Click 
+20170219@23:41:17 [System] getEditedValues_Photos 
+20170219@23:41:17 [System] Dog 
+20170219@23:41:17 [System] GoldenRetriever 
+20170219@23:41:17 [System] photoPreview 
+20170219@23:41:17 [System] Check directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:41:17 [System] Check directory result: True 
+20170219@23:41:17 [System] Removing old files: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:41:17 [System] Temp directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:41:17 [System] Total files posted: 3 
+20170219@23:41:45 [System] File name: GoldenRetriever000.jpg 
+20170219@23:41:47 [System] ~/uploadedFiles/temp/dog/goldenretriever/GoldenRetriever000.jpg 
+20170219@23:42:06 [System] File name: GoldenRetriever001.jpg 
+20170219@23:42:06 [System] ~/uploadedFiles/temp/dog/goldenretriever/GoldenRetriever001.jpg 
+20170219@23:42:09 [System] File name: GoldenRetriever100.jpg 
+20170219@23:42:09 [System] ~/uploadedFiles/temp/dog/goldenretriever/GoldenRetriever100.jpg 
+20170219@23:42:14 [System] 
+ 
+20170219@23:45:09 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:45:09 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:45:09 [System] FileUpload1 
+20170219@23:45:09 [System] FileUpload1 
+20170219@23:45:09 [System] Page_Load 
+20170219@23:45:09 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:45:09 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170219@23:45:09 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:45:09 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:45:11 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:45:11 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:45:11 [System] Page_Load 
+20170219@23:45:11 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:45:11 [System] DLPetInfoDetails_EditCommand 
+20170219@23:45:11 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:45:11 [System] FileUpload1 
+20170219@23:45:11 [System] FileUpload1 
+20170219@23:45:11 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:45:11 [System] c: BTNPreview 
+20170219@23:53:46 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:53:46 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:53:46 [System] FileUpload1 
+20170219@23:53:46 [System] FileUpload1 
+20170219@23:53:46 [System] Page_Load 
+20170219@23:53:46 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:53:46 [System] BTNPreview_Click 
+20170219@23:53:46 [System] getEditedValues_Photos 
+20170219@23:53:46 [System] Dog 
+20170219@23:53:46 [System] GoldenRetriever 
+20170219@23:53:58 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170219@23:54:19 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170219@23:54:19 [System] Page loaded: http://localhost:65063/Dashboard.aspx 
+20170219@23:54:38 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:54:38 [System] Page_Load 
+20170219@23:54:38 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:54:40 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:54:40 [System] Page_Load 
+20170219@23:54:40 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:54:40 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170219@23:54:40 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:54:40 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:54:40 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:54:41 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:54:41 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:54:41 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:54:41 [System] Page_Load 
+20170219@23:54:41 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:54:41 [System] DLPetInfoDetails_EditCommand 
+20170219@23:54:41 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:54:41 [System] FileUpload1 
+20170219@23:54:41 [System] FileUpload1 
+20170219@23:54:41 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:54:42 [System] c: BTNPreview 
+20170219@23:54:45 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:54:45 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:54:45 [System] FileUpload1 
+20170219@23:54:45 [System] FileUpload1 
+20170219@23:54:45 [System] Page_Load 
+20170219@23:54:46 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:54:46 [System] BTNPreview_Click 
+20170219@23:54:46 [System] getEditedValues_Photos 
+20170219@23:54:46 [System] Dog 
+20170219@23:54:46 [System] GoldenRetriever 
+20170219@23:55:36 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:55:36 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:55:36 [System] FileUpload1 
+20170219@23:55:36 [System] photoPreview 
+20170219@23:55:36 [System] Page_Load 
+20170219@23:55:36 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:55:36 [System] BTNPreview_Click 
+20170219@23:55:36 [System] getEditedValues_Photos 
+20170219@23:56:44 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:56:44 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:56:44 [System] FileUpload1 
+20170219@23:56:44 [System] photoPreview 
+20170219@23:56:44 [System] Page_Load 
+20170219@23:56:44 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:56:44 [System] BTNPreview_Click 
+20170219@23:56:44 [System] getEditedValues_Photos 
+20170219@23:56:49 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:56:49 [System] Page_Load 
+20170219@23:56:49 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:56:51 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:56:51 [System] Page_Load 
+20170219@23:56:51 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:56:51 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170219@23:56:51 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:56:51 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:56:51 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:56:51 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:56:52 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:56:52 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:56:52 [System] Page_Load 
+20170219@23:56:52 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:56:52 [System] DLPetInfoDetails_EditCommand 
+20170219@23:56:52 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:56:52 [System] FileUpload1 
+20170219@23:56:52 [System] photoPreview 
+20170219@23:56:52 [System] DLPetInfoDetails_ItemDataBound 
+20170219@23:56:52 [System] c: BTNPreview 
+20170219@23:56:58 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:56:58 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:56:58 [System] FileUpload1 
+20170219@23:56:58 [System] photoPreview 
+20170219@23:56:58 [System] Page_Load 
+20170219@23:56:58 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:56:58 [System] BTNPreview_Click 
+20170219@23:56:58 [System] getEditedValues_Photos 
+20170219@23:56:58 [System] Dog 
+20170219@23:56:58 [System] GoldenRetriever 
+20170219@23:56:58 [System] photoPreview 
+20170219@23:56:58 [System] Check directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:56:58 [System] Check directory result: True 
+20170219@23:56:58 [System] Removing old files: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:56:58 [System] Temp directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:56:58 [System] Total files posted: 4 
+20170219@23:56:58 [System] File name: SilkyTerrier100.jpg 
+20170219@23:56:58 [System] ~/uploadedFiles/temp/dog/goldenretriever/SilkyTerrier100.jpg 
+20170219@23:56:58 [System] File name: SilkyTerrier101.jpg 
+20170219@23:56:58 [System] ~/uploadedFiles/temp/dog/goldenretriever/SilkyTerrier101.jpg 
+20170219@23:56:58 [System] File name: SilkyTerrier102.jpg 
+20170219@23:56:58 [System] ~/uploadedFiles/temp/dog/goldenretriever/SilkyTerrier102.jpg 
+20170219@23:56:58 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170219@23:56:58 [System] ~/uploadedFiles/temp/dog/goldenretriever/WestHighlandWhiteTerrier000.jpg 
+20170219@23:56:58 [System] 
+ 
+20170219@23:58:13 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:58:14 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:58:14 [System] FileUpload1 
+20170219@23:58:14 [System] photoPreview 
+20170219@23:58:14 [System] Page_Load 
+20170219@23:58:14 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:58:14 [System] BTNPreview_Click 
+20170219@23:58:14 [System] getEditedValues_Photos 
+20170219@23:58:14 [System] Dog 
+20170219@23:58:14 [System] GoldenRetriever 
+20170219@23:58:14 [System] photoPreview 
+20170219@23:58:14 [System] Check directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:58:14 [System] Check directory result: True 
+20170219@23:58:14 [System] Removing old files: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:58:14 [System] Temp directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:58:14 [System] 
+ 
+20170219@23:58:26 [System] Page loaded: http://localhost:65063/AdminPetInfoOverview.aspx 
+20170219@23:58:27 [System] DLPetInfoDetails_ItemCreated 
+20170219@23:58:27 [System] FileUpload1 
+20170219@23:58:27 [System] photoPreview 
+20170219@23:58:27 [System] Page_Load 
+20170219@23:58:27 [System] ASP.adminpetinfooverview_aspx 
+20170219@23:58:27 [System] BTNPreview_Click 
+20170219@23:58:27 [System] getEditedValues_Photos 
+20170219@23:58:27 [System] Dog 
+20170219@23:58:27 [System] GoldenRetriever 
+20170219@23:58:27 [System] photoPreview 
+20170219@23:58:27 [System] Check directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:58:27 [System] Check directory result: True 
+20170219@23:58:27 [System] Removing old files: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:58:27 [System] Temp directory: ~/uploadedFiles/temp/dog/goldenretriever 
+20170219@23:58:27 [System] Total files posted: 4 
+20170219@23:58:27 [System] File name: GoldenRetriever000.jpg 
+20170219@23:58:27 [System] ~/uploadedFiles/temp/dog/goldenretriever/GoldenRetriever000.jpg 
+20170219@23:58:27 [System] File name: GoldenRetriever001.jpg 
+20170219@23:58:27 [System] ~/uploadedFiles/temp/dog/goldenretriever/GoldenRetriever001.jpg 
+20170219@23:58:27 [System] File name: GoldenRetriever100.jpg 
+20170219@23:58:27 [System] ~/uploadedFiles/temp/dog/goldenretriever/GoldenRetriever100.jpg 
+20170219@23:58:27 [System] File name: GoldenRetriever101.jpg 
+20170219@23:58:27 [System] ~/uploadedFiles/temp/dog/goldenretriever/GoldenRetriever101.jpg 
+20170219@23:58:27 [System] 
+ 

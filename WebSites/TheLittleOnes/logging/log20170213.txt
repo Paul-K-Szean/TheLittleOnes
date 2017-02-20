@@ -1,0 +1,6 @@
+20170213@02:42:09 [System] MessageHandler : Invalid email or password 
+20170213@02:43:28 [System] getRecord() : Could not find file 'C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\App_Data\TheLittleOnes.accdb'. 
+20170213@02:47:17 [System] MessageHandler : Invalid email or password 
+20170213@02:48:03 [System] MessageHandler : Invalid email or password 
+20170213@02:48:35 [System] MessageHandler : Invalid email or password 
+20170213@03:42:27 [System] MessageHandler : Invalid email or password 
