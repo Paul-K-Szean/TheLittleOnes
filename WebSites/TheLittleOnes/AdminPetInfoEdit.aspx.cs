@@ -49,7 +49,7 @@ public partial class AdminPetInfoEdit : BasePage
 
 
     private static int gvPageSize = 10; // default
-    int rowIndex;
+    
     // Page load
     protected void Page_Load(object sender, EventArgs e)
     {

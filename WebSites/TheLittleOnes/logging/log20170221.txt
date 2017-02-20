@@ -1,0 +1,1218 @@
+20170221@00:55:26 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@00:55:26 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@00:55:26 [System] loadPieChart 
+20170221@00:55:26 [System] Adaptability 
+20170221@00:55:26 [System] Friendliness 
+20170221@00:55:26 [System] Grooming 
+20170221@00:55:26 [System] Trainability 
+20170221@00:55:26 [System] Exercise 
+20170221@00:56:30 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@00:56:30 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@00:56:30 [System] loadPieChart 
+20170221@00:56:30 [System] Adaptability 
+20170221@00:56:30 [System] Friendliness 
+20170221@00:56:30 [System] Grooming 
+20170221@00:56:30 [System] Trainability 
+20170221@00:56:30 [System] Exercise 
+20170221@00:56:43 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@00:56:43 [System] No account logged in 
+20170221@00:56:43 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@00:56:47 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@00:56:47 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@00:56:50 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@00:56:50 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@00:56:50 [System] loadPieChart 
+20170221@00:56:50 [System] Adaptability 
+20170221@00:56:50 [System] Friendliness 
+20170221@00:56:50 [System] Grooming 
+20170221@00:56:50 [System] Trainability 
+20170221@00:56:50 [System] Exercise 
+20170221@00:57:24 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@00:57:24 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@00:57:24 [System] loadPieChart 
+20170221@00:57:24 [System] Adaptability 
+20170221@00:57:24 [System] Friendliness 
+20170221@00:57:24 [System] Grooming 
+20170221@00:57:24 [System] Trainability 
+20170221@00:57:24 [System] Exercise 
+20170221@00:58:40 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@00:58:40 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@00:58:40 [System] loadPieChart 
+20170221@00:58:40 [System] Adaptability 
+20170221@00:58:40 [System] Friendliness 
+20170221@00:58:40 [System] Grooming 
+20170221@00:58:40 [System] Trainability 
+20170221@00:58:40 [System] Exercise 
+20170221@01:05:12 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:05:12 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:05:12 [System] loadPieChart 
+20170221@01:05:12 [System] Adaptability 
+20170221@01:05:12 [System] Friendliness 
+20170221@01:05:12 [System] Grooming 
+20170221@01:05:12 [System] Trainability 
+20170221@01:05:12 [System] Exercise 
+20170221@01:05:20 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:05:20 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:05:20 [System] loadPieChart 
+20170221@01:05:20 [System] Adaptability 
+20170221@01:05:20 [System] Friendliness 
+20170221@01:05:20 [System] Grooming 
+20170221@01:05:20 [System] Trainability 
+20170221@01:05:20 [System] Exercise 
+20170221@01:05:26 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:05:26 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:05:26 [System] loadPieChart 
+20170221@01:05:26 [System] Adaptability 
+20170221@01:05:26 [System] Friendliness 
+20170221@01:05:26 [System] Grooming 
+20170221@01:05:26 [System] Trainability 
+20170221@01:05:26 [System] Exercise 
+20170221@01:05:43 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:05:43 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:05:43 [System] loadPieChart 
+20170221@01:05:43 [System] Adaptability 
+20170221@01:05:43 [System] Friendliness 
+20170221@01:05:43 [System] Grooming 
+20170221@01:05:43 [System] Trainability 
+20170221@01:05:43 [System] Exercise 
+20170221@01:13:05 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:13:05 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:13:05 [System] loadPieChart 
+20170221@01:13:05 [System] Adaptability 
+20170221@01:13:05 [System] Friendliness 
+20170221@01:13:05 [System] Grooming 
+20170221@01:13:05 [System] Trainability 
+20170221@01:13:05 [System] Exercise 
+20170221@01:13:21 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:13:21 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:13:21 [System] loadPieChart 
+20170221@01:13:22 [System] Adaptability 
+20170221@01:13:22 [System] Friendliness 
+20170221@01:13:22 [System] Grooming 
+20170221@01:13:22 [System] Trainability 
+20170221@01:13:22 [System] Exercise 
+20170221@01:13:31 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:13:31 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:13:31 [System] loadPieChart 
+20170221@01:13:31 [System] Adaptability 
+20170221@01:13:31 [System] Friendliness 
+20170221@01:13:31 [System] Grooming 
+20170221@01:13:31 [System] Trainability 
+20170221@01:13:31 [System] Exercise 
+20170221@01:13:44 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:13:44 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:13:44 [System] loadPieChart 
+20170221@01:13:44 [System] Adaptability 
+20170221@01:13:44 [System] Friendliness 
+20170221@01:13:44 [System] Grooming 
+20170221@01:13:44 [System] Trainability 
+20170221@01:13:44 [System] Exercise 
+20170221@01:13:52 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:13:52 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:13:52 [System] loadPieChart 
+20170221@01:13:52 [System] Adaptability 
+20170221@01:13:52 [System] Friendliness 
+20170221@01:13:52 [System] Grooming 
+20170221@01:13:52 [System] Trainability 
+20170221@01:13:52 [System] Exercise 
+20170221@01:14:02 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:14:02 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:14:02 [System] loadPieChart 
+20170221@01:14:02 [System] Adaptability 
+20170221@01:14:02 [System] Friendliness 
+20170221@01:14:02 [System] Grooming 
+20170221@01:14:02 [System] Trainability 
+20170221@01:14:02 [System] Exercise 
+20170221@01:14:12 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:14:12 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:14:12 [System] loadPieChart 
+20170221@01:14:12 [System] Adaptability 
+20170221@01:14:12 [System] Friendliness 
+20170221@01:14:12 [System] Grooming 
+20170221@01:14:12 [System] Trainability 
+20170221@01:14:12 [System] Exercise 
+20170221@01:14:22 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:14:22 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:14:22 [System] loadPieChart 
+20170221@01:14:22 [System] Adaptability 
+20170221@01:14:22 [System] Friendliness 
+20170221@01:14:22 [System] Grooming 
+20170221@01:14:22 [System] Trainability 
+20170221@01:14:22 [System] Exercise 
+20170221@01:14:31 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:14:31 [System] No account logged in 
+20170221@01:14:31 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@01:14:35 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@01:14:35 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:14:38 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:14:38 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:14:38 [System] loadPieChart 
+20170221@01:14:38 [System] Adaptability 
+20170221@01:14:38 [System] Friendliness 
+20170221@01:14:38 [System] Grooming 
+20170221@01:14:38 [System] Trainability 
+20170221@01:14:38 [System] Exercise 
+20170221@01:14:46 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:14:46 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:14:46 [System] loadPieChart 
+20170221@01:14:46 [System] Adaptability 
+20170221@01:14:46 [System] Friendliness 
+20170221@01:14:46 [System] Grooming 
+20170221@01:14:46 [System] Trainability 
+20170221@01:14:46 [System] Exercise 
+20170221@01:15:00 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:15:00 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:15:00 [System] loadPieChart 
+20170221@01:15:00 [System] Adaptability 
+20170221@01:15:00 [System] Friendliness 
+20170221@01:15:01 [System] Grooming 
+20170221@01:15:01 [System] Trainability 
+20170221@01:15:01 [System] Exercise 
+20170221@01:15:17 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:15:17 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:15:17 [System] loadPieChart 
+20170221@01:15:17 [System] Adaptability 
+20170221@01:15:17 [System] Friendliness 
+20170221@01:15:17 [System] Grooming 
+20170221@01:15:17 [System] Trainability 
+20170221@01:15:17 [System] Exercise 
+20170221@01:17:18 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:17:18 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:17:18 [System] loadPieChart 
+20170221@01:17:19 [System] Adaptability 
+20170221@01:17:19 [System] Friendliness 
+20170221@01:17:19 [System] Grooming 
+20170221@01:17:19 [System] Trainability 
+20170221@01:17:19 [System] Exercise 
+20170221@01:35:58 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:36:17 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:36:35 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:36:51 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:37:06 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:37:06 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:37:06 [System] loadPieChart 
+20170221@01:37:06 [System] Adaptability 
+20170221@01:37:06 [System] Friendliness 
+20170221@01:37:06 [System] Grooming 
+20170221@01:37:06 [System] Trainability 
+20170221@01:37:06 [System] Exercise 
+20170221@01:39:30 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:39:30 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:39:30 [System] loadPieChart 
+20170221@01:39:30 [System] Adaptability 
+20170221@01:39:30 [System] Friendliness 
+20170221@01:39:30 [System] Grooming 
+20170221@01:39:30 [System] Trainability 
+20170221@01:39:30 [System] Exercise 
+20170221@01:43:25 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:43:25 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:43:25 [System] loadPieChart 
+20170221@01:43:25 [System] Adaptability 
+20170221@01:43:25 [System] Friendliness 
+20170221@01:43:25 [System] Grooming 
+20170221@01:43:25 [System] Trainability 
+20170221@01:43:25 [System] Exercise 
+20170221@01:43:38 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:43:39 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:43:39 [System] loadPieChart 
+20170221@01:43:39 [System] Adaptability 
+20170221@01:43:39 [System] Friendliness 
+20170221@01:43:39 [System] Grooming 
+20170221@01:43:39 [System] Trainability 
+20170221@01:43:39 [System] Exercise 
+20170221@01:44:18 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:44:18 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:44:18 [System] loadPieChart 
+20170221@01:44:18 [System] Adaptability 
+20170221@01:44:18 [System] Friendliness 
+20170221@01:44:18 [System] Grooming 
+20170221@01:44:18 [System] Trainability 
+20170221@01:44:18 [System] Exercise 
+20170221@01:44:48 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:44:48 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:44:48 [System] loadPieChart 
+20170221@01:44:48 [System] Adaptability 
+20170221@01:44:48 [System] Friendliness 
+20170221@01:44:48 [System] Grooming 
+20170221@01:44:48 [System] Trainability 
+20170221@01:44:48 [System] Exercise 
+20170221@01:45:47 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:45:47 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:45:47 [System] loadPieChart 
+20170221@01:45:48 [System] Adaptability 
+20170221@01:45:48 [System] Friendliness 
+20170221@01:45:48 [System] Grooming 
+20170221@01:45:48 [System] Trainability 
+20170221@01:45:48 [System] Exercise 
+20170221@01:45:55 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:45:55 [System] No account logged in 
+20170221@01:45:55 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@01:46:04 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@01:46:04 [System] MessageHandler : Invalid email or password 
+20170221@01:46:10 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@01:46:10 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:46:13 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:46:13 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:46:13 [System] loadPieChart 
+20170221@01:46:13 [System] Adaptability 
+20170221@01:46:13 [System] Friendliness 
+20170221@01:46:13 [System] Grooming 
+20170221@01:46:13 [System] Trainability 
+20170221@01:46:13 [System] Exercise 
+20170221@01:46:20 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:46:24 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:46:24 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:46:24 [System] loadPieChart 
+20170221@01:46:24 [System] Adaptability 
+20170221@01:46:24 [System] Friendliness 
+20170221@01:46:24 [System] Grooming 
+20170221@01:46:24 [System] Trainability 
+20170221@01:46:24 [System] Exercise 
+20170221@01:47:42 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:47:42 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:47:42 [System] loadPieChart 
+20170221@01:47:42 [System] Adaptability 
+20170221@01:47:42 [System] Friendliness 
+20170221@01:47:42 [System] Grooming 
+20170221@01:47:42 [System] Trainability 
+20170221@01:47:42 [System] Exercise 
+20170221@01:47:44 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:47:44 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:47:44 [System] loadPieChart 
+20170221@01:47:44 [System] Adaptability 
+20170221@01:47:44 [System] Friendliness 
+20170221@01:47:44 [System] Grooming 
+20170221@01:47:44 [System] Trainability 
+20170221@01:47:44 [System] Exercise 
+20170221@01:47:54 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:47:54 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:47:54 [System] loadPieChart 
+20170221@01:47:54 [System] Adaptability 
+20170221@01:47:54 [System] Friendliness 
+20170221@01:47:54 [System] Grooming 
+20170221@01:47:54 [System] Trainability 
+20170221@01:47:54 [System] Exercise 
+20170221@01:47:57 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:47:57 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:47:57 [System] loadPieChart 
+20170221@01:47:57 [System] Adaptability 
+20170221@01:47:57 [System] Friendliness 
+20170221@01:47:57 [System] Grooming 
+20170221@01:47:57 [System] Trainability 
+20170221@01:47:57 [System] Exercise 
+20170221@01:47:58 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:47:58 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:47:58 [System] loadPieChart 
+20170221@01:47:58 [System] Adaptability 
+20170221@01:47:58 [System] Friendliness 
+20170221@01:47:58 [System] Grooming 
+20170221@01:47:58 [System] Trainability 
+20170221@01:47:58 [System] Exercise 
+20170221@01:47:59 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:47:59 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:47:59 [System] loadPieChart 
+20170221@01:47:59 [System] Adaptability 
+20170221@01:47:59 [System] Friendliness 
+20170221@01:47:59 [System] Grooming 
+20170221@01:47:59 [System] Trainability 
+20170221@01:47:59 [System] Exercise 
+20170221@01:48:02 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@01:48:06 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:09 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:09 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:48:09 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:09 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:09 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:09 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:11 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:11 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:11 [System] DLPetInfoDetails_EditCommand 
+20170221@01:48:12 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:12 [System] FileUpload1 
+20170221@01:48:12 [System] photoPreview 
+20170221@01:48:12 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:14 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:14 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:14 [System] FileUpload1 
+20170221@01:48:14 [System] photoPreview 
+20170221@01:48:14 [System] DDLCharAdaptToSurrounding_SelectedIndexChanged 
+20170221@01:48:14 [System] getEditedValues_Characteristics 
+20170221@01:48:14 [System] dTableOld: False 
+20170221@01:48:14 [System] DDLCharAdaptToSurrounding 5 
+20170221@01:48:14 [System] petInfoID = 48 
+20170221@01:48:14 [System] petInfoCategory = Dog 
+20170221@01:48:14 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:14 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:14 [System] petInfoHeightMin = 13.8 
+20170221@01:48:14 [System] petInfoWeightMin = 12.7 
+20170221@01:48:14 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:14 [System] petInfoHeightMax = 16.1 
+20170221@01:48:14 [System] petInfoWeightMax = 25.7 
+20170221@01:48:14 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:14 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:14 [System] petInfoDisplayStatus = Display 
+20170221@01:48:14 [System] charID = 39 
+20170221@01:48:14 [System] charOverallAdaptability = 4 
+20170221@01:48:14 [System] charOverallFriendliness = 2 
+20170221@01:48:14 [System] charOverallGrooming = 4 
+20170221@01:48:14 [System] charOverallTrainability = 2 
+20170221@01:48:14 [System] charOverallExercise = 4 
+20170221@01:48:14 [System] charAdaptToSurrounding = 5 
+20170221@01:48:14 [System] charAdaptToNovice = 5.0 
+20170221@01:48:14 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:14 [System] charAdaptToCold = 2.0 
+20170221@01:48:14 [System] charAdaptToHot = 5.0 
+20170221@01:48:14 [System] charFriendWithFamily = 4.0 
+20170221@01:48:14 [System] charFriendWithKids = 2.0 
+20170221@01:48:14 [System] charFriendWithStrangers = 1.0 
+20170221@01:48:14 [System] charFriendWithOtherPet = 1.0 
+20170221@01:48:14 [System] charGroomShedding = 4.0 
+20170221@01:48:14 [System] charGroomDrooling = 3.0 
+20170221@01:48:14 [System] charGroomLevel = 4.0 
+20170221@01:48:14 [System] charTrainLevel = 1.0 
+20170221@01:48:14 [System] charTrainIntelligence = 4.0 
+20170221@01:48:14 [System] charTrainMouthiness = 2.0 
+20170221@01:48:14 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:14 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:14 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:14 [System] charExerciseNeeds = 4.0 
+20170221@01:48:14 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:14 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:14 [System] FileUpload1 
+20170221@01:48:14 [System] photoPreview 
+20170221@01:48:14 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:16 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:16 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:16 [System] FileUpload1 
+20170221@01:48:16 [System] photoPreview 
+20170221@01:48:16 [System] DDLCharAdaptToCold_SelectedIndexChanged 
+20170221@01:48:16 [System] getEditedValues_Characteristics 
+20170221@01:48:16 [System] dTableOld: False 
+20170221@01:48:16 [System] DDLCharAdaptToCold 5 
+20170221@01:48:16 [System] petInfoID = 48 
+20170221@01:48:16 [System] petInfoCategory = Dog 
+20170221@01:48:16 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:16 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:16 [System] petInfoHeightMin = 13.8 
+20170221@01:48:16 [System] petInfoWeightMin = 12.7 
+20170221@01:48:16 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:16 [System] petInfoHeightMax = 16.1 
+20170221@01:48:16 [System] petInfoWeightMax = 25.7 
+20170221@01:48:16 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:16 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:16 [System] petInfoDisplayStatus = Display 
+20170221@01:48:16 [System] charID = 39 
+20170221@01:48:16 [System] charOverallAdaptability = 4.4 
+20170221@01:48:16 [System] charOverallFriendliness = 2 
+20170221@01:48:16 [System] charOverallGrooming = 3.67 
+20170221@01:48:16 [System] charOverallTrainability = 2.2 
+20170221@01:48:16 [System] charOverallExercise = 4 
+20170221@01:48:16 [System] charAdaptToSurrounding = 5 
+20170221@01:48:16 [System] charAdaptToNovice = 5.0 
+20170221@01:48:16 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:16 [System] charAdaptToCold = 5 
+20170221@01:48:16 [System] charAdaptToHot = 5.0 
+20170221@01:48:16 [System] charFriendWithFamily = 4.0 
+20170221@01:48:16 [System] charFriendWithKids = 2.0 
+20170221@01:48:16 [System] charFriendWithStrangers = 1.0 
+20170221@01:48:16 [System] charFriendWithOtherPet = 1.0 
+20170221@01:48:16 [System] charGroomShedding = 4.0 
+20170221@01:48:16 [System] charGroomDrooling = 3.0 
+20170221@01:48:16 [System] charGroomLevel = 4.0 
+20170221@01:48:16 [System] charTrainLevel = 1.0 
+20170221@01:48:16 [System] charTrainIntelligence = 4.0 
+20170221@01:48:16 [System] charTrainMouthiness = 2.0 
+20170221@01:48:16 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:16 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:16 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:16 [System] charExerciseNeeds = 4.0 
+20170221@01:48:16 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:16 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:16 [System] FileUpload1 
+20170221@01:48:16 [System] photoPreview 
+20170221@01:48:16 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:20 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:20 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:20 [System] FileUpload1 
+20170221@01:48:20 [System] photoPreview 
+20170221@01:48:20 [System] DDLCharFriendWithStrangers_SelectedIndexChanged 
+20170221@01:48:20 [System] getEditedValues_Characteristics 
+20170221@01:48:20 [System] dTableOld: False 
+20170221@01:48:20 [System] DDLCharFriendWithStrangers 5 
+20170221@01:48:20 [System] petInfoID = 48 
+20170221@01:48:20 [System] petInfoCategory = Dog 
+20170221@01:48:20 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:20 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:20 [System] petInfoHeightMin = 13.8 
+20170221@01:48:20 [System] petInfoWeightMin = 12.7 
+20170221@01:48:20 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:20 [System] petInfoHeightMax = 16.1 
+20170221@01:48:20 [System] petInfoWeightMax = 25.7 
+20170221@01:48:20 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:20 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:20 [System] petInfoDisplayStatus = Display 
+20170221@01:48:20 [System] charID = 39 
+20170221@01:48:20 [System] charOverallAdaptability = 5 
+20170221@01:48:20 [System] charOverallFriendliness = 2 
+20170221@01:48:20 [System] charOverallGrooming = 3.67 
+20170221@01:48:20 [System] charOverallTrainability = 2.2 
+20170221@01:48:20 [System] charOverallExercise = 4 
+20170221@01:48:20 [System] charAdaptToSurrounding = 5 
+20170221@01:48:20 [System] charAdaptToNovice = 5.0 
+20170221@01:48:20 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:20 [System] charAdaptToCold = 5 
+20170221@01:48:20 [System] charAdaptToHot = 5.0 
+20170221@01:48:20 [System] charFriendWithFamily = 4.0 
+20170221@01:48:20 [System] charFriendWithKids = 2.0 
+20170221@01:48:20 [System] charFriendWithStrangers = 5 
+20170221@01:48:20 [System] charFriendWithOtherPet = 1.0 
+20170221@01:48:20 [System] charGroomShedding = 4.0 
+20170221@01:48:20 [System] charGroomDrooling = 3.0 
+20170221@01:48:20 [System] charGroomLevel = 4.0 
+20170221@01:48:20 [System] charTrainLevel = 1.0 
+20170221@01:48:20 [System] charTrainIntelligence = 4.0 
+20170221@01:48:20 [System] charTrainMouthiness = 2.0 
+20170221@01:48:20 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:20 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:20 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:20 [System] charExerciseNeeds = 4.0 
+20170221@01:48:20 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:20 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:20 [System] FileUpload1 
+20170221@01:48:20 [System] photoPreview 
+20170221@01:48:20 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:22 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:22 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:22 [System] FileUpload1 
+20170221@01:48:22 [System] photoPreview 
+20170221@01:48:22 [System] DDLCharFriendWithKids_SelectedIndexChanged 
+20170221@01:48:22 [System] getEditedValues_Characteristics 
+20170221@01:48:22 [System] dTableOld: False 
+20170221@01:48:22 [System] DDLCharFriendWithKids 5 
+20170221@01:48:22 [System] petInfoID = 48 
+20170221@01:48:22 [System] petInfoCategory = Dog 
+20170221@01:48:22 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:22 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:22 [System] petInfoHeightMin = 13.8 
+20170221@01:48:22 [System] petInfoWeightMin = 12.7 
+20170221@01:48:22 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:22 [System] petInfoHeightMax = 16.1 
+20170221@01:48:22 [System] petInfoWeightMax = 25.7 
+20170221@01:48:22 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:22 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:22 [System] petInfoDisplayStatus = Display 
+20170221@01:48:22 [System] charID = 39 
+20170221@01:48:22 [System] charOverallAdaptability = 5 
+20170221@01:48:22 [System] charOverallFriendliness = 3 
+20170221@01:48:22 [System] charOverallGrooming = 3.67 
+20170221@01:48:22 [System] charOverallTrainability = 2.2 
+20170221@01:48:22 [System] charOverallExercise = 4 
+20170221@01:48:22 [System] charAdaptToSurrounding = 5 
+20170221@01:48:22 [System] charAdaptToNovice = 5.0 
+20170221@01:48:22 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:22 [System] charAdaptToCold = 5 
+20170221@01:48:22 [System] charAdaptToHot = 5.0 
+20170221@01:48:22 [System] charFriendWithFamily = 4.0 
+20170221@01:48:22 [System] charFriendWithKids = 5 
+20170221@01:48:22 [System] charFriendWithStrangers = 5 
+20170221@01:48:22 [System] charFriendWithOtherPet = 1.0 
+20170221@01:48:22 [System] charGroomShedding = 4.0 
+20170221@01:48:22 [System] charGroomDrooling = 3.0 
+20170221@01:48:22 [System] charGroomLevel = 4.0 
+20170221@01:48:22 [System] charTrainLevel = 1.0 
+20170221@01:48:22 [System] charTrainIntelligence = 4.0 
+20170221@01:48:22 [System] charTrainMouthiness = 2.0 
+20170221@01:48:22 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:22 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:22 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:22 [System] charExerciseNeeds = 4.0 
+20170221@01:48:22 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:22 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:22 [System] FileUpload1 
+20170221@01:48:22 [System] photoPreview 
+20170221@01:48:22 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:24 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:24 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:24 [System] FileUpload1 
+20170221@01:48:24 [System] photoPreview 
+20170221@01:48:24 [System] DDLCharFriendWithFamily_SelectedIndexChanged 
+20170221@01:48:24 [System] getEditedValues_Characteristics 
+20170221@01:48:24 [System] dTableOld: False 
+20170221@01:48:24 [System] DDLCharFriendWithFamily 5 
+20170221@01:48:24 [System] petInfoID = 48 
+20170221@01:48:24 [System] petInfoCategory = Dog 
+20170221@01:48:24 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:24 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:24 [System] petInfoHeightMin = 13.8 
+20170221@01:48:24 [System] petInfoWeightMin = 12.7 
+20170221@01:48:24 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:24 [System] petInfoHeightMax = 16.1 
+20170221@01:48:24 [System] petInfoWeightMax = 25.7 
+20170221@01:48:24 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:24 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:24 [System] petInfoDisplayStatus = Display 
+20170221@01:48:24 [System] charID = 39 
+20170221@01:48:24 [System] charOverallAdaptability = 5 
+20170221@01:48:24 [System] charOverallFriendliness = 3.75 
+20170221@01:48:24 [System] charOverallGrooming = 3.67 
+20170221@01:48:24 [System] charOverallTrainability = 2.2 
+20170221@01:48:24 [System] charOverallExercise = 4 
+20170221@01:48:24 [System] charAdaptToSurrounding = 5 
+20170221@01:48:24 [System] charAdaptToNovice = 5.0 
+20170221@01:48:24 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:24 [System] charAdaptToCold = 5 
+20170221@01:48:24 [System] charAdaptToHot = 5.0 
+20170221@01:48:24 [System] charFriendWithFamily = 5 
+20170221@01:48:24 [System] charFriendWithKids = 5 
+20170221@01:48:24 [System] charFriendWithStrangers = 5 
+20170221@01:48:24 [System] charFriendWithOtherPet = 1.0 
+20170221@01:48:24 [System] charGroomShedding = 4.0 
+20170221@01:48:24 [System] charGroomDrooling = 3.0 
+20170221@01:48:24 [System] charGroomLevel = 4.0 
+20170221@01:48:24 [System] charTrainLevel = 1.0 
+20170221@01:48:24 [System] charTrainIntelligence = 4.0 
+20170221@01:48:24 [System] charTrainMouthiness = 2.0 
+20170221@01:48:24 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:24 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:24 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:24 [System] charExerciseNeeds = 4.0 
+20170221@01:48:24 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:24 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:24 [System] FileUpload1 
+20170221@01:48:24 [System] photoPreview 
+20170221@01:48:24 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:26 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:26 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:26 [System] FileUpload1 
+20170221@01:48:26 [System] photoPreview 
+20170221@01:48:26 [System] DDLCharFriendWithOtherPet_SelectedIndexChanged 
+20170221@01:48:26 [System] getEditedValues_Characteristics 
+20170221@01:48:26 [System] dTableOld: False 
+20170221@01:48:26 [System] DDLCharFriendWithOtherPet 5 
+20170221@01:48:26 [System] petInfoID = 48 
+20170221@01:48:26 [System] petInfoCategory = Dog 
+20170221@01:48:26 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:26 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:26 [System] petInfoHeightMin = 13.8 
+20170221@01:48:26 [System] petInfoWeightMin = 12.7 
+20170221@01:48:26 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:26 [System] petInfoHeightMax = 16.1 
+20170221@01:48:26 [System] petInfoWeightMax = 25.7 
+20170221@01:48:26 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:26 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:26 [System] petInfoDisplayStatus = Display 
+20170221@01:48:26 [System] charID = 39 
+20170221@01:48:26 [System] charOverallAdaptability = 5 
+20170221@01:48:26 [System] charOverallFriendliness = 4 
+20170221@01:48:26 [System] charOverallGrooming = 3.67 
+20170221@01:48:26 [System] charOverallTrainability = 2.2 
+20170221@01:48:26 [System] charOverallExercise = 4 
+20170221@01:48:26 [System] charAdaptToSurrounding = 5 
+20170221@01:48:26 [System] charAdaptToNovice = 5.0 
+20170221@01:48:26 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:26 [System] charAdaptToCold = 5 
+20170221@01:48:26 [System] charAdaptToHot = 5.0 
+20170221@01:48:26 [System] charFriendWithFamily = 5 
+20170221@01:48:26 [System] charFriendWithKids = 5 
+20170221@01:48:26 [System] charFriendWithStrangers = 5 
+20170221@01:48:26 [System] charFriendWithOtherPet = 5 
+20170221@01:48:26 [System] charGroomShedding = 4.0 
+20170221@01:48:26 [System] charGroomDrooling = 3.0 
+20170221@01:48:26 [System] charGroomLevel = 4.0 
+20170221@01:48:26 [System] charTrainLevel = 1.0 
+20170221@01:48:26 [System] charTrainIntelligence = 4.0 
+20170221@01:48:26 [System] charTrainMouthiness = 2.0 
+20170221@01:48:26 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:26 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:26 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:26 [System] charExerciseNeeds = 4.0 
+20170221@01:48:26 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:26 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:26 [System] FileUpload1 
+20170221@01:48:26 [System] photoPreview 
+20170221@01:48:26 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:28 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:28 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:28 [System] FileUpload1 
+20170221@01:48:28 [System] photoPreview 
+20170221@01:48:28 [System] DDLCharGroomDrooling_SelectedIndexChanged 
+20170221@01:48:28 [System] getEditedValues_Characteristics 
+20170221@01:48:28 [System] dTableOld: False 
+20170221@01:48:28 [System] DDLCharGroomDrooling 5 
+20170221@01:48:28 [System] petInfoID = 48 
+20170221@01:48:28 [System] petInfoCategory = Dog 
+20170221@01:48:28 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:28 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:28 [System] petInfoHeightMin = 13.8 
+20170221@01:48:28 [System] petInfoWeightMin = 12.7 
+20170221@01:48:28 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:28 [System] petInfoHeightMax = 16.1 
+20170221@01:48:28 [System] petInfoWeightMax = 25.7 
+20170221@01:48:28 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:28 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:28 [System] petInfoDisplayStatus = Display 
+20170221@01:48:28 [System] charID = 39 
+20170221@01:48:28 [System] charOverallAdaptability = 5 
+20170221@01:48:28 [System] charOverallFriendliness = 5 
+20170221@01:48:28 [System] charOverallGrooming = 3.67 
+20170221@01:48:28 [System] charOverallTrainability = 2.2 
+20170221@01:48:28 [System] charOverallExercise = 4 
+20170221@01:48:28 [System] charAdaptToSurrounding = 5 
+20170221@01:48:28 [System] charAdaptToNovice = 5.0 
+20170221@01:48:28 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:28 [System] charAdaptToCold = 5 
+20170221@01:48:28 [System] charAdaptToHot = 5.0 
+20170221@01:48:28 [System] charFriendWithFamily = 5 
+20170221@01:48:28 [System] charFriendWithKids = 5 
+20170221@01:48:28 [System] charFriendWithStrangers = 5 
+20170221@01:48:28 [System] charFriendWithOtherPet = 5 
+20170221@01:48:28 [System] charGroomShedding = 4.0 
+20170221@01:48:28 [System] charGroomDrooling = 5 
+20170221@01:48:28 [System] charGroomLevel = 4.0 
+20170221@01:48:28 [System] charTrainLevel = 1.0 
+20170221@01:48:28 [System] charTrainIntelligence = 4.0 
+20170221@01:48:28 [System] charTrainMouthiness = 2.0 
+20170221@01:48:28 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:28 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:28 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:28 [System] charExerciseNeeds = 4.0 
+20170221@01:48:28 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:28 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:28 [System] FileUpload1 
+20170221@01:48:28 [System] photoPreview 
+20170221@01:48:28 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:30 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:30 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:30 [System] FileUpload1 
+20170221@01:48:30 [System] photoPreview 
+20170221@01:48:30 [System] DDLCharGroomShedding_SelectedIndexChanged 
+20170221@01:48:30 [System] getEditedValues_Characteristics 
+20170221@01:48:30 [System] dTableOld: False 
+20170221@01:48:30 [System] DDLCharGroomShedding 5 
+20170221@01:48:30 [System] petInfoID = 48 
+20170221@01:48:30 [System] petInfoCategory = Dog 
+20170221@01:48:30 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:30 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:30 [System] petInfoHeightMin = 13.8 
+20170221@01:48:30 [System] petInfoWeightMin = 12.7 
+20170221@01:48:30 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:30 [System] petInfoHeightMax = 16.1 
+20170221@01:48:30 [System] petInfoWeightMax = 25.7 
+20170221@01:48:30 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:30 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:30 [System] petInfoDisplayStatus = Display 
+20170221@01:48:30 [System] charID = 39 
+20170221@01:48:30 [System] charOverallAdaptability = 5 
+20170221@01:48:30 [System] charOverallFriendliness = 5 
+20170221@01:48:30 [System] charOverallGrooming = 4.33 
+20170221@01:48:30 [System] charOverallTrainability = 2.2 
+20170221@01:48:30 [System] charOverallExercise = 4 
+20170221@01:48:30 [System] charAdaptToSurrounding = 5 
+20170221@01:48:30 [System] charAdaptToNovice = 5.0 
+20170221@01:48:30 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:30 [System] charAdaptToCold = 5 
+20170221@01:48:30 [System] charAdaptToHot = 5.0 
+20170221@01:48:30 [System] charFriendWithFamily = 5 
+20170221@01:48:30 [System] charFriendWithKids = 5 
+20170221@01:48:30 [System] charFriendWithStrangers = 5 
+20170221@01:48:30 [System] charFriendWithOtherPet = 5 
+20170221@01:48:30 [System] charGroomShedding = 5 
+20170221@01:48:30 [System] charGroomDrooling = 5 
+20170221@01:48:30 [System] charGroomLevel = 4.0 
+20170221@01:48:30 [System] charTrainLevel = 1.0 
+20170221@01:48:30 [System] charTrainIntelligence = 4.0 
+20170221@01:48:30 [System] charTrainMouthiness = 2.0 
+20170221@01:48:30 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:30 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:30 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:30 [System] charExerciseNeeds = 4.0 
+20170221@01:48:30 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:30 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:30 [System] FileUpload1 
+20170221@01:48:30 [System] photoPreview 
+20170221@01:48:30 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:32 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:32 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:32 [System] FileUpload1 
+20170221@01:48:32 [System] photoPreview 
+20170221@01:48:32 [System] DDLCharGroomLevel_SelectedIndexChanged 
+20170221@01:48:32 [System] getEditedValues_Characteristics 
+20170221@01:48:32 [System] dTableOld: False 
+20170221@01:48:32 [System] DDLCharGroomLevel 5 
+20170221@01:48:32 [System] petInfoID = 48 
+20170221@01:48:32 [System] petInfoCategory = Dog 
+20170221@01:48:32 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:32 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:32 [System] petInfoHeightMin = 13.8 
+20170221@01:48:32 [System] petInfoWeightMin = 12.7 
+20170221@01:48:32 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:32 [System] petInfoHeightMax = 16.1 
+20170221@01:48:32 [System] petInfoWeightMax = 25.7 
+20170221@01:48:32 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:32 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:32 [System] petInfoDisplayStatus = Display 
+20170221@01:48:32 [System] charID = 39 
+20170221@01:48:32 [System] charOverallAdaptability = 5 
+20170221@01:48:32 [System] charOverallFriendliness = 5 
+20170221@01:48:32 [System] charOverallGrooming = 4.67 
+20170221@01:48:32 [System] charOverallTrainability = 2.2 
+20170221@01:48:32 [System] charOverallExercise = 4 
+20170221@01:48:32 [System] charAdaptToSurrounding = 5 
+20170221@01:48:32 [System] charAdaptToNovice = 5.0 
+20170221@01:48:32 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:32 [System] charAdaptToCold = 5 
+20170221@01:48:32 [System] charAdaptToHot = 5.0 
+20170221@01:48:32 [System] charFriendWithFamily = 5 
+20170221@01:48:32 [System] charFriendWithKids = 5 
+20170221@01:48:32 [System] charFriendWithStrangers = 5 
+20170221@01:48:32 [System] charFriendWithOtherPet = 5 
+20170221@01:48:32 [System] charGroomShedding = 5 
+20170221@01:48:32 [System] charGroomDrooling = 5 
+20170221@01:48:32 [System] charGroomLevel = 5 
+20170221@01:48:32 [System] charTrainLevel = 1.0 
+20170221@01:48:32 [System] charTrainIntelligence = 4.0 
+20170221@01:48:32 [System] charTrainMouthiness = 2.0 
+20170221@01:48:32 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:32 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:32 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:32 [System] charExerciseNeeds = 4.0 
+20170221@01:48:32 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:32 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:32 [System] FileUpload1 
+20170221@01:48:32 [System] photoPreview 
+20170221@01:48:32 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:43 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:43 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:43 [System] FileUpload1 
+20170221@01:48:43 [System] photoPreview 
+20170221@01:48:43 [System] DDLCharTrainLevel_SelectedIndexChanged 
+20170221@01:48:43 [System] getEditedValues_Characteristics 
+20170221@01:48:43 [System] dTableOld: False 
+20170221@01:48:43 [System] DDLCharTrainLevel 5 
+20170221@01:48:43 [System] petInfoID = 48 
+20170221@01:48:43 [System] petInfoCategory = Dog 
+20170221@01:48:43 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:43 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:43 [System] petInfoHeightMin = 13.8 
+20170221@01:48:43 [System] petInfoWeightMin = 12.7 
+20170221@01:48:43 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:43 [System] petInfoHeightMax = 16.1 
+20170221@01:48:43 [System] petInfoWeightMax = 25.7 
+20170221@01:48:43 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:43 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:43 [System] petInfoDisplayStatus = Display 
+20170221@01:48:43 [System] charID = 39 
+20170221@01:48:43 [System] charOverallAdaptability = 5 
+20170221@01:48:43 [System] charOverallFriendliness = 5 
+20170221@01:48:43 [System] charOverallGrooming = 5 
+20170221@01:48:43 [System] charOverallTrainability = 2.2 
+20170221@01:48:43 [System] charOverallExercise = 4 
+20170221@01:48:43 [System] charAdaptToSurrounding = 5 
+20170221@01:48:43 [System] charAdaptToNovice = 5.0 
+20170221@01:48:43 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:43 [System] charAdaptToCold = 5 
+20170221@01:48:43 [System] charAdaptToHot = 5.0 
+20170221@01:48:43 [System] charFriendWithFamily = 5 
+20170221@01:48:43 [System] charFriendWithKids = 5 
+20170221@01:48:43 [System] charFriendWithStrangers = 5 
+20170221@01:48:43 [System] charFriendWithOtherPet = 5 
+20170221@01:48:43 [System] charGroomShedding = 5 
+20170221@01:48:43 [System] charGroomDrooling = 5 
+20170221@01:48:43 [System] charGroomLevel = 5 
+20170221@01:48:43 [System] charTrainLevel = 5 
+20170221@01:48:43 [System] charTrainIntelligence = 4.0 
+20170221@01:48:43 [System] charTrainMouthiness = 2.0 
+20170221@01:48:43 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:43 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:43 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:43 [System] charExerciseNeeds = 4.0 
+20170221@01:48:43 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:43 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:43 [System] FileUpload1 
+20170221@01:48:43 [System] photoPreview 
+20170221@01:48:43 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:45 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:45 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:45 [System] FileUpload1 
+20170221@01:48:45 [System] photoPreview 
+20170221@01:48:45 [System] DDLCharTrainIntelligence_SelectedIndexChanged 
+20170221@01:48:45 [System] getEditedValues_Characteristics 
+20170221@01:48:45 [System] dTableOld: False 
+20170221@01:48:45 [System] DDLCharTrainIntelligence 5 
+20170221@01:48:45 [System] petInfoID = 48 
+20170221@01:48:45 [System] petInfoCategory = Dog 
+20170221@01:48:45 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:45 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:45 [System] petInfoHeightMin = 13.8 
+20170221@01:48:45 [System] petInfoWeightMin = 12.7 
+20170221@01:48:45 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:45 [System] petInfoHeightMax = 16.1 
+20170221@01:48:45 [System] petInfoWeightMax = 25.7 
+20170221@01:48:45 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:45 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:45 [System] petInfoDisplayStatus = Display 
+20170221@01:48:45 [System] charID = 39 
+20170221@01:48:45 [System] charOverallAdaptability = 5 
+20170221@01:48:45 [System] charOverallFriendliness = 5 
+20170221@01:48:45 [System] charOverallGrooming = 5 
+20170221@01:48:45 [System] charOverallTrainability = 3 
+20170221@01:48:45 [System] charOverallExercise = 4 
+20170221@01:48:45 [System] charAdaptToSurrounding = 5 
+20170221@01:48:45 [System] charAdaptToNovice = 5.0 
+20170221@01:48:45 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:45 [System] charAdaptToCold = 5 
+20170221@01:48:45 [System] charAdaptToHot = 5.0 
+20170221@01:48:45 [System] charFriendWithFamily = 5 
+20170221@01:48:45 [System] charFriendWithKids = 5 
+20170221@01:48:45 [System] charFriendWithStrangers = 5 
+20170221@01:48:45 [System] charFriendWithOtherPet = 5 
+20170221@01:48:45 [System] charGroomShedding = 5 
+20170221@01:48:45 [System] charGroomDrooling = 5 
+20170221@01:48:45 [System] charGroomLevel = 5 
+20170221@01:48:45 [System] charTrainLevel = 5 
+20170221@01:48:45 [System] charTrainIntelligence = 5 
+20170221@01:48:45 [System] charTrainMouthiness = 2.0 
+20170221@01:48:45 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:45 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:45 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:45 [System] charExerciseNeeds = 4.0 
+20170221@01:48:45 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:45 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:45 [System] FileUpload1 
+20170221@01:48:45 [System] photoPreview 
+20170221@01:48:45 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:47 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:47 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:47 [System] FileUpload1 
+20170221@01:48:47 [System] photoPreview 
+20170221@01:48:47 [System] DDLCharTrainMouthiness_SelectedIndexChanged 
+20170221@01:48:47 [System] getEditedValues_Characteristics 
+20170221@01:48:47 [System] dTableOld: False 
+20170221@01:48:47 [System] DDLCharTrainMouthiness 5 
+20170221@01:48:47 [System] petInfoID = 48 
+20170221@01:48:47 [System] petInfoCategory = Dog 
+20170221@01:48:47 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:47 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:47 [System] petInfoHeightMin = 13.8 
+20170221@01:48:47 [System] petInfoWeightMin = 12.7 
+20170221@01:48:47 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:47 [System] petInfoHeightMax = 16.1 
+20170221@01:48:47 [System] petInfoWeightMax = 25.7 
+20170221@01:48:47 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:47 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:47 [System] petInfoDisplayStatus = Display 
+20170221@01:48:47 [System] charID = 39 
+20170221@01:48:47 [System] charOverallAdaptability = 5 
+20170221@01:48:47 [System] charOverallFriendliness = 5 
+20170221@01:48:47 [System] charOverallGrooming = 5 
+20170221@01:48:47 [System] charOverallTrainability = 3.2 
+20170221@01:48:47 [System] charOverallExercise = 4 
+20170221@01:48:47 [System] charAdaptToSurrounding = 5 
+20170221@01:48:47 [System] charAdaptToNovice = 5.0 
+20170221@01:48:47 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:47 [System] charAdaptToCold = 5 
+20170221@01:48:47 [System] charAdaptToHot = 5.0 
+20170221@01:48:47 [System] charFriendWithFamily = 5 
+20170221@01:48:47 [System] charFriendWithKids = 5 
+20170221@01:48:47 [System] charFriendWithStrangers = 5 
+20170221@01:48:47 [System] charFriendWithOtherPet = 5 
+20170221@01:48:47 [System] charGroomShedding = 5 
+20170221@01:48:47 [System] charGroomDrooling = 5 
+20170221@01:48:47 [System] charGroomLevel = 5 
+20170221@01:48:47 [System] charTrainLevel = 5 
+20170221@01:48:47 [System] charTrainIntelligence = 5 
+20170221@01:48:47 [System] charTrainMouthiness = 5 
+20170221@01:48:47 [System] charTrainPreyDrive = 3.0 
+20170221@01:48:47 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:47 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:47 [System] charExerciseNeeds = 4.0 
+20170221@01:48:47 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:47 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:47 [System] FileUpload1 
+20170221@01:48:47 [System] photoPreview 
+20170221@01:48:47 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:48 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:48 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:48 [System] FileUpload1 
+20170221@01:48:48 [System] photoPreview 
+20170221@01:48:48 [System] DDLCharTrainPreyDrive_SelectedIndexChanged 
+20170221@01:48:48 [System] getEditedValues_Characteristics 
+20170221@01:48:49 [System] dTableOld: False 
+20170221@01:48:49 [System] DDLCharTrainPreyDrive 5 
+20170221@01:48:49 [System] petInfoID = 48 
+20170221@01:48:49 [System] petInfoCategory = Dog 
+20170221@01:48:49 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:49 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:49 [System] petInfoHeightMin = 13.8 
+20170221@01:48:49 [System] petInfoWeightMin = 12.7 
+20170221@01:48:49 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:49 [System] petInfoHeightMax = 16.1 
+20170221@01:48:49 [System] petInfoWeightMax = 25.7 
+20170221@01:48:49 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:49 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:49 [System] petInfoDisplayStatus = Display 
+20170221@01:48:49 [System] charID = 39 
+20170221@01:48:49 [System] charOverallAdaptability = 5 
+20170221@01:48:49 [System] charOverallFriendliness = 5 
+20170221@01:48:49 [System] charOverallGrooming = 5 
+20170221@01:48:49 [System] charOverallTrainability = 3.8 
+20170221@01:48:49 [System] charOverallExercise = 4 
+20170221@01:48:49 [System] charAdaptToSurrounding = 5 
+20170221@01:48:49 [System] charAdaptToNovice = 5.0 
+20170221@01:48:49 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:49 [System] charAdaptToCold = 5 
+20170221@01:48:49 [System] charAdaptToHot = 5.0 
+20170221@01:48:49 [System] charFriendWithFamily = 5 
+20170221@01:48:49 [System] charFriendWithKids = 5 
+20170221@01:48:49 [System] charFriendWithStrangers = 5 
+20170221@01:48:49 [System] charFriendWithOtherPet = 5 
+20170221@01:48:49 [System] charGroomShedding = 5 
+20170221@01:48:49 [System] charGroomDrooling = 5 
+20170221@01:48:49 [System] charGroomLevel = 5 
+20170221@01:48:49 [System] charTrainLevel = 5 
+20170221@01:48:49 [System] charTrainIntelligence = 5 
+20170221@01:48:49 [System] charTrainMouthiness = 5 
+20170221@01:48:49 [System] charTrainPreyDrive = 5 
+20170221@01:48:49 [System] charTrainBarkHowl = 1.0 
+20170221@01:48:49 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:49 [System] charExerciseNeeds = 4.0 
+20170221@01:48:49 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:49 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:49 [System] FileUpload1 
+20170221@01:48:49 [System] photoPreview 
+20170221@01:48:49 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:50 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:50 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:50 [System] FileUpload1 
+20170221@01:48:50 [System] photoPreview 
+20170221@01:48:50 [System] DDLCharTrainBarkHowl_SelectedIndexChanged 
+20170221@01:48:50 [System] getEditedValues_Characteristics 
+20170221@01:48:50 [System] dTableOld: False 
+20170221@01:48:50 [System] DDLCharTrainBarkHowl 5 
+20170221@01:48:50 [System] petInfoID = 48 
+20170221@01:48:50 [System] petInfoCategory = Dog 
+20170221@01:48:50 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:50 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:50 [System] petInfoHeightMin = 13.8 
+20170221@01:48:50 [System] petInfoWeightMin = 12.7 
+20170221@01:48:50 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:50 [System] petInfoHeightMax = 16.1 
+20170221@01:48:50 [System] petInfoWeightMax = 25.7 
+20170221@01:48:50 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:50 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:50 [System] petInfoDisplayStatus = Display 
+20170221@01:48:50 [System] charID = 39 
+20170221@01:48:50 [System] charOverallAdaptability = 5 
+20170221@01:48:50 [System] charOverallFriendliness = 5 
+20170221@01:48:50 [System] charOverallGrooming = 5 
+20170221@01:48:50 [System] charOverallTrainability = 4.2 
+20170221@01:48:50 [System] charOverallExercise = 4 
+20170221@01:48:50 [System] charAdaptToSurrounding = 5 
+20170221@01:48:50 [System] charAdaptToNovice = 5.0 
+20170221@01:48:50 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:50 [System] charAdaptToCold = 5 
+20170221@01:48:50 [System] charAdaptToHot = 5.0 
+20170221@01:48:50 [System] charFriendWithFamily = 5 
+20170221@01:48:50 [System] charFriendWithKids = 5 
+20170221@01:48:50 [System] charFriendWithStrangers = 5 
+20170221@01:48:50 [System] charFriendWithOtherPet = 5 
+20170221@01:48:50 [System] charGroomShedding = 5 
+20170221@01:48:50 [System] charGroomDrooling = 5 
+20170221@01:48:50 [System] charGroomLevel = 5 
+20170221@01:48:50 [System] charTrainLevel = 5 
+20170221@01:48:50 [System] charTrainIntelligence = 5 
+20170221@01:48:50 [System] charTrainMouthiness = 5 
+20170221@01:48:50 [System] charTrainPreyDrive = 5 
+20170221@01:48:50 [System] charTrainBarkHowl = 5 
+20170221@01:48:50 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:50 [System] charExerciseNeeds = 4.0 
+20170221@01:48:50 [System] charExercisePlayfullness = 3.0 
+20170221@01:48:50 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:50 [System] FileUpload1 
+20170221@01:48:50 [System] photoPreview 
+20170221@01:48:50 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:52 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:52 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:52 [System] FileUpload1 
+20170221@01:48:52 [System] photoPreview 
+20170221@01:48:52 [System] DDLCharExercisePlayfullness_SelectedIndexChanged 
+20170221@01:48:52 [System] getEditedValues_Characteristics 
+20170221@01:48:52 [System] dTableOld: False 
+20170221@01:48:52 [System] DDLCharExercisePlayfullness 5 
+20170221@01:48:52 [System] petInfoID = 48 
+20170221@01:48:52 [System] petInfoCategory = Dog 
+20170221@01:48:52 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:52 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:52 [System] petInfoHeightMin = 13.8 
+20170221@01:48:52 [System] petInfoWeightMin = 12.7 
+20170221@01:48:52 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:52 [System] petInfoHeightMax = 16.1 
+20170221@01:48:52 [System] petInfoWeightMax = 25.7 
+20170221@01:48:52 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:52 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:52 [System] petInfoDisplayStatus = Display 
+20170221@01:48:52 [System] charID = 39 
+20170221@01:48:52 [System] charOverallAdaptability = 5 
+20170221@01:48:52 [System] charOverallFriendliness = 5 
+20170221@01:48:52 [System] charOverallGrooming = 5 
+20170221@01:48:52 [System] charOverallTrainability = 5 
+20170221@01:48:52 [System] charOverallExercise = 4 
+20170221@01:48:52 [System] charAdaptToSurrounding = 5 
+20170221@01:48:52 [System] charAdaptToNovice = 5.0 
+20170221@01:48:52 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:52 [System] charAdaptToCold = 5 
+20170221@01:48:52 [System] charAdaptToHot = 5.0 
+20170221@01:48:52 [System] charFriendWithFamily = 5 
+20170221@01:48:52 [System] charFriendWithKids = 5 
+20170221@01:48:52 [System] charFriendWithStrangers = 5 
+20170221@01:48:52 [System] charFriendWithOtherPet = 5 
+20170221@01:48:52 [System] charGroomShedding = 5 
+20170221@01:48:52 [System] charGroomDrooling = 5 
+20170221@01:48:52 [System] charGroomLevel = 5 
+20170221@01:48:52 [System] charTrainLevel = 5 
+20170221@01:48:52 [System] charTrainIntelligence = 5 
+20170221@01:48:52 [System] charTrainMouthiness = 5 
+20170221@01:48:52 [System] charTrainPreyDrive = 5 
+20170221@01:48:52 [System] charTrainBarkHowl = 5 
+20170221@01:48:52 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:52 [System] charExerciseNeeds = 4.0 
+20170221@01:48:52 [System] charExercisePlayfullness = 5 
+20170221@01:48:52 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:52 [System] FileUpload1 
+20170221@01:48:52 [System] photoPreview 
+20170221@01:48:52 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:53 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:53 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:53 [System] FileUpload1 
+20170221@01:48:53 [System] photoPreview 
+20170221@01:48:53 [System] DDLCharExerciseNeeds_SelectedIndexChanged 
+20170221@01:48:53 [System] getEditedValues_Characteristics 
+20170221@01:48:53 [System] dTableOld: False 
+20170221@01:48:53 [System] DDLCharExerciseNeeds 5 
+20170221@01:48:53 [System] petInfoID = 48 
+20170221@01:48:53 [System] petInfoCategory = Dog 
+20170221@01:48:53 [System] petInfoBreed = SilkyTerrier 
+20170221@01:48:53 [System] petInfoLifeSpanMin = 11.0 
+20170221@01:48:53 [System] petInfoHeightMin = 13.8 
+20170221@01:48:53 [System] petInfoWeightMin = 12.7 
+20170221@01:48:53 [System] petInfoLifeSpanMax = 14.0 
+20170221@01:48:53 [System] petInfoHeightMax = 16.1 
+20170221@01:48:53 [System] petInfoWeightMax = 25.7 
+20170221@01:48:53 [System] petInfoDesc = Little did you know about SilkyTerrier! The number of things to talk about them are too many. Just put them all here! 
+20170221@01:48:53 [System] petInfoPersonality = You and SilkyTerrier may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170221@01:48:53 [System] petInfoDisplayStatus = Display 
+20170221@01:48:53 [System] charID = 39 
+20170221@01:48:53 [System] charOverallAdaptability = 5 
+20170221@01:48:53 [System] charOverallFriendliness = 5 
+20170221@01:48:53 [System] charOverallGrooming = 5 
+20170221@01:48:53 [System] charOverallTrainability = 5 
+20170221@01:48:53 [System] charOverallExercise = 4.67 
+20170221@01:48:53 [System] charAdaptToSurrounding = 5 
+20170221@01:48:53 [System] charAdaptToNovice = 5.0 
+20170221@01:48:53 [System] charAdaptToLoneliness = 5.0 
+20170221@01:48:53 [System] charAdaptToCold = 5 
+20170221@01:48:53 [System] charAdaptToHot = 5.0 
+20170221@01:48:53 [System] charFriendWithFamily = 5 
+20170221@01:48:53 [System] charFriendWithKids = 5 
+20170221@01:48:53 [System] charFriendWithStrangers = 5 
+20170221@01:48:53 [System] charFriendWithOtherPet = 5 
+20170221@01:48:53 [System] charGroomShedding = 5 
+20170221@01:48:53 [System] charGroomDrooling = 5 
+20170221@01:48:53 [System] charGroomLevel = 5 
+20170221@01:48:53 [System] charTrainLevel = 5 
+20170221@01:48:53 [System] charTrainIntelligence = 5 
+20170221@01:48:53 [System] charTrainMouthiness = 5 
+20170221@01:48:53 [System] charTrainPreyDrive = 5 
+20170221@01:48:53 [System] charTrainBarkHowl = 5 
+20170221@01:48:53 [System] charExerciseEnergyLevel = 5.0 
+20170221@01:48:53 [System] charExerciseNeeds = 5 
+20170221@01:48:53 [System] charExercisePlayfullness = 5 
+20170221@01:48:53 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:53 [System] FileUpload1 
+20170221@01:48:54 [System] photoPreview 
+20170221@01:48:54 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:48:58 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:48:58 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:48:58 [System] FileUpload1 
+20170221@01:48:58 [System] photoPreview 
+20170221@01:48:58 [System] DLPetInfoDetails_UpdateCommand 
+20170221@01:48:58 [System] updatePetInfo 
+20170221@01:48:58 [System] Record updated! 
+20170221@01:48:58 [System] updatePetChar 
+20170221@01:48:58 [System] Record updated! 
+20170221@01:49:00 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@01:49:00 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:49:00 [System] DLPetInfoDetails_ItemCreated 
+20170221@01:49:00 [System] DLPetInfoDetails_ItemDataBound 
+20170221@01:49:10 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:49:13 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:49:13 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:49:13 [System] loadPieChart 
+20170221@01:49:13 [System] Adaptability 
+20170221@01:49:13 [System] Friendliness 
+20170221@01:49:13 [System] Grooming 
+20170221@01:49:13 [System] Trainability 
+20170221@01:49:13 [System] Exercise 
+20170221@01:58:05 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:58:12 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:58:12 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:58:12 [System] loadPieChart 
+20170221@01:58:12 [System] Adaptability 
+20170221@01:58:12 [System] Friendliness 
+20170221@01:58:12 [System] Grooming 
+20170221@01:58:12 [System] Trainability 
+20170221@01:58:12 [System] Exercise 
+20170221@01:58:19 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:58:22 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@01:58:22 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@01:58:22 [System] loadPieChart 
+20170221@01:58:22 [System] Adaptability 
+20170221@01:58:22 [System] Friendliness 
+20170221@01:58:22 [System] Grooming 
+20170221@01:58:22 [System] Trainability 
+20170221@01:58:22 [System] Exercise 
+20170221@01:59:20 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@02:00:38 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@02:00:40 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@02:00:42 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@02:02:22 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@02:02:27 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@02:02:27 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@02:02:27 [System] loadPieChart 
+20170221@02:02:27 [System] Adaptability 
+20170221@02:02:27 [System] Friendliness 
+20170221@02:02:27 [System] Grooming 
+20170221@02:02:27 [System] Trainability 
+20170221@02:02:27 [System] Exercise 
+20170221@02:02:29 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@02:02:29 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@02:02:29 [System] loadPieChart 
+20170221@02:02:29 [System] Adaptability 
+20170221@02:02:29 [System] Friendliness 
+20170221@02:02:29 [System] Grooming 
+20170221@02:02:29 [System] Trainability 
+20170221@02:02:29 [System] Exercise 
+20170221@02:02:30 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@02:02:30 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@02:02:30 [System] loadPieChart 
+20170221@02:02:30 [System] Adaptability 
+20170221@02:02:30 [System] Friendliness 
+20170221@02:02:30 [System] Grooming 
+20170221@02:02:30 [System] Trainability 
+20170221@02:02:30 [System] Exercise 
+20170221@02:02:32 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@02:02:32 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@02:02:32 [System] loadPieChart 
+20170221@02:02:32 [System] Adaptability 
+20170221@02:02:32 [System] Friendliness 
+20170221@02:02:32 [System] Grooming 
+20170221@02:02:32 [System] Trainability 
+20170221@02:02:32 [System] Exercise 
+20170221@02:03:25 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@02:03:25 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@02:03:25 [System] loadPieChart 
+20170221@02:03:25 [System] Adaptability 
+20170221@02:03:25 [System] Friendliness 
+20170221@02:03:25 [System] Grooming 
+20170221@02:03:25 [System] Trainability 
+20170221@02:03:25 [System] Exercise 

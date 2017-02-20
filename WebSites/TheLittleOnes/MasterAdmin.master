@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
     <!-- bootstrap & fontawesome -->
-    <link rel="stylesheet" href="assetsAdmin/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assetsAdmin/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <!-- page specific plugin styles -->
 
@@ -28,7 +28,22 @@
     </asp:ContentPlaceHolder>
 
     <!-- G5 styles -->
-    <link rel="stylesheet" href="~/assetsG5/G5Style.css"/>
+    <link rel="stylesheet" href="~/assetsG5/G5Style.css" />
+
+    <%--basic scripts--%>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assetsAdmin/js/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assetsAdmin/js/jquery-ui.custom.min.js"></script>
+    <script src="assetsAdmin/js/jquery.ui.touch-punch.min.js"></script>
+    <script src="assetsAdmin/js/jquery.easypiechart.min.js"></script>
+    <script src="assetsAdmin/js/jquery.sparkline.index.min.js"></script>
+    <script src="assetsAdmin/js/jquery.flot.min.js"></script>
+    <script src="assetsAdmin/js/jquery.flot.pie.min.js"></script>
+    <script src="assetsAdmin/js/jquery.flot.resize.min.js"></script>
+    <script src="assetsAdmin/js/ace-elements.min.js"></script>
+    <script src="assetsAdmin/js/ace.min.js"></script>
+    <script src="assetsAdmin/js/ace-extra.min.js"></script>
 </head>
 
 <body class="no-skin">
@@ -55,10 +70,10 @@
                 </button>
 
                 <div class="navbar-header pull-left">
-                    <a href="index.html" class="navbar-brand">
+                    <a href="AdminDashboard.aspx" class="navbar-brand">
                         <small>
                             <i class="fa fa-leaf"></i>
-                            Ace Admin
+                            TheLittleOnes Admin
                         </small>
                     </a>
                 </div>
@@ -404,7 +419,7 @@
 
                 <ul class="nav nav-list">
                     <li class="active">
-                        <a href="Dashboard.aspx">
+                        <a href="AdminDashboard.aspx">
                             <i class="menu-icon fa fa-tachometer"></i>
                             <span class="menu-text">Dashboard </span>
                         </a>
@@ -424,14 +439,7 @@
                         <b class="arrow"></b>
 
                         <ul class="submenu">
-                            <li class="">
-                                <a href="AdminPetInfoEdit.aspx">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Edit Pet Info
-                                </a>
 
-                                <b class="arrow"></b>
-                            </li>
 
                             <li class="">
                                 <a href="AdminPetInfoAdd.aspx">
@@ -441,14 +449,22 @@
 
                                 <b class="arrow"></b>
                             </li>
+                            <li class="">
+                                <a href="AdminPetInfoEdit.aspx">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    Edit Pet Info
+                                </a>
 
+                                <b class="arrow"></b>
+                            </li>
                         </ul>
                     </li>
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">
-                            <i class="menu-icon fa fa-list"></i>
-                            <span class="menu-text">Tables </span>
+                            
+                            <i class="menu-icon fa fa-university"></i>
+                            <span class="menu-text">Shop Info Settings </span>
 
                             <b class="arrow fa fa-angle-down"></b>
                         </a>
@@ -459,7 +475,7 @@
                             <li class="">
                                 <a href="tables.html">
                                     <i class="menu-icon fa fa-caret-right"></i>
-                                    Simple &amp; Dynamic
+                                    Add Shop Info
                                 </a>
 
                                 <b class="arrow"></b>
@@ -468,7 +484,7 @@
                             <li class="">
                                 <a href="jqgrid.html">
                                     <i class="menu-icon fa fa-caret-right"></i>
-                                    jqGrid plugin
+                                    Edit Shop Info
                                 </a>
 
                                 <b class="arrow"></b>
@@ -765,17 +781,5 @@
         <!-- /.main-container -->
     </form>
 </body>
-<%--basic scripts--%>
-<script src="assetsAdmin/js/jquery-2.1.4.min.js"></script>
-<script src="assetsAdmin/js/bootstrap.min.js"></script>
-<script src="assetsAdmin/js/jquery-ui.custom.min.js"></script>
-<script src="assetsAdmin/js/jquery.ui.touch-punch.min.js"></script>
-<script src="assetsAdmin/js/jquery.easypiechart.min.js"></script>
-<script src="assetsAdmin/js/jquery.sparkline.index.min.js"></script>
-<script src="assetsAdmin/js/jquery.flot.min.js"></script>
-<script src="assetsAdmin/js/jquery.flot.pie.min.js"></script>
-<script src="assetsAdmin/js/jquery.flot.resize.min.js"></script>
-<script src="assetsAdmin/js/ace-elements.min.js"></script>
-<script src="assetsAdmin/js/ace.min.js"></script>
-<script src="assetsAdmin/js/ace-extra.min.js"></script>
+
 </html>

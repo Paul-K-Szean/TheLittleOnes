@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterAdmin.master" AutoEventWireup="true" CodeFile="AdminPetInfoEdit.aspx.cs" Inherits="AdminPetInfoEdit" %>
 
-<%@ Register Assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" 
+<%@ Register Assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
     Namespace="System.Web.UI.DataVisualization.Charting" TagPrefix="asp" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHHeaderMasterAdmin" runat="Server">
@@ -133,7 +133,7 @@
                                 </div>
                                 <!-- div.table-responsive -->
 
-                                <!-- div.dataTables_borderWrap -->
+
                                 <div>
                                     <div id="dynamic-table_wrapper" class="dataTables_wrapper form-inline no-footer">
                                         <div class="row">
@@ -187,6 +187,7 @@
 
 
                                     </div>
+                                    <!-- div.dataTables_borderWrap -->
                                 </div>
                             </div>
                         </div>
@@ -196,10 +197,10 @@
                 </div>
                 <!-- /.row -->
 
-                
+
                 <%--Datalist--%>
                 <asp:DataList ID="DLPetInfoDetails" runat="server" DataKeyField="petInfoID" DataSourceID="SDSPetChar" Width="100%"
-                     OnItemCreated="DLPetInfoDetails_ItemCreated"
+                    OnItemCreated="DLPetInfoDetails_ItemCreated"
                     OnItemDataBound="DLPetInfoDetails_ItemDataBound" OnEditCommand="DLPetInfoDetails_EditCommand"
                     OnCancelCommand="DLPetInfoDetails_CancelCommand" OnUpdateCommand="DLPetInfoDetails_UpdateCommand">
                     <EditItemTemplate>
@@ -343,7 +344,7 @@
                                                 <div class="widget-body">
                                                     <div class="widget-main">
                                                         <div>
-                                                     
+
                                                             <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="true" />
                                                             <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview" OnClick="BTNPreview_Click" />
                                                         </div>
@@ -858,7 +859,7 @@
                                         <div class="col-xs-12 col-sm-8">
                                             <div class="center">
                                                 <div>
-                                                    <div class="overflow-auto scrollbarHorizontal" style="max-width:1110px; ">
+                                                    <div class="overflow-auto scrollbarHorizontal" style="max-width: 1110px;">
                                                         <asp:DataList ID="DLPetPhoto" runat="server" DataSourceID="SDSPetPhoto" Width="100%"
                                                             RepeatDirection="Horizontal">
                                                             <ItemTemplate>
@@ -1144,16 +1145,16 @@
                         <asp:ControlParameter ControlID="GVPetInfoOverview" Name="petInfoID" PropertyName="SelectedValue" Type="Int32" />
                     </SelectParameters>
                 </asp:SqlDataSource>
-                <asp:SqlDataSource ID="SDSPetPhoto" runat="server" 
-                    ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>" 
-                    ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>" 
+                <asp:SqlDataSource ID="SDSPetPhoto" runat="server"
+                    ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
+                    ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
                     SelectCommand="SELECT PetInfo.petInfoID, PetInfo.petInfoCategory, PetInfo.petInfoBreed, PetInfo.petInfoLifeSpanMin, PetInfo.petInfoHeightMin, PetInfo.petInfoWeightMin, PetInfo.petInfoLifeSpanMax, PetInfo.petInfoHeightMax, PetInfo.petInfoWeightMax, PetInfo.petInfoDesc, PetInfo.petInfoPersonality, PetInfo.petInfoDisplayStatus, Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath FROM (PetInfo INNER JOIN Photo ON PetInfo.petInfoID = Photo.photoOwnerID) WHERE (Photo.photoOwnerID = ?)">
                     <SelectParameters>
                         <asp:ControlParameter ControlID="GVPetInfoOverview" Name="photoOwnerID" PropertyName="SelectedValue" Type="Int32" />
                     </SelectParameters>
                 </asp:SqlDataSource>
             </ContentTemplate>
-            
+
         </asp:UpdatePanel>
     </div>
     <!-- /.page-content -->

@@ -43,7 +43,7 @@ public partial class AdminLogin : BasePage
             if (accEntity != null)
             {
                 if(!accEntity.AccountType.Equals(AccountType.WebUser.ToString()))
-                Response.Redirect("Dashboard.aspx");
+                Response.Redirect("AdminDashboard.aspx");
             }
             else
             {
