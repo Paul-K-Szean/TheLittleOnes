@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.OleDb;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using TheLittleOnesLibrary.DataAccessObject;
@@ -39,6 +40,7 @@ namespace TheLittleOnesLibrary.Controllers
         // Create account
         public AccountEntity createAccount(AccountEntity accountEntity)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
@@ -64,9 +66,31 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
 
+        public AccountEntity changePassword(AccountEntity accountEntity)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("UPDATE ACCOUNT SET ACCOUNTPASSWORD = @ACCOUNTPASSWORD WHERE ACCOUNTID = @ACCOUNTID");
+                oleDbCommand.Parameters.AddWithValue("@ACCOUNTPASSWORD", accountEntity.AccountPassword);
+                oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", accountEntity.AccountID);
+
+                int insertID = dao.updateRecord(oleDbCommand);
+                if (insertID > 0)
+                {
+                    // return edited accountEntity
+                    loggedInAccount = accountEntity;
+                }
+                // return unedited accountEntity
+                return loggedInAccount;
+            }
+        }
+
         // Check if email is being used before
         public bool checkEmailAddressExist(string emailAddress)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
@@ -87,15 +111,14 @@ namespace TheLittleOnesLibrary.Controllers
         // Check if password provided is the same as DB. Change password function.
         public bool checkPassword(string accountID, string accountOldPassword)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
                 oleDbCommand.CommandText = string.Concat("SELECT * FROM ACCOUNT WHERE (ACCOUNTPASSWORD = @ACCOUNTPASSWORD) AND (ACCOUNTID = @ACCOUNTID)");
-                //oleDbCommand.Parameters.AddWithValue("@ACCOUNTPASSWORD", string.Concat("'", accountOldPassword, "'"));
-                //oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", string.Concat("'", accountID, "'"));
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTPASSWORD", accountOldPassword);
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", accountID);
-                LogController.LogLine(oleDbCommand.CommandText);
+                
                 if (string.IsNullOrEmpty(dao.getValue(oleDbCommand)))
                 {
                     // empty = no password provided is invalid
@@ -112,6 +135,7 @@ namespace TheLittleOnesLibrary.Controllers
         // Sign in account
         public AccountEntity loginAccount(string emailAddress, string password)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
@@ -145,12 +169,14 @@ namespace TheLittleOnesLibrary.Controllers
         // Get logged in account
         public AccountEntity getLoggedInAccount()
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             return loggedInAccount;
         }
 
         // Sign out account
         public void SignOut()
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             loggedInAccount = null;
             // signout account
 
@@ -159,6 +185,7 @@ namespace TheLittleOnesLibrary.Controllers
         // Save edited account
         public bool saveEditedAccount(AccountEntity accountEntity)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;

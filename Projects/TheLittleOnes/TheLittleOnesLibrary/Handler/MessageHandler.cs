@@ -10,6 +10,12 @@ namespace TheLittleOnesLibrary.Handler
 {
     public class MessageHandler
     {
+        public static void DefaultMessage(Label label, string message)
+        {
+            label.Text = message;
+            label.ForeColor = Utility.getDefaultColor();
+            LogController.LogLine(string.Concat("MessageHandler : ", message));
+        }
         public static void SuccessMessage(Label label, string message)
         {
             label.Text = message;
@@ -28,16 +34,17 @@ namespace TheLittleOnesLibrary.Handler
         }
         public static void ErrorMessageAdmin(Label label, string message)
         {
-            message = string.Concat(". Please contact admin");
             label.Text = message;
             label.ForeColor = Utility.getErrorColor();
-            LogController.LogLine(string.Concat("MessageHandler : ", message));
+            LogController.LogLine(string.Concat("MessageHandler : ", message, ". Please contact admin"));
         }
+
         public static void ClearMessage(Label label)
         {
             label.Text = string.Empty;
             label.ForeColor = Utility.getDefaultColor();
         }
+
 
     }
 }

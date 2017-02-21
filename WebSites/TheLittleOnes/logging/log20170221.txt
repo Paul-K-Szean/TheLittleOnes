@@ -1216,3 +1216,2419 @@
 20170221@02:03:25 [System] Grooming 
 20170221@02:03:25 [System] Trainability 
 20170221@02:03:25 [System] Exercise 
+20170221@11:54:22 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@11:54:28 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@11:54:30 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@11:54:34 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@11:54:34 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@11:54:34 [System] loadPieChart 
+20170221@11:54:34 [System] Adaptability 
+20170221@11:54:34 [System] Friendliness 
+20170221@11:54:34 [System] Grooming 
+20170221@11:54:34 [System] Trainability 
+20170221@11:54:34 [System] Exercise 
+20170221@11:58:41 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@11:58:41 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@11:58:41 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETINFOID'.  Make sure it exists and that its name is spelled correctly. 
+20170221@11:58:41 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@11:58:44 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@11:58:44 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@11:58:44 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETINFOID'.  Make sure it exists and that its name is spelled correctly. 
+20170221@11:58:44 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@11:58:46 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@11:58:46 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@11:58:46 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETINFOID'.  Make sure it exists and that its name is spelled correctly. 
+20170221@11:58:46 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@11:58:47 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@11:58:49 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@11:58:51 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@11:58:51 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@11:58:52 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETINFOID'.  Make sure it exists and that its name is spelled correctly. 
+20170221@11:58:52 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:00:47 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:00:47 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:00:47 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETINFOID'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:00:47 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:00:51 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:00:54 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:00:54 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:00:54 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETINFOID'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:00:54 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:01:06 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:01:13 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:01:13 [System] No account logged in 
+20170221@12:01:13 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:01:18 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:01:18 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:01:22 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:01:23 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:02:02 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETINFOID'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:02:02 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:02:15 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:02:15 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:02:16 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETINFOID'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:02:16 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:02:22 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:02:29 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:03:35 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETINFOID'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:03:35 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:03:55 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:03:55 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:04:06 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:04:32 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:04:37 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:04:38 [System] No account logged in 
+20170221@12:04:38 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:04:43 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:04:43 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:04:47 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:04:47 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:04:48 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:05:23 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:05:25 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:05:25 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:05:25 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:05:37 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:06:32 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:06:32 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:06:36 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:06:38 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:09:46 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:09:46 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:09:46 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:10:32 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:10:59 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:10:59 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:11:03 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:11:05 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:11:30 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:11:30 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:12:00 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:12:11 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:12:11 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:12:12 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:12:14 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:12:15 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:12:18 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:12:18 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:12:18 [System] getRecord() : The Microsoft Office Access database engine cannot find the input table or query 'PETCHARACTERISTIC'.  Make sure it exists and that its name is spelled correctly. 
+20170221@12:12:30 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:12:58 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:12:58 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:13:06 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:13:06 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:13:06 [System] loadPieChart 
+20170221@12:13:06 [System] Adaptability 
+20170221@12:13:06 [System] Friendliness 
+20170221@12:13:06 [System] Grooming 
+20170221@12:13:06 [System] Trainability 
+20170221@12:13:06 [System] Exercise 
+20170221@12:13:44 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:13:44 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:13:45 [System] loadPieChart 
+20170221@12:13:45 [System] Adaptability 
+20170221@12:13:45 [System] Friendliness 
+20170221@12:13:45 [System] Grooming 
+20170221@12:13:45 [System] Trainability 
+20170221@12:13:45 [System] Exercise 
+20170221@12:14:38 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:18:47 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:18:48 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:18:50 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:18:50 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:23:06 [System] getRecord() : Command text was not set for the command object. 
+20170221@12:23:10 [System] loadPieChart 
+20170221@12:23:10 [System] Adaptability 
+20170221@12:23:10 [System] Friendliness 
+20170221@12:23:10 [System] Grooming 
+20170221@12:23:10 [System] Trainability 
+20170221@12:23:10 [System] Exercise 
+20170221@12:23:59 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:23:59 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:24:06 [System] loadPieChart 
+20170221@12:24:06 [System] Adaptability 
+20170221@12:24:06 [System] Friendliness 
+20170221@12:24:06 [System] Grooming 
+20170221@12:24:06 [System] Trainability 
+20170221@12:24:06 [System] Exercise 
+20170221@12:24:56 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:25:02 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:25:02 [System] No account logged in 
+20170221@12:25:02 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:25:07 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@12:25:07 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:25:12 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:25:12 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:25:12 [System] loadPieChart 
+20170221@12:25:12 [System] Adaptability 
+20170221@12:25:12 [System] Friendliness 
+20170221@12:25:12 [System] Grooming 
+20170221@12:25:12 [System] Trainability 
+20170221@12:25:12 [System] Exercise 
+20170221@12:26:20 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:26:22 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:26:22 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:26:22 [System] loadPieChart 
+20170221@12:26:22 [System] Adaptability 
+20170221@12:26:22 [System] Friendliness 
+20170221@12:26:22 [System] Grooming 
+20170221@12:26:22 [System] Trainability 
+20170221@12:26:22 [System] Exercise 
+20170221@12:28:20 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:28:36 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:28:36 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:28:36 [System] loadPieChart 
+20170221@12:28:36 [System] Adaptability 
+20170221@12:28:36 [System] Friendliness 
+20170221@12:28:36 [System] Grooming 
+20170221@12:28:36 [System] Trainability 
+20170221@12:28:36 [System] Exercise 
+20170221@12:29:15 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:29:18 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:29:18 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:29:19 [System] loadPieChart 
+20170221@12:29:19 [System] Adaptability 
+20170221@12:29:19 [System] Friendliness 
+20170221@12:29:19 [System] Grooming 
+20170221@12:29:19 [System] Trainability 
+20170221@12:29:19 [System] Exercise 
+20170221@12:29:32 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:29:32 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:29:32 [System] loadPieChart 
+20170221@12:29:32 [System] Adaptability 
+20170221@12:29:32 [System] Friendliness 
+20170221@12:29:32 [System] Grooming 
+20170221@12:29:32 [System] Trainability 
+20170221@12:29:32 [System] Exercise 
+20170221@12:29:41 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:29:41 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:29:41 [System] loadPieChart 
+20170221@12:29:41 [System] Adaptability 
+20170221@12:29:42 [System] Friendliness 
+20170221@12:29:42 [System] Grooming 
+20170221@12:29:42 [System] Trainability 
+20170221@12:29:42 [System] Exercise 
+20170221@12:32:56 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:32:56 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@12:32:56 [System] loadPieChart 
+20170221@12:32:56 [System] Adaptability 
+20170221@12:32:56 [System] Friendliness 
+20170221@12:32:56 [System] Grooming 
+20170221@12:32:56 [System] Trainability 
+20170221@12:32:56 [System] Exercise 
+20170221@12:36:37 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:37:02 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:37:06 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:37:08 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:37:10 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:37:28 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:37:30 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:37:48 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:37:48 [System] Check directory: ~/uploadedFiles/temp/dog/westhighlandwhiteterrier 
+20170221@12:37:48 [System] Check directory result: True 
+20170221@12:37:48 [System] Removing old files: ~/uploadedFiles/temp/dog/westhighlandwhiteterrier 
+20170221@12:37:48 [System] Temp directory: ~/uploadedFiles/temp/dog/westhighlandwhiteterrier 
+20170221@12:37:48 [System] Total files posted: 4 
+20170221@12:37:48 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170221@12:37:48 [System] ~/uploadedFiles/temp/dog/westhighlandwhiteterrier/WestHighlandWhiteTerrier000.jpg 
+20170221@12:37:48 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170221@12:37:48 [System] ~/uploadedFiles/temp/dog/westhighlandwhiteterrier/WestHighlandWhiteTerrier001.jpg 
+20170221@12:37:48 [System] File name: WestHighlandWhiteTerrier100.jpg 
+20170221@12:37:48 [System] ~/uploadedFiles/temp/dog/westhighlandwhiteterrier/WestHighlandWhiteTerrier100.jpg 
+20170221@12:37:48 [System] File name: WestHighlandWhiteTerrier101.jpg 
+20170221@12:37:48 [System] ~/uploadedFiles/temp/dog/westhighlandwhiteterrier/WestHighlandWhiteTerrier101.jpg 
+20170221@12:37:48 [System] 
+ 
+20170221@12:37:57 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:37:57 [System] Add clicked 
+20170221@12:37:57 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\dog\westhighlandwhiteterrier 
+20170221@12:37:57 [System] No data found in getValue() 
+20170221@12:37:57 [System] Record created! 
+20170221@12:37:57 [System] Record created! 
+20170221@12:37:57 [System] Record created! 
+20170221@12:37:57 [System] Record created! 
+20170221@12:37:57 [System] Record created! 
+20170221@12:37:58 [System] Record created! 
+20170221@12:38:27 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:38:36 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:38:36 [System] Check directory: ~/uploadedFiles/temp/cat/siberiancat 
+20170221@12:38:36 [System] Check directory result: False 
+20170221@12:38:36 [System] Temp directory: ~/uploadedFiles/temp/cat/siberiancat 
+20170221@12:38:36 [System] Total files posted: 4 
+20170221@12:38:36 [System] File name: SiberianCat000.jpg 
+20170221@12:38:36 [System] ~/uploadedFiles/temp/cat/siberiancat/SiberianCat000.jpg 
+20170221@12:38:36 [System] File name: SiberianCat001.jpg 
+20170221@12:38:36 [System] ~/uploadedFiles/temp/cat/siberiancat/SiberianCat001.jpg 
+20170221@12:38:36 [System] File name: SiberianCat100.jpg 
+20170221@12:38:36 [System] ~/uploadedFiles/temp/cat/siberiancat/SiberianCat100.jpg 
+20170221@12:38:36 [System] File name: SiberianCat101.jpg 
+20170221@12:38:36 [System] ~/uploadedFiles/temp/cat/siberiancat/SiberianCat101.jpg 
+20170221@12:38:36 [System] 
+ 
+20170221@12:42:10 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:42:10 [System] Add clicked 
+20170221@12:42:10 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\cat\siberiancat 
+20170221@12:42:10 [System] No data found in getValue() 
+20170221@12:42:10 [System] Record created! 
+20170221@12:42:10 [System] Record created! 
+20170221@12:42:10 [System] Record created! 
+20170221@12:42:10 [System] Record created! 
+20170221@12:42:10 [System] Record created! 
+20170221@12:42:10 [System] Record created! 
+20170221@12:42:13 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:42:15 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:42:16 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:42:21 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:42:29 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:42:30 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:42:31 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:42:39 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:42:39 [System] Check directory: ~/uploadedFiles/temp/cat/persiancat 
+20170221@12:42:39 [System] Check directory result: True 
+20170221@12:42:39 [System] Removing old files: ~/uploadedFiles/temp/cat/persiancat 
+20170221@12:42:39 [System] Temp directory: ~/uploadedFiles/temp/cat/persiancat 
+20170221@12:42:39 [System] Total files posted: 4 
+20170221@12:42:40 [System] File name: PersianCat000.jpg 
+20170221@12:42:40 [System] ~/uploadedFiles/temp/cat/persiancat/PersianCat000.jpg 
+20170221@12:42:40 [System] File name: PersianCat001.jpg 
+20170221@12:42:40 [System] ~/uploadedFiles/temp/cat/persiancat/PersianCat001.jpg 
+20170221@12:42:40 [System] File name: PersianCat002.jpg 
+20170221@12:42:40 [System] ~/uploadedFiles/temp/cat/persiancat/PersianCat002.jpg 
+20170221@12:42:40 [System] File name: PersianCat100.jpg 
+20170221@12:42:40 [System] ~/uploadedFiles/temp/cat/persiancat/PersianCat100.jpg 
+20170221@12:42:40 [System] 
+ 
+20170221@12:42:44 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@12:42:56 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:42:58 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:43:40 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:43:40 [System] Check directory: ~/uploadedFiles/temp/dog/yorkshireterrier 
+20170221@12:43:40 [System] Check directory result: False 
+20170221@12:43:40 [System] Temp directory: ~/uploadedFiles/temp/dog/yorkshireterrier 
+20170221@12:43:40 [System] Total files posted: 4 
+20170221@12:43:40 [System] File name: YorkshireTerrier000.jpg 
+20170221@12:43:40 [System] ~/uploadedFiles/temp/dog/yorkshireterrier/YorkshireTerrier000.jpg 
+20170221@12:43:40 [System] File name: YorkshireTerrier001.jpg 
+20170221@12:43:40 [System] ~/uploadedFiles/temp/dog/yorkshireterrier/YorkshireTerrier001.jpg 
+20170221@12:43:40 [System] File name: YorkshireTerrier002.jpg 
+20170221@12:43:40 [System] ~/uploadedFiles/temp/dog/yorkshireterrier/YorkshireTerrier002.jpg 
+20170221@12:43:40 [System] File name: YorkshireTerrier100.jpg 
+20170221@12:43:40 [System] ~/uploadedFiles/temp/dog/yorkshireterrier/YorkshireTerrier100.jpg 
+20170221@12:43:40 [System] 
+ 
+20170221@12:43:42 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@12:43:42 [System] Add clicked 
+20170221@12:43:42 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\dog\yorkshireterrier 
+20170221@12:43:43 [System] No data found in getValue() 
+20170221@12:43:43 [System] Record created! 
+20170221@12:43:43 [System] Record created! 
+20170221@12:43:43 [System] Record created! 
+20170221@12:43:43 [System] Record created! 
+20170221@12:43:43 [System] Record created! 
+20170221@12:43:43 [System] Record created! 
+20170221@12:43:49 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@13:11:15 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@13:13:22 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@13:13:22 [System] Check directory: ~/uploadedFiles/temp/dog/labradorretriever 
+20170221@13:13:22 [System] Check directory result: False 
+20170221@13:13:22 [System] Temp directory: ~/uploadedFiles/temp/dog/labradorretriever 
+20170221@13:13:22 [System] Total files posted: 4 
+20170221@13:13:22 [System] File name: LabradorRetriever000.jpg 
+20170221@13:13:22 [System] ~/uploadedFiles/temp/dog/labradorretriever/LabradorRetriever000.jpg 
+20170221@13:13:22 [System] File name: LabradorRetriever001.jpg 
+20170221@13:13:22 [System] ~/uploadedFiles/temp/dog/labradorretriever/LabradorRetriever001.jpg 
+20170221@13:13:22 [System] File name: LabradorRetriever100.jpg 
+20170221@13:13:22 [System] ~/uploadedFiles/temp/dog/labradorretriever/LabradorRetriever100.jpg 
+20170221@13:13:22 [System] File name: LabradorRetriever101.jpg 
+20170221@13:13:22 [System] ~/uploadedFiles/temp/dog/labradorretriever/LabradorRetriever101.jpg 
+20170221@13:13:22 [System] 
+ 
+20170221@13:13:25 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@13:13:25 [System] Add clicked 
+20170221@13:13:25 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\dog\labradorretriever 
+20170221@13:13:25 [System] No data found in getValue() 
+20170221@13:13:25 [System] Record created! 
+20170221@13:13:25 [System] Record created! 
+20170221@13:13:25 [System] Record created! 
+20170221@13:13:26 [System] Record created! 
+20170221@13:13:26 [System] Record created! 
+20170221@13:13:26 [System] Record created! 
+20170221@13:13:28 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@13:13:29 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:13:37 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:13:40 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:14:33 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:22:34 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:26:10 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:28:04 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:30:20 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:30:50 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:31:18 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:31:36 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:31:36 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:31:37 [System] loadPieChart 
+20170221@13:31:37 [System] Adaptability 
+20170221@13:31:37 [System] Friendliness 
+20170221@13:31:37 [System] Grooming 
+20170221@13:31:37 [System] Trainability 
+20170221@13:31:37 [System] Exercise 
+20170221@13:32:00 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:32:00 [System] No account logged in 
+20170221@13:32:00 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@13:32:04 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@13:32:04 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:32:07 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:32:07 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:32:07 [System] loadPieChart 
+20170221@13:32:07 [System] Adaptability 
+20170221@13:32:08 [System] Friendliness 
+20170221@13:32:08 [System] Grooming 
+20170221@13:32:08 [System] Trainability 
+20170221@13:32:08 [System] Exercise 
+20170221@13:32:09 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:32:09 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:32:09 [System] loadPieChart 
+20170221@13:32:09 [System] Adaptability 
+20170221@13:32:09 [System] Friendliness 
+20170221@13:32:09 [System] Grooming 
+20170221@13:32:09 [System] Trainability 
+20170221@13:32:09 [System] Exercise 
+20170221@13:32:11 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:32:11 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:32:11 [System] loadPieChart 
+20170221@13:32:11 [System] Adaptability 
+20170221@13:32:11 [System] Friendliness 
+20170221@13:32:11 [System] Grooming 
+20170221@13:32:11 [System] Trainability 
+20170221@13:32:11 [System] Exercise 
+20170221@13:32:13 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:32:13 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:32:13 [System] loadPieChart 
+20170221@13:32:13 [System] Adaptability 
+20170221@13:32:13 [System] Friendliness 
+20170221@13:32:13 [System] Grooming 
+20170221@13:32:13 [System] Trainability 
+20170221@13:32:13 [System] Exercise 
+20170221@13:32:14 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:32:14 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:32:14 [System] loadPieChart 
+20170221@13:32:14 [System] Adaptability 
+20170221@13:32:14 [System] Friendliness 
+20170221@13:32:14 [System] Grooming 
+20170221@13:32:14 [System] Trainability 
+20170221@13:32:14 [System] Exercise 
+20170221@13:32:47 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:32:50 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:32:50 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:32:50 [System] loadPieChart 
+20170221@13:32:50 [System] Adaptability 
+20170221@13:32:50 [System] Friendliness 
+20170221@13:32:50 [System] Grooming 
+20170221@13:32:50 [System] Trainability 
+20170221@13:32:50 [System] Exercise 
+20170221@13:32:51 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:32:51 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:32:51 [System] loadPieChart 
+20170221@13:32:51 [System] Adaptability 
+20170221@13:32:51 [System] Friendliness 
+20170221@13:32:51 [System] Grooming 
+20170221@13:32:51 [System] Trainability 
+20170221@13:32:51 [System] Exercise 
+20170221@13:32:59 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:33:04 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:33:09 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:33:09 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:33:09 [System] loadPieChart 
+20170221@13:33:09 [System] Adaptability 
+20170221@13:33:09 [System] Friendliness 
+20170221@13:33:09 [System] Grooming 
+20170221@13:33:09 [System] Trainability 
+20170221@13:33:09 [System] Exercise 
+20170221@13:33:10 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:33:11 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:33:11 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:33:11 [System] loadPieChart 
+20170221@13:33:11 [System] Adaptability 
+20170221@13:33:11 [System] Friendliness 
+20170221@13:33:11 [System] Grooming 
+20170221@13:33:11 [System] Trainability 
+20170221@13:33:11 [System] Exercise 
+20170221@13:33:16 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:33:16 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:00 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:00 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:02 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:02 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:40:02 [System] loadPieChart 
+20170221@13:40:02 [System] Adaptability 
+20170221@13:40:02 [System] Friendliness 
+20170221@13:40:02 [System] Grooming 
+20170221@13:40:02 [System] Trainability 
+20170221@13:40:02 [System] Exercise 
+20170221@13:40:03 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:03 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:40:03 [System] loadPieChart 
+20170221@13:40:03 [System] Adaptability 
+20170221@13:40:03 [System] Friendliness 
+20170221@13:40:03 [System] Grooming 
+20170221@13:40:03 [System] Trainability 
+20170221@13:40:03 [System] Exercise 
+20170221@13:40:04 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:04 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:40:04 [System] loadPieChart 
+20170221@13:40:04 [System] Adaptability 
+20170221@13:40:04 [System] Friendliness 
+20170221@13:40:04 [System] Grooming 
+20170221@13:40:04 [System] Trainability 
+20170221@13:40:04 [System] Exercise 
+20170221@13:40:05 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:05 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:40:05 [System] loadPieChart 
+20170221@13:40:05 [System] Adaptability 
+20170221@13:40:05 [System] Friendliness 
+20170221@13:40:05 [System] Grooming 
+20170221@13:40:05 [System] Trainability 
+20170221@13:40:05 [System] Exercise 
+20170221@13:40:06 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:06 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:40:06 [System] loadPieChart 
+20170221@13:40:06 [System] Adaptability 
+20170221@13:40:06 [System] Friendliness 
+20170221@13:40:06 [System] Grooming 
+20170221@13:40:06 [System] Trainability 
+20170221@13:40:06 [System] Exercise 
+20170221@13:40:07 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:09 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:09 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:40:09 [System] loadPieChart 
+20170221@13:40:09 [System] Adaptability 
+20170221@13:40:09 [System] Friendliness 
+20170221@13:40:09 [System] Grooming 
+20170221@13:40:09 [System] Trainability 
+20170221@13:40:09 [System] Exercise 
+20170221@13:40:10 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:10 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:40:10 [System] loadPieChart 
+20170221@13:40:10 [System] Adaptability 
+20170221@13:40:10 [System] Friendliness 
+20170221@13:40:10 [System] Grooming 
+20170221@13:40:10 [System] Trainability 
+20170221@13:40:10 [System] Exercise 
+20170221@13:40:48 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:40:48 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:40:49 [System] loadPieChart 
+20170221@13:40:49 [System] Adaptability 
+20170221@13:40:49 [System] Friendliness 
+20170221@13:40:49 [System] Grooming 
+20170221@13:40:49 [System] Trainability 
+20170221@13:40:49 [System] Exercise 
+20170221@13:41:07 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:41:07 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@13:41:07 [System] loadPieChart 
+20170221@13:41:07 [System] Adaptability 
+20170221@13:41:07 [System] Friendliness 
+20170221@13:41:07 [System] Grooming 
+20170221@13:41:07 [System] Trainability 
+20170221@13:41:07 [System] Exercise 
+20170221@13:46:31 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:47:00 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:47:02 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:47:03 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:56:57 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:56:57 [System] No account logged in 
+20170221@13:56:57 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@13:57:01 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@13:57:01 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:57:01 [System] No account logged in 
+20170221@13:57:01 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@13:57:05 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@13:57:05 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@13:57:05 [System] No account logged in 
+20170221@13:57:05 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@13:57:58 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@13:57:58 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:02:15 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:02:15 [System] No account logged in 
+20170221@14:02:15 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:03:14 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:03:47 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:04:08 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:04:39 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:05:34 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:05:34 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:05:47 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:05:48 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:05:56 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:05:56 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:06:23 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:06:24 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:06:29 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:07:16 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:07:29 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:07:35 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:07:36 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:07:37 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:07:37 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:07:47 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:07:52 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:08:53 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:08:53 [System] MessageHandler : You are not authorised here 
+20170221@14:09:05 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:09:05 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:12:30 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:13:06 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:13:48 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:14:01 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:14:01 [System] MessageHandler : Invalid email or password 
+20170221@14:14:06 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:14:07 [System] MessageHandler : Invalid email or password 
+20170221@14:14:12 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:14:12 [System] MessageHandler : Invalid email or password 
+20170221@14:14:33 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:14:33 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:17:08 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:21:51 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:21:57 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:21:57 [System] MessageHandler : Invalid email or password 
+20170221@14:22:00 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:22:00 [System] MessageHandler : Invalid email or password 
+20170221@14:22:27 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:22:27 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:23:53 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@14:24:46 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:24:52 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:24:52 [System] MessageHandler : Invalid email or password 
+20170221@14:25:07 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:25:14 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:25:20 [System] MessageHandler : Invalid email or password 
+20170221@14:25:28 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:25:30 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:28:49 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@14:30:33 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@14:30:37 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:45:46 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@14:46:49 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@14:47:24 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@14:47:51 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@14:47:51 [System] No account logged in 
+20170221@14:47:51 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:48:11 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:48:11 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:48:14 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@14:48:45 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@14:52:51 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:52:58 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:52:59 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:52:59 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:52:59 [System] loadPieChart 
+20170221@14:53:00 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:53:00 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:53:01 [System] loadPieChart 
+20170221@14:53:01 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:53:01 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:53:01 [System] loadPieChart 
+20170221@14:53:02 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:53:02 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:53:02 [System] loadPieChart 
+20170221@14:53:04 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@14:53:11 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@14:53:13 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:53:15 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:53:15 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:53:15 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:53:15 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:53:16 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:53:16 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:53:18 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:53:18 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:53:18 [System] DLPetInfoDetails_EditCommand 
+20170221@14:53:18 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:53:18 [System] FileUpload1 
+20170221@14:53:18 [System] photoPreview 
+20170221@14:53:18 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:53:23 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:53:23 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:53:23 [System] FileUpload1 
+20170221@14:53:23 [System] photoPreview 
+20170221@14:53:23 [System] DLPetInfoDetails_CancelCommand 
+20170221@14:53:23 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:53:23 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:53:27 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:54:26 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:54:30 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:54:30 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:54:30 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:54:30 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:54:30 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:54:30 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:54:47 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:54:47 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:54:47 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:54:47 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:54:47 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:55:34 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:55:36 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:55:36 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:55:37 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:55:37 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:55:37 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:55:37 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:55:38 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:55:38 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:55:38 [System] DLPetInfoDetails_EditCommand 
+20170221@14:55:38 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:55:38 [System] FileUpload1 
+20170221@14:55:38 [System] photoPreview 
+20170221@14:55:38 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:56:35 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:56:35 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:56:35 [System] FileUpload1 
+20170221@14:56:35 [System] photoPreview 
+20170221@14:56:35 [System] BTNPreview_Click 
+20170221@14:56:35 [System] getEditedValues_Photos 
+20170221@14:56:35 [System] Cat 
+20170221@14:56:35 [System] BurmeseCat 
+20170221@14:56:35 [System] photoPreview 
+20170221@14:56:35 [System] previewPhoto 
+20170221@14:56:35 [System] Check directory: ~/uploadedFiles/temp/petinfo/cat/burmesecat 
+20170221@14:56:35 [System] Check directory result: False 
+20170221@14:56:35 [System] Temp directory: ~/uploadedFiles/temp/petinfo/cat/burmesecat 
+20170221@14:56:35 [System] Total files posted: 4 
+20170221@14:56:35 [System] File name: BurmeseCat000.jpg 
+20170221@14:56:35 [System] ~/uploadedFiles/temp/petinfo/cat/burmesecat/BurmeseCat000.jpg 
+20170221@14:56:35 [System] File name: BurmeseCat0102.jpg 
+20170221@14:56:35 [System] ~/uploadedFiles/temp/petinfo/cat/burmesecat/BurmeseCat0102.jpg 
+20170221@14:56:35 [System] File name: BurmeseCat0103.jpg 
+20170221@14:56:35 [System] ~/uploadedFiles/temp/petinfo/cat/burmesecat/BurmeseCat0103.jpg 
+20170221@14:56:35 [System] File name: BurmeseCat100.jpg 
+20170221@14:56:35 [System] ~/uploadedFiles/temp/petinfo/cat/burmesecat/BurmeseCat100.jpg 
+20170221@14:56:35 [System] 
+ 
+20170221@14:56:38 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:56:38 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:56:38 [System] FileUpload1 
+20170221@14:56:38 [System] photoPreview 
+20170221@14:56:38 [System] DLPetInfoDetails_UpdateCommand 
+20170221@14:56:38 [System] updatePetInfo 
+20170221@14:56:38 [System] Record updated! 
+20170221@14:56:38 [System] changePhotoPathToDatabaseFolder 
+20170221@14:56:38 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\cat\burmesecat 
+20170221@14:56:38 [System] deletePetPhoto 
+20170221@14:56:38 [System] Record not deleted! Please check through given parameter values 
+20170221@14:56:38 [System] Record created! 
+20170221@14:56:38 [System] Record created! 
+20170221@14:56:38 [System] Record created! 
+20170221@14:56:38 [System] Record created! 
+20170221@14:56:38 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:56:38 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:56:40 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:56:40 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:56:40 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:56:40 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:56:40 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:56:40 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:56:40 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:56:42 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:56:42 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:56:42 [System] DLPetInfoDetails_EditCommand 
+20170221@14:56:42 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:56:42 [System] FileUpload1 
+20170221@14:56:42 [System] photoPreview 
+20170221@14:56:42 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:56:49 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:56:49 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:56:49 [System] FileUpload1 
+20170221@14:56:49 [System] photoPreview 
+20170221@14:56:49 [System] DLPetInfoDetails_UpdateCommand 
+20170221@14:56:49 [System] updatePetInfo 
+20170221@14:56:49 [System] Record updated! 
+20170221@14:56:49 [System] changePhotoPathToDatabaseFolder 
+20170221@14:56:49 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\cat\burmesecat 
+20170221@14:56:49 [System] deletePetPhoto 
+20170221@14:56:49 [System] Record not deleted! Please check through given parameter values 
+20170221@14:56:49 [System] Record created! 
+20170221@14:56:49 [System] Record created! 
+20170221@14:56:49 [System] Record created! 
+20170221@14:56:49 [System] Record created! 
+20170221@14:56:49 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:56:49 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:57:01 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:57:01 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:01 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:57:01 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:01 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:57:01 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:01 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:57:02 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:57:02 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:02 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:57:02 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:02 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:57:02 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:02 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:57:26 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:57:26 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:26 [System] DLPetInfoDetails_EditCommand 
+20170221@14:57:26 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:26 [System] FileUpload1 
+20170221@14:57:26 [System] photoPreview 
+20170221@14:57:26 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:57:33 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:57:33 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:33 [System] FileUpload1 
+20170221@14:57:33 [System] photoPreview 
+20170221@14:57:33 [System] BTNPreview_Click 
+20170221@14:57:33 [System] getEditedValues_Photos 
+20170221@14:57:33 [System] Cat 
+20170221@14:57:33 [System] SiberianCat 
+20170221@14:57:33 [System] photoPreview 
+20170221@14:57:33 [System] previewPhoto 
+20170221@14:57:33 [System] Check directory: ~/uploadedFiles/temp/petinfo/cat/siberiancat 
+20170221@14:57:33 [System] Check directory result: False 
+20170221@14:57:33 [System] Temp directory: ~/uploadedFiles/temp/petinfo/cat/siberiancat 
+20170221@14:57:33 [System] Total files posted: 4 
+20170221@14:57:33 [System] File name: SiberianCat000.jpg 
+20170221@14:57:33 [System] ~/uploadedFiles/temp/petinfo/cat/siberiancat/SiberianCat000.jpg 
+20170221@14:57:33 [System] File name: SiberianCat001.jpg 
+20170221@14:57:33 [System] ~/uploadedFiles/temp/petinfo/cat/siberiancat/SiberianCat001.jpg 
+20170221@14:57:33 [System] File name: SiberianCat100.jpg 
+20170221@14:57:33 [System] ~/uploadedFiles/temp/petinfo/cat/siberiancat/SiberianCat100.jpg 
+20170221@14:57:33 [System] File name: SiberianCat101.jpg 
+20170221@14:57:33 [System] ~/uploadedFiles/temp/petinfo/cat/siberiancat/SiberianCat101.jpg 
+20170221@14:57:33 [System] 
+ 
+20170221@14:57:39 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:57:39 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:39 [System] FileUpload1 
+20170221@14:57:39 [System] photoPreview 
+20170221@14:57:39 [System] DLPetInfoDetails_UpdateCommand 
+20170221@14:57:39 [System] updatePetInfo 
+20170221@14:57:39 [System] Record updated! 
+20170221@14:57:39 [System] changePhotoPathToDatabaseFolder 
+20170221@14:57:39 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\cat\siberiancat 
+20170221@14:57:39 [System] deletePetPhoto 
+20170221@14:57:39 [System] Record deleted! 
+20170221@14:57:39 [System] Record created! 
+20170221@14:57:39 [System] Record created! 
+20170221@14:57:39 [System] Record created! 
+20170221@14:57:39 [System] Record created! 
+20170221@14:57:39 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:57:39 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:58:37 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:58:46 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@14:58:46 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@14:58:49 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:58:52 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:58:52 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@14:58:52 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:58:52 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:58:52 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:58:52 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:58:54 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:58:54 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:58:54 [System] DLPetInfoDetails_EditCommand 
+20170221@14:58:54 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:58:54 [System] FileUpload1 
+20170221@14:58:54 [System] photoPreview 
+20170221@14:58:54 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:59:00 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:59:00 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:59:00 [System] FileUpload1 
+20170221@14:59:00 [System] photoPreview 
+20170221@14:59:00 [System] DLPetInfoDetails_UpdateCommand 
+20170221@14:59:00 [System] updatePetInfo 
+20170221@14:59:00 [System] Record updated! 
+20170221@14:59:02 [System] changePhotoPathToDatabaseFolder 
+20170221@14:59:02 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\cat\siberiancat 
+20170221@14:59:02 [System] deletePetPhoto 
+20170221@14:59:02 [System] Record deleted! 
+20170221@14:59:03 [System] Record created! 
+20170221@14:59:03 [System] Record created! 
+20170221@14:59:03 [System] Record created! 
+20170221@14:59:03 [System] Record created! 
+20170221@14:59:03 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:59:03 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:59:05 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:59:05 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:59:05 [System] DLPetInfoDetails_EditCommand 
+20170221@14:59:05 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:59:05 [System] FileUpload1 
+20170221@14:59:05 [System] photoPreview 
+20170221@14:59:05 [System] DLPetInfoDetails_ItemDataBound 
+20170221@14:59:11 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:59:11 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:59:11 [System] FileUpload1 
+20170221@14:59:11 [System] photoPreview 
+20170221@14:59:11 [System] BTNPreview_Click 
+20170221@14:59:11 [System] getEditedValues_Photos 
+20170221@14:59:11 [System] Cat 
+20170221@14:59:11 [System] SiberianCat 
+20170221@14:59:11 [System] photoPreview 
+20170221@14:59:11 [System] previewPhoto 
+20170221@14:59:11 [System] Check directory: ~/uploadedFiles/temp/petinfo/cat/siberiancat 
+20170221@14:59:11 [System] Check directory result: True 
+20170221@14:59:11 [System] Removing old files: ~/uploadedFiles/temp/petinfo/cat/siberiancat 
+20170221@14:59:11 [System] Temp directory: ~/uploadedFiles/temp/petinfo/cat/siberiancat 
+20170221@14:59:11 [System] Total files posted: 4 
+20170221@14:59:11 [System] File name: SiberianCat000.jpg 
+20170221@14:59:11 [System] ~/uploadedFiles/temp/petinfo/cat/siberiancat/SiberianCat000.jpg 
+20170221@14:59:11 [System] File name: SiberianCat001.jpg 
+20170221@14:59:11 [System] ~/uploadedFiles/temp/petinfo/cat/siberiancat/SiberianCat001.jpg 
+20170221@14:59:11 [System] File name: SiberianCat100.jpg 
+20170221@14:59:11 [System] ~/uploadedFiles/temp/petinfo/cat/siberiancat/SiberianCat100.jpg 
+20170221@14:59:11 [System] File name: SiberianCat101.jpg 
+20170221@14:59:11 [System] ~/uploadedFiles/temp/petinfo/cat/siberiancat/SiberianCat101.jpg 
+20170221@14:59:11 [System] 
+ 
+20170221@14:59:13 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@14:59:13 [System] DLPetInfoDetails_ItemCreated 
+20170221@14:59:13 [System] FileUpload1 
+20170221@14:59:13 [System] photoPreview 
+20170221@14:59:13 [System] DLPetInfoDetails_UpdateCommand 
+20170221@14:59:13 [System] updatePetInfo 
+20170221@14:59:13 [System] Record updated! 
+20170221@14:59:30 [System] changePhotoPathToDatabaseFolder 
+20170221@14:59:30 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\cat\siberiancat 
+20170221@14:59:49 [System] deletePetPhoto 
+20170221@14:59:53 [System] Record deleted! 
+20170221@15:00:16 [System] Record created! 
+20170221@15:00:20 [System] Record created! 
+20170221@15:00:21 [System] Record created! 
+20170221@15:00:22 [System] Record created! 
+20170221@15:00:30 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:00:31 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:00:57 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:00:57 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:00:57 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@15:00:57 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:00:57 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:01:39 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:01:39 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:39 [System] FileUpload1 
+20170221@15:01:39 [System] photoPreview 
+20170221@15:01:39 [System] BTNPreview_Click 
+20170221@15:01:39 [System] getEditedValues_Photos 
+20170221@15:01:44 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:01:44 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:44 [System] FileUpload1 
+20170221@15:01:44 [System] photoPreview 
+20170221@15:01:44 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@15:01:44 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:44 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:01:47 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:01:47 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:47 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@15:01:47 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:47 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:01:47 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:47 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:01:51 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:01:51 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:51 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@15:01:51 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:51 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:01:51 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:51 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:01:53 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:01:53 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:53 [System] DLPetInfoDetails_EditCommand 
+20170221@15:01:53 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:01:53 [System] FileUpload1 
+20170221@15:01:53 [System] photoPreview 
+20170221@15:01:53 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:02:02 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:02:02 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:02 [System] FileUpload1 
+20170221@15:02:02 [System] photoPreview 
+20170221@15:02:02 [System] BTNPreview_Click 
+20170221@15:02:02 [System] getEditedValues_Photos 
+20170221@15:02:02 [System] Dog 
+20170221@15:02:02 [System] GoldenRetriever 
+20170221@15:02:02 [System] photoPreview 
+20170221@15:02:03 [System] previewPhoto 
+20170221@15:02:03 [System] Check directory: ~/uploadedFiles/temp/petinfo/dog/goldenretriever 
+20170221@15:02:03 [System] Check directory result: False 
+20170221@15:02:03 [System] Temp directory: ~/uploadedFiles/temp/petinfo/dog/goldenretriever 
+20170221@15:02:03 [System] Total files posted: 4 
+20170221@15:02:03 [System] File name: GoldenRetriever000.jpg 
+20170221@15:02:03 [System] ~/uploadedFiles/temp/petinfo/dog/goldenretriever/GoldenRetriever000.jpg 
+20170221@15:02:03 [System] File name: GoldenRetriever001.jpg 
+20170221@15:02:03 [System] ~/uploadedFiles/temp/petinfo/dog/goldenretriever/GoldenRetriever001.jpg 
+20170221@15:02:03 [System] File name: GoldenRetriever100.jpg 
+20170221@15:02:03 [System] ~/uploadedFiles/temp/petinfo/dog/goldenretriever/GoldenRetriever100.jpg 
+20170221@15:02:03 [System] File name: GoldenRetriever101.jpg 
+20170221@15:02:03 [System] ~/uploadedFiles/temp/petinfo/dog/goldenretriever/GoldenRetriever101.jpg 
+20170221@15:02:03 [System] 
+ 
+20170221@15:02:06 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:02:06 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:06 [System] FileUpload1 
+20170221@15:02:06 [System] photoPreview 
+20170221@15:02:06 [System] DLPetInfoDetails_UpdateCommand 
+20170221@15:02:06 [System] updatePetInfo 
+20170221@15:02:06 [System] Record updated! 
+20170221@15:02:06 [System] changePhotoPathToDatabaseFolder 
+20170221@15:02:06 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\dog\goldenretriever 
+20170221@15:02:06 [System] deletePetPhoto 
+20170221@15:02:06 [System] Record not deleted! Please check through given parameter values 
+20170221@15:02:06 [System] Record created! 
+20170221@15:02:06 [System] Record created! 
+20170221@15:02:06 [System] Record created! 
+20170221@15:02:06 [System] Record created! 
+20170221@15:02:06 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:06 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:02:14 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:02:14 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:14 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@15:02:14 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:14 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:02:14 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:14 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:02:16 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:02:16 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:16 [System] DLPetInfoDetails_EditCommand 
+20170221@15:02:16 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:16 [System] FileUpload1 
+20170221@15:02:16 [System] photoPreview 
+20170221@15:02:16 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:02:22 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:02:22 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:22 [System] FileUpload1 
+20170221@15:02:22 [System] photoPreview 
+20170221@15:02:22 [System] BTNPreview_Click 
+20170221@15:02:22 [System] getEditedValues_Photos 
+20170221@15:02:22 [System] Dog 
+20170221@15:02:22 [System] LabradorRetriever 
+20170221@15:02:22 [System] photoPreview 
+20170221@15:02:22 [System] previewPhoto 
+20170221@15:02:22 [System] Check directory: ~/uploadedFiles/temp/petinfo/dog/labradorretriever 
+20170221@15:02:22 [System] Check directory result: False 
+20170221@15:02:22 [System] Temp directory: ~/uploadedFiles/temp/petinfo/dog/labradorretriever 
+20170221@15:02:22 [System] Total files posted: 4 
+20170221@15:02:23 [System] File name: LabradorRetriever000.jpg 
+20170221@15:02:23 [System] ~/uploadedFiles/temp/petinfo/dog/labradorretriever/LabradorRetriever000.jpg 
+20170221@15:02:23 [System] File name: LabradorRetriever001.jpg 
+20170221@15:02:23 [System] ~/uploadedFiles/temp/petinfo/dog/labradorretriever/LabradorRetriever001.jpg 
+20170221@15:02:23 [System] File name: LabradorRetriever100.jpg 
+20170221@15:02:23 [System] ~/uploadedFiles/temp/petinfo/dog/labradorretriever/LabradorRetriever100.jpg 
+20170221@15:02:23 [System] File name: LabradorRetriever101.jpg 
+20170221@15:02:23 [System] ~/uploadedFiles/temp/petinfo/dog/labradorretriever/LabradorRetriever101.jpg 
+20170221@15:02:23 [System] 
+ 
+20170221@15:02:30 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:02:30 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:30 [System] FileUpload1 
+20170221@15:02:30 [System] photoPreview 
+20170221@15:02:30 [System] DLPetInfoDetails_UpdateCommand 
+20170221@15:02:30 [System] updatePetInfo 
+20170221@15:02:30 [System] Record updated! 
+20170221@15:02:30 [System] changePhotoPathToDatabaseFolder 
+20170221@15:02:30 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\dog\labradorretriever 
+20170221@15:02:30 [System] deletePetPhoto 
+20170221@15:02:30 [System] Record not deleted! Please check through given parameter values 
+20170221@15:02:30 [System] Record created! 
+20170221@15:02:30 [System] Record created! 
+20170221@15:02:30 [System] Record created! 
+20170221@15:02:30 [System] Record created! 
+20170221@15:02:30 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:30 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:02:46 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:02:46 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:46 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@15:02:46 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:46 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:02:46 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:46 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:02:47 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:02:48 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:48 [System] DLPetInfoDetails_EditCommand 
+20170221@15:02:48 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:48 [System] FileUpload1 
+20170221@15:02:48 [System] photoPreview 
+20170221@15:02:48 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:02:55 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:02:55 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:55 [System] FileUpload1 
+20170221@15:02:55 [System] photoPreview 
+20170221@15:02:55 [System] DLPetInfoDetails_UpdateCommand 
+20170221@15:02:55 [System] updatePetInfo 
+20170221@15:02:55 [System] Record updated! 
+20170221@15:02:55 [System] changePhotoPathToDatabaseFolder 
+20170221@15:02:55 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\dog\labradorretriever 
+20170221@15:02:55 [System] deletePetPhoto 
+20170221@15:02:55 [System] Record not deleted! Please check through given parameter values 
+20170221@15:02:55 [System] Record created! 
+20170221@15:02:55 [System] Record created! 
+20170221@15:02:55 [System] Record created! 
+20170221@15:02:55 [System] Record created! 
+20170221@15:02:55 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:02:55 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:03:47 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:03:47 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:03:47 [System] DLPetInfoDetails_EditCommand 
+20170221@15:03:47 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:03:47 [System] FileUpload1 
+20170221@15:03:47 [System] photoPreview 
+20170221@15:03:47 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:03:49 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:03:49 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:03:49 [System] FileUpload1 
+20170221@15:03:49 [System] photoPreview 
+20170221@15:03:49 [System] DLPetInfoDetails_UpdateCommand 
+20170221@15:03:49 [System] updatePetInfo 
+20170221@15:03:49 [System] Record updated! 
+20170221@15:03:49 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:03:49 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:03:51 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:03:51 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:03:51 [System] DLPetInfoDetails_EditCommand 
+20170221@15:03:51 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:03:51 [System] FileUpload1 
+20170221@15:03:51 [System] photoPreview 
+20170221@15:03:51 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:03:58 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:03:58 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:03:58 [System] FileUpload1 
+20170221@15:03:58 [System] photoPreview 
+20170221@15:03:58 [System] BTNPreview_Click 
+20170221@15:03:58 [System] getEditedValues_Photos 
+20170221@15:03:58 [System] Dog 
+20170221@15:03:58 [System] SilkyTerrier 
+20170221@15:03:58 [System] photoPreview 
+20170221@15:03:58 [System] previewPhoto 
+20170221@15:03:58 [System] Check directory: ~/uploadedFiles/temp/petinfo/dog/silkyterrier 
+20170221@15:03:58 [System] Check directory result: False 
+20170221@15:03:58 [System] Temp directory: ~/uploadedFiles/temp/petinfo/dog/silkyterrier 
+20170221@15:03:58 [System] Total files posted: 4 
+20170221@15:03:58 [System] File name: SilkyTerrier000.jpg 
+20170221@15:03:58 [System] ~/uploadedFiles/temp/petinfo/dog/silkyterrier/SilkyTerrier000.jpg 
+20170221@15:03:58 [System] File name: SilkyTerrier100.jpg 
+20170221@15:03:58 [System] ~/uploadedFiles/temp/petinfo/dog/silkyterrier/SilkyTerrier100.jpg 
+20170221@15:03:58 [System] File name: SilkyTerrier101.jpg 
+20170221@15:03:58 [System] ~/uploadedFiles/temp/petinfo/dog/silkyterrier/SilkyTerrier101.jpg 
+20170221@15:03:58 [System] File name: SilkyTerrier102.jpg 
+20170221@15:03:58 [System] ~/uploadedFiles/temp/petinfo/dog/silkyterrier/SilkyTerrier102.jpg 
+20170221@15:03:58 [System] 
+ 
+20170221@15:04:01 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:04:01 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:01 [System] FileUpload1 
+20170221@15:04:01 [System] photoPreview 
+20170221@15:04:01 [System] DLPetInfoDetails_UpdateCommand 
+20170221@15:04:01 [System] updatePetInfo 
+20170221@15:04:01 [System] Record updated! 
+20170221@15:04:01 [System] changePhotoPathToDatabaseFolder 
+20170221@15:04:01 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\dog\silkyterrier 
+20170221@15:04:01 [System] deletePetPhoto 
+20170221@15:04:01 [System] Record deleted! 
+20170221@15:04:01 [System] Record created! 
+20170221@15:04:01 [System] Record created! 
+20170221@15:04:01 [System] Record created! 
+20170221@15:04:01 [System] Record created! 
+20170221@15:04:01 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:01 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:04:04 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:04:04 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:06 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:04:06 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@15:04:06 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:06 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:04:06 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:06 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:04:08 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:04:08 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:08 [System] DLPetInfoDetails_EditCommand 
+20170221@15:04:08 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:08 [System] FileUpload1 
+20170221@15:04:08 [System] photoPreview 
+20170221@15:04:08 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:04:13 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:04:13 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:13 [System] FileUpload1 
+20170221@15:04:13 [System] photoPreview 
+20170221@15:04:13 [System] DLPetInfoDetails_UpdateCommand 
+20170221@15:04:13 [System] updatePetInfo 
+20170221@15:04:13 [System] Record updated! 
+20170221@15:04:14 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:14 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:04:59 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:04:59 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:59 [System] DLPetInfoDetails_EditCommand 
+20170221@15:04:59 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:04:59 [System] FileUpload1 
+20170221@15:04:59 [System] photoPreview 
+20170221@15:04:59 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:05:06 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:05:06 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:05:06 [System] FileUpload1 
+20170221@15:05:06 [System] photoPreview 
+20170221@15:05:06 [System] BTNPreview_Click 
+20170221@15:05:06 [System] getEditedValues_Photos 
+20170221@15:05:06 [System] Dog 
+20170221@15:05:06 [System] WestHighlandWhiteTerrier 
+20170221@15:05:06 [System] photoPreview 
+20170221@15:05:06 [System] previewPhoto 
+20170221@15:05:06 [System] Check directory: ~/uploadedFiles/temp/petinfo/dog/westhighlandwhiteterrier 
+20170221@15:05:06 [System] Check directory result: False 
+20170221@15:05:06 [System] Temp directory: ~/uploadedFiles/temp/petinfo/dog/westhighlandwhiteterrier 
+20170221@15:05:06 [System] Total files posted: 4 
+20170221@15:05:06 [System] File name: WestHighlandWhiteTerrier000.jpg 
+20170221@15:05:06 [System] ~/uploadedFiles/temp/petinfo/dog/westhighlandwhiteterrier/WestHighlandWhiteTerrier000.jpg 
+20170221@15:05:06 [System] File name: WestHighlandWhiteTerrier001.jpg 
+20170221@15:05:06 [System] ~/uploadedFiles/temp/petinfo/dog/westhighlandwhiteterrier/WestHighlandWhiteTerrier001.jpg 
+20170221@15:05:06 [System] File name: WestHighlandWhiteTerrier100.jpg 
+20170221@15:05:06 [System] ~/uploadedFiles/temp/petinfo/dog/westhighlandwhiteterrier/WestHighlandWhiteTerrier100.jpg 
+20170221@15:05:06 [System] File name: WestHighlandWhiteTerrier101.jpg 
+20170221@15:05:06 [System] ~/uploadedFiles/temp/petinfo/dog/westhighlandwhiteterrier/WestHighlandWhiteTerrier101.jpg 
+20170221@15:05:06 [System] 
+ 
+20170221@15:05:10 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:05:10 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:05:10 [System] FileUpload1 
+20170221@15:05:10 [System] photoPreview 
+20170221@15:05:10 [System] DLPetInfoDetails_UpdateCommand 
+20170221@15:05:10 [System] updatePetInfo 
+20170221@15:05:10 [System] Record updated! 
+20170221@15:05:10 [System] changePhotoPathToDatabaseFolder 
+20170221@15:05:10 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\dog\westhighlandwhiteterrier 
+20170221@15:05:10 [System] deletePetPhoto 
+20170221@15:05:10 [System] Record not deleted! Please check through given parameter values 
+20170221@15:05:10 [System] Record created! 
+20170221@15:05:10 [System] Record created! 
+20170221@15:05:10 [System] Record created! 
+20170221@15:05:10 [System] Record created! 
+20170221@15:05:10 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:05:10 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:06:12 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:06:13 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:13 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170221@15:06:13 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:13 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:06:13 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:13 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:06:14 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:06:14 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:14 [System] DLPetInfoDetails_EditCommand 
+20170221@15:06:14 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:14 [System] FileUpload1 
+20170221@15:06:14 [System] photoPreview 
+20170221@15:06:14 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:06:19 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:06:19 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:19 [System] FileUpload1 
+20170221@15:06:19 [System] photoPreview 
+20170221@15:06:19 [System] DLPetInfoDetails_CancelCommand 
+20170221@15:06:20 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:20 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:06:20 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:06:20 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:20 [System] DLPetInfoDetails_EditCommand 
+20170221@15:06:21 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:21 [System] FileUpload1 
+20170221@15:06:21 [System] photoPreview 
+20170221@15:06:21 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:06:25 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:06:25 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:25 [System] FileUpload1 
+20170221@15:06:25 [System] photoPreview 
+20170221@15:06:25 [System] DLPetInfoDetails_UpdateCommand 
+20170221@15:06:25 [System] updatePetInfo 
+20170221@15:06:25 [System] Record updated! 
+20170221@15:06:25 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:25 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:06:27 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:06:28 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:28 [System] DLPetInfoDetails_EditCommand 
+20170221@15:06:28 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:28 [System] FileUpload1 
+20170221@15:06:28 [System] photoPreview 
+20170221@15:06:28 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:06:37 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:06:37 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:37 [System] FileUpload1 
+20170221@15:06:37 [System] photoPreview 
+20170221@15:06:37 [System] BTNPreview_Click 
+20170221@15:06:38 [System] getEditedValues_Photos 
+20170221@15:06:38 [System] Dog 
+20170221@15:06:38 [System] YorkshireTerrier 
+20170221@15:06:38 [System] photoPreview 
+20170221@15:06:38 [System] previewPhoto 
+20170221@15:06:38 [System] Check directory: ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier 
+20170221@15:06:38 [System] Check directory result: False 
+20170221@15:06:38 [System] Temp directory: ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier 
+20170221@15:06:38 [System] Total files posted: 4 
+20170221@15:06:38 [System] File name: YorkshireTerrier000.jpg 
+20170221@15:06:38 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/YorkshireTerrier000.jpg 
+20170221@15:06:38 [System] File name: YorkshireTerrier001.jpg 
+20170221@15:06:38 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/YorkshireTerrier001.jpg 
+20170221@15:06:38 [System] File name: YorkshireTerrier002.jpg 
+20170221@15:06:38 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/YorkshireTerrier002.jpg 
+20170221@15:06:38 [System] File name: YorkshireTerrier100.jpg 
+20170221@15:06:38 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/YorkshireTerrier100.jpg 
+20170221@15:06:38 [System] 
+ 
+20170221@15:06:43 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:06:43 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:43 [System] FileUpload1 
+20170221@15:06:43 [System] photoPreview 
+20170221@15:06:43 [System] DLPetInfoDetails_UpdateCommand 
+20170221@15:06:43 [System] updatePetInfo 
+20170221@15:06:43 [System] Record updated! 
+20170221@15:06:43 [System] changePhotoPathToDatabaseFolder 
+20170221@15:06:43 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\dog\yorkshireterrier 
+20170221@15:06:43 [System] deletePetPhoto 
+20170221@15:06:43 [System] Record not deleted! Please check through given parameter values 
+20170221@15:06:43 [System] Record created! 
+20170221@15:06:44 [System] Record created! 
+20170221@15:06:44 [System] Record created! 
+20170221@15:06:44 [System] Record created! 
+20170221@15:06:44 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:06:44 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:07:14 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:07:14 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:07:14 [System] DLPetInfoDetails_EditCommand 
+20170221@15:07:15 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:07:15 [System] FileUpload1 
+20170221@15:07:15 [System] photoPreview 
+20170221@15:07:15 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:07:19 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:07:19 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:07:19 [System] FileUpload1 
+20170221@15:07:19 [System] photoPreview 
+20170221@15:07:19 [System] BTNPreview_Click 
+20170221@15:07:19 [System] getEditedValues_Photos 
+20170221@15:07:19 [System] Dog 
+20170221@15:07:19 [System] YorkshireTerrier 
+20170221@15:07:19 [System] photoPreview 
+20170221@15:07:19 [System] previewPhoto 
+20170221@15:07:19 [System] Check directory: ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier 
+20170221@15:07:19 [System] Check directory result: True 
+20170221@15:07:19 [System] Removing old files: ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier 
+20170221@15:07:19 [System] Temp directory: ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier 
+20170221@15:07:19 [System] Total files posted: 8 
+20170221@15:07:19 [System] File name: Corgi100.jpg 
+20170221@15:07:19 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/Corgi100.jpg 
+20170221@15:07:19 [System] File name: Corgi101.jpg 
+20170221@15:07:19 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/Corgi101.jpg 
+20170221@15:07:19 [System] File name: GermanShepherd000.jpg 
+20170221@15:07:19 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/GermanShepherd000.jpg 
+20170221@15:07:19 [System] File name: GermanShepherd001.jpg 
+20170221@15:07:19 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/GermanShepherd001.jpg 
+20170221@15:07:19 [System] File name: GermanShepherd100.jpg 
+20170221@15:07:19 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/GermanShepherd100.jpg 
+20170221@15:07:19 [System] File name: GermanShepherd101.jpg 
+20170221@15:07:19 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/GermanShepherd101.jpg 
+20170221@15:07:19 [System] File name: GoldenRetriever000.jpg 
+20170221@15:07:19 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/GoldenRetriever000.jpg 
+20170221@15:07:19 [System] File name: GoldenRetriever001.jpg 
+20170221@15:07:19 [System] ~/uploadedFiles/temp/petinfo/dog/yorkshireterrier/GoldenRetriever001.jpg 
+20170221@15:07:19 [System] 
+ 
+20170221@15:07:36 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170221@15:07:36 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:07:36 [System] FileUpload1 
+20170221@15:07:36 [System] photoPreview 
+20170221@15:07:36 [System] DLPetInfoDetails_CancelCommand 
+20170221@15:07:36 [System] DLPetInfoDetails_ItemCreated 
+20170221@15:07:36 [System] DLPetInfoDetails_ItemDataBound 
+20170221@15:07:41 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170221@15:07:48 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:29:17 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:30:48 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:30:48 [System] No account logged in 
+20170221@15:30:48 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:30:57 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:30:57 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@15:30:59 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:31:10 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:31:10 [System] SELECT * FROM ACCOUNT WHERE (ACCOUNTPASSWORD = @ACCOUNTPASSWORD) AND (ACCOUNTID = @ACCOUNTID) 
+20170221@15:31:10 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:31:10 [System] Record not created! 
+20170221@15:31:10 [System] MessageHandler : . Please contact admin 
+20170221@15:36:00 [System] getLoggedInAccount 
+20170221@15:36:00 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:36:00 [System] getLoggedInAccount 
+20170221@15:36:21 [System] getLoggedInAccount 
+20170221@15:36:21 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:36:21 [System] getLoggedInAccount 
+20170221@15:36:21 [System] loginAccount 
+20170221@15:36:21 [System] getLoggedInAccount 
+20170221@15:36:21 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@15:36:21 [System] getLoggedInAccount 
+20170221@15:36:21 [System] getLoggedInAccount 
+20170221@15:36:21 [System] getLoggedInAccount 
+20170221@15:36:25 [System] getLoggedInAccount 
+20170221@15:36:25 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:36:25 [System] getLoggedInAccount 
+20170221@15:36:25 [System] getLoggedInAccount 
+20170221@15:36:25 [System] getLoggedInAccount 
+20170221@15:36:35 [System] getLoggedInAccount 
+20170221@15:36:36 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:36:36 [System] getLoggedInAccount 
+20170221@15:36:36 [System] getLoggedInAccount 
+20170221@15:36:36 [System] getLoggedInAccount 
+20170221@15:36:36 [System] checkPassword 
+20170221@15:36:36 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:36:44 [System] changePassword 
+20170221@15:37:05 [System] Record not created! 
+20170221@15:37:19 [System] MessageHandler : . Please contact admin 
+20170221@15:39:14 [System] getLoggedInAccount 
+20170221@15:39:14 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:39:14 [System] getLoggedInAccount 
+20170221@15:39:17 [System] getLoggedInAccount 
+20170221@15:39:17 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:39:17 [System] No account logged in 
+20170221@15:39:17 [System] getLoggedInAccount 
+20170221@15:39:17 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:39:17 [System] getLoggedInAccount 
+20170221@15:39:23 [System] getLoggedInAccount 
+20170221@15:39:23 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:39:23 [System] getLoggedInAccount 
+20170221@15:39:23 [System] loginAccount 
+20170221@15:39:23 [System] MessageHandler : You are not authorised here 
+20170221@15:39:31 [System] getLoggedInAccount 
+20170221@15:39:31 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:39:31 [System] getLoggedInAccount 
+20170221@15:39:31 [System] loginAccount 
+20170221@15:39:32 [System] MessageHandler : Invalid email or password 
+20170221@15:39:37 [System] getLoggedInAccount 
+20170221@15:39:37 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:39:37 [System] getLoggedInAccount 
+20170221@15:39:37 [System] loginAccount 
+20170221@15:39:38 [System] getLoggedInAccount 
+20170221@15:39:38 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@15:39:38 [System] getLoggedInAccount 
+20170221@15:39:38 [System] getLoggedInAccount 
+20170221@15:39:38 [System] getLoggedInAccount 
+20170221@15:39:41 [System] getLoggedInAccount 
+20170221@15:39:41 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:39:41 [System] getLoggedInAccount 
+20170221@15:39:41 [System] getLoggedInAccount 
+20170221@15:39:41 [System] getLoggedInAccount 
+20170221@15:39:56 [System] getLoggedInAccount 
+20170221@15:39:56 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:39:56 [System] getLoggedInAccount 
+20170221@15:39:56 [System] getLoggedInAccount 
+20170221@15:39:56 [System] getLoggedInAccount 
+20170221@15:39:56 [System] checkPassword 
+20170221@15:39:56 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:39:56 [System] changePassword 
+20170221@15:39:56 [System] Record not updated! Please check through given parameter values 
+20170221@15:40:21 [System] MessageHandler : . Please contact admin 
+20170221@15:40:36 [System] getLoggedInAccount 
+20170221@15:40:36 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:40:36 [System] getLoggedInAccount 
+20170221@15:40:36 [System] getLoggedInAccount 
+20170221@15:40:36 [System] getLoggedInAccount 
+20170221@15:40:36 [System] checkPassword 
+20170221@15:40:36 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:40:39 [System] changePassword 
+20170221@15:41:13 [System] Record not updated! Please check through given parameter values 
+20170221@15:41:13 [System] MessageHandler : . Please contact admin 
+20170221@15:41:26 [System] getLoggedInAccount 
+20170221@15:41:26 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:41:26 [System] getLoggedInAccount 
+20170221@15:41:26 [System] getLoggedInAccount 
+20170221@15:41:26 [System] getLoggedInAccount 
+20170221@15:41:26 [System] checkPassword 
+20170221@15:41:26 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:41:26 [System] changePassword 
+20170221@15:41:26 [System] Record not updated! Please check through given parameter values 
+20170221@15:41:26 [System] MessageHandler : . Please contact admin 
+20170221@15:41:32 [System] getLoggedInAccount 
+20170221@15:41:32 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:41:32 [System] getLoggedInAccount 
+20170221@15:41:32 [System] getLoggedInAccount 
+20170221@15:41:32 [System] getLoggedInAccount 
+20170221@15:41:34 [System] getLoggedInAccount 
+20170221@15:41:34 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:41:34 [System] getLoggedInAccount 
+20170221@15:41:34 [System] getLoggedInAccount 
+20170221@15:41:34 [System] getLoggedInAccount 
+20170221@15:41:34 [System] MessageHandler : Cannot be empty 
+20170221@15:41:34 [System] MessageHandler : Cannot be empty 
+20170221@15:41:43 [System] getLoggedInAccount 
+20170221@15:41:43 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:41:43 [System] getLoggedInAccount 
+20170221@15:41:43 [System] getLoggedInAccount 
+20170221@15:41:43 [System] getLoggedInAccount 
+20170221@15:41:43 [System] checkPassword 
+20170221@15:41:43 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:41:43 [System] changePassword 
+20170221@15:41:43 [System] Record not updated! Please check through given parameter values 
+20170221@15:41:43 [System] MessageHandler : . Please contact admin 
+20170221@15:42:02 [System] getLoggedInAccount 
+20170221@15:42:02 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:42:02 [System] getLoggedInAccount 
+20170221@15:42:08 [System] getLoggedInAccount 
+20170221@15:42:08 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:42:08 [System] getLoggedInAccount 
+20170221@15:42:08 [System] loginAccount 
+20170221@15:42:08 [System] getLoggedInAccount 
+20170221@15:42:08 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@15:42:08 [System] getLoggedInAccount 
+20170221@15:42:08 [System] getLoggedInAccount 
+20170221@15:42:08 [System] getLoggedInAccount 
+20170221@15:42:10 [System] getLoggedInAccount 
+20170221@15:42:10 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:42:10 [System] getLoggedInAccount 
+20170221@15:42:10 [System] getLoggedInAccount 
+20170221@15:42:10 [System] getLoggedInAccount 
+20170221@15:42:18 [System] getLoggedInAccount 
+20170221@15:42:18 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:42:18 [System] getLoggedInAccount 
+20170221@15:42:18 [System] getLoggedInAccount 
+20170221@15:42:18 [System] getLoggedInAccount 
+20170221@15:42:18 [System] checkPassword 
+20170221@15:42:18 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:42:18 [System] changePassword 
+20170221@15:42:18 [System] Record not updated! Please check through given parameter values 
+20170221@15:42:18 [System] MessageHandler : . Please contact admin 
+20170221@15:43:20 [System] getLoggedInAccount 
+20170221@15:43:20 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:43:20 [System] getLoggedInAccount 
+20170221@15:43:20 [System] getLoggedInAccount 
+20170221@15:43:20 [System] getLoggedInAccount 
+20170221@15:43:28 [System] getLoggedInAccount 
+20170221@15:43:28 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:43:28 [System] getLoggedInAccount 
+20170221@15:43:28 [System] getLoggedInAccount 
+20170221@15:43:28 [System] getLoggedInAccount 
+20170221@15:43:28 [System] checkPassword 
+20170221@15:43:28 [System] No data found in getValue() 
+20170221@15:43:28 [System] MessageHandler : Invalid old password 
+20170221@15:43:35 [System] getLoggedInAccount 
+20170221@15:43:35 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:43:35 [System] getLoggedInAccount 
+20170221@15:43:35 [System] getLoggedInAccount 
+20170221@15:43:35 [System] getLoggedInAccount 
+20170221@15:43:35 [System] checkPassword 
+20170221@15:43:35 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:43:35 [System] changePassword 
+20170221@15:43:35 [System] Record not updated! Please check through given parameter values 
+20170221@15:43:35 [System] MessageHandler : . Please contact admin 
+20170221@15:44:20 [System] getLoggedInAccount 
+20170221@15:44:20 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:44:20 [System] getLoggedInAccount 
+20170221@15:44:27 [System] getLoggedInAccount 
+20170221@15:44:27 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@15:44:27 [System] getLoggedInAccount 
+20170221@15:44:27 [System] loginAccount 
+20170221@15:44:27 [System] getLoggedInAccount 
+20170221@15:44:27 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@15:44:27 [System] getLoggedInAccount 
+20170221@15:44:27 [System] getLoggedInAccount 
+20170221@15:44:27 [System] getLoggedInAccount 
+20170221@15:44:31 [System] getLoggedInAccount 
+20170221@15:44:31 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:44:31 [System] getLoggedInAccount 
+20170221@15:44:31 [System] getLoggedInAccount 
+20170221@15:44:31 [System] getLoggedInAccount 
+20170221@15:44:37 [System] getLoggedInAccount 
+20170221@15:44:37 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:44:37 [System] getLoggedInAccount 
+20170221@15:44:37 [System] getLoggedInAccount 
+20170221@15:44:37 [System] getLoggedInAccount 
+20170221@15:44:37 [System] checkPassword 
+20170221@15:44:37 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:44:43 [System] changePassword 
+20170221@15:45:05 [System] Record updated! 
+20170221@15:46:10 [System] getLoggedInAccount 
+20170221@15:46:10 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:46:10 [System] getLoggedInAccount 
+20170221@15:46:10 [System] getLoggedInAccount 
+20170221@15:46:10 [System] getLoggedInAccount 
+20170221@15:46:10 [System] checkPassword 
+20170221@15:46:10 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:46:10 [System] changePassword 
+20170221@15:46:10 [System] Record updated! 
+20170221@15:50:03 [System] getLoggedInAccount 
+20170221@15:50:03 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:50:03 [System] getLoggedInAccount 
+20170221@15:50:03 [System] getLoggedInAccount 
+20170221@15:50:03 [System] getLoggedInAccount 
+20170221@15:50:17 [System] getLoggedInAccount 
+20170221@15:50:17 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:50:17 [System] getLoggedInAccount 
+20170221@15:50:17 [System] getLoggedInAccount 
+20170221@15:50:17 [System] getLoggedInAccount 
+20170221@15:51:34 [System] getLoggedInAccount 
+20170221@15:51:34 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:51:34 [System] getLoggedInAccount 
+20170221@15:51:34 [System] getLoggedInAccount 
+20170221@15:51:34 [System] getLoggedInAccount 
+20170221@15:51:34 [System] MessageHandler : New password must have at least a digit 
+20170221@15:51:42 [System] getLoggedInAccount 
+20170221@15:51:42 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:51:42 [System] getLoggedInAccount 
+20170221@15:51:42 [System] getLoggedInAccount 
+20170221@15:51:42 [System] getLoggedInAccount 
+20170221@15:51:42 [System] checkPassword 
+20170221@15:51:42 [System] getValue() is webadmin00@hotmail.com 
+20170221@15:51:42 [System] changePassword 
+20170221@15:51:42 [System] Record updated! 
+20170221@15:51:46 [System] getLoggedInAccount 
+20170221@15:51:46 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@15:51:46 [System] getLoggedInAccount 
+20170221@15:51:46 [System] getLoggedInAccount 
+20170221@15:51:46 [System] getLoggedInAccount 
+20170221@15:51:46 [System] MessageHandler : New password cannot be the same as old password 
+20170221@16:04:25 [System] getLoggedInAccount 
+20170221@16:04:25 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:04:25 [System] getLoggedInAccount 
+20170221@16:04:25 [System] getLoggedInAccount 
+20170221@16:04:25 [System] getLoggedInAccount 
+20170221@16:17:51 [System] getLoggedInAccount 
+20170221@16:17:51 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:17:51 [System] getLoggedInAccount 
+20170221@16:17:51 [System] getLoggedInAccount 
+20170221@16:17:51 [System] getLoggedInAccount 
+20170221@16:24:38 [System] getLoggedInAccount 
+20170221@16:24:38 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:24:38 [System] getLoggedInAccount 
+20170221@16:24:38 [System] getLoggedInAccount 
+20170221@16:24:38 [System] getLoggedInAccount 
+20170221@16:24:47 [System] getLoggedInAccount 
+20170221@16:24:47 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:24:47 [System] getLoggedInAccount 
+20170221@16:24:47 [System] getLoggedInAccount 
+20170221@16:24:47 [System] getLoggedInAccount 
+20170221@16:24:47 [System] MessageHandler : Old or new password cannot be empty 
+20170221@16:24:57 [System] getLoggedInAccount 
+20170221@16:24:57 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:24:57 [System] getLoggedInAccount 
+20170221@16:24:57 [System] getLoggedInAccount 
+20170221@16:24:57 [System] getLoggedInAccount 
+20170221@16:24:57 [System] checkPassword 
+20170221@16:24:57 [System] No data found in getValue() 
+20170221@16:25:01 [System] getLoggedInAccount 
+20170221@16:25:01 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:25:01 [System] getLoggedInAccount 
+20170221@16:25:01 [System] getLoggedInAccount 
+20170221@16:25:01 [System] getLoggedInAccount 
+20170221@16:25:01 [System] checkPassword 
+20170221@16:25:01 [System] No data found in getValue() 
+20170221@16:26:25 [System] getLoggedInAccount 
+20170221@16:26:25 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@16:26:25 [System] getLoggedInAccount 
+20170221@16:26:35 [System] getLoggedInAccount 
+20170221@16:26:35 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@16:26:35 [System] getLoggedInAccount 
+20170221@16:26:35 [System] loginAccount 
+20170221@16:26:35 [System] getLoggedInAccount 
+20170221@16:26:35 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@16:26:35 [System] getLoggedInAccount 
+20170221@16:26:35 [System] getLoggedInAccount 
+20170221@16:26:35 [System] getLoggedInAccount 
+20170221@16:26:39 [System] getLoggedInAccount 
+20170221@16:26:39 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:26:39 [System] getLoggedInAccount 
+20170221@16:26:39 [System] getLoggedInAccount 
+20170221@16:26:39 [System] getLoggedInAccount 
+20170221@16:26:55 [System] getLoggedInAccount 
+20170221@16:26:55 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:26:55 [System] getLoggedInAccount 
+20170221@16:26:55 [System] getLoggedInAccount 
+20170221@16:26:55 [System] getLoggedInAccount 
+20170221@16:26:55 [System] checkPassword 
+20170221@16:26:55 [System] No data found in getValue() 
+20170221@16:27:50 [System] getLoggedInAccount 
+20170221@16:27:50 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@16:27:50 [System] getLoggedInAccount 
+20170221@16:27:58 [System] getLoggedInAccount 
+20170221@16:27:58 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:27:58 [System] getLoggedInAccount 
+20170221@16:27:58 [System] getLoggedInAccount 
+20170221@16:27:58 [System] getLoggedInAccount 
+20170221@16:28:30 [System] checkPassword 
+20170221@16:28:30 [System] No data found in getValue() 
+20170221@16:28:52 [System] getLoggedInAccount 
+20170221@16:28:52 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:28:52 [System] getLoggedInAccount 
+20170221@16:28:52 [System] getLoggedInAccount 
+20170221@16:28:52 [System] getLoggedInAccount 
+20170221@16:28:52 [System] checkPassword 
+20170221@16:28:52 [System] No data found in getValue() 
+20170221@16:28:52 [System] MessageHandler : . Please contact admin 
+20170221@16:29:04 [System] getLoggedInAccount 
+20170221@16:29:04 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@16:29:04 [System] getLoggedInAccount 
+20170221@16:29:08 [System] getLoggedInAccount 
+20170221@16:29:08 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:29:08 [System] getLoggedInAccount 
+20170221@16:29:08 [System] getLoggedInAccount 
+20170221@16:29:08 [System] getLoggedInAccount 
+20170221@16:29:27 [System] checkPassword 
+20170221@16:29:55 [System] No data found in getValue() 
+20170221@16:30:23 [System] MessageHandler : . Please contact admin 
+20170221@16:31:01 [System] getLoggedInAccount 
+20170221@16:31:01 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:31:01 [System] getLoggedInAccount 
+20170221@16:31:01 [System] getLoggedInAccount 
+20170221@16:31:01 [System] getLoggedInAccount 
+20170221@16:31:01 [System] checkPassword 
+20170221@16:31:01 [System] No data found in getValue() 
+20170221@16:31:01 [System] MessageHandler : Invalid old password 
+20170221@16:31:10 [System] getLoggedInAccount 
+20170221@16:31:10 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:31:10 [System] getLoggedInAccount 
+20170221@16:31:10 [System] getLoggedInAccount 
+20170221@16:31:10 [System] getLoggedInAccount 
+20170221@16:31:10 [System] MessageHandler : New password cannot be the same as old password 
+20170221@16:31:14 [System] getLoggedInAccount 
+20170221@16:31:14 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:31:14 [System] getLoggedInAccount 
+20170221@16:31:14 [System] getLoggedInAccount 
+20170221@16:31:14 [System] getLoggedInAccount 
+20170221@16:31:14 [System] MessageHandler : Old or new password cannot be empty 
+20170221@16:31:19 [System] getLoggedInAccount 
+20170221@16:31:19 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:31:19 [System] getLoggedInAccount 
+20170221@16:31:19 [System] getLoggedInAccount 
+20170221@16:31:19 [System] getLoggedInAccount 
+20170221@16:31:45 [System] getLoggedInAccount 
+20170221@16:31:45 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:31:45 [System] getLoggedInAccount 
+20170221@16:31:45 [System] getLoggedInAccount 
+20170221@16:31:45 [System] getLoggedInAccount 
+20170221@16:31:56 [System] getLoggedInAccount 
+20170221@16:31:56 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:31:56 [System] getLoggedInAccount 
+20170221@16:31:56 [System] getLoggedInAccount 
+20170221@16:31:56 [System] getLoggedInAccount 
+20170221@16:33:10 [System] getLoggedInAccount 
+20170221@16:33:10 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:33:10 [System] getLoggedInAccount 
+20170221@16:33:10 [System] getLoggedInAccount 
+20170221@16:33:10 [System] getLoggedInAccount 
+20170221@16:42:12 [System] getLoggedInAccount 
+20170221@16:42:12 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:42:12 [System] No account logged in 
+20170221@16:42:12 [System] getLoggedInAccount 
+20170221@16:42:12 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@16:42:12 [System] getLoggedInAccount 
+20170221@16:42:21 [System] getLoggedInAccount 
+20170221@16:42:21 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@16:42:21 [System] getLoggedInAccount 
+20170221@16:42:21 [System] loginAccount 
+20170221@16:42:21 [System] getLoggedInAccount 
+20170221@16:42:21 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@16:42:21 [System] getLoggedInAccount 
+20170221@16:42:21 [System] getLoggedInAccount 
+20170221@16:42:21 [System] getLoggedInAccount 
+20170221@16:42:26 [System] getLoggedInAccount 
+20170221@16:42:26 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:42:26 [System] getLoggedInAccount 
+20170221@16:42:26 [System] getLoggedInAccount 
+20170221@16:42:26 [System] getLoggedInAccount 
+20170221@16:42:46 [System] getLoggedInAccount 
+20170221@16:42:46 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@16:42:46 [System] getLoggedInAccount 
+20170221@16:42:46 [System] getLoggedInAccount 
+20170221@16:42:46 [System] getLoggedInAccount 
+20170221@16:42:55 [System] getLoggedInAccount 
+20170221@16:42:55 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:42:55 [System] getLoggedInAccount 
+20170221@16:42:55 [System] getLoggedInAccount 
+20170221@16:42:55 [System] getLoggedInAccount 
+20170221@16:43:01 [System] getLoggedInAccount 
+20170221@16:43:01 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:43:01 [System] getLoggedInAccount 
+20170221@16:43:01 [System] getLoggedInAccount 
+20170221@16:43:01 [System] getLoggedInAccount 
+20170221@16:43:01 [System] MessageHandler : Name 
+20170221@16:43:05 [System] getLoggedInAccount 
+20170221@16:43:05 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:43:05 [System] getLoggedInAccount 
+20170221@16:43:05 [System] getLoggedInAccount 
+20170221@16:43:05 [System] getLoggedInAccount 
+20170221@16:43:05 [System] MessageHandler : Name 
+20170221@16:43:09 [System] getLoggedInAccount 
+20170221@16:43:09 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:43:09 [System] getLoggedInAccount 
+20170221@16:43:09 [System] getLoggedInAccount 
+20170221@16:43:09 [System] getLoggedInAccount 
+20170221@16:43:09 [System] MessageHandler : Name 
+20170221@16:43:49 [System] getLoggedInAccount 
+20170221@16:43:49 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:43:49 [System] getLoggedInAccount 
+20170221@16:43:49 [System] getLoggedInAccount 
+20170221@16:43:49 [System] getLoggedInAccount 
+20170221@16:43:49 [System] MessageHandler : Name 
+20170221@16:43:56 [System] getLoggedInAccount 
+20170221@16:43:56 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:43:56 [System] getLoggedInAccount 
+20170221@16:43:56 [System] getLoggedInAccount 
+20170221@16:43:56 [System] getLoggedInAccount 
+20170221@16:43:56 [System] MessageHandler : Name - Cannot be empty 
+20170221@16:47:58 [System] getLoggedInAccount 
+20170221@16:47:58 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:47:58 [System] getLoggedInAccount 
+20170221@16:47:58 [System] getLoggedInAccount 
+20170221@16:47:58 [System] getLoggedInAccount 
+20170221@16:47:58 [System] MessageHandler : Name - Cannot be empty 
+20170221@16:48:02 [System] getLoggedInAccount 
+20170221@16:48:02 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:48:02 [System] getLoggedInAccount 
+20170221@16:48:02 [System] getLoggedInAccount 
+20170221@16:48:02 [System] getLoggedInAccount 
+20170221@16:48:02 [System] MessageHandler : Name - Cannot be empty 
+20170221@16:48:04 [System] getLoggedInAccount 
+20170221@16:48:04 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@16:48:04 [System] getLoggedInAccount 
+20170221@16:48:04 [System] getLoggedInAccount 
+20170221@16:48:04 [System] getLoggedInAccount 
+20170221@16:48:04 [System] MessageHandler : Name 
+20170221@17:01:53 [System] getLoggedInAccount 
+20170221@17:01:53 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@17:01:53 [System] getLoggedInAccount 
+20170221@17:01:57 [System] getLoggedInAccount 
+20170221@17:01:57 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@17:01:57 [System] No account logged in 
+20170221@17:01:57 [System] getLoggedInAccount 
+20170221@17:01:57 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@17:01:57 [System] getLoggedInAccount 
+20170221@17:02:06 [System] getLoggedInAccount 
+20170221@17:02:06 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@17:02:06 [System] getLoggedInAccount 
+20170221@17:02:06 [System] loginAccount 
+20170221@17:02:06 [System] getLoggedInAccount 
+20170221@17:02:06 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@17:02:06 [System] getLoggedInAccount 
+20170221@17:02:06 [System] getLoggedInAccount 
+20170221@17:02:06 [System] getLoggedInAccount 
+20170221@17:03:01 [System] getLoggedInAccount 
+20170221@17:03:01 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@17:03:01 [System] getLoggedInAccount 
+20170221@17:03:01 [System] getLoggedInAccount 
+20170221@17:03:01 [System] getLoggedInAccount 
+20170221@17:03:16 [System] getLoggedInAccount 
+20170221@17:03:16 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@17:03:16 [System] getLoggedInAccount 
+20170221@17:03:16 [System] getLoggedInAccount 
+20170221@17:03:16 [System] getLoggedInAccount 
+20170221@17:03:16 [System] MessageHandler : Name 
+20170221@17:03:16 [System] Record updated! 
+20170221@17:03:23 [System] getLoggedInAccount 
+20170221@17:03:23 [System] Page loaded: http://localhost:65063/AdminAccount.aspx 
+20170221@17:03:23 [System] getLoggedInAccount 
+20170221@17:03:23 [System] getLoggedInAccount 
+20170221@17:03:23 [System] getLoggedInAccount 
+20170221@17:03:28 [System] getLoggedInAccount 
+20170221@17:03:28 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@17:03:28 [System] getLoggedInAccount 
+20170221@17:03:28 [System] getLoggedInAccount 
+20170221@17:03:28 [System] getLoggedInAccount 
+20170221@17:03:36 [System] getLoggedInAccount 
+20170221@17:03:36 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@17:03:36 [System] getLoggedInAccount 
+20170221@17:03:36 [System] getLoggedInAccount 
+20170221@17:03:36 [System] getLoggedInAccount 
+20170221@17:03:36 [System] MessageHandler : Name 
+20170221@17:03:36 [System] Record updated! 
+20170221@17:03:40 [System] getLoggedInAccount 
+20170221@17:03:40 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@17:03:40 [System] getLoggedInAccount 
+20170221@17:03:40 [System] getLoggedInAccount 
+20170221@17:03:40 [System] getLoggedInAccount 
+20170221@17:03:40 [System] MessageHandler : Name - Cannot be empty 
+20170221@17:05:04 [System] getLoggedInAccount 
+20170221@17:05:04 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@17:05:04 [System] getLoggedInAccount 
+20170221@17:05:04 [System] getLoggedInAccount 
+20170221@17:05:04 [System] getLoggedInAccount 
+20170221@17:05:04 [System] MessageHandler : Name 
+20170221@17:05:04 [System] Record updated! 
+20170221@17:34:56 [System] getLoggedInAccount 
+20170221@17:34:56 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@17:34:56 [System] getLoggedInAccount 
+20170221@17:34:56 [System] getLoggedInAccount 
+20170221@17:34:56 [System] getLoggedInAccount 
+20170221@17:38:03 [System] getLoggedInAccount 
+20170221@17:38:03 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@17:38:03 [System] getLoggedInAccount 
+20170221@17:38:03 [System] getLoggedInAccount 
+20170221@17:38:03 [System] getLoggedInAccount 
+20170221@17:38:44 [System] getLoggedInAccount 
+20170221@17:38:44 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170221@17:38:44 [System] getLoggedInAccount 
+20170221@17:38:44 [System] getLoggedInAccount 
+20170221@17:38:44 [System] getLoggedInAccount 
+20170221@17:38:46 [System] getLoggedInAccount 
+20170221@17:38:46 [System] getLoggedInAccount 
+20170221@17:40:16 [System] getLoggedInAccount 
+20170221@17:40:16 [System] getLoggedInAccount 
+20170221@17:40:48 [System] getLoggedInAccount 
+20170221@17:40:48 [System] getLoggedInAccount 
+20170221@17:41:17 [System] getLoggedInAccount 
+20170221@17:41:17 [System] getLoggedInAccount 
+20170221@17:41:27 [System] getLoggedInAccount 
+20170221@17:41:27 [System] getLoggedInAccount 
+20170221@17:41:41 [System] getLoggedInAccount 
+20170221@17:41:41 [System] getLoggedInAccount 
+20170221@17:42:38 [System] getLoggedInAccount 
+20170221@17:42:38 [System] getLoggedInAccount 
+20170221@17:43:02 [System] getLoggedInAccount 
+20170221@17:43:02 [System] getLoggedInAccount 
+20170221@17:43:19 [System] getLoggedInAccount 
+20170221@17:43:19 [System] getLoggedInAccount 
+20170221@17:43:35 [System] getLoggedInAccount 
+20170221@17:43:35 [System] getLoggedInAccount 
+20170221@17:43:59 [System] getLoggedInAccount 
+20170221@17:44:06 [System] getLoggedInAccount 
+20170221@17:44:36 [System] getLoggedInAccount 
+20170221@17:45:04 [System] getLoggedInAccount 
+20170221@17:50:11 [System] getLoggedInAccount 
+20170221@17:51:34 [System] getLoggedInAccount 
+20170221@17:52:02 [System] getLoggedInAccount 
+20170221@17:52:15 [System] getLoggedInAccount 
+20170221@17:52:27 [System] getLoggedInAccount 
+20170221@17:54:32 [System] getLoggedInAccount 
+20170221@17:54:46 [System] getLoggedInAccount 
+20170221@17:55:33 [System] getLoggedInAccount 
+20170221@17:55:52 [System] getLoggedInAccount 
+20170221@17:56:18 [System] getLoggedInAccount 
+20170221@17:59:55 [System] getLoggedInAccount 
+20170221@18:00:11 [System] getLoggedInAccount 
+20170221@18:01:08 [System] getLoggedInAccount 
+20170221@18:03:16 [System] getLoggedInAccount 
+20170221@18:03:32 [System] getLoggedInAccount 
+20170221@18:03:39 [System] getLoggedInAccount 
+20170221@18:03:47 [System] getLoggedInAccount 
+20170221@18:03:59 [System] getLoggedInAccount 
+20170221@18:04:06 [System] getLoggedInAccount 
+20170221@18:04:13 [System] getLoggedInAccount 
+20170221@18:04:30 [System] getLoggedInAccount 
+20170221@18:04:46 [System] getLoggedInAccount 
+20170221@18:06:19 [System] getLoggedInAccount 
+20170221@18:07:14 [System] getLoggedInAccount 
+20170221@18:07:41 [System] getLoggedInAccount 
+20170221@18:08:26 [System] getLoggedInAccount 
+20170221@18:09:12 [System] getLoggedInAccount 
+20170221@18:09:43 [System] getLoggedInAccount 
+20170221@18:09:58 [System] getLoggedInAccount 
+20170221@18:10:26 [System] getLoggedInAccount 
+20170221@18:10:31 [System] getLoggedInAccount 
+20170221@18:10:32 [System] getLoggedInAccount 
+20170221@18:10:36 [System] getLoggedInAccount 
+20170221@18:11:02 [System] getLoggedInAccount 
+20170221@18:11:30 [System] getLoggedInAccount 
+20170221@18:11:38 [System] getLoggedInAccount 
+20170221@18:11:45 [System] getLoggedInAccount 
+20170221@18:12:17 [System] getLoggedInAccount 
+20170221@18:12:25 [System] getLoggedInAccount 
+20170221@18:12:52 [System] getLoggedInAccount 
+20170221@18:13:20 [System] getLoggedInAccount 
+20170221@18:15:53 [System] getLoggedInAccount 
+20170221@18:16:52 [System] getLoggedInAccount 
+20170221@18:17:09 [System] getLoggedInAccount 
+20170221@18:17:59 [System] getLoggedInAccount 
+20170221@18:18:46 [System] getLoggedInAccount 
+20170221@18:20:04 [System] getLoggedInAccount 
+20170221@18:20:25 [System] getLoggedInAccount 
+20170221@18:20:45 [System] getLoggedInAccount 
+20170221@21:37:56 [System] getLoggedInAccount 
+20170221@21:48:31 [System] getLoggedInAccount 
+20170221@21:48:47 [System] getLoggedInAccount 
+20170221@21:49:24 [System] getLoggedInAccount 
+20170221@21:49:35 [System] getLoggedInAccount 
+20170221@21:49:35 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@21:49:35 [System] getLoggedInAccount 
+20170221@21:49:40 [System] getLoggedInAccount 
+20170221@21:49:40 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@21:49:40 [System] getLoggedInAccount 
+20170221@21:49:40 [System] loginAccount 
+20170221@21:49:40 [System] getLoggedInAccount 
+20170221@21:49:40 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@21:49:40 [System] getLoggedInAccount 
+20170221@21:49:40 [System] getLoggedInAccount 
+20170221@21:49:40 [System] getLoggedInAccount 
+20170221@21:49:44 [System] getLoggedInAccount 
+20170221@21:49:44 [System] getLoggedInAccount 
+20170221@21:50:29 [System] initializeUIControlValues 
+20170221@21:50:29 [System] setupHourRange 
+20170221@21:50:29 [System] setupHourRange 
+20170221@21:50:29 [System] getLoggedInAccount 
+20170221@21:50:29 [System] getLoggedInAccount 
+20170221@21:51:47 [System] initializeUIControlValues 
+20170221@21:51:47 [System] setupHourRange 
+20170221@21:51:47 [System] setupHourRange 
+20170221@21:51:47 [System] DDLOpenTimeMonday 
+20170221@21:51:47 [System] DDLCloseTimeMonday 
+20170221@21:51:47 [System] DDLOpenTimeTuesday 
+20170221@21:51:47 [System] DDLCloseTimeTuesday 
+20170221@21:51:47 [System] DDLOpenTimeWednesday 
+20170221@21:51:47 [System] DDLCloseTimeWednesday 
+20170221@21:51:47 [System] DDLOpenTimeThursday 
+20170221@21:51:47 [System] DDLCloseTimeThursday 
+20170221@21:51:47 [System] DDLOpenTimeFriday 
+20170221@21:51:47 [System] DDLCloseTimeFriday 
+20170221@21:51:47 [System] DDLOpenTimeSaturday 
+20170221@21:51:47 [System] DDLCloseTimeSaturday 
+20170221@21:51:47 [System] DDLOpenTimeSunday 
+20170221@21:51:47 [System] DDLCloseTimeSunday 
+20170221@21:51:47 [System] getLoggedInAccount 
+20170221@21:51:47 [System] getLoggedInAccount 
+20170221@21:53:10 [System] initializeUIControlValues 
+20170221@21:53:10 [System] setupHourRange 
+20170221@21:53:10 [System] setupHourRange 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] DDL binding 
+20170221@21:53:10 [System] getLoggedInAccount 
+20170221@21:53:10 [System] getLoggedInAccount 
+20170221@21:54:37 [System] initializeUIControlValues 
+20170221@21:54:37 [System] setupHourRange 
+20170221@21:54:37 [System] setupHourRange 
+20170221@21:54:37 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] DDL binding 
+20170221@21:54:38 [System] getLoggedInAccount 
+20170221@21:54:38 [System] getLoggedInAccount 
+20170221@21:54:49 [System] getLoggedInAccount 
+20170221@21:54:49 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@21:54:49 [System] getLoggedInAccount 
+20170221@21:54:56 [System] getLoggedInAccount 
+20170221@21:54:56 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@21:54:56 [System] getLoggedInAccount 
+20170221@21:54:56 [System] loginAccount 
+20170221@21:54:57 [System] getLoggedInAccount 
+20170221@21:54:57 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@21:54:57 [System] getLoggedInAccount 
+20170221@21:54:57 [System] getLoggedInAccount 
+20170221@21:54:57 [System] getLoggedInAccount 
+20170221@21:55:00 [System] initializeUIControlValues 
+20170221@21:55:00 [System] setupHourRange 
+20170221@21:55:00 [System] setupHourRange 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] DDL binding 
+20170221@21:55:00 [System] getLoggedInAccount 
+20170221@21:55:00 [System] getLoggedInAccount 
+20170221@21:55:37 [System] getLoggedInAccount 
+20170221@21:55:37 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@21:55:37 [System] getLoggedInAccount 
+20170221@21:55:41 [System] initializeUIControlValues 
+20170221@21:55:41 [System] setupHourRange 
+20170221@21:57:24 [System] setupHourRange 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] DDL binding 
+20170221@21:57:35 [System] getLoggedInAccount 
+20170221@21:57:35 [System] getLoggedInAccount 
+20170221@21:58:13 [System] initializeUIControlValues 
+20170221@21:58:13 [System] setupHourRange 
+20170221@21:58:13 [System] 09:00 AM
+ 
+20170221@21:58:13 [System] setupHourRange 
+20170221@21:58:13 [System] 17:00 PM
+ 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] DDL binding 
+20170221@21:58:13 [System] getLoggedInAccount 
+20170221@21:58:13 [System] getLoggedInAccount 
+20170221@21:59:31 [System] setupHourRange 
+20170221@21:59:31 [System] getLoggedInAccount 
+20170221@21:59:32 [System] getLoggedInAccount 
+20170221@22:01:14 [System] setupHourRange 
+20170221@22:01:14 [System] getLoggedInAccount 
+20170221@22:01:14 [System] getLoggedInAccount 
+20170221@22:01:28 [System] getLoggedInAccount 
+20170221@22:01:28 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:01:28 [System] getLoggedInAccount 
+20170221@22:02:48 [System] getLoggedInAccount 
+20170221@22:02:48 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:02:48 [System] getLoggedInAccount 
+20170221@22:02:48 [System] loginAccount 
+20170221@22:02:48 [System] getLoggedInAccount 
+20170221@22:02:48 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@22:02:48 [System] getLoggedInAccount 
+20170221@22:02:48 [System] getLoggedInAccount 
+20170221@22:02:48 [System] getLoggedInAccount 
+20170221@22:02:53 [System] setupHourRange 
+20170221@22:03:03 [System] getLoggedInAccount 
+20170221@22:03:03 [System] getLoggedInAccount 
+20170221@22:03:23 [System] setupHourRange 
+20170221@22:03:23 [System] getLoggedInAccount 
+20170221@22:03:23 [System] getLoggedInAccount 
+20170221@22:03:37 [System] setupHourRange 
+20170221@22:03:37 [System] getLoggedInAccount 
+20170221@22:03:37 [System] getLoggedInAccount 
+20170221@22:03:43 [System] getLoggedInAccount 
+20170221@22:03:43 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:03:43 [System] getLoggedInAccount 
+20170221@22:03:45 [System] setupHourRange 
+20170221@22:04:02 [System] getLoggedInAccount 
+20170221@22:04:02 [System] getLoggedInAccount 
+20170221@22:04:11 [System] setupHourRange 
+20170221@22:04:42 [System] getLoggedInAccount 
+20170221@22:04:42 [System] getLoggedInAccount 
+20170221@22:04:56 [System] setupHourRange 
+20170221@22:05:19 [System] setupHourRange 
+20170221@22:05:19 [System] getLoggedInAccount 
+20170221@22:05:19 [System] getLoggedInAccount 
+20170221@22:07:32 [System] setupHourRange 
+20170221@22:09:48 [System] setupHourRange 
+20170221@22:14:42 [System] getLoggedInAccount 
+20170221@22:14:42 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:14:42 [System] getLoggedInAccount 
+20170221@22:14:47 [System] getLoggedInAccount 
+20170221@22:14:47 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:14:47 [System] getLoggedInAccount 
+20170221@22:14:47 [System] loginAccount 
+20170221@22:14:47 [System] getLoggedInAccount 
+20170221@22:14:47 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@22:14:47 [System] getLoggedInAccount 
+20170221@22:14:47 [System] getLoggedInAccount 
+20170221@22:14:47 [System] getLoggedInAccount 
+20170221@22:15:18 [System] setupHourRange 
+20170221@22:16:15 [System] setupHourRange 
+20170221@22:16:15 [System] getLoggedInAccount 
+20170221@22:16:15 [System] getLoggedInAccount 
+20170221@22:16:41 [System] initializeUIControlValues 
+20170221@22:16:41 [System] setupHourRange 
+20170221@22:16:41 [System] getLoggedInAccount 
+20170221@22:16:41 [System] getLoggedInAccount 
+20170221@22:16:41 [System] Page_Prerender 
+20170221@22:16:58 [System] getLoggedInAccount 
+20170221@22:16:58 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:16:58 [System] getLoggedInAccount 
+20170221@22:17:05 [System] initializeUIControlValues 
+20170221@22:17:05 [System] setupHourRange 
+20170221@22:17:05 [System] getLoggedInAccount 
+20170221@22:17:05 [System] getLoggedInAccount 
+20170221@22:17:05 [System] Page_Prerender 
+20170221@22:17:32 [System] initializeUIControlValues 
+20170221@22:17:32 [System] setupHourRange 
+20170221@22:17:32 [System] getLoggedInAccount 
+20170221@22:17:32 [System] getLoggedInAccount 
+20170221@22:17:32 [System] Page_Prerender 
+20170221@22:17:51 [System] initializeUIControlValues 
+20170221@22:17:51 [System] setupHourRange 
+20170221@22:17:51 [System] getLoggedInAccount 
+20170221@22:17:51 [System] getLoggedInAccount 
+20170221@22:17:51 [System] Page_Prerender 
+20170221@22:18:07 [System] initializeUIControlValues 
+20170221@22:18:07 [System] setupHourRange 
+20170221@22:18:07 [System] getLoggedInAccount 
+20170221@22:18:07 [System] getLoggedInAccount 
+20170221@22:18:07 [System] Page_Prerender 
+20170221@22:18:17 [System] getLoggedInAccount 
+20170221@22:18:17 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:18:17 [System] getLoggedInAccount 
+20170221@22:18:22 [System] getLoggedInAccount 
+20170221@22:18:22 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:18:22 [System] getLoggedInAccount 
+20170221@22:18:22 [System] loginAccount 
+20170221@22:18:22 [System] getLoggedInAccount 
+20170221@22:18:22 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@22:18:22 [System] getLoggedInAccount 
+20170221@22:18:22 [System] getLoggedInAccount 
+20170221@22:18:23 [System] getLoggedInAccount 
+20170221@22:18:26 [System] initializeUIControlValues 
+20170221@22:18:26 [System] setupHourRange 
+20170221@22:18:26 [System] getLoggedInAccount 
+20170221@22:18:26 [System] getLoggedInAccount 
+20170221@22:46:14 [System] getLoggedInAccount 
+20170221@22:46:14 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:46:14 [System] getLoggedInAccount 
+20170221@22:46:22 [System] getLoggedInAccount 
+20170221@22:46:22 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:46:22 [System] getLoggedInAccount 
+20170221@22:46:22 [System] loginAccount 
+20170221@22:46:22 [System] getLoggedInAccount 
+20170221@22:46:22 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@22:46:22 [System] getLoggedInAccount 
+20170221@22:46:22 [System] getLoggedInAccount 
+20170221@22:46:22 [System] getLoggedInAccount 
+20170221@22:46:26 [System] initializeUIControlValues 
+20170221@22:46:26 [System] setupHourRange 
+20170221@22:46:26 [System] getLoggedInAccount 
+20170221@22:46:26 [System] getLoggedInAccount 
+20170221@22:46:32 [System] getLoggedInAccount 
+20170221@22:46:32 [System] getLoggedInAccount 
+20170221@22:46:32 [System] 
+ 
+20170221@22:47:12 [System] getLoggedInAccount 
+20170221@22:47:12 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:47:12 [System] getLoggedInAccount 
+20170221@22:47:24 [System] getLoggedInAccount 
+20170221@22:47:24 [System] getLoggedInAccount 
+20170221@22:47:33 [System] 
+ 
+20170221@22:48:14 [System] getLoggedInAccount 
+20170221@22:48:14 [System] getLoggedInAccount 
+20170221@22:48:15 [System] MessageHandler : Shop name and contac cannot be empty 
+20170221@22:48:15 [System] 
+ 
+20170221@22:49:13 [System] getLoggedInAccount 
+20170221@22:49:13 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@22:49:13 [System] getLoggedInAccount 
+20170221@22:49:34 [System] getLoggedInAccount 
+20170221@22:49:34 [System] getLoggedInAccount 
+20170221@22:49:34 [System] MessageHandler : Shop name and contac cannot be empty 
+20170221@22:49:34 [System] 
+ 
+20170221@22:50:11 [System] initializeUIControlValues 
+20170221@22:50:11 [System] setupHourRange 
+20170221@22:50:11 [System] getLoggedInAccount 
+20170221@22:50:11 [System] getLoggedInAccount 
+20170221@22:50:34 [System] getLoggedInAccount 
+20170221@22:50:34 [System] MessageHandler : Shop name and contac cannot be empty 
+20170221@22:50:34 [System] 
+ 
+20170221@22:51:02 [System] getLoggedInAccount 
+20170221@22:51:02 [System] Check directory: ~/uploadedFiles/temp/shop/test00 
+20170221@22:51:02 [System] Check directory result: False 
+20170221@22:51:02 [System] Temp directory: ~/uploadedFiles/temp/shop/test00 
+20170221@22:51:02 [System] Total files posted: 2 
+20170221@22:51:02 [System] File name: shop01.jpg 
+20170221@22:51:02 [System] ~/uploadedFiles/temp/shop/test00/shop01.jpg 
+20170221@22:51:02 [System] File name: shop02.jpg 
+20170221@22:51:02 [System] ~/uploadedFiles/temp/shop/test00/shop02.jpg 
+20170221@22:51:02 [System] 
+ 
+20170221@22:53:28 [System] getLoggedInAccount 
+20170221@22:53:28 [System] Check directory: ~/uploadedFiles/temp/shop/test00 
+20170221@22:53:28 [System] Check directory result: True 
+20170221@22:53:28 [System] Removing old files: ~/uploadedFiles/temp/shop/test00 
+20170221@22:53:28 [System] Temp directory: ~/uploadedFiles/temp/shop/test00 
+20170221@22:53:28 [System] Total files posted: 3 
+20170221@22:53:28 [System] File name: shop00.jpg 
+20170221@22:53:28 [System] ~/uploadedFiles/temp/shop/test00/shop00.jpg 
+20170221@22:53:28 [System] File name: shop01.jpg 
+20170221@22:53:28 [System] ~/uploadedFiles/temp/shop/test00/shop01.jpg 
+20170221@22:53:28 [System] File name: shop02.jpg 
+20170221@22:53:28 [System] ~/uploadedFiles/temp/shop/test00/shop02.jpg 
+20170221@22:53:28 [System] 
+ 
+20170221@22:55:35 [System] initializeUIControlValues 
+20170221@22:55:35 [System] setupHourRange 
+20170221@22:55:35 [System] getLoggedInAccount 
+20170221@22:55:41 [System] getLoggedInAccount 
+20170221@22:55:41 [System] MessageHandler : Shop name and contact cannot be empty 
+20170221@22:55:41 [System] 
+ 
+20170221@22:55:52 [System] getLoggedInAccount 
+20170221@22:55:52 [System] Check directory: ~/uploadedFiles/temp/shop/test00 
+20170221@22:55:52 [System] Check directory result: True 
+20170221@22:55:52 [System] Removing old files: ~/uploadedFiles/temp/shop/test00 
+20170221@22:55:52 [System] Temp directory: ~/uploadedFiles/temp/shop/test00 
+20170221@22:55:52 [System] Total files posted: 2 
+20170221@22:55:52 [System] File name: shop01.jpg 
+20170221@22:55:52 [System] ~/uploadedFiles/temp/shop/test00/shop01.jpg 
+20170221@22:55:52 [System] File name: shop02.jpg 
+20170221@22:55:52 [System] ~/uploadedFiles/temp/shop/test00/shop02.jpg 
+20170221@22:55:52 [System] 
+ 
+20170221@22:56:51 [System] initializeUIControlValues 
+20170221@22:56:51 [System] setupHourRange 
+20170221@22:56:51 [System] getLoggedInAccount 
+20170221@22:57:15 [System] initializeUIControlValues 
+20170221@22:57:15 [System] setupHourRange 
+20170221@22:57:15 [System] getLoggedInAccount 
+20170221@22:57:35 [System] initializeUIControlValues 
+20170221@22:57:35 [System] setupHourRange 
+20170221@22:57:35 [System] getLoggedInAccount 
+20170221@22:57:55 [System] initializeUIControlValues 
+20170221@22:57:55 [System] setupHourRange 
+20170221@22:57:55 [System] getLoggedInAccount 
+20170221@22:58:08 [System] initializeUIControlValues 
+20170221@22:58:08 [System] setupHourRange 
+20170221@22:58:08 [System] getLoggedInAccount 
+20170221@22:58:27 [System] initializeUIControlValues 
+20170221@22:58:27 [System] setupHourRange 
+20170221@22:58:27 [System] getLoggedInAccount 
+20170221@22:58:30 [System] getLoggedInAccount 
+20170221@22:58:31 [System] getLoggedInAccount 
+20170221@22:58:31 [System] getLoggedInAccount 
+20170221@22:58:32 [System] getLoggedInAccount 
+20170221@22:58:37 [System] initializeUIControlValues 
+20170221@22:58:37 [System] setupHourRange 
+20170221@22:58:37 [System] getLoggedInAccount 
+20170221@22:59:05 [System] getLoggedInAccount 
+20170221@23:00:53 [System] initializeUIControlValues 
+20170221@23:00:53 [System] setupHourRange 
+20170221@23:00:53 [System] getLoggedInAccount 
+20170221@23:00:53 [System] initializeUIControlValues 
+20170221@23:00:53 [System] setupHourRange 
+20170221@23:00:53 [System] getLoggedInAccount 
+20170221@23:00:59 [System] getLoggedInAccount 
+20170221@23:01:11 [System] initializeUIControlValues 
+20170221@23:01:11 [System] setupHourRange 
+20170221@23:01:11 [System] getLoggedInAccount 
+20170221@23:02:41 [System] initializeUIControlValues 
+20170221@23:02:41 [System] setupHourRange 
+20170221@23:02:41 [System] getLoggedInAccount 
+20170221@23:02:54 [System] initializeUIControlValues 
+20170221@23:02:54 [System] setupHourRange 
+20170221@23:02:54 [System] getLoggedInAccount 
+20170221@23:03:06 [System] initializeUIControlValues 
+20170221@23:03:06 [System] setupHourRange 
+20170221@23:03:06 [System] getLoggedInAccount 
+20170221@23:03:24 [System] initializeUIControlValues 
+20170221@23:03:24 [System] setupHourRange 
+20170221@23:03:24 [System] getLoggedInAccount 
+20170221@23:03:43 [System] initializeUIControlValues 
+20170221@23:03:43 [System] setupHourRange 
+20170221@23:03:43 [System] getLoggedInAccount 
+20170221@23:03:50 [System] initializeUIControlValues 
+20170221@23:03:50 [System] setupHourRange 
+20170221@23:03:50 [System] getLoggedInAccount 
+20170221@23:04:18 [System] initializeUIControlValues 
+20170221@23:04:18 [System] setupHourRange 
+20170221@23:04:18 [System] getLoggedInAccount 
+20170221@23:04:50 [System] initializeUIControlValues 
+20170221@23:04:50 [System] setupHourRange 
+20170221@23:04:50 [System] getLoggedInAccount 
+20170221@23:05:27 [System] initializeUIControlValues 
+20170221@23:05:27 [System] setupHourRange 
+20170221@23:05:27 [System] getLoggedInAccount 
+20170221@23:05:31 [System] getLoggedInAccount 
+20170221@23:05:39 [System] initializeUIControlValues 
+20170221@23:05:39 [System] setupHourRange 
+20170221@23:05:39 [System] getLoggedInAccount 
+20170221@23:05:51 [System] initializeUIControlValues 
+20170221@23:05:51 [System] setupHourRange 
+20170221@23:05:51 [System] getLoggedInAccount 
+20170221@23:06:03 [System] initializeUIControlValues 
+20170221@23:06:03 [System] setupHourRange 
+20170221@23:06:03 [System] getLoggedInAccount 
+20170221@23:06:34 [System] initializeUIControlValues 
+20170221@23:06:34 [System] setupHourRange 
+20170221@23:06:34 [System] getLoggedInAccount 
+20170221@23:07:10 [System] initializeUIControlValues 
+20170221@23:07:10 [System] setupHourRange 
+20170221@23:07:10 [System] getLoggedInAccount 
+20170221@23:07:25 [System] initializeUIControlValues 
+20170221@23:07:25 [System] setupHourRange 
+20170221@23:07:25 [System] getLoggedInAccount 
+20170221@23:07:30 [System] initializeUIControlValues 
+20170221@23:07:30 [System] setupHourRange 
+20170221@23:07:30 [System] getLoggedInAccount 
+20170221@23:07:34 [System] initializeUIControlValues 
+20170221@23:07:34 [System] setupHourRange 
+20170221@23:07:34 [System] getLoggedInAccount 
+20170221@23:07:41 [System] initializeUIControlValues 
+20170221@23:07:41 [System] setupHourRange 
+20170221@23:07:41 [System] getLoggedInAccount 
+20170221@23:07:45 [System] initializeUIControlValues 
+20170221@23:07:45 [System] setupHourRange 
+20170221@23:07:45 [System] getLoggedInAccount 
+20170221@23:07:49 [System] initializeUIControlValues 
+20170221@23:07:49 [System] setupHourRange 
+20170221@23:07:49 [System] getLoggedInAccount 
+20170221@23:07:55 [System] initializeUIControlValues 
+20170221@23:07:56 [System] setupHourRange 
+20170221@23:07:56 [System] getLoggedInAccount 
+20170221@23:08:00 [System] initializeUIControlValues 
+20170221@23:08:00 [System] setupHourRange 
+20170221@23:08:00 [System] getLoggedInAccount 
+20170221@23:08:07 [System] initializeUIControlValues 
+20170221@23:08:07 [System] setupHourRange 
+20170221@23:08:07 [System] getLoggedInAccount 
+20170221@23:08:11 [System] initializeUIControlValues 
+20170221@23:08:11 [System] setupHourRange 
+20170221@23:08:11 [System] getLoggedInAccount 
+20170221@23:08:31 [System] initializeUIControlValues 
+20170221@23:08:31 [System] setupHourRange 
+20170221@23:08:31 [System] getLoggedInAccount 
+20170221@23:08:33 [System] getLoggedInAccount 
+20170221@23:08:41 [System] initializeUIControlValues 
+20170221@23:08:41 [System] setupHourRange 
+20170221@23:08:41 [System] getLoggedInAccount 
+20170221@23:08:50 [System] initializeUIControlValues 
+20170221@23:08:50 [System] setupHourRange 
+20170221@23:08:50 [System] getLoggedInAccount 
+20170221@23:09:00 [System] initializeUIControlValues 
+20170221@23:09:00 [System] setupHourRange 
+20170221@23:09:00 [System] getLoggedInAccount 
+20170221@23:09:15 [System] initializeUIControlValues 
+20170221@23:09:15 [System] setupHourRange 
+20170221@23:09:15 [System] getLoggedInAccount 
+20170221@23:09:26 [System] initializeUIControlValues 
+20170221@23:09:26 [System] setupHourRange 
+20170221@23:09:26 [System] getLoggedInAccount 
+20170221@23:09:43 [System] initializeUIControlValues 
+20170221@23:09:43 [System] setupHourRange 
+20170221@23:09:43 [System] getLoggedInAccount 
+20170221@23:09:47 [System] getLoggedInAccount 
+20170221@23:09:48 [System] getLoggedInAccount 
+20170221@23:16:10 [System] getLoggedInAccount 
+20170221@23:16:10 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@23:16:10 [System] getLoggedInAccount 
+20170221@23:16:15 [System] getLoggedInAccount 
+20170221@23:16:15 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@23:16:15 [System] getLoggedInAccount 
+20170221@23:16:15 [System] loginAccount 
+20170221@23:16:15 [System] getLoggedInAccount 
+20170221@23:16:15 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170221@23:16:15 [System] getLoggedInAccount 
+20170221@23:16:15 [System] getLoggedInAccount 
+20170221@23:16:15 [System] getLoggedInAccount 
+20170221@23:16:19 [System] initializeUIControlValues 
+20170221@23:16:19 [System] setupHourRange 
+20170221@23:16:19 [System] getLoggedInAccount 
+20170221@23:16:19 [System] getLoggedInAccount 
+20170221@23:16:22 [System] getLoggedInAccount 
+20170221@23:16:22 [System] getLoggedInAccount 
+20170221@23:18:45 [System] getLoggedInAccount 
+20170221@23:18:45 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170221@23:18:45 [System] getLoggedInAccount 
+20170221@23:18:58 [System] getLoggedInAccount 

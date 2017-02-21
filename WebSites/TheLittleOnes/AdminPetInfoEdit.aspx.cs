@@ -221,13 +221,16 @@ public partial class AdminPetInfoEdit : BasePage
 
         // disable the edit mode
         DLPetInfoDetails.EditItemIndex = -1;
-        // DLPetInfoDetails.DataSource = SDSPetChar.Select(DataSourceSelectArguments.Empty);
+        // update displays
         SDSPetPhoto.DataBind();
         DLPetInfoDetails.DataBind();
         GVPetInfoOverview.DataBind();
-        
+
+        // clear current data
+        clearTempData();
     }
 
+    
     protected void DLPetInfoDetails_CancelCommand(object source, DataListCommandEventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -240,6 +243,7 @@ public partial class AdminPetInfoEdit : BasePage
         DLPetInfoDetails.EditItemIndex = -1;
         DLPetInfoDetails.DataBind();
 
+        clearTempData();
     }
     #endregion
 
@@ -267,7 +271,7 @@ public partial class AdminPetInfoEdit : BasePage
         // need category and breed to create folder
         if (!string.IsNullOrEmpty(category) && !string.IsNullOrEmpty(breed))
         {
-            string filePath_UploadFolderTemp = "~/uploadedFiles/temp";
+            string filePath_UploadFolderTemp = "~/uploadedFiles/temp/petinfo";
             filePath_UploadFolderTempWithCategoryAndBreed = string.Concat(filePath_UploadFolderTemp, "/", category.ToLower(), "/", breed.ToLower());
             bool filePathExist = Directory.Exists(Server.MapPath(filePath_UploadFolderTempWithCategoryAndBreed));
             LogController.LogLine("Check directory: " + filePath_UploadFolderTempWithCategoryAndBreed);
@@ -308,7 +312,7 @@ public partial class AdminPetInfoEdit : BasePage
                 photoPreview.InnerHtml += string.Concat(
                     "<img  src =\"",
                     string.Concat(filePath_UploadFolderTempWithCategoryAndBreed, "/", file.Name).Replace("~/", ""),
-                    "\" Height=\"100\" Width=\"100\"/>",
+                    "\" Height=\"100\"/>",
                     "<br>", file.Name, "<hr/>");
             }
         }
@@ -319,7 +323,7 @@ public partial class AdminPetInfoEdit : BasePage
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         // check for database folder path
-        string filePath_UploadFolderDatabase = "~/uploadedFiles/database";
+        string filePath_UploadFolderDatabase = "~/uploadedFiles/database/petinfo";
         string filePath_UploadFolderDatabaseWithCategoryAndBreed = Path.Combine(filePath_UploadFolderDatabase, petInfoEntity.PetCategory.ToLower(), petInfoEntity.PetBreed.ToLower());
         bool isfilePath_UploadFolderDatabaseExists = Directory.Exists(Server.MapPath(filePath_UploadFolderDatabaseWithCategoryAndBreed));
         // check for database folder path
@@ -509,6 +513,12 @@ public partial class AdminPetInfoEdit : BasePage
 
     }
 
+    private void clearTempData()
+    {
+        dTableOld = null;
+        dTableEdit = null;
+        photoEntities = null;
+    }
     #endregion
 
     #region Drop Down List PostBack Control

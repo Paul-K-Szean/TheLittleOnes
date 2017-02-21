@@ -337,7 +337,7 @@
                                 <img class="nav-user-photo" src="assetsAdmin/images/avatars/user.jpg" alt="Jason's Photo" />
                                 <span class="user-info">
                                     <small>Welcome,</small>
-                                    Jason
+                                    <asp:Label ID="LBLDisplayName" runat="server"></asp:Label>
                                 </span>
 
                                 <i class="ace-icon fa fa-caret-down"></i>
@@ -345,14 +345,14 @@
 
                             <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
                                 <li>
-                                    <a href="#">
-                                        <i class="ace-icon fa fa-cog"></i>
-                                        Settings
+                                    <a href="AdminAccount.aspx">
+                                        <i class="ace-icon fa fa-user-o"></i>
+                                        Account
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="profile.html">
+                                    <a href="AdminProfile.aspx">
                                         <i class="ace-icon fa fa-user"></i>
                                         Profile
                                     </a>
@@ -429,7 +429,7 @@
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">
-                            <i class="menu-icon fa fa-desktop"></i>
+                            <i class="menu-icon fa  fa-id-card-o"></i>
                             <span class="menu-text">Pet Info Settings
                             </span>
 
@@ -462,7 +462,7 @@
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">
-                            
+
                             <i class="menu-icon fa fa-university"></i>
                             <span class="menu-text">Shop Info Settings </span>
 
@@ -473,7 +473,7 @@
 
                         <ul class="submenu">
                             <li class="">
-                                <a href="tables.html">
+                                <a href="AdminShopInfoAdd.aspx">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     Add Shop Info
                                 </a>
@@ -494,8 +494,8 @@
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">
-                            <i class="menu-icon fa fa-pencil-square-o"></i>
-                            <span class="menu-text">Forms </span>
+                            <i class="menu-icon fa fa-user"></i>
+                            <span class="menu-text">Adoption Settings </span>
 
                             <b class="arrow fa fa-angle-down"></b>
                         </a>
@@ -506,7 +506,7 @@
                             <li class="">
                                 <a href="form-elements.html">
                                     <i class="menu-icon fa fa-caret-right"></i>
-                                    Form Elements
+                                    Add Adoption List
                                 </a>
 
                                 <b class="arrow"></b>
@@ -515,7 +515,7 @@
                             <li class="">
                                 <a href="form-elements-2.html">
                                     <i class="menu-icon fa fa-caret-right"></i>
-                                    Form Elements 2
+                                    Edit Adoption List
                                 </a>
 
                                 <b class="arrow"></b>
@@ -524,7 +524,7 @@
                             <li class="">
                                 <a href="form-wizard.html">
                                     <i class="menu-icon fa fa-caret-right"></i>
-                                    Wizard &amp; Validation
+                                    Appointment
                                 </a>
 
                                 <b class="arrow"></b>

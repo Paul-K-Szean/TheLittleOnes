@@ -143,7 +143,7 @@ public partial class AdminPetInfoAdd : BasePage
         // need category and breed to create folder
         if (!string.IsNullOrEmpty(category) && !string.IsNullOrEmpty(breed))
         {
-            string filePath_UploadFolderTemp = "~/uploadedFiles/temp";
+            string filePath_UploadFolderTemp = "~/uploadedFiles/temp/petinfo";
             filePath_UploadFolderTempWithCategoryAndBreed = string.Concat(filePath_UploadFolderTemp, "/", category.ToLower(), "/", breed.ToLower());
             bool filePathExist = Directory.Exists(Server.MapPath(filePath_UploadFolderTempWithCategoryAndBreed));
             LogController.LogLine("Check directory: " + filePath_UploadFolderTempWithCategoryAndBreed);
@@ -345,7 +345,7 @@ public partial class AdminPetInfoAdd : BasePage
     private PetInfoEntity changePhotoPathToDatabaseFolder(PetInfoEntity petInfoEntity)
     {
         // check for database folder path
-        string filePath_UploadFolderDatabase = "~/uploadedFiles/database";
+        string filePath_UploadFolderDatabase = "~/uploadedFiles/database/petinfo";
         string filePath_UploadFolderDatabaseWithCategoryAndBreed = Path.Combine(filePath_UploadFolderDatabase, petInfoEntity.PetCategory.ToLower(), petInfoEntity.PetBreed.ToLower());
         bool isfilePath_UploadFolderDatabaseExists = Directory.Exists(filePath_UploadFolderDatabaseWithCategoryAndBreed);
         // check for database folder path

@@ -15,7 +15,7 @@ public partial class AdminLogin : BasePage
     // page load
     protected void Page_Load(object sender, EventArgs e)
     {
-         // inputs
+        // inputs
         if (IsPostBack)
         {
             inputEmail = TBLoginEmail.Text.Trim();
@@ -42,8 +42,14 @@ public partial class AdminLogin : BasePage
             accEntity = accCtrler.loginAccount(inputEmail, inputPassword);
             if (accEntity != null)
             {
-                if(!accEntity.AccountType.Equals(AccountType.WebUser.ToString()))
-                Response.Redirect("AdminDashboard.aspx");
+                if (!accEntity.AccountType.Equals(AccountType.WebUser.ToString()))
+                    Response.Redirect("AdminDashboard.aspx");
+                else
+                {
+                    MessageHandler.ErrorMessage(LBLErrorMsg, "You are not authorised here");
+                    TBLoginPassword.Text = string.Empty;
+                }
+
             }
             else
             {

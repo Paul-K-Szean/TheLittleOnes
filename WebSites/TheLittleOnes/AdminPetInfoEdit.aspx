@@ -863,7 +863,7 @@
                                                         <asp:DataList ID="DLPetPhoto" runat="server" DataSourceID="SDSPetPhoto" Width="100%"
                                                             RepeatDirection="Horizontal">
                                                             <ItemTemplate>
-                                                                <img src="<%# "uploadedFiles/database/" + Eval("petInfoCategory") + "/" + Eval("petInfoBreed") + "/" + Eval("photoName") %>"
+                                                                <img src="<%# "uploadedFiles/database/petinfo/" + Eval("petInfoCategory") + "/" + Eval("petInfoBreed") + "/" + Eval("photoName") %>"
                                                                     style="max-height: 200px; margin: 0px 4px">
                                                             </ItemTemplate>
                                                         </asp:DataList>
@@ -1131,7 +1131,7 @@
                 <asp:SqlDataSource ID="SDSPetInfo" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT * FROM [PetInfo]"
+                    SelectCommand="SELECT * FROM [PetInfo] ORDER BY [petInfoCategory], [petInfoBreed]"
                     FilterExpression="petInfoCategory LIKE '%{0}%' OR petInfoBreed LIKE '%{0}%' OR petInfoDesc LIKE '%{0}%' OR petInfoPersonality LIKE '%{0}%' OR petInfoDisplayStatus LIKE '%{0}%'">
                     <FilterParameters>
                         <asp:ControlParameter Name="petInfoCategory" ControlID="TBSearch" PropertyName="Text" />

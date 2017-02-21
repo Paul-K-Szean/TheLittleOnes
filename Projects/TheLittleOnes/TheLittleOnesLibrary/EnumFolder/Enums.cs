@@ -24,7 +24,7 @@ namespace TheLittleOnesLibrary.EnumFolder
 
 
     }
-    
+
     public enum AccountType
     {
         WebUser,
@@ -39,25 +39,37 @@ namespace TheLittleOnesLibrary.EnumFolder
     public enum PetBreedDog
     {
         // 
-
+        [Description("Corgi")]
+        Corgi,
         // G
         [Description("German Shepherd")]
         GermanShepherd,
         [Description("Golden Retriever")]
         GoldenRetriever,
 
-        // M 
-        [Description("Maltese")]
-        Maltese,
+        
         // L
         [Description("Labrador Retriever")]
         LabradorRetriever,
+        // M 
+        [Description("Maltese")]
+        Maltese,
+        // P
+        [Description("Pomeraiian")]
+        Pomeraiian,
+        [Description("Poodle")]
+        Poodle,
 
         // S
-        [Description("Silky Terrier")]
-        SilkyTerrier,
+        [Description("Schnauzer")]
+        Schnauzer,
+        [Description("Shih Tzu")]
+        ShihTzu,
         [Description("Siberian Husky")]
         SiberianHusky,
+        [Description("Silky Terrier")]
+        SilkyTerrier,
+
         // W
         [Description("West Highland White Terrier")]
         WestHighlandWhiteTerrier,
@@ -90,6 +102,6 @@ namespace TheLittleOnesLibrary.EnumFolder
         // P
         [Description("Persian Cat")]
         PersianCat,
-      
+
     }
 }

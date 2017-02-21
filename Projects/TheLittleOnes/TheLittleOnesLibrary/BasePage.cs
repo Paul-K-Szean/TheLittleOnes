@@ -64,6 +64,10 @@ namespace TheLittleOnesLibrary
                 LogController.LogLine("No account logged in");
                 HttpContext.Current.Response.Redirect("AdminLogin.aspx");
             }
+            else {
+                accEntity =  accCtrler.getLoggedInAccount();
+                profileEntity = profileCtrler.getLoggedInProfile();
+            }
 
         }
 

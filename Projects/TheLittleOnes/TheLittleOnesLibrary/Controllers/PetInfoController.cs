@@ -273,7 +273,7 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-        
+
         // Delete PetPhoto
         public PetInfoEntity deletePetPhoto(PetInfoEntity petInfoEntity)
         {
@@ -294,10 +294,9 @@ namespace TheLittleOnesLibrary.Controllers
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM PETINFOID WHERE PETINFOID = @PETINFOID");
-                oleDbCommand.Parameters.AddWithValue("@PETINFO", string.Concat(petInfoID));
+                oleDbCommand.CommandText = string.Concat("SELECT * FROM PETINFO WHERE PETINFOID = @PETINFOID");
+                oleDbCommand.Parameters.AddWithValue("@PETINFOID", string.Concat(petInfoID));
                 dataSet = dao.getRecord(oleDbCommand);
-                petCharEntity = getPetChar(petInfoID);
                 return new PetInfoEntity(
                     dataSet.Tables[0].Rows[0][0].ToString(),
                     dataSet.Tables[0].Rows[0][1].ToString(),
@@ -311,7 +310,7 @@ namespace TheLittleOnesLibrary.Controllers
                     dataSet.Tables[0].Rows[0][9].ToString(),
                     dataSet.Tables[0].Rows[0][10].ToString(),
                     dataSet.Tables[0].Rows[0][11].ToString(),
-                    petCharEntity, getPetPhoto(petInfoID));
+                        petCharEntity = getPetChar(petInfoID), getPetPhoto(petInfoID));
             }
         }
 
@@ -321,7 +320,7 @@ namespace TheLittleOnesLibrary.Controllers
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM PETCHARACTERISTIC WHERE PETINFOID = @PETINFOID");
+                oleDbCommand.CommandText = string.Concat("SELECT * FROM PETCHARACTERISTICS WHERE PETINFOID = @PETINFOID");
                 oleDbCommand.Parameters.AddWithValue("@PETINFOID", string.Concat(petInfoID));
                 dataSet = dao.getRecord(oleDbCommand);
                 return petCharEntity = new PetCharEntity(

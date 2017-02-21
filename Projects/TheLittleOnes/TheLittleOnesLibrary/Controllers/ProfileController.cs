@@ -105,7 +105,7 @@ namespace TheLittleOnesLibrary.Controllers
         }
 
         // Save edited profile
-        public bool saveEditedProfile(ProfileEntity profileEntity)
+        public ProfileEntity updateProfile(ProfileEntity profileEntity)
         {
             using (oleDbCommand = new OleDbCommand())
             {
@@ -121,15 +121,11 @@ namespace TheLittleOnesLibrary.Controllers
                 int insertID = dao.updateRecord(oleDbCommand);
                 if (insertID > 0)
                 {
-                    // reutrn edited profileEntity
+                    // return edited profileEntity
                     loggedInProfile = profileEntity;
-                    return true;
                 }
-                else
-                {
-                    // reutrn unedited profileEntity
-                    return false;
-                }
+                // return unedited profileEntity
+                return loggedInProfile;
             }
         }
 

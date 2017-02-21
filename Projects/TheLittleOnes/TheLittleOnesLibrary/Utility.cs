@@ -27,7 +27,7 @@ namespace TheLittleOnesLibrary
         public static string getName()
         {
             randomNumber = new Random().Next(0, 30);
-            return name = string.Concat("Thelittleones", randomNumber.ToString("00"));
+            return name = string.Concat("webuser", randomNumber.ToString("00"));
         }
         public static string getEmail() { return string.Concat(name, "@hotmail.com"); }
         public static string getPassword() { return string.Concat(name); }

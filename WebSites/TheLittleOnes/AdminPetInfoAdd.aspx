@@ -11,9 +11,9 @@
             </li>
 
             <li>
-                <a href="#">Pet Info Settings</a>
+                <a href="#">Pet Info </a>
             </li>
-            <li class="active">Add Pet Info</li>
+            <li class="active">Settings</li>
         </ul>
         <!-- /.breadcrumb -->
 
@@ -103,7 +103,7 @@
         <asp:UpdatePanel ID="UpdatePanel1" runat="server">
             <ContentTemplate>
                 <div class="page-header">
-                    <h1>Add Pet Info
+                    <h1>Settings
 								<small>
                                     <i class="ace-icon fa fa-angle-double-right"></i>
                                     New Pet Information Form

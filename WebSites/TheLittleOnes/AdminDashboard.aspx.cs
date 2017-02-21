@@ -11,6 +11,7 @@ using System.Web.UI.DataVisualization.Charting;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
+using TheLittleOnesLibrary.Entities;
 
 public partial class AdminDashboard : BasePage
 {
@@ -31,6 +32,16 @@ public partial class AdminDashboard : BasePage
         {
 
         }
+       
+
+        if (!string.IsNullOrEmpty(TBSearch.Text))
+        {
+            LBLSearchResult.Text = "Result for \"" + TBSearch.Text + "\"";
+        }
+        else
+        {
+            LBLSearchResult.Text = "Result for Pet Info";
+        }
     }
 
     #region Drop Down List PostBack Control
@@ -41,16 +52,35 @@ public partial class AdminDashboard : BasePage
     }
     #endregion
 
+    #region Gridview Controls
+    protected void GVPetInfoOverview_DataBound(object sender, EventArgs e)
+    {
+        DataView dataView = (DataView)SDSPetInfo.Select(DataSourceSelectArguments.Empty);
+        int totalSize = dataView.Count;
+        int currentPageIndex = GVPetInfoOverview.PageIndex + 1;
+        int pageSize = GVPetInfoOverview.PageSize * currentPageIndex;
+        int rowSize = GVPetInfoOverview.Rows.Count;
+
+        if (pageSize > totalSize)
+            pageSize = totalSize;
+        LBLEntriesCount.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
+
+
+    }
+
     protected void GVPetInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         PNLPetInfoDetails.Visible = true;
         dTable = ((DataView)SDSPetChar.Select(DataSourceSelectArguments.Empty)).Table;
+        petInfoEntity = petInfoCtrler.getPetInfo(dTable.Rows[0]["petInfoID"].ToString());
         loadPieChart(dTable);
-        loadPetInfo(dTable);
+        loadPetInfo(petInfoEntity);
     }
+    #endregion
 
-    void loadPieChart(DataTable dTable)
+    #region Logical Methods
+    private void loadPieChart(DataTable dTable)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         List<string> dataLabel = new List<string>();
@@ -58,12 +88,10 @@ public partial class AdminDashboard : BasePage
         Font fontLabel = new Font(new FontFamily("Arial"), 15);
         Font fontLegend = new Font(new FontFamily("Arial"), 10);
 
-
         foreach (DataColumn column in dTable.Columns)
         {
             if (column.ColumnName.Contains("charOverall"))
             {
-                LogController.LogLine(column.ColumnName.After("charOverall"));
                 dataLabel.Add(column.ColumnName.After("charOverall"));
                 dataValue.Add(dTable.Rows[0][column.ColumnName].ToString());
             }
@@ -110,10 +138,12 @@ public partial class AdminDashboard : BasePage
         // chart1.SaveImage(Server.MapPath("chart.png"), ChartImageFormat.Png);
     }
 
-
-    private void loadPetInfo(DataTable dTable)
+    private void loadPetInfo(PetInfoEntity petInfoEntity)
     {
-
+        LBLCategory.Text = petInfoEntity.PetCategory;
+        LBLBreed.Text = petInfoEntity.PetBreed;
+        LBLDesc.Text = petInfoEntity.PetDesc;
+        LBLPersonality.Text = petInfoEntity.PetPersonality;
     }
-
+    #endregion
 }
