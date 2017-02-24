@@ -1,0 +1,7 @@
+20170225@01:06:47 [System] getLoggedInAccount 
+20170225@01:06:47 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170225@01:06:47 [System] getLoggedInAccount 
+20170225@01:06:47 [System] initializeUIControlValues 
+20170225@01:06:47 [System] setupHourRange 
+20170225@01:06:47 [System] getLoggedInAccount 
+20170225@01:06:47 [System] getLoggedInAccount 

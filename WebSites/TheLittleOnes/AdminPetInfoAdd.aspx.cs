@@ -124,7 +124,7 @@ public partial class AdminPetInfoAdd : BasePage
                 petInfoEntity = petInfoCtrler.createPetInfo(petInfoEntity);
                 petInfoEntity = petInfoCtrler.createPetCharacteristic(petInfoEntity);
                 if (photoEntities != null)
-                    petInfoCtrler.createPetPhoto(petInfoEntity);
+                    petInfoEntity = petInfoCtrler.createPetPhoto(petInfoEntity);
 
                 if (petInfoEntity != null)
                 {
@@ -184,7 +184,7 @@ public partial class AdminPetInfoAdd : BasePage
                 photoPreview.InnerHtml += string.Concat(
                     "<img  src =\"",
                     string.Concat(filePath_UploadFolderTempWithCategoryAndBreed, "/", file.Name).Replace("~/", ""),
-                    "\" Height=\"100\" Width=\"100\"/>",
+                    "\" Height=\"100\"/>",
                     "<br>", file.Name, "<hr/>");
             }
         }

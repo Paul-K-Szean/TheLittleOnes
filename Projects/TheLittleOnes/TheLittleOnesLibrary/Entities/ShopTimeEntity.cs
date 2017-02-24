@@ -6,39 +6,39 @@ using System.Threading.Tasks;
 
 namespace TheLittleOnesLibrary.Entities
 {
-    public class ShopHourEntity
+    public class ShopTimeEntity
     {
-        private string shopHourID;
+        private string shopTimeID;
         private string dayOfWeek;
         private string openTime;
         private string closeTime;
 
         // Create record
-        public ShopHourEntity(string dayOfWeek, string openTime, string closeTime)
+        public ShopTimeEntity(string dayOfWeek, string openTime, string closeTime)
         {
             this.dayOfWeek = dayOfWeek;
             this.openTime = openTime;
             this.closeTime = closeTime;
         }
         // Retrieve/Update record
-        public ShopHourEntity(string shopHourID, string dayOfWeek, string openTime, string closeTime)
+        public ShopTimeEntity(string shopTimeID, string dayOfWeek, string openTime, string closeTime)
         {
-            this.shopHourID = shopHourID;
+            this.shopTimeID = shopTimeID;
             this.dayOfWeek = dayOfWeek;
             this.openTime = openTime;
             this.closeTime = closeTime;
         }
 
-        public string ShopHourID
+        public string ShopTimeID
         {
             get
             {
-                return shopHourID;
+                return shopTimeID;
             }
 
             set
             {
-                shopHourID = value;
+                shopTimeID = value;
             }
         }
 

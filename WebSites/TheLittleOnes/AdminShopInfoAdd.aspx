@@ -115,7 +115,8 @@
                     <div class="col-xs-12 ">
                         <div class="form-inline pull-right">
                             <asp:Label ID="LBLErrorMsg" runat="server" Text=""></asp:Label>
-                            <asp:Button ID="BTNAdd" runat="server" CssClass="btn btn-primary btn-sm" Text="Add" OnClick="BTNSave_Click" />
+                            <asp:Button ID="BTNAdd" runat="server" CssClass="btn btn-primary btn-sm" Text="Add" OnClick="BTNAdd_Click" />
+                            <asp:Button ID="BTNGenerate" runat="server" CssClass="btn btn-primary btn-sm" Text="Generate" OnClick="BTNGenerate_Click" />
                         </div>
                     </div>
                 </div>
@@ -141,30 +142,43 @@
                                                 </div>
                                                 <br />
                                                 <div>
-                                                    <asp:Label ID="LBLContact" runat="server" Text="Contact" Font-Bold="True"></asp:Label>
-                                                    <asp:TextBox ID="TBContact" runat="server" CssClass="form-control " placeholder="Contact" MaxLength="8"></asp:TextBox>
+                                                    <asp:Label ID="LBLShopContact" runat="server" Text="Shop Contact" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBShopContact" runat="server" CssClass="form-control " placeholder="Shop Contact" MaxLength="8"></asp:TextBox>
                                                 </div>
-                                                <br />
-                                                <asp:Label ID="LBLAddress" runat="server" Text="Main/Branch Address" Font-Bold="True"></asp:Label>
-                                                <div class="form-inline clearfix">
-                                                    <asp:TextBox ID="TBAddress" runat="server" CssClass="form-control col-xs-10" placeholder="Address" Width="318"></asp:TextBox>
-                                                    <asp:Button ID="BTNAddAddress" runat="server" CssClass=" form-control col-sm-3" Text="Add" OnClick="BTNAddAddress_Click" />
-                                                </div>
-
                                                 <br />
                                                 <div>
-
+                                                    <asp:Label ID="LBLAddress" runat="server" Text="Address" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBShopAddress" runat="server" CssClass="form-control col-xs-10" placeholder="Address"></asp:TextBox>
+                                                </div>
+                                                <br />
+                                                <div>
+                                                    <asp:CheckBox ID="CHKBXGroomingService" runat="server" CssClass="checkbox checkbox-inline" Text="Grooming Service" Checked="true" />
+                                                </div>
+                                                <br />
+                                                <div>
+                                                    <asp:Label ID="Label8" runat="server" Text="Shop Type" Font-Bold="True"></asp:Label>
+                                                    <asp:DropDownList ID="DDLShopType" runat="server" CssClass="form-control">
+                                                        <asp:ListItem Value="">Sselect Shop Type</asp:ListItem>
+                                                        <asp:ListItem Value="Pet Shop">Pet Shop</asp:ListItem>
+                                                        <asp:ListItem Value="Pet Clinic">Pet Clinic</asp:ListItem>
+                                                    </asp:DropDownList>
+                                                </div>
+                                                <br />
+                                                <div class="clearfix">
+                                                    <asp:Label ID="LBLShopDesc" runat="server" Text="Description" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBShopDesc" runat="server" CssClass="form-control col-xs-10" placeholder="Description" TextMode="MultiLine" Rows="15"></asp:TextBox>
                                                 </div>
                                                 <br />
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
-                                <%--photo--%>
+                                <%--operating Hours--%>
                                 <div class="col-md-3">
                                     <div class="widget-box">
                                         <div class="widget-header">
-                                            <h4 class="widget-title">Photos</h4>
+                                            <h4 class="widget-title">Operating Hours</h4>
                                         </div>
 
                                         <div class="widget-body">
@@ -256,7 +270,7 @@
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <asp:CheckBox ID="CheckBox1" runat="server" CssClass="checkbox checkbox-inline" Text=" Close on Public Holiday" Checked="true" />
+                                                    <asp:CheckBox ID="CHKBXCloseOnPublicHoliday" runat="server" CssClass="checkbox checkbox-inline" Text="Close on Public Holiday" Checked="true" />
                                                 </div>
                                             </div>
                                         </div>
@@ -290,7 +304,7 @@
                 </div>
                 <!-- /.col -->
                 </div>
-                <!-- /.row -->
+    <!-- /.row -->
 
             </ContentTemplate>
             <Triggers>

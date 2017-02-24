@@ -32,6 +32,13 @@ namespace TheLittleOnesLibrary.EnumFolder
         WebSponsorGroup,
         WebShelterGroup
     }
+
+    public enum ShopType
+    {
+        PetShop,
+        PetClinic
+    }
+
     public enum PetCategory
     {
         Dog, Cat

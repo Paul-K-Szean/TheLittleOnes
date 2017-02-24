@@ -157,7 +157,7 @@ namespace TheLittleOnesLibrary.Controllers
         }
 
         // Create PetPhoto
-        public void createPetPhoto(PetInfoEntity petInfoEntity)
+        public PetInfoEntity createPetPhoto(PetInfoEntity petInfoEntity)
         {
             foreach (PhotoEntity photoEntity in petInfoEntity.PetPhoto)
             {
@@ -171,9 +171,13 @@ namespace TheLittleOnesLibrary.Controllers
                     oleDbCommand.Parameters.AddWithValue("@PHOTOPATH", photoEntity.PhotoPath);
 
                     int insertID = dao.createRecord(oleDbCommand);
-
+                    if (insertID > 0)
+                    {
+                        photoEntity.PhotoID = insertID.ToString();
+                    }
                 }
             }
+            return petInfoEntity;
         }
 
         // Update PetInfo

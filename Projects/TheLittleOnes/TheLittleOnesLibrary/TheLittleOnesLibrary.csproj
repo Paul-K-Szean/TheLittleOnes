@@ -76,7 +76,8 @@
     <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Controllers\ShopInfoController.cs" />
     <Compile Include="DataAccessObject\DAO.cs" />
-    <Compile Include="Entities\ShopHourEntity.cs" />
+    <Compile Include="Entities\ShopInfoEntity.cs" />
+    <Compile Include="Entities\ShopTimeEntity.cs" />
     <Compile Include="Entities\PetCharacteristicEntity.cs" />
     <Compile Include="Entities\PhotoEntity.cs" />
     <Compile Include="Entities\ProfileEntity.cs" />
