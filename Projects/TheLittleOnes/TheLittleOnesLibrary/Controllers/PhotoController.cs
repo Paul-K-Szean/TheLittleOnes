@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.OleDb;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
@@ -38,6 +39,7 @@ namespace TheLittleOnesLibrary.Controllers
         // create temp files in uploadfiles/temp foler
         public List<PhotoEntity> previewPhotos(FileUpload fileUpload, string filePath_UploadFolderTemp)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             bool filePathExist = Directory.Exists(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
             LogController.LogLine("Check directory: " + filePath_UploadFolderTemp + ". Result: " + filePathExist);
 
@@ -61,9 +63,10 @@ namespace TheLittleOnesLibrary.Controllers
                 LogController.LogLine("Total files posted: " + fileUpload.PostedFiles.Count);
                 foreach (HttpPostedFile httpPostedFileInfo in fileUpload.PostedFiles)
                 {
-                    string savePath = Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp), httpPostedFileInfo.FileName);
+                    string fileName = httpPostedFileInfo.FileName.Replace(" ", "");
+                    string savePath = Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp), fileName);
                     httpPostedFileInfo.SaveAs(savePath);
-                    photoEntities.Add(new PhotoEntity(httpPostedFileInfo.FileName, savePath));
+                    photoEntities.Add(new PhotoEntity(fileName, savePath));
                 }
             }
             // return list<photoEntities> with temp path
@@ -73,44 +76,55 @@ namespace TheLittleOnesLibrary.Controllers
         // change photo path to database instead of using temp
         public List<PhotoEntity> changePhotoPathToDatabaseFolder(List<PhotoEntity> photoEntities, string filePath_UploadFolderTemp)
         {
-            // check for database folder path
-            string filePath_UploadFolderDatabase = filePath_UploadFolderTemp.Replace("temp", "database");
-            bool isfilePath_UploadFolderDatabaseExists = Directory.Exists(filePath_UploadFolderDatabase);
 
-            // check for database folder path
-            if (isfilePath_UploadFolderDatabaseExists)
+            if (string.IsNullOrEmpty(filePath_UploadFolderTemp))
             {
-                // remove old files
-                Array.ForEach(Directory.GetFiles(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase)), File.Delete);
+                return null;
             }
             else
             {
-                // dont exists - create path
-                Directory.CreateDirectory(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase));
-            }
+                // check for database folder path
+                string filePath_UploadFolderDatabase = filePath_UploadFolderTemp.Replace("temp", "database");
+                bool isfilePath_UploadFolderDatabaseExists = Directory.Exists(filePath_UploadFolderDatabase);
 
-            // get files from temp folder into database folder
-            DirectoryInfo dir = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
-            LogController.LogLine(dir.FullName);
-            foreach (var file in dir.GetFiles("*.jpg"))
-            {
-                File.Copy(Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp), file.Name),
-                   Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase), file.Name), true);
-            }
+                // check for database folder path
+                if (isfilePath_UploadFolderDatabaseExists)
+                {
+                    // remove old files
+                    Array.ForEach(Directory.GetFiles(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase)), File.Delete);
+                }
+                else
+                {
+                    // dont exists - create path
+                    Directory.CreateDirectory(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase));
+                }
 
-            // rename the file path from temp to database
-            foreach (PhotoEntity photoEntity in photoEntities)
-            {
-                photoEntity.PhotoPath = photoEntity.PhotoPath.Replace("temp", "database");
-            }
+                // get files from temp folder into database folder
+                DirectoryInfo dir = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
+                LogController.LogLine(dir.FullName);
+                foreach (var file in dir.GetFiles("*.jpg"))
+                {
+                    File.Copy(Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp), file.Name),
+                       Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase), file.Name), true);
+                }
 
-            return photoEntities;
+                // rename the file path from temp to database
+                foreach (PhotoEntity photoEntity in photoEntities)
+                {
+                    photoEntity.PhotoPath = photoEntity.PhotoPath.Replace("temp", "database");
+                }
+
+                return photoEntities;
+            }
         }
 
         // get photoEntites
         public List<PhotoEntity> getPhotoEntities()
         {
-            return photoEntities;
+            if (photoEntities != null)
+                return photoEntities;
+            else
+                return null;
         }
     }
 

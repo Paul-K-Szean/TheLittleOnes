@@ -23,6 +23,18 @@ namespace TheLittleOnesLibrary
         public static Color getErrorColorLight() { return ColorTranslator.FromHtml("#F08080"); }
         public static Color getSuccessColor() { return ColorTranslator.FromHtml("#2ECC71"); }
         public static Color getWarningColor() { return Color.Orange; }
+        public static Color getColorLightBlue()
+        {
+            return ColorTranslator.FromHtml("#93b6f2");
+        }
+        public static Color getColorWhite()
+        {
+            return ColorTranslator.FromHtml("#FFFFFF");
+        }
+        public static Color getColorLightGray()
+        {
+            return ColorTranslator.FromHtml("#EFF3F8");
+        }
 
         private static int randomNumber;
         private static string name;
@@ -256,6 +268,7 @@ namespace TheLittleOnesLibrary
             }
         }
 
+     
         public static ShopInfoEntity getShopInfoEntity()
         {
             initialiseShopInfo();
@@ -307,6 +320,33 @@ namespace TheLittleOnesLibrary
                     return "Breed";
             }
 
+        }
+
+        /// <summary>
+        /// Source from https://forums.asp.net/t/2000851.aspx?24+hours+time+format
+        /// User: a2h
+        /// Purpose: preload time interval and bind to drop down list
+        /// </summary>
+        public static List<string> setupHourRange()
+        {   
+            // defualt start time value
+            DateTime start = DateTime.ParseExact("00:00", "HH:mm", null);
+            // default end time value
+            DateTime end = DateTime.ParseExact("23:59", "HH:mm", null);
+
+            //set the interval time 
+            int interval = 30;
+            //list to hold the values of intervals
+            List<string> listTimeIntervals = new List<string>();
+            //populate the list with the interval values
+            for (DateTime i = start; i <= end; i = i.AddMinutes(interval))
+                listTimeIntervals.Add(i.ToString("HH:mm tt"));
+
+            return listTimeIntervals;
+            ////Assign the list to datasource of dropdownlist
+            //DropDownList1.DataSource = listTimeIntervals;
+            ////Databind the dropdownlist
+            //DropDownList1.DataBind();
         }
 
     }

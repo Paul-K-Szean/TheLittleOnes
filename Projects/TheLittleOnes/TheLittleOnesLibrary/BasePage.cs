@@ -118,14 +118,41 @@ namespace TheLittleOnesLibrary
             {
                 photoCtrler = PhotoController.getInstance();
             }
-            
+
 
             accEntity = accCtrler.getLoggedInAccount();
             profileEntity = profileCtrler.getLoggedInProfile();
 
         }
 
+        // Highlight select row for gridview
+        protected void highlightSelectedRow(GridView gridview)
+        {
+            int selectedIndex = gridview.SelectedIndex;
+            foreach (GridViewRow row in gridview.Rows)
+            {
+                if (row.RowIndex == gridview.SelectedIndex)
+                {
+                    row.BackColor = Utility.getColorLightBlue();
+                    row.ForeColor = Utility.getColorWhite();
+                }
+                else
+                {
+                    row.ForeColor = Utility.getDefaultColor();
+                    if (row.RowIndex % 2 == 0)
+                    {
+                        // even rows
+                        row.BackColor = Utility.getColorWhite();
+                    }
+                    else
+                    {
+                        // odd rows
+                        row.BackColor = Utility.getColorLightGray();
+                    }
 
+                }
+            }
+        }
 
 
 

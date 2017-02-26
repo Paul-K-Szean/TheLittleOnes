@@ -45,14 +45,13 @@ public partial class AdminShopInfoAdd : BasePage
         }
     }
 
-
     #region Initialize UI Control Values
     // Initial UI control values
     private void initializeUIControlValues()
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         // initialize hour range
-        List<string> timeInterval = setupHourRange();
+        List<string> timeInterval = Utility.setupHourRange();
         // loop over for controls
         foreach (Control ctrl in UpdatePanel1.ContentTemplateContainer.Controls)
         {
@@ -78,8 +77,6 @@ public partial class AdminShopInfoAdd : BasePage
 
         }
     }
-
-
     #endregion
 
     #region Button Clicks
@@ -87,13 +84,12 @@ public partial class AdminShopInfoAdd : BasePage
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
         shopName = TBShopName.Text.Trim();
-        shopContact = TBShopContact.Text.Trim();
-
-        // need category and breed to create folder
+        shopContact = TBShopContact.Text.Trim().Replace(" ", "");
+        // some variable to create folder
         if (!string.IsNullOrEmpty(shopName) && !string.IsNullOrEmpty(shopContact))
         {
             LBLErrorMsg.Text = string.Empty;
-            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/shopinfo/", shopName.ToLower().Replace(" ", "") + shopContact.ToLower().Replace(" ", "").ToString());
+            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/shopinfo/", shopName.ToLower().Replace(" ", "") + "_" + shopContact.ToLower().Replace(" ", "").ToString());
 
             // create temp files in temp foler
             photoCtrler.previewPhotos(FileUpload1, filePath_UploadFolderTemp);
@@ -103,8 +99,7 @@ public partial class AdminShopInfoAdd : BasePage
             photoPreview.InnerHtml = string.Empty;
             foreach (var file in dir.GetFiles("*.jpg"))
             {
-                LogController.LogLine("File name: " + file.Name);
-                LogController.LogLine(string.Concat(filePath_UploadFolderTemp, "/", file.Name));
+                LogController.LogLine(string.Concat(filePath_UploadFolderTemp, "/", file.Name.ToLower().Trim().Replace(" ", "")));
                 photoPreview.InnerHtml += string.Concat(
                     "<img  src =\"",
                     string.Concat(filePath_UploadFolderTemp, "/", file.Name).Replace("~/", ""),
@@ -116,13 +111,14 @@ public partial class AdminShopInfoAdd : BasePage
         {
             MessageHandler.ErrorMessage(LBLErrorMsg, "Shop name and contact cannot be empty");
         }
-        LogController.Log();
     }
 
     protected void BTNAdd_Click(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        // get inputs
         shopName = TBShopName.Text.Trim();
-        shopContact = TBShopContact.Text.Trim();
+        shopContact = TBShopContact.Text.Trim().Replace(" ", "");
         shopAddress = TBShopAddress.Text.Trim();
         shopGrooming = CHKBXGroomingService.Checked ? true : false;
         shopType = DDLShopType.SelectedValue;
@@ -130,7 +126,6 @@ public partial class AdminShopInfoAdd : BasePage
         shopCloseOnPublicHoliday = CHKBXCloseOnPublicHoliday.Checked ? true : false;
         shopTimeEntities = getShopTime();
         photoEntities = photoCtrler.getPhotoEntities();
-
 
         if (checkRequiredFields())
         {
@@ -156,7 +151,7 @@ public partial class AdminShopInfoAdd : BasePage
                 shopInfoEntity = shopInfoCtrler.createShopInfo(shopInfoEntity);
                 shopInfoEntity = shopInfoCtrler.createShopTime(shopInfoEntity);
                 if (shopInfoEntity.PhotoEntities != null)
-                    shopInfoEntity = shopInfoCtrler.createPetPhoto(shopInfoEntity);
+                    shopInfoEntity = shopInfoCtrler.createShopPhoto(shopInfoEntity);
 
                 if (shopInfoEntity != null)
                 {
@@ -175,47 +170,29 @@ public partial class AdminShopInfoAdd : BasePage
     {
         ShopInfoEntity shopInfoEntityTemp = Utility.getShopInfoEntity();
         shopName = TBShopName.Text = shopInfoEntityTemp.ShopInfoName;
-        shopContact = TBShopContact.Text = shopInfoEntityTemp.ShopInfoContact;
+        shopContact = TBShopContact.Text = shopInfoEntityTemp.ShopInfoContact.Replace(" ", "");
         shopAddress = TBShopAddress.Text = shopInfoEntityTemp.ShopInfoAddress;
         shopDesc = TBShopDesc.Text = shopInfoEntityTemp.ShopInfoDesc;
 
         CHKBXGroomingService.Checked = shopInfoEntityTemp.ShopInfoGrooming.Equals("yes") ? true : false;
         DDLShopType.SelectedIndex = shopInfoEntityTemp.ShopInfoType.Equals(ShopType.PetShop.ToString()) ? 1 : 2;
-
+        CHKBXGroomingService.Enabled = (DDLShopType.SelectedIndex == 1) ? true : false;
 
     }
     #endregion
 
-    #region Logical Methods
-    /// <summary>
-    /// Source from https://forums.asp.net/t/2000851.aspx?24+hours+time+format
-    /// User: a2h
-    /// Purpose: preload time interval and bind to drop down list
-    /// </summary>
-    private List<string> setupHourRange()
+    #region Dropdownlist Controls
+    protected void DDLShopType_SelectedIndexChanged(object sender, EventArgs e)
     {
-        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-
-        // defualt start time value
-        DateTime start = DateTime.ParseExact("00:00", "HH:mm", null);
-        // default end time value
-        DateTime end = DateTime.ParseExact("23:59", "HH:mm", null);
-
-        //set the interval time 
-        int interval = 30;
-        //list to hold the values of intervals
-        List<string> listTimeIntervals = new List<string>();
-        //populate the list with the interval values
-        for (DateTime i = start; i <= end; i = i.AddMinutes(interval))
-            listTimeIntervals.Add(i.ToString("HH:mm tt"));
-
-        return listTimeIntervals;
-        ////Assign the list to datasource of dropdownlist
-        //DropDownList1.DataSource = listTimeIntervals;
-        ////Databind the dropdownlist
-        //DropDownList1.DataBind();
+        if (DDLShopType.SelectedValue.Contains("Clinic"))
+        {
+            CHKBXGroomingService.Enabled = false;
+            CHKBXGroomingService.Checked = false;
+        }
     }
+    #endregion
 
+    #region Logical Methods
     private bool checkRequiredFields()
     {
         bool isUICtrlDropdownlistValid = true;
@@ -261,20 +238,41 @@ public partial class AdminShopInfoAdd : BasePage
     private List<ShopTimeEntity> getShopTime()
     {
         shopTimeEntities = new List<ShopTimeEntity>();
-        shopTimeEntity = new ShopTimeEntity("Monday", DDLOpenTimeMonday.SelectedValue, DDLCloseTimeMonday.SelectedValue);
-        shopTimeEntities.Add(shopTimeEntity);
-        shopTimeEntity = new ShopTimeEntity("Tuesday", DDLOpenTimeTuesday.SelectedValue, DDLCloseTimeTuesday.SelectedValue);
-        shopTimeEntities.Add(shopTimeEntity);
-        shopTimeEntity = new ShopTimeEntity("Wednesday", DDLOpenTimeWednesday.SelectedValue, DDLCloseTimeWednesday.SelectedValue);
-        shopTimeEntities.Add(shopTimeEntity);
-        shopTimeEntity = new ShopTimeEntity("Thursday", DDLOpenTimeThursday.SelectedValue, DDLCloseTimeThursday.SelectedValue);
-        shopTimeEntities.Add(shopTimeEntity);
-        shopTimeEntity = new ShopTimeEntity("Friday", DDLOpenTimeFriday.SelectedValue, DDLCloseTimeFriday.SelectedValue);
-        shopTimeEntities.Add(shopTimeEntity);
-        shopTimeEntity = new ShopTimeEntity("Saturday", DDLOpenTimeSaturday.SelectedValue, DDLCloseTimeSaturday.SelectedValue);
-        shopTimeEntities.Add(shopTimeEntity);
-        shopTimeEntity = new ShopTimeEntity("Sunday", DDLOpenTimeSunday.SelectedValue, DDLCloseTimeSunday.SelectedValue);
-        shopTimeEntities.Add(shopTimeEntity);
+        if (!CHKBXCloseMonday.Checked)
+        {
+            shopTimeEntity = new ShopTimeEntity("Monday", DDLOpenTimeMonday.SelectedValue, DDLCloseTimeMonday.SelectedValue);
+            shopTimeEntities.Add(shopTimeEntity);
+        }
+        if (!CHKBXCloseTuesday.Checked)
+        {
+            shopTimeEntity = new ShopTimeEntity("Tuesday", DDLOpenTimeTuesday.SelectedValue, DDLCloseTimeTuesday.SelectedValue);
+            shopTimeEntities.Add(shopTimeEntity);
+        }
+        if (!CHKBXCloseWednesday.Checked)
+        {
+            shopTimeEntity = new ShopTimeEntity("Wednesday", DDLOpenTimeWednesday.SelectedValue, DDLCloseTimeWednesday.SelectedValue);
+            shopTimeEntities.Add(shopTimeEntity);
+        }
+        if (!CHKBXCloseThursday.Checked)
+        {
+            shopTimeEntity = new ShopTimeEntity("Thursday", DDLOpenTimeThursday.SelectedValue, DDLCloseTimeThursday.SelectedValue);
+            shopTimeEntities.Add(shopTimeEntity);
+        }
+        if (!CHKBXCloseFriday.Checked)
+        {
+            shopTimeEntity = new ShopTimeEntity("Friday", DDLOpenTimeFriday.SelectedValue, DDLCloseTimeFriday.SelectedValue);
+            shopTimeEntities.Add(shopTimeEntity);
+        }
+        if (!CHKXBXCloseSaturday.Checked)
+        {
+            shopTimeEntity = new ShopTimeEntity("Saturday", DDLOpenTimeSaturday.SelectedValue, DDLCloseTimeSaturday.SelectedValue);
+            shopTimeEntities.Add(shopTimeEntity);
+        }
+        if (!CHKBXCloseSunday.Checked)
+        {
+            shopTimeEntity = new ShopTimeEntity("Sunday", DDLOpenTimeSunday.SelectedValue, DDLCloseTimeSunday.SelectedValue);
+            shopTimeEntities.Add(shopTimeEntity);
+        }
         return shopTimeEntities;
     }
 

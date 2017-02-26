@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.OleDb;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using TheLittleOnesLibrary.DataAccessObject;
@@ -15,8 +16,8 @@ namespace TheLittleOnesLibrary.Controllers
 
         private static ShopInfoController shopInfoCtrl;
         private static ShopInfoEntity shopInfoEntity;
-        private static ShopTimeEntity shopTimeEntity;
-        private static PhotoEntity photoEntity;
+        private static List<ShopTimeEntity> shopTimeEntities;
+        private static List<PhotoEntity> photoEntities;
 
         public static ShopInfoController getInstance()
         {
@@ -86,7 +87,7 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
 
-        // Create ShopInfo 
+        // Create ShopTime
         public ShopInfoEntity createShopTime(ShopInfoEntity shopInfoEntity)
         {
 
@@ -113,7 +114,7 @@ namespace TheLittleOnesLibrary.Controllers
         }
 
         // Create ShopPhoto
-        public ShopInfoEntity createPetPhoto(ShopInfoEntity shopInfoEntity)
+        public ShopInfoEntity createShopPhoto(ShopInfoEntity shopInfoEntity)
         {
             foreach (PhotoEntity photoEntity in shopInfoEntity.PhotoEntities)
             {
@@ -134,6 +135,133 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
             return shopInfoEntity;
+        }
+
+        // Update ShopInfo
+        public ShopInfoEntity updateShopInfo(ShopInfoEntity shopInfoEntity)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("UPDATE SHOPINFO SET SHOPINFONAME = @SHOPINFONAME, SHOPINFOCONTACT = @SHOPINFOCONTACT, ",
+                                    "SHOPINFOADDRESS = @SHOPINFOADDRESS, SHOPINFOGROOMING = @SHOPINFOGROOMING, SHOPINFOTYPE = @SHOPINFOTYPE,",
+                                    "SHOPINFODESC = @SHOPINFODESC, SHOPINFOCLOSEONPUBLICHOLIDAY = @SHOPINFOCLOSEONPUBLICHOLIDAY ",
+                                    "WHERE(SHOPINFOID = @SHOPINFOID)");
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFONAME", shopInfoEntity.ShopInfoName);
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFOCONTACT", shopInfoEntity.ShopInfoContact);
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFOADDRESS", shopInfoEntity.ShopInfoAddress);
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFOGROOMING", shopInfoEntity.ShopInfoGrooming);
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFOTYPE", shopInfoEntity.ShopInfoType);
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFODESC", shopInfoEntity.ShopInfoDesc);
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFOCLOSEONPUBLICHOLIDAY", shopInfoEntity.ShopCloseOnPublicHoliday);
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", shopInfoEntity.ShopInfoID);
+                int insertID = dao.updateRecord(oleDbCommand);
+                if (insertID > 0)
+                {
+                    return shopInfoEntity;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
+        
+        // Delete ShopPhoto
+        public ShopInfoEntity deleteShopPhoto(ShopInfoEntity shopInfoEntity)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("DELETE FROM PHOTO WHERE PHOTOOWNERID = @PHOTOOWNERID");
+                oleDbCommand.Parameters.AddWithValue("@PHOTOOWNERID", shopInfoEntity.ShopInfoID);
+                dao.deleteRecord(oleDbCommand);
+            }
+            return shopInfoEntity;
+        }
+        // Delete ShopTime
+        public ShopInfoEntity deleteShopTime(ShopInfoEntity shopInfoEntity)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("DELETE FROM SHOPTIME WHERE SHOPINFOID = @SHOPINFOID");
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", shopInfoEntity.ShopInfoID);
+                dao.deleteRecord(oleDbCommand);
+            }
+            return shopInfoEntity;
+        }
+
+        // Retrieve ShopInfo
+        public ShopInfoEntity getShopInfo(string shopInfoID)
+        {
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("SELECT * FROM SHOPINFO WHERE SHOPINFOID = @SHOPINFOID");
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", string.Concat(shopInfoID));
+                dataSet = dao.getRecord(oleDbCommand);
+                return new ShopInfoEntity(
+                    dataSet.Tables[0].Rows[0][0].ToString(),
+                    dataSet.Tables[0].Rows[0][1].ToString(),
+                    dataSet.Tables[0].Rows[0][2].ToString(),
+                    dataSet.Tables[0].Rows[0][3].ToString(),
+                    Convert.ToBoolean(dataSet.Tables[0].Rows[0][4]),
+                    dataSet.Tables[0].Rows[0][5].ToString(),
+                    dataSet.Tables[0].Rows[0][6].ToString(),
+                    Convert.ToBoolean(dataSet.Tables[0].Rows[0][7]),
+                        getShopTime(shopInfoID), getShopPhoto(shopInfoID));
+            }
+        }
+
+        // Retrieve ShopTime
+        public List<ShopTimeEntity> getShopTime(string shopInfoID)
+        {
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("SELECT * FROM SHOPTIME WHERE SHOPINFOID = @SHOPINFOID");
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", string.Concat(shopInfoID));
+                dataSet = dao.getRecord(oleDbCommand);
+                shopTimeEntities = new List<ShopTimeEntity>();
+                foreach (DataRow row in dataSet.Tables[0].Rows)
+                {
+                    ShopTimeEntity shopTimeEntity = new ShopTimeEntity(
+                    row.ItemArray[1].ToString(),
+                    row.ItemArray[2].ToString(),
+                    row.ItemArray[3].ToString(),
+                    row.ItemArray[4].ToString());
+                    shopTimeEntities.Add(shopTimeEntity);
+                }
+                return shopTimeEntities;
+            }
+        }
+
+        // Retrieve ShopPhoto
+        public List<PhotoEntity> getShopPhoto(string shopInfoID)
+        {
+
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("SELECT * FROM PHOTO WHERE PHOTOOWNERID = @SHOPINFOID");
+                oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", string.Concat(shopInfoID));
+                dataSet = dao.getRecord(oleDbCommand);
+                photoEntities = new List<PhotoEntity>();
+                foreach (DataRow row in dataSet.Tables[0].Rows)
+                {
+                    PhotoEntity photoEntity = new PhotoEntity(
+                        row[0].ToString(),
+                        row[1].ToString(),
+                        row[2].ToString(),
+                        row[3].ToString());
+                    photoEntities.Add(photoEntity);
+                }
+                return photoEntities;
+            }
         }
     }
 }

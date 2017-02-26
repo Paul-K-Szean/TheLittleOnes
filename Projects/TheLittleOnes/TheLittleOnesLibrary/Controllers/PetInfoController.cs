@@ -19,7 +19,7 @@ namespace TheLittleOnesLibrary.Controllers
         private static PetInfoController petInfoCtrl;
         private static PetInfoEntity petInfoEntity;
         private static PetCharEntity petCharEntity;
-        private static PhotoEntity photoEntity;
+        private static List<PhotoEntity> photoEntities;
         public static PetInfoController getInstance()
         {
             if (petInfoCtrl == null)
@@ -159,7 +159,7 @@ namespace TheLittleOnesLibrary.Controllers
         // Create PetPhoto
         public PetInfoEntity createPetPhoto(PetInfoEntity petInfoEntity)
         {
-            foreach (PhotoEntity photoEntity in petInfoEntity.PetPhoto)
+            foreach (PhotoEntity photoEntity in petInfoEntity.PhotoEntities)
             {
                 using (oleDbCommand = new OleDbCommand())
                 {
@@ -268,7 +268,6 @@ namespace TheLittleOnesLibrary.Controllers
                 int insertID = dao.updateRecord(oleDbCommand);
                 if (insertID > 0)
                 {
-                    petCharEntity.CharID = insertID.ToString();
                     return petCharEntity;
                 }
                 else
@@ -318,7 +317,7 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
 
-        // Retrieve Pet Char
+        // Retrieve PetChar
         public PetCharEntity getPetChar(string petInfoID)
         {
             using (oleDbCommand = new OleDbCommand())
@@ -358,10 +357,9 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
 
-        // Retrieve Pet Photo
+        // Retrieve PetPhoto
         public List<PhotoEntity> getPetPhoto(string ownerID)
         {
-            List<PhotoEntity> listPhotoEntity = new List<PhotoEntity>();
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
@@ -371,15 +369,14 @@ namespace TheLittleOnesLibrary.Controllers
 
                 foreach (DataRow row in dataSet.Tables[0].Rows)
                 {
-                    photoEntity = new PhotoEntity(
+                    PhotoEntity photoEntity = new PhotoEntity(
                         row[0].ToString(),
                         row[1].ToString(),
                         row[2].ToString(),
                         row[3].ToString());
-                    listPhotoEntity.Add(photoEntity);
+                    photoEntities.Add(photoEntity);
                 }
-
-                return listPhotoEntity;
+                return photoEntities;
             }
         }
 

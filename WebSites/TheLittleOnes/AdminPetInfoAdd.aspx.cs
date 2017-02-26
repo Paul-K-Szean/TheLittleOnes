@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading;
 using System.Web;
 using System.Web.UI;
@@ -32,15 +33,14 @@ public partial class AdminPetInfoAdd : BasePage
     private string weightMax;
     private string desc;
     private string personality;
-    private static string filePath_UploadFolderTempWithCategoryAndBreed;
+    private static string filePath_UploadFolderTemp;
 
     // page load
     protected void Page_Load(object sender, EventArgs e)
     {
         if (IsPostBack)
         {
-            category = DDLCategory.SelectedValue.Trim();
-            breed = TBBreed.Text.Trim();
+
         }
         else
         {
@@ -86,44 +86,46 @@ public partial class AdminPetInfoAdd : BasePage
     // Create pet info
     protected void BTNAdd_Click(object sender, EventArgs e)
     {
-        LogController.LogLine("Add clicked");
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        // get inputs
+        LBLErrorMsg.Text = string.Empty;
+        category = DDLCategory.SelectedValue.Trim();
+        breed = TBBreed.Text.Trim();
+        lifeSpanMin = TBLifeSpanMin.Text.Trim();
+        lifeSpanMax = TBLifeSpanMax.Text.Trim();
+        heightMin = TBHeightMin.Text.Trim();
+        heightMax = TBHeightMax.Text.Trim();
+        weightMin = TBWeightMin.Text.Trim();
+        weightMax = TBWeightMax.Text.Trim();
+        desc = TBDesc.Text.Trim();
+        personality = TBPersonality.Text.Trim();
+        photoEntities = photoCtrler.getPhotoEntities();
+
         if (checkRequiredFields())
         {
-            // get inputs
-            LBLErrorMsg.Text = string.Empty;
-            category = DDLCategory.SelectedValue.Trim();
-            breed = TBBreed.Text.Trim();
-            lifeSpanMin = TBLifeSpanMin.Text.Trim();
-            lifeSpanMax = TBLifeSpanMax.Text.Trim();
-            heightMin = TBHeightMin.Text.Trim();
-            heightMax = TBHeightMax.Text.Trim();
-            weightMin = TBWeightMin.Text.Trim();
-            weightMax = TBWeightMax.Text.Trim();
-            desc = TBDesc.Text.Trim();
-            personality = TBPersonality.Text.Trim();
-
-            // create pet info entity
-            petInfoEntity = new PetInfoEntity(category, breed,
-                lifeSpanMin, heightMin, weightMin, lifeSpanMax, heightMax, weightMax, desc, personality, "Display",
-                petCharEntity, photoEntities);
-
-            // change photo path to database instead of using temp
-            if (photoEntities != null)
+            // check if pet info exists
+            if (petInfoCtrler.checkPetInfoExist(category, breed))
             {
-                petInfoEntity = changePhotoPathToDatabaseFolder(petInfoEntity);
-            }
-
-            // check if same pet info exists
-            if (checkPetInfoExist(petInfoEntity))
-            {
+                // exists
                 MessageHandler.ErrorMessage(LBLErrorMsg, "Pet info already exists");
             }
             else
             {
+                // create pet info entity
+                petInfoEntity = new PetInfoEntity(category, breed,
+                    lifeSpanMin, heightMin, weightMin, lifeSpanMax, heightMax, weightMax, desc, personality, "Display",
+                    petCharEntity, photoEntities);
+
+                // change photo path to database instead of using temp
+                if (photoEntities != null)
+                {
+                    petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
+                }
+
                 // add into database
                 petInfoEntity = petInfoCtrler.createPetInfo(petInfoEntity);
                 petInfoEntity = petInfoCtrler.createPetCharacteristic(petInfoEntity);
-                if (photoEntities != null)
+                if (petInfoEntity.PhotoEntities != null)
                     petInfoEntity = petInfoCtrler.createPetPhoto(petInfoEntity);
 
                 if (petInfoEntity != null)
@@ -140,56 +142,38 @@ public partial class AdminPetInfoAdd : BasePage
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
-        // need category and breed to create folder
+        category = DDLCategory.SelectedValue.Trim();
+        breed = TBBreed.Text.Trim();
+
+        // some variable to create folder
         if (!string.IsNullOrEmpty(category) && !string.IsNullOrEmpty(breed))
         {
-            string filePath_UploadFolderTemp = "~/uploadedFiles/temp/petinfo";
-            filePath_UploadFolderTempWithCategoryAndBreed = string.Concat(filePath_UploadFolderTemp, "/", category.ToLower(), "/", breed.ToLower());
-            bool filePathExist = Directory.Exists(Server.MapPath(filePath_UploadFolderTempWithCategoryAndBreed));
-            LogController.LogLine("Check directory: " + filePath_UploadFolderTempWithCategoryAndBreed);
-            LogController.LogLine("Check directory result: " + filePathExist);
+            MessageHandler.ClearMessage(LBLErrorMsg);
+            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/petinfo/", category.ToLower().Replace(" ", "") + "/" + breed.ToLower().Replace(" ", "").ToString());
+            LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
 
-            // check for folders path - Temp
-            if (filePathExist)
-            {
-                // remove old files
-                LogController.LogLine("Removing old files: " + filePath_UploadFolderTempWithCategoryAndBreed);
-                Array.ForEach(Directory.GetFiles(Server.MapPath(filePath_UploadFolderTempWithCategoryAndBreed)), File.Delete);
-            }
-            else
-            {
-                // dont exists - create path
-                Directory.CreateDirectory(Server.MapPath(filePath_UploadFolderTempWithCategoryAndBreed));
-            }
-            LogController.LogLine("Temp directory: " + filePath_UploadFolderTempWithCategoryAndBreed);
-            // save post files to temp folder
-            if (FileUpload1.HasFiles)
-            {
-                photoEntities = new List<PhotoEntity>();
-                LogController.LogLine("Total files posted: " + FileUpload1.PostedFiles.Count);
-                foreach (HttpPostedFile httpPostedFileInfo in FileUpload1.PostedFiles)
-                {
-                    string savePath = Path.Combine(Server.MapPath(filePath_UploadFolderTempWithCategoryAndBreed), httpPostedFileInfo.FileName);
-                    httpPostedFileInfo.SaveAs(savePath);
-                    photoEntities.Add(new PhotoEntity(httpPostedFileInfo.FileName, savePath));
-                }
-            }
-            // display images from temp folders - based on category and breed
-            DirectoryInfo dir = new DirectoryInfo(Server.MapPath(filePath_UploadFolderTempWithCategoryAndBreed));
+            // create temp files in temp foler
+            photoCtrler.previewPhotos(FileUpload1, filePath_UploadFolderTemp);
+
+            // display images from temp folders
+            DirectoryInfo dir = new DirectoryInfo(Server.MapPath(filePath_UploadFolderTemp));
             photoPreview.InnerHtml = string.Empty;
             foreach (var file in dir.GetFiles("*.jpg"))
             {
-                LogController.LogLine("File name: " + file.Name);
-                LogController.LogLine(string.Concat(filePath_UploadFolderTempWithCategoryAndBreed, "/", file.Name));
+                LogController.LogLine(string.Concat(filePath_UploadFolderTemp, "/", file.Name.ToLower().Trim().Replace(" ", "")));
                 photoPreview.InnerHtml += string.Concat(
                     "<img  src =\"",
-                    string.Concat(filePath_UploadFolderTempWithCategoryAndBreed, "/", file.Name).Replace("~/", ""),
+                    string.Concat(filePath_UploadFolderTemp, "/", file.Name).Replace("~/", ""),
                     "\" Height=\"100\"/>",
                     "<br>", file.Name, "<hr/>");
             }
         }
-        LogController.Log();
+        else
+        {
+            MessageHandler.ErrorMessage(LBLErrorMsg, "Shop name and contact cannot be empty");
+        }
     }
+
     // Generate random values
     protected void BTNGenerate_Click(object sender, EventArgs e)
     {
@@ -336,46 +320,7 @@ public partial class AdminPetInfoAdd : BasePage
             return false;
         }
     }
-
-    private bool checkPetInfoExist(PetInfoEntity petInfoEntity)
-    {
-        return petInfoCtrler.checkPetInfoExist(petInfoEntity.PetCategory, petInfoEntity.PetBreed);
-    }
-
-    private PetInfoEntity changePhotoPathToDatabaseFolder(PetInfoEntity petInfoEntity)
-    {
-        // check for database folder path
-        string filePath_UploadFolderDatabase = "~/uploadedFiles/database/petinfo";
-        string filePath_UploadFolderDatabaseWithCategoryAndBreed = Path.Combine(filePath_UploadFolderDatabase, petInfoEntity.PetCategory.ToLower(), petInfoEntity.PetBreed.ToLower());
-        bool isfilePath_UploadFolderDatabaseExists = Directory.Exists(filePath_UploadFolderDatabaseWithCategoryAndBreed);
-        // check for database folder path
-        if (isfilePath_UploadFolderDatabaseExists)
-        {
-            // remove old files
-            Array.ForEach(Directory.GetFiles(Server.MapPath(filePath_UploadFolderDatabaseWithCategoryAndBreed)), File.Delete);
-        }
-        else
-        {
-            // dont exists - create path
-            Directory.CreateDirectory(Server.MapPath(filePath_UploadFolderDatabaseWithCategoryAndBreed));
-        }
-
-        // get files from temp folder into database folder
-        DirectoryInfo dir = new DirectoryInfo(Server.MapPath(filePath_UploadFolderTempWithCategoryAndBreed));
-        LogController.LogLine(dir.FullName);
-        foreach (var file in dir.GetFiles("*.jpg"))
-        {
-            File.Copy(Path.Combine(Server.MapPath(filePath_UploadFolderTempWithCategoryAndBreed), file.Name),
-               Path.Combine(Server.MapPath(filePath_UploadFolderDatabaseWithCategoryAndBreed), file.Name), true);
-        }
-        // petPhoto.Clear();
-        foreach (PhotoEntity photoEntity in petInfoEntity.PetPhoto)
-        {
-            photoEntity.PhotoPath = photoEntity.PhotoPath.Replace("temp", "database");
-        }
-        // petInfoEntity.PetPhoto = petPhoto;
-        return petInfoEntity;
-    }
+    
     #endregion
 
     #region Drop Down List PostBack Control

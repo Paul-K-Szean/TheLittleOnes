@@ -482,7 +482,7 @@
                             </li>
 
                             <li class="">
-                                <a href="jqgrid.html">
+                                <a href="AdminShopInfoEdit.aspx">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     Edit Shop Info
                                 </a>

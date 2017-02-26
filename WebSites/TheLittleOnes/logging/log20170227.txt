@@ -1,0 +1,910 @@
+20170227@03:07:56 [System] getLoggedInAccount 
+20170227@03:07:56 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:07:56 [System] getLoggedInAccount 
+20170227@03:07:56 [System] MessageHandler : Result for "" 
+20170227@03:07:56 [System] getLoggedInAccount 
+20170227@03:07:56 [System] getLoggedInAccount 
+20170227@03:07:56 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:07:56 [System] initializeUIControlValues 
+20170227@03:08:06 [System] getLoggedInAccount 
+20170227@03:08:06 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:08:06 [System] getLoggedInAccount 
+20170227@03:08:06 [System] getLoggedInAccount 
+20170227@03:08:06 [System] getLoggedInAccount 
+20170227@03:08:07 [System] GVShopInfoOverview_DataBound 
+20170227@03:08:10 [System] getLoggedInAccount 
+20170227@03:08:10 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:08:10 [System] getLoggedInAccount 
+20170227@03:08:10 [System] MessageHandler : Result for "" 
+20170227@03:08:10 [System] getLoggedInAccount 
+20170227@03:08:10 [System] getLoggedInAccount 
+20170227@03:08:10 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:08:10 [System] initializeUIControlValues 
+20170227@03:09:18 [System] getLoggedInAccount 
+20170227@03:09:18 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:09:18 [System] getLoggedInAccount 
+20170227@03:09:19 [System] MessageHandler : Result for "" 
+20170227@03:09:19 [System] getLoggedInAccount 
+20170227@03:09:19 [System] getLoggedInAccount 
+20170227@03:09:19 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:09:19 [System] initializeUIControlValues 
+20170227@03:09:20 [System] getLoggedInAccount 
+20170227@03:09:20 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:09:20 [System] getLoggedInAccount 
+20170227@03:09:20 [System] MessageHandler : Result for "" 
+20170227@03:09:20 [System] getLoggedInAccount 
+20170227@03:09:20 [System] getLoggedInAccount 
+20170227@03:09:20 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:09:20 [System] initializeUIControlValues 
+20170227@03:09:21 [System] getLoggedInAccount 
+20170227@03:09:21 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:09:21 [System] getLoggedInAccount 
+20170227@03:09:21 [System] MessageHandler : Result for "" 
+20170227@03:09:21 [System] getLoggedInAccount 
+20170227@03:09:21 [System] getLoggedInAccount 
+20170227@03:09:21 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:09:21 [System] initializeUIControlValues 
+20170227@03:10:49 [System] getLoggedInAccount 
+20170227@03:10:49 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:10:49 [System] getLoggedInAccount 
+20170227@03:10:49 [System] MessageHandler : Result for "" 
+20170227@03:10:49 [System] getLoggedInAccount 
+20170227@03:10:49 [System] getLoggedInAccount 
+20170227@03:10:49 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:10:50 [System] initializeUIControlValues 
+20170227@03:10:53 [System] getLoggedInAccount 
+20170227@03:10:53 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:10:53 [System] getLoggedInAccount 
+20170227@03:10:53 [System] MessageHandler : Result for "" 
+20170227@03:10:53 [System] getLoggedInAccount 
+20170227@03:10:53 [System] getLoggedInAccount 
+20170227@03:10:53 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:10:53 [System] initializeUIControlValues 
+20170227@03:10:56 [System] getLoggedInAccount 
+20170227@03:10:56 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:10:56 [System] getLoggedInAccount 
+20170227@03:10:56 [System] getLoggedInAccount 
+20170227@03:10:56 [System] getLoggedInAccount 
+20170227@03:10:56 [System] GVShopInfoOverview_DataBound 
+20170227@03:10:58 [System] getLoggedInAccount 
+20170227@03:10:58 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:10:58 [System] getLoggedInAccount 
+20170227@03:10:59 [System] MessageHandler : Result for "" 
+20170227@03:10:59 [System] getLoggedInAccount 
+20170227@03:10:59 [System] getLoggedInAccount 
+20170227@03:10:59 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:10:59 [System] initializeUIControlValues 
+20170227@03:11:09 [System] getLoggedInAccount 
+20170227@03:11:09 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170227@03:11:09 [System] getLoggedInAccount 
+20170227@03:11:14 [System] getLoggedInAccount 
+20170227@03:11:14 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170227@03:11:14 [System] getLoggedInAccount 
+20170227@03:11:14 [System] loginAccount 
+20170227@03:11:14 [System] getLoggedInAccount 
+20170227@03:11:14 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170227@03:11:14 [System] getLoggedInAccount 
+20170227@03:11:14 [System] getLoggedInAccount 
+20170227@03:11:14 [System] getLoggedInAccount 
+20170227@03:11:14 [System] GVPetInfoOverview_DataBound 
+20170227@03:11:14 [System] GVShopInfoOverview_DataBound 
+20170227@03:11:17 [System] getLoggedInAccount 
+20170227@03:11:17 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:11:17 [System] getLoggedInAccount 
+20170227@03:11:17 [System] getLoggedInAccount 
+20170227@03:11:17 [System] getLoggedInAccount 
+20170227@03:11:17 [System] GVShopInfoOverview_DataBound 
+20170227@03:11:19 [System] getLoggedInAccount 
+20170227@03:11:19 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:11:19 [System] getLoggedInAccount 
+20170227@03:11:19 [System] MessageHandler : Result for "" 
+20170227@03:11:19 [System] getLoggedInAccount 
+20170227@03:11:19 [System] getLoggedInAccount 
+20170227@03:11:19 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:11:19 [System] initializeUIControlValues 
+20170227@03:11:43 [System] getLoggedInAccount 
+20170227@03:11:43 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:11:43 [System] getLoggedInAccount 
+20170227@03:11:43 [System] MessageHandler : Result for "" 
+20170227@03:11:43 [System] getLoggedInAccount 
+20170227@03:11:43 [System] getLoggedInAccount 
+20170227@03:11:43 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:11:43 [System] initializeUIControlValues 
+20170227@03:11:46 [System] getLoggedInAccount 
+20170227@03:11:46 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:11:46 [System] getLoggedInAccount 
+20170227@03:11:46 [System] MessageHandler : Result for "" 
+20170227@03:11:46 [System] getLoggedInAccount 
+20170227@03:11:46 [System] getLoggedInAccount 
+20170227@03:11:46 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:11:46 [System] initializeUIControlValues 
+20170227@03:11:51 [System] getLoggedInAccount 
+20170227@03:11:51 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:11:51 [System] getLoggedInAccount 
+20170227@03:11:51 [System] MessageHandler : Result for "" 
+20170227@03:11:51 [System] getLoggedInAccount 
+20170227@03:11:51 [System] getLoggedInAccount 
+20170227@03:11:51 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:11:51 [System] initializeUIControlValues 
+20170227@03:12:14 [System] getLoggedInAccount 
+20170227@03:12:14 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:12:14 [System] getLoggedInAccount 
+20170227@03:12:14 [System] MessageHandler : Result for "" 
+20170227@03:12:14 [System] getLoggedInAccount 
+20170227@03:12:14 [System] getLoggedInAccount 
+20170227@03:12:14 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:12:15 [System] initializeUIControlValues 
+20170227@03:12:16 [System] getLoggedInAccount 
+20170227@03:12:16 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:12:16 [System] getLoggedInAccount 
+20170227@03:12:16 [System] MessageHandler : Result for "" 
+20170227@03:12:16 [System] getLoggedInAccount 
+20170227@03:12:16 [System] getLoggedInAccount 
+20170227@03:12:16 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:12:16 [System] initializeUIControlValues 
+20170227@03:12:19 [System] getLoggedInAccount 
+20170227@03:12:19 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:12:19 [System] getLoggedInAccount 
+20170227@03:12:19 [System] MessageHandler : Result for "" 
+20170227@03:12:19 [System] getLoggedInAccount 
+20170227@03:12:20 [System] getLoggedInAccount 
+20170227@03:12:20 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:12:20 [System] initializeUIControlValues 
+20170227@03:13:24 [System] getLoggedInAccount 
+20170227@03:13:24 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:13:24 [System] getLoggedInAccount 
+20170227@03:13:24 [System] MessageHandler : Result for "" 
+20170227@03:13:24 [System] getLoggedInAccount 
+20170227@03:13:24 [System] getLoggedInAccount 
+20170227@03:13:24 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:13:24 [System] initializeUIControlValues 
+20170227@03:13:25 [System] getLoggedInAccount 
+20170227@03:13:25 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:13:25 [System] getLoggedInAccount 
+20170227@03:13:25 [System] MessageHandler : Result for "" 
+20170227@03:13:25 [System] getLoggedInAccount 
+20170227@03:13:25 [System] getLoggedInAccount 
+20170227@03:13:25 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:13:25 [System] initializeUIControlValues 
+20170227@03:13:27 [System] getLoggedInAccount 
+20170227@03:13:27 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:13:27 [System] getLoggedInAccount 
+20170227@03:13:27 [System] MessageHandler : Result for "" 
+20170227@03:13:27 [System] getLoggedInAccount 
+20170227@03:13:27 [System] getLoggedInAccount 
+20170227@03:13:27 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:13:27 [System] initializeUIControlValues 
+20170227@03:16:20 [System] getLoggedInAccount 
+20170227@03:16:20 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:16:20 [System] getLoggedInAccount 
+20170227@03:16:20 [System] MessageHandler : Result for "" 
+20170227@03:16:20 [System] getLoggedInAccount 
+20170227@03:16:20 [System] getLoggedInAccount 
+20170227@03:16:20 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:16:21 [System] initializeUIControlValues 
+20170227@03:16:25 [System] getLoggedInAccount 
+20170227@03:16:25 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:16:25 [System] getLoggedInAccount 
+20170227@03:16:25 [System] MessageHandler : Result for "" 
+20170227@03:16:25 [System] getLoggedInAccount 
+20170227@03:16:25 [System] getLoggedInAccount 
+20170227@03:16:25 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:16:26 [System] initializeUIControlValues 
+20170227@03:17:02 [System] getLoggedInAccount 
+20170227@03:17:02 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:17:02 [System] getLoggedInAccount 
+20170227@03:17:02 [System] MessageHandler : Result for "" 
+20170227@03:17:02 [System] getLoggedInAccount 
+20170227@03:17:02 [System] getLoggedInAccount 
+20170227@03:17:02 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:17:02 [System] initializeUIControlValues 
+20170227@03:18:28 [System] getLoggedInAccount 
+20170227@03:18:28 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:18:28 [System] getLoggedInAccount 
+20170227@03:18:28 [System] MessageHandler : Result for "" 
+20170227@03:18:28 [System] getLoggedInAccount 
+20170227@03:18:28 [System] getLoggedInAccount 
+20170227@03:18:28 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:18:28 [System] initializeUIControlValues 
+20170227@03:18:35 [System] getLoggedInAccount 
+20170227@03:18:35 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:18:35 [System] getLoggedInAccount 
+20170227@03:18:35 [System] MessageHandler : Result for "" 
+20170227@03:18:35 [System] getLoggedInAccount 
+20170227@03:18:35 [System] getLoggedInAccount 
+20170227@03:18:35 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:18:35 [System] initializeUIControlValues 
+20170227@03:18:41 [System] getLoggedInAccount 
+20170227@03:18:41 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:18:41 [System] getLoggedInAccount 
+20170227@03:18:41 [System] MessageHandler : Result for "" 
+20170227@03:18:41 [System] getLoggedInAccount 
+20170227@03:18:41 [System] getLoggedInAccount 
+20170227@03:18:41 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:18:41 [System] initializeUIControlValues 
+20170227@03:19:12 [System] getLoggedInAccount 
+20170227@03:19:12 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:19:12 [System] getLoggedInAccount 
+20170227@03:19:12 [System] MessageHandler : Result for "" 
+20170227@03:19:12 [System] getLoggedInAccount 
+20170227@03:19:12 [System] getLoggedInAccount 
+20170227@03:19:12 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:19:13 [System] initializeUIControlValues 
+20170227@03:19:15 [System] getLoggedInAccount 
+20170227@03:19:15 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:19:15 [System] getLoggedInAccount 
+20170227@03:19:15 [System] MessageHandler : Result for "" 
+20170227@03:19:15 [System] getLoggedInAccount 
+20170227@03:19:15 [System] getLoggedInAccount 
+20170227@03:19:15 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:19:15 [System] initializeUIControlValues 
+20170227@03:20:41 [System] getLoggedInAccount 
+20170227@03:20:41 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:20:41 [System] getLoggedInAccount 
+20170227@03:20:41 [System] MessageHandler : Result for "" 
+20170227@03:20:41 [System] getLoggedInAccount 
+20170227@03:20:41 [System] getLoggedInAccount 
+20170227@03:20:41 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:20:41 [System] initializeUIControlValues 
+20170227@03:20:44 [System] getLoggedInAccount 
+20170227@03:20:44 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:20:44 [System] getLoggedInAccount 
+20170227@03:20:44 [System] MessageHandler : Result for "" 
+20170227@03:20:44 [System] getLoggedInAccount 
+20170227@03:20:44 [System] getLoggedInAccount 
+20170227@03:20:44 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:20:44 [System] initializeUIControlValues 
+20170227@03:20:45 [System] getLoggedInAccount 
+20170227@03:20:45 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:20:45 [System] getLoggedInAccount 
+20170227@03:20:45 [System] MessageHandler : Result for "" 
+20170227@03:20:45 [System] getLoggedInAccount 
+20170227@03:20:45 [System] getLoggedInAccount 
+20170227@03:20:45 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:20:46 [System] initializeUIControlValues 
+20170227@03:20:55 [System] getLoggedInAccount 
+20170227@03:20:55 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170227@03:20:55 [System] getLoggedInAccount 
+20170227@03:20:58 [System] getLoggedInAccount 
+20170227@03:20:58 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:20:58 [System] No account logged in 
+20170227@03:20:58 [System] getLoggedInAccount 
+20170227@03:20:58 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170227@03:20:58 [System] getLoggedInAccount 
+20170227@03:21:02 [System] getLoggedInAccount 
+20170227@03:21:02 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170227@03:21:02 [System] getLoggedInAccount 
+20170227@03:21:02 [System] loginAccount 
+20170227@03:21:02 [System] getLoggedInAccount 
+20170227@03:21:03 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170227@03:21:03 [System] getLoggedInAccount 
+20170227@03:21:03 [System] getLoggedInAccount 
+20170227@03:21:03 [System] getLoggedInAccount 
+20170227@03:21:03 [System] GVPetInfoOverview_DataBound 
+20170227@03:21:03 [System] GVShopInfoOverview_DataBound 
+20170227@03:21:06 [System] getLoggedInAccount 
+20170227@03:21:06 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170227@03:21:06 [System] getLoggedInAccount 
+20170227@03:21:06 [System] getLoggedInAccount 
+20170227@03:21:06 [System] getLoggedInAccount 
+20170227@03:21:06 [System] GVPetInfoOverview_DataBound 
+20170227@03:21:08 [System] getLoggedInAccount 
+20170227@03:21:08 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:21:08 [System] getLoggedInAccount 
+20170227@03:21:08 [System] getLoggedInAccount 
+20170227@03:21:08 [System] getLoggedInAccount 
+20170227@03:21:08 [System] GVShopInfoOverview_DataBound 
+20170227@03:21:09 [System] getLoggedInAccount 
+20170227@03:21:09 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:21:09 [System] getLoggedInAccount 
+20170227@03:21:09 [System] MessageHandler : Result for "" 
+20170227@03:21:09 [System] getLoggedInAccount 
+20170227@03:21:09 [System] getLoggedInAccount 
+20170227@03:21:09 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:21:10 [System] initializeUIControlValues 
+20170227@03:21:11 [System] getLoggedInAccount 
+20170227@03:21:11 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:21:11 [System] getLoggedInAccount 
+20170227@03:21:11 [System] MessageHandler : Result for "" 
+20170227@03:21:11 [System] getLoggedInAccount 
+20170227@03:21:11 [System] getLoggedInAccount 
+20170227@03:21:11 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:21:11 [System] initializeUIControlValues 
+20170227@03:21:13 [System] getLoggedInAccount 
+20170227@03:21:13 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:21:13 [System] getLoggedInAccount 
+20170227@03:21:13 [System] MessageHandler : Result for "" 
+20170227@03:21:13 [System] getLoggedInAccount 
+20170227@03:21:13 [System] getLoggedInAccount 
+20170227@03:21:13 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:21:13 [System] initializeUIControlValues 
+20170227@03:21:15 [System] getLoggedInAccount 
+20170227@03:21:15 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:21:15 [System] getLoggedInAccount 
+20170227@03:21:15 [System] MessageHandler : Result for "" 
+20170227@03:21:15 [System] getLoggedInAccount 
+20170227@03:21:15 [System] getLoggedInAccount 
+20170227@03:21:15 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:21:15 [System] initializeUIControlValues 
+20170227@03:23:47 [System] getLoggedInAccount 
+20170227@03:23:47 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:23:47 [System] getLoggedInAccount 
+20170227@03:23:47 [System] MessageHandler : Result for "" 
+20170227@03:23:47 [System] getLoggedInAccount 
+20170227@03:23:47 [System] getLoggedInAccount 
+20170227@03:23:47 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:23:48 [System] initializeUIControlValues 
+20170227@03:23:48 [System] getLoggedInAccount 
+20170227@03:23:48 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:23:48 [System] getLoggedInAccount 
+20170227@03:23:48 [System] MessageHandler : Result for "" 
+20170227@03:23:48 [System] getLoggedInAccount 
+20170227@03:23:48 [System] getLoggedInAccount 
+20170227@03:23:48 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:23:48 [System] initializeUIControlValues 
+20170227@03:23:50 [System] getLoggedInAccount 
+20170227@03:23:50 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:23:50 [System] getLoggedInAccount 
+20170227@03:23:50 [System] MessageHandler : Result for "" 
+20170227@03:23:50 [System] getLoggedInAccount 
+20170227@03:23:50 [System] getLoggedInAccount 
+20170227@03:23:50 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:23:50 [System] initializeUIControlValues 
+20170227@03:24:35 [System] getLoggedInAccount 
+20170227@03:24:35 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:24:35 [System] getLoggedInAccount 
+20170227@03:24:35 [System] MessageHandler : Result for "" 
+20170227@03:24:35 [System] getLoggedInAccount 
+20170227@03:24:35 [System] getLoggedInAccount 
+20170227@03:24:35 [System] updateShopInfo 
+20170227@03:24:35 [System] Record updated! 
+20170227@03:24:35 [System] deleteShopTime 
+20170227@03:24:35 [System] Record deleted! 
+20170227@03:24:35 [System] Record created! 
+20170227@03:24:35 [System] Record created! 
+20170227@03:24:35 [System] GVShopInfoOverview_DataBound 
+20170227@03:24:38 [System] getLoggedInAccount 
+20170227@03:24:38 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:24:38 [System] getLoggedInAccount 
+20170227@03:24:38 [System] MessageHandler : Result for "" 
+20170227@03:24:38 [System] getLoggedInAccount 
+20170227@03:24:38 [System] getLoggedInAccount 
+20170227@03:24:38 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:24:38 [System] initializeUIControlValues 
+20170227@03:24:40 [System] getLoggedInAccount 
+20170227@03:24:40 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:24:40 [System] getLoggedInAccount 
+20170227@03:24:40 [System] MessageHandler : Result for "" 
+20170227@03:24:40 [System] getLoggedInAccount 
+20170227@03:24:40 [System] getLoggedInAccount 
+20170227@03:24:40 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:24:40 [System] initializeUIControlValues 
+20170227@03:24:48 [System] getLoggedInAccount 
+20170227@03:24:48 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:24:48 [System] getLoggedInAccount 
+20170227@03:24:48 [System] getLoggedInAccount 
+20170227@03:24:48 [System] getLoggedInAccount 
+20170227@03:24:49 [System] GVShopInfoOverview_DataBound 
+20170227@03:24:52 [System] getLoggedInAccount 
+20170227@03:24:52 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:24:52 [System] getLoggedInAccount 
+20170227@03:24:52 [System] initializeUIControlValues 
+20170227@03:24:52 [System] getLoggedInAccount 
+20170227@03:24:52 [System] getLoggedInAccount 
+20170227@03:24:53 [System] getLoggedInAccount 
+20170227@03:24:53 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:24:53 [System] getLoggedInAccount 
+20170227@03:24:53 [System] getLoggedInAccount 
+20170227@03:24:53 [System] getLoggedInAccount 
+20170227@03:24:53 [System] 6 32 
+20170227@03:24:54 [System] getLoggedInAccount 
+20170227@03:24:54 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:24:54 [System] getLoggedInAccount 
+20170227@03:24:54 [System] getLoggedInAccount 
+20170227@03:24:54 [System] getLoggedInAccount 
+20170227@03:24:54 [System] previewPhotos 
+20170227@03:24:54 [System] Check directory: ~/uploadedFiles/temp/shopinfo/petessentials_67633749. Result: False 
+20170227@03:25:01 [System] getLoggedInAccount 
+20170227@03:25:01 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:25:01 [System] getLoggedInAccount 
+20170227@03:25:01 [System] getLoggedInAccount 
+20170227@03:25:01 [System] getLoggedInAccount 
+20170227@03:25:01 [System] previewPhotos 
+20170227@03:25:01 [System] Check directory: ~/uploadedFiles/temp/shopinfo/petessentials_67633749. Result: True 
+20170227@03:25:01 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/petessentials_67633749 
+20170227@03:25:01 [System] Total files posted: 1 
+20170227@03:25:01 [System] ~/uploadedFiles/temp/shopinfo/petessentials_67633749/600850.jpg 
+20170227@03:25:05 [System] getLoggedInAccount 
+20170227@03:25:05 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:25:05 [System] getLoggedInAccount 
+20170227@03:25:05 [System] getLoggedInAccount 
+20170227@03:25:05 [System] getLoggedInAccount 
+20170227@03:25:05 [System] BTNAdd_Click 
+20170227@03:25:06 [System] No data found in getValue() 
+20170227@03:25:06 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\petessentials_67633749 
+20170227@03:25:06 [System] Record created! 
+20170227@03:25:06 [System] Record created! 
+20170227@03:25:06 [System] Record created! 
+20170227@03:25:06 [System] Record created! 
+20170227@03:25:06 [System] Record created! 
+20170227@03:25:06 [System] Record created! 
+20170227@03:25:06 [System] Record created! 
+20170227@03:25:06 [System] Record created! 
+20170227@03:25:06 [System] Record created! 
+20170227@03:25:09 [System] getLoggedInAccount 
+20170227@03:25:09 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:25:09 [System] getLoggedInAccount 
+20170227@03:25:09 [System] getLoggedInAccount 
+20170227@03:25:09 [System] getLoggedInAccount 
+20170227@03:25:09 [System] GVShopInfoOverview_DataBound 
+20170227@03:25:12 [System] getLoggedInAccount 
+20170227@03:25:12 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:25:12 [System] getLoggedInAccount 
+20170227@03:25:12 [System] MessageHandler : Result for "" 
+20170227@03:25:12 [System] getLoggedInAccount 
+20170227@03:25:12 [System] getLoggedInAccount 
+20170227@03:25:12 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:25:12 [System] initializeUIControlValues 
+20170227@03:26:39 [System] getLoggedInAccount 
+20170227@03:26:39 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:26:39 [System] getLoggedInAccount 
+20170227@03:26:39 [System] MessageHandler : Result for "" 
+20170227@03:26:39 [System] getLoggedInAccount 
+20170227@03:26:39 [System] getLoggedInAccount 
+20170227@03:26:39 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:26:39 [System] initializeUIControlValues 
+20170227@03:26:41 [System] getLoggedInAccount 
+20170227@03:26:41 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:26:41 [System] getLoggedInAccount 
+20170227@03:26:41 [System] MessageHandler : Result for "" 
+20170227@03:26:41 [System] getLoggedInAccount 
+20170227@03:26:41 [System] getLoggedInAccount 
+20170227@03:26:41 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:26:41 [System] initializeUIControlValues 
+20170227@03:27:13 [System] getLoggedInAccount 
+20170227@03:27:13 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:27:13 [System] getLoggedInAccount 
+20170227@03:27:13 [System] MessageHandler : Result for "" 
+20170227@03:27:13 [System] getLoggedInAccount 
+20170227@03:27:13 [System] getLoggedInAccount 
+20170227@03:27:13 [System] updateShopInfo 
+20170227@03:27:13 [System] Record updated! 
+20170227@03:27:13 [System] deleteShopTime 
+20170227@03:27:13 [System] Record not deleted! Please check through given parameter values 
+20170227@03:27:13 [System] Record created! 
+20170227@03:27:13 [System] Record created! 
+20170227@03:27:13 [System] Record created! 
+20170227@03:27:13 [System] Record created! 
+20170227@03:27:13 [System] Record created! 
+20170227@03:28:03 [System] getLoggedInAccount 
+20170227@03:28:03 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170227@03:28:03 [System] getLoggedInAccount 
+20170227@03:28:07 [System] getLoggedInAccount 
+20170227@03:28:07 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:28:07 [System] getLoggedInAccount 
+20170227@03:28:08 [System] MessageHandler : Result for "" 
+20170227@03:28:08 [System] getLoggedInAccount 
+20170227@03:28:08 [System] getLoggedInAccount 
+20170227@03:28:08 [System] updateShopInfo 
+20170227@03:28:08 [System] Record updated! 
+20170227@03:28:08 [System] deleteShopTime 
+20170227@03:28:08 [System] Record deleted! 
+20170227@03:28:08 [System] Record created! 
+20170227@03:28:08 [System] Record created! 
+20170227@03:28:08 [System] Record created! 
+20170227@03:28:09 [System] Record created! 
+20170227@03:28:09 [System] Record created! 
+20170227@03:30:15 [System] getLoggedInAccount 
+20170227@03:30:15 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:30:15 [System] getLoggedInAccount 
+20170227@03:30:15 [System] MessageHandler : Result for "" 
+20170227@03:30:15 [System] getLoggedInAccount 
+20170227@03:30:15 [System] getLoggedInAccount 
+20170227@03:30:15 [System] updateShopInfo 
+20170227@03:30:15 [System] Record updated! 
+20170227@03:30:15 [System] deleteShopTime 
+20170227@03:30:15 [System] Record deleted! 
+20170227@03:30:15 [System] Record created! 
+20170227@03:30:15 [System] Record created! 
+20170227@03:30:15 [System] Record created! 
+20170227@03:30:15 [System] Record created! 
+20170227@03:30:15 [System] Record created! 
+20170227@03:30:25 [System] getLoggedInAccount 
+20170227@03:30:25 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170227@03:30:25 [System] getLoggedInAccount 
+20170227@03:30:37 [System] getLoggedInAccount 
+20170227@03:30:37 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170227@03:30:37 [System] getLoggedInAccount 
+20170227@03:30:37 [System] loginAccount 
+20170227@03:30:37 [System] getLoggedInAccount 
+20170227@03:30:37 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170227@03:30:37 [System] getLoggedInAccount 
+20170227@03:30:38 [System] getLoggedInAccount 
+20170227@03:30:38 [System] getLoggedInAccount 
+20170227@03:30:38 [System] GVPetInfoOverview_DataBound 
+20170227@03:30:38 [System] GVShopInfoOverview_DataBound 
+20170227@03:30:41 [System] getLoggedInAccount 
+20170227@03:30:41 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170227@03:30:41 [System] getLoggedInAccount 
+20170227@03:30:41 [System] getLoggedInAccount 
+20170227@03:30:41 [System] getLoggedInAccount 
+20170227@03:30:41 [System] GVPetInfoOverview_DataBound 
+20170227@03:30:45 [System] getLoggedInAccount 
+20170227@03:30:45 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:30:45 [System] getLoggedInAccount 
+20170227@03:30:45 [System] getLoggedInAccount 
+20170227@03:30:45 [System] getLoggedInAccount 
+20170227@03:30:45 [System] GVShopInfoOverview_DataBound 
+20170227@03:30:48 [System] getLoggedInAccount 
+20170227@03:30:48 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:30:48 [System] getLoggedInAccount 
+20170227@03:30:48 [System] MessageHandler : Result for "" 
+20170227@03:30:48 [System] getLoggedInAccount 
+20170227@03:30:48 [System] getLoggedInAccount 
+20170227@03:30:48 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:30:48 [System] initializeUIControlValues 
+20170227@03:30:52 [System] getLoggedInAccount 
+20170227@03:30:52 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:30:52 [System] getLoggedInAccount 
+20170227@03:30:52 [System] MessageHandler : Result for "" 
+20170227@03:30:52 [System] getLoggedInAccount 
+20170227@03:30:52 [System] getLoggedInAccount 
+20170227@03:30:52 [System] updateShopInfo 
+20170227@03:30:52 [System] Record updated! 
+20170227@03:30:52 [System] deleteShopTime 
+20170227@03:30:52 [System] Record deleted! 
+20170227@03:30:52 [System] Record created! 
+20170227@03:30:52 [System] Record created! 
+20170227@03:30:52 [System] Record created! 
+20170227@03:30:52 [System] Record created! 
+20170227@03:30:53 [System] Record created! 
+20170227@03:30:53 [System] GVShopInfoOverview_DataBound 
+20170227@03:30:59 [System] getLoggedInAccount 
+20170227@03:30:59 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:30:59 [System] getLoggedInAccount 
+20170227@03:30:59 [System] MessageHandler : Result for "" 
+20170227@03:30:59 [System] getLoggedInAccount 
+20170227@03:30:59 [System] getLoggedInAccount 
+20170227@03:30:59 [System] BTNPreview_Click 
+20170227@03:30:59 [System] previewPhotos 
+20170227@03:30:59 [System] Check directory: ~/uploadedFiles/temp/shopinfo/singaporeveterinaryanimalclinic_63650308. Result: False 
+20170227@03:30:59 [System] Total files posted: 4 
+20170227@03:30:59 [System] ~/uploadedFiles/temp/shopinfo/singaporeveterinaryanimalclinic_63650308/flowersvintagewallpaper.jpg 
+20170227@03:30:59 [System] ~/uploadedFiles/temp/shopinfo/singaporeveterinaryanimalclinic_63650308/pier_vintage-wallpaper-1920x1080.jpg 
+20170227@03:30:59 [System] ~/uploadedFiles/temp/shopinfo/singaporeveterinaryanimalclinic_63650308/retro-wallpaper-36.jpg 
+20170227@03:30:59 [System] ~/uploadedFiles/temp/shopinfo/singaporeveterinaryanimalclinic_63650308/vintage-road-hd-wallpaper.jpg 
+20170227@03:31:03 [System] getLoggedInAccount 
+20170227@03:31:03 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:31:03 [System] getLoggedInAccount 
+20170227@03:31:03 [System] MessageHandler : Result for "" 
+20170227@03:31:03 [System] getLoggedInAccount 
+20170227@03:31:03 [System] getLoggedInAccount 
+20170227@03:31:03 [System] updateShopInfo 
+20170227@03:31:03 [System] Record updated! 
+20170227@03:31:03 [System] deleteShopTime 
+20170227@03:31:03 [System] Record deleted! 
+20170227@03:31:03 [System] Record created! 
+20170227@03:31:04 [System] Record created! 
+20170227@03:31:04 [System] Record created! 
+20170227@03:31:04 [System] Record created! 
+20170227@03:31:04 [System] Record created! 
+20170227@03:31:04 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\singaporeveterinaryanimalclinic_63650308 
+20170227@03:31:04 [System] deleteShopPhoto 
+20170227@03:31:04 [System] Record not deleted! Please check through given parameter values 
+20170227@03:31:04 [System] Record created! 
+20170227@03:31:04 [System] Record created! 
+20170227@03:31:04 [System] Record created! 
+20170227@03:31:04 [System] Record created! 
+20170227@03:31:04 [System] GVShopInfoOverview_DataBound 
+20170227@03:31:12 [System] getLoggedInAccount 
+20170227@03:31:12 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:31:12 [System] getLoggedInAccount 
+20170227@03:31:12 [System] MessageHandler : Result for "" 
+20170227@03:31:12 [System] getLoggedInAccount 
+20170227@03:31:12 [System] getLoggedInAccount 
+20170227@03:31:12 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:31:12 [System] initializeUIControlValues 
+20170227@03:31:15 [System] getLoggedInAccount 
+20170227@03:31:15 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:31:15 [System] getLoggedInAccount 
+20170227@03:31:15 [System] MessageHandler : Result for "" 
+20170227@03:31:15 [System] getLoggedInAccount 
+20170227@03:31:15 [System] getLoggedInAccount 
+20170227@03:31:15 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:31:15 [System] initializeUIControlValues 
+20170227@03:31:18 [System] getLoggedInAccount 
+20170227@03:31:18 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:31:18 [System] getLoggedInAccount 
+20170227@03:31:18 [System] MessageHandler : Result for "" 
+20170227@03:31:18 [System] getLoggedInAccount 
+20170227@03:31:18 [System] getLoggedInAccount 
+20170227@03:31:18 [System] updateShopInfo 
+20170227@03:31:18 [System] Record updated! 
+20170227@03:31:18 [System] deleteShopTime 
+20170227@03:31:18 [System] Record deleted! 
+20170227@03:31:18 [System] Record created! 
+20170227@03:31:19 [System] Record created! 
+20170227@03:31:19 [System] Record created! 
+20170227@03:31:19 [System] Record created! 
+20170227@03:31:19 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\singaporeveterinaryanimalclinic_63650308 
+20170227@03:31:19 [System] deleteShopPhoto 
+20170227@03:31:19 [System] Record deleted! 
+20170227@03:31:19 [System] Record created! 
+20170227@03:31:19 [System] Record created! 
+20170227@03:31:19 [System] Record created! 
+20170227@03:31:19 [System] Record created! 
+20170227@03:31:19 [System] GVShopInfoOverview_DataBound 
+20170227@03:31:21 [System] getLoggedInAccount 
+20170227@03:31:21 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:31:21 [System] getLoggedInAccount 
+20170227@03:31:21 [System] MessageHandler : Result for "" 
+20170227@03:31:21 [System] getLoggedInAccount 
+20170227@03:31:21 [System] getLoggedInAccount 
+20170227@03:31:21 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:31:21 [System] initializeUIControlValues 
+20170227@03:31:22 [System] getLoggedInAccount 
+20170227@03:31:22 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:31:22 [System] getLoggedInAccount 
+20170227@03:31:22 [System] MessageHandler : Result for "" 
+20170227@03:31:22 [System] getLoggedInAccount 
+20170227@03:31:22 [System] getLoggedInAccount 
+20170227@03:31:22 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:31:22 [System] initializeUIControlValues 
+20170227@03:31:23 [System] getLoggedInAccount 
+20170227@03:31:23 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:31:23 [System] getLoggedInAccount 
+20170227@03:31:23 [System] MessageHandler : Result for "" 
+20170227@03:31:23 [System] getLoggedInAccount 
+20170227@03:31:23 [System] getLoggedInAccount 
+20170227@03:31:23 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170227@03:31:23 [System] initializeUIControlValues 
+20170227@03:31:29 [System] getLoggedInAccount 
+20170227@03:31:29 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:31:29 [System] getLoggedInAccount 
+20170227@03:31:29 [System] initializeUIControlValues 
+20170227@03:31:29 [System] getLoggedInAccount 
+20170227@03:31:29 [System] getLoggedInAccount 
+20170227@03:31:33 [System] getLoggedInAccount 
+20170227@03:31:33 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:31:33 [System] getLoggedInAccount 
+20170227@03:31:33 [System] getLoggedInAccount 
+20170227@03:31:33 [System] getLoggedInAccount 
+20170227@03:31:34 [System] 6 32 
+20170227@03:31:38 [System] getLoggedInAccount 
+20170227@03:31:38 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:31:38 [System] getLoggedInAccount 
+20170227@03:31:38 [System] getLoggedInAccount 
+20170227@03:31:38 [System] getLoggedInAccount 
+20170227@03:31:38 [System] previewPhotos 
+20170227@03:31:38 [System] Check directory: ~/uploadedFiles/temp/shopinfo/thejoyousvet_67690304. Result: False 
+20170227@03:31:38 [System] Total files posted: 4 
+20170227@03:31:38 [System] ~/uploadedFiles/temp/shopinfo/thejoyousvet_67690304/600850.jpg 
+20170227@03:31:38 [System] ~/uploadedFiles/temp/shopinfo/thejoyousvet_67690304/ff02307f22061f6b6fcea9344a14ee4f.jpg 
+20170227@03:31:38 [System] ~/uploadedFiles/temp/shopinfo/thejoyousvet_67690304/vintage-flower-hd-wallpaper.jpg 
+20170227@03:31:38 [System] ~/uploadedFiles/temp/shopinfo/thejoyousvet_67690304/vintage_wallpaper_hd_image_desktop7.jpg 
+20170227@03:31:52 [System] getLoggedInAccount 
+20170227@03:31:52 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:31:52 [System] getLoggedInAccount 
+20170227@03:31:52 [System] getLoggedInAccount 
+20170227@03:31:52 [System] getLoggedInAccount 
+20170227@03:31:52 [System] BTNAdd_Click 
+20170227@03:31:52 [System] No data found in getValue() 
+20170227@03:31:52 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\thejoyousvet_67690304 
+20170227@03:31:52 [System] Record created! 
+20170227@03:31:52 [System] Record created! 
+20170227@03:31:52 [System] Record created! 
+20170227@03:31:52 [System] Record created! 
+20170227@03:31:52 [System] Record created! 
+20170227@03:31:52 [System] Record created! 
+20170227@03:31:52 [System] Record created! 
+20170227@03:31:52 [System] Record created! 
+20170227@03:31:52 [System] Record created! 
+20170227@03:31:53 [System] Record created! 
+20170227@03:31:54 [System] getLoggedInAccount 
+20170227@03:31:54 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:31:54 [System] getLoggedInAccount 
+20170227@03:31:54 [System] getLoggedInAccount 
+20170227@03:31:54 [System] getLoggedInAccount 
+20170227@03:31:54 [System] 6 32 
+20170227@03:31:57 [System] getLoggedInAccount 
+20170227@03:31:57 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:31:57 [System] getLoggedInAccount 
+20170227@03:31:57 [System] getLoggedInAccount 
+20170227@03:31:57 [System] getLoggedInAccount 
+20170227@03:31:59 [System] getLoggedInAccount 
+20170227@03:31:59 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:31:59 [System] getLoggedInAccount 
+20170227@03:31:59 [System] getLoggedInAccount 
+20170227@03:31:59 [System] getLoggedInAccount 
+20170227@03:31:59 [System] 6 32 
+20170227@03:31:59 [System] getLoggedInAccount 
+20170227@03:31:59 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:31:59 [System] getLoggedInAccount 
+20170227@03:31:59 [System] getLoggedInAccount 
+20170227@03:31:59 [System] getLoggedInAccount 
+20170227@03:31:59 [System] 6 32 
+20170227@03:32:00 [System] getLoggedInAccount 
+20170227@03:32:00 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:00 [System] getLoggedInAccount 
+20170227@03:32:00 [System] getLoggedInAccount 
+20170227@03:32:00 [System] getLoggedInAccount 
+20170227@03:32:00 [System] 6 32 
+20170227@03:32:01 [System] getLoggedInAccount 
+20170227@03:32:01 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:01 [System] getLoggedInAccount 
+20170227@03:32:01 [System] getLoggedInAccount 
+20170227@03:32:01 [System] getLoggedInAccount 
+20170227@03:32:01 [System] 6 32 
+20170227@03:32:01 [System] getLoggedInAccount 
+20170227@03:32:01 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:01 [System] getLoggedInAccount 
+20170227@03:32:01 [System] getLoggedInAccount 
+20170227@03:32:01 [System] getLoggedInAccount 
+20170227@03:32:01 [System] 6 32 
+20170227@03:32:02 [System] getLoggedInAccount 
+20170227@03:32:02 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:02 [System] getLoggedInAccount 
+20170227@03:32:02 [System] getLoggedInAccount 
+20170227@03:32:02 [System] getLoggedInAccount 
+20170227@03:32:02 [System] 6 32 
+20170227@03:32:03 [System] getLoggedInAccount 
+20170227@03:32:03 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:03 [System] getLoggedInAccount 
+20170227@03:32:03 [System] getLoggedInAccount 
+20170227@03:32:03 [System] getLoggedInAccount 
+20170227@03:32:03 [System] 6 32 
+20170227@03:32:04 [System] getLoggedInAccount 
+20170227@03:32:04 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:04 [System] getLoggedInAccount 
+20170227@03:32:04 [System] getLoggedInAccount 
+20170227@03:32:04 [System] getLoggedInAccount 
+20170227@03:32:04 [System] 6 32 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] 6 32 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] 6 32 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] 6 32 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] getLoggedInAccount 
+20170227@03:32:05 [System] 6 32 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] 6 32 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] 6 32 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] getLoggedInAccount 
+20170227@03:32:07 [System] 6 32 
+20170227@03:32:08 [System] getLoggedInAccount 
+20170227@03:32:08 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:08 [System] getLoggedInAccount 
+20170227@03:32:08 [System] getLoggedInAccount 
+20170227@03:32:08 [System] getLoggedInAccount 
+20170227@03:32:08 [System] 6 32 
+20170227@03:32:09 [System] getLoggedInAccount 
+20170227@03:32:09 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:09 [System] getLoggedInAccount 
+20170227@03:32:09 [System] getLoggedInAccount 
+20170227@03:32:09 [System] getLoggedInAccount 
+20170227@03:32:09 [System] 6 32 
+20170227@03:32:11 [System] getLoggedInAccount 
+20170227@03:32:11 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:11 [System] getLoggedInAccount 
+20170227@03:32:11 [System] getLoggedInAccount 
+20170227@03:32:11 [System] getLoggedInAccount 
+20170227@03:32:11 [System] previewPhotos 
+20170227@03:32:11 [System] Check directory: ~/uploadedFiles/temp/shopinfo/pets'station_64480633. Result: False 
+20170227@03:32:17 [System] getLoggedInAccount 
+20170227@03:32:17 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:17 [System] getLoggedInAccount 
+20170227@03:32:17 [System] getLoggedInAccount 
+20170227@03:32:17 [System] getLoggedInAccount 
+20170227@03:32:17 [System] previewPhotos 
+20170227@03:32:17 [System] Check directory: ~/uploadedFiles/temp/shopinfo/pets'station_64480633. Result: True 
+20170227@03:32:17 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/pets'station_64480633 
+20170227@03:32:17 [System] Total files posted: 1 
+20170227@03:32:17 [System] ~/uploadedFiles/temp/shopinfo/pets'station_64480633/ff02307f22061f6b6fcea9344a14ee4f.jpg 
+20170227@03:32:26 [System] getLoggedInAccount 
+20170227@03:32:26 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:26 [System] getLoggedInAccount 
+20170227@03:32:26 [System] getLoggedInAccount 
+20170227@03:32:26 [System] getLoggedInAccount 
+20170227@03:32:26 [System] BTNAdd_Click 
+20170227@03:32:26 [System] No data found in getValue() 
+20170227@03:32:26 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\pets'station_64480633 
+20170227@03:32:26 [System] Record created! 
+20170227@03:32:26 [System] Record created! 
+20170227@03:32:26 [System] Record created! 
+20170227@03:32:26 [System] Record created! 
+20170227@03:32:26 [System] Record created! 
+20170227@03:32:26 [System] Record created! 
+20170227@03:32:26 [System] Record created! 
+20170227@03:32:29 [System] getLoggedInAccount 
+20170227@03:32:29 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:29 [System] getLoggedInAccount 
+20170227@03:32:29 [System] getLoggedInAccount 
+20170227@03:32:29 [System] getLoggedInAccount 
+20170227@03:32:29 [System] 6 32 
+20170227@03:32:35 [System] getLoggedInAccount 
+20170227@03:32:35 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:35 [System] getLoggedInAccount 
+20170227@03:32:35 [System] getLoggedInAccount 
+20170227@03:32:35 [System] getLoggedInAccount 
+20170227@03:32:35 [System] previewPhotos 
+20170227@03:32:35 [System] Check directory: ~/uploadedFiles/temp/shopinfo/islandvet_65605991. Result: False 
+20170227@03:32:35 [System] Total files posted: 1 
+20170227@03:32:35 [System] ~/uploadedFiles/temp/shopinfo/islandvet_65605991/pier_vintage-wallpaper-1920x1080.jpg 
+20170227@03:32:43 [System] getLoggedInAccount 
+20170227@03:32:43 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:43 [System] getLoggedInAccount 
+20170227@03:32:43 [System] getLoggedInAccount 
+20170227@03:32:43 [System] getLoggedInAccount 
+20170227@03:32:43 [System] 6 32 
+20170227@03:32:44 [System] getLoggedInAccount 
+20170227@03:32:44 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:44 [System] getLoggedInAccount 
+20170227@03:32:44 [System] getLoggedInAccount 
+20170227@03:32:44 [System] getLoggedInAccount 
+20170227@03:32:44 [System] 6 32 
+20170227@03:32:45 [System] getLoggedInAccount 
+20170227@03:32:45 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:45 [System] getLoggedInAccount 
+20170227@03:32:45 [System] getLoggedInAccount 
+20170227@03:32:45 [System] getLoggedInAccount 
+20170227@03:32:45 [System] 6 32 
+20170227@03:32:54 [System] getLoggedInAccount 
+20170227@03:32:54 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170227@03:32:54 [System] getLoggedInAccount 
+20170227@03:32:54 [System] getLoggedInAccount 
+20170227@03:32:54 [System] getLoggedInAccount 
+20170227@03:32:54 [System] BTNAdd_Click 
+20170227@03:32:54 [System] No data found in getValue() 
+20170227@03:32:54 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\islandvet_65605991 
+20170227@03:32:54 [System] Record created! 
+20170227@03:32:54 [System] Record created! 
+20170227@03:32:54 [System] Record created! 
+20170227@03:32:54 [System] Record created! 
+20170227@03:32:54 [System] Record created! 
+20170227@03:32:54 [System] Record created! 
+20170227@03:32:54 [System] Record created! 
+20170227@03:32:54 [System] Record created! 
+20170227@03:32:54 [System] Record created! 
+20170227@03:32:56 [System] getLoggedInAccount 
+20170227@03:32:56 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:32:56 [System] getLoggedInAccount 
+20170227@03:32:56 [System] getLoggedInAccount 
+20170227@03:32:56 [System] getLoggedInAccount 
+20170227@03:32:56 [System] GVShopInfoOverview_DataBound 
+20170227@03:32:58 [System] getLoggedInAccount 
+20170227@03:32:58 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170227@03:32:58 [System] getLoggedInAccount 
+20170227@03:32:58 [System] MessageHandler : Result for "" 
+20170227@03:32:58 [System] getLoggedInAccount 
+20170227@03:32:58 [System] getLoggedInAccount 
+20170227@03:32:58 [System] GVShopInfoOverview_DataBound 

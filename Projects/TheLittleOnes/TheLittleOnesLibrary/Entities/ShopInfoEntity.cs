@@ -13,35 +13,35 @@ namespace TheLittleOnesLibrary.Entities
         private string shopInfoContact;
         private string shopInfoAddress;
         private bool shopInfoGrooming;
-        private string shopInfoClinic;
+        private string shopInfoType;
         private string shopInfoDesc;
         private bool shopCloseOnPublicHoliday;
         private List<ShopTimeEntity> shopTimeEntities;
         private List<PhotoEntity> photoEntities;
 
         // Create record
-        public ShopInfoEntity(string shopInfoName, string shopInfoContact, string shopInfoAddress, bool shopInfoGrooming, string shopInfoClinic, string shopInfoDesc, bool shopCloseOnPublicHoliday, List<ShopTimeEntity> shopTimeEntities, List<PhotoEntity> photoEntities)
+        public ShopInfoEntity(string shopInfoName, string shopInfoContact, string shopInfoAddress, bool shopInfoGrooming, string shopInfoType, string shopInfoDesc, bool shopCloseOnPublicHoliday, List<ShopTimeEntity> shopTimeEntities, List<PhotoEntity> photoEntities)
         {
             this.ShopInfoName = shopInfoName;
             this.ShopInfoContact = shopInfoContact;
             this.ShopInfoAddress = shopInfoAddress;
             this.ShopInfoGrooming = shopInfoGrooming;
-            this.shopInfoClinic = shopInfoClinic;
+            this.shopInfoType = shopInfoType;
             this.ShopInfoDesc = shopInfoDesc;
             this.ShopCloseOnPublicHoliday = shopCloseOnPublicHoliday;
             this.ShopTimeEntities = shopTimeEntities;
             this.PhotoEntities = photoEntities;
         }
 
-        // Retrieve record
-        public ShopInfoEntity(string shopInfoID, string shopInfoName, string shopInfoContact, string shopInfoAddress, bool shopInfoGrooming, string shopInfoClinic, string shopInfoDesc, bool shopCloseOnPublicHoliday, List<ShopTimeEntity> shopTimeEntities, List<PhotoEntity> photoEntities)
+        // Retrieve/Update record
+        public ShopInfoEntity(string shopInfoID, string shopInfoName, string shopInfoContact, string shopInfoAddress, bool shopInfoGrooming, string shopInfoType, string shopInfoDesc, bool shopCloseOnPublicHoliday, List<ShopTimeEntity> shopTimeEntities, List<PhotoEntity> photoEntities)
         {
             this.ShopInfoID = shopInfoID;
             this.ShopInfoName = shopInfoName;
             this.ShopInfoContact = shopInfoContact;
             this.ShopInfoAddress = shopInfoAddress;
             this.ShopInfoGrooming = shopInfoGrooming;
-            this.shopInfoClinic = shopInfoClinic;
+            this.shopInfoType = shopInfoType;
             this.ShopInfoDesc = shopInfoDesc;
             this.ShopCloseOnPublicHoliday = shopCloseOnPublicHoliday;
             this.ShopTimeEntities = shopTimeEntities;
@@ -116,12 +116,12 @@ namespace TheLittleOnesLibrary.Entities
         {
             get
             {
-                return shopInfoClinic;
+                return shopInfoType;
             }
 
             set
             {
-                shopInfoClinic = value;
+                shopInfoType = value;
             }
         }
 

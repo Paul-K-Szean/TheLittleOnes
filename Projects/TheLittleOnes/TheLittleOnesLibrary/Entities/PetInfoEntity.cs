@@ -20,11 +20,11 @@ namespace TheLittleOnesLibrary.Entities
         private string petDesc;
         private string petPersonality;
         private string petDisplayStatus;
-        private PetCharEntity petCharEnt;
-        private List<PhotoEntity> petPhoto;
+        private PetCharEntity petCharEntity;
+        private List<PhotoEntity> photoEntities;
 
         // Create record consrtuctor
-        public PetInfoEntity(string petCategory, string petBreed, string petLifeSpanMin, string petHeightMin, string petWeightMin, string petLifeSpanMax, string petHeightMax, string petWeightMax, string petDesc, string petPersonality, string petDisplayStatus, PetCharEntity petCharEnt, List<PhotoEntity> petPhoto)
+        public PetInfoEntity(string petCategory, string petBreed, string petLifeSpanMin, string petHeightMin, string petWeightMin, string petLifeSpanMax, string petHeightMax, string petWeightMax, string petDesc, string petPersonality, string petDisplayStatus, PetCharEntity petCharEnt, List<PhotoEntity> photoEntities)
         {
             this.petCategory = petCategory;
             this.petBreed = petBreed;
@@ -37,31 +37,12 @@ namespace TheLittleOnesLibrary.Entities
             this.petDesc = petDesc;
             this.petPersonality = petPersonality;
             this.petDisplayStatus = petDisplayStatus;
-            this.PetCharEntity = petCharEnt;
-            this.PetPhoto = petPhoto;
+            this.petCharEntity = petCharEnt;
+            this.photoEntities = photoEntities;
         }
 
-        // Retrieve record consrtuctor
-        public PetInfoEntity(string petID, string petCategory, string petBreed, string petLifeSpanMin, string petHeightMin, string petWeightMin, string petLifeSpanMax, string petHeightMax, string petWeightMax, string petDesc, string petPersonality, string petDisplayStatus, PetCharEntity petCharEnt, List<PhotoEntity> petPhoto)
-        {
-            this.petID = petID;
-            this.petCategory = petCategory;
-            this.petBreed = petBreed;
-            this.petLifeSpanMin = petLifeSpanMin;
-            this.petHeightMin = petHeightMin;
-            this.petWeightMin = petWeightMin;
-            this.petLifeSpanMax = petLifeSpanMax;
-            this.petHeightMax = petHeightMax;
-            this.petWeightMax = petWeightMax;
-            this.petDesc = petDesc;
-            this.petPersonality = petPersonality;
-            this.petDisplayStatus = petDisplayStatus;
-            this.PetCharEntity = petCharEnt;
-            this.PetPhoto = petPhoto;
-        }
-
-        // Update record consrtuctor
-        public PetInfoEntity(string petID, string petCategory, string petBreed, string petLifeSpanMin, string petHeightMin, string petWeightMin, string petLifeSpanMax, string petHeightMax, string petWeightMax, string petDesc, string petPersonality, string petDisplayStatus)
+        // Retrieve/Update record consrtuctor
+        public PetInfoEntity(string petID, string petCategory, string petBreed, string petLifeSpanMin, string petHeightMin, string petWeightMin, string petLifeSpanMax, string petHeightMax, string petWeightMax, string petDesc, string petPersonality, string petDisplayStatus, PetCharEntity petCharEnt, List<PhotoEntity> photoEntities)
         {
             this.petID = petID;
             this.petCategory = petCategory;
@@ -75,8 +56,10 @@ namespace TheLittleOnesLibrary.Entities
             this.petDesc = petDesc;
             this.petPersonality = petPersonality;
             this.petDisplayStatus = petDisplayStatus;
+            this.petCharEntity = petCharEnt;
+            this.photoEntities = photoEntities;
         }
-
+      
         public string PetInfoID
         {
             get
@@ -237,25 +220,25 @@ namespace TheLittleOnesLibrary.Entities
         {
             get
             {
-                return petCharEnt;
+                return petCharEntity;
             }
 
             set
             {
-                petCharEnt = value;
+                petCharEntity = value;
             }
         }
 
-        public List<PhotoEntity> PetPhoto
+        public List<PhotoEntity> PhotoEntities
         {
             get
             {
-                return petPhoto;
+                return photoEntities;
             }
 
             set
             {
-                petPhoto = value;
+                photoEntities = value;
             }
         }
     }

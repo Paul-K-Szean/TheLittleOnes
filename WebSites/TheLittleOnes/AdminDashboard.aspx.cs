@@ -15,15 +15,19 @@ using TheLittleOnesLibrary.Entities;
 
 public partial class AdminDashboard : BasePage
 {
-    private static int gvPageSize = 10; // default
-
+    private static int gvPageSizePetInfo = 10; // default
+    private static int gvPageSizeShopInfo = 10; // default
 
     private DataTable dTable;
     // Page load
     protected void Page_Load(object sender, EventArgs e)
     {
-        gvPageSize = int.Parse(DDLDisplayRecordCount.SelectedValue);
-        GVPetInfoOverview.PageSize = gvPageSize;
+        // Set page sizes of Gridviews
+        gvPageSizePetInfo = int.Parse(DDLDisplayRecordCountPetInfo.SelectedValue);
+        GVPetInfoOverview.PageSize = gvPageSizePetInfo;
+        gvPageSizeShopInfo = int.Parse(DDLDisplayRecordCountPetInfo.SelectedValue);
+        GVShopInfoOverview.PageSize = gvPageSizeShopInfo;
+
         if (IsPostBack)
         {
 
@@ -32,29 +36,79 @@ public partial class AdminDashboard : BasePage
         {
 
         }
-       
 
-        if (!string.IsNullOrEmpty(TBSearch.Text))
+
+        // dynamic text for search result
+        loadSearchResultLabel();
+    }
+
+    private void loadSearchResultLabel()
+    {
+        // pet info
+        if (!string.IsNullOrEmpty(TBSearchPetInfo.Text))
         {
-            LBLSearchResult.Text = "Result for \"" + TBSearch.Text + "\"";
+            LBLSearchResultPetInfo.Text = "Result for \"" + TBSearchPetInfo.Text + "\"";
         }
         else
         {
-            LBLSearchResult.Text = "Result for Pet Info";
+            LBLSearchResultPetInfo.Text = "Result for Pet Info";
         }
+
+        if (!string.IsNullOrEmpty(TBSearchShopInfo.Text))
+        {
+            LBLSearchResultShopInfo.Text = "Result for \"" + TBSearchPetInfo.Text + "\"";
+        }
+        else
+        {
+            LBLSearchResultShopInfo.Text = "Result for Shop Info";
+        }
+
     }
 
-    #region Drop Down List PostBack Control
-    protected void DDLDisplayRecordCount_SelectedIndexChanged(object sender, EventArgs e)
+
+    #region Checkbox Control
+    // Shop info filter clinic
+    protected void CHKBXFilterClinic_CheckedChanged(object sender, EventArgs e)
     {
-        gvPageSize = int.Parse(DDLDisplayRecordCount.SelectedValue);
-        GVPetInfoOverview.PageSize = gvPageSize;
+        if (CHKBXFilterClinic.Checked)
+        {
+            CHKBXFilterGrooming.Checked = false;
+            SDSShopInfo.SelectCommand = "SELECT * FROM SHOPINFO WHERE SHOPINFOTYPE LIKE '%CLINIC%' ";
+            SDSShopInfo.DataBind();
+        }
+    }
+    // Shop info filter grooming service
+    protected void CHKBXFilterGrooming_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXFilterGrooming.Checked)
+        {
+            CHKBXFilterClinic.Checked = false;
+            SDSShopInfo.SelectCommand = "SELECT * FROM SHOPINFO WHERE SHOPINFOGROOMING = TRUE ";
+            SDSShopInfo.DataBind();
+        }
     }
     #endregion
 
-    #region Gridview Controls
+    #region Drop Down List Control
+    // Pet info
+    protected void DDLDisplayRecordCountPetInfo_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        gvPageSizePetInfo = int.Parse(DDLDisplayRecordCountPetInfo.SelectedValue);
+        GVPetInfoOverview.PageSize = gvPageSizePetInfo;
+    }
+    // Shop info
+    protected void DDLDisplayRecordCountShopInfo_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        gvPageSizeShopInfo = int.Parse(DDLDisplayRecordCountShopInfo.SelectedValue);
+        GVShopInfoOverview.PageSize = gvPageSizeShopInfo;
+    }
+    #endregion
+
+    #region Gridview Control
+    // Pet info controls
     protected void GVPetInfoOverview_DataBound(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         DataView dataView = (DataView)SDSPetInfo.Select(DataSourceSelectArguments.Empty);
         int totalSize = dataView.Count;
         int currentPageIndex = GVPetInfoOverview.PageIndex + 1;
@@ -63,7 +117,7 @@ public partial class AdminDashboard : BasePage
 
         if (pageSize > totalSize)
             pageSize = totalSize;
-        LBLEntriesCount.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
+        LBLEntriesCountPetInfo.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
 
 
     }
@@ -74,13 +128,40 @@ public partial class AdminDashboard : BasePage
         PNLPetInfoDetails.Visible = true;
         dTable = ((DataView)SDSPetChar.Select(DataSourceSelectArguments.Empty)).Table;
         petInfoEntity = petInfoCtrler.getPetInfo(dTable.Rows[0]["petInfoID"].ToString());
-        loadPieChart(dTable);
+        loadPieChartPetInfo(dTable);
+        loadPetInfo(petInfoEntity);
+    }
+
+    // Shop info controls
+    protected void GVShopInfoOverview_DataBound(object sender, EventArgs e)
+    {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        DataView dataView = (DataView)SDSShopInfo.Select(DataSourceSelectArguments.Empty);
+        int totalSize = dataView.Count;
+        int currentPageIndex = GVShopInfoOverview.PageIndex + 1;
+        int pageSize = GVShopInfoOverview.PageSize * currentPageIndex;
+        int rowSize = GVShopInfoOverview.Rows.Count;
+
+        if (pageSize > totalSize)
+            pageSize = totalSize;
+        LBLEntriesCountShopInfo.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
+
+    }
+
+    protected void GVShopInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        PNLShopInfoDetails.Visible = true;
+        dTable = ((DataView)SDSPetChar.Select(DataSourceSelectArguments.Empty)).Table;
+        shopInfoEntity = shopInfoCtrler.getShopInfo(dTable.Rows[0]["petInfoID"].ToString());
+        loadPieChartPetInfo(dTable);
         loadPetInfo(petInfoEntity);
     }
     #endregion
 
+
     #region Logical Methods
-    private void loadPieChart(DataTable dTable)
+    private void loadPieChartPetInfo(DataTable dTable)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         List<string> dataLabel = new List<string>();
@@ -146,4 +227,8 @@ public partial class AdminDashboard : BasePage
         LBLPersonality.Text = petInfoEntity.PetPersonality;
     }
     #endregion
+
+
+
+
 }

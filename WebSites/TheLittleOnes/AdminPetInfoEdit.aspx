@@ -128,12 +128,11 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="table-header">
-                                    Results for "Latest Registered Domains"
-                                        <asp:Label ID="LBLEntriesCount" runat="server" CssClass="pull-right"></asp:Label>
+                                    <asp:Label ID="LBLSearchResult" runat="server" Text="Records for Pet info"></asp:Label>
+
+                                    <asp:Label ID="LBLEntriesCount" runat="server" CssClass="pull-right"></asp:Label>
                                 </div>
                                 <!-- div.table-responsive -->
-
-
                                 <div>
                                     <div id="dynamic-table_wrapper" class="dataTables_wrapper form-inline no-footer">
                                         <div class="row">
@@ -155,7 +154,7 @@
 
                                                     <label class="block clearfix">
                                                         <span class="block input-icon input-icon-right">Search:         
-                                                    <asp:TextBox ID="TBSearch" runat="server" CssClass="form-control  input-sm" placeholder="EG: silky terrier" AutoPostBack="true"></asp:TextBox>
+                                                    <asp:TextBox ID="TBSearchPetInfo" runat="server" CssClass="form-control  input-sm" placeholder="EG: silky terrier" AutoPostBack="true"></asp:TextBox>
                                                             <i class="ace-icon fa fa-search blue bigger-110"></i>
                                                         </span>
                                                     </label>
@@ -165,7 +164,8 @@
                                         <asp:GridView ID="GVPetInfoOverview" runat="server"
                                             CssClass="table table-striped table-bordered table-hover dataTable no-footer"
                                             AutoGenerateColumns="False" DataKeyNames="petInfoID" DataSourceID="SDSPetInfo" Width="100%"
-                                            AllowPaging="true" OnDataBound="GVPetInfoOverview_DataBound" OnSelectedIndexChanged="GVPetInfoOverview_SelectedIndexChanged">
+                                            AllowPaging="true" OnDataBound="GVPetInfoOverview_DataBound"
+                                            OnSelectedIndexChanged="GVPetInfoOverview_SelectedIndexChanged">
                                             <Columns>
                                                 <asp:BoundField DataField="petInfoID" HeaderText="S/N" InsertVisible="False" ReadOnly="True" SortExpression="petInfoID" />
                                                 <asp:BoundField DataField="petInfoCategory" HeaderText="Category" SortExpression="petInfoCategory" />
@@ -184,10 +184,14 @@
                                             <PagerStyle CssClass="pagination-G5" />
                                             <PagerSettings Mode="NumericFirstLast" PageButtonCount="5" FirstPageText="First" LastPageText="Last" NextPageText="Next" PreviousPageText="Previous" />
                                         </asp:GridView>
-
-
                                     </div>
                                     <!-- div.dataTables_borderWrap -->
+                                </div>
+                                <div class="space-6"></div>
+                                <div>
+                                    <div class="form-inline pull-right">
+                                        <asp:Label ID="LBLErrorMsg" runat="server" Text="" Font-Size="Medium"></asp:Label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -204,17 +208,19 @@
                     OnItemDataBound="DLPetInfoDetails_ItemDataBound" OnEditCommand="DLPetInfoDetails_EditCommand"
                     OnCancelCommand="DLPetInfoDetails_CancelCommand" OnUpdateCommand="DLPetInfoDetails_UpdateCommand">
                     <EditItemTemplate>
+                        <%--action buttons--%>
                         <div class="row">
                             <div class="col-xs-12 ">
                                 <div class="hr dotted"></div>
                                 <div class="form-inline pull-right">
-                                    <asp:Label ID="LBLErrorMsg" runat="server" Text=""></asp:Label>
                                     <asp:Button ID="BTNUpdate" runat="server" CssClass="btn btn-primary btn-sm" Text="Update" CommandName="Update" />
                                     <asp:Button ID="BTNCancel" runat="server" CssClass="btn btn-primary btn-sm" Text="Cancel" CommandName="Cancel" />
                                 </div>
                             </div>
                         </div>
                         <!-- /.row -->
+
+                        <%--basic info--%>
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="hr dotted"></div>
@@ -363,11 +369,10 @@
                             <!-- /.col -->
                         </div>
                         <!-- /.row -->
+                        <%--characteristics--%>
                         <div class="row">
                             <div class="col-xs-12">
-                                <!-- PAGE CONTENT BEGINS -->
                                 <div class="form-horizontal">
-
                                     <div class="row">
                                         <%--adaptability--%>
                                         <div class="col-md-2">
@@ -766,7 +771,6 @@
 
                                     <div class="space-6"></div>
                                 </div>
-                                <!-- PAGE CONTENT ENDS -->
                             </div>
                             <!-- /.col -->
                         </div>
@@ -777,26 +781,22 @@
                     <ItemTemplate>
                         <div class="row">
                             <div class="col-xs-12 ">
+                                <!-- PAGE CONTENT BEGINS -->
                                 <div class="hr dotted"></div>
                                 <div class="form-inline pull-right">
-                                    <asp:Label ID="LBLErrorMsg" runat="server" Text=""></asp:Label>
                                     <asp:Button ID="BTNEdit" runat="server" CssClass="btn btn-primary btn-sm" Text="Edit" CommandName="Edit" />
                                 </div>
                             </div>
+                            <!-- PAGE CONTENT ENDS -->
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
                                 <!-- PAGE CONTENT BEGINS -->
-
                                 <div class="hr dotted"></div>
-
                                 <div>
                                     <div id="user-profile-1" class="user-profile row">
                                         <div class="col-xs-12 col-sm-4 center">
-
-
                                             <div class="space-6"></div>
-
                                             <div class="profile-user-info profile-user-info-striped align-left">
                                                 <div class="profile-info-row">
                                                     <div class="profile-info-name">S/N</div>
@@ -853,14 +853,14 @@
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
 
+                                        <%--PHOTOS--%>
                                         <div class="col-xs-12 col-sm-8">
                                             <div class="center">
                                                 <div>
                                                     <div class="overflow-auto scrollbarHorizontal" style="max-width: 1110px;">
-                                                        <asp:DataList ID="DLPetPhoto" runat="server" DataSourceID="SDSPetPhoto" Width="100%"
+                                                        <asp:DataList ID="DLPhotoUploaded" runat="server" DataSourceID="SDSPhoto" Width="100%"
                                                             RepeatDirection="Horizontal">
                                                             <ItemTemplate>
                                                                 <img src="<%# "uploadedFiles/database/petinfo/" + Eval("petInfoCategory") + "/" + Eval("petInfoBreed") + "/" + Eval("photoName") %>"
@@ -1117,7 +1117,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <!-- PAGE CONTENT ENDS -->
                             </div>
                             <!-- /.col -->
@@ -1134,7 +1133,7 @@
                     SelectCommand="SELECT * FROM [PetInfo] ORDER BY [petInfoCategory], [petInfoBreed]"
                     FilterExpression="petInfoCategory LIKE '%{0}%' OR petInfoBreed LIKE '%{0}%' OR petInfoDesc LIKE '%{0}%' OR petInfoPersonality LIKE '%{0}%' OR petInfoDisplayStatus LIKE '%{0}%'">
                     <FilterParameters>
-                        <asp:ControlParameter Name="petInfoCategory" ControlID="TBSearch" PropertyName="Text" />
+                        <asp:ControlParameter Name="petInfoCategory" ControlID="TBSearchPetInfo" PropertyName="Text" />
                     </FilterParameters>
                 </asp:SqlDataSource>
                 <asp:SqlDataSource ID="SDSPetChar" runat="server"
@@ -1145,7 +1144,7 @@
                         <asp:ControlParameter ControlID="GVPetInfoOverview" Name="petInfoID" PropertyName="SelectedValue" Type="Int32" />
                     </SelectParameters>
                 </asp:SqlDataSource>
-                <asp:SqlDataSource ID="SDSPetPhoto" runat="server"
+                <asp:SqlDataSource ID="SDSPhoto" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
                     SelectCommand="SELECT PetInfo.petInfoID, PetInfo.petInfoCategory, PetInfo.petInfoBreed, PetInfo.petInfoLifeSpanMin, PetInfo.petInfoHeightMin, PetInfo.petInfoWeightMin, PetInfo.petInfoLifeSpanMax, PetInfo.petInfoHeightMax, PetInfo.petInfoWeightMax, PetInfo.petInfoDesc, PetInfo.petInfoPersonality, PetInfo.petInfoDisplayStatus, Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath FROM (PetInfo INNER JOIN Photo ON PetInfo.petInfoID = Photo.photoOwnerID) WHERE (Photo.photoOwnerID = ?)">

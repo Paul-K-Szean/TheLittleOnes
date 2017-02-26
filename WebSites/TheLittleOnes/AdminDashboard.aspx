@@ -121,9 +121,10 @@
 									<strong class="green">Ace
 										<small>(v1.4)</small>
                                     </strong>,
-	лёгкий, многофункциональный и простой в использовании шаблон для админки на bootstrap 3.3.6. Загрузить исходники с <a href="https://github.com/bopoda/ace">github</a> (with minified ace js/css files).
+	                    лёгкий, многофункциональный и простой в использовании шаблон для админки на bootstrap 3.3.6. Загрузить исходники с <a href="https://github.com/bopoda/ace">github</a> (with minified ace js/css files).
                 </div>
 
+                <%--PET INFO--%>
                 <div class="row">
                     <div class="space-6"></div>
 
@@ -132,9 +133,9 @@
                             <div class="widget-header widget-header-flat">
                                 <h4 class="widget-title lighter">
                                     <i class="ace-icon fa  fa-id-card-o"></i>
-                                 Pet Info 
+                                    Pet Info 
                                 </h4>
-                                
+
                                 <div class="widget-toolbar">
                                     <a href="#" data-action="collapse">
                                         <i class="ace-icon fa fa-chevron-up"></i>
@@ -148,19 +149,19 @@
                                         <ContentTemplate>
                                             <div class="col-lg-7">
                                                 <div class="table-header">
-                                                    <asp:Label ID="LBLSearchResult" runat="server" ></asp:Label>
-                                        <asp:Label ID="LBLEntriesCount" runat="server" CssClass="pull-right"></asp:Label>
+                                                    <asp:Label ID="LBLSearchResultPetInfo" runat="server"></asp:Label>
+                                                    <asp:Label ID="LBLEntriesCountPetInfo" runat="server" CssClass="pull-right"></asp:Label>
                                                 </div>
                                                 <!-- div.table-responsive -->
 
 
-                                                <div id="dynamic-table_wrapper" class="dataTables_wrapper form-inline no-footer">
+                                                <div class="dataTables_wrapper form-inline no-footer">
                                                     <div class="row">
                                                         <div class="col-xs-6">
-                                                            <div class="dataTables_length" id="dynamic-table_length">
+                                                            <div class="dataTables_length">
                                                                 Display 
-                                                <asp:DropDownList ID="DDLDisplayRecordCount" runat="server" CssClass="form-control"
-                                                    AutoPostBack="true" OnSelectedIndexChanged="DDLDisplayRecordCount_SelectedIndexChanged">
+                                                <asp:DropDownList ID="DDLDisplayRecordCountPetInfo" runat="server" CssClass="form-control"
+                                                    AutoPostBack="true" OnSelectedIndexChanged="DDLDisplayRecordCountPetInfo_SelectedIndexChanged">
                                                     <asp:ListItem Value="5">5</asp:ListItem>
                                                     <asp:ListItem Value="10">10</asp:ListItem>
                                                     <asp:ListItem Value="20">20</asp:ListItem>
@@ -171,11 +172,11 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-xs-6">
-                                                            <div id="dynamic-table_filter" class="dataTables_filter">
+                                                            <div class="dataTables_filter">
 
                                                                 <label class="block clearfix">
                                                                     <span class="block input-icon input-icon-right">Search:         
-                                                    <asp:TextBox ID="TBSearch" runat="server" CssClass="form-control  input-sm" placeholder="EG: silky terrier" AutoPostBack="true"></asp:TextBox>
+                                                    <asp:TextBox ID="TBSearchPetInfo" runat="server" CssClass="form-control  input-sm" placeholder="EG: silky terrier" AutoPostBack="true"></asp:TextBox>
                                                                         <i class="ace-icon fa fa-search blue bigger-110"></i>
                                                                     </span>
                                                                 </label>
@@ -275,7 +276,7 @@
 
 
                                                                 </div>
-                                                               
+
                                                             </div>
                                                             <!-- /.widget-main -->
                                                         </div>
@@ -290,7 +291,7 @@
                                                 SelectCommand="SELECT * FROM [PetInfo] ORDER BY [petInfoCategory], [petInfoBreed]"
                                                 FilterExpression="petInfoCategory LIKE '%{0}%' OR petInfoBreed LIKE '%{0}%' OR petInfoDesc LIKE '%{0}%' OR petInfoPersonality LIKE '%{0}%' OR petInfoDisplayStatus LIKE '%{0}%'">
                                                 <FilterParameters>
-                                                    <asp:ControlParameter Name="petInfoCategory" ControlID="TBSearch" PropertyName="Text" />
+                                                    <asp:ControlParameter ControlID="TBSearchPetInfo" PropertyName="Text" />
                                                 </FilterParameters>
                                             </asp:SqlDataSource>
                                             <asp:SqlDataSource ID="SDSPetChar" runat="server"
@@ -315,6 +316,214 @@
                 </div>
                 <!-- /.row -->
                 <div class="hr hr32 hr-dotted"></div>
+
+                <%--SHOP INFO--%>
+                <div class="row">
+                    <div class="space-6"></div>
+
+                    <div class="col-sm-12">
+                        <div class="widget-box transparent">
+                            <div class="widget-header widget-header-flat">
+                                <h4 class="widget-title lighter">
+                                    <i class="ace-icon fa  fa-id-card-o"></i>
+                                    Shop Info 
+                                </h4>
+
+                                <div class="widget-toolbar">
+                                    <a href="#" data-action="collapse">
+                                        <i class="ace-icon fa fa-chevron-up"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="widget-body">
+                                <div class="widget-main padding-4">
+                                    <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+                                        <ContentTemplate>
+                                            <div class="col-lg-7">
+                                                <div class="table-header">
+                                                    <asp:Label ID="LBLSearchResultShopInfo" runat="server"></asp:Label>
+                                                    <asp:Label ID="LBLEntriesCountShopInfo" runat="server" CssClass="pull-right"></asp:Label>
+                                                </div>
+                                                <!-- div.table-responsive -->
+
+
+                                                <div class="dataTables_wrapper form-inline no-footer">
+                                                    <div class="row">
+                                                        <div class="col-xs-6">
+                                                            <div class="dataTables_length">
+                                                                Display 
+                                                <asp:DropDownList ID="DDLDisplayRecordCountShopInfo" runat="server" CssClass="form-control"
+                                                    AutoPostBack="true" OnSelectedIndexChanged="DDLDisplayRecordCountShopInfo_SelectedIndexChanged">
+                                                    <asp:ListItem Value="5">5</asp:ListItem>
+                                                    <asp:ListItem Value="10">10</asp:ListItem>
+                                                    <asp:ListItem Value="20">20</asp:ListItem>
+                                                    <asp:ListItem Value="50">50</asp:ListItem>
+                                                    <asp:ListItem Value="100">100</asp:ListItem>
+                                                </asp:DropDownList>
+                                                                records
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="dataTables_filter">
+                                                                <label class="block clearfix">
+                                                                    <span class="block input-icon input-icon-right  toolbar">
+                                                                        <asp:CheckBox ID="CHKBXFilterClinic" runat="server" CssClass="checkbox-inline" Text="Clinic"
+                                                                            AutoPostBack="true" OnCheckedChanged="CHKBXFilterClinic_CheckedChanged" />
+
+                                                                        <asp:CheckBox ID="CHKBXFilterGrooming" runat="server" CssClass="checkbox-inline" Text="Grooming"
+                                                                            AutoPostBack="true" OnCheckedChanged="CHKBXFilterGrooming_CheckedChanged" />
+                                                                    </span>
+
+                                                                    <span class="block input-icon input-icon-right">Search:         
+                                                                        <asp:TextBox ID="TBSearchShopInfo" runat="server" CssClass="form-control  input-sm"
+                                                                            placeholder="EG: Pet Shop" AutoPostBack="true"></asp:TextBox>
+                                                                        <i class="ace-icon fa fa-search blue bigger-110"></i>
+                                                                    </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <asp:GridView ID="GVShopInfoOverview" runat="server" OnSelectedIndexChanged="GVShopInfoOverview_SelectedIndexChanged"
+                                                        CssClass="table table-striped table-bordered table-hover dataTable no-footer" OnDataBound="GVShopInfoOverview_DataBound"
+                                                        AutoGenerateColumns="False" DataKeyNames="shopInfoID" DataSourceID="SDSShopInfo" Width="100%"
+                                                        AllowPaging="True">
+                                                        <Columns>
+                                                            <asp:BoundField DataField="shopInfoID" HeaderText="S/N" InsertVisible="False" ReadOnly="True" SortExpression="shopInfoID" />
+                                                            <asp:BoundField DataField="shopInfoName" HeaderText="Name" SortExpression="shopInfoName" />
+                                                            <asp:BoundField DataField="shopInfoContact" HeaderText="Contact" SortExpression="shopInfoContact" HeaderStyle-Width="100" />
+                                                            <asp:BoundField DataField="shopInfoAddress" HeaderText="Address" SortExpression="shopInfoAddress" />
+                                                            <%--<asp:BoundField DataField="shopInfoGrooming" HeaderText="Grooming Service" SortExpression="shopInfoGrooming" />--%>
+                                                            <asp:TemplateField HeaderText="Grooming Service" SortExpression="shopInfoGrooming">
+                                                                <ItemTemplate><%# (bool.Parse(Eval("shopInfoGrooming").ToString())) ? "Yes" : "No" %></ItemTemplate>
+                                                            </asp:TemplateField>
+                                                            <asp:BoundField DataField="shopInfoType" HeaderText="Type" SortExpression="shopInfoType" />
+                                                            <%--<asp:BoundField DataField="shopInfoCloseOnPublicHoliday" HeaderText="Close On PH" SortExpression="shopInfoCloseOnPublicHoliday" />--%>
+                                                            <asp:TemplateField HeaderText="Close on PH" SortExpression="shopInfoCloseOnPublicHoliday">
+                                                                <ItemTemplate><%# (bool.Parse(Eval("shopInfoCloseOnPublicHoliday").ToString())) ? "Yes" : "No" %></ItemTemplate>
+                                                            </asp:TemplateField>
+                                                            <asp:CommandField ShowSelectButton="True" SelectText="View" />
+                                                        </Columns>
+                                                        <PagerStyle CssClass="pagination-G5" />
+                                                        <PagerSettings Mode="NumericFirstLast" PageButtonCount="5" FirstPageText="First" LastPageText="Last" NextPageText="Next" PreviousPageText="Previous" />
+                                                    </asp:GridView>
+                                                </div>
+                                                <!-- div.dataTables_borderWrap -->
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <asp:Panel ID="PNLShopInfoDetails" runat="server" Visible="false">
+                                                    <div class="widget-box">
+                                                        <div class="widget-header widget-header-flat widget-header-small">
+                                                            <h5 class="widget-title">
+                                                                <i class="ace-icon fa fa-signal"></i>
+                                                                <asp:Label ID="LBLShopTime" runat="server"></asp:Label>
+                                                                - 
+                                                                <asp:Label ID="Label4" runat="server"></asp:Label>
+                                                            </h5>
+
+                                                            <div class="widget-toolbar no-border">
+                                                                <div class="inline dropdown-hover">
+                                                                    <button class="btn btn-minier btn-primary">
+                                                                        This Week
+															<i class="ace-icon fa fa-angle-down icon-on-right bigger-110"></i>
+                                                                    </button>
+
+                                                                    <ul class="dropdown-menu dropdown-menu-right dropdown-125 dropdown-lighter dropdown-close dropdown-caret">
+                                                                        <li class="active">
+                                                                            <a href="#" class="blue">
+                                                                                <i class="ace-icon fa fa-caret-right bigger-110">&nbsp;</i>
+                                                                                This Week
+                                                                            </a>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="ace-icon fa fa-caret-right bigger-110 invisible">&nbsp;</i>
+                                                                                Last Week
+                                                                            </a>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="ace-icon fa fa-caret-right bigger-110 invisible">&nbsp;</i>
+                                                                                This Month
+                                                                            </a>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="ace-icon fa fa-caret-right bigger-110 invisible">&nbsp;</i>
+                                                                                Last Month
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="widget-body">
+                                                            <div class="widget-main">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <h4>Description</h4>
+                                                                        <p>
+                                                                            <asp:Label ID="Label5" runat="server"></asp:Label>
+                                                                        </p>
+                                                                        <h4>Personality </h4>
+                                                                        <p>
+                                                                            <asp:Label ID="Label6" runat="server"></asp:Label>
+                                                                        </p>
+                                                                    </div>
+
+
+                                                                </div>
+
+                                                            </div>
+                                                            <!-- /.widget-main -->
+                                                        </div>
+                                                        <!-- /.widget-body -->
+                                                    </div>
+                                                    <!-- /.widget-box -->
+                                                </asp:Panel>
+                                            </div>
+                                            <asp:SqlDataSource ID="SDSShopInfo" runat="server"
+                                                ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
+                                                ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
+                                                SelectCommand="SELECT * FROM [ShopInfo] ORDER BY [shopInfoName]"
+                                                FilterExpression="shopInfoName LIKE '%{0}%' OR shopInfoAddress LIKE '%{0}%' OR shopInfoType LIKE '%{0}%' OR shopInfoDesc LIKE '%{0}%'">
+                                                <FilterParameters>
+                                                    <asp:ControlParameter ControlID="TBSearchShopInfo" PropertyName="Text" />
+                                                    <asp:ControlParameter Name="shopInfoType" ControlID="CHKBXFilterClinic" PropertyName="Checked" ConvertEmptyStringToNull="false" />
+                                                </FilterParameters>
+                                            </asp:SqlDataSource>
+                                            <asp:SqlDataSource ID="SDSShopTime" runat="server"
+                                                ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
+                                                ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
+                                                SelectCommand="SELECT * FROM [ShopTime] WHERE ([shopInfoID] = ?)">
+                                                <SelectParameters>
+                                                    <asp:ControlParameter ControlID="GVShopInfoOverview" Name="shopInfoID" PropertyName="SelectedValue" Type="Int32" />
+                                                </SelectParameters>
+                                            </asp:SqlDataSource>
+                                        </ContentTemplate>
+                                    </asp:UpdatePanel>
+                                </div>
+                                <!-- /.widget-main -->
+                            </div>
+                            <!-- /.widget-body -->
+                        </div>
+                        <!-- /.widget-box -->
+                    </div>
+
+                    <div class="vspace-12-sm"></div>
+                </div>
+                <!-- /.row -->
+                <div class="hr hr32 hr-dotted"></div>
+
+
+
 
                 <!-- PAGE CONTENT ENDS -->
             </div>
