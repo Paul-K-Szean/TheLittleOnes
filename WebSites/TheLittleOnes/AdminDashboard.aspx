@@ -183,7 +183,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <asp:GridView ID="GVPetInfoOverview" runat="server" OnSelectedIndexChanged="GVPetInfoOverview_SelectedIndexChanged"
+                                                    <asp:GridView ID="GVPetInfoOverview" runat="server" OnSelectedIndexChanging="GVPetInfoOverview_SelectedIndexChanging" OnSelectedIndexChanged="GVPetInfoOverview_SelectedIndexChanged"
                                                         CssClass="table table-striped table-bordered table-hover dataTable no-footer" OnDataBound="GVPetInfoOverview_DataBound"
                                                         AutoGenerateColumns="False" DataKeyNames="petInfoID" DataSourceID="SDSPetInfo" Width="100%"
                                                         AllowPaging="True">
@@ -297,7 +297,7 @@
                                             <asp:SqlDataSource ID="SDSPetChar" runat="server"
                                                 ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                                                 ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                                                SelectCommand="SELECT PetInfo.petInfoID, PetInfo.petInfoCategory, PetInfo.petInfoBreed, PetInfo.petInfoLifeSpanMin, PetInfo.petInfoHeightMin, PetInfo.petInfoWeightMin, PetInfo.petInfoLifeSpanMax, PetInfo.petInfoHeightMax, PetInfo.petInfoWeightMax, PetInfo.petInfoDesc, PetInfo.petInfoPersonality, PetInfo.petInfoDisplayStatus, PetCharacteristics.charID, PetCharacteristics.charOverallAdaptability, PetCharacteristics.charOverallFriendliness, PetCharacteristics.charOverallGrooming, PetCharacteristics.charOverallTrainability, PetCharacteristics.charOverallExercise, PetCharacteristics.charAdaptToSurrounding, PetCharacteristics.charAdaptToNovice, PetCharacteristics.charAdaptToLoneliness, PetCharacteristics.charAdaptToCold, PetCharacteristics.charAdaptToHot, PetCharacteristics.charFriendWithFamily, PetCharacteristics.charFriendWithKids, PetCharacteristics.charFriendWithStrangers, PetCharacteristics.charFriendWithOtherPet, PetCharacteristics.charGroomShedding, PetCharacteristics.charGroomDrooling, PetCharacteristics.charGroomLevel, PetCharacteristics.charTrainLevel, PetCharacteristics.charTrainIntelligence, PetCharacteristics.charTrainMouthiness, PetCharacteristics.charTrainPreyDrive, PetCharacteristics.charTrainBarkHowl, PetCharacteristics.charExerciseEnergyLevel, PetCharacteristics.charExerciseNeeds, PetCharacteristics.charExercisePlayfullness FROM (PetInfo INNER JOIN PetCharacteristics ON PetInfo.petInfoID = PetCharacteristics.petInfoID) WHERE (PetInfo.petInfoID = ?)">
+                                                SelectCommand="SELECT * FROM (PetInfo INNER JOIN PetCharacteristics ON PetInfo.petInfoID = PetCharacteristics.petInfoID) WHERE (PetInfo.petInfoID = ?)">
                                                 <SelectParameters>
                                                     <asp:ControlParameter ControlID="GVPetInfoOverview" Name="petInfoID" PropertyName="SelectedValue" Type="Int32" />
                                                 </SelectParameters>
@@ -342,7 +342,7 @@
                                         <ContentTemplate>
                                             <div class="col-lg-7">
                                                 <div class="table-header">
-                                                    <asp:Label ID="LBLSearchResultShopInfo" runat="server"></asp:Label>
+                                                    <asp:Label ID="LBLSearchResultShopInfo" runat="server" Text="Records for Shop info"></asp:Label>
                                                     <asp:Label ID="LBLEntriesCountShopInfo" runat="server" CssClass="pull-right"></asp:Label>
                                                 </div>
                                                 <!-- div.table-responsive -->
@@ -365,26 +365,29 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-xs-6">
-                                                            <div class="dataTables_filter">
+                                                            <div id="dynamic-table_filter" class="dataTables_filter">
+                                                                <span class="block input-icon input-icon-right  toolbar">
+                                                                    <asp:CheckBox ID="CHKBXFilterPetShop" runat="server" CssClass="checkbox-inline" Text="Shop"
+                                                                        AutoPostBack="true" OnCheckedChanged="CHKBXFilterShop_CheckedChanged" />
+
+                                                                    <asp:CheckBox ID="CHKBXFilterPetClinic" runat="server" CssClass="checkbox-inline" Text="Clinic"
+                                                                        AutoPostBack="true" OnCheckedChanged="CHKBXFilterClinic_CheckedChanged" />
+
+                                                                    <asp:CheckBox ID="CHKBXFilterGrooming" runat="server" CssClass="checkbox-inline" Text="Grooming"
+                                                                        AutoPostBack="true" OnCheckedChanged="CHKBXFilterGrooming_CheckedChanged" />
+                                                                </span>
                                                                 <label class="block clearfix">
-                                                                    <span class="block input-icon input-icon-right  toolbar">
-                                                                        <asp:CheckBox ID="CHKBXFilterClinic" runat="server" CssClass="checkbox-inline" Text="Clinic"
-                                                                            AutoPostBack="true" OnCheckedChanged="CHKBXFilterClinic_CheckedChanged" />
-
-                                                                        <asp:CheckBox ID="CHKBXFilterGrooming" runat="server" CssClass="checkbox-inline" Text="Grooming"
-                                                                            AutoPostBack="true" OnCheckedChanged="CHKBXFilterGrooming_CheckedChanged" />
-                                                                    </span>
-
                                                                     <span class="block input-icon input-icon-right">Search:         
-                                                                        <asp:TextBox ID="TBSearchShopInfo" runat="server" CssClass="form-control  input-sm"
-                                                                            placeholder="EG: Pet Shop" AutoPostBack="true"></asp:TextBox>
+                                                    <asp:TextBox ID="TBSearchShopInfo" runat="server" CssClass="form-control  input-sm" placeholder="EG: Vet"
+                                                        AutoPostBack="true" OnTextChanged="TBSearchShopInfo_TextChanged"
+                                                        Text=""></asp:TextBox>
                                                                         <i class="ace-icon fa fa-search blue bigger-110"></i>
                                                                     </span>
                                                                 </label>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <asp:GridView ID="GVShopInfoOverview" runat="server" OnSelectedIndexChanged="GVShopInfoOverview_SelectedIndexChanged"
+                                                    <asp:GridView ID="GVShopInfoOverview" runat="server" OnSelectedIndexChanging="GVShopInfoOverview_SelectedIndexChanging" OnSelectedIndexChanged="GVShopInfoOverview_SelectedIndexChanged"
                                                         CssClass="table table-striped table-bordered table-hover dataTable no-footer" OnDataBound="GVShopInfoOverview_DataBound"
                                                         AutoGenerateColumns="False" DataKeyNames="shopInfoID" DataSourceID="SDSShopInfo" Width="100%"
                                                         AllowPaging="True">
@@ -416,9 +419,7 @@
                                                         <div class="widget-header widget-header-flat widget-header-small">
                                                             <h5 class="widget-title">
                                                                 <i class="ace-icon fa fa-signal"></i>
-                                                                <asp:Label ID="LBLShopTime" runat="server"></asp:Label>
-                                                                - 
-                                                                <asp:Label ID="Label4" runat="server"></asp:Label>
+                                                              Shop Information
                                                             </h5>
 
                                                             <div class="widget-toolbar no-border">
@@ -464,23 +465,75 @@
                                                         <div class="widget-body">
                                                             <div class="widget-main">
                                                                 <div class="row">
-                                                                    <div class="col-md-7">
-                                                                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                                                                    <div class="col-md-12">
+                                                                        <div class="center">
+                                                                            <div>
+                                                                                <div class="overflow-auto scrollbarHorizontal">
+                                                                                    <asp:DataList ID="DLPhotoUploaded" runat="server" DataSourceID="SDSPhotoShopInfo" RepeatDirection="Horizontal" Width="100%">
+                                                                                        <ItemTemplate>
+                                                                                            <img src="<%# "uploadedFiles/database/shopinfo/" + Eval("shopInfoName").ToString().ToLower().Replace(" ", "") + "_"+Eval("shopInfoContact").ToString().ToLower().Replace(" ", "") + "/" + Eval("photoName")  %>"
+                                                                                                style="max-height: 200px; margin: 0px 4px">
+                                                                                        </ItemTemplate>
+                                                                                    </asp:DataList>
+                                                                                </div>
+                                                                                <div class="space-4">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="col-md-5">
-                                                                        <h4>Description</h4>
-                                                                        <p>
-                                                                            <asp:Label ID="Label5" runat="server"></asp:Label>
-                                                                        </p>
-                                                                        <h4>Personality </h4>
-                                                                        <p>
-                                                                            <asp:Label ID="Label6" runat="server"></asp:Label>
-                                                                        </p>
+                                                                    <div class="col-md-4">
                                                                     </div>
-
-
                                                                 </div>
+                                                                <!-- /.row -->
 
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <h4>Operating Hours
+                                                                            <asp:Label ID="LBLShopTimeStatus" runat="server" Font-Size="Small" /></h4>
+
+
+                                                                        <asp:DataList ID="DLPShopTime" runat="server" DataKeyField="shopTimeID" DataSourceID="SDSShopTime" Width="100%">
+                                                                            <ItemTemplate>
+                                                                                <div class=" row">
+                                                                                    <div class="col-sm-6 text-right">
+                                                                                        <asp:Label ID="shopDayLabel" runat="server" Text='<%# Eval("shopDay") + " @ "  %>' />
+                                                                                    </div>
+                                                                                    <div class="col-sm-6 text-left">
+                                                                                        <asp:Label ID="shopOpenTimeLabel" runat="server" Text='<%# Eval("shopOpenTime","{0:HH:mm}") + " to " %>' />
+                                                                                        <asp:Label ID="shopCloseTimeLabel" runat="server" Text='<%# Eval("shopCloseTime","{0:HH:mm}") %>' />
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="hr hr-6"></div>
+                                                                            </ItemTemplate>
+                                                                        </asp:DataList>
+
+
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <h4>
+                                                                            <asp:Label ID="LBLShopName" runat="server" Text=""></asp:Label>
+                                                                        </h4>
+                                                                        <p>
+                                                                            <asp:Label ID="Label1" runat="server" Text="Contact : " Font-Bold="true"></asp:Label>
+                                                                            <asp:Label ID="LBLShopInfoContact" runat="server" Text=""></asp:Label>
+                                                                        </p>
+                                                                        <p>
+                                                                            <asp:Label ID="Label2" runat="server" Text="Address : " Font-Bold="true"></asp:Label>
+                                                                            <asp:Label ID="LBLShopInfoAddress" runat="server" Text=""></asp:Label>
+                                                                        </p>
+                                                                        <p>
+                                                                            <asp:Label ID="Label3" runat="server" Text="Description : " Font-Bold="true"></asp:Label>
+                                                                            <asp:Label ID="LBLShopInfoGrooming" runat="server" Text=""></asp:Label>
+                                                                        </p>
+                                                                        <p>
+                                                                            <asp:Label ID="LBLShopInfoType" runat="server" Text=""></asp:Label>
+                                                                        </p>
+                                                                        <p>
+                                                                            <asp:Label ID="LBLShopInfoDesc" runat="server" Text=""></asp:Label>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.row -->
                                                             </div>
                                                             <!-- /.widget-main -->
                                                         </div>
@@ -492,13 +545,7 @@
                                             <asp:SqlDataSource ID="SDSShopInfo" runat="server"
                                                 ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                                                 ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                                                SelectCommand="SELECT * FROM [ShopInfo] ORDER BY [shopInfoName]"
-                                                FilterExpression="shopInfoName LIKE '%{0}%' OR shopInfoAddress LIKE '%{0}%' OR shopInfoType LIKE '%{0}%' OR shopInfoDesc LIKE '%{0}%'">
-                                                <FilterParameters>
-                                                    <asp:ControlParameter ControlID="TBSearchShopInfo" PropertyName="Text" />
-                                                    <asp:ControlParameter Name="shopInfoType" ControlID="CHKBXFilterClinic" PropertyName="Checked" ConvertEmptyStringToNull="false" />
-                                                </FilterParameters>
-                                            </asp:SqlDataSource>
+                                                SelectCommand="SELECT * FROM [ShopInfo] ORDER BY [shopInfoName]"></asp:SqlDataSource>
                                             <asp:SqlDataSource ID="SDSShopTime" runat="server"
                                                 ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                                                 ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
@@ -507,6 +554,15 @@
                                                     <asp:ControlParameter ControlID="GVShopInfoOverview" Name="shopInfoID" PropertyName="SelectedValue" Type="Int32" />
                                                 </SelectParameters>
                                             </asp:SqlDataSource>
+                                            <asp:SqlDataSource ID="SDSPhotoShopInfo" runat="server"
+                                                ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
+                                                ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
+                                                SelectCommand="SELECT ShopInfo.shopInfoID, ShopInfo.shopInfoName, ShopInfo.shopInfoContact, ShopInfo.shopInfoAddress, ShopInfo.shopInfoGrooming, ShopInfo.shopInfoType, ShopInfo.shopInfoDesc, ShopInfo.shopInfoCloseOnPublicHoliday, Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath FROM (ShopInfo INNER JOIN Photo ON ShopInfo.shopInfoID = Photo.photoOwnerID) WHERE (ShopInfo.shopInfoID = ?)">
+                                                <SelectParameters>
+                                                    <asp:ControlParameter ControlID="GVShopInfoOverview" Name="photoOwnerID" PropertyName="SelectedValue" Type="Int32" />
+                                                </SelectParameters>
+                                            </asp:SqlDataSource>
+                                           
                                         </ContentTemplate>
                                     </asp:UpdatePanel>
                                 </div>

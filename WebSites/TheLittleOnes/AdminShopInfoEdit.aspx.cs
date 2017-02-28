@@ -12,6 +12,7 @@ using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
 
 public partial class AdminShopInfoEdit : BasePage
@@ -35,6 +36,8 @@ public partial class AdminShopInfoEdit : BasePage
     private static int GVRowID;
     private static int gvPageSize = 5; // default
     private static string filePath_UploadFolderTemp;
+
+
     protected void Page_Load(object sender, EventArgs e)
     {
         Page.Form.Attributes.Add("enctype", "multipart/form-data");
@@ -42,17 +45,16 @@ public partial class AdminShopInfoEdit : BasePage
         GVShopInfoOverview.PageSize = gvPageSize;
         if (IsPostBack)
         {
-            // update search result label
-            loadLabelSearchResult();
+
         }
         else
         {
             // hide edit panel
-            panelShopInfoEdit.Visible = false;
+            PNLShopInfoEdit.Visible = false;
+            // clear static data
+            clearStaticData();
         }
     }
-
-
 
     #region Initialize UI Control Values
     // Initial UI control values
@@ -62,7 +64,7 @@ public partial class AdminShopInfoEdit : BasePage
         // initialize hour range
         List<string> timeInterval = Utility.setupHourRange();
         // loop over for controls
-        foreach (Control ctrl in panelShopInfoEdit.Controls)
+        foreach (Control ctrl in PNLShopInfoEdit.Controls)
         {
             // set dropdownlist values
             if (ctrl is DropDownList)
@@ -86,7 +88,7 @@ public partial class AdminShopInfoEdit : BasePage
 
         }
         // clear static data
-        clearTempData();
+        clearStaticData();
     }
     #endregion
 
@@ -105,20 +107,10 @@ public partial class AdminShopInfoEdit : BasePage
             filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/shopinfo/", shopName + "_" + shopContact);
 
             // create temp files in temp foler
-            photoCtrler.previewPhotos(FileUpload1, filePath_UploadFolderTemp);
+            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ShopInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
 
-            // display images from temp folders
-            DirectoryInfo dir = new DirectoryInfo(Server.MapPath(filePath_UploadFolderTemp));
-            photoPreview.InnerHtml = string.Empty;
-            foreach (var file in dir.GetFiles("*.jpg"))
-            {
-                LogController.LogLine(string.Concat(filePath_UploadFolderTemp, "/", file.Name.ToLower().Trim().Replace(" ", "")));
-                photoPreview.InnerHtml += string.Concat(
-                    "<img  src =\"",
-                    string.Concat(filePath_UploadFolderTemp, "/", file.Name).Replace("~/", ""),
-                    "\" Height=\"100\"/>",
-                    "<br>", file.Name, "<hr/>");
-            }
+            // preview photo
+            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
         }
         else
         {
@@ -137,7 +129,6 @@ public partial class AdminShopInfoEdit : BasePage
         shopDesc = TBShopDesc.Text.Trim();
         shopCloseOnPublicHoliday = CHKBXCloseOnPublicHoliday.Checked ? true : false;
         shopTimeEntities = getShopTime();
-        photoEntities = photoCtrler.getPhotoEntities();
 
         if (checkRequiredFields())
         {
@@ -156,71 +147,65 @@ public partial class AdminShopInfoEdit : BasePage
                 // change photo path to database instead of using temp
                 shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
                 // remove old photos from database
-                shopInfoCtrler.deleteShopPhoto(shopInfoEntity);
+                photoCtrler.deletePhoto(shopInfoEntity.ShopInfoID, PhotoPurpose.ShopInfo.ToString());
                 // create new photos into database
-                shopInfoCtrler.createShopPhoto(shopInfoEntity);
-
+                photoCtrler.createPhoto(photoEntities, shopInfoEntity.ShopInfoID);
             }
 
             if (shopInfoEntity != null)
             {
                 MessageHandler.SuccessMessage(LBLErrorMsg, "Shop info successfully updated");
-                GVShopInfoOverview.DataBind();
-                DLPhotoUploaded.DataBind();
+
             }
             else
             {
                 MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Shop info was not successfully updated");
             }
-
-
+            GVShopInfoOverview.DataBind();
+            DLPhotoUploaded.DataBind();
+            // clear static data
+            clearStaticData();
         }
     }
 
     protected void BTNCancel_Click(object sender, EventArgs e)
     {
-        hidePanelEdit();
-    }
-
-    private void hidePanelEdit()
-    {
-        foreach (Control ctrl in panelShopInfoEdit.Controls)
-        {
-            if (ctrl is TextBox)
-            {
-                UICtrlTextbox = (TextBox)ctrl;
-                UICtrlTextbox.Text = string.Empty;
-            }
-            if (ctrl is DropDownList)
-            {
-                UICtrlDropdownlist = (DropDownList)ctrl;
-                UICtrlDropdownlist.SelectedIndex = 0;
-            }
-        }
-        panelShopInfoEdit.Visible = false;
+        PNLShopInfoEdit.Visible = false;
+        clearUIControlValues(PNLShopInfoEdit.Controls);
     }
     #endregion
 
     #region Checkbox Control
-    // Shop info filter clinic
+    // Shop info filter pet shop
+    protected void CHKBXFilterShop_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXFilterPetShop.Checked)
+        {
+            CHKBXFilterPetClinic.Checked = false;
+        }
+        //filter data
+        filterData();
+    }
+    // Shop info filter pet clinic
     protected void CHKBXFilterClinic_CheckedChanged(object sender, EventArgs e)
     {
-        if (CHKBXFilterClinic.Checked)
+        if (CHKBXFilterPetClinic.Checked)
         {
             CHKBXFilterGrooming.Checked = false;
-            SDSShopInfo.SelectCommand = "SELECT * FROM SHOPINFO WHERE SHOPINFOTYPE LIKE '%CLINIC%' ";
-            SDSShopInfo.DataBind();
+            CHKBXFilterPetShop.Checked = false;
         }
+        //filter data
+        filterData();
     }
     // Shop info filter grooming service
     protected void CHKBXFilterGrooming_CheckedChanged(object sender, EventArgs e)
     {
         if (CHKBXFilterGrooming.Checked)
         {
-            CHKBXFilterClinic.Checked = false;
-            SDSShopInfo.SelectCommand = "SELECT * FROM SHOPINFO WHERE SHOPINFOGROOMING = TRUE ";
-            SDSShopInfo.DataBind();
+            CHKBXFilterPetClinic.Checked = false;
         }
+        //filter data
+        filterData();
     }
     #endregion
 
@@ -236,15 +221,7 @@ public partial class AdminShopInfoEdit : BasePage
     protected void GVShopInfoOverview_DataBound(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        DataView dataView = (DataView)SDSShopInfo.Select(DataSourceSelectArguments.Empty);
-        int totalSize = dataView.Count;
-        int currentPageIndex = GVShopInfoOverview.PageIndex + 1;
-        int pageSize = GVShopInfoOverview.PageSize * currentPageIndex;
-        int rowSize = GVShopInfoOverview.Rows.Count;
-
-        if (pageSize > totalSize)
-            pageSize = totalSize;
-        LBLEntriesCountShopInfo.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
+        updateEntryCount(SDSShopInfo, GVShopInfoOverview, LBLEntriesCount);
     }
 
     protected void GVShopInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
@@ -252,13 +229,15 @@ public partial class AdminShopInfoEdit : BasePage
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         GridViewRow row = GVShopInfoOverview.Rows[e.NewSelectedIndex];
         GVRowID = Convert.ToInt32(GVShopInfoOverview.DataKeys[row.RowIndex].Values[0]);
-        loadShopInfo(GVRowID.ToString());
-        panelShopInfoEdit.Visible = true;
         initializeUIControlValues();
+        loadShopInfo(GVRowID.ToString());
+
+
     }
 
     protected void GVShopInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         highlightSelectedRow(GVShopInfoOverview);
         MessageHandler.ClearMessage(LBLErrorMsg);
     }
@@ -270,7 +249,7 @@ public partial class AdminShopInfoEdit : BasePage
     {
         bool isUICtrlDropdownlistValid = true;
         bool isUICtrlTextboxValid = true;
-        foreach (Control ctrl in panelShopInfoEdit.Controls)
+        foreach (Control ctrl in PNLShopInfoEdit.Controls)
         {
             // check all text boxes
             if (ctrl is TextBox)
@@ -342,6 +321,7 @@ public partial class AdminShopInfoEdit : BasePage
     // Load shop info
     private void loadShopInfo(string rowID)
     {
+        PNLShopInfoEdit.Visible = true;
         shopInfoEntity = shopInfoCtrler.getShopInfo(GVRowID.ToString());
         TBShopInfoID.Text = shopInfoEntity.ShopInfoID;
         TBShopName.Text = shopInfoEntity.ShopInfoName;
@@ -353,6 +333,13 @@ public partial class AdminShopInfoEdit : BasePage
         CHKBXCloseOnPublicHoliday.Checked = shopInfoEntity.ShopCloseOnPublicHoliday;
         CHKBXGroomingService.Enabled = DDLShopType.SelectedValue.Contains("Shop") ? true : false;
         // load operating hours
+        loadShoptime();
+
+
+    }
+
+    private void loadShoptime()
+    {
         List<string> workDay = new List<string>();
         List<string> noWorkDay = new List<string>();
         List<string> dayOfWeek = new List<string> { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
@@ -361,6 +348,42 @@ public partial class AdminShopInfoEdit : BasePage
         foreach (ShopTimeEntity shopTimeEntity in shopInfoEntity.ShopTimeEntities)
         {
             workDay.Add(shopTimeEntity.DayOfWeek);
+
+            if (shopTimeEntity.DayOfWeek.Equals("Monday"))
+            {
+                DDLOpenTimeMonday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeMonday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+            }
+            if (shopTimeEntity.DayOfWeek.Equals("Tuesday"))
+            {
+                DDLOpenTimeTuesday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeTuesday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+            }
+            if (shopTimeEntity.DayOfWeek.Equals("Wednesday"))
+            {
+                DDLOpenTimeWednesday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeWednesday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+            }
+            if (shopTimeEntity.DayOfWeek.Equals("Thursday"))
+            {
+                DDLOpenTimeThursday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeThursday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+            }
+            if (shopTimeEntity.DayOfWeek.Equals("Friday"))
+            {
+                DDLOpenTimeFriday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeFriday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+            }
+            if (shopTimeEntity.DayOfWeek.Equals("Saturday"))
+            {
+                DDLOpenTimeSaturday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeSaturday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+            }
+            if (shopTimeEntity.DayOfWeek.Equals("Sunday"))
+            {
+                DDLOpenTimeSunday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeSunday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+            }
         }
         // get the non working days
         foreach (string day in dayOfWeek)
@@ -373,7 +396,6 @@ public partial class AdminShopInfoEdit : BasePage
         // unset the checkboxes for working day
         foreach (string day in workDay)
         {
-
             switch (day.ToUpper().Trim())
             {
                 case "MONDAY":
@@ -402,7 +424,6 @@ public partial class AdminShopInfoEdit : BasePage
         // set the checkboxes for non working day
         foreach (string day in noWorkDay)
         {
-
             switch (day.ToUpper().Trim())
             {
                 case "MONDAY":
@@ -429,29 +450,43 @@ public partial class AdminShopInfoEdit : BasePage
             }
         }
 
+
+
+
     }
 
-    // Update search result label
-    private void loadLabelSearchResult()
+    // Filter data
+    private void filterData()
     {
-        if (string.IsNullOrEmpty(TBSearchShopInfo.Text))
-        {
-            MessageHandler.DefaultMessage(LBLSearchResult, string.Concat("Result for \"", TBSearchShopInfo.Text.Trim(), "\""));
-        }
+        bool chkbxPetShop = CHKBXFilterPetShop.Checked;
+        bool chkbxPetClinic = CHKBXFilterPetClinic.Checked;
+        bool chkbxGrooming = CHKBXFilterGrooming.Checked;
+        string tbSearchValue = TBSearchShopInfo.Text;
+
+        GVShopInfoOverview.DataSourceID = null;
+        GVShopInfoOverview.DataSource = null;
+        GVShopInfoOverview.DataSource = shopInfoCtrler.filterData(chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
+        GVShopInfoOverview.DataBind();
     }
 
     // Clear temp data
-    private void clearTempData()
+    private void clearStaticData()
     {
         shopTimeEntities = null;
         photoEntities = null;
         photoPreview.InnerHtml = string.Empty;
+        filePath_UploadFolderTemp = string.Empty;
     }
 
     #endregion
 
-
-
+    #region Textbox Control
+    protected void TBSearchShopInfo_TextChanged(object sender, EventArgs e)
+    {
+        //filter data
+        filterData();
+    }
+    #endregion
 
 
 }

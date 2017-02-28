@@ -116,14 +116,14 @@
             </h1>
         </div>
         <!-- /.page-header -->
-        <asp:updatepanel id="UpdatePanel1" runat="server">
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
             <ContentTemplate>
                 <%--Grid view--%>
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="table-header">
-                            <asp:Label ID="LBLSearchResult" runat="server" Text="Records for Shop info"></asp:Label>
-                                        <asp:Label ID="LBLEntriesCountShopInfo" runat="server" CssClass="pull-right"></asp:Label>
+                            <asp:Label ID="LBLSearchResultShopInfo" runat="server" Text="Records for Shop info"></asp:Label>
+                            <asp:Label ID="LBLEntriesCount" runat="server" CssClass="pull-right"></asp:Label>
                         </div>
                         <!-- div.table-responsive -->
                         <div>
@@ -145,7 +145,10 @@
                                     <div class="col-xs-6">
                                         <div id="dynamic-table_filter" class="dataTables_filter">
                                             <span class="block input-icon input-icon-right  toolbar">
-                                                <asp:CheckBox ID="CHKBXFilterClinic" runat="server" CssClass="checkbox-inline" Text="Clinic"
+                                                <asp:CheckBox ID="CHKBXFilterPetShop" runat="server" CssClass="checkbox-inline" Text="Shop"
+                                                    AutoPostBack="true" OnCheckedChanged="CHKBXFilterShop_CheckedChanged" />
+
+                                                <asp:CheckBox ID="CHKBXFilterPetClinic" runat="server" CssClass="checkbox-inline" Text="Clinic"
                                                     AutoPostBack="true" OnCheckedChanged="CHKBXFilterClinic_CheckedChanged" />
 
                                                 <asp:CheckBox ID="CHKBXFilterGrooming" runat="server" CssClass="checkbox-inline" Text="Grooming"
@@ -153,7 +156,9 @@
                                             </span>
                                             <label class="block clearfix">
                                                 <span class="block input-icon input-icon-right">Search:         
-                                                    <asp:TextBox ID="TBSearchShopInfo" runat="server" CssClass="form-control  input-sm" placeholder="EG: Grooming" AutoPostBack="true"></asp:TextBox>
+                                                    <asp:TextBox ID="TBSearchShopInfo" runat="server" CssClass="form-control  input-sm" placeholder="EG: Vet"
+                                                        AutoPostBack="true" OnTextChanged="TBSearchShopInfo_TextChanged"
+                                                        Text=""></asp:TextBox>
                                                     <i class="ace-icon fa fa-search blue bigger-110"></i>
                                                 </span>
                                             </label>
@@ -164,7 +169,7 @@
                                     CssClass="table table-striped table-bordered table-hover dataTable no-footer"
                                     AutoGenerateColumns="False" DataKeyNames="shopInfoID" DataSourceID="SDSShopInfo" Width="100%"
                                     AllowPaging="True" OnDataBound="GVShopInfoOverview_DataBound"
-                                     OnSelectedIndexChanged ="GVShopInfoOverview_SelectedIndexChanged"
+                                    OnSelectedIndexChanged="GVShopInfoOverview_SelectedIndexChanged"
                                     OnSelectedIndexChanging="GVShopInfoOverview_SelectedIndexChanging">
                                     <Columns>
                                         <asp:BoundField DataField="shopInfoID" HeaderText="S/N" InsertVisible="False" ReadOnly="True" SortExpression="shopInfoID" />
@@ -202,13 +207,12 @@
                     <div class="col-xs-12">
                         <!-- PAGE CONTENT BEGINS -->
                         <div class="form-horizontal">
-                            <asp:Panel ID="panelShopInfoEdit" runat="server">
+                            <asp:Panel ID="PNLShopInfoEdit" runat="server">
 
                                 <%--action buttons--%>
                                 <div class="row">
                                     <div class="col-xs-12 ">
                                         <div class="form-inline pull-right">
-
                                             <asp:Button ID="BTNUpdate" runat="server" CssClass="btn btn-primary btn-sm" Text="Update" OnClick="BTNUpdate_Click" />
                                             <asp:Button ID="BTNCancel" runat="server" CssClass="btn btn-primary btn-sm" Text="Cancel" OnClick="BTNCancel_Click" />
                                         </div>
@@ -257,6 +261,7 @@
                                                             <asp:ListItem Value="">Select Shop Type</asp:ListItem>
                                                             <asp:ListItem Value="Pet Shop">Pet Shop</asp:ListItem>
                                                             <asp:ListItem Value="Pet Clinic">Pet Clinic</asp:ListItem>
+                                                            <asp:ListItem Value="Pet Shelter">Pet Shelter</asp:ListItem>
                                                         </asp:DropDownList>
                                                     </div>
                                                     <br />
@@ -390,25 +395,6 @@
                                     <div class="col-md-3">
                                         <div class="widget-box">
                                             <div class="widget-header">
-                                                <h4 class="widget-title">Photos</h4>
-                                            </div>
-
-                                            <div class="widget-body">
-                                                <div class="widget-main">
-                                                    <div>
-                                                        <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="true" />
-                                                        <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview" OnClick="BTNPreview_Click" />
-                                                    </div>
-                                                    <hr />
-                                                    <div id="photoPreview" runat="server" class="center overflow-scroll" style="height: 300px;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <div class="widget-box">
-                                            <div class="widget-header">
                                                 <h4 class="widget-title">Current Photo(s)</h4>
                                             </div>
 
@@ -433,6 +419,24 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="space-6"></div>
+                                        <div class="widget-box">
+                                            <div class="widget-header">
+                                                <h4 class="widget-title">Photos</h4>
+                                            </div>
+
+                                            <div class="widget-body">
+                                                <div class="widget-main">
+                                                    <div>
+                                                        <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="true" />
+                                                        <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview" OnClick="BTNPreview_Click" />
+                                                    </div>
+                                                    <hr />
+                                                    <div id="photoPreview" runat="server" class="center overflow-scroll">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </asp:Panel>
@@ -449,12 +453,7 @@
                 <asp:SqlDataSource ID="SDSShopInfo" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT * FROM [ShopInfo] ORDER BY [shopInfoName]"
-                    FilterExpression="shopInfoName LIKE '%{0}%' OR shopInfoAddress LIKE '%{0}%' OR shopInfoType LIKE '%{0}%' OR shopInfoDesc LIKE '%{0}%'">
-                    <FilterParameters>
-                        <asp:ControlParameter ControlID="TBSearchShopInfo" PropertyName="Text" />
-                    </FilterParameters>
-                </asp:SqlDataSource>
+                    SelectCommand="SELECT * FROM [ShopInfo] ORDER BY [shopInfoName]"></asp:SqlDataSource>
                 <asp:SqlDataSource ID="SDSPhoto" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
@@ -467,7 +466,7 @@
             <Triggers>
                 <asp:PostBackTrigger ControlID="BTNPreview" />
             </Triggers>
-        </asp:updatepanel>
+        </asp:UpdatePanel>
     </div>
     <!-- /.page-content -->
 </asp:Content>

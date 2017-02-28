@@ -92,20 +92,11 @@ public partial class AdminShopInfoAdd : BasePage
             filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/shopinfo/", shopName.ToLower().Replace(" ", "") + "_" + shopContact.ToLower().Replace(" ", "").ToString());
 
             // create temp files in temp foler
-            photoCtrler.previewPhotos(FileUpload1, filePath_UploadFolderTemp);
+            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ShopInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
 
-            // display images from temp folders
-            DirectoryInfo dir = new DirectoryInfo(Server.MapPath(filePath_UploadFolderTemp));
-            photoPreview.InnerHtml = string.Empty;
-            foreach (var file in dir.GetFiles("*.jpg"))
-            {
-                LogController.LogLine(string.Concat(filePath_UploadFolderTemp, "/", file.Name.ToLower().Trim().Replace(" ", "")));
-                photoPreview.InnerHtml += string.Concat(
-                    "<img  src =\"",
-                    string.Concat(filePath_UploadFolderTemp, "/", file.Name).Replace("~/", ""),
-                    "\" Height=\"100\"/>",
-                    "<br>", file.Name, "<hr/>");
-            }
+            // preview photo
+            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
+        
         }
         else
         {
@@ -125,8 +116,7 @@ public partial class AdminShopInfoAdd : BasePage
         shopDesc = TBShopDesc.Text.Trim();
         shopCloseOnPublicHoliday = CHKBXCloseOnPublicHoliday.Checked ? true : false;
         shopTimeEntities = getShopTime();
-        photoEntities = photoCtrler.getPhotoEntities();
-
+     
         if (checkRequiredFields())
         {
             // check if shop info exists
@@ -184,7 +174,7 @@ public partial class AdminShopInfoAdd : BasePage
     #region Dropdownlist Controls
     protected void DDLShopType_SelectedIndexChanged(object sender, EventArgs e)
     {
-        if (DDLShopType.SelectedValue.Contains("Clinic"))
+        if (DDLShopType.SelectedValue.Contains("Clinic") || DDLShopType.SelectedValue.Contains("Shelter"))
         {
             CHKBXGroomingService.Enabled = false;
             CHKBXGroomingService.Checked = false;

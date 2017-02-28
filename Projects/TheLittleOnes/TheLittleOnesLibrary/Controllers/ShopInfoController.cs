@@ -6,8 +6,10 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.EnumFolder;
 
 namespace TheLittleOnesLibrary.Controllers
 {
@@ -116,24 +118,7 @@ namespace TheLittleOnesLibrary.Controllers
         // Create ShopPhoto
         public ShopInfoEntity createShopPhoto(ShopInfoEntity shopInfoEntity)
         {
-            foreach (PhotoEntity photoEntity in shopInfoEntity.PhotoEntities)
-            {
-                using (oleDbCommand = new OleDbCommand())
-                {
-                    oleDbCommand.CommandType = CommandType.Text;
-                    oleDbCommand.CommandText = string.Concat("INSERT INTO PHOTO (PHOTOOWNERID,PHOTONAME,PHOTOPATH)",
-                                                             "VALUES (@PHOTOOWNERID,@PHOTONAME,@PHOTOPATH);");
-                    oleDbCommand.Parameters.AddWithValue("@PHOTOOWNERID", shopInfoEntity.ShopInfoID);
-                    oleDbCommand.Parameters.AddWithValue("@PHOTONAME", photoEntity.PhotoName);
-                    oleDbCommand.Parameters.AddWithValue("@PHOTOPATH", photoEntity.PhotoPath);
-
-                    int insertID = dao.createRecord(oleDbCommand);
-                    if (insertID > 0)
-                    {
-                        photoEntity.PhotoID = insertID.ToString();
-                    }
-                }
-            }
+            shopInfoEntity.PhotoEntities = PhotoController.getInstance().createPhoto(shopInfoEntity.PhotoEntities, shopInfoEntity.ShopInfoID);
             return shopInfoEntity;
         }
 
@@ -167,18 +152,12 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-        
+
         // Delete ShopPhoto
         public ShopInfoEntity deleteShopPhoto(ShopInfoEntity shopInfoEntity)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("DELETE FROM PHOTO WHERE PHOTOOWNERID = @PHOTOOWNERID");
-                oleDbCommand.Parameters.AddWithValue("@PHOTOOWNERID", shopInfoEntity.ShopInfoID);
-                dao.deleteRecord(oleDbCommand);
-            }
+            PhotoController.getInstance().deletePhoto(shopInfoEntity.ShopInfoID, PhotoPurpose.ShopInfo.ToString());
             return shopInfoEntity;
         }
         // Delete ShopTime
@@ -213,7 +192,7 @@ namespace TheLittleOnesLibrary.Controllers
                     dataSet.Tables[0].Rows[0][5].ToString(),
                     dataSet.Tables[0].Rows[0][6].ToString(),
                     Convert.ToBoolean(dataSet.Tables[0].Rows[0][7]),
-                        getShopTime(shopInfoID), getShopPhoto(shopInfoID));
+                        getShopTime(shopInfoID), PhotoController.getInstance().getPhotoEntities(shopInfoID, PhotoPurpose.ShopInfo.ToString()));
             }
         }
 
@@ -241,27 +220,48 @@ namespace TheLittleOnesLibrary.Controllers
         }
 
         // Retrieve ShopPhoto
-        public List<PhotoEntity> getShopPhoto(string shopInfoID)
-        {
+        //public List<PhotoEntity> getShopPhoto(string shopInfoID)
+        //{
+        //    return PhotoController.getInstance().getPhotoEntities(shopInfoID);
+        //}
 
+        // Filter Data
+        public DataTable filterData(bool chkbxPetShop, bool chkbxPetClinic, bool chkbxGrooming, string tbSearchValue, Label searchResult)
+        {
+            searchResult.ForeColor = Utility.getColorWhite();
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM PHOTO WHERE PHOTOOWNERID = @SHOPINFOID");
-                oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", string.Concat(shopInfoID));
-                dataSet = dao.getRecord(oleDbCommand);
-                photoEntities = new List<PhotoEntity>();
-                foreach (DataRow row in dataSet.Tables[0].Rows)
+                string sqlQuery = string.Concat("SELECT * FROM SHOPINFO WHERE (SHOPINFONAME LIKE @SEARCHVALUE OR ",
+                                            "SHOPINFOCONTACT LIKE @SEARCHVALUE OR ",
+                                            "SHOPINFOADDRESS LIKE @SEARCHVALUE OR ",
+                                            "SHOPINFODESC LIKE @SEARCHVALUE) ");
+                searchResult.Text = "Result for ";
+                if (!string.IsNullOrEmpty(tbSearchValue))
+                    searchResult.Text += string.Concat("\"", tbSearchValue, "\" ");
+                if (chkbxPetShop)
                 {
-                    PhotoEntity photoEntity = new PhotoEntity(
-                        row[0].ToString(),
-                        row[1].ToString(),
-                        row[2].ToString(),
-                        row[3].ToString());
-                    photoEntities.Add(photoEntity);
+                    searchResult.Text += string.Concat("\"", "Pet Shop", "\" ");
+                    sqlQuery += string.Concat(" AND (SHOPINFOTYPE LIKE '%Shop%') ");
                 }
-                return photoEntities;
+                if (chkbxPetClinic)
+                {
+                    searchResult.Text += string.Concat("\"", "Pet Clinic", "\" ");
+                    sqlQuery += string.Concat(" AND (SHOPINFOTYPE LIKE '%Clinic%') ");
+                }
+                if (chkbxGrooming)
+                {
+                    searchResult.Text += string.Concat("\"", "Grooming", "\" ");
+                    sqlQuery += string.Concat(" AND (SHOPINFOGROOMING = TRUE) ");
+                }
+
+                oleDbCommand.CommandText = sqlQuery;
+                oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));
+
+                dataSet = dao.getRecord(oleDbCommand);
+                return dataSet.Tables[0];
             }
         }
+
     }
 }

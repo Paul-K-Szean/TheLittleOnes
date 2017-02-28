@@ -494,7 +494,7 @@
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">
-                            <i class="menu-icon fa fa-user"></i>
+                            <i class="menu-icon fa fa-child"></i>
                             <span class="menu-text">Adoption Settings </span>
 
                             <b class="arrow fa fa-angle-down"></b>
@@ -504,7 +504,7 @@
 
                         <ul class="submenu">
                             <li class="">
-                                <a href="form-elements.html">
+                                <a href="AdminAdoptionInfoAdd.aspx">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     Add Adoption List
                                 </a>
@@ -513,36 +513,9 @@
                             </li>
 
                             <li class="">
-                                <a href="form-elements-2.html">
+                                <a href="AdminAdoptionInfoEdit.aspx">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     Edit Adoption List
-                                </a>
-
-                                <b class="arrow"></b>
-                            </li>
-
-                            <li class="">
-                                <a href="form-wizard.html">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Appointment
-                                </a>
-
-                                <b class="arrow"></b>
-                            </li>
-
-                            <li class="">
-                                <a href="wysiwyg.html">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Wysiwyg &amp; Markdown
-                                </a>
-
-                                <b class="arrow"></b>
-                            </li>
-
-                            <li class="">
-                                <a href="dropzone.html">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Dropzone File Upload
                                 </a>
 
                                 <b class="arrow"></b>

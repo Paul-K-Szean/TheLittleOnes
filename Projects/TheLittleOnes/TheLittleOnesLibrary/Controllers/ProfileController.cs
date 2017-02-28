@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.EnumFolder;
 
 namespace TheLittleOnesLibrary.Controllers
 {
@@ -27,6 +28,8 @@ namespace TheLittleOnesLibrary.Controllers
         private DAO dao;
         private OleDbCommand oleDbCommand;
         private DataSet dataSet;
+        private static List<PhotoEntity> photoEntities;
+
         // Default Constructor
         public ProfileController()
         {
@@ -54,13 +57,21 @@ namespace TheLittleOnesLibrary.Controllers
                         profileEntity.ProfileID,
                         profileEntity.ProfileName,
                         profileEntity.ProfileContact,
-                        profileEntity.ProfileAddress);
+                        profileEntity.ProfileAddress,
+                        photoEntities);
                 }
                 else
                 {
                     return null;
                 }
             }
+        }
+
+        // Create PetPhoto
+        public ProfileEntity createPetPhoto(ProfileEntity profileEntity)
+        {
+            profileEntity.PhotoEntities = PhotoController.getInstance().createPhoto(profileEntity.PhotoEntities, profileEntity.ProfileID);
+            return profileEntity;
         }
 
         // Sign in profile
@@ -81,7 +92,8 @@ namespace TheLittleOnesLibrary.Controllers
                         dataSet.Tables[0].Rows[0]["profileID"].ToString(),
                         dataSet.Tables[0].Rows[0]["profileName"].ToString(),
                         dataSet.Tables[0].Rows[0]["profileContact"].ToString(),
-                        dataSet.Tables[0].Rows[0]["profileAddress"].ToString());
+                        dataSet.Tables[0].Rows[0]["profileAddress"].ToString(),
+                        PhotoController.getInstance().getPhotoEntities(dataSet.Tables[0].Rows[0]["profileID"].ToString(), PhotoPurpose.ProfileInfo.ToString()));
                     return loggedInProfile;
                 }
                 else
@@ -104,7 +116,7 @@ namespace TheLittleOnesLibrary.Controllers
             // signout profile
         }
 
-        // Save edited profile
+        // Update profile
         public ProfileEntity updateProfile(ProfileEntity profileEntity)
         {
             using (oleDbCommand = new OleDbCommand())
@@ -128,6 +140,8 @@ namespace TheLittleOnesLibrary.Controllers
                 return loggedInProfile;
             }
         }
+
+
 
     }
 }

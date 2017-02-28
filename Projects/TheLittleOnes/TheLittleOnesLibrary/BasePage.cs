@@ -10,6 +10,7 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Handler;
 using System.IO;
+using System.Data;
 
 namespace TheLittleOnesLibrary
 {
@@ -24,6 +25,8 @@ namespace TheLittleOnesLibrary
         protected static PhotoEntity photoEntity;
         protected static ShopInfoEntity shopInfoEntity;
         protected static ShopTimeEntity shopTimeEntity;
+        protected static AdoptInfoEntity adoptInfoEntity;
+        protected static PetEntity petEntity;
 
         // Controllers
         protected AccountController accCtrler;
@@ -31,7 +34,8 @@ namespace TheLittleOnesLibrary
         protected PetInfoController petInfoCtrler;
         protected ShopInfoController shopInfoCtrler;
         protected PhotoController photoCtrler;
-
+        protected AdoptInfoController adoptInfoCtrler;
+        protected PetController petCtrler;
         // Data Access Object
         protected DAO dao;
 
@@ -44,7 +48,10 @@ namespace TheLittleOnesLibrary
             initializeFolders();
             // capture page control
             postBackControl();
+
         }
+
+
         // Manage page control
         private void postBackControl()
         {
@@ -118,8 +125,14 @@ namespace TheLittleOnesLibrary
             {
                 photoCtrler = PhotoController.getInstance();
             }
-
-
+            if (adoptInfoCtrler == null)
+            {
+                adoptInfoCtrler = AdoptInfoController.getInstance();
+            }
+            if (petCtrler == null)
+            {
+                petCtrler = PetController.getInstance();
+            }
             accEntity = accCtrler.getLoggedInAccount();
             profileEntity = profileCtrler.getLoggedInProfile();
 
@@ -154,7 +167,48 @@ namespace TheLittleOnesLibrary
             }
         }
 
+        // Gridview entry count
+        protected void updateEntryCount(SqlDataSource sqlDataSource, GridView gridview, Label LBLEntriesCount)
+        {
+            DataView dataView = (DataView)sqlDataSource.Select(DataSourceSelectArguments.Empty);
+            int totalSize = dataView.Count;
+            int currentPageIndex = gridview.PageIndex + 1;
+            int pageSize = gridview.PageSize * currentPageIndex;
+            int rowSize = gridview.Rows.Count;
 
+            if (rowSize == 0)
+            {
+                currentPageIndex = pageSize = totalSize = rowSize;
+            }
+            if (pageSize > rowSize)
+                totalSize = pageSize = rowSize;
+            LBLEntriesCount.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
+        }
 
+        // Clear control value
+        public void clearUIControlValues(ControlCollection pageControls)
+        {
+            TextBox textbox;
+            DropDownList dropdownlist;
+            foreach (Control ctrl in pageControls)
+            {
+                if (ctrl is TextBox)
+                {
+                    {
+                        textbox = (TextBox)ctrl;
+                        textbox.Text = string.Empty;
+                    }
+
+                }
+                if (ctrl is DropDownList)
+                {
+                    {
+                        dropdownlist = (DropDownList)ctrl;
+                        dropdownlist.SelectedIndex = 0;
+                    }
+
+                }
+            }
+        }
     }
 }

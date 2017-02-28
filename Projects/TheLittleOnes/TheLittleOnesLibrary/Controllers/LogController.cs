@@ -49,7 +49,7 @@ namespace TheLittleOnesLibrary.Controllers
             // creates log obj
             LogEntity logEntity = new LogEntity { message = message };
             File.AppendAllText(filePath_LogFile,
-                string.Format("{0:-5} [{1:5}] {2:5} \n", DateTime.Now.ToString(dateTimeFormat_LogMessage), logEntity.logLevel, logEntity.message));
+                   string.Format("{0:-5} [{1:5}] {2:5} \n", DateTime.Now.ToString(dateTimeFormat_LogMessage), logEntity.logLevel, logEntity.message));
         }
 
     }

@@ -137,12 +137,12 @@
                                             <div class="widget-main">
                                                 <div>
                                                     <asp:Label ID="LBLProfileID" runat="server" Text="Profile ID" Font-Bold="True"></asp:Label>
-                                                    <asp:TextBox ID="TBProfileID" runat="server" CssClass="form-control " placeholder="Profile ID" disabled="disabled"></asp:TextBox>
+                                                    <asp:TextBox ID="TBProfileID" runat="server" CssClass="form-control " placeholder="Profile ID" ReadOnly="true"></asp:TextBox>
                                                 </div>
                                                 <br />
                                                 <div>
                                                     <asp:Label ID="LBLName" runat="server" Text="Name" Font-Bold="True"></asp:Label>
-                                                    <asp:TextBox ID="TBName" runat="server" CssClass="form-control " placeholder="Name" ></asp:TextBox>
+                                                    <asp:TextBox ID="TBName" runat="server" CssClass="form-control " placeholder="Name"></asp:TextBox>
                                                 </div>
                                                 <br />
                                                 <div>
@@ -164,6 +164,35 @@
                                 <div class="col-md-3">
                                     <div class="widget-box">
                                         <div class="widget-header">
+                                            <h4 class="widget-title">Current Photo(s)</h4>
+                                        </div>
+
+                                        <div class="widget-body">
+                                            <div class="widget-main">
+
+                                                <hr />
+                                                <div class="center">
+                                                    <div>
+                                                        <div class="overflow-auto scrollbarHorizontal" style="max-width: 1110px;">
+                                                            <asp:DataList ID="DLPhotoUploaded" runat="server" DataSourceID="SDSPhoto" Width="100%">
+                                                                <ItemTemplate>
+                                                                    <img src="<%# "uploadedFiles/database/profileinfo/" + Eval("ProfileID").ToString().ToLower().Replace(" ", "") + "_"+Eval("ProfileName").ToString().ToLower().Replace(" ", "") + "/" + Eval("PhotoName")  %>"
+                                                                        style="max-height: 200px; margin: 0px 4px">
+                                                                    <hr />
+                                                                </ItemTemplate>
+                                                            </asp:DataList>
+                                                        </div>
+                                                        <div class="space-4"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="space-6"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="widget-box">
+                                        <div class="widget-header">
                                             <h4 class="widget-title">Photos</h4>
                                         </div>
 
@@ -171,11 +200,13 @@
                                             <div class="widget-main">
                                                 <div>
                                                     <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="true" />
-                                                    <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview" OnClick="BTNPreview_Click" />
+                                                    <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview"
+                                                        OnClick="BTNPreview_Click" />
                                                 </div>
                                                 <hr />
-                                                <div id="photoPreview" runat="server" class="center overflow-scroll" style="height: 300px;">
+                                                <div id="photoPreview" runat="server" class="center overflow-scroll">
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -188,7 +219,14 @@
                     <!-- /.col -->
                 </div>
                 <!-- /.row -->
-
+                <asp:SqlDataSource ID="SDSPhoto" runat="server"
+                    ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
+                    ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
+                    SelectCommand="SELECT Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath, Profile.accountID, Profile.profileID, Profile.profileName, Profile.profileContact, Profile.profileAddress FROM (Profile INNER JOIN Photo ON Photo.photoOwnerID = Profile.profileID) WHERE (Photo.photoOwnerID = ?)">
+                    <SelectParameters>
+                        <asp:ControlParameter ControlID="TBProfileID" Name="photoOwnerID" PropertyName="Text" Type="Int32" />
+                    </SelectParameters>
+                </asp:SqlDataSource>
             </ContentTemplate>
             <Triggers>
                 <asp:PostBackTrigger ControlID="BTNPreview" />

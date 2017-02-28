@@ -106,7 +106,7 @@
                     <h1>Settings
 								<small>
                                     <i class="ace-icon fa fa-angle-double-right"></i>
-                                    New Pet Information Form
+                                    New Pet Information
                                 </small>
                     </h1>
                 </div>
@@ -221,7 +221,7 @@
                                                     <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview" OnClick="BTNPreview_Click" />
                                                 </div>
                                                 <hr />
-                                                <div id="photoPreview" runat="server" class="center overflow-scroll" style="height: 300px;">
+                                                <div id="photoPreview" runat="server" class="center overflow-scroll">
                                                 </div>
                                             </div>
                                         </div>

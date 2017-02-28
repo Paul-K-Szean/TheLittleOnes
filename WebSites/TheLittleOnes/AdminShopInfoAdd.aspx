@@ -161,6 +161,7 @@
                                                         <asp:ListItem Value="">Select Shop Type</asp:ListItem>
                                                         <asp:ListItem Value="Pet Shop">Pet Shop</asp:ListItem>
                                                         <asp:ListItem Value="Pet Clinic">Pet Clinic</asp:ListItem>
+                                                        <asp:ListItem Value="Pet Shelter">Pet Shelter</asp:ListItem>
                                                     </asp:DropDownList>
                                                 </div>
                                                 <br />
@@ -298,7 +299,7 @@
                                                     <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview" OnClick="BTNPreview_Click" />
                                                 </div>
                                                 <hr />
-                                                <div id="photoPreview" runat="server" class="center overflow-scroll" style="height: 300px;">
+                                                <div id="photoPreview" runat="server" class="center overflow-scroll">
                                                 </div>
                                             </div>
                                         </div>

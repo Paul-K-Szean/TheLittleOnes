@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
 
 namespace TheLittleOnesLibrary.Controllers
@@ -159,24 +160,7 @@ namespace TheLittleOnesLibrary.Controllers
         // Create PetPhoto
         public PetInfoEntity createPetPhoto(PetInfoEntity petInfoEntity)
         {
-            foreach (PhotoEntity photoEntity in petInfoEntity.PhotoEntities)
-            {
-                using (oleDbCommand = new OleDbCommand())
-                {
-                    oleDbCommand.CommandType = CommandType.Text;
-                    oleDbCommand.CommandText = string.Concat("INSERT INTO PHOTO (PHOTOOWNERID,PHOTONAME,PHOTOPATH)",
-                                                             "VALUES (@PHOTOOWNERID,@PHOTONAME,@PHOTOPATH);");
-                    oleDbCommand.Parameters.AddWithValue("@PHOTOOWNERID", petInfoEntity.PetInfoID);
-                    oleDbCommand.Parameters.AddWithValue("@PHOTONAME", photoEntity.PhotoName);
-                    oleDbCommand.Parameters.AddWithValue("@PHOTOPATH", photoEntity.PhotoPath);
-
-                    int insertID = dao.createRecord(oleDbCommand);
-                    if (insertID > 0)
-                    {
-                        photoEntity.PhotoID = insertID.ToString();
-                    }
-                }
-            }
+            petInfoEntity.PhotoEntities = PhotoController.getInstance().createPhoto(petInfoEntity.PhotoEntities, petInfoEntity.PetInfoID);
             return petInfoEntity;
         }
 
@@ -281,13 +265,7 @@ namespace TheLittleOnesLibrary.Controllers
         public PetInfoEntity deletePetPhoto(PetInfoEntity petInfoEntity)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("DELETE FROM PHOTO WHERE PHOTOOWNERID = @PHOTOOWNERID");
-                oleDbCommand.Parameters.AddWithValue("@PHOTOOWNERID", petInfoEntity.PetInfoID);
-                dao.deleteRecord(oleDbCommand);
-            }
+            PhotoController.getInstance().deletePhoto(petInfoEntity.PetInfoID, PhotoPurpose.ShopInfo.ToString());
             return petInfoEntity;
         }
 
@@ -313,7 +291,7 @@ namespace TheLittleOnesLibrary.Controllers
                     dataSet.Tables[0].Rows[0][9].ToString(),
                     dataSet.Tables[0].Rows[0][10].ToString(),
                     dataSet.Tables[0].Rows[0][11].ToString(),
-                        petCharEntity = getPetChar(petInfoID), getPetPhoto(petInfoID));
+                        petCharEntity = getPetChar(petInfoID), PhotoController.getInstance().getPhotoEntities(petInfoID, PhotoPurpose.PetInfo.ToString()));
             }
         }
 
@@ -358,27 +336,10 @@ namespace TheLittleOnesLibrary.Controllers
         }
 
         // Retrieve PetPhoto
-        public List<PhotoEntity> getPetPhoto(string ownerID)
-        {
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM PHOTO WHERE PHOTOOWNERID = @PETINFOID");
-                oleDbCommand.Parameters.AddWithValue("@PETINFOID", string.Concat(ownerID));
-                dataSet = dao.getRecord(oleDbCommand);
-
-                foreach (DataRow row in dataSet.Tables[0].Rows)
-                {
-                    PhotoEntity photoEntity = new PhotoEntity(
-                        row[0].ToString(),
-                        row[1].ToString(),
-                        row[2].ToString(),
-                        row[3].ToString());
-                    photoEntities.Add(photoEntity);
-                }
-                return photoEntities;
-            }
-        }
+        //public List<PhotoEntity> getPetPhoto(string ownerID)
+        //{
+        //    return PhotoController.getInstance().getPhotoEntities(ownerID);
+        //}
 
     }
 

@@ -14,9 +14,9 @@
             </li>
 
             <li>
-                <a href="#">Tables</a>
+                <a href="#">Pet Info</a>
             </li>
-            <li class="active">Simple &amp; Dynamic</li>
+            <li class="active">Settings</li>
         </ul>
         <!-- /.breadcrumb -->
 
@@ -111,10 +111,10 @@
         <!-- /.ace-settings-container -->
 
         <div class="page-header">
-            <h1>Tables
+            <h1>Settings
 								<small>
                                     <i class="ace-icon fa fa-angle-double-right"></i>
-                                    Static &amp; Dynamic Tables
+                                 Edit Pet Information 
                                 </small>
             </h1>
         </div>
@@ -350,12 +350,11 @@
                                                 <div class="widget-body">
                                                     <div class="widget-main">
                                                         <div>
-
                                                             <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="true" />
                                                             <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview" OnClick="BTNPreview_Click" />
                                                         </div>
                                                         <hr />
-                                                        <div id="photoPreview" runat="server" class="center overflow-scroll" style="height: 300px;">
+                                                        <div id="photoPreview" runat="server" class="center overflow-scroll">
                                                         </div>
                                                     </div>
                                                 </div>

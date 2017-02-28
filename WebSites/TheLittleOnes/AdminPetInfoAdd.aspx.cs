@@ -10,6 +10,7 @@ using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
 
 public partial class AdminPetInfoAdd : BasePage
@@ -83,6 +84,31 @@ public partial class AdminPetInfoAdd : BasePage
     #endregion
 
     #region Button Clicks
+    // Preview image uploaded
+    protected void BTNPreview_Click(object sender, EventArgs e)
+    {
+        category = DDLCategory.SelectedValue.Trim();
+        breed = TBBreed.Text.Trim();
+
+        // some variable to create folder
+        if (!string.IsNullOrEmpty(category) && !string.IsNullOrEmpty(breed))
+        {
+            MessageHandler.ClearMessage(LBLErrorMsg);
+            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/petinfo/", category.ToLower().Replace(" ", "") + "/" + breed.ToLower().Replace(" ", "").ToString());
+            LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
+
+            // create temp files in temp foler
+            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.PetInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
+
+            // preview photo
+            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
+        }
+        else
+        {
+            MessageHandler.ErrorMessage(LBLErrorMsg, "Shop name and contact cannot be empty");
+        }
+    }
+
     // Create pet info
     protected void BTNAdd_Click(object sender, EventArgs e)
     {
@@ -99,7 +125,6 @@ public partial class AdminPetInfoAdd : BasePage
         weightMax = TBWeightMax.Text.Trim();
         desc = TBDesc.Text.Trim();
         personality = TBPersonality.Text.Trim();
-        photoEntities = photoCtrler.getPhotoEntities();
 
         if (checkRequiredFields())
         {
@@ -137,40 +162,6 @@ public partial class AdminPetInfoAdd : BasePage
                     MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Pet info was not successfully added");
                 }
             }
-        }
-    }
-    // Preview image uploaded
-    protected void BTNPreview_Click(object sender, EventArgs e)
-    {
-        category = DDLCategory.SelectedValue.Trim();
-        breed = TBBreed.Text.Trim();
-
-        // some variable to create folder
-        if (!string.IsNullOrEmpty(category) && !string.IsNullOrEmpty(breed))
-        {
-            MessageHandler.ClearMessage(LBLErrorMsg);
-            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/petinfo/", category.ToLower().Replace(" ", "") + "/" + breed.ToLower().Replace(" ", "").ToString());
-            LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
-
-            // create temp files in temp foler
-            photoCtrler.previewPhotos(FileUpload1, filePath_UploadFolderTemp);
-
-            // display images from temp folders
-            DirectoryInfo dir = new DirectoryInfo(Server.MapPath(filePath_UploadFolderTemp));
-            photoPreview.InnerHtml = string.Empty;
-            foreach (var file in dir.GetFiles("*.jpg"))
-            {
-                LogController.LogLine(string.Concat(filePath_UploadFolderTemp, "/", file.Name.ToLower().Trim().Replace(" ", "")));
-                photoPreview.InnerHtml += string.Concat(
-                    "<img  src =\"",
-                    string.Concat(filePath_UploadFolderTemp, "/", file.Name).Replace("~/", ""),
-                    "\" Height=\"100\"/>",
-                    "<br>", file.Name, "<hr/>");
-            }
-        }
-        else
-        {
-            MessageHandler.ErrorMessage(LBLErrorMsg, "Shop name and contact cannot be empty");
         }
     }
 
@@ -320,7 +311,7 @@ public partial class AdminPetInfoAdd : BasePage
             return false;
         }
     }
-    
+
     #endregion
 
     #region Drop Down List PostBack Control

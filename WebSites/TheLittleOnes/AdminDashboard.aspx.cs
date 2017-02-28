@@ -12,9 +12,12 @@ using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.Handler;
 
 public partial class AdminDashboard : BasePage
 {
+    private static int GVRowIDPetInfo;
+    private static int GVRowIDShopInfo;
     private static int gvPageSizePetInfo = 10; // default
     private static int gvPageSizeShopInfo = 10; // default
 
@@ -53,39 +56,40 @@ public partial class AdminDashboard : BasePage
         {
             LBLSearchResultPetInfo.Text = "Result for Pet Info";
         }
-
-        if (!string.IsNullOrEmpty(TBSearchShopInfo.Text))
-        {
-            LBLSearchResultShopInfo.Text = "Result for \"" + TBSearchPetInfo.Text + "\"";
-        }
-        else
-        {
-            LBLSearchResultShopInfo.Text = "Result for Shop Info";
-        }
-
     }
 
 
     #region Checkbox Control
-    // Shop info filter clinic
+    // Shop info filter pet shop
+    protected void CHKBXFilterShop_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXFilterPetShop.Checked)
+        {
+            CHKBXFilterPetClinic.Checked = false;
+        }
+        //filter data
+        filterData();
+    }
+    // Shop info filter pet clinic
     protected void CHKBXFilterClinic_CheckedChanged(object sender, EventArgs e)
     {
-        if (CHKBXFilterClinic.Checked)
+        if (CHKBXFilterPetClinic.Checked)
         {
             CHKBXFilterGrooming.Checked = false;
-            SDSShopInfo.SelectCommand = "SELECT * FROM SHOPINFO WHERE SHOPINFOTYPE LIKE '%CLINIC%' ";
-            SDSShopInfo.DataBind();
+            CHKBXFilterPetShop.Checked = false;
         }
+        //filter data
+        filterData();
     }
     // Shop info filter grooming service
     protected void CHKBXFilterGrooming_CheckedChanged(object sender, EventArgs e)
     {
         if (CHKBXFilterGrooming.Checked)
         {
-            CHKBXFilterClinic.Checked = false;
-            SDSShopInfo.SelectCommand = "SELECT * FROM SHOPINFO WHERE SHOPINFOGROOMING = TRUE ";
-            SDSShopInfo.DataBind();
+            CHKBXFilterPetClinic.Checked = false;
         }
+        //filter data
+        filterData();
     }
     #endregion
 
@@ -121,15 +125,25 @@ public partial class AdminDashboard : BasePage
 
 
     }
-
-    protected void GVPetInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
+    // Pet info controls
+    protected void GVPetInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         PNLPetInfoDetails.Visible = true;
-        dTable = ((DataView)SDSPetChar.Select(DataSourceSelectArguments.Empty)).Table;
-        petInfoEntity = petInfoCtrler.getPetInfo(dTable.Rows[0]["petInfoID"].ToString());
-        loadPieChartPetInfo(dTable);
+
+        GridViewRow row = GVPetInfoOverview.Rows[e.NewSelectedIndex];
+        GVRowIDPetInfo = Convert.ToInt32(GVPetInfoOverview.DataKeys[row.RowIndex].Values[0]);
+        petInfoEntity = petInfoCtrler.getPetInfo(GVRowIDPetInfo.ToString());
+   
         loadPetInfo(petInfoEntity);
+    }
+    // Pet info controls
+    protected void GVPetInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        highlightSelectedRow(GVPetInfoOverview);
+        dTable = ((DataView)SDSPetChar.Select(DataSourceSelectArguments.Empty)).Table as DataTable;
+        loadPieChartPetInfo(dTable);
     }
 
     // Shop info controls
@@ -147,20 +161,26 @@ public partial class AdminDashboard : BasePage
         LBLEntriesCountShopInfo.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
 
     }
-
+    // Shop info controls
+    protected void GVShopInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+    {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        GridViewRow row = GVShopInfoOverview.Rows[e.NewSelectedIndex];
+        GVRowIDShopInfo = Convert.ToInt32(GVShopInfoOverview.DataKeys[row.RowIndex].Values[0]);
+        shopInfoEntity = shopInfoCtrler.getShopInfo(GVRowIDShopInfo.ToString());
+        loadShopInfo(shopInfoEntity);
+        PNLShopInfoDetails.Visible = true;
+    }
+    // Shop info controls
     protected void GVShopInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        PNLShopInfoDetails.Visible = true;
-        dTable = ((DataView)SDSPetChar.Select(DataSourceSelectArguments.Empty)).Table;
-        shopInfoEntity = shopInfoCtrler.getShopInfo(dTable.Rows[0]["petInfoID"].ToString());
-        loadPieChartPetInfo(dTable);
-        loadPetInfo(petInfoEntity);
+        highlightSelectedRow(GVShopInfoOverview);
     }
     #endregion
 
-
     #region Logical Methods
+    // Pet Info Chart
     private void loadPieChartPetInfo(DataTable dTable)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -218,7 +238,7 @@ public partial class AdminDashboard : BasePage
         // write out a file
         // chart1.SaveImage(Server.MapPath("chart.png"), ChartImageFormat.Png);
     }
-
+    // Pet Info Details
     private void loadPetInfo(PetInfoEntity petInfoEntity)
     {
         LBLCategory.Text = petInfoEntity.PetCategory;
@@ -226,7 +246,68 @@ public partial class AdminDashboard : BasePage
         LBLDesc.Text = petInfoEntity.PetDesc;
         LBLPersonality.Text = petInfoEntity.PetPersonality;
     }
+    // Shop Info
+    private void loadShopInfo(ShopInfoEntity shopInfoEntity)
+    {
+        // shop info
+        LBLShopName.Text = shopInfoEntity.ShopInfoName;
+        LBLShopInfoContact.Text = shopInfoEntity.ShopInfoContact;
+        LBLShopInfoAddress.Text = shopInfoEntity.ShopInfoAddress;
+        LBLShopInfoDesc.Text = shopInfoEntity.ShopInfoDesc;
+
+        List<string> dayOfWeek = new List<string> { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+
+        // operating hours
+        foreach (ShopTimeEntity shopTimeEntity in shopInfoEntity.ShopTimeEntities)
+        {
+            if (DateTime.Now.DayOfWeek.ToString().Equals(shopTimeEntity.DayOfWeek.ToString()))
+            {
+
+                if (DateTime.Now.TimeOfDay > (DateTime.Parse(shopTimeEntity.OpenTime)).TimeOfDay &&
+                    DateTime.Now.TimeOfDay < (DateTime.Parse(shopTimeEntity.CloseTime)).TimeOfDay)
+                {
+                    MessageHandler.SuccessMessage(LBLShopTimeStatus, "Open now");
+                }
+                else
+                {
+                    MessageHandler.ErrorMessage(LBLShopTimeStatus, "Close now");
+                }
+                break;
+            }
+            else
+            {
+                MessageHandler.ErrorMessage(LBLShopTimeStatus, "(Close on " + DateTime.Now.DayOfWeek + ")");
+            }
+        }
+
+    }
+
+    // Filter data for shop info
+    private void filterData()
+    {
+        bool chkbxPetShop = CHKBXFilterPetShop.Checked;
+        bool chkbxPetClinic = CHKBXFilterPetClinic.Checked;
+        bool chkbxGrooming = CHKBXFilterGrooming.Checked;
+        string tbSearchValue = TBSearchShopInfo.Text;
+
+        GVShopInfoOverview.DataSourceID = null;
+        GVShopInfoOverview.DataSource = null;
+        GVShopInfoOverview.DataSource = shopInfoCtrler.filterData(chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
+        GVShopInfoOverview.DataBind();
+    }
     #endregion
+
+    #region Textbox Control
+    protected void TBSearchShopInfo_TextChanged(object sender, EventArgs e)
+    {
+        // Filter data for shop info
+        filterData();
+    }
+    #endregion
+
+
+
+
 
 
 

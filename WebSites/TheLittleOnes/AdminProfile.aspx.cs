@@ -1,28 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
+using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
 
 public partial class AdminProfile : BasePage
 {
-    string name;
-    string contact;
-    string address;
+    private string profileID;
+    private static string name;
+    private static string contact;
+    private static string address;
+    private static string filePath_UploadFolderTemp;
+    private static List<PhotoEntity> photoEntities;
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (IsPostBack) { }
+        Page.Form.Attributes.Add("enctype", "multipart/form-data");
+        if (IsPostBack)
+        {
+
+        }
         else
         {
-            if (profileEntity != null)
-            {
-                loadProfileInfo();
-            }
+            loadProfileInfo();
         }
 
     }
@@ -36,11 +43,31 @@ public partial class AdminProfile : BasePage
     }
 
 
-
-
     #region Button Clicks
+    // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        profileID = TBProfileID.Text.Trim();
+        name = TBName.Text.Trim();
+
+        // some variable to create folder
+        if (!string.IsNullOrEmpty(profileID) && !string.IsNullOrEmpty(name))
+        {
+            MessageHandler.ClearMessage(LBLErrorMsg);
+            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/profileinfo/", profileID.ToLower().Replace(" ", "") + "_" + name.ToLower().Replace(" ", "").ToString());
+            LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
+
+            // create temp files in temp foler
+            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ProfileInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
+
+            // preview photo
+            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
+        }
+        else
+        {
+            MessageHandler.ErrorMessage(LBLErrorMsg, "Name cannot be empty");
+        }
 
     }
 
@@ -57,8 +84,20 @@ public partial class AdminProfile : BasePage
             profileEntityTemp.ProfileName = name;
             profileEntityTemp.ProfileContact = contact;
             profileEntityTemp.ProfileAddress = address;
-            // update 
+
             profileEntity = profileCtrler.updateProfile(profileEntityTemp);
+
+            if (photoEntities != null)
+            {
+                // change photo path to database instead of using temp
+                profileEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
+                // remove old photos from database
+                photoCtrler.deletePhoto(profileEntity.ProfileID, PhotoPurpose.ProfileInfo.ToString());
+                // create new photos into database
+                photoCtrler.createPhoto(photoEntities, profileEntity.ProfileID);
+
+            }
+
             if (profileEntity != null)
             {
                 MessageHandler.SuccessMessage(LBLErrorMsg, "Profile successfully updated");
@@ -69,7 +108,7 @@ public partial class AdminProfile : BasePage
                 MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Profile was not successfully updated");
             }
         }
-
+        DLPhotoUploaded.DataBind();
 
     }
     #endregion

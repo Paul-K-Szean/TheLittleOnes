@@ -13,6 +13,7 @@ using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
+using TheLittleOnesLibrary.EnumFolder;
 
 public partial class AdminPetInfoEdit : BasePage
 {
@@ -63,7 +64,8 @@ public partial class AdminPetInfoEdit : BasePage
         }
         else
         {
-
+            // clear static data
+            clearStaticData();
         }
     }
 
@@ -85,20 +87,10 @@ public partial class AdminPetInfoEdit : BasePage
                 LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
 
                 // create temp files in temp foler
-                photoCtrler.previewPhotos(fileupload, filePath_UploadFolderTemp);
+                photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.PetInfo.ToString(), fileupload, filePath_UploadFolderTemp);
 
-                // display images from temp folders
-                DirectoryInfo dir = new DirectoryInfo(Server.MapPath(filePath_UploadFolderTemp));
-                photoPreview.InnerHtml = string.Empty;
-                foreach (var file in dir.GetFiles("*.jpg"))
-                {
-                    LogController.LogLine(string.Concat(filePath_UploadFolderTemp, "/", file.Name.ToLower().Trim().Replace(" ", "")));
-                    photoPreview.InnerHtml += string.Concat(
-                        "<img  src =\"",
-                        string.Concat(filePath_UploadFolderTemp, "/", file.Name).Replace("~/", ""),
-                        "\" Height=\"100\"/>",
-                        "<br>", file.Name, "<hr/>");
-                }
+                // preview photo
+                photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
             }
             else
             {
@@ -181,8 +173,6 @@ public partial class AdminPetInfoEdit : BasePage
         desc = ((TextBox)e.Item.FindControl("TBDesc")).Text.Trim();
         personality = ((TextBox)e.Item.FindControl("TBPersonality")).Text.Trim();
         displayStatus = ((DropDownList)e.Item.FindControl("DDLStatus")).SelectedValue.Trim();
-        photoEntities = photoCtrler.getPhotoEntities();
-
 
         // create object to update
         petInfoEntity = new PetInfoEntity(petInfoID, category, breed, lifeSpanMin, heightMin, weightMin, lifeSpanMax, heightMax, weightMax, desc, personality, displayStatus,
@@ -200,10 +190,9 @@ public partial class AdminPetInfoEdit : BasePage
             // change photo path to database instead of using temp
             petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
             // remove old photos from database
-            petInfoCtrler.deletePetPhoto(petInfoEntity);
+            photoCtrler.deletePhoto(petInfoEntity.PetInfoID, PhotoPurpose.PetInfo.ToString());
             // create new photos into database
-            petInfoCtrler.createPetPhoto(petInfoEntity);
-
+            photoCtrler.createPhoto(photoEntities, petInfoEntity.PetInfoID);
         }
         if (petInfoEntity != null)
             MessageHandler.SuccessMessage(LBLErrorMsg, "Pet info successfully updated");
@@ -217,7 +206,7 @@ public partial class AdminPetInfoEdit : BasePage
         DLPetInfoDetails.DataBind();
         GVPetInfoOverview.DataBind();
         // clear static data
-        clearTempData();
+        clearStaticData();
     }
 
     protected void DLPetInfoDetails_CancelCommand(object source, DataListCommandEventArgs e)
@@ -232,7 +221,7 @@ public partial class AdminPetInfoEdit : BasePage
         DLPetInfoDetails.EditItemIndex = -1;
         DLPetInfoDetails.DataBind();
         // clear static data
-        clearTempData();
+        clearStaticData();
     }
     #endregion
 
@@ -369,17 +358,7 @@ public partial class AdminPetInfoEdit : BasePage
     protected void GVPetInfoOverview_DataBound(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        DataView dataView = (DataView)SDSPetInfo.Select(DataSourceSelectArguments.Empty);
-        int totalSize = dataView.Count;
-        int currentPageIndex = GVPetInfoOverview.PageIndex + 1;
-        int pageSize = GVPetInfoOverview.PageSize * currentPageIndex;
-        int rowSize = GVPetInfoOverview.Rows.Count;
-
-        if (pageSize > totalSize)
-            pageSize = totalSize;
-        LBLEntriesCount.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
-
-
+        updateEntryCount(SDSPetInfo, GVPetInfoOverview, LBLEntriesCount);
     }
 
     protected void GVPetInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
@@ -567,12 +546,14 @@ public partial class AdminPetInfoEdit : BasePage
     }
 
     // Clear static data
-    private void clearTempData()
+    private void clearStaticData()
     {
         dTableOld = null;
         dTableEdit = null;
         petCharEntity = null;
         photoEntities = null;
+        // photoPreview.InnerHtml = string.Empty;
+        filePath_UploadFolderTemp = string.Empty;
     }
     #endregion
 

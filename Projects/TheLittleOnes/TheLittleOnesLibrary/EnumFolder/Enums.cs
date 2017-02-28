@@ -36,9 +36,21 @@ namespace TheLittleOnesLibrary.EnumFolder
     public enum ShopType
     {
         PetShop,
-        PetClinic
+        PetClinic,
+        PetShelter
     }
-
+    public enum AdoptionStatus
+    {
+        Available,
+        Adopted,
+        Pending
+    }
+    public enum PhotoPurpose {
+        Pet,
+        PetInfo,
+        ShopInfo,
+        ProfileInfo
+    }
     public enum PetCategory
     {
         Dog, Cat
@@ -54,7 +66,7 @@ namespace TheLittleOnesLibrary.EnumFolder
         [Description("Golden Retriever")]
         GoldenRetriever,
 
-        
+
         // L
         [Description("Labrador Retriever")]
         LabradorRetriever,
@@ -62,8 +74,8 @@ namespace TheLittleOnesLibrary.EnumFolder
         [Description("Maltese")]
         Maltese,
         // P
-        [Description("Pomeraiian")]
-        Pomeraiian,
+        [Description("Pomeranian")]
+        Pomeranian,
         [Description("Poodle")]
         Poodle,
 
