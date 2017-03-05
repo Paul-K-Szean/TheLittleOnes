@@ -26,6 +26,8 @@ public partial class AdminAdoptionInfoEdit : BasePage
     private static int gvPageSize = 5; // default
     private static string filePath_UploadFolderTemp;
 
+    private static DataTable dTableAdoptInfo;
+
     protected void Page_Load(object sender, EventArgs e)
     {
         Page.Form.Attributes.Add("enctype", "multipart/form-data");
@@ -41,6 +43,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
             PNLAdoptInfoEdit.Visible = false;
             // clear static data
             clearStaticData();
+            DDLShopInfo.DataBind();
         }
     }
 
@@ -123,8 +126,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
             GVAdoptInfoOverview.DataBind();
             DLPhotoUploaded.DataBind();
             clearStaticData();
-
-
+            filterAdoptionInfo();
         }
     }
 
@@ -133,6 +135,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
         PNLAdoptInfoEdit.Visible = false;
         PNLShopInfoDetails.Visible = false;
         clearUIControlValues(PNLAdoptInfoEdit.Controls);
+        LBLErrorMsg.Text = string.Empty;
     }
     #endregion
 
@@ -142,13 +145,12 @@ public partial class AdminAdoptionInfoEdit : BasePage
         gvPageSize = int.Parse(DDLDisplayRecordCountAdoptInfo.SelectedValue);
         GVAdoptInfoOverview.PageSize = gvPageSize;
     }
-
+    // Dropdownlist shop info
     protected void DDLOrangisation_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         shopInfoEntity = shopInfoCtrler.getShopInfo(DDLShopInfo.SelectedValue);
         loadShopInfo(shopInfoEntity);
-        PNLShopInfoDetails.Visible = true;
     }
     #endregion
 
@@ -156,7 +158,9 @@ public partial class AdminAdoptionInfoEdit : BasePage
     protected void GVAdoptInfoOverview_DataBound(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        updateEntryCount(SDSAdoptInfo, GVAdoptInfoOverview, LBLEntriesCount);
+        if (dTableAdoptInfo == null)
+            dTableAdoptInfo = ((DataView)SDSAdoptInfo.Select(DataSourceSelectArguments.Empty)).Table;
+        updateEntryCount(dTableAdoptInfo, GVAdoptInfoOverview, LBLEntriesCount);
     }
 
     protected void GVAdoptInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
@@ -166,6 +170,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
         GVRowID = Convert.ToInt32(GVAdoptInfoOverview.DataKeys[row.RowIndex].Values[0]);
         adoptInfoEntity = adoptInfoCtrler.getAdoptInfo(GVRowID.ToString());
         clearStaticData();
+        LBLErrorMsg.Text = string.Empty;
         loadAdoptInfo(adoptInfoEntity);
     }
 
@@ -185,14 +190,14 @@ public partial class AdminAdoptionInfoEdit : BasePage
         DDLAdoptInfoStatus.SelectedValue = adoptInfoEntity.AdoptInfoStatus;
         loadPet(adoptInfoEntity.PetEntity);
         loadShopInfo(adoptInfoEntity.ShopInfoEntity);
+       
     }
     // Shop Info
     private void loadShopInfo(ShopInfoEntity shopInfoEntity)
     {
         PNLShopInfoDetails.Visible = true;
         // shop info
-        if (DDLShopInfo.Items.Count <= 1) DDLShopInfo.DataBind();
-        DDLShopInfo.SelectedValue = adoptInfoEntity.ShopInfoEntity.ShopInfoID;
+        DDLShopInfo.SelectedValue = shopInfoEntity.ShopInfoID;
         LBLShopName.Text = shopInfoEntity.ShopInfoName;
         LBLShopInfoContact.Text = shopInfoEntity.ShopInfoContact;
         LBLShopInfoAddress.Text = shopInfoEntity.ShopInfoAddress;
@@ -263,27 +268,29 @@ public partial class AdminAdoptionInfoEdit : BasePage
         }
     }
 
-    // Filter data
-    private void filterData()
+    // Filter data for adoption info
+    private void filterAdoptionInfo()
     {
         string filterGender = DDLFilterGender.SelectedValue;
         string filterSize = DDLFilterSize.SelectedValue;
         string filterStatus = DDLFilterStatus.SelectedValue;
         string tbSearchValue = TBSearchAdoptInfo.Text;
-
+        dTableAdoptInfo = adoptInfoCtrler.filterAdoptionInfoData(filterGender, filterSize, filterStatus, tbSearchValue, LBLSearchResultAdoptInfo);
         GVAdoptInfoOverview.DataSourceID = null;
         GVAdoptInfoOverview.DataSource = null;
-        GVAdoptInfoOverview.DataSource = adoptInfoCtrler.filterData(filterGender, filterSize, filterStatus, tbSearchValue, LBLSearchResultAdoptInfo);
+        GVAdoptInfoOverview.DataSource = dTableAdoptInfo;
         GVAdoptInfoOverview.DataBind();
+        
     }
-
     // Clear temp data
     private void clearStaticData()
     {
+        dTableAdoptInfo = null;
         GVRowID = 0;
         photoEntities = null;
         photoPreview.InnerHtml = string.Empty;
         filePath_UploadFolderTemp = string.Empty;
+       
     }
 
     #endregion
@@ -292,27 +299,28 @@ public partial class AdminAdoptionInfoEdit : BasePage
     protected void TBSearchAdoptInfo_TextChanged(object sender, EventArgs e)
     {
         // Filter data
-        filterData();
+        filterAdoptionInfo();
     }
     #endregion
-
-
+    
     protected void DDLFilterSize_SelectedIndexChanged(object sender, EventArgs e)
     {
         // Filter data
-        filterData();
+        filterAdoptionInfo();
     }
 
     protected void DDLFilterStatus_SelectedIndexChanged(object sender, EventArgs e)
     {
         // Filter data
-        filterData();
+        filterAdoptionInfo();
     }
 
     protected void DDLFilterGender_SelectedIndexChanged(object sender, EventArgs e)
     {
         // Filter data
-        filterData();
+        filterAdoptionInfo();
     }
+
+
 
 }

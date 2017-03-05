@@ -21,7 +21,9 @@ public partial class AdminDashboard : BasePage
     private static int gvPageSizePetInfo = 10; // default
     private static int gvPageSizeShopInfo = 10; // default
 
-    private DataTable dTable;
+    private static DataTable dTablePetInfoChart;
+    private static DataTable dTablePetInfo;
+    private static DataTable dTableShopInfo;
     // Page load
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -39,25 +41,9 @@ public partial class AdminDashboard : BasePage
         {
 
         }
-
-
-        // dynamic text for search result
-        loadSearchResultLabel();
+        if (dTablePetInfoChart != null)
+            loadPieChartPetInfo(dTablePetInfoChart);
     }
-
-    private void loadSearchResultLabel()
-    {
-        // pet info
-        if (!string.IsNullOrEmpty(TBSearchPetInfo.Text))
-        {
-            LBLSearchResultPetInfo.Text = "Result for \"" + TBSearchPetInfo.Text + "\"";
-        }
-        else
-        {
-            LBLSearchResultPetInfo.Text = "Result for Pet Info";
-        }
-    }
-
 
     #region Checkbox Control
     // Shop info filter pet shop
@@ -68,7 +54,7 @@ public partial class AdminDashboard : BasePage
             CHKBXFilterPetClinic.Checked = false;
         }
         //filter data
-        filterData();
+        filterShopInfo();
     }
     // Shop info filter pet clinic
     protected void CHKBXFilterClinic_CheckedChanged(object sender, EventArgs e)
@@ -79,7 +65,7 @@ public partial class AdminDashboard : BasePage
             CHKBXFilterPetShop.Checked = false;
         }
         //filter data
-        filterData();
+        filterShopInfo();
     }
     // Shop info filter grooming service
     protected void CHKBXFilterGrooming_CheckedChanged(object sender, EventArgs e)
@@ -89,7 +75,7 @@ public partial class AdminDashboard : BasePage
             CHKBXFilterPetClinic.Checked = false;
         }
         //filter data
-        filterData();
+        filterShopInfo();
     }
     #endregion
 
@@ -99,6 +85,14 @@ public partial class AdminDashboard : BasePage
     {
         gvPageSizePetInfo = int.Parse(DDLDisplayRecordCountPetInfo.SelectedValue);
         GVPetInfoOverview.PageSize = gvPageSizePetInfo;
+    }
+    // Pet info filter pet breed
+    protected void DDLFilterBreed_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        // hide panel
+        PNLPetInfoDetails.Visible = false;
+        //filter data
+        filterPetInfo();
     }
     // Shop info
     protected void DDLDisplayRecordCountShopInfo_SelectedIndexChanged(object sender, EventArgs e)
@@ -113,16 +107,10 @@ public partial class AdminDashboard : BasePage
     protected void GVPetInfoOverview_DataBound(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        DataView dataView = (DataView)SDSPetInfo.Select(DataSourceSelectArguments.Empty);
-        int totalSize = dataView.Count;
-        int currentPageIndex = GVPetInfoOverview.PageIndex + 1;
-        int pageSize = GVPetInfoOverview.PageSize * currentPageIndex;
-        int rowSize = GVPetInfoOverview.Rows.Count;
-
-        if (pageSize > totalSize)
-            pageSize = totalSize;
-        LBLEntriesCountPetInfo.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
-
+        // calculate gridview entry count
+        if (dTablePetInfo == null)
+            dTablePetInfo = ((DataView)SDSPetInfo.Select(DataSourceSelectArguments.Empty)).Table;
+        updateEntryCount(dTablePetInfo, GVPetInfoOverview, LBLEntriesCountPetInfo);
 
     }
     // Pet info controls
@@ -130,11 +118,9 @@ public partial class AdminDashboard : BasePage
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         PNLPetInfoDetails.Visible = true;
-
         GridViewRow row = GVPetInfoOverview.Rows[e.NewSelectedIndex];
         GVRowIDPetInfo = Convert.ToInt32(GVPetInfoOverview.DataKeys[row.RowIndex].Values[0]);
         petInfoEntity = petInfoCtrler.getPetInfo(GVRowIDPetInfo.ToString());
-   
         loadPetInfo(petInfoEntity);
     }
     // Pet info controls
@@ -142,24 +128,22 @@ public partial class AdminDashboard : BasePage
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         highlightSelectedRow(GVPetInfoOverview);
-        dTable = ((DataView)SDSPetChar.Select(DataSourceSelectArguments.Empty)).Table as DataTable;
-        loadPieChartPetInfo(dTable);
+        dTablePetInfoChart = ((DataView)SDSPetChar.Select(DataSourceSelectArguments.Empty)).Table as DataTable;
+        loadPieChartPetInfo(dTablePetInfoChart);
     }
+    // Pet info controls
+    protected void GVPetInfoOverview_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
 
+    }
     // Shop info controls
     protected void GVShopInfoOverview_DataBound(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        DataView dataView = (DataView)SDSShopInfo.Select(DataSourceSelectArguments.Empty);
-        int totalSize = dataView.Count;
-        int currentPageIndex = GVShopInfoOverview.PageIndex + 1;
-        int pageSize = GVShopInfoOverview.PageSize * currentPageIndex;
-        int rowSize = GVShopInfoOverview.Rows.Count;
-
-        if (pageSize > totalSize)
-            pageSize = totalSize;
-        LBLEntriesCountShopInfo.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
-
+        // calculate gridview entry count
+        if (dTableShopInfo == null)
+            dTableShopInfo = ((DataView)SDSShopInfo.Select(DataSourceSelectArguments.Empty)).Table;
+        updateEntryCount(dTableShopInfo, GVShopInfoOverview, LBLEntriesCountShopInfo);
     }
     // Shop info controls
     protected void GVShopInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
@@ -197,28 +181,30 @@ public partial class AdminDashboard : BasePage
                 dataValue.Add(dTable.Rows[0][column.ColumnName].ToString());
             }
         }
+        // remove old data
+        chart1.Series.Clear();
+        chart1.ChartAreas.Clear();
+
 
         ChartArea chartArea = new ChartArea();
-
+        // chartarea
         chartArea.AxisX.MajorGrid.LineColor = Color.Black;
         chartArea.AxisY.MajorGrid.LineColor = Color.Black;
-        // label settings
-
         // 3D settings
         chartArea.Area3DStyle.Enable3D = true;
-
         chartArea.Area3DStyle.Inclination = 45;
         chartArea.Area3DStyle.IsRightAngleAxes = false;
         chartArea.Position = new ElementPosition(0, 12, 100, 100);
         chart1.ChartAreas.Add(chartArea);
 
-        Series series = new Series();
-        series.Name = "Series1";
+        // series
+        Series series = new Series("Series1");
         series.ChartType = SeriesChartType.Pie;
         series.IsValueShownAsLabel = true;
         series.Font = fontLabel;
         chart1.Series.Add(series);
 
+        // lengends
         chart1.Legends.Add(new Legend());
         chart1.Legends[0].Font = fontLegend;
         chart1.Legends[0].Enabled = true;
@@ -226,7 +212,6 @@ public partial class AdminDashboard : BasePage
         chart1.Legends[0].Position = new ElementPosition(0, 0, 100, 20);
 
         chart1.Palette = ChartColorPalette.Pastel;
-
         chart1.Width = 400;
 
         // bind the datapoints
@@ -234,7 +219,6 @@ public partial class AdminDashboard : BasePage
 
         // draw!
         chart1.DataBind();
-
         // write out a file
         // chart1.SaveImage(Server.MapPath("chart.png"), ChartImageFormat.Png);
     }
@@ -281,35 +265,47 @@ public partial class AdminDashboard : BasePage
         }
 
     }
+    // Filter data for pet info
+    private void filterPetInfo()
+    {
+        string ddlFilterBreed = DDLFilterBreed.SelectedValue.Trim();
+        string tbSearchValue = TBSearchPetInfo.Text.Trim();
 
+        GVPetInfoOverview.DataSourceID = null;
+        GVPetInfoOverview.DataSource = null;
+        dTablePetInfo = petInfoCtrler.filterPetInfoData(ddlFilterBreed, tbSearchValue, LBLSearchResultPetInfo);
+        GVPetInfoOverview.DataSource = dTablePetInfo;
+        GVPetInfoOverview.DataBind();
+    }
     // Filter data for shop info
-    private void filterData()
+    private void filterShopInfo()
     {
         bool chkbxPetShop = CHKBXFilterPetShop.Checked;
         bool chkbxPetClinic = CHKBXFilterPetClinic.Checked;
         bool chkbxGrooming = CHKBXFilterGrooming.Checked;
-        string tbSearchValue = TBSearchShopInfo.Text;
-
+        string tbSearchValue = TBSearchShopInfo.Text.Trim();
+        dTableShopInfo = shopInfoCtrler.filterShopInfoData(chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
         GVShopInfoOverview.DataSourceID = null;
         GVShopInfoOverview.DataSource = null;
-        GVShopInfoOverview.DataSource = shopInfoCtrler.filterData(chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
+        GVShopInfoOverview.DataSource = dTableShopInfo;
         GVShopInfoOverview.DataBind();
     }
     #endregion
 
     #region Textbox Control
+    // Pet info filter search key
+    protected void TBSearchPetInfo_TextChanged(object sender, EventArgs e)
+    {
+        // filter data for pet info
+        filterPetInfo();
+    }
+    // Shop info filter search key
     protected void TBSearchShopInfo_TextChanged(object sender, EventArgs e)
     {
-        // Filter data for shop info
-        filterData();
+        // filter data for shop info
+        filterShopInfo();
     }
     #endregion
-
-
-
-
-
-
 
 
 }

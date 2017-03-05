@@ -111,7 +111,7 @@
             <h1>Settings
 								<small>
                                     <i class="ace-icon fa fa-angle-double-right"></i>
-                                    Edit Shop Information
+                                    Edit Adoption Information
                                 </small>
             </h1>
         </div>
@@ -165,6 +165,7 @@
                                                     <asp:ListItem Value="Pending">Pending</asp:ListItem>
                                                 </asp:DropDownList>
                                             </span>
+                                            <div class="space-6"></div>
                                             <label class="block clearfix">
                                                 <span class="block input-icon input-icon-right">Search:         
                                                     <asp:TextBox ID="TBSearchAdoptInfo" runat="server" CssClass="form-control  input-sm" placeholder="EG: Shelter"
@@ -178,7 +179,8 @@
                                 <asp:GridView ID="GVAdoptInfoOverview" runat="server" DataKeyNames="adoptInfoID"
                                     CssClass="table table-striped table-bordered table-hover dataTable no-footer"
                                     AutoGenerateColumns="False" DataSourceID="SDSAdoptInfo" Width="100%"
-                                    AllowPaging="True" OnDataBound="GVAdoptInfoOverview_DataBound"
+                                    AllowPaging="True" 
+                                    OnDataBound="GVAdoptInfoOverview_DataBound"
                                     OnSelectedIndexChanged="GVAdoptInfoOverview_SelectedIndexChanged"
                                     OnSelectedIndexChanging="GVAdoptInfoOverview_SelectedIndexChanging">
                                     <Columns>
@@ -245,12 +247,16 @@
                                             <div class="widget-body">
                                                 <div class="widget-main">
                                                     <div>
-                                                        <asp:Label ID="Label2" runat="server" Text="Organisation" Font-Bold="True"></asp:Label>
-                                                        <asp:DropDownList ID="DDLShopInfo" runat="server" CssClass="form-control" DataSourceID="SDSShopInfo" DataTextField="shopInfoName" DataValueField="shopInfoID"
-                                                            AutoPostBack="true" AppendDataBoundItems="true" OnSelectedIndexChanged="DDLOrangisation_SelectedIndexChanged">
+                                                        <asp:Label ID="LblOrganisation" runat="server" Text="Organisation" Font-Bold="True"></asp:Label>
+                                                        <asp:DropDownList ID="DDLShopInfo" runat="server" CssClass="form-control" DataSourceID="SDSShopInfo"
+                                                            DataTextField="shopInfoName" DataValueField="shopInfoID"
+                                                            AutoPostBack="true" AppendDataBoundItems="true"
+                                                            OnSelectedIndexChanged="DDLOrangisation_SelectedIndexChanged">
                                                             <asp:ListItem Value="">Select Organisation</asp:ListItem>
                                                         </asp:DropDownList>
-                                                        <asp:SqlDataSource ID="SDSShopInfo" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>" ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>" SelectCommand="SELECT * FROM [ShopInfo]"></asp:SqlDataSource>
+                                                        <asp:SqlDataSource ID="SDSShopInfo" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
+                                                            ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
+                                                            SelectCommand="SELECT * FROM [ShopInfo]"></asp:SqlDataSource>
                                                         <div class=" space-6"></div>
                                                         <asp:Panel ID="PNLShopInfoDetails" runat="server" Visible="false">
                                                             <div class="widget-box">
@@ -507,7 +513,7 @@
                 <asp:SqlDataSource ID="SDSAdoptInfo" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT AdoptInfo.shopInfoID, AdoptInfo.petID, AdoptInfo.adoptInfoID, AdoptInfo.adoptInfoStatus, Pet.petID AS Expr1, Pet.petBreed, Pet.petName, Pet.petGender, Pet.petWeight, Pet.petSize, Pet.petDesc, Pet.petEnergy, Pet.petFriendlyWithPet, Pet.petFriendlyWithPeople, Pet.petToiletTrained, Pet.petHealthInfo, ShopInfo.shopInfoID AS Expr2, ShopInfo.shopInfoName, ShopInfo.shopInfoContact, ShopInfo.shopInfoAddress, ShopInfo.shopInfoGrooming, ShopInfo.shopInfoType, ShopInfo.shopInfoDesc, ShopInfo.shopInfoCloseOnPublicHoliday FROM ((AdoptInfo INNER JOIN Pet ON AdoptInfo.petID = Pet.petID) INNER JOIN ShopInfo ON AdoptInfo.shopInfoID = ShopInfo.shopInfoID)"></asp:SqlDataSource>
+                    SelectCommand="SELECT AdoptInfo.shopInfoID, AdoptInfo.petID, AdoptInfo.adoptInfoID, AdoptInfo.adoptInfoStatus, Pet.petID AS Expr1, Pet.petBreed, Pet.petName, Pet.petGender, Pet.petWeight, Pet.petSize, Pet.petDesc, Pet.petEnergy, Pet.petFriendlyWithPet, Pet.petFriendlyWithPeople, Pet.petToiletTrained, Pet.petHealthInfo, ShopInfo.shopInfoID AS Expr2, ShopInfo.shopInfoName, ShopInfo.shopInfoContact, ShopInfo.shopInfoAddress, ShopInfo.shopInfoGrooming, ShopInfo.shopInfoType, ShopInfo.shopInfoDesc, ShopInfo.shopInfoCloseOnPublicHoliday FROM ((AdoptInfo INNER JOIN Pet ON AdoptInfo.petID = Pet.petID) INNER JOIN ShopInfo ON AdoptInfo.shopInfoID = ShopInfo.shopInfoID) ORDER BY [adoptInfoId] DESC"></asp:SqlDataSource>
 
                 <asp:SqlDataSource ID="SDSPetInfo" runat="server"></asp:SqlDataSource>
                 <asp:SqlDataSource ID="SDSPhoto" runat="server"

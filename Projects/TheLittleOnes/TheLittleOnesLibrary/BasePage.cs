@@ -167,22 +167,30 @@ namespace TheLittleOnesLibrary
             }
         }
 
-        // Gridview entry count
-        protected void updateEntryCount(SqlDataSource sqlDataSource, GridView gridview, Label LBLEntriesCount)
+        // Calculate gridview entry size
+        protected void updateEntryCount(DataTable dTable, GridView gridview, Label LBLEntriesCount)
         {
-            DataView dataView = (DataView)sqlDataSource.Select(DataSourceSelectArguments.Empty);
-            int totalSize = dataView.Count;
-            int currentPageIndex = gridview.PageIndex + 1;
-            int pageSize = gridview.PageSize * currentPageIndex;
+
+            int totalSize = dTable.Rows.Count;
+            int currentPageIndex = gridview.PageIndex * gridview.PageSize + 1;
+            int pageSize = gridview.PageSize * (gridview.PageIndex + 1);
             int rowSize = gridview.Rows.Count;
+
+            if (pageSize > totalSize)
+                pageSize = totalSize;
+            else if (pageSize > rowSize) {
+                pageSize = rowSize;
+            }
 
             if (rowSize == 0)
             {
-                currentPageIndex = pageSize = totalSize = rowSize;
+                currentPageIndex = rowSize;
+                LBLEntriesCount.Text = string.Concat("No Record(s) found. Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
             }
-            if (pageSize > rowSize)
-                totalSize = pageSize = rowSize;
-            LBLEntriesCount.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
+            else {
+                LBLEntriesCount.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
+            }
+            
         }
 
         // Clear control value
@@ -210,5 +218,7 @@ namespace TheLittleOnesLibrary
                 }
             }
         }
+
+
     }
 }

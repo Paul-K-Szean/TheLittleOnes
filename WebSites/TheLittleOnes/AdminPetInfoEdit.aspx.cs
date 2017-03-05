@@ -27,6 +27,7 @@ public partial class AdminPetInfoEdit : BasePage
     private static DataTable dTablePhoto;
     private static DataTable dTableOld;
     private static DataTable dTableEdit;
+    private static DataTable dTablePetInfo;
     private static DataListItemEventArgs events;
 
     // input variables
@@ -358,7 +359,9 @@ public partial class AdminPetInfoEdit : BasePage
     protected void GVPetInfoOverview_DataBound(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        updateEntryCount(SDSPetInfo, GVPetInfoOverview, LBLEntriesCount);
+        if (dTablePetInfo == null)
+            dTablePetInfo = ((DataView)SDSPetInfo.Select(DataSourceSelectArguments.Empty)).Table;
+        updateEntryCount(dTablePetInfo, GVPetInfoOverview, LBLEntriesCount);
     }
 
     protected void GVPetInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
@@ -548,6 +551,7 @@ public partial class AdminPetInfoEdit : BasePage
     // Clear static data
     private void clearStaticData()
     {
+        dTablePetInfo = null;
         dTableOld = null;
         dTableEdit = null;
         petCharEntity = null;

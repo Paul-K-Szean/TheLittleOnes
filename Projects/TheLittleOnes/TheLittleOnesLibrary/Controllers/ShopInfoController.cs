@@ -225,8 +225,8 @@ namespace TheLittleOnesLibrary.Controllers
         //    return PhotoController.getInstance().getPhotoEntities(shopInfoID);
         //}
 
-        // Filter Data
-        public DataTable filterData(bool chkbxPetShop, bool chkbxPetClinic, bool chkbxGrooming, string tbSearchValue, Label searchResult)
+        // Filter Shop Info Data
+        public DataTable filterShopInfoData(bool chkbxPetShop, bool chkbxPetClinic, bool chkbxGrooming, string tbSearchValue, Label searchResult)
         {
             searchResult.ForeColor = Utility.getColorWhite();
             using (oleDbCommand = new OleDbCommand())
@@ -236,7 +236,7 @@ namespace TheLittleOnesLibrary.Controllers
                                             "SHOPINFOCONTACT LIKE @SEARCHVALUE OR ",
                                             "SHOPINFOADDRESS LIKE @SEARCHVALUE OR ",
                                             "SHOPINFODESC LIKE @SEARCHVALUE) ");
-                searchResult.Text = "Result for ";
+                searchResult.Text = "Records for Shop Info ";
                 if (!string.IsNullOrEmpty(tbSearchValue))
                     searchResult.Text += string.Concat("\"", tbSearchValue, "\" ");
                 if (chkbxPetShop)

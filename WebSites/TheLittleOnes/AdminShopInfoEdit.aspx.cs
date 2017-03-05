@@ -37,6 +37,7 @@ public partial class AdminShopInfoEdit : BasePage
     private static int gvPageSize = 5; // default
     private static string filePath_UploadFolderTemp;
 
+    private static DataTable dTableShopInfo;
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -163,8 +164,8 @@ public partial class AdminShopInfoEdit : BasePage
             }
             GVShopInfoOverview.DataBind();
             DLPhotoUploaded.DataBind();
-            // clear static data
             clearStaticData();
+            filterShopInfo();
         }
     }
 
@@ -172,6 +173,7 @@ public partial class AdminShopInfoEdit : BasePage
     {
         PNLShopInfoEdit.Visible = false;
         clearUIControlValues(PNLShopInfoEdit.Controls);
+        LBLErrorMsg.Text = string.Empty;
     }
     #endregion
 
@@ -184,7 +186,7 @@ public partial class AdminShopInfoEdit : BasePage
             CHKBXFilterPetClinic.Checked = false;
         }
         //filter data
-        filterData();
+        filterShopInfo();
     }
     // Shop info filter pet clinic
     protected void CHKBXFilterClinic_CheckedChanged(object sender, EventArgs e)
@@ -195,7 +197,7 @@ public partial class AdminShopInfoEdit : BasePage
             CHKBXFilterPetShop.Checked = false;
         }
         //filter data
-        filterData();
+        filterShopInfo();
     }
     // Shop info filter grooming service
     protected void CHKBXFilterGrooming_CheckedChanged(object sender, EventArgs e)
@@ -205,7 +207,7 @@ public partial class AdminShopInfoEdit : BasePage
             CHKBXFilterPetClinic.Checked = false;
         }
         //filter data
-        filterData();
+        filterShopInfo();
     }
     #endregion
 
@@ -221,7 +223,9 @@ public partial class AdminShopInfoEdit : BasePage
     protected void GVShopInfoOverview_DataBound(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        updateEntryCount(SDSShopInfo, GVShopInfoOverview, LBLEntriesCount);
+        if (dTableShopInfo == null)
+            dTableShopInfo = ((DataView)SDSShopInfo.Select(DataSourceSelectArguments.Empty)).Table;
+        updateEntryCount(dTableShopInfo, GVShopInfoOverview, LBLEntriesCount);
     }
 
     protected void GVShopInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
@@ -275,7 +279,6 @@ public partial class AdminShopInfoEdit : BasePage
             return false;
         }
     }
-
     // Get ShopTime
     private List<ShopTimeEntity> getShopTime()
     {
@@ -317,7 +320,6 @@ public partial class AdminShopInfoEdit : BasePage
         }
         return shopTimeEntities;
     }
-
     // Load shop info
     private void loadShopInfo(string rowID)
     {
@@ -337,7 +339,6 @@ public partial class AdminShopInfoEdit : BasePage
 
 
     }
-
     private void loadShoptime()
     {
         List<string> workDay = new List<string>();
@@ -454,9 +455,8 @@ public partial class AdminShopInfoEdit : BasePage
 
 
     }
-
     // Filter data
-    private void filterData()
+    private void filterShopInfo()
     {
         bool chkbxPetShop = CHKBXFilterPetShop.Checked;
         bool chkbxPetClinic = CHKBXFilterPetClinic.Checked;
@@ -465,13 +465,14 @@ public partial class AdminShopInfoEdit : BasePage
 
         GVShopInfoOverview.DataSourceID = null;
         GVShopInfoOverview.DataSource = null;
-        GVShopInfoOverview.DataSource = shopInfoCtrler.filterData(chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
+        GVShopInfoOverview.DataSource = shopInfoCtrler.filterShopInfoData(chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
         GVShopInfoOverview.DataBind();
     }
 
     // Clear temp data
     private void clearStaticData()
     {
+        dTableShopInfo = null;
         shopTimeEntities = null;
         photoEntities = null;
         photoPreview.InnerHtml = string.Empty;
@@ -484,7 +485,7 @@ public partial class AdminShopInfoEdit : BasePage
     protected void TBSearchShopInfo_TextChanged(object sender, EventArgs e)
     {
         //filter data
-        filterData();
+        filterShopInfo();
     }
     #endregion
 

@@ -1129,7 +1129,7 @@
                 <asp:SqlDataSource ID="SDSPetInfo" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT * FROM [PetInfo] ORDER BY [petInfoCategory], [petInfoBreed]"
+                    SelectCommand="SELECT * FROM [PetInfo] ORDER BY [petInfoID] DESC,[petInfoCategory], [petInfoBreed]"
                     FilterExpression="petInfoCategory LIKE '%{0}%' OR petInfoBreed LIKE '%{0}%' OR petInfoDesc LIKE '%{0}%' OR petInfoPersonality LIKE '%{0}%' OR petInfoDisplayStatus LIKE '%{0}%'">
                     <FilterParameters>
                         <asp:ControlParameter Name="petInfoCategory" ControlID="TBSearchPetInfo" PropertyName="Text" />

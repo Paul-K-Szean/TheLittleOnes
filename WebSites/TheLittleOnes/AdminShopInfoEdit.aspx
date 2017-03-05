@@ -453,7 +453,7 @@
                 <asp:SqlDataSource ID="SDSShopInfo" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT * FROM [ShopInfo] ORDER BY [shopInfoName]"></asp:SqlDataSource>
+                    SelectCommand="SELECT * FROM [ShopInfo] ORDER BY [shopInfoID] DESC,[shopInfoName] "></asp:SqlDataSource>
                 <asp:SqlDataSource ID="SDSPhoto" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"

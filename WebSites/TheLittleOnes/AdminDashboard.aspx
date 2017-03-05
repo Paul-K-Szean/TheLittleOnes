@@ -133,7 +133,8 @@
                             <div class="widget-header widget-header-flat">
                                 <h4 class="widget-title lighter">
                                     <i class="ace-icon fa  fa-id-card-o"></i>
-                                    Pet Info 
+                                    Pet Info   
+                                
                                 </h4>
 
                                 <div class="widget-toolbar">
@@ -149,7 +150,7 @@
                                         <ContentTemplate>
                                             <div class="col-lg-7">
                                                 <div class="table-header">
-                                                    <asp:Label ID="LBLSearchResultPetInfo" runat="server"></asp:Label>
+                                                    <asp:Label ID="LBLSearchResultPetInfo" runat="server" Text="Records for Pet Info"></asp:Label>
                                                     <asp:Label ID="LBLEntriesCountPetInfo" runat="server" CssClass="pull-right"></asp:Label>
                                                 </div>
                                                 <!-- div.table-responsive -->
@@ -173,18 +174,34 @@
                                                         </div>
                                                         <div class="col-xs-6">
                                                             <div class="dataTables_filter">
-
-                                                                <label class="block clearfix">
-                                                                    <span class="block input-icon input-icon-right">Search:         
-                                                    <asp:TextBox ID="TBSearchPetInfo" runat="server" CssClass="form-control  input-sm" placeholder="EG: silky terrier" AutoPostBack="true"></asp:TextBox>
+                                                                <span class="block input-icon input-icon-right  toolbar">
+                                                                    <asp:DropDownList ID="DDLFilterBreed" runat="server" CssClass="" AutoPostBack="True"
+                                                                        DataSourceID="SDSBreeds" DataTextField="petInfoBreed" DataValueField="petInfoBreed"
+                                                                        OnSelectedIndexChanged="DDLFilterBreed_SelectedIndexChanged" AppendDataBoundItems="true">
+                                                                        <asp:ListItem Value="">Filter Breed</asp:ListItem>
+                                                                    </asp:DropDownList>
+                                                                    <asp:SqlDataSource ID="SDSBreeds" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
+                                                                        ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
+                                                                        SelectCommand="SELECT DISTINCT [petInfoBreed], [petInfoID] FROM [PetInfo]"></asp:SqlDataSource>
+                                                                </span>
+                                                                <div class="space-4"></div>
+                                                                <div class="form-search">
+                                                                    <span class=" input-icon input-icon-right">
+                                                                        <asp:TextBox ID="TBSearchPetInfo" runat="server" placeholder="EG: silky terrier"
+                                                                            AutoPostBack="true" OnTextChanged="TBSearchPetInfo_TextChanged"></asp:TextBox>
                                                                         <i class="ace-icon fa fa-search blue bigger-110"></i>
                                                                     </span>
-                                                                </label>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <asp:GridView ID="GVPetInfoOverview" runat="server" OnSelectedIndexChanging="GVPetInfoOverview_SelectedIndexChanging" OnSelectedIndexChanged="GVPetInfoOverview_SelectedIndexChanged"
-                                                        CssClass="table table-striped table-bordered table-hover dataTable no-footer" OnDataBound="GVPetInfoOverview_DataBound"
+                                                    <asp:GridView ID="GVPetInfoOverview" runat="server"
+                                                        OnDataBound="GVPetInfoOverview_DataBound"
+                                                        OnSelectedIndexChanging="GVPetInfoOverview_SelectedIndexChanging"
+                                                        OnSelectedIndexChanged="GVPetInfoOverview_SelectedIndexChanged"
+                                                        OnPageIndexChanging="GVPetInfoOverview_PageIndexChanging"
+                                                        EmptyDataText="No Data Found"
+                                                        CssClass="table table-striped table-bordered table-hover dataTable no-footer"
                                                         AutoGenerateColumns="False" DataKeyNames="petInfoID" DataSourceID="SDSPetInfo" Width="100%"
                                                         AllowPaging="True">
                                                         <Columns>
@@ -200,6 +217,9 @@
                                                             <asp:BoundField DataField="petInfoDisplayStatus" HeaderText="Status" SortExpression="petInfoDisplayStatus" />
                                                             <asp:CommandField ShowSelectButton="True" SelectText="View" />
                                                         </Columns>
+                                                        <EmptyDataTemplate>
+                                                            <h3>No Record(s) Found</h3>
+                                                        </EmptyDataTemplate>
                                                         <PagerStyle CssClass="pagination-G5" />
                                                         <PagerSettings Mode="NumericFirstLast" PageButtonCount="5" FirstPageText="First" LastPageText="Last" NextPageText="Next" PreviousPageText="Previous" />
                                                     </asp:GridView>
@@ -288,12 +308,7 @@
                                             <asp:SqlDataSource ID="SDSPetInfo" runat="server"
                                                 ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                                                 ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                                                SelectCommand="SELECT * FROM [PetInfo] ORDER BY [petInfoCategory], [petInfoBreed]"
-                                                FilterExpression="petInfoCategory LIKE '%{0}%' OR petInfoBreed LIKE '%{0}%' OR petInfoDesc LIKE '%{0}%' OR petInfoPersonality LIKE '%{0}%' OR petInfoDisplayStatus LIKE '%{0}%'">
-                                                <FilterParameters>
-                                                    <asp:ControlParameter ControlID="TBSearchPetInfo" PropertyName="Text" />
-                                                </FilterParameters>
-                                            </asp:SqlDataSource>
+                                                SelectCommand="SELECT * FROM [PetInfo] ORDER BY [petInfoCategory], [petInfoBreed]"></asp:SqlDataSource>
                                             <asp:SqlDataSource ID="SDSPetChar" runat="server"
                                                 ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                                                 ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
@@ -342,7 +357,7 @@
                                         <ContentTemplate>
                                             <div class="col-lg-7">
                                                 <div class="table-header">
-                                                    <asp:Label ID="LBLSearchResultShopInfo" runat="server" Text="Records for Shop info"></asp:Label>
+                                                    <asp:Label ID="LBLSearchResultShopInfo" runat="server" Text="Records for Shop Info"></asp:Label>
                                                     <asp:Label ID="LBLEntriesCountShopInfo" runat="server" CssClass="pull-right"></asp:Label>
                                                 </div>
                                                 <!-- div.table-responsive -->
@@ -378,9 +393,8 @@
                                                                 </span>
                                                                 <label class="block clearfix">
                                                                     <span class="block input-icon input-icon-right">Search:         
-                                                    <asp:TextBox ID="TBSearchShopInfo" runat="server" CssClass="form-control  input-sm" placeholder="EG: Vet"
-                                                        AutoPostBack="true" OnTextChanged="TBSearchShopInfo_TextChanged"
-                                                        Text=""></asp:TextBox>
+                                                                    <asp:TextBox ID="TBSearchShopInfo" runat="server" CssClass="form-control  input-sm" placeholder="EG: Shelter"
+                                                                        AutoPostBack="true" OnTextChanged="TBSearchShopInfo_TextChanged" Text=""></asp:TextBox>
                                                                         <i class="ace-icon fa fa-search blue bigger-110"></i>
                                                                     </span>
                                                                 </label>
@@ -419,7 +433,7 @@
                                                         <div class="widget-header widget-header-flat widget-header-small">
                                                             <h5 class="widget-title">
                                                                 <i class="ace-icon fa fa-signal"></i>
-                                                              Shop Information
+                                                                Shop Information
                                                             </h5>
 
                                                             <div class="widget-toolbar no-border">
@@ -562,7 +576,7 @@
                                                     <asp:ControlParameter ControlID="GVShopInfoOverview" Name="photoOwnerID" PropertyName="SelectedValue" Type="Int32" />
                                                 </SelectParameters>
                                             </asp:SqlDataSource>
-                                           
+
                                         </ContentTemplate>
                                     </asp:UpdatePanel>
                                 </div>

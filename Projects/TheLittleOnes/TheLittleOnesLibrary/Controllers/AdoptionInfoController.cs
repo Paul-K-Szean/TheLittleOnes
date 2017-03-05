@@ -89,10 +89,10 @@ namespace TheLittleOnesLibrary.Controllers
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("UPDATE ADOPTINFO SET SHOPINFOID = @SHOPINFOID , ADOPTINFOSTATUS = @ADOPTINFOSTATUS WHERE(SHOPINFOID = @SHOPINFOID)");
+                oleDbCommand.CommandText = string.Concat("UPDATE ADOPTINFO SET SHOPINFOID = @SHOPINFOID , ADOPTINFOSTATUS = @ADOPTINFOSTATUS WHERE(ADOPTINFOID = @ADOPTINFOID)");
                 oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", adoptInfoEntity.ShopInfoEntity.ShopInfoID);
                 oleDbCommand.Parameters.AddWithValue("@ADOPTINFOSTATUS", adoptInfoEntity.AdoptInfoStatus);
-                oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", adoptInfoEntity.AdoptInfoID);
+                oleDbCommand.Parameters.AddWithValue("@ADOPTINFOID", adoptInfoEntity.AdoptInfoID);
                 int insertID = dao.updateRecord(oleDbCommand);
                 if (insertID > 0)
                 {
@@ -126,7 +126,7 @@ namespace TheLittleOnesLibrary.Controllers
         }
 
         // Filter Data
-        public object filterData(string filterGender, string filterSize, string filterStatus, string tbSearchValue, Label LBLSearchResultAdoptInfo)
+        public DataTable filterAdoptionInfoData(string filterGender, string filterSize, string filterStatus, string tbSearchValue, Label LBLSearchResultAdoptInfo)
         {
             LBLSearchResultAdoptInfo.ForeColor = Utility.getColorWhite();
             using (oleDbCommand = new OleDbCommand())

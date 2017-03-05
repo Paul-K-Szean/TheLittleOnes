@@ -7,6 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
@@ -156,7 +157,7 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
+        
         // Create PetPhoto
         public PetInfoEntity createPetPhoto(PetInfoEntity petInfoEntity)
         {
@@ -335,11 +336,33 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
 
-        // Retrieve PetPhoto
-        //public List<PhotoEntity> getPetPhoto(string ownerID)
-        //{
-        //    return PhotoController.getInstance().getPhotoEntities(ownerID);
-        //}
+        // Filter Pet Info Data
+        public DataTable filterPetInfoData(string ddlbreed, string tbSearchValue, Label searchResult)
+        {
+            searchResult.ForeColor = Utility.getColorWhite();
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                string sqlQuery = string.Concat("SELECT * FROM PETINFO WHERE (PETINFOCATEGORY LIKE @SEARCHVALUE OR ",
+                                            "PETINFODESC LIKE @SEARCHVALUE OR ",
+                                            "PETINFOPERSONALITY LIKE @SEARCHVALUE OR ",
+                                            "PETINFODISPLAYSTATUS LIKE @SEARCHVALUE) ");
+                searchResult.Text = "Records for Pet Info ";
+                if (!string.IsNullOrEmpty(tbSearchValue))
+                    searchResult.Text += string.Concat("\"", tbSearchValue, "\" ");
+                if (!string.IsNullOrEmpty(ddlbreed))
+                {
+                    searchResult.Text += string.Concat("\"", ddlbreed, "\" ");
+                    sqlQuery += string.Concat(" AND (PETINFOBREED LIKE '%", ddlbreed, "%') ");
+                }
+
+                oleDbCommand.CommandText = sqlQuery;
+                oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));
+
+                dataSet = dao.getRecord(oleDbCommand);
+                return dataSet.Tables[0];
+            }
+        }
 
     }
 
