@@ -1,0 +1,68 @@
+20170307@23:52:07 [System] getLoggedInAccount 
+20170307@23:52:07 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170307@23:52:07 [System] getLoggedInAccount 
+20170307@23:52:15 [System] getLoggedInAccount 
+20170307@23:52:15 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170307@23:52:15 [System] getLoggedInAccount 
+20170307@23:52:15 [System] loginAccount 
+20170307@23:52:17 [System] getLoggedInAccount 
+20170307@23:52:17 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170307@23:52:17 [System] getLoggedInAccount 
+20170307@23:52:17 [System] getLoggedInAccount 
+20170307@23:52:17 [System] getLoggedInAccount 
+20170307@23:52:17 [System] GVPetInfoOverview_DataBound 
+20170307@23:52:17 [System] GVShopInfoOverview_DataBound 
+20170307@23:54:17 [System] getLoggedInAccount 
+20170307@23:54:17 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170307@23:54:18 [System] getLoggedInAccount 
+20170307@23:54:18 [System] getLoggedInAccount 
+20170307@23:54:18 [System] getLoggedInAccount 
+20170307@23:54:18 [System] GVPetInfoOverview_DataBound 
+20170307@23:54:18 [System] GVShopInfoOverview_DataBound 
+20170307@23:54:48 [System] getLoggedInAccount 
+20170307@23:54:48 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170307@23:54:48 [System] getLoggedInAccount 
+20170307@23:54:48 [System] getLoggedInAccount 
+20170307@23:54:48 [System] getLoggedInAccount 
+20170307@23:54:48 [System] GVPetInfoOverview_DataBound 
+20170307@23:54:48 [System] GVShopInfoOverview_DataBound 
+20170307@23:54:59 [System] getLoggedInAccount 
+20170307@23:54:59 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170307@23:54:59 [System] getLoggedInAccount 
+20170307@23:54:59 [System] getLoggedInAccount 
+20170307@23:54:59 [System] getLoggedInAccount 
+20170307@23:55:00 [System] GVPetInfoOverview_DataBound 
+20170307@23:55:00 [System] GVShopInfoOverview_DataBound 
+20170307@23:55:11 [System] getLoggedInAccount 
+20170307@23:55:11 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170307@23:55:11 [System] No account logged in 
+20170307@23:55:16 [System] getLoggedInAccount 
+20170307@23:55:16 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170307@23:55:16 [System] No account logged in 
+20170307@23:55:16 [System] getLoggedInAccount 
+20170307@23:55:16 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170307@23:55:16 [System] getLoggedInAccount 
+20170307@23:55:20 [System] getLoggedInAccount 
+20170307@23:55:20 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170307@23:55:20 [System] getLoggedInAccount 
+20170307@23:55:20 [System] loginAccount 
+20170307@23:55:21 [System] getLoggedInAccount 
+20170307@23:55:21 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170307@23:55:21 [System] getLoggedInAccount 
+20170307@23:55:21 [System] getLoggedInAccount 
+20170307@23:55:21 [System] getLoggedInAccount 
+20170307@23:55:21 [System] GVPetInfoOverview_DataBound 
+20170307@23:55:21 [System] GVShopInfoOverview_DataBound 
+20170307@23:55:56 [System] getLoggedInAccount 
+20170307@23:55:56 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170307@23:55:56 [System] getLoggedInAccount 
+20170307@23:55:56 [System] getLoggedInAccount 
+20170307@23:55:56 [System] getLoggedInAccount 
+20170307@23:55:56 [System] GVPetInfoOverview_DataBound 
+20170307@23:55:57 [System] GVShopInfoOverview_DataBound 
+20170307@23:56:04 [System] getLoggedInAccount 
+20170307@23:56:04 [System] getLoggedInAccount 
+20170307@23:56:41 [System] getLoggedInAccount 
+20170307@23:56:41 [System] getLoggedInAccount 
+20170307@23:56:49 [System] getLoggedInAccount 
+20170307@23:56:49 [System] getLoggedInAccount 

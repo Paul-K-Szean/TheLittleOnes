@@ -70,7 +70,7 @@ public partial class AdminProfile : BasePage
         }
 
     }
-
+    // Save changes
     protected void BTNSave_Click(object sender, EventArgs e)
     {
         name = TBName.Text.Trim();

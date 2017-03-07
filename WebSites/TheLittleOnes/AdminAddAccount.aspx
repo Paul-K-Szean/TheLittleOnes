@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterAdmin.master" AutoEventWireup="true" CodeFile="AdminAdoptionInfoAdd.aspx.cs" Inherits="AdminAdoptionInfoAdd" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterAdmin.master" AutoEventWireup="true" CodeFile="AdminAddAccount.aspx.cs" Inherits="AdminAddAccount" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHHeaderMasterAdmin" runat="Server">
 </asp:Content>
@@ -12,7 +12,7 @@
             </li>
 
             <li>
-                <a href="#">Adoption Info</a>
+                <a href="#">System Account</a>
             </li>
             <li class="active">Settings</li>
         </ul>
@@ -107,7 +107,7 @@
                     <h1>Settings
 								<small>
                                     <i class="ace-icon fa fa-angle-double-right"></i>
-                                    New Adoption Information
+                                    New System Account
                                 </small>
                     </h1>
                 </div>
@@ -128,6 +128,64 @@
                         <!-- PAGE CONTENT BEGINS -->
                         <div class="form-horizontal">
                             <div class="row">
+                                <%--account info--%>
+                                <div class="col-md-3">
+                                    <div class="widget-box">
+                                        <div class="widget-header">
+                                            <h4 class="widget-title">Account Info</h4>
+                                        </div>
+                                        <div class="widget-body">
+                                            <div class="widget-main">
+                                                <div>
+                                                    <asp:Label ID="LBLAccountType" runat="server" Text="Account Type" Font-Bold="True"></asp:Label>
+                                                    <asp:DropDownList ID="DDLAccountType" runat="server" CssClass=" form-control" AutoPostBack="true" 
+                                                        OnSelectedIndexChanged="DDLAccountType_SelectedIndexChanged">
+                                                        <asp:ListItem Value=""> Select Account Type</asp:ListItem>
+                                                    </asp:DropDownList>
+                                                </div>
+                                                <br />
+                                                <div>
+                                                    <asp:Label ID="Label1" runat="server" Text="Email (Login ID)" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBAccountEmail" runat="server" CssClass="form-control" placeholder="EG: SeanJeanDean@hotmail.com"></asp:TextBox>
+                                                </div>
+                                                <br />
+                                                <div>
+                                                    <asp:Label ID="Label6" runat="server" Text="Password same as email without (@hotmail.com)" Font-Bold="True"></asp:Label>
+                                                </div>
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <%--profile info--%>
+                                <div class="col-md-3">
+                                    <div class="widget-box">
+                                        <div class="widget-header">
+                                            <h4 class="widget-title">Profile Info</h4>
+                                        </div>
+
+                                        <div class="widget-body">
+                                            <div class="widget-main">
+                                                <div>
+                                                    <asp:Label ID="LBLProfileName" runat="server" Text="User Name" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBProfileName" runat="server" CssClass="form-control" placeholder="EG: Sean Jean Dean"></asp:TextBox>
+                                                </div>
+                                                <br />
+                                                <div>
+                                                    <asp:Label ID="LBLProfileContact" runat="server" Text="Contact" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBProfileContact" runat="server" CssClass="form-control" placeholder="EG: 98722631" MaxLength="8"></asp:TextBox>
+                                                </div>
+                                                <br />
+
+                                                <div class="clearfix">
+                                                    <asp:Label ID="LBLProfileAddress" runat="server" Text="Address" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBProfileAddress" runat="server" CssClass="form-control col-xs-10" placeholder="Singapore singapore"></asp:TextBox>
+                                                </div>
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <%--organisation--%>
                                 <div class="col-md-3">
                                     <div class="widget-box">
@@ -137,12 +195,15 @@
                                         <div class="widget-body">
                                             <div class="widget-main">
                                                 <div>
-                                                    <asp:Label ID="Label2" runat="server" Text="Organisation" Font-Bold="True"></asp:Label>
+                                                    <asp:Label ID="LBLOrganisation" runat="server" Text="Organisation" Font-Bold="True"></asp:Label>
                                                     <asp:DropDownList ID="DDLOrangisation" runat="server" CssClass="form-control" DataSourceID="SDSShopInfo" DataTextField="shopInfoName" DataValueField="shopInfoID"
                                                         AutoPostBack="true" AppendDataBoundItems="true" OnSelectedIndexChanged="DDLOrangisation_SelectedIndexChanged">
                                                         <asp:ListItem Value="">Select Organisation</asp:ListItem>
                                                     </asp:DropDownList>
-                                                    <asp:SqlDataSource ID="SDSShopInfo" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>" ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>" SelectCommand="SELECT * FROM [ShopInfo]"></asp:SqlDataSource>
+                                                    <asp:SqlDataSource ID="SDSShopInfo" runat="server" 
+                                                        ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
+                                                         ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
+                                                         SelectCommand="SELECT * FROM [ShopInfo] ORDER BY ShopInfoName"></asp:SqlDataSource>
                                                     <div class=" space-6"></div>
                                                     <asp:Panel ID="PNLShopInfoDetails" runat="server" Visible="false">
                                                         <div class="widget-box">
@@ -190,120 +251,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <%--basic info--%>
-                                <div class="col-md-3">
-                                    <div class="widget-box">
-                                        <div class="widget-header">
-                                            <h4 class="widget-title">Basic Info</h4>
-                                        </div>
-
-                                        <div class="widget-body">
-                                            <div class="widget-main">
-                                                <div>
-                                                    <asp:Label ID="LBLPetBreed" runat="server" Text="Breed" Font-Bold="True"></asp:Label>
-                                                    <asp:DropDownList ID="DDLPetBreed" runat="server" CssClass="form-control" DataSourceID="SDSBreed" DataTextField="petInfoBreed" DataValueField="petInfoBreed"
-                                                        AppendDataBoundItems="True" AutoPostBack="True">
-                                                        <asp:ListItem Value="">Select Breed</asp:ListItem>
-                                                    </asp:DropDownList>
-                                                    <asp:SqlDataSource ID="SDSBreed" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>" ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>" SelectCommand="SELECT * FROM [PetInfo]"></asp:SqlDataSource>
-                                                </div>
-                                                <br />
-                                                <div>
-                                                    <asp:Label ID="LBLPetPetName" runat="server" Text="Pet Name" Font-Bold="True"></asp:Label>
-                                                    <asp:TextBox ID="TBPetName" runat="server" CssClass="form-control" placeholder="EG: Sunhine"></asp:TextBox>
-                                                </div>
-                                                <br />
-                                                <div>
-                                                    <asp:Label ID="LBLPetGender" runat="server" Text="Gender" Font-Bold="True"></asp:Label>
-                                                    <asp:DropDownList ID="DDLPetGender" runat="server" CssClass="form-control" AutoPostBack="true">
-                                                        <asp:ListItem Value="">Select Gender</asp:ListItem>
-                                                        <asp:ListItem Value="Female">Female</asp:ListItem>
-                                                        <asp:ListItem Value="Male">Male</asp:ListItem>
-                                                    </asp:DropDownList>
-                                                </div>
-                                                <br />
-                                                <div>
-                                                    <asp:Label ID="LBLPetWeight" runat="server" Text="Weight (KG)" Font-Bold="True"></asp:Label>
-                                                    <asp:TextBox ID="TBPetWeight" runat="server" CssClass="form-control" placeholder="EG: 12"></asp:TextBox>
-                                                </div>
-                                                <br />
-                                                <div>
-                                                    <asp:Label ID="Label1" runat="server" Text="Size" Font-Bold="True"></asp:Label>
-                                                    <br />
-                                                    <asp:DropDownList ID="DDLPetSize" runat="server" CssClass="form-control">
-                                                        <asp:ListItem Value="">Select Size</asp:ListItem>
-                                                        <asp:ListItem Value="Small">Small</asp:ListItem>
-                                                        <asp:ListItem Value="Medium">Medium</asp:ListItem>
-                                                        <asp:ListItem Value="Large">Large</asp:ListItem>
-                                                        <asp:ListItem Value="X-Large">X-Large</asp:ListItem>
-                                                    </asp:DropDownList>
-                                                </div>
-                                                <br />
-                                                <div class="clearfix">
-                                                    <asp:Label ID="LBLShopDesc" runat="server" Text="Description" Font-Bold="True"></asp:Label>
-                                                    <asp:TextBox ID="TBPetDesc" runat="server" CssClass="form-control col-xs-10" placeholder="Description" TextMode="MultiLine" Rows="15"></asp:TextBox>
-                                                </div>
-                                                <br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <%--characteristic--%>
-                                <div class="col-md-3">
-                                    <div class="widget-box">
-                                        <div class="widget-header">
-                                            <h4 class="widget-title">Characteristics</h4>
-                                        </div>
-
-                                        <div class="widget-body">
-                                            <div class="widget-main">
-                                                <div>
-                                                    <asp:Label ID="LBLPetEnergyLevel" runat="server" Text="Energy Level" Font-Bold="True"></asp:Label>
-                                                    <asp:DropDownList ID="DDLPetEnergy" runat="server" CssClass="form-control">
-                                                        <asp:ListItem Value="">Select Level</asp:ListItem>
-                                                        <asp:ListItem Value="Low">Low</asp:ListItem>
-                                                        <asp:ListItem Value="Medium">Medium</asp:ListItem>
-                                                        <asp:ListItem Value="High">High</asp:ListItem>
-                                                    </asp:DropDownList>
-                                                </div>
-                                                <br />
-                                                <div>
-                                                    <asp:Label ID="LBLPetFriendlyWithPet" runat="server" Text="Friendly with pets?" Font-Bold="True"></asp:Label>
-                                                    <br />
-                                                    <asp:DropDownList ID="DDLPetFriendlyWithPet" runat="server" CssClass="form-control" AutoPostBack="true">
-                                                        <asp:ListItem Value="">Select Yes/No</asp:ListItem>
-                                                        <asp:ListItem Value="Yes">Yes</asp:ListItem>
-                                                        <asp:ListItem Value="No">No</asp:ListItem>
-                                                    </asp:DropDownList>
-                                                </div>
-                                                <br />
-                                                <div>
-                                                    <asp:Label ID="LBLPetFriendlyWithPeople" runat="server" Text="Friendly with people?" Font-Bold="True"></asp:Label>
-                                                    <asp:DropDownList ID="DDLPetFriendlyWithPeople" runat="server" CssClass="form-control" AutoPostBack="true">
-                                                        <asp:ListItem Value="">Select Yes/No</asp:ListItem>
-                                                        <asp:ListItem Value="Yes">Yes</asp:ListItem>
-                                                        <asp:ListItem Value="No">No</asp:ListItem>
-                                                    </asp:DropDownList>
-                                                </div>
-                                                <br />
-                                                <div>
-                                                    <asp:Label ID="LBLPetToiletTrain" runat="server" Text="Toilet Trained?" Font-Bold="True"></asp:Label>
-                                                    <asp:DropDownList ID="DDLPetToiletTrain" runat="server" CssClass="form-control" AutoPostBack="true">
-                                                        <asp:ListItem Value="">Select Yes/No</asp:ListItem>
-                                                        <asp:ListItem Value="Yes">Yes</asp:ListItem>
-                                                        <asp:ListItem Value="No">No</asp:ListItem>
-                                                    </asp:DropDownList>
-                                                </div>
-                                                <br />
-                                                <div>
-                                                    <asp:Label ID="LBLPetHealthInfo" runat="server" Text="Health Info" Font-Bold="True"></asp:Label>
-                                                    <asp:TextBox ID="TBPetHealthInfo" runat="server" CssClass="form-control" placeholder="EG: She is good and healthy" TextMode="MultiLine" Rows="15"></asp:TextBox>
-                                                </div>
-                                                <br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <%--photo--%>
                                 <div class="col-md-3">
                                     <div class="widget-box">
@@ -314,7 +261,7 @@
                                         <div class="widget-body">
                                             <div class="widget-main">
                                                 <div>
-                                                    <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="false" />
+                                                    <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="true" />
                                                     <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview"
                                                         OnClick="BTNPreview_Click" />
                                                 </div>
@@ -343,5 +290,6 @@
 
     </div>
     <!-- /.page-content -->
+
 </asp:Content>
 

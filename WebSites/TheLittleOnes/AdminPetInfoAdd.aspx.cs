@@ -168,6 +168,7 @@ public partial class AdminPetInfoAdd : BasePage
     // Generate random values
     protected void BTNGenerate_Click(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         MessageHandler.ClearMessage(LBLErrorMsg);
         Random rnd = new Random();
         // random ddl values

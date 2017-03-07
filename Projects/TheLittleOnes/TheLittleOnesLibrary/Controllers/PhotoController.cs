@@ -99,16 +99,18 @@ namespace TheLittleOnesLibrary.Controllers
             {
                 photoEntities = new List<PhotoEntity>();
                 LogController.LogLine("Total files posted: " + fileUpload.PostedFiles.Count);
+                string[] extensions = { ".jpg", ".jpeg", ".png", ".gif", ".tiff", ".bmp" };
                 foreach (HttpPostedFile httpPostedFileInfo in fileUpload.PostedFiles)
-                {
-                    string fileName = httpPostedFileInfo.FileName.Replace(" ", "");
-                    string savePath = Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp), fileName);
-                    httpPostedFileInfo.SaveAs(savePath);
-                    photoEntities.Add(new PhotoEntity(fileName, savePath, photoPurpose));
+                { 
+                    if (extensions.Contains(Path.GetExtension(fileUpload.FileName).ToLower()))
+                    {
+                        string fileName = httpPostedFileInfo.FileName.Replace(" ", "");
+                        string savePath = Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp), fileName);
+                        httpPostedFileInfo.SaveAs(savePath);
+                        photoEntities.Add(new PhotoEntity(fileName, savePath, photoPurpose));
+                    }
                 }
             }
-
-
 
             // return list<photoEntities> with temp path
             return photoEntities;
@@ -171,9 +173,11 @@ namespace TheLittleOnesLibrary.Controllers
             DirectoryInfo dir = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
             photoPreview.InnerHtml = string.Empty;
             photoPreview.Style.Add("Height", "300px");
-            foreach (var file in dir.GetFiles("*.jpg"))
+       
+            foreach (var file in dir.GetFiles())
             {
                 LogController.LogLine(string.Concat(filePath_UploadFolderTemp, "/", file.Name.ToLower().Trim().Replace(" ", "")));
+
                 photoPreview.InnerHtml += string.Concat(
                     "<img  src =\"",
                     string.Concat(filePath_UploadFolderTemp, "/", file.Name).Replace("~/", ""),

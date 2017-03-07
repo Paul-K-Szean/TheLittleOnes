@@ -199,7 +199,7 @@
                                         <div class="widget-body">
                                             <div class="widget-main">
                                                 <div>
-                                                    <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="true" />
+                                                    <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="false" />
                                                     <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview"
                                                         OnClick="BTNPreview_Click" />
                                                 </div>
