@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
+using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
 
@@ -39,15 +40,19 @@ public partial class AdminLogin : BasePage
         else
         {
             // login
-            accEntity = accCtrler.loginAccount(inputEmail, inputPassword);
-            if (accEntity != null)
+            accountEntity = accCtrler.loginAccount(inputEmail, inputPassword);
+            if (accountEntity != null)
             {
-                if (!accEntity.AccountType.Equals(AccountType.WebUser.ToString()))
+                if (!accountEntity.AccountType.Equals(AccountType.WebUser.ToString()))
+                {
                     Response.Redirect("AdminDashboard.aspx");
+                }
+
                 else
                 {
                     MessageHandler.ErrorMessage(LBLErrorMsg, "You are not authorised here");
                     TBLoginPassword.Text = string.Empty;
+                    accCtrler.SignOut();
                 }
 
             }

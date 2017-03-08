@@ -20,6 +20,8 @@ namespace TheLittleOnesLibrary.Entities
         private List<PhotoEntity> photoEntities;
 
         // Create record
+        public ShopInfoEntity() { }
+
         public ShopInfoEntity(string shopInfoName, string shopInfoContact, string shopInfoAddress, bool shopInfoGrooming, string shopInfoType, string shopInfoDesc, bool shopCloseOnPublicHoliday, List<ShopTimeEntity> shopTimeEntities, List<PhotoEntity> photoEntities)
         {
             this.ShopInfoName = shopInfoName;

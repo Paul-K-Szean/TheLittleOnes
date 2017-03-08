@@ -15,7 +15,6 @@ namespace TheLittleOnesLibrary.Controllers
     {
         private static ProfileController profileCtrl;
         private static ProfileEntity loggedInProfile;
-        private ProfileEntity profileEntity;
         public static ProfileController getInstance()
         {
             if (profileCtrl == null)
@@ -28,8 +27,6 @@ namespace TheLittleOnesLibrary.Controllers
         private DAO dao;
         private OleDbCommand oleDbCommand;
         private DataSet dataSet;
-        private static List<PhotoEntity> photoEntities;
-
         // Default Constructor
         public ProfileController()
         {
@@ -38,14 +35,14 @@ namespace TheLittleOnesLibrary.Controllers
 
 
         // Create profile
-        public ProfileEntity createProfile(ProfileEntity profileEntity)
+        public ProfileEntity createProfile(ProfileEntity profileEntity, string accountID)
         {
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
                 oleDbCommand.CommandText = string.Concat("INSERT INTO PROFILE (ACCOUNTID,PROFILENAME,PROFILECONTACT,PROFILEADDRESS)",
                                                          "VALUES (@PROFILEID,@PROFILENAME,@PROFILECONTACT, @PROFILEADDRESS);");
-                oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", profileEntity.AccountID);
+                oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", accountID);
                 oleDbCommand.Parameters.AddWithValue("@PROFILENAME", profileEntity.ProfileName);
                 oleDbCommand.Parameters.AddWithValue("@PROFILECONTACT", profileEntity.ProfileContact);
                 oleDbCommand.Parameters.AddWithValue("@PROFILEADDRESS", profileEntity.ProfileAddress);
@@ -53,12 +50,8 @@ namespace TheLittleOnesLibrary.Controllers
                 int insertID = dao.createRecord(oleDbCommand);
                 if (insertID > 0)
                 {
-                    return new ProfileEntity(insertID.ToString(),
-                        profileEntity.ProfileID,
-                        profileEntity.ProfileName,
-                        profileEntity.ProfileContact,
-                        profileEntity.ProfileAddress,
-                        photoEntities);
+                    profileEntity.ProfileID = insertID.ToString();
+                    return profileEntity;
                 }
                 else
                 {
@@ -68,54 +61,12 @@ namespace TheLittleOnesLibrary.Controllers
         }
 
         // Create PetPhoto
-        public ProfileEntity createPetPhoto(ProfileEntity profileEntity)
+        public ProfileEntity createPhoto(ProfileEntity profileEntity)
         {
             profileEntity.PhotoEntities = PhotoController.getInstance().createPhoto(profileEntity.PhotoEntities, profileEntity.ProfileID);
             return profileEntity;
         }
-
-        // Sign in profile
-        public ProfileEntity logInProfile(AccountEntity accountEntity)
-        {
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM PROFILE WHERE ACCOUNTID LIKE @ACCOUNTID");
-                oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", string.Concat("%", accountEntity.AccountID, "%"));
-
-                dataSet = dao.getRecord(oleDbCommand);
-                if (dataSet.Tables[0].Rows.Count > 0)
-                {
-                    // instantial profile 
-                    loggedInProfile = new ProfileEntity(
-                        dataSet.Tables[0].Rows[0]["accountID"].ToString(),
-                        dataSet.Tables[0].Rows[0]["profileID"].ToString(),
-                        dataSet.Tables[0].Rows[0]["profileName"].ToString(),
-                        dataSet.Tables[0].Rows[0]["profileContact"].ToString(),
-                        dataSet.Tables[0].Rows[0]["profileAddress"].ToString(),
-                        PhotoController.getInstance().getPhotoEntities(dataSet.Tables[0].Rows[0]["profileID"].ToString(), PhotoPurpose.ProfileInfo.ToString()));
-                    return loggedInProfile;
-                }
-                else
-                {
-                    return null;
-                }
-            }
-        }
-
-        // Get logged in profile
-        public ProfileEntity getLoggedInProfile()
-        {
-            return loggedInProfile;
-        }
-
-        // Sign out profile
-        public void SignOut()
-        {
-            loggedInProfile = null;
-            // signout profile
-        }
-
+        
         // Update profile
         public ProfileEntity updateProfile(ProfileEntity profileEntity)
         {
@@ -140,6 +91,49 @@ namespace TheLittleOnesLibrary.Controllers
                 return loggedInProfile;
             }
         }
+
+        // Retrieve logged in profile
+        public ProfileEntity getLoggedInProfile()
+        {
+            return loggedInProfile;
+        }
+
+        // Sign in profile
+        public ProfileEntity logInProfile(string accountID)
+        {
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("SELECT * FROM PROFILE WHERE ACCOUNTID LIKE @ACCOUNTID");
+                oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", string.Concat(accountID));
+
+                dataSet = dao.getRecord(oleDbCommand);
+                if (dataSet.Tables[0].Rows.Count > 0)
+                {
+                    // instantial profile 
+                    loggedInProfile = new ProfileEntity(
+                        dataSet.Tables[0].Rows[0]["profileID"].ToString(),
+                        dataSet.Tables[0].Rows[0]["profileName"].ToString(),
+                        dataSet.Tables[0].Rows[0]["profileContact"].ToString(),
+                        dataSet.Tables[0].Rows[0]["profileAddress"].ToString(),
+                        PhotoController.getInstance().getPhotoEntities(dataSet.Tables[0].Rows[0]["profileID"].ToString(), PhotoPurpose.ProfileInfo.ToString()));
+                    return loggedInProfile;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
+        
+        // Sign out profile
+        public void SignOut()
+        {
+            loggedInProfile = null;
+            // signout profile
+        }
+
+      
 
 
 

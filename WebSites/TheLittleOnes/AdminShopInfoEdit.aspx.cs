@@ -50,8 +50,6 @@ public partial class AdminShopInfoEdit : BasePage
         }
         else
         {
-            // hide edit panel
-            PNLShopInfoEdit.Visible = false;
             // clear static data
             clearStaticData();
         }
@@ -98,25 +96,14 @@ public partial class AdminShopInfoEdit : BasePage
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        shopName = TBShopName.Text.Trim().ToLower().Replace(" ", "");
-        shopContact = TBShopContact.Text.Trim().Replace(" ", "");
+        LBLErrorMsg.Text = string.Empty;
+        filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/shopinfo/000/");
 
-        // some variable to create folder
-        if (!string.IsNullOrEmpty(shopName) && !string.IsNullOrEmpty(shopContact))
-        {
-            MessageHandler.ClearMessage(LBLErrorMsg);
-            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/shopinfo/", shopName + "_" + shopContact);
+        // create temp files in temp foler
+        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ShopInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
 
-            // create temp files in temp foler
-            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ShopInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
-
-            // preview photo
-            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
-        }
-        else
-        {
-            MessageHandler.ErrorMessage(LBLErrorMsg, "Shop name and contact cannot be empty");
-        }
+        // preview photo
+        photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
     }
 
     protected void BTNUpdate_Click(object sender, EventArgs e)
@@ -146,7 +133,7 @@ public partial class AdminShopInfoEdit : BasePage
             if (photoEntities != null)
             {
                 // change photo path to database instead of using temp
-                shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
+                shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp, shopInfoEntity.ShopInfoID);
                 // remove old photos from database
                 photoCtrler.deletePhoto(shopInfoEntity.ShopInfoID, PhotoPurpose.ShopInfo.ToString());
                 // create new photos into database
@@ -216,6 +203,7 @@ public partial class AdminShopInfoEdit : BasePage
     {
         gvPageSize = int.Parse(DDLDisplayRecordCountShopInfo.SelectedValue);
         GVShopInfoOverview.PageSize = gvPageSize;
+        filterShopInfo();
     }
     #endregion
 
@@ -244,6 +232,12 @@ public partial class AdminShopInfoEdit : BasePage
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         highlightSelectedRow(GVShopInfoOverview);
         MessageHandler.ClearMessage(LBLErrorMsg);
+    }
+
+    protected void GVShopInfoOverview_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        GVShopInfoOverview.PageIndex = e.NewPageIndex;
+        filterShopInfo();
     }
     #endregion
 
@@ -462,10 +456,10 @@ public partial class AdminShopInfoEdit : BasePage
         bool chkbxPetClinic = CHKBXFilterPetClinic.Checked;
         bool chkbxGrooming = CHKBXFilterGrooming.Checked;
         string tbSearchValue = TBSearchShopInfo.Text;
-
+        dTableShopInfo = shopInfoCtrler.filterShopInfoData(chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
         GVShopInfoOverview.DataSourceID = null;
         GVShopInfoOverview.DataSource = null;
-        GVShopInfoOverview.DataSource = shopInfoCtrler.filterShopInfoData(chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
+        GVShopInfoOverview.DataSource = dTableShopInfo;
         GVShopInfoOverview.DataBind();
     }
 
@@ -490,4 +484,6 @@ public partial class AdminShopInfoEdit : BasePage
     #endregion
 
 
+
+   
 }

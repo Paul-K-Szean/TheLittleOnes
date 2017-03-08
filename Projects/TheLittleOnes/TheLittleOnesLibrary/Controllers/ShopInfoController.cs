@@ -17,9 +17,7 @@ namespace TheLittleOnesLibrary.Controllers
     {
 
         private static ShopInfoController shopInfoCtrl;
-        private static ShopInfoEntity shopInfoEntity;
         private static List<ShopTimeEntity> shopTimeEntities;
-        private static List<PhotoEntity> photoEntities;
 
         public static ShopInfoController getInstance()
         {
@@ -116,7 +114,7 @@ namespace TheLittleOnesLibrary.Controllers
         }
 
         // Create ShopPhoto
-        public ShopInfoEntity createShopPhoto(ShopInfoEntity shopInfoEntity)
+        public ShopInfoEntity createPhoto(ShopInfoEntity shopInfoEntity)
         {
             shopInfoEntity.PhotoEntities = PhotoController.getInstance().createPhoto(shopInfoEntity.PhotoEntities, shopInfoEntity.ShopInfoID);
             return shopInfoEntity;
@@ -177,23 +175,31 @@ namespace TheLittleOnesLibrary.Controllers
         // Retrieve ShopInfo
         public ShopInfoEntity getShopInfo(string shopInfoID)
         {
-            using (oleDbCommand = new OleDbCommand())
+            if (shopInfoID == "0" || string.IsNullOrEmpty(shopInfoID))
             {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM SHOPINFO WHERE SHOPINFOID = @SHOPINFOID");
-                oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", string.Concat(shopInfoID));
-                dataSet = dao.getRecord(oleDbCommand);
-                return new ShopInfoEntity(
-                    dataSet.Tables[0].Rows[0][0].ToString(),
-                    dataSet.Tables[0].Rows[0][1].ToString(),
-                    dataSet.Tables[0].Rows[0][2].ToString(),
-                    dataSet.Tables[0].Rows[0][3].ToString(),
-                    Convert.ToBoolean(dataSet.Tables[0].Rows[0][4]),
-                    dataSet.Tables[0].Rows[0][5].ToString(),
-                    dataSet.Tables[0].Rows[0][6].ToString(),
-                    Convert.ToBoolean(dataSet.Tables[0].Rows[0][7]),
-                        getShopTime(shopInfoID), PhotoController.getInstance().getPhotoEntities(shopInfoID, PhotoPurpose.ShopInfo.ToString()));
+                return null;
             }
+            else
+            {
+                using (oleDbCommand = new OleDbCommand())
+                {
+                    oleDbCommand.CommandType = CommandType.Text;
+                    oleDbCommand.CommandText = string.Concat("SELECT * FROM SHOPINFO WHERE SHOPINFOID = @SHOPINFOID");
+                    oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", string.Concat(shopInfoID));
+                    dataSet = dao.getRecord(oleDbCommand);
+                    return new ShopInfoEntity(
+                        dataSet.Tables[0].Rows[0][0].ToString(),
+                        dataSet.Tables[0].Rows[0][1].ToString(),
+                        dataSet.Tables[0].Rows[0][2].ToString(),
+                        dataSet.Tables[0].Rows[0][3].ToString(),
+                        Convert.ToBoolean(dataSet.Tables[0].Rows[0][4]),
+                        dataSet.Tables[0].Rows[0][5].ToString(),
+                        dataSet.Tables[0].Rows[0][6].ToString(),
+                        Convert.ToBoolean(dataSet.Tables[0].Rows[0][7]),
+                            getShopTime(shopInfoID), PhotoController.getInstance().getPhotoEntities(shopInfoID, PhotoPurpose.ShopInfo.ToString()));
+                }
+            }
+
         }
 
         // Retrieve ShopTime
@@ -255,7 +261,7 @@ namespace TheLittleOnesLibrary.Controllers
                     sqlQuery += string.Concat(" AND (SHOPINFOGROOMING = TRUE) ");
                 }
 
-                oleDbCommand.CommandText = sqlQuery;
+                oleDbCommand.CommandText = string.Concat(sqlQuery, " ORDER BY [SHOPINFOID] DESC, [SHOPINFONAME] " );
                 oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));
 
                 dataSet = dao.getRecord(oleDbCommand);

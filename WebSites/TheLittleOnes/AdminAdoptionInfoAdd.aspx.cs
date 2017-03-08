@@ -58,7 +58,6 @@ public partial class AdminAdoptionInfoAdd : BasePage
         string adoptPetBreed = DDLPetBreed.SelectedValue;
         string adoptPetName = TBPetName.Text.Trim();
 
-
         if (checkRequiredFields())
         {
             if (adoptInfoCtrler.checkAdoptInfoExist(adoptPetBreed, adoptPetName))

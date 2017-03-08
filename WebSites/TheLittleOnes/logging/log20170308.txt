@@ -2553,3 +2553,2111 @@
 20170308@02:27:15 [System] getLoggedInAccount 
 20170308@02:27:15 [System] MessageHandler : Contact 
 20170308@02:27:15 [System] MessageHandler : Contact 
+20170308@16:33:05 [System] getLoggedInAccount 
+20170308@16:33:06 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@16:33:06 [System] getLoggedInAccount 
+20170308@16:34:09 [System] getLoggedInAccount 
+20170308@16:34:09 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@16:34:09 [System] getLoggedInAccount 
+20170308@16:34:09 [System] loginAccount 
+20170308@16:34:14 [System] getLoggedInAccount 
+20170308@16:34:14 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@16:34:14 [System] getLoggedInAccount 
+20170308@16:34:15 [System] getLoggedInAccount 
+20170308@16:34:15 [System] getLoggedInAccount 
+20170308@16:34:16 [System] GVPetInfoOverview_DataBound 
+20170308@16:34:16 [System] GVShopInfoOverview_DataBound 
+20170308@16:44:14 [System] getLoggedInAccount 
+20170308@16:44:14 [System] Page loaded: http://localhost:65063/AdminAddAccount.aspx 
+20170308@16:44:14 [System] getLoggedInAccount 
+20170308@16:44:14 [System] getLoggedInAccount 
+20170308@16:44:14 [System] getLoggedInAccount 
+20170308@17:51:04 [System] getLoggedInAccount 
+20170308@17:51:04 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@17:51:04 [System] getLoggedInAccount 
+20170308@17:51:18 [System] getLoggedInAccount 
+20170308@17:51:18 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@17:51:18 [System] getLoggedInAccount 
+20170308@17:51:18 [System] loginAccount 
+20170308@17:56:52 [System] getLoggedInAccount 
+20170308@17:56:52 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@17:56:52 [System] getLoggedInAccount 
+20170308@17:57:24 [System] getLoggedInAccount 
+20170308@17:57:24 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@17:57:24 [System] getLoggedInAccount 
+20170308@17:57:24 [System] loginAccount 
+20170308@17:59:11 [System] getLoggedInAccount 
+20170308@17:59:11 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@17:59:11 [System] getLoggedInAccount 
+20170308@17:59:17 [System] getLoggedInAccount 
+20170308@17:59:17 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@17:59:17 [System] getLoggedInAccount 
+20170308@17:59:23 [System] loginAccount 
+20170308@18:02:03 [System] getLoggedInAccount 
+20170308@18:02:03 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:02:03 [System] getLoggedInAccount 
+20170308@18:02:03 [System] loginAccount 
+20170308@18:02:28 [System] getLoggedInAccount 
+20170308@18:02:28 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:02:28 [System] getLoggedInAccount 
+20170308@18:02:35 [System] getLoggedInAccount 
+20170308@18:02:35 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:02:35 [System] getLoggedInAccount 
+20170308@18:02:35 [System] loginAccount 
+20170308@18:02:40 [System] getLoggedInAccount 
+20170308@18:02:40 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:02:40 [System] getLoggedInAccount 
+20170308@18:02:40 [System] loginAccount 
+20170308@18:03:03 [System] getLoggedInAccount 
+20170308@18:03:03 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:03:03 [System] getLoggedInAccount 
+20170308@18:03:51 [System] getLoggedInAccount 
+20170308@18:03:51 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:03:51 [System] getLoggedInAccount 
+20170308@18:03:58 [System] getLoggedInAccount 
+20170308@18:03:58 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:03:58 [System] getLoggedInAccount 
+20170308@18:03:58 [System] loginAccount 
+20170308@18:03:59 [System] getLoggedInAccount 
+20170308@18:03:59 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:03:59 [System] getLoggedInAccount 
+20170308@18:03:59 [System] getLoggedInAccount 
+20170308@18:03:59 [System] getLoggedInAccount 
+20170308@18:03:59 [System] GVPetInfoOverview_DataBound 
+20170308@18:03:59 [System] GVShopInfoOverview_DataBound 
+20170308@18:04:04 [System] getLoggedInAccount 
+20170308@18:04:04 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:04:04 [System] getLoggedInAccount 
+20170308@18:04:04 [System] getLoggedInAccount 
+20170308@18:04:04 [System] getLoggedInAccount 
+20170308@18:04:04 [System] getLoggedInAccount 
+20170308@18:04:04 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:04:04 [System] getLoggedInAccount 
+20170308@18:06:18 [System] getLoggedInAccount 
+20170308@18:06:18 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:06:18 [System] getLoggedInAccount 
+20170308@18:06:18 [System] loginAccount 
+20170308@18:06:18 [System] getLoggedInAccount 
+20170308@18:06:18 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:06:18 [System] getLoggedInAccount 
+20170308@18:06:18 [System] getLoggedInAccount 
+20170308@18:06:18 [System] getLoggedInAccount 
+20170308@18:06:18 [System] GVPetInfoOverview_DataBound 
+20170308@18:06:18 [System] GVShopInfoOverview_DataBound 
+20170308@18:06:24 [System] getLoggedInAccount 
+20170308@18:06:24 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:06:24 [System] getLoggedInAccount 
+20170308@18:06:24 [System] getLoggedInAccount 
+20170308@18:06:24 [System] getLoggedInAccount 
+20170308@18:06:28 [System] getLoggedInAccount 
+20170308@18:06:28 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:06:28 [System] getLoggedInAccount 
+20170308@18:06:28 [System] getLoggedInAccount 
+20170308@18:06:28 [System] getLoggedInAccount 
+20170308@18:06:28 [System] BTNGenerate_Click 
+20170308@18:06:42 [System] getLoggedInAccount 
+20170308@18:06:42 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:06:42 [System] getLoggedInAccount 
+20170308@18:06:42 [System] getLoggedInAccount 
+20170308@18:06:42 [System] getLoggedInAccount 
+20170308@18:06:42 [System] MessageHandler : Contact 
+20170308@18:06:42 [System] MessageHandler : Contact 
+20170308@18:06:42 [System] checkEmailAddressExist 
+20170308@18:06:42 [System] No data found in getValue() 
+20170308@18:06:42 [System] createAccount 
+20170308@18:06:42 [System] Record created! 
+20170308@18:06:43 [System] createRecord() : Parameter @PROFILEADDRESS has no default value. 
+20170308@18:06:48 [System] getLoggedInAccount 
+20170308@18:06:48 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:06:48 [System] getLoggedInAccount 
+20170308@18:06:48 [System] getLoggedInAccount 
+20170308@18:06:48 [System] getLoggedInAccount 
+20170308@18:06:48 [System] getLoggedInAccount 
+20170308@18:06:48 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:06:48 [System] getLoggedInAccount 
+20170308@18:06:59 [System] getLoggedInAccount 
+20170308@18:06:59 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:06:59 [System] getLoggedInAccount 
+20170308@18:06:59 [System] loginAccount 
+20170308@18:06:59 [System] getLoggedInAccount 
+20170308@18:06:59 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:06:59 [System] getLoggedInAccount 
+20170308@18:06:59 [System] getLoggedInAccount 
+20170308@18:06:59 [System] getLoggedInAccount 
+20170308@18:06:59 [System] GVPetInfoOverview_DataBound 
+20170308@18:06:59 [System] GVShopInfoOverview_DataBound 
+20170308@18:12:00 [System] getLoggedInAccount 
+20170308@18:12:00 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:12:00 [System] getLoggedInAccount 
+20170308@18:12:09 [System] getLoggedInAccount 
+20170308@18:12:09 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:12:09 [System] getLoggedInAccount 
+20170308@18:12:09 [System] loginAccount 
+20170308@18:12:11 [System] getLoggedInAccount 
+20170308@18:12:11 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:12:11 [System] getLoggedInAccount 
+20170308@18:12:11 [System] getLoggedInAccount 
+20170308@18:12:11 [System] getLoggedInAccount 
+20170308@18:12:11 [System] GVPetInfoOverview_DataBound 
+20170308@18:12:11 [System] GVShopInfoOverview_DataBound 
+20170308@18:12:37 [System] getLoggedInAccount 
+20170308@18:12:37 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:12:37 [System] getLoggedInAccount 
+20170308@18:12:38 [System] getLoggedInAccount 
+20170308@18:12:38 [System] getLoggedInAccount 
+20170308@18:12:44 [System] getLoggedInAccount 
+20170308@18:12:45 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:12:45 [System] getLoggedInAccount 
+20170308@18:12:45 [System] getLoggedInAccount 
+20170308@18:12:45 [System] getLoggedInAccount 
+20170308@18:12:45 [System] BTNGenerate_Click 
+20170308@18:12:50 [System] getLoggedInAccount 
+20170308@18:12:50 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:12:50 [System] getLoggedInAccount 
+20170308@18:12:50 [System] getLoggedInAccount 
+20170308@18:12:50 [System] getLoggedInAccount 
+20170308@18:12:50 [System] BTNGenerate_Click 
+20170308@18:14:17 [System] getLoggedInAccount 
+20170308@18:14:17 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:14:17 [System] getLoggedInAccount 
+20170308@18:14:17 [System] getLoggedInAccount 
+20170308@18:14:17 [System] getLoggedInAccount 
+20170308@18:14:20 [System] getLoggedInAccount 
+20170308@18:14:20 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:14:20 [System] getLoggedInAccount 
+20170308@18:14:20 [System] getLoggedInAccount 
+20170308@18:14:20 [System] getLoggedInAccount 
+20170308@18:14:20 [System] BTNGenerate_Click 
+20170308@18:14:51 [System] getLoggedInAccount 
+20170308@18:14:51 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:14:51 [System] getLoggedInAccount 
+20170308@18:15:05 [System] getLoggedInAccount 
+20170308@18:15:05 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:15:05 [System] getLoggedInAccount 
+20170308@18:15:05 [System] loginAccount 
+20170308@18:15:06 [System] getLoggedInAccount 
+20170308@18:15:07 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:15:07 [System] getLoggedInAccount 
+20170308@18:15:07 [System] getLoggedInAccount 
+20170308@18:15:07 [System] getLoggedInAccount 
+20170308@18:15:08 [System] GVPetInfoOverview_DataBound 
+20170308@18:15:09 [System] GVShopInfoOverview_DataBound 
+20170308@18:15:22 [System] getLoggedInAccount 
+20170308@18:15:22 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:15:22 [System] getLoggedInAccount 
+20170308@18:15:22 [System] getLoggedInAccount 
+20170308@18:15:22 [System] getLoggedInAccount 
+20170308@18:16:11 [System] getLoggedInAccount 
+20170308@18:16:11 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:16:11 [System] getLoggedInAccount 
+20170308@18:16:11 [System] getLoggedInAccount 
+20170308@18:16:11 [System] getLoggedInAccount 
+20170308@18:16:11 [System] BTNGenerate_Click 
+20170308@18:16:12 [System] getLoggedInAccount 
+20170308@18:16:12 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:16:12 [System] getLoggedInAccount 
+20170308@18:16:13 [System] getLoggedInAccount 
+20170308@18:16:13 [System] getLoggedInAccount 
+20170308@18:16:13 [System] BTNGenerate_Click 
+20170308@18:16:20 [System] getLoggedInAccount 
+20170308@18:16:20 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:16:20 [System] getLoggedInAccount 
+20170308@18:16:20 [System] getLoggedInAccount 
+20170308@18:16:20 [System] getLoggedInAccount 
+20170308@18:16:20 [System] BTNPreview_Click 
+20170308@18:16:20 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_websheltergroup10 
+20170308@18:16:20 [System] saveToTempFolder 
+20170308@18:16:20 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_websheltergroup10. Result: False 
+20170308@18:16:20 [System] Total files posted: 1 
+20170308@18:16:20 [System] previewPhotos 
+20170308@18:16:20 [System] ~/uploadedFiles/temp/profileinfo/000_websheltergroup10/shop00.jpg 
+20170308@18:16:23 [System] getLoggedInAccount 
+20170308@18:16:23 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:16:23 [System] getLoggedInAccount 
+20170308@18:16:23 [System] getLoggedInAccount 
+20170308@18:16:23 [System] getLoggedInAccount 
+20170308@18:16:23 [System] MessageHandler : Contact 
+20170308@18:16:23 [System] MessageHandler : Contact 
+20170308@18:16:23 [System] checkEmailAddressExist 
+20170308@18:16:23 [System] No data found in getValue() 
+20170308@18:16:23 [System] changePhotoPathToDatabaseFolder 
+20170308@18:16:23 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\profileinfo\000_websheltergroup10 
+20170308@18:16:23 [System] createAccount 
+20170308@18:16:23 [System] Record created! 
+20170308@18:16:52 [System] Record created! 
+20170308@18:17:48 [System] Record created! 
+20170308@18:18:03 [System] getLoggedInAccount 
+20170308@18:18:03 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:18:03 [System] getLoggedInAccount 
+20170308@18:18:03 [System] getLoggedInAccount 
+20170308@18:18:03 [System] getLoggedInAccount 
+20170308@18:18:03 [System] getLoggedInAccount 
+20170308@18:18:04 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:18:04 [System] getLoggedInAccount 
+20170308@18:18:23 [System] getLoggedInAccount 
+20170308@18:18:23 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:18:23 [System] getLoggedInAccount 
+20170308@18:18:23 [System] loginAccount 
+20170308@18:18:23 [System] getLoggedInAccount 
+20170308@18:18:23 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:18:23 [System] getLoggedInAccount 
+20170308@18:18:23 [System] getLoggedInAccount 
+20170308@18:18:23 [System] getLoggedInAccount 
+20170308@18:18:24 [System] GVPetInfoOverview_DataBound 
+20170308@18:18:24 [System] GVShopInfoOverview_DataBound 
+20170308@18:18:37 [System] getLoggedInAccount 
+20170308@18:18:37 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@18:18:37 [System] getLoggedInAccount 
+20170308@18:18:37 [System] getLoggedInAccount 
+20170308@18:18:38 [System] getLoggedInAccount 
+20170308@18:19:50 [System] getLoggedInAccount 
+20170308@18:19:50 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@18:19:50 [System] getLoggedInAccount 
+20170308@18:19:50 [System] getLoggedInAccount 
+20170308@18:19:50 [System] getLoggedInAccount 
+20170308@18:20:19 [System] getLoggedInAccount 
+20170308@18:20:19 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@18:20:19 [System] getLoggedInAccount 
+20170308@18:20:19 [System] getLoggedInAccount 
+20170308@18:20:19 [System] getLoggedInAccount 
+20170308@18:26:08 [System] getLoggedInAccount 
+20170308@18:26:08 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@18:26:08 [System] getLoggedInAccount 
+20170308@18:26:08 [System] getLoggedInAccount 
+20170308@18:26:08 [System] getLoggedInAccount 
+20170308@18:26:08 [System] getLoggedInAccount 
+20170308@18:26:08 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:26:08 [System] getLoggedInAccount 
+20170308@18:26:55 [System] getLoggedInAccount 
+20170308@18:26:55 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:26:55 [System] getLoggedInAccount 
+20170308@18:26:55 [System] loginAccount 
+20170308@18:26:55 [System] getLoggedInAccount 
+20170308@18:26:56 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:26:56 [System] getLoggedInAccount 
+20170308@18:26:56 [System] getLoggedInAccount 
+20170308@18:26:56 [System] getLoggedInAccount 
+20170308@18:26:56 [System] GVPetInfoOverview_DataBound 
+20170308@18:26:56 [System] GVShopInfoOverview_DataBound 
+20170308@18:27:00 [System] getLoggedInAccount 
+20170308@18:27:00 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@18:27:00 [System] getLoggedInAccount 
+20170308@18:27:00 [System] getLoggedInAccount 
+20170308@18:27:00 [System] getLoggedInAccount 
+20170308@18:28:59 [System] getLoggedInAccount 
+20170308@18:28:59 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@18:28:59 [System] getLoggedInAccount 
+20170308@18:29:04 [System] getLoggedInAccount 
+20170308@18:29:04 [System] getLoggedInAccount 
+20170308@18:29:04 [System] getLoggedInAccount 
+20170308@18:29:04 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:29:04 [System] getLoggedInAccount 
+20170308@18:29:46 [System] getLoggedInAccount 
+20170308@18:29:46 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:29:46 [System] getLoggedInAccount 
+20170308@18:29:46 [System] loginAccount 
+20170308@18:29:46 [System] Profile photo size: 1 
+20170308@18:29:46 [System] getLoggedInAccount 
+20170308@18:29:46 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:29:46 [System] getLoggedInAccount 
+20170308@18:29:47 [System] getLoggedInAccount 
+20170308@18:29:47 [System] getLoggedInAccount 
+20170308@18:29:47 [System] GVPetInfoOverview_DataBound 
+20170308@18:29:47 [System] GVShopInfoOverview_DataBound 
+20170308@18:30:01 [System] getLoggedInAccount 
+20170308@18:30:01 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@18:30:01 [System] getLoggedInAccount 
+20170308@18:30:01 [System] getLoggedInAccount 
+20170308@18:30:01 [System] getLoggedInAccount 
+20170308@18:32:23 [System] getLoggedInAccount 
+20170308@18:32:23 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@18:32:23 [System] getLoggedInAccount 
+20170308@18:32:23 [System] getLoggedInAccount 
+20170308@18:32:23 [System] getLoggedInAccount 
+20170308@18:32:35 [System] getLoggedInAccount 
+20170308@18:32:35 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@18:32:35 [System] getLoggedInAccount 
+20170308@18:32:35 [System] getLoggedInAccount 
+20170308@18:32:36 [System] getLoggedInAccount 
+20170308@18:33:13 [System] getLoggedInAccount 
+20170308@18:33:13 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@18:33:13 [System] getLoggedInAccount 
+20170308@18:33:13 [System] getLoggedInAccount 
+20170308@18:33:13 [System] getLoggedInAccount 
+20170308@18:33:13 [System] MessageHandler : Name 
+20170308@18:33:13 [System] Record updated! 
+20170308@18:33:57 [System] getLoggedInAccount 
+20170308@18:33:57 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:33:57 [System] getLoggedInAccount 
+20170308@18:33:57 [System] getLoggedInAccount 
+20170308@18:33:57 [System] getLoggedInAccount 
+20170308@18:34:00 [System] getLoggedInAccount 
+20170308@18:34:00 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:34:00 [System] getLoggedInAccount 
+20170308@18:34:00 [System] getLoggedInAccount 
+20170308@18:34:00 [System] getLoggedInAccount 
+20170308@18:34:00 [System] BTNGenerate_Click 
+20170308@18:34:27 [System] getLoggedInAccount 
+20170308@18:34:27 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:34:27 [System] getLoggedInAccount 
+20170308@18:34:27 [System] getLoggedInAccount 
+20170308@18:34:27 [System] getLoggedInAccount 
+20170308@18:34:27 [System] MessageHandler : Contact 
+20170308@18:34:27 [System] checkEmailAddressExist 
+20170308@18:34:27 [System] No data found in getValue() 
+20170308@18:34:27 [System] createAccount 
+20170308@18:34:27 [System] Record created! 
+20170308@18:34:27 [System] Record created! 
+20170308@18:34:27 [System] changePhotoPathToDatabaseFolder 
+20170308@18:34:27 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\profileinfo\8_webadmin54 
+20170308@18:48:03 [System] getLoggedInAccount 
+20170308@18:48:03 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:48:03 [System] getLoggedInAccount 
+20170308@18:48:56 [System] getLoggedInAccount 
+20170308@18:48:56 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:48:56 [System] getLoggedInAccount 
+20170308@18:48:57 [System] loginAccount 
+20170308@18:48:57 [System] getLoggedInAccount 
+20170308@18:48:57 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:48:57 [System] getLoggedInAccount 
+20170308@18:48:57 [System] getLoggedInAccount 
+20170308@18:48:57 [System] getLoggedInAccount 
+20170308@18:48:57 [System] GVPetInfoOverview_DataBound 
+20170308@18:48:58 [System] GVShopInfoOverview_DataBound 
+20170308@18:50:24 [System] getLoggedInAccount 
+20170308@18:50:24 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:50:24 [System] getLoggedInAccount 
+20170308@18:50:24 [System] getLoggedInAccount 
+20170308@18:50:24 [System] getLoggedInAccount 
+20170308@18:50:28 [System] getLoggedInAccount 
+20170308@18:50:28 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:50:28 [System] getLoggedInAccount 
+20170308@18:50:28 [System] getLoggedInAccount 
+20170308@18:50:28 [System] getLoggedInAccount 
+20170308@18:50:28 [System] BTNGenerate_Click 
+20170308@18:50:29 [System] getLoggedInAccount 
+20170308@18:50:29 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:50:29 [System] getLoggedInAccount 
+20170308@18:50:29 [System] getLoggedInAccount 
+20170308@18:50:29 [System] getLoggedInAccount 
+20170308@18:50:29 [System] BTNGenerate_Click 
+20170308@18:50:36 [System] getLoggedInAccount 
+20170308@18:50:36 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:50:36 [System] getLoggedInAccount 
+20170308@18:50:36 [System] getLoggedInAccount 
+20170308@18:50:36 [System] getLoggedInAccount 
+20170308@18:50:36 [System] BTNPreview_Click 
+20170308@18:50:36 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webuser53 
+20170308@18:50:36 [System] saveToTempFolder 
+20170308@18:50:36 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webuser53. Result: False 
+20170308@18:50:36 [System] Total files posted: 1 
+20170308@18:50:36 [System] previewPhotos 
+20170308@18:50:36 [System] ~/uploadedFiles/temp/profileinfo/000_webuser53/shop00.jpg 
+20170308@18:50:55 [System] getLoggedInAccount 
+20170308@18:50:55 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:50:55 [System] getLoggedInAccount 
+20170308@18:50:55 [System] getLoggedInAccount 
+20170308@18:50:55 [System] getLoggedInAccount 
+20170308@18:50:55 [System] MessageHandler : Contact 
+20170308@18:50:55 [System] checkEmailAddressExist 
+20170308@18:50:55 [System] No data found in getValue() 
+20170308@18:50:55 [System] createAccount 
+20170308@18:50:55 [System] Record created! 
+20170308@18:50:55 [System] Record created! 
+20170308@18:50:55 [System] changePhotoPathToDatabaseFolder 
+20170308@18:50:55 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\profileinfo\000_webuser53 
+20170308@18:50:56 [System] Record created! 
+20170308@18:54:06 [System] getLoggedInAccount 
+20170308@18:54:06 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:54:06 [System] getLoggedInAccount 
+20170308@18:54:06 [System] getLoggedInAccount 
+20170308@18:54:06 [System] getLoggedInAccount 
+20170308@18:54:08 [System] getLoggedInAccount 
+20170308@18:54:08 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:54:08 [System] getLoggedInAccount 
+20170308@18:54:14 [System] getLoggedInAccount 
+20170308@18:54:14 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:54:14 [System] getLoggedInAccount 
+20170308@18:54:14 [System] loginAccount 
+20170308@18:54:14 [System] MessageHandler : You are not authorised here 
+20170308@18:54:30 [System] getLoggedInAccount 
+20170308@18:54:30 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:54:30 [System] getLoggedInAccount 
+20170308@18:54:30 [System] loginAccount 
+20170308@18:54:30 [System] MessageHandler : You are not authorised here 
+20170308@18:54:35 [System] getLoggedInAccount 
+20170308@18:54:35 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:54:35 [System] getLoggedInAccount 
+20170308@18:54:35 [System] getLoggedInAccount 
+20170308@18:54:35 [System] getLoggedInAccount 
+20170308@18:54:35 [System] BTNGenerate_Click 
+20170308@18:54:36 [System] getLoggedInAccount 
+20170308@18:54:36 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:54:36 [System] getLoggedInAccount 
+20170308@18:54:36 [System] getLoggedInAccount 
+20170308@18:54:36 [System] getLoggedInAccount 
+20170308@18:54:36 [System] BTNGenerate_Click 
+20170308@18:54:43 [System] getLoggedInAccount 
+20170308@18:54:43 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:54:43 [System] getLoggedInAccount 
+20170308@18:54:44 [System] getLoggedInAccount 
+20170308@18:54:44 [System] getLoggedInAccount 
+20170308@18:54:44 [System] BTNPreview_Click 
+20170308@18:54:44 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin59 
+20170308@18:54:44 [System] saveToTempFolder 
+20170308@18:54:44 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin59. Result: False 
+20170308@18:54:44 [System] previewPhotos 
+20170308@18:54:49 [System] getLoggedInAccount 
+20170308@18:54:49 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:54:49 [System] getLoggedInAccount 
+20170308@18:54:49 [System] getLoggedInAccount 
+20170308@18:54:49 [System] getLoggedInAccount 
+20170308@18:54:49 [System] BTNPreview_Click 
+20170308@18:54:49 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin59 
+20170308@18:54:49 [System] saveToTempFolder 
+20170308@18:54:49 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin59. Result: True 
+20170308@18:54:49 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/000_webadmin59 
+20170308@18:54:49 [System] Total files posted: 1 
+20170308@18:54:49 [System] previewPhotos 
+20170308@18:54:49 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin59/shop00.jpg 
+20170308@18:54:53 [System] getLoggedInAccount 
+20170308@18:54:53 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:54:53 [System] getLoggedInAccount 
+20170308@18:54:53 [System] getLoggedInAccount 
+20170308@18:54:53 [System] getLoggedInAccount 
+20170308@18:54:53 [System] MessageHandler : Contact 
+20170308@18:54:53 [System] checkEmailAddressExist 
+20170308@18:54:53 [System] No data found in getValue() 
+20170308@18:54:53 [System] createAccount 
+20170308@18:54:53 [System] Record created! 
+20170308@18:54:53 [System] Record created! 
+20170308@18:54:53 [System] changePhotoPathToDatabaseFolder 
+20170308@18:54:53 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\profileinfo\000_webadmin59 
+20170308@18:54:53 [System] Record created! 
+20170308@18:54:58 [System] getLoggedInAccount 
+20170308@18:54:58 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:54:58 [System] getLoggedInAccount 
+20170308@18:54:58 [System] getLoggedInAccount 
+20170308@18:54:58 [System] getLoggedInAccount 
+20170308@18:54:58 [System] getLoggedInAccount 
+20170308@18:54:58 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:54:58 [System] getLoggedInAccount 
+20170308@18:56:17 [System] getLoggedInAccount 
+20170308@18:56:17 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:56:17 [System] getLoggedInAccount 
+20170308@18:56:17 [System] loginAccount 
+20170308@18:56:18 [System] MessageHandler : You are not authorised here 
+20170308@18:56:18 [System] SignOut 
+20170308@18:56:24 [System] getLoggedInAccount 
+20170308@18:56:24 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@18:56:24 [System] No account logged in 
+20170308@18:56:24 [System] getLoggedInAccount 
+20170308@18:56:24 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:56:24 [System] getLoggedInAccount 
+20170308@18:56:29 [System] getLoggedInAccount 
+20170308@18:56:29 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:56:29 [System] getLoggedInAccount 
+20170308@18:56:29 [System] loginAccount 
+20170308@18:56:29 [System] getLoggedInAccount 
+20170308@18:56:29 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:56:29 [System] getLoggedInAccount 
+20170308@18:56:29 [System] getLoggedInAccount 
+20170308@18:56:29 [System] getLoggedInAccount 
+20170308@18:56:29 [System] GVPetInfoOverview_DataBound 
+20170308@18:56:30 [System] GVShopInfoOverview_DataBound 
+20170308@18:56:33 [System] getLoggedInAccount 
+20170308@18:56:33 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:56:33 [System] getLoggedInAccount 
+20170308@18:56:33 [System] getLoggedInAccount 
+20170308@18:56:33 [System] getLoggedInAccount 
+20170308@18:56:33 [System] getLoggedInAccount 
+20170308@18:56:33 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:56:33 [System] getLoggedInAccount 
+20170308@18:56:38 [System] getLoggedInAccount 
+20170308@18:56:38 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:56:38 [System] getLoggedInAccount 
+20170308@18:56:38 [System] loginAccount 
+20170308@18:56:38 [System] MessageHandler : You are not authorised here 
+20170308@18:56:38 [System] SignOut 
+20170308@18:56:40 [System] getLoggedInAccount 
+20170308@18:56:40 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@18:56:40 [System] No account logged in 
+20170308@18:56:40 [System] getLoggedInAccount 
+20170308@18:56:40 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:56:40 [System] getLoggedInAccount 
+20170308@18:59:54 [System] getLoggedInAccount 
+20170308@18:59:54 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@18:59:54 [System] getLoggedInAccount 
+20170308@19:00:09 [System] getLoggedInAccount 
+20170308@19:00:09 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@19:00:09 [System] getLoggedInAccount 
+20170308@19:00:09 [System] loginAccount 
+20170308@19:00:09 [System] MessageHandler : You are not authorised here 
+20170308@19:00:09 [System] SignOut 
+20170308@19:00:16 [System] getLoggedInAccount 
+20170308@19:00:16 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@19:00:16 [System] getLoggedInAccount 
+20170308@19:00:16 [System] loginAccount 
+20170308@19:00:16 [System] getLoggedInAccount 
+20170308@19:00:16 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@19:00:16 [System] getLoggedInAccount 
+20170308@19:00:16 [System] getLoggedInAccount 
+20170308@19:00:16 [System] getLoggedInAccount 
+20170308@19:00:17 [System] GVPetInfoOverview_DataBound 
+20170308@19:00:17 [System] GVShopInfoOverview_DataBound 
+20170308@19:00:21 [System] getLoggedInAccount 
+20170308@19:00:21 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@19:00:21 [System] getLoggedInAccount 
+20170308@19:00:22 [System] getLoggedInAccount 
+20170308@19:00:22 [System] getLoggedInAccount 
+20170308@19:00:22 [System] SignOut 
+20170308@19:00:22 [System] getLoggedInAccount 
+20170308@19:00:22 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@19:00:22 [System] getLoggedInAccount 
+20170308@19:00:33 [System] getLoggedInAccount 
+20170308@19:00:33 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@19:00:33 [System] getLoggedInAccount 
+20170308@19:00:33 [System] loginAccount 
+20170308@19:00:33 [System] getLoggedInAccount 
+20170308@19:00:33 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@19:00:33 [System] getLoggedInAccount 
+20170308@19:00:33 [System] getLoggedInAccount 
+20170308@19:00:33 [System] getLoggedInAccount 
+20170308@19:00:33 [System] GVPetInfoOverview_DataBound 
+20170308@19:00:33 [System] GVShopInfoOverview_DataBound 
+20170308@19:00:40 [System] getLoggedInAccount 
+20170308@19:00:40 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@19:00:40 [System] getLoggedInAccount 
+20170308@19:00:40 [System] getLoggedInAccount 
+20170308@19:00:40 [System] getLoggedInAccount 
+20170308@19:00:48 [System] getLoggedInAccount 
+20170308@19:00:48 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@19:00:48 [System] getLoggedInAccount 
+20170308@19:00:48 [System] getLoggedInAccount 
+20170308@19:00:48 [System] getLoggedInAccount 
+20170308@19:00:48 [System] BTNPreview_Click 
+20170308@19:00:48 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/10_webadmin59 
+20170308@19:00:48 [System] saveToTempFolder 
+20170308@19:00:48 [System] Check directory: ~/uploadedFiles/temp/profileinfo/10_webadmin59. Result: False 
+20170308@19:00:48 [System] Total files posted: 1 
+20170308@19:00:48 [System] previewPhotos 
+20170308@19:00:48 [System] ~/uploadedFiles/temp/profileinfo/10_webadmin59/shop02.jpg 
+20170308@19:00:54 [System] getLoggedInAccount 
+20170308@19:00:54 [System] Page loaded: http://localhost:65063/AdminProfile.aspx 
+20170308@19:00:54 [System] getLoggedInAccount 
+20170308@19:00:54 [System] getLoggedInAccount 
+20170308@19:00:54 [System] getLoggedInAccount 
+20170308@19:00:54 [System] MessageHandler : Name 
+20170308@19:00:54 [System] Record updated! 
+20170308@19:00:54 [System] changePhotoPathToDatabaseFolder 
+20170308@19:00:54 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\profileinfo\10_webadmin59 
+20170308@19:00:54 [System] deletePhoto 
+20170308@19:00:54 [System] Record deleted! 
+20170308@19:00:54 [System] Record created! 
+20170308@19:02:54 [System] getLoggedInAccount 
+20170308@19:02:54 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@19:02:54 [System] getLoggedInAccount 
+20170308@19:02:54 [System] getLoggedInAccount 
+20170308@19:02:54 [System] getLoggedInAccount 
+20170308@19:03:07 [System] getLoggedInAccount 
+20170308@19:03:07 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@19:03:07 [System] getLoggedInAccount 
+20170308@19:03:07 [System] getLoggedInAccount 
+20170308@19:03:07 [System] getLoggedInAccount 
+20170308@19:03:07 [System] MessageHandler : Breed and name cannot be empty 
+20170308@19:03:12 [System] getLoggedInAccount 
+20170308@19:03:12 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@19:03:12 [System] getLoggedInAccount 
+20170308@19:03:12 [System] getLoggedInAccount 
+20170308@19:03:12 [System] getLoggedInAccount 
+20170308@19:03:15 [System] getLoggedInAccount 
+20170308@19:03:15 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@19:03:15 [System] getLoggedInAccount 
+20170308@19:03:15 [System] getLoggedInAccount 
+20170308@19:03:15 [System] getLoggedInAccount 
+20170308@19:03:15 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/adoptinfo/goldenretriever/goldenretriever14 
+20170308@19:03:15 [System] saveToTempFolder 
+20170308@19:03:15 [System] Check directory: ~/uploadedFiles/temp/adoptinfo/goldenretriever/goldenretriever14. Result: False 
+20170308@19:03:15 [System] Total files posted: 1 
+20170308@19:03:15 [System] previewPhotos 
+20170308@19:03:15 [System] ~/uploadedFiles/temp/adoptinfo/goldenretriever/goldenretriever14/westhighlandwhiteterrier001.jpg 
+20170308@19:03:39 [System] getLoggedInAccount 
+20170308@19:03:39 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@19:03:39 [System] getLoggedInAccount 
+20170308@19:03:39 [System] getLoggedInAccount 
+20170308@19:03:39 [System] getLoggedInAccount 
+20170308@19:03:47 [System] getLoggedInAccount 
+20170308@19:03:47 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@19:03:47 [System] getLoggedInAccount 
+20170308@19:03:47 [System] getLoggedInAccount 
+20170308@19:03:47 [System] getLoggedInAccount 
+20170308@19:03:47 [System] BTNPreview_Click 
+20170308@19:03:47 [System] MessageHandler : User name cannot be empty 
+20170308@19:03:51 [System] getLoggedInAccount 
+20170308@19:03:51 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@19:03:51 [System] getLoggedInAccount 
+20170308@19:03:51 [System] getLoggedInAccount 
+20170308@19:03:51 [System] getLoggedInAccount 
+20170308@19:03:51 [System] BTNGenerate_Click 
+20170308@19:03:56 [System] getLoggedInAccount 
+20170308@19:03:56 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@19:03:56 [System] getLoggedInAccount 
+20170308@19:03:56 [System] getLoggedInAccount 
+20170308@19:03:56 [System] getLoggedInAccount 
+20170308@19:03:56 [System] BTNPreview_Click 
+20170308@19:03:56 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin43 
+20170308@19:03:56 [System] saveToTempFolder 
+20170308@19:03:56 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin43. Result: False 
+20170308@19:03:56 [System] Total files posted: 1 
+20170308@19:03:56 [System] previewPhotos 
+20170308@19:03:56 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin43/westhighlandwhiteterrier000.jpg 
+20170308@19:04:04 [System] getLoggedInAccount 
+20170308@19:04:04 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@19:04:04 [System] getLoggedInAccount 
+20170308@19:04:04 [System] getLoggedInAccount 
+20170308@19:04:04 [System] getLoggedInAccount 
+20170308@19:04:15 [System] getLoggedInAccount 
+20170308@19:04:15 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@19:04:15 [System] getLoggedInAccount 
+20170308@19:04:15 [System] getLoggedInAccount 
+20170308@19:04:15 [System] getLoggedInAccount 
+20170308@20:15:28 [System] getLoggedInAccount 
+20170308@20:15:28 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@20:15:28 [System] getLoggedInAccount 
+20170308@20:15:29 [System] getLoggedInAccount 
+20170308@20:15:29 [System] getLoggedInAccount 
+20170308@20:15:36 [System] getLoggedInAccount 
+20170308@20:15:36 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@20:15:36 [System] getLoggedInAccount 
+20170308@20:15:36 [System] getLoggedInAccount 
+20170308@20:15:36 [System] getLoggedInAccount 
+20170308@20:16:16 [System] getLoggedInAccount 
+20170308@20:16:16 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@20:16:16 [System] getLoggedInAccount 
+20170308@20:16:16 [System] getLoggedInAccount 
+20170308@20:16:16 [System] getLoggedInAccount 
+20170308@20:16:18 [System] getLoggedInAccount 
+20170308@20:16:18 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@20:16:18 [System] getLoggedInAccount 
+20170308@20:16:18 [System] getLoggedInAccount 
+20170308@20:16:18 [System] getLoggedInAccount 
+20170308@20:16:23 [System] getLoggedInAccount 
+20170308@20:16:23 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@20:16:23 [System] getLoggedInAccount 
+20170308@20:16:23 [System] getLoggedInAccount 
+20170308@20:16:23 [System] getLoggedInAccount 
+20170308@20:16:23 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/adoptinfo/siberiancat/siberiancat5 
+20170308@20:16:23 [System] saveToTempFolder 
+20170308@20:16:23 [System] Check directory: ~/uploadedFiles/temp/adoptinfo/siberiancat/siberiancat5. Result: False 
+20170308@20:16:23 [System] Total files posted: 1 
+20170308@20:16:23 [System] previewPhotos 
+20170308@20:16:23 [System] ~/uploadedFiles/temp/adoptinfo/siberiancat/siberiancat5/westhighlandwhiteterrier000.jpg 
+20170308@20:16:30 [System] getLoggedInAccount 
+20170308@20:16:30 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@20:16:30 [System] getLoggedInAccount 
+20170308@20:16:30 [System] getLoggedInAccount 
+20170308@20:16:30 [System] getLoggedInAccount 
+20170308@20:16:54 [System] getLoggedInAccount 
+20170308@20:16:54 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@20:16:54 [System] getLoggedInAccount 
+20170308@20:16:54 [System] getLoggedInAccount 
+20170308@20:16:54 [System] getLoggedInAccount 
+20170308@20:16:57 [System] getLoggedInAccount 
+20170308@20:16:57 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@20:16:57 [System] getLoggedInAccount 
+20170308@20:16:57 [System] getLoggedInAccount 
+20170308@20:16:57 [System] getLoggedInAccount 
+20170308@20:17:01 [System] getLoggedInAccount 
+20170308@20:17:01 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170308@20:17:01 [System] getLoggedInAccount 
+20170308@20:17:01 [System] getLoggedInAccount 
+20170308@20:17:01 [System] getLoggedInAccount 
+20170308@20:17:01 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/adoptinfo/siberiancat/siberiancat23 
+20170308@20:17:01 [System] saveToTempFolder 
+20170308@20:17:01 [System] Check directory: ~/uploadedFiles/temp/adoptinfo/siberiancat/siberiancat23. Result: False 
+20170308@20:17:01 [System] Total files posted: 1 
+20170308@20:17:01 [System] previewPhotos 
+20170308@20:17:01 [System] ~/uploadedFiles/temp/adoptinfo/siberiancat/siberiancat23/westhighlandwhiteterrier101.jpg 
+20170308@20:17:10 [System] getLoggedInAccount 
+20170308@20:17:10 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170308@20:17:10 [System] getLoggedInAccount 
+20170308@20:17:10 [System] initializeUIControlValues 
+20170308@20:17:10 [System] getLoggedInAccount 
+20170308@20:17:10 [System] getLoggedInAccount 
+20170308@20:17:18 [System] getLoggedInAccount 
+20170308@20:17:18 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170308@20:17:18 [System] getLoggedInAccount 
+20170308@20:17:18 [System] getLoggedInAccount 
+20170308@20:17:18 [System] getLoggedInAccount 
+20170308@20:17:18 [System] MessageHandler : Shop name and contact cannot be empty 
+20170308@20:43:17 [System] getLoggedInAccount 
+20170308@20:43:17 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@20:43:17 [System] getLoggedInAccount 
+20170308@20:43:17 [System] getLoggedInAccount 
+20170308@20:43:18 [System] getLoggedInAccount 
+20170308@22:06:14 [System] getLoggedInAccount 
+20170308@22:06:14 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@22:06:14 [System] getLoggedInAccount 
+20170308@22:06:24 [System] getLoggedInAccount 
+20170308@22:06:24 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@22:06:24 [System] getLoggedInAccount 
+20170308@22:06:24 [System] loginAccount 
+20170308@22:06:25 [System] getLoggedInAccount 
+20170308@22:06:25 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@22:06:25 [System] getLoggedInAccount 
+20170308@22:06:25 [System] getLoggedInAccount 
+20170308@22:06:25 [System] getLoggedInAccount 
+20170308@22:06:25 [System] GVPetInfoOverview_DataBound 
+20170308@22:06:25 [System] GVShopInfoOverview_DataBound 
+20170308@22:11:19 [System] getLoggedInAccount 
+20170308@22:11:19 [System] getLoggedInAccount 
+20170308@22:11:28 [System] getLoggedInAccount 
+20170308@22:11:28 [System] getLoggedInAccount 
+20170308@22:11:33 [System] getLoggedInAccount 
+20170308@22:11:33 [System] getLoggedInAccount 
+20170308@22:16:27 [System] getLoggedInAccount 
+20170308@22:16:27 [System] getLoggedInAccount 
+20170308@22:16:34 [System] getLoggedInAccount 
+20170308@22:16:34 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170308@22:16:34 [System] getLoggedInAccount 
+20170308@22:16:34 [System] getLoggedInAccount 
+20170308@22:16:34 [System] getLoggedInAccount 
+20170308@22:16:34 [System] GVAdoptInfoOverview_DataBound 
+20170308@22:16:36 [System] getLoggedInAccount 
+20170308@22:16:36 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170308@22:16:36 [System] getLoggedInAccount 
+20170308@22:16:36 [System] getLoggedInAccount 
+20170308@22:16:36 [System] getLoggedInAccount 
+20170308@22:16:36 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170308@22:16:36 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170308@22:45:47 [System] getLoggedInAccount 
+20170308@22:45:47 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170308@22:45:47 [System] getLoggedInAccount 
+20170308@22:45:48 [System] getLoggedInAccount 
+20170308@22:45:48 [System] getLoggedInAccount 
+20170308@22:45:48 [System] GVAdoptInfoOverview_DataBound 
+20170308@22:47:10 [System] getLoggedInAccount 
+20170308@22:47:10 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@22:47:10 [System] getLoggedInAccount 
+20170308@22:49:11 [System] getLoggedInAccount 
+20170308@22:49:11 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@22:49:11 [System] getLoggedInAccount 
+20170308@22:49:11 [System] loginAccount 
+20170308@22:49:14 [System] getLoggedInAccount 
+20170308@22:49:14 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@22:49:14 [System] getLoggedInAccount 
+20170308@22:49:14 [System] getLoggedInAccount 
+20170308@22:49:14 [System] getLoggedInAccount 
+20170308@22:49:14 [System] GVPetInfoOverview_DataBound 
+20170308@22:49:14 [System] GVShopInfoOverview_DataBound 
+20170308@22:49:17 [System] getLoggedInAccount 
+20170308@22:49:17 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@22:49:17 [System] getLoggedInAccount 
+20170308@22:49:18 [System] getLoggedInAccount 
+20170308@22:49:18 [System] getLoggedInAccount 
+20170308@22:49:33 [System] getLoggedInAccount 
+20170308@22:49:33 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@22:49:33 [System] getLoggedInAccount 
+20170308@22:49:33 [System] getLoggedInAccount 
+20170308@22:49:33 [System] getLoggedInAccount 
+20170308@22:50:47 [System] getLoggedInAccount 
+20170308@22:50:47 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@22:50:47 [System] getLoggedInAccount 
+20170308@22:50:47 [System] getLoggedInAccount 
+20170308@22:50:47 [System] getLoggedInAccount 
+20170308@22:57:37 [System] getLoggedInAccount 
+20170308@22:57:37 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@22:57:37 [System] getLoggedInAccount 
+20170308@22:57:37 [System] getLoggedInAccount 
+20170308@22:57:37 [System] getLoggedInAccount 
+20170308@22:57:44 [System] getLoggedInAccount 
+20170308@22:57:44 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@22:57:44 [System] getLoggedInAccount 
+20170308@22:57:44 [System] getLoggedInAccount 
+20170308@22:57:44 [System] getLoggedInAccount 
+20170308@22:57:46 [System] getLoggedInAccount 
+20170308@22:57:46 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@22:57:46 [System] getLoggedInAccount 
+20170308@22:57:46 [System] getLoggedInAccount 
+20170308@22:57:46 [System] getLoggedInAccount 
+20170308@22:58:34 [System] getLoggedInAccount 
+20170308@22:58:34 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@22:58:34 [System] getLoggedInAccount 
+20170308@22:58:34 [System] getLoggedInAccount 
+20170308@22:58:34 [System] getLoggedInAccount 
+20170308@22:58:34 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:00:06 [System] getLoggedInAccount 
+20170308@23:00:06 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:00:06 [System] getLoggedInAccount 
+20170308@23:00:06 [System] getLoggedInAccount 
+20170308@23:00:06 [System] getLoggedInAccount 
+20170308@23:00:06 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:00:22 [System] getLoggedInAccount 
+20170308@23:00:22 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:00:22 [System] getLoggedInAccount 
+20170308@23:01:06 [System] getLoggedInAccount 
+20170308@23:01:06 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:01:06 [System] getLoggedInAccount 
+20170308@23:01:06 [System] loginAccount 
+20170308@23:01:06 [System] getLoggedInAccount 
+20170308@23:01:06 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:01:06 [System] getLoggedInAccount 
+20170308@23:01:06 [System] getLoggedInAccount 
+20170308@23:01:06 [System] getLoggedInAccount 
+20170308@23:01:06 [System] GVPetInfoOverview_DataBound 
+20170308@23:01:06 [System] GVShopInfoOverview_DataBound 
+20170308@23:01:10 [System] getLoggedInAccount 
+20170308@23:01:10 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:01:10 [System] getLoggedInAccount 
+20170308@23:01:10 [System] getLoggedInAccount 
+20170308@23:01:10 [System] getLoggedInAccount 
+20170308@23:01:13 [System] getLoggedInAccount 
+20170308@23:01:13 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:01:13 [System] getLoggedInAccount 
+20170308@23:01:13 [System] getLoggedInAccount 
+20170308@23:01:13 [System] getLoggedInAccount 
+20170308@23:01:13 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:01:17 [System] getLoggedInAccount 
+20170308@23:01:17 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:01:17 [System] getLoggedInAccount 
+20170308@23:01:21 [System] getLoggedInAccount 
+20170308@23:01:21 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:01:21 [System] getLoggedInAccount 
+20170308@23:01:21 [System] getLoggedInAccount 
+20170308@23:01:21 [System] getLoggedInAccount 
+20170308@23:01:21 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:03:42 [System] getLoggedInAccount 
+20170308@23:03:42 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:03:42 [System] getLoggedInAccount 
+20170308@23:03:42 [System] getLoggedInAccount 
+20170308@23:03:42 [System] getLoggedInAccount 
+20170308@23:03:45 [System] getLoggedInAccount 
+20170308@23:03:45 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:03:45 [System] getLoggedInAccount 
+20170308@23:03:45 [System] getLoggedInAccount 
+20170308@23:03:45 [System] getLoggedInAccount 
+20170308@23:03:50 [System] getLoggedInAccount 
+20170308@23:03:50 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:03:50 [System] getLoggedInAccount 
+20170308@23:03:50 [System] getLoggedInAccount 
+20170308@23:03:50 [System] getLoggedInAccount 
+20170308@23:03:50 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:03:50 [System] getAccount 
+20170308@23:05:46 [System] getLoggedInAccount 
+20170308@23:05:46 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:05:46 [System] getLoggedInAccount 
+20170308@23:05:46 [System] getLoggedInAccount 
+20170308@23:05:46 [System] getLoggedInAccount 
+20170308@23:05:50 [System] getLoggedInAccount 
+20170308@23:05:50 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:05:50 [System] getLoggedInAccount 
+20170308@23:05:50 [System] getLoggedInAccount 
+20170308@23:05:50 [System] getLoggedInAccount 
+20170308@23:05:50 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:05:50 [System] getAccount 
+20170308@23:09:08 [System] getLoggedInAccount 
+20170308@23:09:08 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:09:08 [System] getLoggedInAccount 
+20170308@23:09:08 [System] getLoggedInAccount 
+20170308@23:09:08 [System] getLoggedInAccount 
+20170308@23:09:08 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:09:08 [System] getAccount 
+20170308@23:09:09 [System] getLoggedInAccount 
+20170308@23:09:09 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:09:09 [System] getLoggedInAccount 
+20170308@23:09:09 [System] getLoggedInAccount 
+20170308@23:09:09 [System] getLoggedInAccount 
+20170308@23:09:09 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:09:09 [System] getAccount 
+20170308@23:09:11 [System] getLoggedInAccount 
+20170308@23:09:11 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:09:11 [System] getLoggedInAccount 
+20170308@23:09:11 [System] getLoggedInAccount 
+20170308@23:09:11 [System] getLoggedInAccount 
+20170308@23:09:11 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:09:11 [System] getAccount 
+20170308@23:09:13 [System] getLoggedInAccount 
+20170308@23:09:13 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:09:13 [System] getLoggedInAccount 
+20170308@23:09:13 [System] getLoggedInAccount 
+20170308@23:09:13 [System] getLoggedInAccount 
+20170308@23:09:13 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:09:13 [System] getAccount 
+20170308@23:09:15 [System] getLoggedInAccount 
+20170308@23:09:15 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:09:15 [System] getLoggedInAccount 
+20170308@23:09:15 [System] getLoggedInAccount 
+20170308@23:09:15 [System] getLoggedInAccount 
+20170308@23:09:15 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:09:15 [System] getAccount 
+20170308@23:09:17 [System] getLoggedInAccount 
+20170308@23:09:17 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:09:17 [System] getLoggedInAccount 
+20170308@23:09:17 [System] getLoggedInAccount 
+20170308@23:09:17 [System] getLoggedInAccount 
+20170308@23:09:17 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:09:17 [System] getAccount 
+20170308@23:09:21 [System] getLoggedInAccount 
+20170308@23:09:21 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:09:21 [System] getLoggedInAccount 
+20170308@23:09:21 [System] getLoggedInAccount 
+20170308@23:09:21 [System] getLoggedInAccount 
+20170308@23:09:22 [System] getLoggedInAccount 
+20170308@23:09:22 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:09:22 [System] getLoggedInAccount 
+20170308@23:09:22 [System] getLoggedInAccount 
+20170308@23:09:22 [System] getLoggedInAccount 
+20170308@23:09:22 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170308@23:09:22 [System] getAccount 
+20170308@23:09:40 [System] getLoggedInAccount 
+20170308@23:09:40 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:09:40 [System] getLoggedInAccount 
+20170308@23:09:40 [System] getLoggedInAccount 
+20170308@23:09:40 [System] getLoggedInAccount 
+20170308@23:09:40 [System] SignOut 
+20170308@23:09:40 [System] getLoggedInAccount 
+20170308@23:09:40 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:09:40 [System] getLoggedInAccount 
+20170308@23:09:47 [System] getLoggedInAccount 
+20170308@23:09:47 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:09:47 [System] getLoggedInAccount 
+20170308@23:09:47 [System] loginAccount 
+20170308@23:09:47 [System] MessageHandler : You are not authorised here 
+20170308@23:09:47 [System] SignOut 
+20170308@23:10:12 [System] getLoggedInAccount 
+20170308@23:10:12 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:10:12 [System] getLoggedInAccount 
+20170308@23:10:12 [System] loginAccount 
+20170308@23:10:12 [System] MessageHandler : Invalid email or password 
+20170308@23:10:17 [System] getLoggedInAccount 
+20170308@23:10:17 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:10:17 [System] getLoggedInAccount 
+20170308@23:10:17 [System] loginAccount 
+20170308@23:10:17 [System] getLoggedInAccount 
+20170308@23:10:17 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:10:17 [System] getLoggedInAccount 
+20170308@23:10:17 [System] getLoggedInAccount 
+20170308@23:10:17 [System] getLoggedInAccount 
+20170308@23:10:17 [System] GVPetInfoOverview_DataBound 
+20170308@23:10:18 [System] GVShopInfoOverview_DataBound 
+20170308@23:10:27 [System] getLoggedInAccount 
+20170308@23:10:27 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:10:27 [System] getLoggedInAccount 
+20170308@23:10:27 [System] getLoggedInAccount 
+20170308@23:10:27 [System] getLoggedInAccount 
+20170308@23:10:29 [System] getLoggedInAccount 
+20170308@23:10:29 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:10:29 [System] getLoggedInAccount 
+20170308@23:10:29 [System] getLoggedInAccount 
+20170308@23:10:29 [System] getLoggedInAccount 
+20170308@23:10:29 [System] BTNGenerate_Click 
+20170308@23:10:30 [System] getLoggedInAccount 
+20170308@23:10:30 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:10:30 [System] getLoggedInAccount 
+20170308@23:10:30 [System] getLoggedInAccount 
+20170308@23:10:30 [System] getLoggedInAccount 
+20170308@23:10:30 [System] BTNGenerate_Click 
+20170308@23:10:31 [System] getLoggedInAccount 
+20170308@23:10:31 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:10:31 [System] getLoggedInAccount 
+20170308@23:10:31 [System] getLoggedInAccount 
+20170308@23:10:31 [System] getLoggedInAccount 
+20170308@23:10:31 [System] BTNGenerate_Click 
+20170308@23:10:32 [System] getLoggedInAccount 
+20170308@23:10:32 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:10:32 [System] getLoggedInAccount 
+20170308@23:10:32 [System] getLoggedInAccount 
+20170308@23:10:32 [System] getLoggedInAccount 
+20170308@23:10:32 [System] BTNGenerate_Click 
+20170308@23:10:42 [System] getLoggedInAccount 
+20170308@23:10:42 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:10:42 [System] getLoggedInAccount 
+20170308@23:10:42 [System] getLoggedInAccount 
+20170308@23:10:42 [System] getLoggedInAccount 
+20170308@23:10:42 [System] BTNPreview_Click 
+20170308@23:10:42 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_websheltergroup46 
+20170308@23:10:42 [System] saveToTempFolder 
+20170308@23:10:42 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_websheltergroup46. Result: False 
+20170308@23:10:42 [System] Total files posted: 1 
+20170308@23:10:42 [System] previewPhotos 
+20170308@23:10:42 [System] ~/uploadedFiles/temp/profileinfo/000_websheltergroup46/shop00.jpg 
+20170308@23:10:45 [System] getLoggedInAccount 
+20170308@23:10:45 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:10:45 [System] getLoggedInAccount 
+20170308@23:10:45 [System] getLoggedInAccount 
+20170308@23:10:45 [System] getLoggedInAccount 
+20170308@23:10:45 [System] MessageHandler : Contact 
+20170308@23:10:45 [System] checkEmailAddressExist 
+20170308@23:10:45 [System] No data found in getValue() 
+20170308@23:10:45 [System] createAccount 
+20170308@23:10:45 [System] Record created! 
+20170308@23:10:45 [System] Record created! 
+20170308@23:10:45 [System] changePhotoPathToDatabaseFolder 
+20170308@23:10:45 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\profileinfo\000_websheltergroup46 
+20170308@23:10:45 [System] Record created! 
+20170308@23:10:49 [System] getLoggedInAccount 
+20170308@23:10:49 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:10:49 [System] getLoggedInAccount 
+20170308@23:10:49 [System] getLoggedInAccount 
+20170308@23:10:49 [System] getLoggedInAccount 
+20170308@23:10:49 [System] BTNGenerate_Click 
+20170308@23:10:50 [System] getLoggedInAccount 
+20170308@23:10:50 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:10:50 [System] getLoggedInAccount 
+20170308@23:10:50 [System] getLoggedInAccount 
+20170308@23:10:50 [System] getLoggedInAccount 
+20170308@23:10:50 [System] BTNGenerate_Click 
+20170308@23:10:51 [System] getLoggedInAccount 
+20170308@23:10:51 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:10:51 [System] getLoggedInAccount 
+20170308@23:10:51 [System] getLoggedInAccount 
+20170308@23:10:51 [System] getLoggedInAccount 
+20170308@23:10:51 [System] BTNGenerate_Click 
+20170308@23:11:03 [System] getLoggedInAccount 
+20170308@23:11:03 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:11:03 [System] getLoggedInAccount 
+20170308@23:11:03 [System] getLoggedInAccount 
+20170308@23:11:03 [System] getLoggedInAccount 
+20170308@23:11:04 [System] getLoggedInAccount 
+20170308@23:11:04 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:11:04 [System] getLoggedInAccount 
+20170308@23:11:04 [System] getLoggedInAccount 
+20170308@23:11:04 [System] getLoggedInAccount 
+20170308@23:12:06 [System] getLoggedInAccount 
+20170308@23:12:06 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:12:06 [System] getLoggedInAccount 
+20170308@23:12:06 [System] getLoggedInAccount 
+20170308@23:12:06 [System] getLoggedInAccount 
+20170308@23:12:06 [System] BTNGenerate_Click 
+20170308@23:12:07 [System] getLoggedInAccount 
+20170308@23:12:07 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:12:07 [System] getLoggedInAccount 
+20170308@23:12:07 [System] getLoggedInAccount 
+20170308@23:12:08 [System] getLoggedInAccount 
+20170308@23:12:08 [System] BTNGenerate_Click 
+20170308@23:12:52 [System] getLoggedInAccount 
+20170308@23:12:52 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:12:52 [System] getLoggedInAccount 
+20170308@23:12:52 [System] getLoggedInAccount 
+20170308@23:12:52 [System] getLoggedInAccount 
+20170308@23:12:52 [System] BTNGenerate_Click 
+20170308@23:12:54 [System] getLoggedInAccount 
+20170308@23:12:54 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:12:54 [System] getLoggedInAccount 
+20170308@23:12:54 [System] getLoggedInAccount 
+20170308@23:12:54 [System] getLoggedInAccount 
+20170308@23:12:54 [System] BTNGenerate_Click 
+20170308@23:12:55 [System] getLoggedInAccount 
+20170308@23:12:55 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:12:55 [System] getLoggedInAccount 
+20170308@23:12:55 [System] getLoggedInAccount 
+20170308@23:12:55 [System] getLoggedInAccount 
+20170308@23:12:55 [System] BTNGenerate_Click 
+20170308@23:12:56 [System] getLoggedInAccount 
+20170308@23:12:56 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:12:56 [System] getLoggedInAccount 
+20170308@23:12:56 [System] getLoggedInAccount 
+20170308@23:12:56 [System] getLoggedInAccount 
+20170308@23:12:56 [System] BTNGenerate_Click 
+20170308@23:13:26 [System] getLoggedInAccount 
+20170308@23:13:26 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:26 [System] getLoggedInAccount 
+20170308@23:13:26 [System] getLoggedInAccount 
+20170308@23:13:26 [System] getLoggedInAccount 
+20170308@23:13:26 [System] BTNGenerate_Click 
+20170308@23:13:27 [System] getLoggedInAccount 
+20170308@23:13:27 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:27 [System] getLoggedInAccount 
+20170308@23:13:27 [System] getLoggedInAccount 
+20170308@23:13:27 [System] getLoggedInAccount 
+20170308@23:13:27 [System] BTNGenerate_Click 
+20170308@23:13:28 [System] getLoggedInAccount 
+20170308@23:13:28 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:28 [System] getLoggedInAccount 
+20170308@23:13:28 [System] getLoggedInAccount 
+20170308@23:13:28 [System] getLoggedInAccount 
+20170308@23:13:28 [System] BTNGenerate_Click 
+20170308@23:13:29 [System] getLoggedInAccount 
+20170308@23:13:29 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:29 [System] getLoggedInAccount 
+20170308@23:13:29 [System] getLoggedInAccount 
+20170308@23:13:29 [System] getLoggedInAccount 
+20170308@23:13:29 [System] BTNGenerate_Click 
+20170308@23:13:30 [System] getLoggedInAccount 
+20170308@23:13:30 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:30 [System] getLoggedInAccount 
+20170308@23:13:30 [System] getLoggedInAccount 
+20170308@23:13:30 [System] getLoggedInAccount 
+20170308@23:13:30 [System] BTNGenerate_Click 
+20170308@23:13:31 [System] getLoggedInAccount 
+20170308@23:13:31 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:31 [System] getLoggedInAccount 
+20170308@23:13:31 [System] getLoggedInAccount 
+20170308@23:13:31 [System] getLoggedInAccount 
+20170308@23:13:31 [System] BTNGenerate_Click 
+20170308@23:13:31 [System] getLoggedInAccount 
+20170308@23:13:31 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:31 [System] getLoggedInAccount 
+20170308@23:13:31 [System] getLoggedInAccount 
+20170308@23:13:31 [System] getLoggedInAccount 
+20170308@23:13:31 [System] BTNGenerate_Click 
+20170308@23:13:32 [System] getLoggedInAccount 
+20170308@23:13:32 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:32 [System] getLoggedInAccount 
+20170308@23:13:32 [System] getLoggedInAccount 
+20170308@23:13:32 [System] getLoggedInAccount 
+20170308@23:13:32 [System] BTNGenerate_Click 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] BTNGenerate_Click 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] BTNGenerate_Click 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] BTNGenerate_Click 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] getLoggedInAccount 
+20170308@23:13:33 [System] BTNGenerate_Click 
+20170308@23:14:07 [System] getLoggedInAccount 
+20170308@23:14:07 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:07 [System] No account logged in 
+20170308@23:14:07 [System] getLoggedInAccount 
+20170308@23:14:07 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:14:07 [System] getLoggedInAccount 
+20170308@23:14:13 [System] getLoggedInAccount 
+20170308@23:14:13 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:14:13 [System] getLoggedInAccount 
+20170308@23:14:13 [System] loginAccount 
+20170308@23:14:13 [System] getLoggedInAccount 
+20170308@23:14:13 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:14:13 [System] getLoggedInAccount 
+20170308@23:14:13 [System] getLoggedInAccount 
+20170308@23:14:13 [System] getLoggedInAccount 
+20170308@23:14:14 [System] GVPetInfoOverview_DataBound 
+20170308@23:14:14 [System] GVShopInfoOverview_DataBound 
+20170308@23:14:25 [System] getLoggedInAccount 
+20170308@23:14:25 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:25 [System] getLoggedInAccount 
+20170308@23:14:25 [System] getLoggedInAccount 
+20170308@23:14:25 [System] getLoggedInAccount 
+20170308@23:14:28 [System] getLoggedInAccount 
+20170308@23:14:28 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:28 [System] getLoggedInAccount 
+20170308@23:14:28 [System] getLoggedInAccount 
+20170308@23:14:28 [System] getLoggedInAccount 
+20170308@23:14:28 [System] BTNGenerate_Click 
+20170308@23:14:29 [System] getLoggedInAccount 
+20170308@23:14:29 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:29 [System] getLoggedInAccount 
+20170308@23:14:29 [System] getLoggedInAccount 
+20170308@23:14:29 [System] getLoggedInAccount 
+20170308@23:14:29 [System] BTNGenerate_Click 
+20170308@23:14:30 [System] getLoggedInAccount 
+20170308@23:14:30 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:30 [System] getLoggedInAccount 
+20170308@23:14:30 [System] getLoggedInAccount 
+20170308@23:14:30 [System] getLoggedInAccount 
+20170308@23:14:30 [System] BTNGenerate_Click 
+20170308@23:14:31 [System] getLoggedInAccount 
+20170308@23:14:31 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:31 [System] getLoggedInAccount 
+20170308@23:14:31 [System] getLoggedInAccount 
+20170308@23:14:31 [System] getLoggedInAccount 
+20170308@23:14:31 [System] BTNGenerate_Click 
+20170308@23:14:31 [System] getLoggedInAccount 
+20170308@23:14:31 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:31 [System] getLoggedInAccount 
+20170308@23:14:31 [System] getLoggedInAccount 
+20170308@23:14:31 [System] getLoggedInAccount 
+20170308@23:14:31 [System] BTNGenerate_Click 
+20170308@23:14:32 [System] getLoggedInAccount 
+20170308@23:14:32 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:32 [System] getLoggedInAccount 
+20170308@23:14:32 [System] getLoggedInAccount 
+20170308@23:14:32 [System] getLoggedInAccount 
+20170308@23:14:32 [System] BTNGenerate_Click 
+20170308@23:14:33 [System] getLoggedInAccount 
+20170308@23:14:33 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:33 [System] getLoggedInAccount 
+20170308@23:14:33 [System] getLoggedInAccount 
+20170308@23:14:33 [System] getLoggedInAccount 
+20170308@23:14:33 [System] BTNGenerate_Click 
+20170308@23:14:34 [System] getLoggedInAccount 
+20170308@23:14:34 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:34 [System] getLoggedInAccount 
+20170308@23:14:34 [System] getLoggedInAccount 
+20170308@23:14:34 [System] getLoggedInAccount 
+20170308@23:14:34 [System] BTNGenerate_Click 
+20170308@23:14:35 [System] getLoggedInAccount 
+20170308@23:14:35 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:35 [System] getLoggedInAccount 
+20170308@23:14:35 [System] getLoggedInAccount 
+20170308@23:14:35 [System] getLoggedInAccount 
+20170308@23:14:35 [System] BTNGenerate_Click 
+20170308@23:14:36 [System] getLoggedInAccount 
+20170308@23:14:36 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:36 [System] getLoggedInAccount 
+20170308@23:14:36 [System] getLoggedInAccount 
+20170308@23:14:36 [System] getLoggedInAccount 
+20170308@23:14:36 [System] BTNGenerate_Click 
+20170308@23:14:36 [System] getLoggedInAccount 
+20170308@23:14:36 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:36 [System] getLoggedInAccount 
+20170308@23:14:36 [System] getLoggedInAccount 
+20170308@23:14:36 [System] getLoggedInAccount 
+20170308@23:14:36 [System] BTNGenerate_Click 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] BTNGenerate_Click 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] BTNGenerate_Click 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] getLoggedInAccount 
+20170308@23:14:37 [System] BTNGenerate_Click 
+20170308@23:14:38 [System] getLoggedInAccount 
+20170308@23:14:38 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:38 [System] getLoggedInAccount 
+20170308@23:14:38 [System] getLoggedInAccount 
+20170308@23:14:38 [System] getLoggedInAccount 
+20170308@23:14:38 [System] BTNGenerate_Click 
+20170308@23:14:38 [System] getLoggedInAccount 
+20170308@23:14:38 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:38 [System] getLoggedInAccount 
+20170308@23:14:38 [System] getLoggedInAccount 
+20170308@23:14:38 [System] getLoggedInAccount 
+20170308@23:14:38 [System] BTNGenerate_Click 
+20170308@23:14:39 [System] getLoggedInAccount 
+20170308@23:14:39 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:39 [System] getLoggedInAccount 
+20170308@23:14:39 [System] getLoggedInAccount 
+20170308@23:14:39 [System] getLoggedInAccount 
+20170308@23:14:39 [System] BTNGenerate_Click 
+20170308@23:14:40 [System] getLoggedInAccount 
+20170308@23:14:40 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:40 [System] getLoggedInAccount 
+20170308@23:14:40 [System] getLoggedInAccount 
+20170308@23:14:40 [System] getLoggedInAccount 
+20170308@23:14:40 [System] BTNGenerate_Click 
+20170308@23:14:40 [System] getLoggedInAccount 
+20170308@23:14:40 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:40 [System] getLoggedInAccount 
+20170308@23:14:40 [System] getLoggedInAccount 
+20170308@23:14:40 [System] getLoggedInAccount 
+20170308@23:14:40 [System] BTNGenerate_Click 
+20170308@23:14:42 [System] getLoggedInAccount 
+20170308@23:14:42 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:42 [System] getLoggedInAccount 
+20170308@23:14:42 [System] getLoggedInAccount 
+20170308@23:14:42 [System] getLoggedInAccount 
+20170308@23:14:42 [System] BTNGenerate_Click 
+20170308@23:14:42 [System] getLoggedInAccount 
+20170308@23:14:42 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:42 [System] getLoggedInAccount 
+20170308@23:14:42 [System] getLoggedInAccount 
+20170308@23:14:42 [System] getLoggedInAccount 
+20170308@23:14:42 [System] BTNGenerate_Click 
+20170308@23:14:43 [System] getLoggedInAccount 
+20170308@23:14:43 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:43 [System] getLoggedInAccount 
+20170308@23:14:43 [System] getLoggedInAccount 
+20170308@23:14:43 [System] getLoggedInAccount 
+20170308@23:14:43 [System] BTNGenerate_Click 
+20170308@23:14:43 [System] getLoggedInAccount 
+20170308@23:14:43 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:43 [System] getLoggedInAccount 
+20170308@23:14:43 [System] getLoggedInAccount 
+20170308@23:14:43 [System] getLoggedInAccount 
+20170308@23:14:43 [System] BTNGenerate_Click 
+20170308@23:14:44 [System] getLoggedInAccount 
+20170308@23:14:44 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:44 [System] getLoggedInAccount 
+20170308@23:14:44 [System] getLoggedInAccount 
+20170308@23:14:44 [System] getLoggedInAccount 
+20170308@23:14:44 [System] BTNGenerate_Click 
+20170308@23:14:45 [System] getLoggedInAccount 
+20170308@23:14:45 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:45 [System] getLoggedInAccount 
+20170308@23:14:45 [System] getLoggedInAccount 
+20170308@23:14:45 [System] getLoggedInAccount 
+20170308@23:14:45 [System] BTNGenerate_Click 
+20170308@23:14:45 [System] getLoggedInAccount 
+20170308@23:14:45 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:45 [System] getLoggedInAccount 
+20170308@23:14:45 [System] getLoggedInAccount 
+20170308@23:14:45 [System] getLoggedInAccount 
+20170308@23:14:45 [System] BTNGenerate_Click 
+20170308@23:14:46 [System] getLoggedInAccount 
+20170308@23:14:46 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:46 [System] getLoggedInAccount 
+20170308@23:14:46 [System] getLoggedInAccount 
+20170308@23:14:46 [System] getLoggedInAccount 
+20170308@23:14:46 [System] BTNGenerate_Click 
+20170308@23:14:47 [System] getLoggedInAccount 
+20170308@23:14:47 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:47 [System] getLoggedInAccount 
+20170308@23:14:47 [System] getLoggedInAccount 
+20170308@23:14:47 [System] getLoggedInAccount 
+20170308@23:14:47 [System] BTNGenerate_Click 
+20170308@23:14:48 [System] getLoggedInAccount 
+20170308@23:14:48 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:48 [System] getLoggedInAccount 
+20170308@23:14:48 [System] getLoggedInAccount 
+20170308@23:14:48 [System] getLoggedInAccount 
+20170308@23:14:48 [System] BTNGenerate_Click 
+20170308@23:14:48 [System] getLoggedInAccount 
+20170308@23:14:48 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:48 [System] getLoggedInAccount 
+20170308@23:14:48 [System] getLoggedInAccount 
+20170308@23:14:48 [System] getLoggedInAccount 
+20170308@23:14:48 [System] BTNGenerate_Click 
+20170308@23:14:49 [System] getLoggedInAccount 
+20170308@23:14:49 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:49 [System] getLoggedInAccount 
+20170308@23:14:49 [System] getLoggedInAccount 
+20170308@23:14:49 [System] getLoggedInAccount 
+20170308@23:14:49 [System] BTNGenerate_Click 
+20170308@23:14:53 [System] getLoggedInAccount 
+20170308@23:14:53 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:53 [System] getLoggedInAccount 
+20170308@23:14:53 [System] getLoggedInAccount 
+20170308@23:14:53 [System] getLoggedInAccount 
+20170308@23:14:53 [System] BTNPreview_Click 
+20170308@23:14:53 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin38 
+20170308@23:14:53 [System] saveToTempFolder 
+20170308@23:14:53 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin38. Result: False 
+20170308@23:14:53 [System] Total files posted: 1 
+20170308@23:14:53 [System] previewPhotos 
+20170308@23:14:53 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin38/shop01.jpg 
+20170308@23:14:55 [System] getLoggedInAccount 
+20170308@23:14:55 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:14:55 [System] getLoggedInAccount 
+20170308@23:14:55 [System] getLoggedInAccount 
+20170308@23:14:55 [System] getLoggedInAccount 
+20170308@23:14:55 [System] MessageHandler : Contact 
+20170308@23:14:55 [System] checkEmailAddressExist 
+20170308@23:14:55 [System] No data found in getValue() 
+20170308@23:14:55 [System] createAccount 
+20170308@23:17:08 [System] getLoggedInAccount 
+20170308@23:17:08 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:17:08 [System] getLoggedInAccount 
+20170308@23:17:08 [System] getLoggedInAccount 
+20170308@23:17:08 [System] getLoggedInAccount 
+20170308@23:17:08 [System] MessageHandler : Contact 
+20170308@23:17:09 [System] checkEmailAddressExist 
+20170308@23:17:09 [System] No data found in getValue() 
+20170308@23:17:12 [System] getLoggedInAccount 
+20170308@23:17:12 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:17:12 [System] getLoggedInAccount 
+20170308@23:17:12 [System] getLoggedInAccount 
+20170308@23:17:12 [System] getLoggedInAccount 
+20170308@23:17:15 [System] getLoggedInAccount 
+20170308@23:17:15 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:17:15 [System] getLoggedInAccount 
+20170308@23:17:15 [System] getLoggedInAccount 
+20170308@23:17:15 [System] getLoggedInAccount 
+20170308@23:17:15 [System] BTNGenerate_Click 
+20170308@23:17:16 [System] getLoggedInAccount 
+20170308@23:17:16 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:17:16 [System] getLoggedInAccount 
+20170308@23:17:16 [System] getLoggedInAccount 
+20170308@23:17:16 [System] getLoggedInAccount 
+20170308@23:17:16 [System] BTNGenerate_Click 
+20170308@23:17:17 [System] getLoggedInAccount 
+20170308@23:17:17 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:17:17 [System] getLoggedInAccount 
+20170308@23:17:17 [System] getLoggedInAccount 
+20170308@23:17:17 [System] getLoggedInAccount 
+20170308@23:17:17 [System] BTNGenerate_Click 
+20170308@23:17:17 [System] getLoggedInAccount 
+20170308@23:17:17 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:17:17 [System] getLoggedInAccount 
+20170308@23:17:17 [System] getLoggedInAccount 
+20170308@23:17:17 [System] getLoggedInAccount 
+20170308@23:17:17 [System] BTNGenerate_Click 
+20170308@23:17:21 [System] getLoggedInAccount 
+20170308@23:17:21 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:17:21 [System] getLoggedInAccount 
+20170308@23:17:21 [System] getLoggedInAccount 
+20170308@23:17:21 [System] getLoggedInAccount 
+20170308@23:17:21 [System] BTNPreview_Click 
+20170308@23:17:21 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin09 
+20170308@23:17:21 [System] saveToTempFolder 
+20170308@23:17:21 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin09. Result: False 
+20170308@23:17:21 [System] Total files posted: 1 
+20170308@23:17:21 [System] previewPhotos 
+20170308@23:17:21 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin09/shop02.jpg 
+20170308@23:17:23 [System] getLoggedInAccount 
+20170308@23:17:23 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:17:23 [System] getLoggedInAccount 
+20170308@23:17:23 [System] getLoggedInAccount 
+20170308@23:17:23 [System] getLoggedInAccount 
+20170308@23:17:23 [System] MessageHandler : Contact 
+20170308@23:17:23 [System] checkEmailAddressExist 
+20170308@23:17:23 [System] No data found in getValue() 
+20170308@23:17:33 [System] getLoggedInAccount 
+20170308@23:17:33 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:17:33 [System] getLoggedInAccount 
+20170308@23:17:38 [System] getLoggedInAccount 
+20170308@23:17:38 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:17:38 [System] getLoggedInAccount 
+20170308@23:17:38 [System] getLoggedInAccount 
+20170308@23:17:38 [System] getLoggedInAccount 
+20170308@23:17:38 [System] MessageHandler : Contact 
+20170308@23:17:38 [System] checkEmailAddressExist 
+20170308@23:17:38 [System] No data found in getValue() 
+20170308@23:19:19 [System] getLoggedInAccount 
+20170308@23:19:19 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:19:19 [System] getLoggedInAccount 
+20170308@23:19:19 [System] getLoggedInAccount 
+20170308@23:19:19 [System] getLoggedInAccount 
+20170308@23:19:19 [System] MessageHandler : Contact 
+20170308@23:19:19 [System] checkEmailAddressExist 
+20170308@23:19:19 [System] No data found in getValue() 
+20170308@23:19:19 [System] createAccount 
+20170308@23:19:39 [System] getLoggedInAccount 
+20170308@23:19:39 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:19:39 [System] getLoggedInAccount 
+20170308@23:21:49 [System] getLoggedInAccount 
+20170308@23:21:49 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:21:49 [System] getLoggedInAccount 
+20170308@23:21:49 [System] loginAccount 
+20170308@23:21:50 [System] getLoggedInAccount 
+20170308@23:21:50 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:21:50 [System] getLoggedInAccount 
+20170308@23:21:50 [System] getLoggedInAccount 
+20170308@23:21:50 [System] getLoggedInAccount 
+20170308@23:21:50 [System] GVPetInfoOverview_DataBound 
+20170308@23:21:50 [System] GVShopInfoOverview_DataBound 
+20170308@23:21:54 [System] getLoggedInAccount 
+20170308@23:21:54 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170308@23:21:54 [System] getLoggedInAccount 
+20170308@23:21:54 [System] getLoggedInAccount 
+20170308@23:21:54 [System] getLoggedInAccount 
+20170308@23:21:56 [System] getLoggedInAccount 
+20170308@23:21:56 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:21:56 [System] getLoggedInAccount 
+20170308@23:21:56 [System] getLoggedInAccount 
+20170308@23:21:56 [System] getLoggedInAccount 
+20170308@23:21:57 [System] getLoggedInAccount 
+20170308@23:21:57 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:21:57 [System] getLoggedInAccount 
+20170308@23:21:58 [System] getLoggedInAccount 
+20170308@23:21:58 [System] getLoggedInAccount 
+20170308@23:21:58 [System] BTNGenerate_Click 
+20170308@23:22:02 [System] getLoggedInAccount 
+20170308@23:22:02 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:22:02 [System] getLoggedInAccount 
+20170308@23:22:02 [System] getLoggedInAccount 
+20170308@23:22:02 [System] getLoggedInAccount 
+20170308@23:22:02 [System] BTNPreview_Click 
+20170308@23:22:02 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin55 
+20170308@23:22:02 [System] saveToTempFolder 
+20170308@23:22:02 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin55. Result: False 
+20170308@23:22:02 [System] Total files posted: 1 
+20170308@23:22:02 [System] previewPhotos 
+20170308@23:22:02 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin55/shop02.jpg 
+20170308@23:22:06 [System] getLoggedInAccount 
+20170308@23:22:06 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:22:06 [System] getLoggedInAccount 
+20170308@23:22:06 [System] getLoggedInAccount 
+20170308@23:22:06 [System] getLoggedInAccount 
+20170308@23:22:06 [System] MessageHandler : Contact 
+20170308@23:22:06 [System] checkEmailAddressExist 
+20170308@23:22:06 [System] No data found in getValue() 
+20170308@23:22:06 [System] createAccount 
+20170308@23:22:06 [System] createRecord() : Data type mismatch in criteria expression. 
+20170308@23:22:15 [System] getLoggedInAccount 
+20170308@23:22:15 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:22:15 [System] getLoggedInAccount 
+20170308@23:22:15 [System] getLoggedInAccount 
+20170308@23:22:15 [System] getLoggedInAccount 
+20170308@23:22:15 [System] BTNPreview_Click 
+20170308@23:22:15 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin55 
+20170308@23:22:15 [System] saveToTempFolder 
+20170308@23:22:15 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin55. Result: True 
+20170308@23:22:15 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/000_webadmin55 
+20170308@23:22:15 [System] Total files posted: 1 
+20170308@23:22:15 [System] previewPhotos 
+20170308@23:22:15 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin55/shop02.jpg 
+20170308@23:22:38 [System] getLoggedInAccount 
+20170308@23:22:38 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:22:38 [System] getLoggedInAccount 
+20170308@23:22:44 [System] getLoggedInAccount 
+20170308@23:22:44 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:22:44 [System] getLoggedInAccount 
+20170308@23:22:44 [System] loginAccount 
+20170308@23:22:45 [System] getLoggedInAccount 
+20170308@23:22:45 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:22:45 [System] getLoggedInAccount 
+20170308@23:22:45 [System] getLoggedInAccount 
+20170308@23:22:45 [System] getLoggedInAccount 
+20170308@23:22:45 [System] GVPetInfoOverview_DataBound 
+20170308@23:22:45 [System] GVShopInfoOverview_DataBound 
+20170308@23:22:51 [System] getLoggedInAccount 
+20170308@23:22:51 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:22:51 [System] getLoggedInAccount 
+20170308@23:22:52 [System] getLoggedInAccount 
+20170308@23:22:52 [System] getLoggedInAccount 
+20170308@23:22:59 [System] getLoggedInAccount 
+20170308@23:22:59 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:22:59 [System] getLoggedInAccount 
+20170308@23:22:59 [System] getLoggedInAccount 
+20170308@23:22:59 [System] getLoggedInAccount 
+20170308@23:22:59 [System] BTNGenerate_Click 
+20170308@23:23:01 [System] getLoggedInAccount 
+20170308@23:23:01 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:23:01 [System] getLoggedInAccount 
+20170308@23:23:01 [System] getLoggedInAccount 
+20170308@23:23:01 [System] getLoggedInAccount 
+20170308@23:23:01 [System] BTNGenerate_Click 
+20170308@23:23:01 [System] getLoggedInAccount 
+20170308@23:23:02 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:23:02 [System] getLoggedInAccount 
+20170308@23:23:02 [System] getLoggedInAccount 
+20170308@23:23:02 [System] getLoggedInAccount 
+20170308@23:23:02 [System] BTNGenerate_Click 
+20170308@23:23:02 [System] getLoggedInAccount 
+20170308@23:23:02 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:23:02 [System] getLoggedInAccount 
+20170308@23:23:02 [System] getLoggedInAccount 
+20170308@23:23:02 [System] getLoggedInAccount 
+20170308@23:23:03 [System] BTNGenerate_Click 
+20170308@23:23:03 [System] getLoggedInAccount 
+20170308@23:23:03 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:23:03 [System] getLoggedInAccount 
+20170308@23:23:03 [System] getLoggedInAccount 
+20170308@23:23:03 [System] getLoggedInAccount 
+20170308@23:23:03 [System] BTNGenerate_Click 
+20170308@23:23:08 [System] getLoggedInAccount 
+20170308@23:23:08 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:23:08 [System] getLoggedInAccount 
+20170308@23:23:08 [System] getLoggedInAccount 
+20170308@23:23:08 [System] getLoggedInAccount 
+20170308@23:23:08 [System] BTNPreview_Click 
+20170308@23:23:08 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin53 
+20170308@23:23:08 [System] saveToTempFolder 
+20170308@23:23:08 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin53. Result: False 
+20170308@23:23:08 [System] Total files posted: 1 
+20170308@23:23:08 [System] previewPhotos 
+20170308@23:23:08 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin53/shop02.jpg 
+20170308@23:23:11 [System] getLoggedInAccount 
+20170308@23:23:11 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:23:11 [System] getLoggedInAccount 
+20170308@23:23:11 [System] getLoggedInAccount 
+20170308@23:23:11 [System] getLoggedInAccount 
+20170308@23:23:11 [System] MessageHandler : Contact 
+20170308@23:23:11 [System] checkEmailAddressExist 
+20170308@23:23:11 [System] No data found in getValue() 
+20170308@23:23:11 [System] createAccount 
+20170308@23:23:11 [System] createRecord() : Data type mismatch in criteria expression. 
+20170308@23:23:20 [System] getLoggedInAccount 
+20170308@23:23:20 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:23:20 [System] getLoggedInAccount 
+20170308@23:23:20 [System] getLoggedInAccount 
+20170308@23:23:20 [System] getLoggedInAccount 
+20170308@23:23:20 [System] MessageHandler : Contact 
+20170308@23:23:20 [System] checkEmailAddressExist 
+20170308@23:23:20 [System] No data found in getValue() 
+20170308@23:23:20 [System] createAccount 
+20170308@23:23:20 [System] createRecord() : Data type mismatch in criteria expression. 
+20170308@23:24:00 [System] getLoggedInAccount 
+20170308@23:24:00 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:24:00 [System] getLoggedInAccount 
+20170308@23:24:11 [System] getLoggedInAccount 
+20170308@23:24:11 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:24:11 [System] getLoggedInAccount 
+20170308@23:24:11 [System] getLoggedInAccount 
+20170308@23:24:11 [System] getLoggedInAccount 
+20170308@23:24:11 [System] MessageHandler : Contact 
+20170308@23:24:11 [System] checkEmailAddressExist 
+20170308@23:24:11 [System] No data found in getValue() 
+20170308@23:24:16 [System] createAccount 
+20170308@23:24:16 [System] createRecord() : Data type mismatch in criteria expression. 
+20170308@23:24:30 [System] createAccount 
+20170308@23:26:03 [System] getLoggedInAccount 
+20170308@23:26:03 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:26:03 [System] getLoggedInAccount 
+20170308@23:26:07 [System] getLoggedInAccount 
+20170308@23:26:07 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:26:07 [System] getLoggedInAccount 
+20170308@23:26:07 [System] loginAccount 
+20170308@23:26:07 [System] getLoggedInAccount 
+20170308@23:26:07 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:26:07 [System] getLoggedInAccount 
+20170308@23:26:07 [System] getLoggedInAccount 
+20170308@23:26:07 [System] getLoggedInAccount 
+20170308@23:26:07 [System] GVPetInfoOverview_DataBound 
+20170308@23:26:08 [System] GVShopInfoOverview_DataBound 
+20170308@23:30:06 [System] getLoggedInAccount 
+20170308@23:30:06 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:30:06 [System] getLoggedInAccount 
+20170308@23:30:25 [System] getLoggedInAccount 
+20170308@23:30:25 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:30:25 [System] getLoggedInAccount 
+20170308@23:30:26 [System] loginAccount 
+20170308@23:30:26 [System] getLoggedInAccount 
+20170308@23:30:26 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:30:26 [System] getLoggedInAccount 
+20170308@23:30:26 [System] getLoggedInAccount 
+20170308@23:30:26 [System] getLoggedInAccount 
+20170308@23:30:26 [System] GVPetInfoOverview_DataBound 
+20170308@23:30:26 [System] GVShopInfoOverview_DataBound 
+20170308@23:31:01 [System] getLoggedInAccount 
+20170308@23:31:01 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:01 [System] getLoggedInAccount 
+20170308@23:31:01 [System] getLoggedInAccount 
+20170308@23:31:01 [System] getLoggedInAccount 
+20170308@23:31:04 [System] getLoggedInAccount 
+20170308@23:31:04 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:04 [System] getLoggedInAccount 
+20170308@23:31:04 [System] getLoggedInAccount 
+20170308@23:31:04 [System] getLoggedInAccount 
+20170308@23:31:04 [System] BTNGenerate_Click 
+20170308@23:31:05 [System] getLoggedInAccount 
+20170308@23:31:05 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:05 [System] getLoggedInAccount 
+20170308@23:31:05 [System] getLoggedInAccount 
+20170308@23:31:05 [System] getLoggedInAccount 
+20170308@23:31:05 [System] BTNGenerate_Click 
+20170308@23:31:06 [System] getLoggedInAccount 
+20170308@23:31:06 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:06 [System] getLoggedInAccount 
+20170308@23:31:06 [System] getLoggedInAccount 
+20170308@23:31:06 [System] getLoggedInAccount 
+20170308@23:31:06 [System] BTNGenerate_Click 
+20170308@23:31:07 [System] getLoggedInAccount 
+20170308@23:31:07 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:07 [System] getLoggedInAccount 
+20170308@23:31:07 [System] getLoggedInAccount 
+20170308@23:31:07 [System] getLoggedInAccount 
+20170308@23:31:07 [System] BTNGenerate_Click 
+20170308@23:31:08 [System] getLoggedInAccount 
+20170308@23:31:08 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:08 [System] getLoggedInAccount 
+20170308@23:31:08 [System] getLoggedInAccount 
+20170308@23:31:08 [System] getLoggedInAccount 
+20170308@23:31:08 [System] BTNGenerate_Click 
+20170308@23:31:08 [System] getLoggedInAccount 
+20170308@23:31:08 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:08 [System] getLoggedInAccount 
+20170308@23:31:08 [System] getLoggedInAccount 
+20170308@23:31:08 [System] getLoggedInAccount 
+20170308@23:31:08 [System] BTNGenerate_Click 
+20170308@23:31:09 [System] getLoggedInAccount 
+20170308@23:31:09 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:09 [System] getLoggedInAccount 
+20170308@23:31:09 [System] getLoggedInAccount 
+20170308@23:31:09 [System] getLoggedInAccount 
+20170308@23:31:09 [System] BTNGenerate_Click 
+20170308@23:31:11 [System] getLoggedInAccount 
+20170308@23:31:11 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:11 [System] getLoggedInAccount 
+20170308@23:31:11 [System] getLoggedInAccount 
+20170308@23:31:11 [System] getLoggedInAccount 
+20170308@23:31:11 [System] BTNGenerate_Click 
+20170308@23:31:12 [System] getLoggedInAccount 
+20170308@23:31:12 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:12 [System] getLoggedInAccount 
+20170308@23:31:12 [System] getLoggedInAccount 
+20170308@23:31:12 [System] getLoggedInAccount 
+20170308@23:31:12 [System] BTNGenerate_Click 
+20170308@23:31:15 [System] getLoggedInAccount 
+20170308@23:31:15 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:16 [System] getLoggedInAccount 
+20170308@23:31:16 [System] getLoggedInAccount 
+20170308@23:31:16 [System] getLoggedInAccount 
+20170308@23:31:16 [System] BTNPreview_Click 
+20170308@23:31:16 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin59 
+20170308@23:31:16 [System] saveToTempFolder 
+20170308@23:31:16 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin59. Result: True 
+20170308@23:31:16 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/000_webadmin59 
+20170308@23:31:16 [System] Total files posted: 1 
+20170308@23:31:16 [System] previewPhotos 
+20170308@23:31:16 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin59/shop02.jpg 
+20170308@23:31:19 [System] getLoggedInAccount 
+20170308@23:31:19 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:19 [System] getLoggedInAccount 
+20170308@23:31:19 [System] getLoggedInAccount 
+20170308@23:31:19 [System] getLoggedInAccount 
+20170308@23:31:19 [System] MessageHandler : Contact 
+20170308@23:31:19 [System] checkEmailAddressExist 
+20170308@23:31:19 [System] getValue() is 20 
+20170308@23:31:19 [System] MessageHandler : Email already exists 
+20170308@23:31:20 [System] getLoggedInAccount 
+20170308@23:31:20 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:20 [System] getLoggedInAccount 
+20170308@23:31:20 [System] getLoggedInAccount 
+20170308@23:31:20 [System] getLoggedInAccount 
+20170308@23:31:20 [System] BTNPreview_Click 
+20170308@23:31:20 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin59 
+20170308@23:31:20 [System] saveToTempFolder 
+20170308@23:31:20 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin59. Result: True 
+20170308@23:31:20 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/000_webadmin59 
+20170308@23:31:20 [System] previewPhotos 
+20170308@23:31:23 [System] getLoggedInAccount 
+20170308@23:31:23 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:23 [System] getLoggedInAccount 
+20170308@23:31:23 [System] getLoggedInAccount 
+20170308@23:31:23 [System] getLoggedInAccount 
+20170308@23:31:24 [System] BTNPreview_Click 
+20170308@23:31:24 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin59 
+20170308@23:31:24 [System] saveToTempFolder 
+20170308@23:31:24 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin59. Result: True 
+20170308@23:31:24 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/000_webadmin59 
+20170308@23:31:24 [System] Total files posted: 1 
+20170308@23:31:24 [System] previewPhotos 
+20170308@23:31:24 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin59/shop02.jpg 
+20170308@23:31:25 [System] getLoggedInAccount 
+20170308@23:31:25 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:25 [System] getLoggedInAccount 
+20170308@23:31:25 [System] getLoggedInAccount 
+20170308@23:31:25 [System] getLoggedInAccount 
+20170308@23:31:25 [System] BTNGenerate_Click 
+20170308@23:31:30 [System] getLoggedInAccount 
+20170308@23:31:30 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:30 [System] getLoggedInAccount 
+20170308@23:31:30 [System] getLoggedInAccount 
+20170308@23:31:30 [System] getLoggedInAccount 
+20170308@23:31:30 [System] BTNPreview_Click 
+20170308@23:31:30 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin14 
+20170308@23:31:30 [System] saveToTempFolder 
+20170308@23:31:30 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin14. Result: False 
+20170308@23:31:30 [System] Total files posted: 1 
+20170308@23:31:30 [System] previewPhotos 
+20170308@23:31:30 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin14/shop02.jpg 
+20170308@23:31:32 [System] getLoggedInAccount 
+20170308@23:31:32 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:31:32 [System] getLoggedInAccount 
+20170308@23:31:32 [System] getLoggedInAccount 
+20170308@23:31:32 [System] getLoggedInAccount 
+20170308@23:31:32 [System] MessageHandler : Contact 
+20170308@23:31:32 [System] checkEmailAddressExist 
+20170308@23:31:32 [System] No data found in getValue() 
+20170308@23:31:32 [System] createAccount 
+20170308@23:31:32 [System] createRecord() : Parameter @SHOPINFOID has no default value. 
+20170308@23:31:45 [System] getLoggedInAccount 
+20170308@23:31:45 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:31:45 [System] getLoggedInAccount 
+20170308@23:31:59 [System] getLoggedInAccount 
+20170308@23:31:59 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:31:59 [System] getLoggedInAccount 
+20170308@23:31:59 [System] loginAccount 
+20170308@23:31:59 [System] getLoggedInAccount 
+20170308@23:31:59 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:31:59 [System] getLoggedInAccount 
+20170308@23:31:59 [System] getLoggedInAccount 
+20170308@23:31:59 [System] getLoggedInAccount 
+20170308@23:31:59 [System] GVPetInfoOverview_DataBound 
+20170308@23:31:59 [System] GVShopInfoOverview_DataBound 
+20170308@23:32:16 [System] getLoggedInAccount 
+20170308@23:32:16 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:32:16 [System] getLoggedInAccount 
+20170308@23:32:21 [System] getLoggedInAccount 
+20170308@23:32:21 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:32:21 [System] getLoggedInAccount 
+20170308@23:32:21 [System] loginAccount 
+20170308@23:32:21 [System] getLoggedInAccount 
+20170308@23:32:21 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:32:21 [System] getLoggedInAccount 
+20170308@23:32:22 [System] getLoggedInAccount 
+20170308@23:32:22 [System] getLoggedInAccount 
+20170308@23:32:22 [System] GVPetInfoOverview_DataBound 
+20170308@23:32:22 [System] GVShopInfoOverview_DataBound 
+20170308@23:32:25 [System] getLoggedInAccount 
+20170308@23:32:25 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:32:25 [System] getLoggedInAccount 
+20170308@23:32:25 [System] getLoggedInAccount 
+20170308@23:32:25 [System] getLoggedInAccount 
+20170308@23:32:26 [System] getLoggedInAccount 
+20170308@23:32:26 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:32:26 [System] getLoggedInAccount 
+20170308@23:32:26 [System] getLoggedInAccount 
+20170308@23:32:26 [System] getLoggedInAccount 
+20170308@23:32:26 [System] BTNGenerate_Click 
+20170308@23:32:27 [System] getLoggedInAccount 
+20170308@23:32:27 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:32:27 [System] getLoggedInAccount 
+20170308@23:32:27 [System] getLoggedInAccount 
+20170308@23:32:27 [System] getLoggedInAccount 
+20170308@23:32:27 [System] BTNGenerate_Click 
+20170308@23:32:27 [System] getLoggedInAccount 
+20170308@23:32:27 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:32:27 [System] getLoggedInAccount 
+20170308@23:32:27 [System] getLoggedInAccount 
+20170308@23:32:27 [System] getLoggedInAccount 
+20170308@23:32:27 [System] BTNGenerate_Click 
+20170308@23:32:28 [System] getLoggedInAccount 
+20170308@23:32:28 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:32:28 [System] getLoggedInAccount 
+20170308@23:32:28 [System] getLoggedInAccount 
+20170308@23:32:28 [System] getLoggedInAccount 
+20170308@23:32:28 [System] BTNGenerate_Click 
+20170308@23:32:28 [System] getLoggedInAccount 
+20170308@23:32:28 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:32:28 [System] getLoggedInAccount 
+20170308@23:32:28 [System] getLoggedInAccount 
+20170308@23:32:28 [System] getLoggedInAccount 
+20170308@23:32:28 [System] BTNGenerate_Click 
+20170308@23:32:34 [System] getLoggedInAccount 
+20170308@23:32:34 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:32:34 [System] getLoggedInAccount 
+20170308@23:32:34 [System] getLoggedInAccount 
+20170308@23:32:34 [System] getLoggedInAccount 
+20170308@23:32:34 [System] BTNPreview_Click 
+20170308@23:32:34 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin52 
+20170308@23:32:34 [System] saveToTempFolder 
+20170308@23:32:34 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin52. Result: False 
+20170308@23:32:34 [System] Total files posted: 1 
+20170308@23:32:34 [System] previewPhotos 
+20170308@23:32:34 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin52/shop02.jpg 
+20170308@23:32:35 [System] getLoggedInAccount 
+20170308@23:32:35 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:32:35 [System] getLoggedInAccount 
+20170308@23:32:35 [System] getLoggedInAccount 
+20170308@23:32:35 [System] getLoggedInAccount 
+20170308@23:32:35 [System] MessageHandler : Contact 
+20170308@23:32:35 [System] checkEmailAddressExist 
+20170308@23:32:35 [System] No data found in getValue() 
+20170308@23:32:35 [System] createAccount 
+20170308@23:32:35 [System] createRecord() : Parameter @SHOPINFOID has no default value. 
+20170308@23:32:42 [System] getLoggedInAccount 
+20170308@23:32:42 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:32:42 [System] getLoggedInAccount 
+20170308@23:32:42 [System] getLoggedInAccount 
+20170308@23:32:42 [System] getLoggedInAccount 
+20170308@23:32:42 [System] MessageHandler : Contact 
+20170308@23:32:42 [System] checkEmailAddressExist 
+20170308@23:32:42 [System] No data found in getValue() 
+20170308@23:32:42 [System] createAccount 
+20170308@23:32:42 [System] createRecord() : Parameter @SHOPINFOID has no default value. 
+20170308@23:32:47 [System] getLoggedInAccount 
+20170308@23:32:47 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:32:47 [System] getLoggedInAccount 
+20170308@23:32:52 [System] getLoggedInAccount 
+20170308@23:32:52 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:32:52 [System] No account logged in 
+20170308@23:32:52 [System] getLoggedInAccount 
+20170308@23:32:52 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:32:52 [System] getLoggedInAccount 
+20170308@23:32:56 [System] getLoggedInAccount 
+20170308@23:32:56 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:32:56 [System] getLoggedInAccount 
+20170308@23:32:56 [System] loginAccount 
+20170308@23:32:57 [System] getLoggedInAccount 
+20170308@23:32:57 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:32:57 [System] getLoggedInAccount 
+20170308@23:32:57 [System] getLoggedInAccount 
+20170308@23:32:57 [System] getLoggedInAccount 
+20170308@23:32:57 [System] GVPetInfoOverview_DataBound 
+20170308@23:32:57 [System] GVShopInfoOverview_DataBound 
+20170308@23:33:08 [System] getLoggedInAccount 
+20170308@23:33:08 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:33:08 [System] getLoggedInAccount 
+20170308@23:33:08 [System] getLoggedInAccount 
+20170308@23:33:08 [System] getLoggedInAccount 
+20170308@23:33:10 [System] getLoggedInAccount 
+20170308@23:33:10 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:33:10 [System] getLoggedInAccount 
+20170308@23:33:11 [System] getLoggedInAccount 
+20170308@23:33:11 [System] getLoggedInAccount 
+20170308@23:33:11 [System] BTNGenerate_Click 
+20170308@23:33:11 [System] getLoggedInAccount 
+20170308@23:33:11 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:33:11 [System] getLoggedInAccount 
+20170308@23:33:11 [System] getLoggedInAccount 
+20170308@23:33:11 [System] getLoggedInAccount 
+20170308@23:33:11 [System] BTNGenerate_Click 
+20170308@23:33:12 [System] getLoggedInAccount 
+20170308@23:33:12 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:33:12 [System] getLoggedInAccount 
+20170308@23:33:12 [System] getLoggedInAccount 
+20170308@23:33:12 [System] getLoggedInAccount 
+20170308@23:33:12 [System] BTNGenerate_Click 
+20170308@23:33:13 [System] getLoggedInAccount 
+20170308@23:33:13 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:33:13 [System] getLoggedInAccount 
+20170308@23:33:13 [System] getLoggedInAccount 
+20170308@23:33:13 [System] getLoggedInAccount 
+20170308@23:33:13 [System] BTNGenerate_Click 
+20170308@23:33:16 [System] getLoggedInAccount 
+20170308@23:33:16 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:33:16 [System] getLoggedInAccount 
+20170308@23:33:16 [System] getLoggedInAccount 
+20170308@23:33:16 [System] getLoggedInAccount 
+20170308@23:33:16 [System] BTNPreview_Click 
+20170308@23:33:16 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin57 
+20170308@23:33:16 [System] saveToTempFolder 
+20170308@23:33:16 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin57. Result: False 
+20170308@23:33:16 [System] Total files posted: 1 
+20170308@23:33:16 [System] previewPhotos 
+20170308@23:33:16 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin57/shop02.jpg 
+20170308@23:33:18 [System] getLoggedInAccount 
+20170308@23:33:18 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:33:18 [System] getLoggedInAccount 
+20170308@23:33:18 [System] getLoggedInAccount 
+20170308@23:33:18 [System] getLoggedInAccount 
+20170308@23:33:18 [System] MessageHandler : Contact 
+20170308@23:33:18 [System] checkEmailAddressExist 
+20170308@23:33:18 [System] No data found in getValue() 
+20170308@23:33:18 [System] createAccount 
+20170308@23:33:18 [System] createRecord() : Parameter @SHOPINFOID has no default value. 
+20170308@23:34:02 [System] checkEmailAddressExist 
+20170308@23:34:06 [System] No data found in getValue() 
+20170308@23:34:12 [System] createAccount 
+20170308@23:34:29 [System] createRecord() : Parameter @SHOPINFOID has no default value. 
+20170308@23:36:03 [System] getLoggedInAccount 
+20170308@23:36:03 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:36:03 [System] getLoggedInAccount 
+20170308@23:36:10 [System] getLoggedInAccount 
+20170308@23:36:10 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:36:10 [System] getLoggedInAccount 
+20170308@23:36:10 [System] loginAccount 
+20170308@23:36:13 [System] getLoggedInAccount 
+20170308@23:36:13 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170308@23:36:13 [System] getLoggedInAccount 
+20170308@23:36:13 [System] getLoggedInAccount 
+20170308@23:36:13 [System] getLoggedInAccount 
+20170308@23:36:13 [System] GVPetInfoOverview_DataBound 
+20170308@23:36:14 [System] GVShopInfoOverview_DataBound 
+20170308@23:36:21 [System] getLoggedInAccount 
+20170308@23:36:21 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:21 [System] getLoggedInAccount 
+20170308@23:36:21 [System] getLoggedInAccount 
+20170308@23:36:21 [System] getLoggedInAccount 
+20170308@23:36:25 [System] getLoggedInAccount 
+20170308@23:36:25 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:25 [System] getLoggedInAccount 
+20170308@23:36:25 [System] getLoggedInAccount 
+20170308@23:36:25 [System] getLoggedInAccount 
+20170308@23:36:25 [System] BTNGenerate_Click 
+20170308@23:36:26 [System] getLoggedInAccount 
+20170308@23:36:26 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:26 [System] getLoggedInAccount 
+20170308@23:36:26 [System] getLoggedInAccount 
+20170308@23:36:26 [System] getLoggedInAccount 
+20170308@23:36:26 [System] BTNGenerate_Click 
+20170308@23:36:27 [System] getLoggedInAccount 
+20170308@23:36:27 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:27 [System] getLoggedInAccount 
+20170308@23:36:27 [System] getLoggedInAccount 
+20170308@23:36:27 [System] getLoggedInAccount 
+20170308@23:36:27 [System] BTNGenerate_Click 
+20170308@23:36:27 [System] getLoggedInAccount 
+20170308@23:36:27 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:27 [System] getLoggedInAccount 
+20170308@23:36:27 [System] getLoggedInAccount 
+20170308@23:36:27 [System] getLoggedInAccount 
+20170308@23:36:27 [System] BTNGenerate_Click 
+20170308@23:36:28 [System] getLoggedInAccount 
+20170308@23:36:28 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:28 [System] getLoggedInAccount 
+20170308@23:36:28 [System] getLoggedInAccount 
+20170308@23:36:28 [System] getLoggedInAccount 
+20170308@23:36:28 [System] BTNGenerate_Click 
+20170308@23:36:29 [System] getLoggedInAccount 
+20170308@23:36:29 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:29 [System] getLoggedInAccount 
+20170308@23:36:29 [System] getLoggedInAccount 
+20170308@23:36:29 [System] getLoggedInAccount 
+20170308@23:36:29 [System] BTNGenerate_Click 
+20170308@23:36:30 [System] getLoggedInAccount 
+20170308@23:36:30 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:30 [System] getLoggedInAccount 
+20170308@23:36:30 [System] getLoggedInAccount 
+20170308@23:36:30 [System] getLoggedInAccount 
+20170308@23:36:30 [System] BTNGenerate_Click 
+20170308@23:36:31 [System] getLoggedInAccount 
+20170308@23:36:31 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:31 [System] getLoggedInAccount 
+20170308@23:36:31 [System] getLoggedInAccount 
+20170308@23:36:31 [System] getLoggedInAccount 
+20170308@23:36:31 [System] BTNGenerate_Click 
+20170308@23:36:36 [System] getLoggedInAccount 
+20170308@23:36:36 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:36 [System] getLoggedInAccount 
+20170308@23:36:36 [System] getLoggedInAccount 
+20170308@23:36:36 [System] getLoggedInAccount 
+20170308@23:36:36 [System] BTNPreview_Click 
+20170308@23:36:36 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/000_webadmin45 
+20170308@23:36:36 [System] saveToTempFolder 
+20170308@23:36:36 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000_webadmin45. Result: False 
+20170308@23:36:36 [System] Total files posted: 1 
+20170308@23:36:36 [System] previewPhotos 
+20170308@23:36:36 [System] ~/uploadedFiles/temp/profileinfo/000_webadmin45/shop02.jpg 
+20170308@23:36:38 [System] getLoggedInAccount 
+20170308@23:36:38 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:36:38 [System] getLoggedInAccount 
+20170308@23:36:38 [System] getLoggedInAccount 
+20170308@23:36:38 [System] getLoggedInAccount 
+20170308@23:36:38 [System] MessageHandler : Contact 
+20170308@23:36:38 [System] checkEmailAddressExist 
+20170308@23:36:38 [System] No data found in getValue() 
+20170308@23:36:38 [System] createAccount 
+20170308@23:36:38 [System] Record created! 
+20170308@23:36:38 [System] Record created! 
+20170308@23:36:38 [System] changePhotoPathToDatabaseFolder 
+20170308@23:36:38 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\profileinfo\000_webadmin45 
+20170308@23:36:38 [System] Record created! 
+20170308@23:41:49 [System] getLoggedInAccount 
+20170308@23:41:49 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:41:49 [System] getLoggedInAccount 
+20170308@23:41:49 [System] getLoggedInAccount 
+20170308@23:41:49 [System] getLoggedInAccount 
+20170308@23:41:49 [System] BTNGenerate_Click 
+20170308@23:41:50 [System] getLoggedInAccount 
+20170308@23:41:50 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:41:50 [System] getLoggedInAccount 
+20170308@23:41:50 [System] getLoggedInAccount 
+20170308@23:41:50 [System] getLoggedInAccount 
+20170308@23:41:50 [System] BTNGenerate_Click 
+20170308@23:41:51 [System] getLoggedInAccount 
+20170308@23:41:51 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:41:51 [System] getLoggedInAccount 
+20170308@23:41:51 [System] getLoggedInAccount 
+20170308@23:41:51 [System] getLoggedInAccount 
+20170308@23:41:51 [System] BTNGenerate_Click 
+20170308@23:41:51 [System] getLoggedInAccount 
+20170308@23:41:51 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170308@23:41:51 [System] getLoggedInAccount 
+20170308@23:41:51 [System] getLoggedInAccount 
+20170308@23:41:51 [System] getLoggedInAccount 
+20170308@23:41:51 [System] BTNGenerate_Click 
+20170308@23:42:41 [System] getLoggedInAccount 
+20170308@23:42:41 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:42:41 [System] getLoggedInAccount 
+20170308@23:42:48 [System] getLoggedInAccount 
+20170308@23:42:48 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:42:48 [System] getLoggedInAccount 
+20170308@23:42:48 [System] loginAccount 
+20170308@23:42:48 [System] MessageHandler : Invalid email or password 
+20170308@23:42:59 [System] getLoggedInAccount 
+20170308@23:42:59 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:42:59 [System] getLoggedInAccount 
+20170308@23:42:59 [System] loginAccount 
+20170308@23:56:08 [System] getLoggedInAccount 
+20170308@23:56:08 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170308@23:56:08 [System] getLoggedInAccount 
+20170308@23:56:08 [System] loginAccount 

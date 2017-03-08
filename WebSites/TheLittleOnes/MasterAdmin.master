@@ -442,7 +442,7 @@
 
 
                             <li class="">
-                                <a href="AdminAddAccount.aspx">
+                                <a href="AdminSystemAccountAdd.aspx">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     Add Account 
                                 </a>
@@ -450,7 +450,7 @@
                                 <b class="arrow"></b>
                             </li>
                             <li class="">
-                                <a href="AdminPetInfoEdit.aspx">
+                                <a href="AdminSystemAccountEdit.aspx">
                                     <i class="menu-icon fa fa-caret-right"></i>
                                     Edit Account 
                                 </a>

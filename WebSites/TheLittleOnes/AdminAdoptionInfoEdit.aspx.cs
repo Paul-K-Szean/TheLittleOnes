@@ -20,7 +20,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
     private TextBox UICtrlTextbox;
     private CheckBox UICtrlCheckbox;
     private DropDownList UICtrlDropdownlist;
-    private static List<PhotoEntity> photoEntities;
 
     private static int GVRowID;
     private static int gvPageSize = 5; // default
@@ -38,9 +37,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
 
         }
         else
-        {
-            // hide edit panel
-            PNLAdoptInfoEdit.Visible = false;
+        { 
             // clear static data
             clearStaticData();
             DDLShopInfo.DataBind();
@@ -123,7 +120,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
             {
                 MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Adoption info was not successfully updated");
             }
-            GVAdoptInfoOverview.DataBind();
+            filterAdoptionInfo();
             DLPhotoUploaded.DataBind();
             clearStaticData();
             filterAdoptionInfo();
@@ -144,6 +141,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
     {
         gvPageSize = int.Parse(DDLDisplayRecordCountAdoptInfo.SelectedValue);
         GVAdoptInfoOverview.PageSize = gvPageSize;
+        filterAdoptionInfo();
     }
     // Dropdownlist shop info
     protected void DDLOrangisation_SelectedIndexChanged(object sender, EventArgs e)
@@ -151,6 +149,23 @@ public partial class AdminAdoptionInfoEdit : BasePage
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         shopInfoEntity = shopInfoCtrler.getShopInfo(DDLShopInfo.SelectedValue);
         loadShopInfo(shopInfoEntity);
+    }
+    protected void DDLFilterSize_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        // Filter data
+        filterAdoptionInfo();
+    }
+
+    protected void DDLFilterStatus_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        // Filter data
+        filterAdoptionInfo();
+    }
+
+    protected void DDLFilterGender_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        // Filter data
+        filterAdoptionInfo();
     }
     #endregion
 
@@ -179,6 +194,12 @@ public partial class AdminAdoptionInfoEdit : BasePage
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         highlightSelectedRow(GVAdoptInfoOverview);
         MessageHandler.ClearMessage(LBLErrorMsg);
+    }
+
+    protected void GVAdoptInfoOverview_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        GVAdoptInfoOverview.PageIndex = e.NewPageIndex;
+        filterAdoptionInfo();
     }
     #endregion Gridview Control
 
@@ -267,7 +288,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
             return false;
         }
     }
-
     // Filter data for adoption info
     private void filterAdoptionInfo()
     {
@@ -292,7 +312,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
         filePath_UploadFolderTemp = string.Empty;
        
     }
-
     #endregion
 
     #region Textbox control
@@ -302,25 +321,5 @@ public partial class AdminAdoptionInfoEdit : BasePage
         filterAdoptionInfo();
     }
     #endregion
-    
-    protected void DDLFilterSize_SelectedIndexChanged(object sender, EventArgs e)
-    {
-        // Filter data
-        filterAdoptionInfo();
-    }
-
-    protected void DDLFilterStatus_SelectedIndexChanged(object sender, EventArgs e)
-    {
-        // Filter data
-        filterAdoptionInfo();
-    }
-
-    protected void DDLFilterGender_SelectedIndexChanged(object sender, EventArgs e)
-    {
-        // Filter data
-        filterAdoptionInfo();
-    }
-
-
 
 }

@@ -27,8 +27,7 @@ public partial class AdminShopInfoAdd : BasePage
     private string shopType;
     private string shopDesc;
     private bool shopCloseOnPublicHoliday;
-    private List<ShopTimeEntity> shopTimeEntities;
-    private List<PhotoEntity> photoEntities;
+    
     private static string filePath_UploadFolderTemp;
 
     // page load
@@ -83,25 +82,15 @@ public partial class AdminShopInfoAdd : BasePage
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
-        shopName = TBShopName.Text.Trim();
-        shopContact = TBShopContact.Text.Trim().Replace(" ", "");
         // some variable to create folder
-        if (!string.IsNullOrEmpty(shopName) && !string.IsNullOrEmpty(shopContact))
-        {
-            LBLErrorMsg.Text = string.Empty;
-            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/shopinfo/", shopName.ToLower().Replace(" ", "") + "_" + shopContact.ToLower().Replace(" ", "").ToString());
+        LBLErrorMsg.Text = string.Empty;
+        filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/shopinfo/000/");
 
-            // create temp files in temp foler
-            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ShopInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
+        // create temp files in temp foler
+        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ShopInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
 
-            // preview photo
-            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
-        
-        }
-        else
-        {
-            MessageHandler.ErrorMessage(LBLErrorMsg, "Shop name and contact cannot be empty");
-        }
+        // preview photo
+        photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
     }
 
     protected void BTNAdd_Click(object sender, EventArgs e)
@@ -116,7 +105,7 @@ public partial class AdminShopInfoAdd : BasePage
         shopDesc = TBShopDesc.Text.Trim();
         shopCloseOnPublicHoliday = CHKBXCloseOnPublicHoliday.Checked ? true : false;
         shopTimeEntities = getShopTime();
-     
+
         if (checkRequiredFields())
         {
             // check if shop info exists
@@ -131,17 +120,16 @@ public partial class AdminShopInfoAdd : BasePage
                 shopInfoEntity = new ShopInfoEntity(shopName, shopContact,
                     shopAddress, shopGrooming, shopType, shopDesc, shopCloseOnPublicHoliday, shopTimeEntities, photoEntities);
 
-                // change photo path to database instead of using temp
-                if (photoEntities != null)
-                {
-                    shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
-                }
-
                 // add into database
                 shopInfoEntity = shopInfoCtrler.createShopInfo(shopInfoEntity);
                 shopInfoEntity = shopInfoCtrler.createShopTime(shopInfoEntity);
-                if (shopInfoEntity.PhotoEntities != null)
-                    shopInfoEntity = shopInfoCtrler.createShopPhoto(shopInfoEntity);
+
+                // change photo path to database instead of using temp
+                if (photoEntities != null)
+                {
+                    shopInfoEntity = shopInfoCtrler.createPhoto(shopInfoEntity);
+                    shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp, shopInfoEntity.ShopInfoID);
+                }
 
                 if (shopInfoEntity != null)
                 {

@@ -115,7 +115,7 @@
                     <div class="col-xs-12 ">
                         <div class="form-inline pull-right">
                             <asp:Label ID="LBLErrorMsg" runat="server" Text=""></asp:Label>
-                            <asp:Button ID="BTNSave" runat="server" CssClass="btn btn-primary btn-sm" Text="Save" OnClick="BTNSave_Click" />
+                            <asp:Button ID="BTNSave" runat="server" CssClass="btn btn-primary btn-sm" Text="Save" OnClick="BTNSave_Click" Font-Size="Medium"/>
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@
                 <asp:SqlDataSource ID="SDSPhoto" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath, Profile.accountID, Profile.profileID, Profile.profileName, Profile.profileContact, Profile.profileAddress FROM (Profile INNER JOIN Photo ON Photo.photoOwnerID = Profile.profileID) WHERE (Photo.photoOwnerID = ?)">
+                    SelectCommand="SELECT Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath, Profile.accountID, Profile.profileID, Profile.profileName, Profile.profileContact, Profile.profileAddress FROM (Profile INNER JOIN Photo ON Photo.photoOwnerID = Profile.profileID) WHERE (Photo.photoOwnerID = ? AND Photo.PhotoPurpose='ProfileInfo')">
                     <SelectParameters>
                         <asp:ControlParameter ControlID="TBProfileID" Name="photoOwnerID" PropertyName="Text" Type="Int32" />
                     </SelectParameters>

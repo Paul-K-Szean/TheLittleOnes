@@ -18,16 +18,18 @@ namespace TheLittleOnesLibrary
     public class BasePage : Page
     {
         // Entities
-        protected static AccountEntity accEntity;
+        protected static AccountEntity accountEntity;
         protected static ProfileEntity profileEntity;
         protected static PetInfoEntity petInfoEntity;
         protected static PetCharEntity petCharEntity;
         protected static PhotoEntity photoEntity;
+        protected static List<PhotoEntity> photoEntities;
         protected static ShopInfoEntity shopInfoEntity;
         protected static ShopTimeEntity shopTimeEntity;
+        protected static List<ShopTimeEntity> shopTimeEntities;
         protected static AdoptInfoEntity adoptInfoEntity;
         protected static PetEntity petEntity;
-
+        
         // Controllers
         protected AccountController accCtrler;
         protected ProfileController profileCtrler;
@@ -66,14 +68,14 @@ namespace TheLittleOnesLibrary
             }
 
             // redirect to login page, except for login page
-            if (accEntity == null && !currentPage.Contains("AdminLogin"))
+            if (accountEntity == null && !currentPage.Contains("AdminLogin"))
             {
                 LogController.LogLine("No account logged in");
                 HttpContext.Current.Response.Redirect("AdminLogin.aspx");
             }
             else
             {
-                accEntity = accCtrler.getLoggedInAccount();
+                accountEntity = accCtrler.getLoggedInAccount();
                 profileEntity = profileCtrler.getLoggedInProfile();
             }
 
@@ -133,7 +135,7 @@ namespace TheLittleOnesLibrary
             {
                 petCtrler = PetController.getInstance();
             }
-            accEntity = accCtrler.getLoggedInAccount();
+            accountEntity = accCtrler.getLoggedInAccount();
             profileEntity = profileCtrler.getLoggedInProfile();
 
         }

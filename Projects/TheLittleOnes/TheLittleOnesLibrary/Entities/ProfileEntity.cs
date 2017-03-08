@@ -8,7 +8,6 @@ namespace TheLittleOnesLibrary.Entities
 {
     public class ProfileEntity
     {
-        private string accountID;
         private string profileID;
         private string profileName;
         private string profileContact;
@@ -16,38 +15,21 @@ namespace TheLittleOnesLibrary.Entities
         private List<PhotoEntity> photoEntities;
 
         // Create record constructor
-        public ProfileEntity(string accountID, string profileName, string profileContact, string profileAddress, List<PhotoEntity> photoEntities)
+        public ProfileEntity(string profileName, string profileContact, string profileAddress, List<PhotoEntity> photoEntities)
         {
-            this.accountID = accountID;
             this.profileName = profileName;
             this.profileContact = profileContact;
             this.profileAddress = profileAddress;
             this.PhotoEntities = photoEntities;
         }
         // Retrieve record constructor
-        public ProfileEntity(string accountID, string profileID, string profileName, string profileContact, string profileAddress, List<PhotoEntity> photoEntities)
+        public ProfileEntity(string profileID, string profileName, string profileContact, string profileAddress, List<PhotoEntity> photoEntities)
         {
-            this.accountID = accountID;
             this.profileID = profileID;
             this.profileName = profileName;
             this.profileContact = profileContact;
             this.profileAddress = profileAddress;
             this.PhotoEntities = photoEntities;
-        }
-
-        
-
-        public string AccountID
-        {
-            get
-            {
-                return accountID;
-            }
-
-            set
-            {
-                accountID = value;
-            }
         }
 
         public string ProfileID

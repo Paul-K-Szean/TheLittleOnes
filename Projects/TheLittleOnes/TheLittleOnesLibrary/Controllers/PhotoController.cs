@@ -165,6 +165,48 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
 
+        // Change photo path to database instead of using temp
+        public List<PhotoEntity> changePhotoPathToDatabaseFolder(List<PhotoEntity> photoEntities, string filePath_UploadFolderTemp, string ownerID)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            if (string.IsNullOrEmpty(filePath_UploadFolderTemp))
+            {
+                return null;
+            }
+            else
+            {
+                // check for database folder path
+                string filePath_UploadFolderDatabase = filePath_UploadFolderTemp.Replace("temp", "database").Replace("000", ownerID);
+                bool isfilePath_UploadFolderDatabaseExists = Directory.Exists(filePath_UploadFolderDatabase);
+
+                // exists = wont create
+                Directory.CreateDirectory(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase));
+                Array.ForEach(Directory.GetFiles(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase)), File.Delete);
+
+                // get files from temp folder into database folder
+                DirectoryInfo dir = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
+                LogController.LogLine(dir.FullName);
+                foreach (var file in dir.GetFiles("*.*"))
+                {
+                    if (file.Extension.Contains("jpg") || file.Extension.Contains("jpeg") || file.Extension.Contains("png") || file.Extension.Contains("gif") ||
+                        file.Extension.Contains("tiff") || file.Extension.Contains("bmp"))
+                    {
+                        File.Copy(Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp), file.Name),
+                        Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase), file.Name), true);
+                    }
+                }
+
+                // rename the file path from temp to database
+                foreach (PhotoEntity photoEntity in photoEntities)
+                {
+                    photoEntity.PhotoPath = photoEntity.PhotoPath.Replace("temp", "database");
+                }
+
+                return photoEntities;
+            }
+        }
+
+
         // Preview photos
         public void previewPhotos(HtmlGenericControl photoPreview, string filePath_UploadFolderTemp)
         {

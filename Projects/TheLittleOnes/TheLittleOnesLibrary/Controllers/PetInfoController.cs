@@ -19,9 +19,7 @@ namespace TheLittleOnesLibrary.Controllers
     {
 
         private static PetInfoController petInfoCtrl;
-        private static PetInfoEntity petInfoEntity;
         private static PetCharEntity petCharEntity;
-        private static List<PhotoEntity> photoEntities;
         public static PetInfoController getInstance()
         {
             if (petInfoCtrl == null)

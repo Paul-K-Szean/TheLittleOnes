@@ -82,6 +82,7 @@ public partial class MasterAdmin : MasterPage
 
     protected void LKBTNLogout_Click(object sender, EventArgs e)
     {
+        accCtrler.SignOut();
         Response.Redirect("AdminLogin.aspx");
     }
 }

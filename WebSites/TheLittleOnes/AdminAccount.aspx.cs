@@ -15,7 +15,7 @@ public partial class AdminAccount : BasePage
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (accEntity != null)
+        if (accountEntity != null)
         {
             loadAccountInfo();
         }
@@ -23,9 +23,9 @@ public partial class AdminAccount : BasePage
 
     void loadAccountInfo()
     {
-        TBAccountID.Text = accEntity.AccountID;
-        TBEmail.Text = accEntity.AccountEmail;
-        TBAccountType.Text = accEntity.AccountType;
+        TBAccountID.Text = accountEntity.AccountID;
+        TBEmail.Text = accountEntity.AccountEmail;
+        TBAccountType.Text = accountEntity.AccountType;
     }
 
     #region Button Clicks
@@ -36,14 +36,14 @@ public partial class AdminAccount : BasePage
         if (checkRequiredField(passwordOld, passwordNew))
         {
             // check old password
-            if (accCtrler.checkPassword(accEntity.AccountID, passwordOld))
+            if (accCtrler.checkPassword(accountEntity.AccountID, passwordOld))
             {
                 // change password
-                AccountEntity accEntityTemp = accEntity;
+                AccountEntity accEntityTemp = accountEntity;
                 accEntityTemp.AccountPassword = passwordNew;
                 // update 
-                accEntity = accCtrler.changePassword(accEntityTemp);
-                if (accEntity != null)
+                accountEntity = accCtrler.changePassword(accEntityTemp);
+                if (accountEntity != null)
                 {
                     MessageHandler.SuccessMessage(LBLErrorMsg, "Password successfully updated");
                 }

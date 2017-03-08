@@ -170,7 +170,8 @@
                                     AutoGenerateColumns="False" DataKeyNames="shopInfoID" DataSourceID="SDSShopInfo" Width="100%"
                                     AllowPaging="True" OnDataBound="GVShopInfoOverview_DataBound"
                                     OnSelectedIndexChanged="GVShopInfoOverview_SelectedIndexChanged"
-                                    OnSelectedIndexChanging="GVShopInfoOverview_SelectedIndexChanging">
+                                    OnSelectedIndexChanging="GVShopInfoOverview_SelectedIndexChanging"
+                                    OnPageIndexChanging="GVShopInfoOverview_PageIndexChanging">
                                     <Columns>
                                         <asp:BoundField DataField="shopInfoID" HeaderText="S/N" InsertVisible="False" ReadOnly="True" SortExpression="shopInfoID" />
                                         <asp:BoundField DataField="shopInfoName" HeaderText="Name" SortExpression="shopInfoName" />
@@ -207,7 +208,7 @@
                     <div class="col-xs-12">
                         <!-- PAGE CONTENT BEGINS -->
                         <div class="form-horizontal">
-                            <asp:Panel ID="PNLShopInfoEdit" runat="server">
+                            <asp:Panel ID="PNLShopInfoEdit" runat="server" Visible="false">
 
                                 <%--action buttons--%>
                                 <div class="row">
@@ -408,7 +409,7 @@
                                                                 <asp:DataList ID="DLPhotoUploaded" runat="server" DataSourceID="SDSPhoto" Width="100%"
                                                                     RepeatDirection="Horizontal">
                                                                     <ItemTemplate>
-                                                                        <img src="<%# "uploadedFiles/database/shopinfo/" + Eval("shopInfoName").ToString().ToLower().Replace(" ", "") + "_"+Eval("shopInfoContact").ToString().ToLower().Replace(" ", "") + "/" + Eval("photoName")  %>"
+                                                                        <img src="<%# "uploadedFiles/database/shopinfo/" + Eval("shopInfoID").ToString().ToLower().Replace(" ", "") + "/" + Eval("photoName") %>"
                                                                             style="max-height: 200px; margin: 0px 4px">
                                                                     </ItemTemplate>
                                                                 </asp:DataList>

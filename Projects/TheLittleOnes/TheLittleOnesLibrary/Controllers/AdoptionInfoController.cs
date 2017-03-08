@@ -15,9 +15,7 @@ namespace TheLittleOnesLibrary.Controllers
     public class AdoptInfoController
     {
         private static AdoptInfoController AdoptInfoInfoCtrl;
-        private static AdoptInfoEntity adoptInfoEntity;
-        private static List<PhotoEntity> photoEntities;
-
+        
         public static AdoptInfoController getInstance()
         {
             if (AdoptInfoInfoCtrl == null)
@@ -139,7 +137,7 @@ namespace TheLittleOnesLibrary.Controllers
                     "  SHOPINFONAME LIKE @SEARCHVALUE ) "
                     );
 
-                LBLSearchResultAdoptInfo.Text = "Result for ";
+                LBLSearchResultAdoptInfo.Text = "Records for Adoption Info ";
                 if (!string.IsNullOrEmpty(tbSearchValue))
                 {
                     LBLSearchResultAdoptInfo.Text += string.Concat("\"", tbSearchValue, "\" ");
@@ -161,12 +159,14 @@ namespace TheLittleOnesLibrary.Controllers
                     sqlQuery += string.Concat(" AND (ADOPTINFOSTATUS = '", filterStatus, "') ");
                 }
 
-                oleDbCommand.CommandText = sqlQuery;
+                oleDbCommand.CommandText = string.Concat(sqlQuery, " ORDER BY AdoptInfo.adoptInfoID DESC ");
                 oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));
 
                 dataSet = dao.getRecord(oleDbCommand);
                 return dataSet.Tables[0];
             }
         }
+
+       
     }
 }

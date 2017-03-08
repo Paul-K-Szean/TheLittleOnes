@@ -6,6 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
@@ -17,8 +18,7 @@ namespace TheLittleOnesLibrary.Controllers
 
         private static AccountController accountCtrl;
         private static AccountEntity loggedInAccount;
-        private ProfileController profileCtrl;
-        private ProfileEntity profileEntity;
+
         public static AccountController getInstance()
         {
             if (accountCtrl == null)
@@ -34,7 +34,6 @@ namespace TheLittleOnesLibrary.Controllers
         public AccountController()
         {
             dao = DAO.getInstance();
-            profileCtrl = ProfileController.getInstance();
         }
 
         // Create account
@@ -44,8 +43,17 @@ namespace TheLittleOnesLibrary.Controllers
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("INSERT INTO ACCOUNT (ACCOUNTEMAIL,ACCOUNTPASSWORD,ACCOUNTTYPE,DATEJOINED)",
+                if (accountEntity.ShopInfoEntity == null)
+                {
+                    oleDbCommand.CommandText = string.Concat("INSERT INTO ACCOUNT ( ACCOUNTEMAIL,ACCOUNTPASSWORD,ACCOUNTTYPE, DATEJOINED)",
                                                          "VALUES (@ACCOUNTEMAIL,@ACCOUNTPASSWORD,@ACCOUNTTYPE, NOW());");
+                }
+                else
+                {
+                    oleDbCommand.CommandText = string.Concat("INSERT INTO ACCOUNT ( SHOPINFOID, ACCOUNTEMAIL,ACCOUNTPASSWORD,ACCOUNTTYPE, DATEJOINED)",
+                                                         "VALUES (@SHOPINFOID, @ACCOUNTEMAIL,@ACCOUNTPASSWORD,@ACCOUNTTYPE, NOW());");
+                    oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", accountEntity.ShopInfoEntity.ShopInfoID);
+                }
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTEMAIL", accountEntity.AccountEmail);
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTPASSWORD", accountEntity.AccountPassword);
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTTYPE", accountEntity.AccountType);
@@ -53,11 +61,9 @@ namespace TheLittleOnesLibrary.Controllers
                 int insertID = dao.createRecord(oleDbCommand);
                 if (insertID > 0)
                 {
-                    return new AccountEntity(insertID.ToString(),
-                        accountEntity.AccountEmail,
-                        accountEntity.AccountPassword,
-                        accountEntity.AccountType,
-                        accountEntity.DateJoined);
+                    accountEntity.AccountID = insertID.ToString();
+                    ProfileController.getInstance().createProfile(accountEntity.ProfileEntity, accountEntity.AccountID);
+                    return accountEntity;
                 }
                 else
                 {
@@ -66,6 +72,7 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
 
+        // Update account password
         public AccountEntity changePassword(AccountEntity accountEntity)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -84,6 +91,38 @@ namespace TheLittleOnesLibrary.Controllers
                 }
                 // return unedited accountEntity
                 return loggedInAccount;
+            }
+        }
+
+        // Retrieve account info
+        public AccountEntity getAccount(string accountID)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("SELECT * FROM ACCOUNT WHERE ACCOUNTID = @ACCOUNTID");
+                oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", accountID);
+
+                dataSet = dao.getRecord(oleDbCommand);
+                if (dataSet != null && dataSet.Tables[0].Rows.Count > 0)
+                {
+                    // logged in, instantial account 
+                    loggedInAccount = new AccountEntity(
+                        dataSet.Tables[0].Rows[0]["accountID"].ToString(),
+                        dataSet.Tables[0].Rows[0]["accountEmail"].ToString(),
+                        dataSet.Tables[0].Rows[0]["accountPassword"].ToString(),
+                        dataSet.Tables[0].Rows[0]["accountType"].ToString(),
+                        ProfileController.getInstance().logInProfile(accountID),
+                        ShopInfoController.getInstance().getShopInfo(dataSet.Tables[0].Rows[0]["shopInfoID"].ToString()),
+                        DateTime.Parse(dataSet.Tables[0].Rows[0]["dateJoined"].ToString()));
+                    return loggedInAccount;
+                }
+                else
+                {
+                    // cannot login, return null object
+                    return loggedInAccount = null;
+                }
             }
         }
 
@@ -118,7 +157,7 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.CommandText = string.Concat("SELECT * FROM ACCOUNT WHERE (ACCOUNTPASSWORD = @ACCOUNTPASSWORD) AND (ACCOUNTID = @ACCOUNTID)");
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTPASSWORD", accountOldPassword);
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", accountID);
-                
+
                 if (string.IsNullOrEmpty(dao.getValue(oleDbCommand)))
                 {
                     // empty = no password provided is invalid
@@ -130,6 +169,13 @@ namespace TheLittleOnesLibrary.Controllers
                     return true;
                 }
             }
+        }
+
+        // Get logged in account
+        public AccountEntity getLoggedInAccount()
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            return loggedInAccount;
         }
 
         // Sign in account
@@ -152,10 +198,10 @@ namespace TheLittleOnesLibrary.Controllers
                         dataSet.Tables[0].Rows[0]["accountEmail"].ToString(),
                         dataSet.Tables[0].Rows[0]["accountPassword"].ToString(),
                         dataSet.Tables[0].Rows[0]["accountType"].ToString(),
+                        ProfileController.getInstance().logInProfile(dataSet.Tables[0].Rows[0]["accountID"].ToString()),
+                        string.IsNullOrEmpty(dataSet.Tables[0].Rows[0]["shopInfoID"].ToString()) ? null :
+                        ShopInfoController.getInstance().getShopInfo(dataSet.Tables[0].Rows[0]["shopInfoID"].ToString()),
                         DateTime.Parse(dataSet.Tables[0].Rows[0]["dateJoined"].ToString()));
-                    // instantial profile
-                    profileEntity = profileCtrl.logInProfile(loggedInAccount);
-
                     return loggedInAccount;
                 }
                 else
@@ -166,47 +212,47 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
 
-        // Get logged in account
-        public AccountEntity getLoggedInAccount()
-        {
-            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            return loggedInAccount;
-        }
-
         // Sign out account
         public void SignOut()
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             loggedInAccount = null;
+            ProfileController.getInstance().SignOut();
             // signout account
 
         }
 
-        // Save edited account
-        public bool saveEditedAccount(AccountEntity accountEntity)
+        // Filter Data
+        public DataTable filterAccountInfoData(string filterAccountType, string tbSearchValue, Label LBLSearchResultSystemAccount)
         {
-            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            LBLSearchResultSystemAccount.ForeColor = Utility.getColorWhite();
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("UPDATE ACCOUNT SET ",
-                                                        "ACCOUNTPASSWORD = @ACCOUNTPASSWORD ",
-                                                        "WHERE ACCOUNTID = @ACCOUNTID");
-                oleDbCommand.Parameters.AddWithValue("@ACCOUNTNAME", string.Concat(accountEntity.AccountPassword));
-                oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", string.Concat(accountEntity.AccountID));
+                string sqlQuery = string.Concat("SELECT Account.shopInfoID, Account.accountID, Account.accountEmail, Account.accountType, Account.dateJoined, Profile.profileID, Profile.profileName, Profile.profileContact, Profile.profileAddress ",
+                    " FROM ACCOUNT INNER JOIN PROFILE ON ACCOUNT.ACCOUNTID = PROFILE.ACCOUNTID WHERE ",
+                    "( ACCOUNTEMAIL LIKE @SEARCHVALUE OR ",
+                    "  PROFILENAME LIKE @SEARCHVALUE OR ",
+                    "  PROFILECONTACT LIKE @SEARCHVALUE ) "
+                    );
 
-                int insertID = dao.updateRecord(oleDbCommand);
-                if (insertID > 0)
+                LBLSearchResultSystemAccount.Text = "Records for Account Info ";
+                if (!string.IsNullOrEmpty(tbSearchValue))
                 {
-                    // reutrn edited ACCOUNTEntity
-                    loggedInAccount = accountEntity;
-                    return true;
+                    LBLSearchResultSystemAccount.Text += string.Concat("\"", tbSearchValue, "\" ");
                 }
-                else
+
+                if (!string.IsNullOrEmpty(filterAccountType))
                 {
-                    // reutrn unedited profileEntity
-                    return false;
+                    LBLSearchResultSystemAccount.Text += string.Concat("\"", filterAccountType, "\" ");
+                    sqlQuery += string.Concat(" AND (ACCOUNTTYPE LIKE '", filterAccountType, "') ");
                 }
+
+                oleDbCommand.CommandText = string.Concat(sqlQuery, "ORDER BY ACCOUNT.ACCOUNTID DESC");
+                oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));
+
+                dataSet = dao.getRecord(oleDbCommand);
+                return dataSet.Tables[0];
             }
         }
     }
