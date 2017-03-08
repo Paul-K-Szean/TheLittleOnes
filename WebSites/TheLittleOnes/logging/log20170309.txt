@@ -4400,3 +4400,1026 @@
 20170309@03:13:26 [System] Record created! 
 20170309@03:13:26 [System] GVShopInfoOverview_DataBound 
 20170309@03:13:27 [System] GVShopInfoOverview_DataBound 
+20170309@03:20:29 [System] getLoggedInAccount 
+20170309@03:20:29 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170309@03:20:29 [System] getLoggedInAccount 
+20170309@03:20:36 [System] getLoggedInAccount 
+20170309@03:20:36 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170309@03:20:36 [System] getLoggedInAccount 
+20170309@03:20:36 [System] loginAccount 
+20170309@03:20:36 [System] getLoggedInAccount 
+20170309@03:20:36 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170309@03:20:36 [System] getLoggedInAccount 
+20170309@03:20:37 [System] getLoggedInAccount 
+20170309@03:20:37 [System] getLoggedInAccount 
+20170309@03:20:37 [System] GVPetInfoOverview_DataBound 
+20170309@03:20:37 [System] GVShopInfoOverview_DataBound 
+20170309@03:20:40 [System] getLoggedInAccount 
+20170309@03:20:40 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@03:20:40 [System] getLoggedInAccount 
+20170309@03:20:40 [System] getLoggedInAccount 
+20170309@03:20:40 [System] getLoggedInAccount 
+20170309@03:20:40 [System] GVShopInfoOverview_DataBound 
+20170309@03:20:43 [System] getLoggedInAccount 
+20170309@03:20:43 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@03:20:43 [System] getLoggedInAccount 
+20170309@03:20:43 [System] getLoggedInAccount 
+20170309@03:20:43 [System] getLoggedInAccount 
+20170309@03:20:43 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170309@03:20:43 [System] initializeUIControlValues 
+20170309@03:20:43 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170309@03:20:54 [System] getLoggedInAccount 
+20170309@03:20:54 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@03:20:54 [System] getLoggedInAccount 
+20170309@03:20:54 [System] getLoggedInAccount 
+20170309@03:20:55 [System] getLoggedInAccount 
+20170309@03:20:55 [System] BTNPreview_Click 
+20170309@03:20:55 [System] saveToTempFolder 
+20170309@03:20:55 [System] Check directory: ~/uploadedFiles/temp/shopinfo/000/. Result: True 
+20170309@03:20:55 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/000/ 
+20170309@03:20:55 [System] Total files posted: 1 
+20170309@03:20:55 [System] previewPhotos 
+20170309@03:20:55 [System] ~/uploadedFiles/temp/shopinfo/000//vintage_wallpaper_hd_image_desktop7.jpg 
+20170309@03:20:58 [System] getLoggedInAccount 
+20170309@03:20:58 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@03:20:58 [System] getLoggedInAccount 
+20170309@03:20:58 [System] getLoggedInAccount 
+20170309@03:20:58 [System] getLoggedInAccount 
+20170309@03:20:58 [System] updateShopInfo 
+20170309@03:20:58 [System] Record updated! 
+20170309@03:20:58 [System] deleteShopTime 
+20170309@03:20:58 [System] Record deleted! 
+20170309@03:20:58 [System] Record created! 
+20170309@03:20:58 [System] Record created! 
+20170309@03:20:58 [System] Record created! 
+20170309@03:20:58 [System] Record created! 
+20170309@03:20:58 [System] Record created! 
+20170309@03:20:58 [System] Record created! 
+20170309@03:20:58 [System] Record created! 
+20170309@03:20:58 [System] changePhotoPathToDatabaseFolder 
+20170309@03:20:58 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\000\ 
+20170309@03:20:58 [System] deletePhoto 
+20170309@03:20:58 [System] Record deleted! 
+20170309@03:20:58 [System] Record created! 
+20170309@03:20:58 [System] GVShopInfoOverview_DataBound 
+20170309@03:20:59 [System] GVShopInfoOverview_DataBound 
+20170309@03:21:34 [System] getLoggedInAccount 
+20170309@03:21:34 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@03:21:34 [System] getLoggedInAccount 
+20170309@03:21:34 [System] getLoggedInAccount 
+20170309@03:21:34 [System] getLoggedInAccount 
+20170309@03:21:38 [System] getLoggedInAccount 
+20170309@03:21:38 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@03:21:38 [System] getLoggedInAccount 
+20170309@03:21:38 [System] getLoggedInAccount 
+20170309@03:21:38 [System] getLoggedInAccount 
+20170309@03:21:38 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170309@03:21:38 [System] getAccount 
+20170309@03:21:45 [System] getLoggedInAccount 
+20170309@03:21:45 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@03:21:45 [System] getLoggedInAccount 
+20170309@03:21:45 [System] getLoggedInAccount 
+20170309@03:21:45 [System] getLoggedInAccount 
+20170309@03:21:45 [System] BTNPreview_Click 
+20170309@03:21:45 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/13_webadmin34 
+20170309@03:21:45 [System] saveToTempFolder 
+20170309@03:21:45 [System] Check directory: ~/uploadedFiles/temp/profileinfo/13_webadmin34. Result: False 
+20170309@03:21:45 [System] previewPhotos 
+20170309@03:21:52 [System] getLoggedInAccount 
+20170309@03:21:52 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@03:21:52 [System] getLoggedInAccount 
+20170309@03:21:52 [System] getLoggedInAccount 
+20170309@03:21:52 [System] getLoggedInAccount 
+20170309@03:21:52 [System] BTNPreview_Click 
+20170309@03:21:52 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/13_webadmin34 
+20170309@03:21:52 [System] saveToTempFolder 
+20170309@03:21:52 [System] Check directory: ~/uploadedFiles/temp/profileinfo/13_webadmin34. Result: True 
+20170309@03:21:52 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/13_webadmin34 
+20170309@03:21:52 [System] Total files posted: 1 
+20170309@03:21:52 [System] previewPhotos 
+20170309@03:21:52 [System] ~/uploadedFiles/temp/profileinfo/13_webadmin34/retro-wallpaper-36.jpg 
+20170309@03:22:52 [System] getLoggedInAccount 
+20170309@03:22:52 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@03:22:52 [System] getLoggedInAccount 
+20170309@03:22:52 [System] getLoggedInAccount 
+20170309@03:22:52 [System] getLoggedInAccount 
+20170309@03:22:52 [System] BTNPreview_Click 
+20170309@03:22:52 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/13_webadmin34 
+20170309@03:22:52 [System] saveToTempFolder 
+20170309@03:22:52 [System] Check directory: ~/uploadedFiles/temp/profileinfo/13_webadmin34. Result: True 
+20170309@03:22:52 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/13_webadmin34 
+20170309@03:22:52 [System] Total files posted: 1 
+20170309@03:22:52 [System] previewPhotos 
+20170309@03:22:52 [System] ~/uploadedFiles/temp/profileinfo/13_webadmin34/retro-wallpaper-36.jpg 
+20170309@03:22:56 [System] getLoggedInAccount 
+20170309@03:22:56 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@03:22:56 [System] getLoggedInAccount 
+20170309@03:22:56 [System] getLoggedInAccount 
+20170309@03:22:56 [System] getLoggedInAccount 
+20170309@03:22:58 [System] getLoggedInAccount 
+20170309@03:22:58 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@03:22:58 [System] getLoggedInAccount 
+20170309@03:22:58 [System] getLoggedInAccount 
+20170309@03:22:58 [System] getLoggedInAccount 
+20170309@03:22:58 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170309@03:22:58 [System] getAccount 
+20170309@03:23:03 [System] getLoggedInAccount 
+20170309@03:23:03 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@03:23:03 [System] getLoggedInAccount 
+20170309@03:23:03 [System] getLoggedInAccount 
+20170309@03:23:03 [System] getLoggedInAccount 
+20170309@03:23:03 [System] BTNPreview_Click 
+20170309@03:23:03 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/13_webadmin34 
+20170309@03:23:03 [System] saveToTempFolder 
+20170309@03:23:03 [System] Check directory: ~/uploadedFiles/temp/profileinfo/13_webadmin34. Result: True 
+20170309@03:23:03 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/13_webadmin34 
+20170309@03:23:03 [System] previewPhotos 
+20170309@03:23:20 [System] getLoggedInAccount 
+20170309@03:23:20 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@03:23:20 [System] getLoggedInAccount 
+20170309@03:23:20 [System] getLoggedInAccount 
+20170309@03:23:20 [System] getLoggedInAccount 
+20170309@03:23:20 [System] BTNPreview_Click 
+20170309@03:23:20 [System] filePath_UploadFolderTemp: ~/uploadedFiles/temp/profileinfo/13_webadmin34 
+20170309@03:23:20 [System] saveToTempFolder 
+20170309@03:23:20 [System] Check directory: ~/uploadedFiles/temp/profileinfo/13_webadmin34. Result: True 
+20170309@03:23:20 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/13_webadmin34 
+20170309@03:23:20 [System] Total files posted: 1 
+20170309@03:23:20 [System] previewPhotos 
+20170309@03:23:20 [System] ~/uploadedFiles/temp/profileinfo/13_webadmin34/pier_vintage-wallpaper-1920x1080.jpg 
+20170309@03:23:29 [System] getLoggedInAccount 
+20170309@03:23:29 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@03:23:29 [System] getLoggedInAccount 
+20170309@03:23:29 [System] getLoggedInAccount 
+20170309@03:23:29 [System] getLoggedInAccount 
+20170309@03:39:31 [System] getLoggedInAccount 
+20170309@03:39:31 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170309@03:39:31 [System] getLoggedInAccount 
+20170309@03:40:20 [System] getLoggedInAccount 
+20170309@03:40:20 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170309@03:40:20 [System] getLoggedInAccount 
+20170309@03:40:20 [System] loginAccount 
+20170309@03:40:20 [System] getLoggedInAccount 
+20170309@03:40:20 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170309@03:40:20 [System] getLoggedInAccount 
+20170309@03:40:20 [System] getLoggedInAccount 
+20170309@03:40:20 [System] getLoggedInAccount 
+20170309@03:40:20 [System] GVPetInfoOverview_DataBound 
+20170309@03:40:21 [System] GVShopInfoOverview_DataBound 
+20170309@03:40:23 [System] getLoggedInAccount 
+20170309@03:40:24 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:40:24 [System] getLoggedInAccount 
+20170309@03:40:24 [System] getLoggedInAccount 
+20170309@03:40:24 [System] getLoggedInAccount 
+20170309@03:40:24 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:40:34 [System] getLoggedInAccount 
+20170309@03:40:34 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:40:34 [System] getLoggedInAccount 
+20170309@03:40:34 [System] getLoggedInAccount 
+20170309@03:40:34 [System] getLoggedInAccount 
+20170309@03:40:34 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:40:39 [System] getLoggedInAccount 
+20170309@03:40:39 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:40:39 [System] getLoggedInAccount 
+20170309@03:40:39 [System] getLoggedInAccount 
+20170309@03:40:39 [System] getLoggedInAccount 
+20170309@03:40:39 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:40:47 [System] getLoggedInAccount 
+20170309@03:40:47 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:40:47 [System] getLoggedInAccount 
+20170309@03:40:47 [System] getLoggedInAccount 
+20170309@03:40:47 [System] getLoggedInAccount 
+20170309@03:40:50 [System] getLoggedInAccount 
+20170309@03:40:50 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:40:50 [System] getLoggedInAccount 
+20170309@03:40:50 [System] getLoggedInAccount 
+20170309@03:40:50 [System] getLoggedInAccount 
+20170309@03:40:59 [System] getLoggedInAccount 
+20170309@03:40:59 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:40:59 [System] getLoggedInAccount 
+20170309@03:40:59 [System] getLoggedInAccount 
+20170309@03:40:59 [System] getLoggedInAccount 
+20170309@03:40:59 [System] BTNPreview_Click 
+20170309@03:40:59 [System] saveToTempFolder 
+20170309@03:40:59 [System] Check directory: ~/uploadedFiles/temp/pet/000/. Result: False 
+20170309@03:40:59 [System] Total files posted: 1 
+20170309@03:40:59 [System] previewPhotos 
+20170309@03:40:59 [System] ~/uploadedFiles/temp/pet/000//600850.jpg 
+20170309@03:41:17 [System] getLoggedInAccount 
+20170309@03:41:17 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:41:17 [System] getLoggedInAccount 
+20170309@03:41:17 [System] getLoggedInAccount 
+20170309@03:41:17 [System] getLoggedInAccount 
+20170309@03:41:18 [System] No data found in getValue() 
+20170309@03:41:18 [System] changePhotoPathToDatabaseFolder 
+20170309@03:41:18 [System] Record created! 
+20170309@03:41:18 [System] Record created! 
+20170309@03:47:25 [System] getLoggedInAccount 
+20170309@03:47:25 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:47:25 [System] getLoggedInAccount 
+20170309@03:47:25 [System] getLoggedInAccount 
+20170309@03:47:25 [System] getLoggedInAccount 
+20170309@03:47:25 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:47:59 [System] getLoggedInAccount 
+20170309@03:47:59 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:47:59 [System] getLoggedInAccount 
+20170309@03:47:59 [System] getLoggedInAccount 
+20170309@03:47:59 [System] getLoggedInAccount 
+20170309@03:47:59 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:48:06 [System] getLoggedInAccount 
+20170309@03:48:06 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:48:06 [System] getLoggedInAccount 
+20170309@03:48:06 [System] getLoggedInAccount 
+20170309@03:48:06 [System] getLoggedInAccount 
+20170309@03:48:11 [System] getLoggedInAccount 
+20170309@03:48:11 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:48:11 [System] getLoggedInAccount 
+20170309@03:48:11 [System] getLoggedInAccount 
+20170309@03:48:11 [System] getLoggedInAccount 
+20170309@03:48:11 [System] getLoggedInAccount 
+20170309@03:48:11 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:48:11 [System] getLoggedInAccount 
+20170309@03:48:11 [System] getLoggedInAccount 
+20170309@03:48:11 [System] getLoggedInAccount 
+20170309@03:48:19 [System] getLoggedInAccount 
+20170309@03:48:20 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:48:20 [System] getLoggedInAccount 
+20170309@03:48:20 [System] getLoggedInAccount 
+20170309@03:48:20 [System] getLoggedInAccount 
+20170309@03:48:20 [System] BTNPreview_Click 
+20170309@03:48:20 [System] saveToTempFolder 
+20170309@03:48:20 [System] Check directory: ~/uploadedFiles/temp/pet/000/. Result: False 
+20170309@03:48:20 [System] Total files posted: 1 
+20170309@03:48:20 [System] previewPhotos 
+20170309@03:48:20 [System] ~/uploadedFiles/temp/pet/000//600850.jpg 
+20170309@03:48:29 [System] getLoggedInAccount 
+20170309@03:48:29 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:48:29 [System] getLoggedInAccount 
+20170309@03:48:29 [System] getLoggedInAccount 
+20170309@03:48:29 [System] getLoggedInAccount 
+20170309@03:48:29 [System] No data found in getValue() 
+20170309@03:48:29 [System] Record created! 
+20170309@03:48:29 [System] Record created! 
+20170309@03:48:29 [System] Record created! 
+20170309@03:48:29 [System] changePhotoPathToDatabaseFolder 
+20170309@03:52:23 [System] getLoggedInAccount 
+20170309@03:52:23 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170309@03:52:23 [System] getLoggedInAccount 
+20170309@03:52:49 [System] getLoggedInAccount 
+20170309@03:52:50 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170309@03:52:50 [System] getLoggedInAccount 
+20170309@03:52:50 [System] loginAccount 
+20170309@03:52:50 [System] getLoggedInAccount 
+20170309@03:52:50 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170309@03:52:50 [System] getLoggedInAccount 
+20170309@03:52:50 [System] getLoggedInAccount 
+20170309@03:52:50 [System] getLoggedInAccount 
+20170309@03:52:50 [System] GVPetInfoOverview_DataBound 
+20170309@03:52:50 [System] GVShopInfoOverview_DataBound 
+20170309@03:52:56 [System] getLoggedInAccount 
+20170309@03:52:56 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:52:56 [System] getLoggedInAccount 
+20170309@03:52:56 [System] getLoggedInAccount 
+20170309@03:52:56 [System] getLoggedInAccount 
+20170309@03:52:58 [System] getLoggedInAccount 
+20170309@03:52:58 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:52:58 [System] getLoggedInAccount 
+20170309@03:52:58 [System] getLoggedInAccount 
+20170309@03:52:58 [System] getLoggedInAccount 
+20170309@03:53:02 [System] getLoggedInAccount 
+20170309@03:53:02 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:53:02 [System] getLoggedInAccount 
+20170309@03:53:02 [System] getLoggedInAccount 
+20170309@03:53:02 [System] getLoggedInAccount 
+20170309@03:53:02 [System] BTNPreview_Click 
+20170309@03:53:02 [System] saveToTempFolder 
+20170309@03:53:02 [System] Check directory: ~/uploadedFiles/temp/pet/000/. Result: False 
+20170309@03:53:02 [System] Total files posted: 1 
+20170309@03:53:02 [System] previewPhotos 
+20170309@03:53:02 [System] ~/uploadedFiles/temp/pet/000//vintagewallpaperhighresolution.jpg 
+20170309@03:53:13 [System] getLoggedInAccount 
+20170309@03:53:13 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:53:13 [System] getLoggedInAccount 
+20170309@03:53:13 [System] getLoggedInAccount 
+20170309@03:53:13 [System] getLoggedInAccount 
+20170309@03:53:13 [System] No data found in getValue() 
+20170309@03:53:15 [System] createRecord() : Could not update; currently locked. 
+20170309@03:53:15 [System] createRecord() : Parameter @PETID has no default value. 
+20170309@03:53:57 [System] getLoggedInAccount 
+20170309@03:53:57 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoAdd.aspx 
+20170309@03:53:57 [System] getLoggedInAccount 
+20170309@03:53:57 [System] getLoggedInAccount 
+20170309@03:53:57 [System] getLoggedInAccount 
+20170309@03:53:57 [System] No data found in getValue() 
+20170309@03:53:57 [System] Record created! 
+20170309@03:53:57 [System] Record created! 
+20170309@03:53:57 [System] Record created! 
+20170309@03:53:57 [System] changePhotoPathToDatabaseFolder 
+20170309@03:53:57 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\pet\000\ 
+20170309@03:55:25 [System] getLoggedInAccount 
+20170309@03:55:25 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:55:25 [System] getLoggedInAccount 
+20170309@03:55:25 [System] getLoggedInAccount 
+20170309@03:55:25 [System] getLoggedInAccount 
+20170309@03:55:25 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:55:41 [System] getLoggedInAccount 
+20170309@03:55:41 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170309@03:55:41 [System] getLoggedInAccount 
+20170309@03:55:53 [System] getLoggedInAccount 
+20170309@03:55:53 [System] Page loaded: http://localhost:65063/AdminLogin.aspx 
+20170309@03:55:53 [System] getLoggedInAccount 
+20170309@03:55:53 [System] loginAccount 
+20170309@03:55:53 [System] getLoggedInAccount 
+20170309@03:55:53 [System] Page loaded: http://localhost:65063/AdminDashboard.aspx 
+20170309@03:55:53 [System] getLoggedInAccount 
+20170309@03:55:53 [System] getLoggedInAccount 
+20170309@03:55:53 [System] getLoggedInAccount 
+20170309@03:55:53 [System] GVPetInfoOverview_DataBound 
+20170309@03:55:53 [System] GVShopInfoOverview_DataBound 
+20170309@03:55:56 [System] getLoggedInAccount 
+20170309@03:55:56 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:55:56 [System] getLoggedInAccount 
+20170309@03:55:56 [System] getLoggedInAccount 
+20170309@03:55:56 [System] getLoggedInAccount 
+20170309@03:55:56 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:56:27 [System] getLoggedInAccount 
+20170309@03:56:27 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:56:27 [System] getLoggedInAccount 
+20170309@03:56:27 [System] getLoggedInAccount 
+20170309@03:56:27 [System] getLoggedInAccount 
+20170309@03:56:27 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:56:29 [System] getLoggedInAccount 
+20170309@03:56:29 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:56:29 [System] getLoggedInAccount 
+20170309@03:56:29 [System] getLoggedInAccount 
+20170309@03:56:29 [System] getLoggedInAccount 
+20170309@03:56:29 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170309@03:56:30 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170309@03:57:06 [System] getLoggedInAccount 
+20170309@03:57:06 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:57:06 [System] getLoggedInAccount 
+20170309@03:57:06 [System] getLoggedInAccount 
+20170309@03:57:06 [System] getLoggedInAccount 
+20170309@03:57:06 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:57:09 [System] getLoggedInAccount 
+20170309@03:57:09 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:57:09 [System] getLoggedInAccount 
+20170309@03:57:09 [System] getLoggedInAccount 
+20170309@03:57:09 [System] getLoggedInAccount 
+20170309@03:57:09 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170309@03:57:09 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170309@03:58:26 [System] getLoggedInAccount 
+20170309@03:58:26 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:58:26 [System] getLoggedInAccount 
+20170309@03:58:26 [System] getLoggedInAccount 
+20170309@03:58:26 [System] getLoggedInAccount 
+20170309@03:58:26 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:58:29 [System] getLoggedInAccount 
+20170309@03:58:29 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:58:29 [System] getLoggedInAccount 
+20170309@03:58:29 [System] getLoggedInAccount 
+20170309@03:58:29 [System] getLoggedInAccount 
+20170309@03:58:29 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170309@03:58:30 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170309@03:58:35 [System] getLoggedInAccount 
+20170309@03:58:35 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:58:35 [System] getLoggedInAccount 
+20170309@03:58:35 [System] getLoggedInAccount 
+20170309@03:58:35 [System] getLoggedInAccount 
+20170309@03:58:35 [System] BTNPreview_Click 
+20170309@03:58:35 [System] saveToTempFolder 
+20170309@03:58:35 [System] Check directory: ~/uploadedFiles/temp/pet/000/. Result: True 
+20170309@03:58:35 [System] Removing old files: ~/uploadedFiles/temp/pet/000/ 
+20170309@03:58:35 [System] Total files posted: 1 
+20170309@03:58:35 [System] previewPhotos 
+20170309@03:58:35 [System] ~/uploadedFiles/temp/pet/000//vintage-flower-hd-wallpaper.jpg 
+20170309@03:58:39 [System] getLoggedInAccount 
+20170309@03:58:39 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@03:58:39 [System] getLoggedInAccount 
+20170309@03:58:39 [System] getLoggedInAccount 
+20170309@03:58:39 [System] getLoggedInAccount 
+20170309@03:58:39 [System] updateAdoptInfo 
+20170309@03:58:39 [System] Record updated! 
+20170309@03:58:39 [System] updatePet 
+20170309@03:58:39 [System] Record updated! 
+20170309@03:58:39 [System] changePhotoPathToDatabaseFolder 
+20170309@03:58:39 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\pet\000\ 
+20170309@03:58:39 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\database\pet\ 
+20170309@03:58:39 [System] deletePhoto 
+20170309@03:58:39 [System] Record deleted! 
+20170309@03:58:39 [System] Record created! 
+20170309@03:58:39 [System] GVAdoptInfoOverview_DataBound 
+20170309@03:58:40 [System] GVAdoptInfoOverview_DataBound 
+20170309@04:00:11 [System] getLoggedInAccount 
+20170309@04:00:11 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@04:00:11 [System] getLoggedInAccount 
+20170309@04:00:11 [System] getLoggedInAccount 
+20170309@04:00:12 [System] getLoggedInAccount 
+20170309@04:00:12 [System] BTNPreview_Click 
+20170309@04:00:12 [System] saveToTempFolder 
+20170309@04:00:12 [System] Check directory: ~/uploadedFiles/temp/pet/000/. Result: True 
+20170309@04:00:12 [System] Removing old files: ~/uploadedFiles/temp/pet/000/ 
+20170309@04:00:12 [System] Total files posted: 1 
+20170309@04:00:12 [System] previewPhotos 
+20170309@04:00:12 [System] ~/uploadedFiles/temp/pet/000//retro-wallpaper-36.jpg 
+20170309@04:00:17 [System] getLoggedInAccount 
+20170309@04:00:17 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@04:00:17 [System] getLoggedInAccount 
+20170309@04:00:17 [System] getLoggedInAccount 
+20170309@04:00:17 [System] getLoggedInAccount 
+20170309@04:00:17 [System] BTNPreview_Click 
+20170309@04:00:17 [System] saveToTempFolder 
+20170309@04:00:17 [System] Check directory: ~/uploadedFiles/temp/pet/000/. Result: True 
+20170309@04:00:17 [System] Removing old files: ~/uploadedFiles/temp/pet/000/ 
+20170309@04:00:17 [System] Total files posted: 1 
+20170309@04:00:17 [System] previewPhotos 
+20170309@04:00:17 [System] ~/uploadedFiles/temp/pet/000//retro-wallpaper-36.jpg 
+20170309@04:00:19 [System] getLoggedInAccount 
+20170309@04:00:19 [System] Page loaded: http://localhost:65063/AdminAdoptionInfoEdit.aspx 
+20170309@04:00:19 [System] getLoggedInAccount 
+20170309@04:00:19 [System] getLoggedInAccount 
+20170309@04:00:19 [System] getLoggedInAccount 
+20170309@04:00:20 [System] updateAdoptInfo 
+20170309@04:00:20 [System] Record updated! 
+20170309@04:00:20 [System] updatePet 
+20170309@04:00:20 [System] Record updated! 
+20170309@04:00:20 [System] changePhotoPathToDatabaseFolder 
+20170309@04:00:20 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\pet\000\ 
+20170309@04:00:20 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\database\pet\15\ 
+20170309@04:00:20 [System] deletePhoto 
+20170309@04:00:20 [System] Record deleted! 
+20170309@04:00:20 [System] Record created! 
+20170309@04:00:20 [System] GVAdoptInfoOverview_DataBound 
+20170309@04:00:20 [System] GVAdoptInfoOverview_DataBound 
+20170309@04:00:42 [System] getLoggedInAccount 
+20170309@04:00:42 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:00:42 [System] getLoggedInAccount 
+20170309@04:00:42 [System] getLoggedInAccount 
+20170309@04:00:42 [System] getLoggedInAccount 
+20170309@04:00:42 [System] GVShopInfoOverview_DataBound 
+20170309@04:00:44 [System] getLoggedInAccount 
+20170309@04:00:44 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:00:44 [System] getLoggedInAccount 
+20170309@04:00:44 [System] getLoggedInAccount 
+20170309@04:00:44 [System] getLoggedInAccount 
+20170309@04:00:44 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170309@04:00:44 [System] initializeUIControlValues 
+20170309@04:00:45 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170309@04:00:49 [System] getLoggedInAccount 
+20170309@04:00:49 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:00:49 [System] getLoggedInAccount 
+20170309@04:00:49 [System] getLoggedInAccount 
+20170309@04:00:49 [System] getLoggedInAccount 
+20170309@04:00:49 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170309@04:00:49 [System] initializeUIControlValues 
+20170309@04:00:49 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170309@04:01:12 [System] getLoggedInAccount 
+20170309@04:01:12 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:01:12 [System] getLoggedInAccount 
+20170309@04:01:12 [System] getLoggedInAccount 
+20170309@04:01:12 [System] getLoggedInAccount 
+20170309@04:01:12 [System] updateShopInfo 
+20170309@04:01:12 [System] Record updated! 
+20170309@04:01:12 [System] deleteShopTime 
+20170309@04:01:12 [System] Record not deleted! Please check through given parameter values 
+20170309@04:01:12 [System] Record created! 
+20170309@04:01:12 [System] Record created! 
+20170309@04:01:12 [System] Record created! 
+20170309@04:01:12 [System] GVShopInfoOverview_DataBound 
+20170309@04:01:12 [System] GVShopInfoOverview_DataBound 
+20170309@04:01:22 [System] getLoggedInAccount 
+20170309@04:01:22 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:01:22 [System] getLoggedInAccount 
+20170309@04:01:22 [System] getLoggedInAccount 
+20170309@04:01:22 [System] getLoggedInAccount 
+20170309@04:01:22 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170309@04:01:22 [System] initializeUIControlValues 
+20170309@04:01:22 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170309@04:01:28 [System] getLoggedInAccount 
+20170309@04:01:28 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:01:28 [System] getLoggedInAccount 
+20170309@04:01:28 [System] getLoggedInAccount 
+20170309@04:01:28 [System] getLoggedInAccount 
+20170309@04:01:28 [System] updateShopInfo 
+20170309@04:01:28 [System] Record updated! 
+20170309@04:01:29 [System] deleteShopTime 
+20170309@04:01:29 [System] Record deleted! 
+20170309@04:01:29 [System] Record created! 
+20170309@04:01:29 [System] Record created! 
+20170309@04:01:29 [System] Record created! 
+20170309@04:01:29 [System] Record created! 
+20170309@04:01:29 [System] Record created! 
+20170309@04:01:29 [System] GVShopInfoOverview_DataBound 
+20170309@04:01:29 [System] GVShopInfoOverview_DataBound 
+20170309@04:01:38 [System] getLoggedInAccount 
+20170309@04:01:38 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:01:38 [System] getLoggedInAccount 
+20170309@04:01:38 [System] getLoggedInAccount 
+20170309@04:01:38 [System] getLoggedInAccount 
+20170309@04:01:38 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170309@04:01:38 [System] initializeUIControlValues 
+20170309@04:01:38 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170309@04:01:44 [System] getLoggedInAccount 
+20170309@04:01:44 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:01:44 [System] getLoggedInAccount 
+20170309@04:01:44 [System] getLoggedInAccount 
+20170309@04:01:44 [System] getLoggedInAccount 
+20170309@04:01:44 [System] updateShopInfo 
+20170309@04:01:44 [System] Record updated! 
+20170309@04:01:44 [System] deleteShopTime 
+20170309@04:01:44 [System] Record not deleted! Please check through given parameter values 
+20170309@04:01:44 [System] Record created! 
+20170309@04:01:44 [System] Record created! 
+20170309@04:01:44 [System] Record created! 
+20170309@04:01:44 [System] Record created! 
+20170309@04:01:44 [System] Record created! 
+20170309@04:01:44 [System] GVShopInfoOverview_DataBound 
+20170309@04:01:44 [System] GVShopInfoOverview_DataBound 
+20170309@04:02:00 [System] getLoggedInAccount 
+20170309@04:02:00 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:02:00 [System] getLoggedInAccount 
+20170309@04:02:00 [System] getLoggedInAccount 
+20170309@04:02:00 [System] getLoggedInAccount 
+20170309@04:02:00 [System] BTNPreview_Click 
+20170309@04:02:00 [System] saveToTempFolder 
+20170309@04:02:00 [System] Check directory: ~/uploadedFiles/temp/shopinfo/000/. Result: False 
+20170309@04:02:00 [System] Total files posted: 1 
+20170309@04:02:00 [System] previewPhotos 
+20170309@04:02:00 [System] ~/uploadedFiles/temp/shopinfo/000//vintage-road-hd-wallpaper.jpg 
+20170309@04:02:11 [System] getLoggedInAccount 
+20170309@04:02:11 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:02:11 [System] getLoggedInAccount 
+20170309@04:02:11 [System] getLoggedInAccount 
+20170309@04:02:11 [System] getLoggedInAccount 
+20170309@04:02:11 [System] updateShopInfo 
+20170309@04:02:11 [System] Record updated! 
+20170309@04:02:11 [System] deleteShopTime 
+20170309@04:02:11 [System] Record deleted! 
+20170309@04:02:11 [System] Record created! 
+20170309@04:02:11 [System] Record created! 
+20170309@04:02:11 [System] Record created! 
+20170309@04:02:12 [System] Record created! 
+20170309@04:02:12 [System] Record created! 
+20170309@04:02:12 [System] changePhotoPathToDatabaseFolder 
+20170309@04:02:12 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\000\ 
+20170309@04:02:12 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\database\shopinfo\32\ 
+20170309@04:02:12 [System] deletePhoto 
+20170309@04:02:12 [System] Record not deleted! Please check through given parameter values 
+20170309@04:02:12 [System] Record created! 
+20170309@04:02:12 [System] GVShopInfoOverview_DataBound 
+20170309@04:02:12 [System] GVShopInfoOverview_DataBound 
+20170309@04:02:19 [System] getLoggedInAccount 
+20170309@04:02:19 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170309@04:02:19 [System] getLoggedInAccount 
+20170309@04:02:19 [System] initializeUIControlValues 
+20170309@04:02:19 [System] getLoggedInAccount 
+20170309@04:02:19 [System] getLoggedInAccount 
+20170309@04:02:22 [System] getLoggedInAccount 
+20170309@04:02:22 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170309@04:02:22 [System] getLoggedInAccount 
+20170309@04:02:22 [System] getLoggedInAccount 
+20170309@04:02:22 [System] getLoggedInAccount 
+20170309@04:02:23 [System] 6 32 
+20170309@04:02:49 [System] getLoggedInAccount 
+20170309@04:02:49 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170309@04:02:49 [System] getLoggedInAccount 
+20170309@04:02:49 [System] getLoggedInAccount 
+20170309@04:02:49 [System] getLoggedInAccount 
+20170309@04:02:49 [System] BTNPreview_Click 
+20170309@04:02:49 [System] saveToTempFolder 
+20170309@04:02:49 [System] Check directory: ~/uploadedFiles/temp/shopinfo/000/. Result: True 
+20170309@04:02:49 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/000/ 
+20170309@04:02:49 [System] Total files posted: 1 
+20170309@04:02:49 [System] previewPhotos 
+20170309@04:02:49 [System] ~/uploadedFiles/temp/shopinfo/000//600850.jpg 
+20170309@04:02:56 [System] getLoggedInAccount 
+20170309@04:02:56 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170309@04:02:56 [System] getLoggedInAccount 
+20170309@04:02:56 [System] getLoggedInAccount 
+20170309@04:02:56 [System] getLoggedInAccount 
+20170309@04:02:56 [System] BTNAdd_Click 
+20170309@04:02:56 [System] No data found in getValue() 
+20170309@04:02:56 [System] Record created! 
+20170309@04:02:56 [System] Record created! 
+20170309@04:02:56 [System] Record created! 
+20170309@04:02:56 [System] Record created! 
+20170309@04:02:56 [System] Record created! 
+20170309@04:02:56 [System] Record created! 
+20170309@04:02:57 [System] Record created! 
+20170309@04:02:57 [System] Record created! 
+20170309@04:02:57 [System] changePhotoPathToDatabaseFolder 
+20170309@04:02:57 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\000\ 
+20170309@04:02:57 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\database\shopinfo\33\ 
+20170309@04:03:09 [System] getLoggedInAccount 
+20170309@04:03:09 [System] Page loaded: http://localhost:65063/AdminShopInfoAdd.aspx 
+20170309@04:03:09 [System] getLoggedInAccount 
+20170309@04:03:09 [System] getLoggedInAccount 
+20170309@04:03:09 [System] getLoggedInAccount 
+20170309@04:03:09 [System] BTNAdd_Click 
+20170309@04:03:09 [System] getValue() is Pet Lovers Centre Hillview Rise 
+20170309@04:03:09 [System] MessageHandler : Shop info already exists 
+20170309@04:03:12 [System] getLoggedInAccount 
+20170309@04:03:12 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:03:12 [System] getLoggedInAccount 
+20170309@04:03:12 [System] getLoggedInAccount 
+20170309@04:03:12 [System] getLoggedInAccount 
+20170309@04:03:12 [System] GVShopInfoOverview_DataBound 
+20170309@04:03:20 [System] getLoggedInAccount 
+20170309@04:03:20 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:03:20 [System] getLoggedInAccount 
+20170309@04:03:20 [System] getLoggedInAccount 
+20170309@04:03:20 [System] getLoggedInAccount 
+20170309@04:03:20 [System] GVShopInfoOverview_DataBound 
+20170309@04:03:21 [System] getLoggedInAccount 
+20170309@04:03:21 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:03:21 [System] getLoggedInAccount 
+20170309@04:03:21 [System] getLoggedInAccount 
+20170309@04:03:21 [System] getLoggedInAccount 
+20170309@04:03:21 [System] GVShopInfoOverview_DataBound 
+20170309@04:03:22 [System] getLoggedInAccount 
+20170309@04:03:22 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:03:22 [System] getLoggedInAccount 
+20170309@04:03:22 [System] getLoggedInAccount 
+20170309@04:03:22 [System] getLoggedInAccount 
+20170309@04:03:22 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170309@04:03:22 [System] initializeUIControlValues 
+20170309@04:03:22 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170309@04:03:25 [System] getLoggedInAccount 
+20170309@04:03:25 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:03:25 [System] getLoggedInAccount 
+20170309@04:03:25 [System] getLoggedInAccount 
+20170309@04:03:25 [System] getLoggedInAccount 
+20170309@04:03:25 [System] updateShopInfo 
+20170309@04:03:25 [System] Record updated! 
+20170309@04:03:26 [System] deleteShopTime 
+20170309@04:03:26 [System] Record deleted! 
+20170309@04:03:26 [System] Record created! 
+20170309@04:03:26 [System] Record created! 
+20170309@04:03:26 [System] Record created! 
+20170309@04:03:26 [System] Record created! 
+20170309@04:03:26 [System] Record created! 
+20170309@04:03:26 [System] GVShopInfoOverview_DataBound 
+20170309@04:03:26 [System] GVShopInfoOverview_DataBound 
+20170309@04:03:31 [System] getLoggedInAccount 
+20170309@04:03:31 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170309@04:03:31 [System] getLoggedInAccount 
+20170309@04:03:31 [System] getLoggedInAccount 
+20170309@04:03:31 [System] getLoggedInAccount 
+20170309@04:03:33 [System] getLoggedInAccount 
+20170309@04:03:33 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170309@04:03:33 [System] getLoggedInAccount 
+20170309@04:03:33 [System] getLoggedInAccount 
+20170309@04:03:33 [System] getLoggedInAccount 
+20170309@04:03:33 [System] BTNGenerate_Click 
+20170309@04:03:50 [System] getLoggedInAccount 
+20170309@04:03:50 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170309@04:03:50 [System] getLoggedInAccount 
+20170309@04:03:51 [System] getLoggedInAccount 
+20170309@04:03:51 [System] getLoggedInAccount 
+20170309@04:03:51 [System] BTNPreview_Click 
+20170309@04:03:51 [System] saveToTempFolder 
+20170309@04:03:51 [System] Check directory: ~/uploadedFiles/temp/petinfo/000/. Result: False 
+20170309@04:03:51 [System] Total files posted: 1 
+20170309@04:03:51 [System] previewPhotos 
+20170309@04:03:51 [System] ~/uploadedFiles/temp/petinfo/000//germanshepherd100.jpg 
+20170309@04:03:59 [System] getLoggedInAccount 
+20170309@04:03:59 [System] Page loaded: http://localhost:65063/AdminPetInfoAdd.aspx 
+20170309@04:03:59 [System] getLoggedInAccount 
+20170309@04:03:59 [System] getLoggedInAccount 
+20170309@04:03:59 [System] getLoggedInAccount 
+20170309@04:03:59 [System] BTNAdd_Click 
+20170309@04:03:59 [System] No data found in getValue() 
+20170309@04:03:59 [System] Record created! 
+20170309@04:03:59 [System] Record created! 
+20170309@04:03:59 [System] Record created! 
+20170309@04:03:59 [System] changePhotoPathToDatabaseFolder 
+20170309@04:03:59 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\000\ 
+20170309@04:03:59 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\database\petinfo\54\ 
+20170309@04:04:08 [System] getLoggedInAccount 
+20170309@04:04:08 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:04:08 [System] getLoggedInAccount 
+20170309@04:04:08 [System] getLoggedInAccount 
+20170309@04:04:08 [System] getLoggedInAccount 
+20170309@04:04:08 [System] GVPetInfoOverview_DataBound 
+20170309@04:04:15 [System] getLoggedInAccount 
+20170309@04:04:15 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:04:15 [System] getLoggedInAccount 
+20170309@04:04:15 [System] getLoggedInAccount 
+20170309@04:04:15 [System] getLoggedInAccount 
+20170309@04:04:15 [System] GVPetInfoOverview_DataBound 
+20170309@04:04:15 [System] getLoggedInAccount 
+20170309@04:04:15 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:04:15 [System] getLoggedInAccount 
+20170309@04:04:15 [System] getLoggedInAccount 
+20170309@04:04:15 [System] getLoggedInAccount 
+20170309@04:04:16 [System] getLoggedInAccount 
+20170309@04:04:16 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:04:16 [System] getLoggedInAccount 
+20170309@04:04:16 [System] getLoggedInAccount 
+20170309@04:04:16 [System] getLoggedInAccount 
+20170309@04:04:16 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170309@04:04:16 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:04:16 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:04:16 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:04:16 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:04:52 [System] getLoggedInAccount 
+20170309@04:04:52 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:04:52 [System] getLoggedInAccount 
+20170309@04:04:52 [System] getLoggedInAccount 
+20170309@04:04:52 [System] getLoggedInAccount 
+20170309@04:04:52 [System] GVPetInfoOverview_DataBound 
+20170309@04:04:54 [System] getLoggedInAccount 
+20170309@04:04:54 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:04:54 [System] getLoggedInAccount 
+20170309@04:04:54 [System] MessageHandler : Result for "" 
+20170309@04:04:54 [System] getLoggedInAccount 
+20170309@04:04:54 [System] getLoggedInAccount 
+20170309@04:04:54 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170309@04:04:54 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:04:54 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:04:54 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:04:54 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:01 [System] getLoggedInAccount 
+20170309@04:05:01 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:05:01 [System] getLoggedInAccount 
+20170309@04:05:01 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:01 [System] MessageHandler : Result for "" 
+20170309@04:05:01 [System] getLoggedInAccount 
+20170309@04:05:01 [System] getLoggedInAccount 
+20170309@04:05:01 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170309@04:05:01 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:01 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:01 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:01 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:02 [System] getLoggedInAccount 
+20170309@04:05:02 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:05:02 [System] getLoggedInAccount 
+20170309@04:05:02 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:02 [System] MessageHandler : Result for "" 
+20170309@04:05:02 [System] getLoggedInAccount 
+20170309@04:05:02 [System] getLoggedInAccount 
+20170309@04:05:02 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170309@04:05:02 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:02 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:02 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:02 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:03 [System] getLoggedInAccount 
+20170309@04:05:03 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:05:03 [System] getLoggedInAccount 
+20170309@04:05:03 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:03 [System] MessageHandler : Result for "" 
+20170309@04:05:03 [System] getLoggedInAccount 
+20170309@04:05:03 [System] getLoggedInAccount 
+20170309@04:05:03 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170309@04:05:03 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:03 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:03 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:03 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:04 [System] getLoggedInAccount 
+20170309@04:05:04 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:05:04 [System] getLoggedInAccount 
+20170309@04:05:04 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:04 [System] MessageHandler : Result for "" 
+20170309@04:05:04 [System] getLoggedInAccount 
+20170309@04:05:04 [System] getLoggedInAccount 
+20170309@04:05:04 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170309@04:05:04 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:04 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:04 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:04 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:05 [System] getLoggedInAccount 
+20170309@04:05:05 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:05:05 [System] getLoggedInAccount 
+20170309@04:05:05 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:05 [System] MessageHandler : Result for "" 
+20170309@04:05:05 [System] getLoggedInAccount 
+20170309@04:05:05 [System] getLoggedInAccount 
+20170309@04:05:05 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170309@04:05:05 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:05 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:05 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:05 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:07 [System] getLoggedInAccount 
+20170309@04:05:07 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:05:07 [System] getLoggedInAccount 
+20170309@04:05:07 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:07 [System] MessageHandler : Result for "" 
+20170309@04:05:07 [System] getLoggedInAccount 
+20170309@04:05:07 [System] getLoggedInAccount 
+20170309@04:05:07 [System] DLPetInfoDetails_EditCommand 
+20170309@04:05:07 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:07 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:15 [System] getLoggedInAccount 
+20170309@04:05:15 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:05:15 [System] getLoggedInAccount 
+20170309@04:05:15 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:15 [System] MessageHandler : Result for "" 
+20170309@04:05:15 [System] getLoggedInAccount 
+20170309@04:05:15 [System] getLoggedInAccount 
+20170309@04:05:15 [System] BTNPreview_Click 
+20170309@04:05:15 [System] saveToTempFolder 
+20170309@04:05:15 [System] Check directory: ~/uploadedFiles/temp/petinfo/000/. Result: True 
+20170309@04:05:15 [System] Removing old files: ~/uploadedFiles/temp/petinfo/000/ 
+20170309@04:05:15 [System] Total files posted: 4 
+20170309@04:05:15 [System] previewPhotos 
+20170309@04:05:15 [System] ~/uploadedFiles/temp/petinfo/000//germanshepherd000.jpg 
+20170309@04:05:15 [System] ~/uploadedFiles/temp/petinfo/000//germanshepherd001.jpg 
+20170309@04:05:15 [System] ~/uploadedFiles/temp/petinfo/000//germanshepherd100.jpg 
+20170309@04:05:15 [System] ~/uploadedFiles/temp/petinfo/000//germanshepherd101.jpg 
+20170309@04:05:21 [System] getLoggedInAccount 
+20170309@04:05:21 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:05:21 [System] getLoggedInAccount 
+20170309@04:05:21 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:21 [System] MessageHandler : Result for "" 
+20170309@04:05:21 [System] getLoggedInAccount 
+20170309@04:05:21 [System] getLoggedInAccount 
+20170309@04:05:21 [System] DLPetInfoDetails_UpdateCommand 
+20170309@04:05:21 [System] updatePetInfo 
+20170309@04:05:21 [System] Record updated! 
+20170309@04:05:21 [System] changePhotoPathToDatabaseFolder 
+20170309@04:05:21 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\000\ 
+20170309@04:05:21 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\database\petinfo\ 
+20170309@04:05:21 [System] deletePhoto 
+20170309@04:05:21 [System] Record deleted! 
+20170309@04:05:21 [System] Record created! 
+20170309@04:05:21 [System] Record created! 
+20170309@04:05:21 [System] Record created! 
+20170309@04:05:21 [System] Record created! 
+20170309@04:05:21 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:05:22 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:05:22 [System] GVPetInfoOverview_DataBound 
+20170309@04:07:03 [System] getLoggedInAccount 
+20170309@04:07:03 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:07:03 [System] getLoggedInAccount 
+20170309@04:07:03 [System] getLoggedInAccount 
+20170309@04:07:03 [System] getLoggedInAccount 
+20170309@04:07:03 [System] GVPetInfoOverview_DataBound 
+20170309@04:07:05 [System] getLoggedInAccount 
+20170309@04:07:05 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:07:05 [System] getLoggedInAccount 
+20170309@04:07:05 [System] MessageHandler : Result for "" 
+20170309@04:07:05 [System] getLoggedInAccount 
+20170309@04:07:05 [System] getLoggedInAccount 
+20170309@04:07:05 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170309@04:07:05 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:07:05 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:07:05 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:07:05 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:07:07 [System] getLoggedInAccount 
+20170309@04:07:07 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:07:07 [System] getLoggedInAccount 
+20170309@04:07:07 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:07:07 [System] MessageHandler : Result for "" 
+20170309@04:07:07 [System] getLoggedInAccount 
+20170309@04:07:07 [System] getLoggedInAccount 
+20170309@04:07:07 [System] DLPetInfoDetails_EditCommand 
+20170309@04:07:07 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:07:07 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:07:13 [System] getLoggedInAccount 
+20170309@04:07:13 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:07:13 [System] getLoggedInAccount 
+20170309@04:07:13 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:07:13 [System] MessageHandler : Result for "" 
+20170309@04:07:13 [System] getLoggedInAccount 
+20170309@04:07:13 [System] getLoggedInAccount 
+20170309@04:07:13 [System] BTNPreview_Click 
+20170309@04:07:13 [System] saveToTempFolder 
+20170309@04:07:13 [System] Check directory: ~/uploadedFiles/temp/petinfo/000/. Result: True 
+20170309@04:07:13 [System] Removing old files: ~/uploadedFiles/temp/petinfo/000/ 
+20170309@04:07:13 [System] Total files posted: 4 
+20170309@04:07:13 [System] previewPhotos 
+20170309@04:07:13 [System] ~/uploadedFiles/temp/petinfo/000//germanshepherd000.jpg 
+20170309@04:07:13 [System] ~/uploadedFiles/temp/petinfo/000//germanshepherd001.jpg 
+20170309@04:07:13 [System] ~/uploadedFiles/temp/petinfo/000//germanshepherd100.jpg 
+20170309@04:07:13 [System] ~/uploadedFiles/temp/petinfo/000//germanshepherd101.jpg 
+20170309@04:07:18 [System] getLoggedInAccount 
+20170309@04:07:18 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:07:18 [System] getLoggedInAccount 
+20170309@04:07:18 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:07:18 [System] MessageHandler : Result for "" 
+20170309@04:07:18 [System] getLoggedInAccount 
+20170309@04:07:18 [System] getLoggedInAccount 
+20170309@04:07:18 [System] DLPetInfoDetails_UpdateCommand 
+20170309@04:07:18 [System] updatePetInfo 
+20170309@04:07:18 [System] Record updated! 
+20170309@04:07:18 [System] changePhotoPathToDatabaseFolder 
+20170309@04:07:18 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\petinfo\000\ 
+20170309@04:07:18 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\database\petinfo\54\ 
+20170309@04:07:18 [System] deletePhoto 
+20170309@04:07:18 [System] Record deleted! 
+20170309@04:07:18 [System] Record created! 
+20170309@04:07:18 [System] Record created! 
+20170309@04:07:18 [System] Record created! 
+20170309@04:07:18 [System] Record created! 
+20170309@04:07:19 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:07:19 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:07:19 [System] GVPetInfoOverview_DataBound 
+20170309@04:07:37 [System] getLoggedInAccount 
+20170309@04:07:37 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170309@04:07:37 [System] getLoggedInAccount 
+20170309@04:07:37 [System] getLoggedInAccount 
+20170309@04:07:37 [System] getLoggedInAccount 
+20170309@04:07:39 [System] getLoggedInAccount 
+20170309@04:07:39 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170309@04:07:39 [System] getLoggedInAccount 
+20170309@04:07:39 [System] getLoggedInAccount 
+20170309@04:07:39 [System] getLoggedInAccount 
+20170309@04:07:39 [System] BTNGenerate_Click 
+20170309@04:07:40 [System] getLoggedInAccount 
+20170309@04:07:40 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170309@04:07:40 [System] getLoggedInAccount 
+20170309@04:07:40 [System] getLoggedInAccount 
+20170309@04:07:40 [System] getLoggedInAccount 
+20170309@04:07:40 [System] BTNGenerate_Click 
+20170309@04:07:49 [System] getLoggedInAccount 
+20170309@04:07:49 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170309@04:07:49 [System] getLoggedInAccount 
+20170309@04:07:49 [System] getLoggedInAccount 
+20170309@04:07:49 [System] getLoggedInAccount 
+20170309@04:07:49 [System] BTNPreview_Click 
+20170309@04:07:49 [System] saveToTempFolder 
+20170309@04:07:49 [System] Check directory: ~/uploadedFiles/temp/profileinfo/000/. Result: False 
+20170309@04:07:49 [System] Total files posted: 1 
+20170309@04:07:49 [System] previewPhotos 
+20170309@04:07:49 [System] ~/uploadedFiles/temp/profileinfo/000//shop00.jpg 
+20170309@04:08:19 [System] getLoggedInAccount 
+20170309@04:08:19 [System] Page loaded: http://localhost:65063/AdminSystemAccountAdd.aspx 
+20170309@04:08:19 [System] getLoggedInAccount 
+20170309@04:08:19 [System] getLoggedInAccount 
+20170309@04:08:19 [System] getLoggedInAccount 
+20170309@04:08:19 [System] MessageHandler : Contact 
+20170309@04:08:19 [System] checkEmailAddressExist 
+20170309@04:08:19 [System] No data found in getValue() 
+20170309@04:08:19 [System] createAccount 
+20170309@04:08:19 [System] Record created! 
+20170309@04:08:19 [System] Record created! 
+20170309@04:08:19 [System] Record created! 
+20170309@04:08:19 [System] changePhotoPathToDatabaseFolder 
+20170309@04:08:19 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\profileinfo\000\ 
+20170309@04:08:19 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\database\profileinfo\17\ 
+20170309@04:08:57 [System] getLoggedInAccount 
+20170309@04:08:57 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:08:57 [System] getLoggedInAccount 
+20170309@04:08:57 [System] getLoggedInAccount 
+20170309@04:08:57 [System] getLoggedInAccount 
+20170309@04:08:57 [System] GVPetInfoOverview_DataBound 
+20170309@04:08:59 [System] getLoggedInAccount 
+20170309@04:08:59 [System] Page loaded: http://localhost:65063/AdminPetInfoEdit.aspx 
+20170309@04:08:59 [System] getLoggedInAccount 
+20170309@04:09:00 [System] MessageHandler : Result for "" 
+20170309@04:09:00 [System] getLoggedInAccount 
+20170309@04:09:00 [System] getLoggedInAccount 
+20170309@04:09:00 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170309@04:09:00 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:09:00 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:09:00 [System] DLPetInfoDetails_ItemCreated 
+20170309@04:09:00 [System] DLPetInfoDetails_ItemDataBound 
+20170309@04:09:10 [System] getLoggedInAccount 
+20170309@04:09:10 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:09:10 [System] getLoggedInAccount 
+20170309@04:09:10 [System] getLoggedInAccount 
+20170309@04:09:10 [System] getLoggedInAccount 
+20170309@04:09:11 [System] GVShopInfoOverview_DataBound 
+20170309@04:09:14 [System] getLoggedInAccount 
+20170309@04:09:14 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:09:14 [System] getLoggedInAccount 
+20170309@04:09:14 [System] getLoggedInAccount 
+20170309@04:09:14 [System] getLoggedInAccount 
+20170309@04:09:14 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170309@04:09:14 [System] initializeUIControlValues 
+20170309@04:09:14 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170309@04:09:21 [System] getLoggedInAccount 
+20170309@04:09:21 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:09:21 [System] getLoggedInAccount 
+20170309@04:09:21 [System] getLoggedInAccount 
+20170309@04:09:21 [System] getLoggedInAccount 
+20170309@04:09:21 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170309@04:09:21 [System] initializeUIControlValues 
+20170309@04:09:21 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170309@04:09:23 [System] getLoggedInAccount 
+20170309@04:09:23 [System] Page loaded: http://localhost:65063/AdminShopInfoEdit.aspx 
+20170309@04:09:23 [System] getLoggedInAccount 
+20170309@04:09:23 [System] getLoggedInAccount 
+20170309@04:09:23 [System] getLoggedInAccount 
+20170309@04:09:23 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170309@04:09:23 [System] initializeUIControlValues 
+20170309@04:09:23 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170309@04:09:27 [System] getLoggedInAccount 
+20170309@04:09:27 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@04:09:27 [System] getLoggedInAccount 
+20170309@04:09:27 [System] getLoggedInAccount 
+20170309@04:09:27 [System] getLoggedInAccount 
+20170309@04:09:44 [System] getLoggedInAccount 
+20170309@04:09:44 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@04:09:44 [System] getLoggedInAccount 
+20170309@04:09:44 [System] getLoggedInAccount 
+20170309@04:09:44 [System] getLoggedInAccount 
+20170309@04:09:45 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170309@04:09:45 [System] getAccount 
+20170309@04:09:47 [System] getLoggedInAccount 
+20170309@04:09:47 [System] Page loaded: http://localhost:65063/AdminSystemAccountEdit.aspx 
+20170309@04:09:47 [System] getLoggedInAccount 
+20170309@04:09:47 [System] getLoggedInAccount 
+20170309@04:09:47 [System] getLoggedInAccount 
+20170309@04:09:47 [System] GVSystemAccountOverview_SelectedIndexChanging 
+20170309@04:09:47 [System] getAccount 

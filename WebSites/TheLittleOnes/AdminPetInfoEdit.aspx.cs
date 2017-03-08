@@ -44,12 +44,9 @@ public partial class AdminPetInfoEdit : BasePage
     private string desc;
     private string personality;
     private string displayStatus;
-    private static PetCharEntity petCharEntity;
-    private static List<PhotoEntity> photoEntities;
 
     private string charOverallAdaptability;
 
-    private static string filePath_UploadFolderTemp;
     private static int gvPageSize = 5; // default
 
     // Page load
@@ -75,30 +72,11 @@ public partial class AdminPetInfoEdit : BasePage
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        if (events != null)
-        {
-            category = ((DropDownList)events.Item.FindControl("DDLCategory")).SelectedValue.Trim();
-            breed = ((TextBox)events.Item.FindControl("TBBreed")).Text.Trim();
-
-            // some variable to create folder
-            if (!string.IsNullOrEmpty(category) && !string.IsNullOrEmpty(breed))
-            {
-                MessageHandler.ClearMessage(LBLErrorMsg);
-                filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/petinfo/", category.ToLower().Replace(" ", "") + "/" + breed.ToLower().Replace(" ", "").ToString());
-                LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
-
-                // create temp files in temp foler
-                photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.PetInfo.ToString(), fileupload, filePath_UploadFolderTemp);
-
-                // preview photo
-                photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
-            }
-            else
-            {
-                MessageHandler.ErrorMessage(LBLErrorMsg, "Shop name and contact cannot be empty");
-            }
-        }
-
+        MessageHandler.ClearMessage(LBLErrorMsg);
+        // create temp files in temp foler
+        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.PetInfo.ToString(), fileupload);
+        // preview photo
+        photoCtrler.previewPhotos(photoPreview);
     }
     #endregion
 
@@ -189,7 +167,7 @@ public partial class AdminPetInfoEdit : BasePage
         if (petInfoEntity.PhotoEntities != null)
         {
             // change photo path to database instead of using temp
-            petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
+            petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, petInfoEntity.PetInfoID);
             // remove old photos from database
             photoCtrler.deletePhoto(petInfoEntity.PetInfoID, PhotoPurpose.PetInfo.ToString());
             // create new photos into database
@@ -557,7 +535,6 @@ public partial class AdminPetInfoEdit : BasePage
         petCharEntity = null;
         photoEntities = null;
         // photoPreview.InnerHtml = string.Empty;
-        filePath_UploadFolderTemp = string.Empty;
     }
     #endregion
 

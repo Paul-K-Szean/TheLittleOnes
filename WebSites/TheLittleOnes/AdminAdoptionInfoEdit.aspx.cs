@@ -23,7 +23,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
 
     private static int GVRowID;
     private static int gvPageSize = 5; // default
-    private static string filePath_UploadFolderTemp;
 
     private static DataTable dTableAdoptInfo;
 
@@ -37,10 +36,9 @@ public partial class AdminAdoptionInfoEdit : BasePage
 
         }
         else
-        { 
+        {
             // clear static data
             clearStaticData();
-            DDLShopInfo.DataBind();
         }
     }
 
@@ -49,26 +47,11 @@ public partial class AdminAdoptionInfoEdit : BasePage
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        string adoptPetBreed = DDLPetBreed.SelectedValue;
-        string adoptPetName = TBPetName.Text.Trim();
-
-        // some variable to create folder
-        if (!string.IsNullOrEmpty(adoptPetBreed) && !string.IsNullOrEmpty(adoptPetName))
-        {
-            MessageHandler.ClearMessage(LBLErrorMsg);
-            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/adoptinfo/", adoptPetBreed.ToLower().Replace(" ", "") + "/" + adoptPetName.ToLower().Replace(" ", "").ToString());
-            LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
-
-            // create temp files in temp foler
-            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.Pet.ToString(), FileUpload1, filePath_UploadFolderTemp);
-
-            // preview photo
-            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
-        }
-        else
-        {
-            MessageHandler.ErrorMessage(LBLErrorMsg, "Breed and name cannot be empty");
-        }
+        MessageHandler.ClearMessage(LBLErrorMsg);
+        // create temp files in temp foler
+        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.Pet.ToString(), FileUpload1);
+        // preview photo
+        photoCtrler.previewPhotos(photoPreview);
     }
 
     protected void BTNUpdate_Click(object sender, EventArgs e)
@@ -105,7 +88,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
             if (photoEntities != null)
             {
                 // change photo path to database instead of using temp
-                petEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
+                petEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, petEntity.PetID);
                 // remove old photos from database
                 photoCtrler.deletePhoto(petEntity.PetID, PhotoPurpose.Pet.ToString());
                 // create new photos into database
@@ -211,7 +194,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
         DDLAdoptInfoStatus.SelectedValue = adoptInfoEntity.AdoptInfoStatus;
         loadPet(adoptInfoEntity.PetEntity);
         loadShopInfo(adoptInfoEntity.ShopInfoEntity);
-       
+
     }
     // Shop Info
     private void loadShopInfo(ShopInfoEntity shopInfoEntity)
@@ -300,17 +283,15 @@ public partial class AdminAdoptionInfoEdit : BasePage
         GVAdoptInfoOverview.DataSource = null;
         GVAdoptInfoOverview.DataSource = dTableAdoptInfo;
         GVAdoptInfoOverview.DataBind();
-        
+
     }
     // Clear temp data
     private void clearStaticData()
     {
-        dTableAdoptInfo = null;
         GVRowID = 0;
+        dTableAdoptInfo = null;
         photoEntities = null;
         photoPreview.InnerHtml = string.Empty;
-        filePath_UploadFolderTemp = string.Empty;
-       
     }
     #endregion
 

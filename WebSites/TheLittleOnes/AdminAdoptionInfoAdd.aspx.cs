@@ -19,8 +19,6 @@ public partial class AdminAdoptionInfoAdd : BasePage
     private TextBox UICtrlTextbox;
     private CheckBox UICtrlCheckbox;
     private DropDownList UICtrlDropdownlist;
-    private static List<PhotoEntity> photoEntities;
-    private static string filePath_UploadFolderTemp;
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -31,26 +29,12 @@ public partial class AdminAdoptionInfoAdd : BasePage
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
-        string adoptPetBreed = DDLPetBreed.SelectedValue;
-        string adoptPetName = TBPetName.Text.Trim();
-
-        // some variable to create folder
-        if (!string.IsNullOrEmpty(adoptPetBreed) && !string.IsNullOrEmpty(adoptPetName))
-        {
-            MessageHandler.ClearMessage(LBLErrorMsg);
-            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/adoptinfo/", adoptPetBreed.ToLower().Replace(" ", "") + "/" + adoptPetName.ToLower().Replace(" ", "").ToString());
-            LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
-
-            // create temp files in temp foler
-            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.Pet.ToString(),FileUpload1, filePath_UploadFolderTemp);
-
-            // preview photo
-            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
-        }
-        else
-        {
-            MessageHandler.ErrorMessage(LBLErrorMsg, "Breed and name cannot be empty");
-        }
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        MessageHandler.ClearMessage(LBLErrorMsg);
+        // create temp files in temp foler
+        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.Pet.ToString(), FileUpload1);
+        // preview photo
+        photoCtrler.previewPhotos(photoPreview);
     }
 
     protected void BTNAdd_Click(object sender, EventArgs e)
@@ -85,17 +69,16 @@ public partial class AdminAdoptionInfoAdd : BasePage
                 petEntity = new PetEntity(petBreed, petName, petGender, petWeight, petSize, petDesc, petEnergy, petFriendlyWithPet, petFriendlyWithPeople, petToiletTrained, petHealthInfo, photoEntities);
                 adoptInfoEntity = new AdoptInfoEntity(shopInfoEntity, petEntity, adoptInfoStatus);
 
-                // change photo path to database instead of using temp
-                if (photoEntities != null)
-                {
-                    petEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
-                }
-
                 // add into database
                 petEntity = petCtrler.createPet(petEntity);
                 adoptInfoEntity = adoptInfoCtrler.createAdoptInfo(adoptInfoEntity);
-                if (petEntity.PhotoEntities != null)
+
+                // change photo path to database instead of using temp
+                if (photoEntities != null)
+                {
                     petEntity = petCtrler.createPhoto(petEntity);
+                    petEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, petEntity.PetID);
+                }
 
                 if (adoptInfoEntity != null)
                 {

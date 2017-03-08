@@ -387,7 +387,7 @@
                                                             <div class="overflow-auto scrollbarHorizontal" style="max-width: 1110px;">
                                                                 <asp:DataList ID="DLPhotoUploaded" runat="server" DataSourceID="SDSPhoto" Width="100%">
                                                                     <ItemTemplate>
-                                                                        <img src="<%# "uploadedFiles/database/profileinfo/" + Eval("ProfileID").ToString().ToLower().Replace(" ", "") + "_"+Eval("ProfileName").ToString().ToLower().Replace(" ", "") + "/" + Eval("PhotoName")  %>"
+                                                                        <img src="<%# "uploadedFiles/database/profileinfo/" + Eval("ProfileID").ToString().ToLower().Replace(" ", "") + "/" + Eval("PhotoName")  %>"
                                                                             style="max-height: 200px; margin: 0px 4px">
                                                                         <hr />
                                                                     </ItemTemplate>
@@ -408,7 +408,7 @@
                                             <div class="widget-body">
                                                 <div class="widget-main">
                                                     <div>
-                                                        <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="true" />
+                                                        <asp:FileUpload ID="FileUpload1" runat="server" CssClass="inline" AllowMultiple="false" />
                                                         <asp:Button ID="BTNPreview" runat="server" CssClass="btn btn-primary btn-xs pull-right" Text="Preview"
                                                             OnClick="BTNPreview_Click" />
                                                     </div>

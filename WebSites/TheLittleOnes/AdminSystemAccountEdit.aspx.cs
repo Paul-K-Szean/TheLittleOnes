@@ -32,7 +32,8 @@ public partial class AdminSystemAccountEdit : BasePage
         if (IsPostBack) { }
         else
         {
-            initializeUIControlValues();
+            // clear static data
+            clearStaticData();
         }
     }
     #region Initialize UI Control Values
@@ -55,26 +56,11 @@ public partial class AdminSystemAccountEdit : BasePage
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        string profileID = TBProfileID.Text.Trim();
-        string name = TBProfileName.Text.Trim();
-
-        // some variable to create folder
-        if (!string.IsNullOrEmpty(profileID) && !string.IsNullOrEmpty(name))
-        {
-            MessageHandler.ClearMessage(LBLErrorMsg);
-            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/profileinfo/", profileID.ToLower().Replace(" ", "") + "_" + name.ToLower().Replace(" ", "").ToString());
-            LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
-
-            // create temp files in temp foler
-            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ProfileInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
-            // preview photo
-            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
-        }
-        else
-        {
-            MessageHandler.ErrorMessage(LBLErrorMsg, "User name cannot be empty");
-        }
-
+        MessageHandler.ClearMessage(LBLErrorMsg);
+        // create temp files in temp foler
+        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ProfileInfo.ToString(), FileUpload1);
+        // preview photo
+        photoCtrler.previewPhotos(photoPreview);
     }
 
     protected void BTNUpdate_Click(object sender, EventArgs e)
@@ -125,7 +111,7 @@ public partial class AdminSystemAccountEdit : BasePage
         GVRowID = Convert.ToInt32(GVSystemAccountOverview.DataKeys[row.RowIndex].Values[0]);
         accountEntity = accCtrler.getAccount(GVRowID.ToString());
         clearStaticData();
-        LBLErrorMsg.Text = string.Empty;
+        initializeUIControlValues();
         loadAccountInfo(accountEntity);
     }
     protected void GVSystemAccountOverview_SelectedIndexChanged(object sender, EventArgs e)
@@ -195,11 +181,10 @@ public partial class AdminSystemAccountEdit : BasePage
     // Clear temp data
     private void clearStaticData()
     {
-        // dTableAdoptInfo = null;
         GVRowID = 0;
+        dTableAccountInfo = null;
         photoEntities = null;
         photoPreview.InnerHtml = string.Empty;
-        filePath_UploadFolderTemp = string.Empty;
     }
     #endregion
 

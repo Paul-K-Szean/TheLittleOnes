@@ -224,7 +224,7 @@
                     <div class="col-xs-12">
                         <!-- PAGE CONTENT BEGINS -->
                         <div class="form-horizontal">
-                            <asp:Panel ID="PNLAdoptInfoEdit" runat="server">
+                            <asp:Panel ID="PNLAdoptInfoEdit" runat="server" Visible="false">
 
                                 <%--action buttons--%>
                                 <div class="row">
@@ -467,7 +467,7 @@
                                                             <div class="overflow-auto scrollbarHorizontal" style="max-width: 1110px;">
                                                                 <asp:DataList ID="DLPhotoUploaded" runat="server" DataSourceID="SDSPhoto" Width="100%">
                                                                     <ItemTemplate>
-                                                                        <img src="<%# "uploadedFiles/database/adoptinfo/" + Eval("PetBreed").ToString().ToLower().Replace(" ", "") + "/"+Eval("PetName").ToString().ToLower().Replace(" ", "") + "/" + Eval("PhotoName")  %>"
+                                                                        <img src="<%# "uploadedFiles/database/pet/" + Eval("PetID").ToString().ToLower().Replace(" ", "") + "/" + Eval("PhotoName")  %>"
                                                                             style="max-height: 200px; margin: 0px 4px">
                                                                     </ItemTemplate>
                                                                 </asp:DataList>

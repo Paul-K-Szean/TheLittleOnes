@@ -18,11 +18,7 @@ public partial class AdminPetInfoAdd : BasePage
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
     private DropDownList UICtrlDropdownlist;
-    private static PetInfoEntity petInfoEntity;
-    private static PetCharEntity petCharEntity;
-    private static PhotoEntity photoEntity;
-    private static List<PhotoEntity> photoEntities;
-
+    
     // input variables
     private string category;
     private string breed;
@@ -34,7 +30,6 @@ public partial class AdminPetInfoAdd : BasePage
     private string weightMax;
     private string desc;
     private string personality;
-    private static string filePath_UploadFolderTemp;
 
     // page load
     protected void Page_Load(object sender, EventArgs e)
@@ -87,26 +82,12 @@ public partial class AdminPetInfoAdd : BasePage
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
-        category = DDLCategory.SelectedValue.Trim();
-        breed = TBBreed.Text.Trim();
-
-        // some variable to create folder
-        if (!string.IsNullOrEmpty(category) && !string.IsNullOrEmpty(breed))
-        {
-            MessageHandler.ClearMessage(LBLErrorMsg);
-            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/petinfo/", category.ToLower().Replace(" ", "") + "/" + breed.ToLower().Replace(" ", "").ToString());
-            LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
-
-            // create temp files in temp foler
-            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.PetInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
-
-            // preview photo
-            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
-        }
-        else
-        {
-            MessageHandler.ErrorMessage(LBLErrorMsg, "Shop name and contact cannot be empty");
-        }
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        MessageHandler.ClearMessage(LBLErrorMsg);
+        // create temp files in temp foler
+        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.PetInfo.ToString(), FileUpload1);
+        // preview photo
+        photoCtrler.previewPhotos(photoPreview);
     }
 
     // Create pet info
@@ -141,17 +122,16 @@ public partial class AdminPetInfoAdd : BasePage
                     lifeSpanMin, heightMin, weightMin, lifeSpanMax, heightMax, weightMax, desc, personality, "Display",
                     petCharEntity, photoEntities);
 
-                // change photo path to database instead of using temp
-                if (photoEntities != null)
-                {
-                    petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
-                }
-
                 // add into database
                 petInfoEntity = petInfoCtrler.createPetInfo(petInfoEntity);
                 petInfoEntity = petInfoCtrler.createPetCharacteristic(petInfoEntity);
-                if (petInfoEntity.PhotoEntities != null)
+
+                // change photo path to database instead of using temp
+                if (photoEntities != null)
+                {
                     petInfoEntity = petInfoCtrler.createPetPhoto(petInfoEntity);
+                    petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities,petInfoEntity.PetInfoID);
+                }
 
                 if (petInfoEntity != null)
                 {

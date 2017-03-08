@@ -29,13 +29,9 @@ public partial class AdminShopInfoEdit : BasePage
     private string shopType;
     private string shopDesc;
     private bool shopCloseOnPublicHoliday;
-
-    private static List<ShopTimeEntity> shopTimeEntities;
-    private static List<PhotoEntity> photoEntities;
-
     private static int GVRowID;
     private static int gvPageSize = 5; // default
-    private static string filePath_UploadFolderTemp;
+
 
     private static DataTable dTableShopInfo;
 
@@ -96,14 +92,11 @@ public partial class AdminShopInfoEdit : BasePage
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        LBLErrorMsg.Text = string.Empty;
-        filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/shopinfo/000/");
-
+        MessageHandler.ClearMessage(LBLErrorMsg);
         // create temp files in temp foler
-        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ShopInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
-
+        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ShopInfo.ToString(), FileUpload1);
         // preview photo
-        photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
+        photoCtrler.previewPhotos(photoPreview);
     }
 
     protected void BTNUpdate_Click(object sender, EventArgs e)
@@ -133,7 +126,7 @@ public partial class AdminShopInfoEdit : BasePage
             if (photoEntities != null)
             {
                 // change photo path to database instead of using temp
-                shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp, shopInfoEntity.ShopInfoID);
+                shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, shopInfoEntity.ShopInfoID);
                 // remove old photos from database
                 photoCtrler.deletePhoto(shopInfoEntity.ShopInfoID, PhotoPurpose.ShopInfo.ToString());
                 // create new photos into database
@@ -221,10 +214,9 @@ public partial class AdminShopInfoEdit : BasePage
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         GridViewRow row = GVShopInfoOverview.Rows[e.NewSelectedIndex];
         GVRowID = Convert.ToInt32(GVShopInfoOverview.DataKeys[row.RowIndex].Values[0]);
+        clearStaticData();
         initializeUIControlValues();
         loadShopInfo(GVRowID.ToString());
-
-
     }
 
     protected void GVShopInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
@@ -466,11 +458,10 @@ public partial class AdminShopInfoEdit : BasePage
     // Clear temp data
     private void clearStaticData()
     {
+        GVRowID = 0;
         dTableShopInfo = null;
-        shopTimeEntities = null;
         photoEntities = null;
         photoPreview.InnerHtml = string.Empty;
-        filePath_UploadFolderTemp = string.Empty;
     }
 
     #endregion
@@ -485,5 +476,5 @@ public partial class AdminShopInfoEdit : BasePage
 
 
 
-   
+
 }

@@ -114,7 +114,7 @@
             <h1>Settings
 								<small>
                                     <i class="ace-icon fa fa-angle-double-right"></i>
-                                 Edit Pet Information 
+                                    Edit Pet Information 
                                 </small>
             </h1>
         </div>
@@ -862,7 +862,7 @@
                                                         <asp:DataList ID="DLPhotoUploaded" runat="server" DataSourceID="SDSPhoto" Width="100%"
                                                             RepeatDirection="Horizontal">
                                                             <ItemTemplate>
-                                                                <img src="<%# "uploadedFiles/database/petinfo/" + Eval("petInfoCategory") + "/" + Eval("petInfoBreed") + "/" + Eval("photoName") %>"
+                                                                <img src="<%# "uploadedFiles/database/petinfo/" + Eval("petInfoID") + "/" + Eval("photoName") %>"
                                                                     style="max-height: 200px; margin: 0px 4px">
                                                             </ItemTemplate>
                                                         </asp:DataList>

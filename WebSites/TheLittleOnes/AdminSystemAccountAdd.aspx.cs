@@ -19,10 +19,7 @@ public partial class AdminSystemAccountAdd : BasePage
     private DropDownList UICtrlDropdownlist;
 
     private string profileID;
-
-    private static string filePath_UploadFolderTemp;
-
-
+    
     protected void Page_Load(object sender, EventArgs e)
     {
         if (IsPostBack) { }
@@ -71,15 +68,14 @@ public partial class AdminSystemAccountAdd : BasePage
             {
                 // add into database
                 accountEntity = accCtrler.createAccount(accountEntity);
+
                 // change photo path to database instead of using temp
                 if (photoEntities != null)
                 {
-                    profileEntity.PhotoEntities =
-                        photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp, accountEntity.ProfileEntity.ProfileID);
-                }
-
-                if (profileEntity.PhotoEntities != null)
                     profileEntity = profileCtrler.createPhoto(profileEntity);
+                    profileEntity.PhotoEntities =
+                        photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, accountEntity.ProfileEntity.ProfileID);
+                }
 
                 if (accountEntity != null)
                 {
@@ -130,26 +126,11 @@ public partial class AdminSystemAccountAdd : BasePage
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        profileID = "000";
-        string name = TBProfileName.Text.Trim();
-
-        // some variable to create folder
-        if (!string.IsNullOrEmpty(profileID) && !string.IsNullOrEmpty(name))
-        {
-            MessageHandler.ClearMessage(LBLErrorMsg);
-            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/profileinfo/", profileID.ToLower().Replace(" ", "") + "_" + name.ToLower().Replace(" ", "").ToString());
-            LogController.LogLine("filePath_UploadFolderTemp: " + filePath_UploadFolderTemp);
-
-            // create temp files in temp foler
-            photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ProfileInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
-            // preview photo
-            photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
-        }
-        else
-        {
-            MessageHandler.ErrorMessage(LBLErrorMsg, "User name cannot be empty");
-        }
-
+        MessageHandler.ClearMessage(LBLErrorMsg);
+        // create temp files in temp foler
+        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ProfileInfo.ToString(), FileUpload1);
+        // preview photo
+        photoCtrler.previewPhotos(photoPreview);
     }
 
     #endregion

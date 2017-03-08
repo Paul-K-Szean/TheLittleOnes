@@ -27,8 +27,6 @@ public partial class AdminShopInfoAdd : BasePage
     private string shopType;
     private string shopDesc;
     private bool shopCloseOnPublicHoliday;
-    
-    private static string filePath_UploadFolderTemp;
 
     // page load
     protected void Page_Load(object sender, EventArgs e)
@@ -40,7 +38,7 @@ public partial class AdminShopInfoAdd : BasePage
         }
         else
         {
-            initializeUIControlValues();
+          
         }
     }
 
@@ -82,15 +80,12 @@ public partial class AdminShopInfoAdd : BasePage
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
-        // some variable to create folder
-        LBLErrorMsg.Text = string.Empty;
-        filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/shopinfo/000/");
-
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        MessageHandler.ClearMessage(LBLErrorMsg);
         // create temp files in temp foler
-        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ShopInfo.ToString(), FileUpload1, filePath_UploadFolderTemp);
-
+        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.ShopInfo.ToString(), FileUpload1);
         // preview photo
-        photoCtrler.previewPhotos(photoPreview, filePath_UploadFolderTemp);
+        photoCtrler.previewPhotos(photoPreview);
     }
 
     protected void BTNAdd_Click(object sender, EventArgs e)
@@ -128,7 +123,7 @@ public partial class AdminShopInfoAdd : BasePage
                 if (photoEntities != null)
                 {
                     shopInfoEntity = shopInfoCtrler.createPhoto(shopInfoEntity);
-                    shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp, shopInfoEntity.ShopInfoID);
+                    shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, shopInfoEntity.ShopInfoID);
                 }
 
                 if (shopInfoEntity != null)
@@ -253,8 +248,6 @@ public partial class AdminShopInfoAdd : BasePage
         }
         return shopTimeEntities;
     }
-
-
     #endregion
 
 
