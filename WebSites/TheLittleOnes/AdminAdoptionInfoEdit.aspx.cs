@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
@@ -13,9 +10,9 @@ using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
 
+
 public partial class AdminAdoptionInfoEdit : BasePage
 {
-
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
     private CheckBox UICtrlCheckbox;
@@ -41,6 +38,20 @@ public partial class AdminAdoptionInfoEdit : BasePage
             clearStaticData();
         }
     }
+
+    #region Initialize UI Control Values
+    // Initial UI control values
+    private void initializeUIControlValues()
+    {
+        if (DDLShopInfo.Items.Count <= 1)
+        {
+            ListItem firstItem = DDLShopInfo.Items[0];
+            DDLShopInfo.Items.Clear();
+            DDLShopInfo.Items.Add(firstItem);
+            DDLShopInfo.DataBind();
+        }
+    }
+    #endregion
 
     #region Button Control
     // Preview image uploaded
@@ -81,9 +92,10 @@ public partial class AdminAdoptionInfoEdit : BasePage
             shopInfoEntity = shopInfoCtrler.getShopInfo(shopInfoID);
             adoptInfoEntity = new AdoptInfoEntity(adoptInfoID, shopInfoEntity, petEntity, adoptInfoStatus);
 
-            // update entites
+            // update into database
             adoptInfoEntity = adoptInfoCtrler.updateAdoptInfo(adoptInfoEntity);
             petEntity = petCtrler.updatePet(petEntity);
+
             // update photo
             if (photoEntities != null)
             {
@@ -103,10 +115,10 @@ public partial class AdminAdoptionInfoEdit : BasePage
             {
                 MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Adoption info was not successfully updated");
             }
-            filterAdoptionInfo();
+            GVAdoptInfoOverview.DataBind();
             DLPhotoUploaded.DataBind();
-            clearStaticData();
             filterAdoptionInfo();
+            clearStaticData();
         }
     }
 
@@ -164,11 +176,12 @@ public partial class AdminAdoptionInfoEdit : BasePage
     protected void GVAdoptInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        clearStaticData();
+        MessageHandler.ClearMessage(LBLErrorMsg);
         GridViewRow row = GVAdoptInfoOverview.Rows[e.NewSelectedIndex];
         GVRowID = Convert.ToInt32(GVAdoptInfoOverview.DataKeys[row.RowIndex].Values[0]);
         adoptInfoEntity = adoptInfoCtrler.getAdoptInfo(GVRowID.ToString());
-        clearStaticData();
-        LBLErrorMsg.Text = string.Empty;
+        initializeUIControlValues();
         loadAdoptInfo(adoptInfoEntity);
     }
 
@@ -187,50 +200,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
     #endregion Gridview Control
 
     #region Logical Methods
-    // Adopt Info
-    private void loadAdoptInfo(AdoptInfoEntity adoptInfoEntity)
-    {
-        TBAdoptInfoID.Text = adoptInfoEntity.AdoptInfoID;
-        DDLAdoptInfoStatus.SelectedValue = adoptInfoEntity.AdoptInfoStatus;
-        loadPet(adoptInfoEntity.PetEntity);
-        loadShopInfo(adoptInfoEntity.ShopInfoEntity);
-
-    }
-    // Shop Info
-    private void loadShopInfo(ShopInfoEntity shopInfoEntity)
-    {
-        PNLShopInfoDetails.Visible = true;
-        // shop info
-        DDLShopInfo.SelectedValue = shopInfoEntity.ShopInfoID;
-        LBLShopName.Text = shopInfoEntity.ShopInfoName;
-        LBLShopInfoContact.Text = shopInfoEntity.ShopInfoContact;
-        LBLShopInfoAddress.Text = shopInfoEntity.ShopInfoAddress;
-        LBLShopInfoDesc.Text = shopInfoEntity.ShopInfoDesc;
-    }
-    // Pet
-    private void loadPet(PetEntity petEntity)
-    {
-        PNLAdoptInfoEdit.Visible = true;
-        // pet
-        HDFPetID.Value = TBPetID.Text = petEntity.PetID;
-        if (DDLPetBreed.Items.Count <= 1) DDLPetBreed.DataBind();
-        DDLPetBreed.SelectedValue = petEntity.PetBreed;
-        TBPetName.Text = petEntity.PetName;
-        DDLPetGender.SelectedValue = petEntity.PetGender;
-        TBPetWeight.Text = petEntity.PetWeight;
-        DDLPetSize.SelectedValue = petEntity.PetSize;
-        TBPetDesc.Text = petEntity.PetDesc;
-        DDLPetEnergy.SelectedValue = petEntity.PetEnergy;
-        DDLPetFriendlyWithPet.SelectedValue = petEntity.PetFriendlyWithPet;
-        DDLPetFriendlyWithPeople.SelectedValue = petEntity.PetFriendlyWithPeople;
-        DDLPetToiletTrain.SelectedValue = petEntity.PetToiletTrained;
-        TBPetHealthInfo.Text = petEntity.PetHealthInfo;
-        // pet photo
-        // SDSPhoto.SelectCommand = string.Concat("SELECT * FROM PET INNER JOIN PHOTO ON PET.PETID = PHOTO.PHOTOOWNERID WHERE PET.PETID = ", petEntity.PetID, " AND PHOTO.PHOTOPURPOSE = ", PhotoPurpose.Pet.ToString());
-        // DLPhotoUploaded.DataBind();
-
-    }
-
+    // Check Required Fields
     private bool checkRequiredFields()
     {
         bool isUICtrlDropdownlistValid = true;
@@ -271,6 +241,57 @@ public partial class AdminAdoptionInfoEdit : BasePage
             return false;
         }
     }
+    // Adopt Info
+    private void loadAdoptInfo(AdoptInfoEntity adoptInfoEntity)
+    {
+        if (adoptInfoEntity != null)
+        {
+            PNLShopInfoDetails.Visible = true;
+            PNLAdoptInfoEdit.Visible = true;
+            TBAdoptInfoID.Text = adoptInfoEntity.AdoptInfoID;
+            DDLAdoptInfoStatus.SelectedValue = adoptInfoEntity.AdoptInfoStatus;
+            loadPet(adoptInfoEntity.PetEntity);
+            loadShopInfo(adoptInfoEntity.ShopInfoEntity);
+        }
+        else
+        {
+            PNLShopInfoDetails.Visible = false;
+            PNLAdoptInfoEdit.Visible = false;
+        }
+    }
+    // Shop Info
+    private void loadShopInfo(ShopInfoEntity shopInfoEntity)
+    {
+        // shop info
+        DDLShopInfo.SelectedValue = shopInfoEntity.ShopInfoID;
+        LBLShopName.Text = shopInfoEntity.ShopInfoName;
+        LBLShopInfoContact.Text = shopInfoEntity.ShopInfoContact;
+        LBLShopInfoAddress.Text = shopInfoEntity.ShopInfoAddress;
+        LBLShopInfoDesc.Text = shopInfoEntity.ShopInfoDesc;
+    }
+    // Pet
+    private void loadPet(PetEntity petEntity)
+    {
+        // pet
+        HDFPetID.Value = TBPetID.Text = petEntity.PetID;
+        if (DDLPetBreed.Items.Count <= 1) DDLPetBreed.DataBind();
+        DDLPetBreed.SelectedValue = petEntity.PetBreed;
+        TBPetName.Text = petEntity.PetName;
+        DDLPetGender.SelectedValue = petEntity.PetGender;
+        TBPetWeight.Text = petEntity.PetWeight;
+        DDLPetSize.SelectedValue = petEntity.PetSize;
+        TBPetDesc.Text = petEntity.PetDesc;
+        DDLPetEnergy.SelectedValue = petEntity.PetEnergy;
+        DDLPetFriendlyWithPet.SelectedValue = petEntity.PetFriendlyWithPet;
+        DDLPetFriendlyWithPeople.SelectedValue = petEntity.PetFriendlyWithPeople;
+        DDLPetToiletTrain.SelectedValue = petEntity.PetToiletTrained;
+        TBPetHealthInfo.Text = petEntity.PetHealthInfo;
+        // pet photo
+        // SDSPhoto.SelectCommand = string.Concat("SELECT * FROM PET INNER JOIN PHOTO ON PET.PETID = PHOTO.PHOTOOWNERID WHERE PET.PETID = ", petEntity.PetID, " AND PHOTO.PHOTOPURPOSE = ", PhotoPurpose.Pet.ToString());
+        // DLPhotoUploaded.DataBind();
+
+    }
+  
     // Filter data for adoption info
     private void filterAdoptionInfo()
     {
@@ -283,7 +304,8 @@ public partial class AdminAdoptionInfoEdit : BasePage
         GVAdoptInfoOverview.DataSource = null;
         GVAdoptInfoOverview.DataSource = dTableAdoptInfo;
         GVAdoptInfoOverview.DataBind();
-
+        DLPhotoUploaded.DataBind();
+        adoptInfoEntity = null;
     }
     // Clear temp data
     private void clearStaticData()

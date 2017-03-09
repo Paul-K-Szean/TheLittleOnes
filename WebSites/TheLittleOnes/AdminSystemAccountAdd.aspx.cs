@@ -121,7 +121,6 @@ public partial class AdminSystemAccountAdd : BasePage
             PNLShopInfoDetails.Visible = true;
         }
     }
-
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
     {
@@ -132,7 +131,6 @@ public partial class AdminSystemAccountAdd : BasePage
         // preview photo
         photoCtrler.previewPhotos(photoPreview);
     }
-
     #endregion
 
 
@@ -184,7 +182,7 @@ public partial class AdminSystemAccountAdd : BasePage
         LBLShopInfoDesc.Text = shopInfoEntity.ShopInfoDesc;
 
     }
-
+    // Check Required Fields
     private bool checkRequiredFields()
     {
         bool isAccountTypeValid = true;

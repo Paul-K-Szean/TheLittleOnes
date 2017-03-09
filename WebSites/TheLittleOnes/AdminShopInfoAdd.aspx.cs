@@ -38,7 +38,8 @@ public partial class AdminShopInfoAdd : BasePage
         }
         else
         {
-          
+            // Initial UI control values
+            initializeUIControlValues();
         }
     }
 

@@ -189,7 +189,7 @@
                                                 <div class="form-group">
                                                     <asp:CheckBox ID="CHKBXCloseMonday" runat="server" CssClass=" checkbox checkbox-inline " Text="Close" />
                                                     <asp:Label ID="LBLMonday" runat="server" CssClass="col-xs-2  control-label no-padding-right" Text="Monday @"></asp:Label>
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <asp:DropDownList ID="DDLOpenTimeMonday" runat="server" CssClass="">
                                                             <asp:ListItem Value="">Open Time</asp:ListItem>
                                                         </asp:DropDownList>
@@ -203,7 +203,7 @@
                                                 <div class="form-group">
                                                     <asp:CheckBox ID="CHKBXCloseTuesday" runat="server" CssClass=" checkbox checkbox-inline " Text="Close" />
                                                     <asp:Label ID="LBLTuesday" runat="server" CssClass="col-xs-2  control-label no-padding-right" Text="Tuesday @"></asp:Label>
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <asp:DropDownList ID="DDLOpenTimeTuesday" runat="server" CssClass="">
                                                             <asp:ListItem Value="">Open Time</asp:ListItem>
                                                         </asp:DropDownList>
@@ -216,7 +216,7 @@
                                                 <div class="form-group">
                                                     <asp:CheckBox ID="CHKBXCloseWednesday" runat="server" CssClass=" checkbox checkbox-inline " Text="Close" />
                                                     <asp:Label ID="LBLWednesday" runat="server" CssClass="col-xs-2 control-label no-padding-right" Text="Wednesday @"></asp:Label>
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <asp:DropDownList ID="DDLOpenTimeWednesday" runat="server" CssClass="">
                                                             <asp:ListItem Value="">Open Time</asp:ListItem>
                                                         </asp:DropDownList>
@@ -229,7 +229,7 @@
                                                 <div class="form-group">
                                                     <asp:CheckBox ID="CHKBXCloseThursday" runat="server" CssClass=" checkbox checkbox-inline " Text="Close" />
                                                     <asp:Label ID="Label5" runat="server" CssClass="col-xs-2  control-label no-padding-right" Text="Thursday @"></asp:Label>
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <asp:DropDownList ID="DDLOpenTimeThursday" runat="server" CssClass="">
                                                             <asp:ListItem Value="">Open Time</asp:ListItem>
                                                         </asp:DropDownList>
@@ -242,7 +242,7 @@
                                                 <div class="form-group">
                                                     <asp:CheckBox ID="CHKBXCloseFriday" runat="server" CssClass=" checkbox checkbox-inline " Text="Close" />
                                                     <asp:Label ID="LBLFriday" runat="server" CssClass="col-xs-2  control-label no-padding-right" Text="Friday @"></asp:Label>
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <asp:DropDownList ID="DDLOpenTimeFriday" runat="server" CssClass="">
                                                             <asp:ListItem Value="">Open Time</asp:ListItem>
                                                         </asp:DropDownList>
@@ -255,7 +255,7 @@
                                                 <div class="form-group">
                                                     <asp:CheckBox ID="CHKXBXCloseSaturday" runat="server" CssClass=" checkbox checkbox-inline " Text="Close" />
                                                     <asp:Label ID="LBLSaturday" runat="server" CssClass="col-xs-2  control-label no-padding-right" Text="Saturday @"></asp:Label>
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <asp:DropDownList ID="DDLOpenTimeSaturday" runat="server" CssClass="">
                                                             <asp:ListItem Value="">Open Time</asp:ListItem>
                                                         </asp:DropDownList>
@@ -268,7 +268,7 @@
                                                 <div class="form-group">
                                                     <asp:CheckBox ID="CHKBXCloseSunday" runat="server" CssClass=" checkbox checkbox-inline " Text="Close" />
                                                     <asp:Label ID="LBLSunday" runat="server" CssClass="col-xs-2  control-label no-padding-right" Text="Sunday @"></asp:Label>
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <asp:DropDownList ID="DDLOpenTimeSunday" runat="server" CssClass="">
                                                             <asp:ListItem Value="">Open Time</asp:ListItem>
                                                         </asp:DropDownList>

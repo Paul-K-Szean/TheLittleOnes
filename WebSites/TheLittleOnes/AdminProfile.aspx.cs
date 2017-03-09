@@ -17,8 +17,7 @@ public partial class AdminProfile : BasePage
     private static string name;
     private static string contact;
     private static string address;
-    private static string filePath_UploadFolderTemp;
-    private static List<PhotoEntity> photoEntities;
+
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -74,7 +73,7 @@ public partial class AdminProfile : BasePage
             if (photoEntities != null)
             {
                 // change photo path to database instead of using temp
-                profileEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, filePath_UploadFolderTemp);
+                profileEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, profileEntity.ProfileID);
                 // remove old photos from database
                 photoCtrler.deletePhoto(profileEntity.ProfileID, PhotoPurpose.ProfileInfo.ToString());
                 // create new photos into database
@@ -93,7 +92,7 @@ public partial class AdminProfile : BasePage
             }
         }
         DLPhotoUploaded.DataBind();
-
+        photoPreview.InnerHtml = string.Empty;
     }
     #endregion
     #region Logical Methods

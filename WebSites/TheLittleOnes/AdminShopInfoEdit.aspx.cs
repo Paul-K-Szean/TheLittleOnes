@@ -1,13 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
@@ -15,11 +10,18 @@ using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
 
+
 public partial class AdminShopInfoEdit : BasePage
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
+    private CheckBox UICtrlCheckbox;
     private DropDownList UICtrlDropdownlist;
+
+    private static int GVRowID;
+    private static int gvPageSize = 5; // default
+
+    private static DataTable dTableShopInfo;
 
     private string shopID;
     private string shopName;
@@ -29,11 +31,7 @@ public partial class AdminShopInfoEdit : BasePage
     private string shopType;
     private string shopDesc;
     private bool shopCloseOnPublicHoliday;
-    private static int GVRowID;
-    private static int gvPageSize = 5; // default
-
-
-    private static DataTable dTableShopInfo;
+    
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -82,8 +80,6 @@ public partial class AdminShopInfoEdit : BasePage
             }
 
         }
-        // clear static data
-        clearStaticData();
     }
     #endregion
 
@@ -116,7 +112,7 @@ public partial class AdminShopInfoEdit : BasePage
             // create shop info entity with new changes
             shopInfoEntity = new ShopInfoEntity(shopID, shopName, shopContact,
                 shopAddress, shopGrooming, shopType, shopDesc, shopCloseOnPublicHoliday, shopTimeEntities, photoEntities);
-            // update shopinfo
+            // update into database
             shopInfoEntity = shopInfoCtrler.updateShopInfo(shopInfoEntity);
             // remove old shoptime from database
             shopInfoCtrler.deleteShopTime(shopInfoEntity);
@@ -144,8 +140,8 @@ public partial class AdminShopInfoEdit : BasePage
             }
             GVShopInfoOverview.DataBind();
             DLPhotoUploaded.DataBind();
-            clearStaticData();
             filterShopInfo();
+            clearStaticData();
         }
     }
 
@@ -212,9 +208,10 @@ public partial class AdminShopInfoEdit : BasePage
     protected void GVShopInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        clearStaticData();
+        MessageHandler.ClearMessage(LBLErrorMsg);
         GridViewRow row = GVShopInfoOverview.Rows[e.NewSelectedIndex];
         GVRowID = Convert.ToInt32(GVShopInfoOverview.DataKeys[row.RowIndex].Values[0]);
-        clearStaticData();
         initializeUIControlValues();
         loadShopInfo(GVRowID.ToString());
     }
@@ -309,22 +306,40 @@ public partial class AdminShopInfoEdit : BasePage
     // Load shop info
     private void loadShopInfo(string rowID)
     {
-        PNLShopInfoEdit.Visible = true;
         shopInfoEntity = shopInfoCtrler.getShopInfo(GVRowID.ToString());
-        TBShopInfoID.Text = shopInfoEntity.ShopInfoID;
-        TBShopName.Text = shopInfoEntity.ShopInfoName;
-        TBShopContact.Text = shopInfoEntity.ShopInfoContact;
-        TBShopAddress.Text = shopInfoEntity.ShopInfoAddress;
-        CHKBXGroomingService.Checked = shopInfoEntity.ShopInfoGrooming;
-        DDLShopType.SelectedValue = shopInfoEntity.ShopInfoType;
-        TBShopDesc.Text = shopInfoEntity.ShopInfoDesc;
-        CHKBXCloseOnPublicHoliday.Checked = shopInfoEntity.ShopCloseOnPublicHoliday;
-        CHKBXGroomingService.Enabled = DDLShopType.SelectedValue.Contains("Shop") ? true : false;
-        // load operating hours
-        loadShoptime();
+        if (shopInfoEntity != null)
+        {
+            PNLShopInfoEdit.Visible = true;
+            TBShopInfoID.Text = shopInfoEntity.ShopInfoID;
+            TBShopName.Text = shopInfoEntity.ShopInfoName;
+            TBShopContact.Text = shopInfoEntity.ShopInfoContact;
+            TBShopAddress.Text = shopInfoEntity.ShopInfoAddress;
+            CHKBXGroomingService.Checked = shopInfoEntity.ShopInfoGrooming;
+            DDLShopType.SelectedValue = shopInfoEntity.ShopInfoType;
+            TBShopDesc.Text = shopInfoEntity.ShopInfoDesc;
+            CHKBXCloseOnPublicHoliday.Checked = shopInfoEntity.ShopCloseOnPublicHoliday;
+            CHKBXGroomingService.Enabled = DDLShopType.SelectedValue.Contains("Shop") ? true : false;
+            // load operating hours
+            loadShoptime();
+        }
+        else
+        {
+            PNLShopInfoEdit.Visible = false;
+            TBShopInfoID.Text = string.Empty;
+            TBShopName.Text = string.Empty;
+            TBShopContact.Text = string.Empty;
+            TBShopAddress.Text = string.Empty;
+            CHKBXGroomingService.Checked = false;
+            DDLShopType.SelectedValue = string.Empty;
+            TBShopDesc.Text = string.Empty;
+            CHKBXCloseOnPublicHoliday.Checked = false;
+            CHKBXGroomingService.Enabled = false;
+        }
+
 
 
     }
+    // Load shop time
     private void loadShoptime()
     {
         List<string> workDay = new List<string>();
@@ -453,8 +468,9 @@ public partial class AdminShopInfoEdit : BasePage
         GVShopInfoOverview.DataSource = null;
         GVShopInfoOverview.DataSource = dTableShopInfo;
         GVShopInfoOverview.DataBind();
+        DLPhotoUploaded.DataBind();
+        shopInfoEntity = null;
     }
-
     // Clear temp data
     private void clearStaticData()
     {

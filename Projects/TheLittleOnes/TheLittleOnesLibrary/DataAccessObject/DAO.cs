@@ -22,10 +22,8 @@ namespace TheLittleOnesLibrary.DataAccessObject
 
         private string filePath_Database;//=  @"C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\App_Data\TheLittleOnes.accdb";
         private string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=";
-        private string sqlQuery;
         private int insertID;
         private OleDbConnection oleDbConn;
-        private OleDbCommand oleDbCommand;
         private OleDbDataReader oleDbReader;
         private OleDbDataAdapter oleDbAdapter;
         private DataSet dataSet;

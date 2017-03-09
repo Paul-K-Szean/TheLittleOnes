@@ -39,6 +39,7 @@ namespace TheLittleOnesLibrary.Controllers
         // Create Photo
         public List<PhotoEntity> createPhoto(List<PhotoEntity> photoEntities, string ownerID)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             foreach (PhotoEntity photoEntity in photoEntities)
             {
                 using (oleDbCommand = new OleDbCommand())
@@ -80,7 +81,7 @@ namespace TheLittleOnesLibrary.Controllers
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/", photoPurpose.ToLower(), "/000/");
             bool filePathExist = Directory.Exists(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
-            LogController.LogLine("Check directory: " + filePath_UploadFolderTemp + ". Result: " + filePathExist);
+            LogController.LogLine("Check directory: " + filePath_UploadFolderTemp + " Result: " + filePathExist);
 
             // check for folder paths - Temp
             if (filePathExist)
@@ -95,11 +96,11 @@ namespace TheLittleOnesLibrary.Controllers
                 Directory.CreateDirectory(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
             }
 
+            LogController.LogLine("Total files posted: " + fileUpload.PostedFiles.Count);
             // save posted files to temp folder
             if (fileUpload.HasFiles)
             {
                 photoEntities = new List<PhotoEntity>();
-                LogController.LogLine("Total files posted: " + fileUpload.PostedFiles.Count);
                 string[] extensions = { ".jpg", ".jpeg", ".png", ".gif", ".tiff", ".bmp" };
                 foreach (HttpPostedFile httpPostedFileInfo in fileUpload.PostedFiles)
                 {
@@ -200,7 +201,7 @@ namespace TheLittleOnesLibrary.Controllers
                 // rename the file path from temp to database
                 foreach (PhotoEntity photoEntity in photoEntities)
                 {
-                    photoEntity.PhotoPath = photoEntity.PhotoPath.Replace("temp", "database");
+                    photoEntity.PhotoPath = string.Concat(filePath_UploadFolderDatabase, photoEntity.PhotoName);
                 }
 
                 DirectoryInfo dirDatabase = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase));
@@ -208,7 +209,6 @@ namespace TheLittleOnesLibrary.Controllers
                 return photoEntities;
             }
         }
-
 
         // Preview photos
         public void previewPhotos(HtmlGenericControl photoPreview)

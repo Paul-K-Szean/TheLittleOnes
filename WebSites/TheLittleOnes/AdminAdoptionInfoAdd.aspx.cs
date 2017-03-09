@@ -88,6 +88,8 @@ public partial class AdminAdoptionInfoAdd : BasePage
                 {
                     MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Adoption info was not successfully added");
                 }
+
+
             }
         }
     }
@@ -134,17 +136,7 @@ public partial class AdminAdoptionInfoAdd : BasePage
     #endregion
 
     #region Logical Methods
-    // Shop Info
-    private void loadShopInfo(ShopInfoEntity shopInfoEntity)
-    {
-        // shop info
-        LBLShopName.Text = shopInfoEntity.ShopInfoName;
-        LBLShopInfoContact.Text = shopInfoEntity.ShopInfoContact;
-        LBLShopInfoAddress.Text = shopInfoEntity.ShopInfoAddress;
-        LBLShopInfoDesc.Text = shopInfoEntity.ShopInfoDesc;
-
-    }
-
+    // Check Required Fields
     private bool checkRequiredFields()
     {
         bool isUICtrlDropdownlistValid = true;
@@ -184,6 +176,16 @@ public partial class AdminAdoptionInfoAdd : BasePage
             MessageHandler.ErrorMessage(LBLErrorMsg, "Please ensure that all the fields are not empty");
             return false;
         }
+    }
+    // Shop Info
+    private void loadShopInfo(ShopInfoEntity shopInfoEntity)
+    {
+        // shop info
+        LBLShopName.Text = shopInfoEntity.ShopInfoName;
+        LBLShopInfoContact.Text = shopInfoEntity.ShopInfoContact;
+        LBLShopInfoAddress.Text = shopInfoEntity.ShopInfoAddress;
+        LBLShopInfoDesc.Text = shopInfoEntity.ShopInfoDesc;
+
     }
     #endregion
 

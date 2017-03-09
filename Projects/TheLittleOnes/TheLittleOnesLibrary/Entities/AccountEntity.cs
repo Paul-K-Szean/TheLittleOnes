@@ -28,8 +28,7 @@ namespace TheLittleOnesLibrary.Entities
             this.ProfileEntity = profileEntity;
             this.ShopInfoEntity = shopInfoEntity;
         }
-
-        // Retrieve record constructor
+        // Retrieve/Update record constructor
         public AccountEntity(string accountID, string accountEmail, string accountPassword, string accountType, ProfileEntity profileEntity, ShopInfoEntity shopInfoEntity, DateTime dateJoined)
         {
             this.accountID = accountID;

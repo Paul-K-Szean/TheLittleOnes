@@ -11,13 +11,14 @@ using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Handler;
 using System.IO;
 using System.Data;
+using TheLittleOnesLibrary.EnumFolder;
 
 namespace TheLittleOnesLibrary
 {
 
     public class BasePage : Page
     {
-        // Entities
+        // Entities for current logged in user
         protected static AccountEntity accountEntity;
         protected static ProfileEntity profileEntity;
         protected static PetInfoEntity petInfoEntity;
@@ -29,7 +30,14 @@ namespace TheLittleOnesLibrary
         protected static List<ShopTimeEntity> shopTimeEntities;
         protected static AdoptInfoEntity adoptInfoEntity;
         protected static PetEntity petEntity;
-        
+
+        // Entities for system account editing
+        protected static AccountEntity editAccountEntity;
+        protected static ProfileEntity editProfileEntity;
+        protected static List<PhotoEntity> editPhotoEntities;
+        protected static ShopInfoEntity editShopInfoEntity;
+        protected static List<ShopTimeEntity> editShopTimeEntities;
+
         // Controllers
         protected AccountController accCtrler;
         protected ProfileController profileCtrler;
@@ -57,7 +65,7 @@ namespace TheLittleOnesLibrary
         // Manage page control
         private void postBackControl()
         {
-            string currentPage = HttpContext.Current.Request.Url.AbsoluteUri;
+            string currentPage = HttpContext.Current.Request.Url.AbsoluteUri.ToLower();
             if (IsPostBack)
             {
                 LogController.LogLine("Page posted back: " + currentPage);
@@ -67,16 +75,55 @@ namespace TheLittleOnesLibrary
                 LogController.LogLine("Page loaded: " + currentPage);
             }
 
+            accountEntity = accCtrler.getLoggedInAccount();
+            profileEntity = profileCtrler.getLoggedInProfile();
             // redirect to login page, except for login page
-            if (accountEntity == null && !currentPage.Contains("AdminLogin"))
+            if (currentPage.Contains("adminlogin"))
             {
-                LogController.LogLine("No account logged in");
-                HttpContext.Current.Response.Redirect("AdminLogin.aspx");
+                accCtrler.SignOut();
             }
             else
             {
-                accountEntity = accCtrler.getLoggedInAccount();
-                profileEntity = profileCtrler.getLoggedInProfile();
+                if (accountEntity == null)
+                {
+                    LogController.LogLine("No account logged in");
+                    HttpContext.Current.Response.Redirect("AdminLogin.aspx");
+                }
+                else
+                {
+                    checkForAccessControl(accountEntity, currentPage);
+                }
+            }
+
+
+        }
+        // Validate access control for logged in user
+        private void checkForAccessControl(AccountEntity accountEntity, string currentPage)
+        {
+            // pages that are not allowed for different account
+            switch (accountEntity.AccountType.ToLower().Trim())
+            {
+                case "websheltergroup":
+                    if (currentPage.Contains("adminpetinfoadd") ||
+                        currentPage.Contains("adminpetinfoedit") ||
+                        currentPage.Contains("adminshopinfoadd") ||
+                        currentPage.Contains("adminshopinfoedit") ||
+                        currentPage.Contains("adminsystemaccountadd") ||
+                        currentPage.Contains("adminsystemaccountedit"))
+                    {
+                        HttpContext.Current.Response.Redirect("AdminDashboard.aspx");
+                    }
+                    break;
+                case "websponsorgroup":
+                    if (
+                        currentPage.Contains("adminadoptioninfoadd") ||
+                        currentPage.Contains("adminadoptioninfoedit") ||
+                        currentPage.Contains("adminsystemaccountadd") ||
+                        currentPage.Contains("adminsystemaccountedit"))
+                    {
+                        HttpContext.Current.Response.Redirect("AdminDashboard.aspx");
+                    }
+                    break;
             }
 
         }
@@ -172,7 +219,6 @@ namespace TheLittleOnesLibrary
         // Calculate gridview entry size
         protected void updateEntryCount(DataTable dTable, GridView gridview, Label LBLEntriesCount)
         {
-
             int totalSize = dTable.Rows.Count;
             int currentPageIndex = gridview.PageIndex * gridview.PageSize + 1;
             int pageSize = gridview.PageSize * (gridview.PageIndex + 1);
@@ -180,19 +226,17 @@ namespace TheLittleOnesLibrary
 
             if (pageSize > totalSize)
                 pageSize = totalSize;
-            else if (pageSize > rowSize) {
-                pageSize = rowSize;
-            }
 
             if (rowSize == 0)
             {
                 currentPageIndex = rowSize;
                 LBLEntriesCount.Text = string.Concat("No Record(s) found. Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
             }
-            else {
+            else
+            {
                 LBLEntriesCount.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
             }
-            
+
         }
 
         // Clear control value

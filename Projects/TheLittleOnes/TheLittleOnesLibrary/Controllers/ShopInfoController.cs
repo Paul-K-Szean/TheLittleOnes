@@ -18,7 +18,6 @@ namespace TheLittleOnesLibrary.Controllers
 
         private static ShopInfoController shopInfoCtrl;
         private static List<ShopTimeEntity> shopTimeEntities;
-
         public static ShopInfoController getInstance()
         {
             if (shopInfoCtrl == null)
@@ -30,16 +29,16 @@ namespace TheLittleOnesLibrary.Controllers
         private DAO dao;
         private OleDbCommand oleDbCommand;
         private DataSet dataSet;
-
+        
         // Default Constructor
         public ShopInfoController()
         {
             dao = DAO.getInstance();
         }
-
         // Check if the same outlet exists
         public bool checkOutletExist(string address)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
@@ -57,10 +56,10 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Create ShopInfo 
         public ShopInfoEntity createShopInfo(ShopInfoEntity shopInfoEntity)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
@@ -86,11 +85,10 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Create ShopTime
         public ShopInfoEntity createShopTime(ShopInfoEntity shopInfoEntity)
         {
-
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             foreach (ShopTimeEntity shopTimeEntity in shopInfoEntity.ShopTimeEntities)
             {
                 using (oleDbCommand = new OleDbCommand())
@@ -100,8 +98,8 @@ namespace TheLittleOnesLibrary.Controllers
                                                              "VALUES (@SHOPINFOID,@SHOPDAY,@SHOPOPENTIME,@SHOPCLOSETIME);");
                     oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", shopInfoEntity.ShopInfoID);
                     oleDbCommand.Parameters.AddWithValue("@SHOPDAY", shopTimeEntity.DayOfWeek);
-                    oleDbCommand.Parameters.AddWithValue("@SHOPOPENTIME", shopTimeEntity.OpenTime);
-                    oleDbCommand.Parameters.AddWithValue("@SHOPCLOSETIME", shopTimeEntity.CloseTime);
+                    oleDbCommand.Parameters.AddWithValue("@SHOPOPENTIME", Convert.ToDateTime(shopTimeEntity.OpenTime).ToString("HH:mm tt"));
+                    oleDbCommand.Parameters.AddWithValue("@SHOPCLOSETIME", Convert.ToDateTime(shopTimeEntity.CloseTime).ToString("HH:mm tt"));
 
                     int insertID = dao.createRecord(oleDbCommand);
                     if (insertID > 0)
@@ -112,14 +110,13 @@ namespace TheLittleOnesLibrary.Controllers
             }
             return shopInfoEntity;
         }
-
         // Create ShopPhoto
         public ShopInfoEntity createPhoto(ShopInfoEntity shopInfoEntity)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             shopInfoEntity.PhotoEntities = PhotoController.getInstance().createPhoto(shopInfoEntity.PhotoEntities, shopInfoEntity.ShopInfoID);
             return shopInfoEntity;
         }
-
         // Update ShopInfo
         public ShopInfoEntity updateShopInfo(ShopInfoEntity shopInfoEntity)
         {
@@ -150,7 +147,6 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Delete ShopPhoto
         public ShopInfoEntity deleteShopPhoto(ShopInfoEntity shopInfoEntity)
         {
@@ -171,10 +167,10 @@ namespace TheLittleOnesLibrary.Controllers
             }
             return shopInfoEntity;
         }
-
         // Retrieve ShopInfo
         public ShopInfoEntity getShopInfo(string shopInfoID)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             if (shopInfoID == "0" || string.IsNullOrEmpty(shopInfoID))
             {
                 return null;
@@ -201,10 +197,10 @@ namespace TheLittleOnesLibrary.Controllers
             }
 
         }
-
         // Retrieve ShopTime
         public List<ShopTimeEntity> getShopTime(string shopInfoID)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
@@ -224,16 +220,10 @@ namespace TheLittleOnesLibrary.Controllers
                 return shopTimeEntities;
             }
         }
-
-        // Retrieve ShopPhoto
-        //public List<PhotoEntity> getShopPhoto(string shopInfoID)
-        //{
-        //    return PhotoController.getInstance().getPhotoEntities(shopInfoID);
-        //}
-
         // Filter Shop Info Data
         public DataTable filterShopInfoData(bool chkbxPetShop, bool chkbxPetClinic, bool chkbxGrooming, string tbSearchValue, Label searchResult)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             searchResult.ForeColor = Utility.getColorWhite();
             using (oleDbCommand = new OleDbCommand())
             {
@@ -261,7 +251,7 @@ namespace TheLittleOnesLibrary.Controllers
                     sqlQuery += string.Concat(" AND (SHOPINFOGROOMING = TRUE) ");
                 }
 
-                oleDbCommand.CommandText = string.Concat(sqlQuery, " ORDER BY [SHOPINFOID] DESC, [SHOPINFONAME] " );
+                oleDbCommand.CommandText = string.Concat(sqlQuery, " ORDER BY [SHOPINFOID] DESC, [SHOPINFONAME] ");
                 oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));
 
                 dataSet = dao.getRecord(oleDbCommand);

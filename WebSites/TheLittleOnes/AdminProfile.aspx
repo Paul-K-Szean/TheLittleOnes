@@ -114,8 +114,8 @@
                 <div class="row">
                     <div class="col-xs-12 ">
                         <div class="form-inline pull-right">
-                            <asp:Label ID="LBLErrorMsg" runat="server" Text=""></asp:Label>
-                            <asp:Button ID="BTNSave" runat="server" CssClass="btn btn-primary btn-sm" Text="Save" OnClick="BTNSave_Click" Font-Size="Medium"/>
+                            <asp:Label ID="LBLErrorMsg" runat="server" Text="" Font-Size="Medium"></asp:Label>
+                            <asp:Button ID="BTNSave" runat="server" CssClass="btn btn-primary btn-sm" Text="Save" OnClick="BTNSave_Click" Font-Size="Medium" />
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                                                         <div class="overflow-auto scrollbarHorizontal" style="max-width: 1110px;">
                                                             <asp:DataList ID="DLPhotoUploaded" runat="server" DataSourceID="SDSPhoto" Width="100%">
                                                                 <ItemTemplate>
-                                                                    <img src="<%# "uploadedFiles/database/profileinfo/" + Eval("ProfileID").ToString().ToLower().Replace(" ", "") + "_"+Eval("ProfileName").ToString().ToLower().Replace(" ", "") + "/" + Eval("PhotoName")  %>"
+                                                                    <img src="<%# "uploadedFiles/database/profileinfo/" + Eval("ProfileID").ToString().ToLower().Replace(" ", "") + "/" + Eval("PhotoName")  %>"
                                                                         style="max-height: 200px; margin: 0px 4px">
                                                                     <hr />
                                                                 </ItemTemplate>

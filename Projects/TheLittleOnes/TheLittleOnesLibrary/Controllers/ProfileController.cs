@@ -32,8 +32,6 @@ namespace TheLittleOnesLibrary.Controllers
         {
             dao = DAO.getInstance();
         }
-
-
         // Create profile
         public ProfileEntity createProfile(ProfileEntity profileEntity, string accountID)
         {
@@ -59,14 +57,44 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Create PetPhoto
         public ProfileEntity createPhoto(ProfileEntity profileEntity)
         {
             profileEntity.PhotoEntities = PhotoController.getInstance().createPhoto(profileEntity.PhotoEntities, profileEntity.ProfileID);
             return profileEntity;
         }
-        
+        // Retrieve profile
+        public ProfileEntity getProfile(string accountID)
+        {
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("SELECT * FROM PROFILE WHERE ACCOUNTID LIKE @ACCOUNTID");
+                oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", string.Concat(accountID));
+
+                dataSet = dao.getRecord(oleDbCommand);
+                if (dataSet.Tables[0].Rows.Count > 0)
+                {
+                    // instantial profile 
+                    ProfileEntity profileEntity = new ProfileEntity(
+                        dataSet.Tables[0].Rows[0]["profileID"].ToString(),
+                        dataSet.Tables[0].Rows[0]["profileName"].ToString(),
+                        dataSet.Tables[0].Rows[0]["profileContact"].ToString(),
+                        dataSet.Tables[0].Rows[0]["profileAddress"].ToString(),
+                        PhotoController.getInstance().getPhotoEntities(dataSet.Tables[0].Rows[0]["profileID"].ToString(), PhotoPurpose.ProfileInfo.ToString()));
+                    return profileEntity;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
+        // Retrieve logged in profile
+        public ProfileEntity getLoggedInProfile()
+        {
+            return loggedInProfile;
+        }
         // Update profile
         public ProfileEntity updateProfile(ProfileEntity profileEntity)
         {
@@ -91,13 +119,29 @@ namespace TheLittleOnesLibrary.Controllers
                 return loggedInProfile;
             }
         }
-
-        // Retrieve logged in profile
-        public ProfileEntity getLoggedInProfile()
+        // Update profile
+        public ProfileEntity updateSystemProfile(ProfileEntity profileEntity)
         {
-            return loggedInProfile;
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("UPDATE PROFILE SET ",
+                                                        "PROFILENAME = @PROFILENAME, PROFILECONTACT = @PROFILECONTACT, PROFILEADDRESS = @PROFILEADDRESS ",
+                                                        "WHERE PROFILEID = @PROFILEID");
+                oleDbCommand.Parameters.AddWithValue("@PROFILENAME", string.Concat(profileEntity.ProfileName));
+                oleDbCommand.Parameters.AddWithValue("@PROFILECONTACT", string.Concat(profileEntity.ProfileContact));
+                oleDbCommand.Parameters.AddWithValue("@PROFILEADDRESS", string.Concat(profileEntity.ProfileAddress));
+                oleDbCommand.Parameters.AddWithValue("@PROFILEID", string.Concat(profileEntity.ProfileID));
+                int insertID = dao.updateRecord(oleDbCommand);
+                if (insertID > 0)
+                {
+                    // return edited profileEntity
+                    return profileEntity;
+                }
+                // fail update
+                return null;
+            }
         }
-
         // Sign in profile
         public ProfileEntity logInProfile(string accountID)
         {
@@ -125,7 +169,6 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-        
         // Sign out profile
         public void SignOut()
         {

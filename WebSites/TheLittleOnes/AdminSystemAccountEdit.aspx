@@ -172,6 +172,7 @@
                                     AutoGenerateColumns="False" DataSourceID="SDSSystemAccount" Width="100%"
                                     AllowPaging="True"
                                     OnDataBound="GVSystemAccountOverview_DataBound"
+                                    OnRowDataBound="GVSystemAccountOverview_RowDataBound"
                                     OnSelectedIndexChanged="GVSystemAccountOverview_SelectedIndexChanged"
                                     OnSelectedIndexChanging="GVSystemAccountOverview_SelectedIndexChanging"
                                     OnPageIndexChanging="GVSystemAccountOverview_PageIndexChanging">
@@ -318,17 +319,16 @@
                                                     <br />
                                                     <div>
                                                         <asp:Label ID="Label2" runat="server" Text="Email (Login ID)" Font-Bold="True"></asp:Label>
-                                                        <asp:TextBox ID="TBAccountEmail" runat="server" CssClass="form-control" placeholder="EG: SeanJeanDean@hotmail.com"></asp:TextBox>
+                                                        <asp:TextBox ID="TBAccountEmail" runat="server" CssClass="form-control" placeholder="EG: SeanJeanDean@hotmail.com" ReadOnly="true"></asp:TextBox>
                                                     </div>
                                                     <br />
                                                     <div>
-                                                        <asp:Label ID="Label1" runat="server" Text="Old Password" Font-Bold="True"></asp:Label>
-                                                        <asp:TextBox ID="TBAccountPasswordOld" runat="server" CssClass="form-control" type="password"></asp:TextBox>
+                                                        <asp:CheckBox ID="CHKBXReset" runat="server"  CssClass=" checkbox-inline" Text="Reset Old Password"/>
                                                     </div>
                                                     <br />
                                                     <div>
-                                                        <asp:Label ID="Label6" runat="server" Text="New Password" Font-Bold="True"></asp:Label>
-                                                        <asp:TextBox ID="TBAccountPasswordNew" runat="server" CssClass="form-control" type="password"></asp:TextBox>
+                                                        <asp:Label ID="LBLDateJoined" runat="server" Text="Date Joined" Font-Bold="True"></asp:Label>
+                                                        <asp:TextBox ID="TBDateJoined" runat="server" CssClass="form-control" placeholder="EG: 02/04/2015" ReadOnly="true"></asp:TextBox>
                                                     </div>
                                                     <br />
                                                 </div>
@@ -441,9 +441,9 @@
                 <asp:SqlDataSource ID="SDSPhoto" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath, Photo.photoPurpose, Pet.petID, Pet.petBreed, Pet.petName, Pet.petGender, Pet.petWeight, Pet.petSize, Pet.petDesc, Pet.petEnergy, Pet.petFriendlyWithPet, Pet.petFriendlyWithPeople, Pet.petToiletTrained, Pet.petHealthInfo FROM (Pet INNER JOIN Photo ON Photo.photoOwnerID = Pet.petID) WHERE (Pet.petID = ?) AND (Photo.photoPurpose = 'Pet')">
+                    SelectCommand="SELECT Profile.accountID, Profile.profileID, Profile.profileName, Profile.profileContact, Profile.profileAddress, Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath, Photo.photoPurpose FROM (Profile INNER JOIN Photo ON Profile.profileID = Photo.photoOwnerID) WHERE (Profile.profileID = ? AND Photo.PhotoPurpose='ProfileInfo')">
                     <SelectParameters>
-                        <asp:ControlParameter ControlID="HDFPetID" Name="PetID" PropertyName="Value" Type="Int32" />
+                        <asp:ControlParameter ControlID="TBProfileID" Name="profileID" PropertyName="Text" Type="Int32" />
                     </SelectParameters>
                 </asp:SqlDataSource>
             </ContentTemplate>
