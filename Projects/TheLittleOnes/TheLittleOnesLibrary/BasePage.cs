@@ -23,13 +23,15 @@ namespace TheLittleOnesLibrary
         protected static ProfileEntity profileEntity;
         protected static PetInfoEntity petInfoEntity;
         protected static PetCharEntity petCharEntity;
-        protected static PhotoEntity photoEntity;
-        protected static List<PhotoEntity> photoEntities;
+        protected static PetEntity petEntity;
         protected static ShopInfoEntity shopInfoEntity;
         protected static ShopTimeEntity shopTimeEntity;
+
         protected static List<ShopTimeEntity> shopTimeEntities;
         protected static AdoptInfoEntity adoptInfoEntity;
-        protected static PetEntity petEntity;
+        protected static List<AdoptInfoEntity> adoptInfoEntites;
+        protected static PhotoEntity photoEntity;
+        protected static List<PhotoEntity> photoEntities;
 
         // Entities for system account editing
         protected static AccountEntity editAccountEntity;

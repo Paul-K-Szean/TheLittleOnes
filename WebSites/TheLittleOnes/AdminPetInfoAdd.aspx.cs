@@ -129,8 +129,8 @@ public partial class AdminPetInfoAdd : BasePage
                 // change photo path to database instead of using temp
                 if (photoEntities != null)
                 {
+                    petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, petInfoEntity.PetInfoID);
                     petInfoEntity = petInfoCtrler.createPetPhoto(petInfoEntity);
-                    petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities,petInfoEntity.PetInfoID);
                 }
 
                 if (petInfoEntity != null)
@@ -247,7 +247,7 @@ public partial class AdminPetInfoAdd : BasePage
              listFriendlinessScore[0].ToString("0.0"), listFriendlinessScore[1].ToString("0.0"), listFriendlinessScore[2].ToString("0.0"), listFriendlinessScore[3].ToString("0.0"),
               listGroomingScore[0].ToString("0.0"), listGroomingScore[1].ToString("0.0"), listGroomingScore[2].ToString("0.0"),
                listTrainabilityScore[0].ToString("0.0"), listTrainabilityScore[1].ToString("0.0"), listTrainabilityScore[2].ToString("0.0"), listTrainabilityScore[3].ToString("0.0"), listTrainabilityScore[4].ToString("0.0"),
-                listExerciseScore[0].ToString("0.0"), listExerciseScore[1].ToString("0.0"), listExerciseScore[2].ToString("0.0"), listExerciseScore[3].ToString("0.0")
+                listExerciseScore[0].ToString("0.0"), listExerciseScore[1].ToString("0.0"), listExerciseScore[2].ToString("0.0")
             );
 
     }

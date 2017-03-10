@@ -406,5 +406,6 @@ namespace TheLittleOnesLibrary
             }
             return value.Substring(adjustedPosA);
         }
+
     }
 }

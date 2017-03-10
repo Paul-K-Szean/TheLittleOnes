@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterTheLittleOnes.master.cs" Inherits="MasterTheLittleOnes" %>
+
+<!DOCTYPE html>
+<!--
+Credit Note    
+A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/ -->
+
+<html>
+<head runat="server">
+    <title>TheLittleOnes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- bootstrap-css -->
+    <link href="assetsTheLittleOnes/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- css -->
+    <link rel="stylesheet" href="assetsTheLittleOnes/css/style.css" type="text/css" media="all" />
+    <!-- font-awesome icons -->
+    <link href="assetsTheLittleOnes/css/font-awesome.css" rel="stylesheet">
+    <%--lightbox--%>
+    <link href="assetsTheLittleOnes/css/lightbox.css" rel="stylesheet" />
+    <!-- font -->
+
+    <%--<link href="https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet" rel="stylesheet" type="text/css" />--%>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300" rel="stylesheet" type="text/css">
+    <script src="assetsTheLittleOnes/js/jquery-1.11.1.min.js"></script>
+    <script src="assetsTheLittleOnes/js/bootstrap.js"></script>
+    <%--Scroll to Top--%>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="CPHTHLOHead" runat="server">
+    </asp:ContentPlaceHolder>
+    <%--Group G5 Style--%>
+    <link href="assetsG5/G5Style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="container">
+                <div class="header-left">
+                    <div class="w3layouts-logo">
+                        <h1>
+                            <a href="Home.aspx"><span>The</span>Little<span>Ones</span></a>
+                        </h1>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="top-nav">
+                        <nav class="navbar navbar-default">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="Adoption.aspx">Adoption</a></li>
+                                    <li><a href="Breed.aspx">Breed Info</a></li>
+                                    <li><a href="Clinic.aspx">Clinic Outlets</a></li>
+                                    <li class=""><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Codes<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="hvr-bounce-to-bottom" href="icons.html">Icons</a></li>
+                                            <li><a class="hvr-bounce-to-bottom" href="typography.html">Typography</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="agileinfo-social-grids">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:ContentPlaceHolder ID="CPHTHLOBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+    <script src="assetsTheLittleOnes/js/bootstrap.js"></script>
+    <script src="assetsTheLittleOnes/js/easing.js"></script>
+    <script src="assetsTheLittleOnes/js/jquery-1.11.1.min.js"></script>
+    <script src="assetsTheLittleOnes/js/lightbox-plus-jquery.min.js"></script>
+    <script src="assetsTheLittleOnes/js/move-top.js"></script>
+    <script src="assetsTheLittleOnes/js/responsiveslides.min.js"></script>
+    <script src="assetsTheLittleOnes/js/SmoothScroll.min.js"></script>
+    <!-- here stars scrolling icon -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+                };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <!-- //here ends scrolling icon -->
+  
+</body>
+</html>

@@ -79,7 +79,7 @@ namespace TheLittleOnesLibrary.Controllers
         public List<PhotoEntity> saveToTempFolder(string photoPurpose, FileUpload fileUpload)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/", photoPurpose.ToLower(), "/000/");
+            filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/", photoPurpose.ToLower(), "/ID000/");
             bool filePathExist = Directory.Exists(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
             LogController.LogLine("Check directory: " + filePath_UploadFolderTemp + " Result: " + filePathExist);
 
@@ -118,56 +118,6 @@ namespace TheLittleOnesLibrary.Controllers
             return photoEntities;
         }
 
-        //// Change photo path to database instead of using temp
-        //public List<PhotoEntity> changePhotoPathToDatabaseFolder(List<PhotoEntity> photoEntities, string filePath_UploadFolderTemp)
-        //{
-        //    LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        //    if (string.IsNullOrEmpty(filePath_UploadFolderTemp))
-        //    {
-        //        return null;
-        //    }
-        //    else
-        //    {
-        //        // check for database folder path
-        //        string filePath_UploadFolderDatabase = filePath_UploadFolderTemp.Replace("temp", "database");
-        //        bool isfilePath_UploadFolderDatabaseExists = Directory.Exists(filePath_UploadFolderDatabase);
-
-        //        // check for database folder path
-        //        if (isfilePath_UploadFolderDatabaseExists)
-        //        {
-        //            // remove old files
-        //            Array.ForEach(Directory.GetFiles(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase)), File.Delete);
-        //        }
-        //        else
-        //        {
-        //            // dont exists - create path
-        //            Directory.CreateDirectory(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase));
-        //        }
-
-        //        // get files from temp folder into database folder
-        //        DirectoryInfo dir = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
-        //        LogController.LogLine(dir.FullName);
-        //        foreach (var file in dir.GetFiles("*.*"))
-        //        {
-        //            if (file.Extension.Contains("jpg") || file.Extension.Contains("jpeg") || file.Extension.Contains("png") || file.Extension.Contains("gif") ||
-        //                file.Extension.Contains("tiff") || file.Extension.Contains("bmp"))
-        //            {
-        //                File.Copy(Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp), file.Name),
-        //                Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase), file.Name), true);
-        //            }
-        //        }
-
-        //        // rename the file path from temp to database
-        //        foreach (PhotoEntity photoEntity in photoEntities)
-        //        {
-        //            photoEntity.PhotoPath = photoEntity.PhotoPath.Replace("temp", "database");
-        //        }
-
-        //        return photoEntities;
-        //    }
-        //}
-
-        // Change photo path to database instead of using temp
         public List<PhotoEntity> changePhotoPathToDatabaseFolder(List<PhotoEntity> photoEntities, string ownerID)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -178,7 +128,7 @@ namespace TheLittleOnesLibrary.Controllers
             else
             {
                 // check for database folder path
-                string filePath_UploadFolderDatabase = filePath_UploadFolderTemp.Replace("temp", "database").Replace("000", ownerID);
+                string filePath_UploadFolderDatabase = filePath_UploadFolderTemp.Replace("temp", "database").Replace("ID000", ownerID);
                 bool isfilePath_UploadFolderDatabaseExists = Directory.Exists(filePath_UploadFolderDatabase);
 
                 // exists = wont create

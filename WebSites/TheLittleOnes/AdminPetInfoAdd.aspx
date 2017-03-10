@@ -442,13 +442,13 @@
                                         </div>
                                         <div class="widget-body">
                                             <div class="widget-main">
-                                                <div>
+                                                <%--   <div>
                                                     <asp:Label ID="LBLExerciseLevel" runat="server" Text="Exercise Level" Font-Bold="True"></asp:Label>
                                                     <asp:DropDownList ID="DDLExerciseLevel" runat="server" CssClass="form-control" AppendDataBoundItems="true" AutoPostBack="true" OnSelectedIndexChanged="DDLExerciseLevel_SelectedIndexChanged">
                                                         <asp:ListItem Value="0">Please select something</asp:ListItem>
                                                     </asp:DropDownList>
                                                 </div>
-                                                <br />
+                                                <br />--%>
                                                 <div>
                                                     <asp:Label ID="LBLExerciseEnergy" runat="server" Text="Energy" Font-Bold="True"></asp:Label>
                                                     <asp:DropDownList ID="DDLExerciseEnergy" runat="server" CssClass="form-control" AppendDataBoundItems="true" AutoPostBack="true" OnSelectedIndexChanged="DDLExerciseEnergy_SelectedIndexChanged">
@@ -473,6 +473,13 @@
                                                 <div>
                                                     <asp:Label ID="Label16" runat="server" Text="Not In Use" Font-Bold="True"></asp:Label>
                                                     <asp:DropDownList ID="DropDownList10" runat="server" CssClass="form-control" AppendDataBoundItems="true" Enabled="false">
+                                                        <asp:ListItem Value="0">Please select something</asp:ListItem>
+                                                    </asp:DropDownList>
+                                                </div>
+                                                <br />
+                                                <div>
+                                                    <asp:Label ID="Label3" runat="server" Text="Not In Use" Font-Bold="True"></asp:Label>
+                                                    <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-control" AppendDataBoundItems="true" Enabled="false">
                                                         <asp:ListItem Value="0">Please select something</asp:ListItem>
                                                     </asp:DropDownList>
                                                 </div>

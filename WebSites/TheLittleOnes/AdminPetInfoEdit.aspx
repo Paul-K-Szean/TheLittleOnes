@@ -1146,7 +1146,7 @@
                 <asp:SqlDataSource ID="SDSPhoto" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT PetInfo.petInfoID, PetInfo.petInfoCategory, PetInfo.petInfoBreed, PetInfo.petInfoLifeSpanMin, PetInfo.petInfoHeightMin, PetInfo.petInfoWeightMin, PetInfo.petInfoLifeSpanMax, PetInfo.petInfoHeightMax, PetInfo.petInfoWeightMax, PetInfo.petInfoDesc, PetInfo.petInfoPersonality, PetInfo.petInfoDisplayStatus, Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath FROM (PetInfo INNER JOIN Photo ON PetInfo.petInfoID = Photo.photoOwnerID) WHERE (Photo.photoOwnerID = ?)">
+                    SelectCommand="SELECT PetInfo.petInfoID, PetInfo.petInfoCategory, PetInfo.petInfoBreed, PetInfo.petInfoLifeSpanMin, PetInfo.petInfoHeightMin, PetInfo.petInfoWeightMin, PetInfo.petInfoLifeSpanMax, PetInfo.petInfoHeightMax, PetInfo.petInfoWeightMax, PetInfo.petInfoDesc, PetInfo.petInfoPersonality, PetInfo.petInfoDisplayStatus, Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath FROM (PetInfo INNER JOIN Photo ON PetInfo.petInfoID = Photo.photoOwnerID) WHERE (Photo.photoOwnerID = ? AND Photo.PhotoPurpose='petinfo')">
                     <SelectParameters>
                         <asp:ControlParameter ControlID="GVPetInfoOverview" Name="photoOwnerID" PropertyName="SelectedValue" Type="Int32" />
                     </SelectParameters>

@@ -155,7 +155,7 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-        
+
         // Create PetPhoto
         public PetInfoEntity createPetPhoto(PetInfoEntity petInfoEntity)
         {
@@ -277,20 +277,24 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.CommandText = string.Concat("SELECT * FROM PETINFO WHERE PETINFOID = @PETINFOID");
                 oleDbCommand.Parameters.AddWithValue("@PETINFOID", string.Concat(petInfoID));
                 dataSet = dao.getRecord(oleDbCommand);
-                return new PetInfoEntity(
-                    dataSet.Tables[0].Rows[0][0].ToString(),
-                    dataSet.Tables[0].Rows[0][1].ToString(),
-                    dataSet.Tables[0].Rows[0][2].ToString(),
-                    dataSet.Tables[0].Rows[0][3].ToString(),
-                    dataSet.Tables[0].Rows[0][4].ToString(),
-                    dataSet.Tables[0].Rows[0][5].ToString(),
-                    dataSet.Tables[0].Rows[0][6].ToString(),
-                    dataSet.Tables[0].Rows[0][7].ToString(),
-                    dataSet.Tables[0].Rows[0][8].ToString(),
-                    dataSet.Tables[0].Rows[0][9].ToString(),
-                    dataSet.Tables[0].Rows[0][10].ToString(),
-                    dataSet.Tables[0].Rows[0][11].ToString(),
-                        petCharEntity = getPetChar(petInfoID), PhotoController.getInstance().getPhotoEntities(petInfoID, PhotoPurpose.PetInfo.ToString()));
+                if (dataSet.Tables != null)
+                {
+                    return new PetInfoEntity(
+                        dataSet.Tables[0].Rows[0][0].ToString(),
+                        dataSet.Tables[0].Rows[0][1].ToString(),
+                        dataSet.Tables[0].Rows[0][2].ToString(),
+                        dataSet.Tables[0].Rows[0][3].ToString(),
+                        dataSet.Tables[0].Rows[0][4].ToString(),
+                        dataSet.Tables[0].Rows[0][5].ToString(),
+                        dataSet.Tables[0].Rows[0][6].ToString(),
+                        dataSet.Tables[0].Rows[0][7].ToString(),
+                        dataSet.Tables[0].Rows[0][8].ToString(),
+                        dataSet.Tables[0].Rows[0][9].ToString(),
+                        dataSet.Tables[0].Rows[0][10].ToString(),
+                        dataSet.Tables[0].Rows[0][11].ToString(),
+                            petCharEntity = getPetChar(petInfoID), PhotoController.getInstance().getPhotoEntities(petInfoID, PhotoPurpose.PetInfo.ToString()));
+                }
+                else { return null; }
             }
         }
 
