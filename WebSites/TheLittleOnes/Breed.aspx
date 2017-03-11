@@ -18,7 +18,7 @@
                                     <asp:HyperLink ID="HYPLKPetInfo" runat="server" class="example-image-link" data-lightbox="example-set"
                                         data-title='<%# Eval("petinfodesc") %>'>
                                         <div class="landscape overflowHidden">
-                                            <asp:Image ID="imgBreedPhoto" runat="server" ImageUrl="~/assetsTheLittleOnes/images/g3.jpg" alt="" CssClass="imageNoResize" />
+                                            <asp:Image ID="imgBreedPhoto" runat="server" alt="" CssClass="imageMaxHeight200" />
                                         </div>
                                         <figcaption>
                                             <p>
@@ -34,7 +34,6 @@
                     </ItemTemplate>
                 </asp:DataList>
                 <div class="clearfix"></div>
-                <script src="assetsTheLittleOnes/js/lightbox-plus-jquery.min.js"></script>
             </div>
         </div>
     </div>
@@ -52,9 +51,9 @@
                             <div class="grid">
                                 <figure class="effect-apollo">
                                     <asp:HyperLink ID="HYPLKPetInfo" runat="server" class="example-image-link" data-lightbox="example-set"
-                                        data-title='<%# Eval("petinfodesc") %>'>
+                                        data-title='<%# Eval("petinfodesc") %>' >
                                         <div class="landscape overflowHidden">
-                                            <asp:Image ID="imgBreedPhoto" runat="server" ImageUrl="~/assetsTheLittleOnes/images/g3.jpg" alt="" />
+                                            <asp:Image ID="imgBreedPhoto" runat="server" alt="" CssClass="imageMaxHeight200" />
                                         </div>
                                         <figcaption>
                                             <p>
@@ -70,11 +69,11 @@
                     </ItemTemplate>
                 </asp:DataList>
                 <div class="clearfix"></div>
-                <script src="assetsTheLittleOnes/js/lightbox-plus-jquery.min.js"></script>
             </div>
         </div>
     </div>
     <!-- //gallery -->
+
     <%--Cat--%>
     <asp:SqlDataSource ID="SDSPetInfoCat" runat="server"
         ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"

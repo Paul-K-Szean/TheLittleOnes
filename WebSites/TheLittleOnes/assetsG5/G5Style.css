@@ -55,7 +55,6 @@
                 border: 1px solid #dddddd;
                 margin-left: -1px;
             }
-
             .pagination-G5 table > tbody > tr > td > span {
                 position: relative;
                 float: left;
@@ -69,20 +68,17 @@
                 border-color: #dddddd;
                 cursor: default;
             }
-
             .pagination-G5 table > tbody > tr > td:first-child > a,
             .pagination-G5 table > tbody > tr > td:first-child > span {
                 margin-left: 0;
                 border-bottom-left-radius: 4px;
                 border-top-left-radius: 4px;
             }
-
             .pagination-G5 table > tbody > tr > td:last-child > a,
             .pagination-G5 table > tbody > tr > td:last-child > span {
                 border-bottom-right-radius: 4px;
                 border-top-right-radius: 4px;
             }
-
             .pagination-G5 table > tbody > tr > td > a:hover,
             .pagination-G5 table > tbody > tr > td > span:hover,
             .pagination-G5 table > tbody > tr > td > a:focus,
@@ -116,19 +112,16 @@ ul.dropdown-menu {
     font-size: 18px;
 }
 
-
-
 .BGWhite {
     margin-top: 10px;
     background-color: white;
     padding: 4px 40px;
 }
 
-
 .landscape {
     height: 270px;
-    min-width:360px;
-    background-color:white;
+    min-width: 360px;
+    background-color: white;
 }
 
 .overflowHidden {

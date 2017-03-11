@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
+using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 
 public partial class Breed : BasePageTLO
@@ -20,27 +21,21 @@ public partial class Breed : BasePageTLO
 
     protected void DLPetInfo_ItemDataBound(object sender, DataListItemEventArgs e)
     {
+        HyperLink HYPLKPetInfo = e.Item.FindControl("HYPLKPetInfo") as HyperLink;
+        Image image = e.Item.FindControl("imgBreedPhoto") as Image;
+        DataRowView dataRowView = e.Item.DataItem as DataRowView;
 
-
-        if (e.Item.ItemType == ListItemType.Item ||
-            e.Item.ItemType == ListItemType.AlternatingItem)
+        if (dataRowView != null)
         {
-            HyperLink HYPLKPetInfo = e.Item.FindControl("HYPLKPetInfo") as HyperLink;
-            Image image = e.Item.FindControl("imgBreedPhoto") as Image;
-            DataRowView dataRowView = e.Item.DataItem as DataRowView;
-
-            if (dataRowView != null)
+            petinfoID = dataRowView.Row["petinfoid"].ToString();
+            photoEntities = photoCtrler.getPhotoEntities(petinfoID, PhotoPurpose.PetInfo.ToString());
+            if (photoEntities != null && photoEntities.Count > 0)
             {
-                petinfoID = Convert.ToString(dataRowView.Row["petinfoid"].ToString());
-                photoEntities = photoCtrler.getPhotoEntities(petinfoID, PhotoPurpose.PetInfo.ToString());
-                if (photoEntities != null && photoEntities.Count > 0)
-                {
-                    HYPLKPetInfo.NavigateUrl = image.ImageUrl = photoEntities[0].PhotoPath;
-                }
-                else
-                {
-                    HYPLKPetInfo.NavigateUrl = image.ImageUrl = "assetsG5/images/default.png";
-                }
+                HYPLKPetInfo.NavigateUrl = image.ImageUrl = photoEntities[0].PhotoPath;
+            }
+            else
+            {
+                HYPLKPetInfo.NavigateUrl = image.ImageUrl = "assetsG5/images/default.png";
             }
         }
     }
@@ -49,16 +44,7 @@ public partial class Breed : BasePageTLO
     {
         LinkButton LKBTNViewPetInfo = (LinkButton)(sender);
         viewPetinfoID = LKBTNViewPetInfo.CommandArgument;
-        viewPetInfoEntity = petInfoCtrler.getPetInfo(viewPetinfoID);
-        if (viewPetInfoEntity != null)
-        {
-            string redirect = "<script>window.open('BreedDetails.aspx');</script>";
-            Response.Write(redirect);
-        }
-        else
-        {
-            Response.Redirect(getCurrentWebPage());
-        }
-
+        string redirect = string.Concat("<script>window.open('BreedDetails.aspx?petinfoid=", viewPetinfoID, "');</script>");
+        Response.Write(redirect);
     }
 }

@@ -25,29 +25,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
     <%--lightbox--%>
     <link href="assetsTheLittleOnes/css/lightbox.css" rel="stylesheet" />
     <!-- font -->
-
-    <%--<link href="https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet" rel="stylesheet" type="text/css" />--%>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300" rel="stylesheet" type="text/css">
-    <script src="assetsTheLittleOnes/js/jquery-1.11.1.min.js"></script>
-    <script src="assetsTheLittleOnes/js/bootstrap.js"></script>
-    <%--Scroll to Top--%>
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-            });
-        });
-    </script>
     <asp:ContentPlaceHolder ID="CPHTHLOHead" runat="server">
     </asp:ContentPlaceHolder>
     <%--Group G5 Style--%>
     <link href="assetsG5/G5Style.css" rel="stylesheet" />
 </head>
 <body>
-
     <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:UpdateProgress ID="UpdateProgress1" runat="server">
+            <ProgressTemplate>
+                <div class="overlay-progress ">
+                    <img src="assetsG5/images/loading-squares.gif" />
+                </div>
+            </ProgressTemplate>
+        </asp:UpdateProgress>
         <div class="header">
             <div class="container">
                 <div class="header-left">
@@ -100,17 +92,86 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                 <div class="clearfix"></div>
             </div>
         </div>
-        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
         <asp:ContentPlaceHolder ID="CPHTHLOBody" runat="server">
         </asp:ContentPlaceHolder>
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="agileits-w3layouts-footer-grids">
+                    <div class="col-md-4 footer-left">
+                        <h3>
+                            <a href="Home.aspx"><span>the</span>Little<span>ones</span></a>
+                        </h3>
+                        <div class="footer-social-grids">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 footer-left">
+                        <h4>Navigation</h4>
+                        <div class="col-md-6 footer-grid-left">
+                            <ul>
+                                <li><a class="active" href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="icons.html">Icons</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 footer-grid-left">
+                            <ul>
+                                <li><a href="typography.html">Typography</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-4 footer-left">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe With Us</p>
+                        <div>
+                            <input type="email" placeholder="Subscribe" name="Subscribe" required="">
+                            <button class="btn1">Go</button>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+        <!-- copyright -->
+        <div class="copyright">
+            <div class="container">
+                <p>© 2017 TheLittleOnes. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+            </div>
+        </div>
+        <!-- //copyright -->
     </form>
-    <script src="assetsTheLittleOnes/js/bootstrap.js"></script>
-    <script src="assetsTheLittleOnes/js/easing.js"></script>
+
+
+    <%--<link href="https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet" rel="stylesheet" type="text/css" />--%>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300" rel="stylesheet" type="text/css">
     <script src="assetsTheLittleOnes/js/jquery-1.11.1.min.js"></script>
+    <script src="assetsTheLittleOnes/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="assetsTheLittleOnes/js/lightbox-plus-jquery.min.js"></script>
     <script src="assetsTheLittleOnes/js/move-top.js"></script>
     <script src="assetsTheLittleOnes/js/responsiveslides.min.js"></script>
     <script src="assetsTheLittleOnes/js/SmoothScroll.min.js"></script>
+    <%--Scroll to Top--%>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
     <!-- here stars scrolling icon -->
     <script type="text/javascript">
         $(document).ready(function () {
@@ -128,6 +189,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
         });
     </script>
     <!-- //here ends scrolling icon -->
-  
+
 </body>
 </html>

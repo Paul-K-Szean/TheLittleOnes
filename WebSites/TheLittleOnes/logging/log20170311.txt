@@ -19,3 +19,606 @@
 20170311@01:21:06 [System] getLoggedInAccount 
 20170311@01:21:06 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
 20170311@01:21:06 [System] getLoggedInAccount 
+20170311@17:07:53 [System] getLoggedInAccount 
+20170311@17:07:53 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:07:53 [System] getLoggedInAccount 
+20170311@17:07:58 [System] getLoggedInAccount 
+20170311@17:07:58 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:07:58 [System] getLoggedInAccount 
+20170311@17:07:59 [System] getLoggedInAccount 
+20170311@17:07:59 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:07:59 [System] getLoggedInAccount 
+20170311@17:14:56 [System] getLoggedInAccount 
+20170311@17:14:56 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:14:56 [System] getLoggedInAccount 
+20170311@17:15:17 [System] getLoggedInAccount 
+20170311@17:15:17 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:15:17 [System] getLoggedInAccount 
+20170311@17:15:17 [System] getLoggedInAccount 
+20170311@17:15:17 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:15:17 [System] getLoggedInAccount 
+20170311@17:15:21 [System] getLoggedInAccount 
+20170311@17:15:21 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:15:21 [System] getLoggedInAccount 
+20170311@17:16:00 [System] getLoggedInAccount 
+20170311@17:16:00 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:16:00 [System] getLoggedInAccount 
+20170311@17:16:04 [System] getLoggedInAccount 
+20170311@17:16:04 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:16:04 [System] getLoggedInAccount 
+20170311@17:16:31 [System] getLoggedInAccount 
+20170311@17:16:31 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:16:31 [System] getLoggedInAccount 
+20170311@17:16:38 [System] getLoggedInAccount 
+20170311@17:16:38 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:16:38 [System] getLoggedInAccount 
+20170311@17:17:30 [System] getLoggedInAccount 
+20170311@17:17:30 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:17:30 [System] getLoggedInAccount 
+20170311@17:17:34 [System] getLoggedInAccount 
+20170311@17:17:34 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:17:34 [System] getLoggedInAccount 
+20170311@17:17:35 [System] getLoggedInAccount 
+20170311@17:17:35 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:17:35 [System] getLoggedInAccount 
+20170311@17:17:36 [System] getLoggedInAccount 
+20170311@17:17:36 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:17:36 [System] getLoggedInAccount 
+20170311@17:17:38 [System] getLoggedInAccount 
+20170311@17:17:38 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:17:38 [System] getLoggedInAccount 
+20170311@17:18:02 [System] getLoggedInAccount 
+20170311@17:18:02 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:18:02 [System] getLoggedInAccount 
+20170311@17:18:02 [System] getLoggedInAccount 
+20170311@17:18:02 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:18:02 [System] getLoggedInAccount 
+20170311@17:18:55 [System] getLoggedInAccount 
+20170311@17:18:55 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:18:55 [System] getLoggedInAccount 
+20170311@17:19:15 [System] getLoggedInAccount 
+20170311@17:19:15 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:19:15 [System] getLoggedInAccount 
+20170311@17:20:01 [System] getLoggedInAccount 
+20170311@17:20:01 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:20:01 [System] getLoggedInAccount 
+20170311@17:24:05 [System] getLoggedInAccount 
+20170311@17:24:05 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:24:05 [System] getLoggedInAccount 
+20170311@17:24:14 [System] getLoggedInAccount 
+20170311@17:24:14 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:24:14 [System] getLoggedInAccount 
+20170311@17:24:14 [System] getLoggedInAccount 
+20170311@17:24:14 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:24:14 [System] getLoggedInAccount 
+20170311@17:24:36 [System] getLoggedInAccount 
+20170311@17:24:36 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:24:36 [System] getLoggedInAccount 
+20170311@17:24:37 [System] getLoggedInAccount 
+20170311@17:24:37 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:24:37 [System] getLoggedInAccount 
+20170311@17:24:43 [System] getLoggedInAccount 
+20170311@17:24:43 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@17:24:43 [System] getLoggedInAccount 
+20170311@17:24:44 [System] getLoggedInAccount 
+20170311@17:24:44 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:24:44 [System] getLoggedInAccount 
+20170311@17:26:46 [System] getLoggedInAccount 
+20170311@17:26:46 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:26:46 [System] getLoggedInAccount 
+20170311@17:26:53 [System] getLoggedInAccount 
+20170311@17:26:53 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:26:53 [System] getLoggedInAccount 
+20170311@17:26:56 [System] getLoggedInAccount 
+20170311@17:26:56 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:26:56 [System] getLoggedInAccount 
+20170311@17:26:58 [System] getLoggedInAccount 
+20170311@17:26:58 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:26:58 [System] getLoggedInAccount 
+20170311@17:26:59 [System] getLoggedInAccount 
+20170311@17:26:59 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@17:26:59 [System] getLoggedInAccount 
+20170311@18:43:52 [System] getLoggedInAccount 
+20170311@18:43:52 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:43:52 [System] getLoggedInAccount 
+20170311@18:44:13 [System] getLoggedInAccount 
+20170311@18:44:13 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:44:13 [System] getLoggedInAccount 
+20170311@18:44:16 [System] getLoggedInAccount 
+20170311@18:44:16 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:44:16 [System] getLoggedInAccount 
+20170311@18:44:16 [System] getLoggedInAccount 
+20170311@18:44:16 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:44:16 [System] getLoggedInAccount 
+20170311@18:44:21 [System] getLoggedInAccount 
+20170311@18:44:21 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:44:21 [System] getLoggedInAccount 
+20170311@18:44:21 [System] getLoggedInAccount 
+20170311@18:44:21 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:44:21 [System] getLoggedInAccount 
+20170311@18:44:59 [System] getLoggedInAccount 
+20170311@18:44:59 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:44:59 [System] getLoggedInAccount 
+20170311@18:44:59 [System] getLoggedInAccount 
+20170311@18:44:59 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:44:59 [System] getLoggedInAccount 
+20170311@18:45:03 [System] getLoggedInAccount 
+20170311@18:45:03 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:45:03 [System] getLoggedInAccount 
+20170311@18:45:03 [System] getLoggedInAccount 
+20170311@18:45:03 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:45:03 [System] getLoggedInAccount 
+20170311@18:45:46 [System] getLoggedInAccount 
+20170311@18:45:46 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:45:46 [System] getLoggedInAccount 
+20170311@18:45:50 [System] getLoggedInAccount 
+20170311@18:45:50 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:45:50 [System] getLoggedInAccount 
+20170311@18:45:50 [System] getLoggedInAccount 
+20170311@18:45:50 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:45:50 [System] getLoggedInAccount 
+20170311@18:45:54 [System] getLoggedInAccount 
+20170311@18:45:54 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:45:54 [System] getLoggedInAccount 
+20170311@18:45:54 [System] getLoggedInAccount 
+20170311@18:45:54 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:45:54 [System] getLoggedInAccount 
+20170311@18:48:18 [System] getLoggedInAccount 
+20170311@18:48:18 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:48:18 [System] getLoggedInAccount 
+20170311@18:48:18 [System] getLoggedInAccount 
+20170311@18:48:18 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:48:18 [System] getLoggedInAccount 
+20170311@18:48:57 [System] getLoggedInAccount 
+20170311@18:48:57 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:48:57 [System] getLoggedInAccount 
+20170311@18:49:00 [System] getLoggedInAccount 
+20170311@18:49:00 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:49:00 [System] getLoggedInAccount 
+20170311@18:49:00 [System] getLoggedInAccount 
+20170311@18:49:00 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:49:00 [System] getLoggedInAccount 
+20170311@18:49:56 [System] getLoggedInAccount 
+20170311@18:49:56 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:49:56 [System] getLoggedInAccount 
+20170311@18:49:58 [System] getLoggedInAccount 
+20170311@18:49:58 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:49:58 [System] getLoggedInAccount 
+20170311@18:49:58 [System] getLoggedInAccount 
+20170311@18:49:58 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:49:58 [System] getLoggedInAccount 
+20170311@18:50:22 [System] getLoggedInAccount 
+20170311@18:50:22 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:50:22 [System] getLoggedInAccount 
+20170311@18:50:25 [System] getLoggedInAccount 
+20170311@18:50:25 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:50:25 [System] getLoggedInAccount 
+20170311@18:50:25 [System] getLoggedInAccount 
+20170311@18:50:25 [System] Page loaded: http://localhost:65063/breeddetails.aspx 
+20170311@18:50:25 [System] getLoggedInAccount 
+20170311@18:51:06 [System] getLoggedInAccount 
+20170311@18:51:06 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:51:06 [System] getLoggedInAccount 
+20170311@18:51:06 [System] getLoggedInAccount 
+20170311@18:51:06 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170311@18:51:06 [System] getLoggedInAccount 
+20170311@18:53:56 [System] getLoggedInAccount 
+20170311@18:53:56 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170311@18:53:56 [System] getLoggedInAccount 
+20170311@18:54:21 [System] getLoggedInAccount 
+20170311@18:54:21 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170311@18:54:21 [System] getLoggedInAccount 
+20170311@18:54:39 [System] getLoggedInAccount 
+20170311@18:54:39 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:54:39 [System] getLoggedInAccount 
+20170311@18:54:40 [System] getLoggedInAccount 
+20170311@18:54:40 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=51 
+20170311@18:54:40 [System] getLoggedInAccount 
+20170311@18:54:46 [System] getLoggedInAccount 
+20170311@18:54:46 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@18:54:46 [System] getLoggedInAccount 
+20170311@18:54:46 [System] getLoggedInAccount 
+20170311@18:54:46 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@18:54:46 [System] getLoggedInAccount 
+20170311@18:56:51 [System] getLoggedInAccount 
+20170311@18:56:51 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@18:56:51 [System] getLoggedInAccount 
+20170311@18:56:52 [System] getLoggedInAccount 
+20170311@18:56:52 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170311@18:56:52 [System] getLoggedInAccount 
+20170311@18:56:58 [System] getLoggedInAccount 
+20170311@18:56:58 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=51 
+20170311@18:56:58 [System] getLoggedInAccount 
+20170311@18:57:00 [System] getLoggedInAccount 
+20170311@18:57:00 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@18:57:00 [System] getLoggedInAccount 
+20170311@18:57:33 [System] getLoggedInAccount 
+20170311@18:57:33 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170311@18:57:33 [System] getLoggedInAccount 
+20170311@18:57:55 [System] getLoggedInAccount 
+20170311@18:57:55 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170311@18:57:55 [System] getLoggedInAccount 
+20170311@19:01:56 [System] getLoggedInAccount 
+20170311@19:01:56 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170311@19:01:56 [System] getLoggedInAccount 
+20170311@19:03:08 [System] getLoggedInAccount 
+20170311@19:03:08 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170311@19:03:08 [System] getLoggedInAccount 
+20170311@19:03:35 [System] getLoggedInAccount 
+20170311@19:03:35 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@19:03:35 [System] getLoggedInAccount 
+20170311@19:04:15 [System] getLoggedInAccount 
+20170311@19:04:15 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@19:04:15 [System] getLoggedInAccount 
+20170311@19:04:25 [System] getLoggedInAccount 
+20170311@19:04:25 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@19:04:25 [System] getLoggedInAccount 
+20170311@19:04:26 [System] getLoggedInAccount 
+20170311@19:04:26 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@19:04:26 [System] getLoggedInAccount 
+20170311@19:05:56 [System] getLoggedInAccount 
+20170311@19:05:56 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@19:05:56 [System] getLoggedInAccount 
+20170311@19:06:02 [System] getLoggedInAccount 
+20170311@19:06:02 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@19:06:02 [System] getLoggedInAccount 
+20170311@19:06:34 [System] getLoggedInAccount 
+20170311@19:06:34 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@19:06:34 [System] getLoggedInAccount 
+20170311@19:26:57 [System] getLoggedInAccount 
+20170311@19:26:57 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:26:57 [System] getLoggedInAccount 
+20170311@19:26:57 [System] No account logged in 
+20170311@19:26:57 [System] getLoggedInAccount 
+20170311@19:26:57 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170311@19:26:57 [System] getLoggedInAccount 
+20170311@19:26:57 [System] SignOut 
+20170311@19:27:04 [System] getLoggedInAccount 
+20170311@19:27:04 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170311@19:27:04 [System] getLoggedInAccount 
+20170311@19:27:04 [System] SignOut 
+20170311@19:27:04 [System] loginAccount 
+20170311@19:27:05 [System] getShopInfo 
+20170311@19:27:05 [System] getShopTime 
+20170311@19:27:05 [System] getLoggedInAccount 
+20170311@19:27:05 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170311@19:27:05 [System] getLoggedInAccount 
+20170311@19:27:05 [System] getLoggedInAccount 
+20170311@19:27:05 [System] getLoggedInAccount 
+20170311@19:27:05 [System] GVPetInfoOverview_DataBound 
+20170311@19:27:06 [System] GVShopInfoOverview_DataBound 
+20170311@19:27:09 [System] getLoggedInAccount 
+20170311@19:27:09 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:27:09 [System] getLoggedInAccount 
+20170311@19:27:09 [System] getLoggedInAccount 
+20170311@19:27:09 [System] getLoggedInAccount 
+20170311@19:29:23 [System] getLoggedInAccount 
+20170311@19:29:23 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@19:29:23 [System] getLoggedInAccount 
+20170311@19:29:26 [System] getLoggedInAccount 
+20170311@19:29:26 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@19:29:26 [System] getLoggedInAccount 
+20170311@19:29:55 [System] getLoggedInAccount 
+20170311@19:29:55 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@19:29:55 [System] getLoggedInAccount 
+20170311@19:30:56 [System] getLoggedInAccount 
+20170311@19:30:56 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@19:30:56 [System] getLoggedInAccount 
+20170311@19:30:57 [System] getLoggedInAccount 
+20170311@19:30:57 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@19:30:57 [System] getLoggedInAccount 
+20170311@19:33:06 [System] getLoggedInAccount 
+20170311@19:33:06 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:06 [System] getLoggedInAccount 
+20170311@19:33:07 [System] getLoggedInAccount 
+20170311@19:33:07 [System] getLoggedInAccount 
+20170311@19:33:09 [System] getLoggedInAccount 
+20170311@19:33:09 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:09 [System] getLoggedInAccount 
+20170311@19:33:09 [System] getLoggedInAccount 
+20170311@19:33:09 [System] getLoggedInAccount 
+20170311@19:33:11 [System] getLoggedInAccount 
+20170311@19:33:11 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:11 [System] getLoggedInAccount 
+20170311@19:33:11 [System] getLoggedInAccount 
+20170311@19:33:11 [System] getLoggedInAccount 
+20170311@19:33:13 [System] getLoggedInAccount 
+20170311@19:33:13 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:13 [System] getLoggedInAccount 
+20170311@19:33:13 [System] getLoggedInAccount 
+20170311@19:33:13 [System] getLoggedInAccount 
+20170311@19:33:15 [System] getLoggedInAccount 
+20170311@19:33:15 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:15 [System] getLoggedInAccount 
+20170311@19:33:15 [System] getLoggedInAccount 
+20170311@19:33:15 [System] getLoggedInAccount 
+20170311@19:33:35 [System] getLoggedInAccount 
+20170311@19:33:35 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:35 [System] getLoggedInAccount 
+20170311@19:33:35 [System] getLoggedInAccount 
+20170311@19:33:35 [System] getLoggedInAccount 
+20170311@19:33:40 [System] getLoggedInAccount 
+20170311@19:33:40 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:40 [System] getLoggedInAccount 
+20170311@19:33:40 [System] getLoggedInAccount 
+20170311@19:33:40 [System] getLoggedInAccount 
+20170311@19:33:42 [System] getLoggedInAccount 
+20170311@19:33:42 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:42 [System] getLoggedInAccount 
+20170311@19:33:42 [System] getLoggedInAccount 
+20170311@19:33:42 [System] getLoggedInAccount 
+20170311@19:33:43 [System] getLoggedInAccount 
+20170311@19:33:43 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:43 [System] getLoggedInAccount 
+20170311@19:33:43 [System] getLoggedInAccount 
+20170311@19:33:43 [System] getLoggedInAccount 
+20170311@19:33:44 [System] getLoggedInAccount 
+20170311@19:33:44 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:44 [System] getLoggedInAccount 
+20170311@19:33:44 [System] getLoggedInAccount 
+20170311@19:33:44 [System] getLoggedInAccount 
+20170311@19:33:49 [System] getLoggedInAccount 
+20170311@19:33:49 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:49 [System] getLoggedInAccount 
+20170311@19:33:49 [System] getLoggedInAccount 
+20170311@19:33:49 [System] getLoggedInAccount 
+20170311@19:33:51 [System] getLoggedInAccount 
+20170311@19:33:51 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:51 [System] getLoggedInAccount 
+20170311@19:33:51 [System] getLoggedInAccount 
+20170311@19:33:51 [System] getLoggedInAccount 
+20170311@19:33:52 [System] getLoggedInAccount 
+20170311@19:33:52 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:52 [System] getLoggedInAccount 
+20170311@19:33:52 [System] getLoggedInAccount 
+20170311@19:33:52 [System] getLoggedInAccount 
+20170311@19:33:54 [System] getLoggedInAccount 
+20170311@19:33:54 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:33:54 [System] getLoggedInAccount 
+20170311@19:33:54 [System] getLoggedInAccount 
+20170311@19:33:54 [System] getLoggedInAccount 
+20170311@19:36:43 [System] getLoggedInAccount 
+20170311@19:36:43 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:36:43 [System] getLoggedInAccount 
+20170311@19:36:43 [System] getLoggedInAccount 
+20170311@19:36:43 [System] getLoggedInAccount 
+20170311@19:36:46 [System] getLoggedInAccount 
+20170311@19:36:46 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:36:46 [System] getLoggedInAccount 
+20170311@19:36:46 [System] getLoggedInAccount 
+20170311@19:36:46 [System] getLoggedInAccount 
+20170311@19:36:49 [System] getLoggedInAccount 
+20170311@19:36:49 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@19:36:49 [System] getLoggedInAccount 
+20170311@19:36:49 [System] getLoggedInAccount 
+20170311@19:36:49 [System] getLoggedInAccount 
+20170311@19:41:33 [System] getLoggedInAccount 
+20170311@19:41:33 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@19:41:33 [System] getLoggedInAccount 
+20170311@19:42:13 [System] getLoggedInAccount 
+20170311@19:42:13 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@19:42:13 [System] getLoggedInAccount 
+20170311@19:50:02 [System] getLoggedInAccount 
+20170311@19:50:02 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@19:50:02 [System] getLoggedInAccount 
+20170311@20:00:35 [System] getLoggedInAccount 
+20170311@20:00:35 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:00:35 [System] getLoggedInAccount 
+20170311@20:00:59 [System] getLoggedInAccount 
+20170311@20:00:59 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:00:59 [System] getLoggedInAccount 
+20170311@20:01:25 [System] getLoggedInAccount 
+20170311@20:01:25 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:01:25 [System] getLoggedInAccount 
+20170311@20:02:18 [System] getLoggedInAccount 
+20170311@20:02:18 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:02:18 [System] getLoggedInAccount 
+20170311@20:02:30 [System] getLoggedInAccount 
+20170311@20:02:30 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:02:30 [System] getLoggedInAccount 
+20170311@20:04:09 [System] getLoggedInAccount 
+20170311@20:04:09 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:04:09 [System] getLoggedInAccount 
+20170311@20:05:07 [System] getLoggedInAccount 
+20170311@20:05:07 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:05:07 [System] getLoggedInAccount 
+20170311@20:11:04 [System] getLoggedInAccount 
+20170311@20:11:04 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:11:04 [System] getLoggedInAccount 
+20170311@20:11:44 [System] getLoggedInAccount 
+20170311@20:11:44 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:11:44 [System] getLoggedInAccount 
+20170311@20:14:01 [System] getLoggedInAccount 
+20170311@20:14:01 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:14:01 [System] getLoggedInAccount 
+20170311@20:21:33 [System] getLoggedInAccount 
+20170311@20:21:33 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:21:33 [System] getLoggedInAccount 
+20170311@20:22:48 [System] getLoggedInAccount 
+20170311@20:22:48 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:22:48 [System] getLoggedInAccount 
+20170311@20:23:23 [System] getLoggedInAccount 
+20170311@20:23:23 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:23:23 [System] getLoggedInAccount 
+20170311@20:23:42 [System] getLoggedInAccount 
+20170311@20:23:42 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:23:42 [System] getLoggedInAccount 
+20170311@20:24:19 [System] getLoggedInAccount 
+20170311@20:24:19 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:24:19 [System] getLoggedInAccount 
+20170311@20:24:46 [System] getLoggedInAccount 
+20170311@20:24:46 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:24:46 [System] getLoggedInAccount 
+20170311@20:25:09 [System] getLoggedInAccount 
+20170311@20:25:09 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:25:09 [System] getLoggedInAccount 
+20170311@20:25:31 [System] getLoggedInAccount 
+20170311@20:25:31 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:25:31 [System] getLoggedInAccount 
+20170311@20:26:27 [System] getLoggedInAccount 
+20170311@20:26:27 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:26:27 [System] getLoggedInAccount 
+20170311@20:27:06 [System] getLoggedInAccount 
+20170311@20:27:06 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:27:06 [System] getLoggedInAccount 
+20170311@20:27:41 [System] getLoggedInAccount 
+20170311@20:27:41 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:27:41 [System] getLoggedInAccount 
+20170311@20:28:05 [System] getLoggedInAccount 
+20170311@20:28:05 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:28:05 [System] getLoggedInAccount 
+20170311@20:28:37 [System] getLoggedInAccount 
+20170311@20:28:37 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:28:37 [System] getLoggedInAccount 
+20170311@20:29:06 [System] getLoggedInAccount 
+20170311@20:29:06 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:29:06 [System] getLoggedInAccount 
+20170311@20:32:37 [System] getLoggedInAccount 
+20170311@20:32:37 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170311@20:32:37 [System] getLoggedInAccount 
+20170311@20:32:37 [System] SignOut 
+20170311@20:32:41 [System] getLoggedInAccount 
+20170311@20:32:41 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170311@20:32:41 [System] getLoggedInAccount 
+20170311@20:32:42 [System] SignOut 
+20170311@20:32:42 [System] loginAccount 
+20170311@20:32:42 [System] getShopInfo 
+20170311@20:32:42 [System] getShopTime 
+20170311@20:32:43 [System] getLoggedInAccount 
+20170311@20:32:43 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170311@20:32:43 [System] getLoggedInAccount 
+20170311@20:32:43 [System] getLoggedInAccount 
+20170311@20:32:43 [System] getLoggedInAccount 
+20170311@20:32:43 [System] GVPetInfoOverview_DataBound 
+20170311@20:32:43 [System] GVShopInfoOverview_DataBound 
+20170311@20:32:46 [System] getLoggedInAccount 
+20170311@20:32:46 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170311@20:32:46 [System] getLoggedInAccount 
+20170311@20:32:46 [System] getLoggedInAccount 
+20170311@20:32:46 [System] getLoggedInAccount 
+20170311@20:41:35 [System] getLoggedInAccount 
+20170311@20:41:35 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:41:35 [System] getLoggedInAccount 
+20170311@20:42:01 [System] getLoggedInAccount 
+20170311@20:42:01 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@20:42:01 [System] getLoggedInAccount 
+20170311@20:42:09 [System] getLoggedInAccount 
+20170311@20:42:09 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=46 
+20170311@20:42:09 [System] getLoggedInAccount 
+20170311@20:43:48 [System] getLoggedInAccount 
+20170311@20:43:48 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@20:43:48 [System] getLoggedInAccount 
+20170311@20:43:49 [System] getLoggedInAccount 
+20170311@20:43:49 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=54 
+20170311@20:43:49 [System] getLoggedInAccount 
+20170311@20:43:55 [System] getLoggedInAccount 
+20170311@20:43:55 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@20:43:55 [System] getLoggedInAccount 
+20170311@20:43:56 [System] getLoggedInAccount 
+20170311@20:43:56 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=47 
+20170311@20:43:56 [System] getLoggedInAccount 
+20170311@20:43:59 [System] getLoggedInAccount 
+20170311@20:43:59 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@20:43:59 [System] getLoggedInAccount 
+20170311@20:43:59 [System] getLoggedInAccount 
+20170311@20:43:59 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:43:59 [System] getLoggedInAccount 
+20170311@20:44:28 [System] getLoggedInAccount 
+20170311@20:44:28 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:44:28 [System] getLoggedInAccount 
+20170311@20:44:33 [System] getLoggedInAccount 
+20170311@20:44:33 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=47 
+20170311@20:44:33 [System] getLoggedInAccount 
+20170311@20:44:35 [System] getLoggedInAccount 
+20170311@20:44:35 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=54 
+20170311@20:44:35 [System] getLoggedInAccount 
+20170311@20:50:16 [System] getLoggedInAccount 
+20170311@20:50:16 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=54 
+20170311@20:50:16 [System] getLoggedInAccount 
+20170311@20:50:41 [System] getLoggedInAccount 
+20170311@20:50:41 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=54 
+20170311@20:50:41 [System] getLoggedInAccount 
+20170311@20:50:49 [System] getLoggedInAccount 
+20170311@20:50:49 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=54 
+20170311@20:50:49 [System] getLoggedInAccount 
+20170311@20:51:13 [System] getLoggedInAccount 
+20170311@20:51:13 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@20:51:13 [System] getLoggedInAccount 
+20170311@20:51:22 [System] getLoggedInAccount 
+20170311@20:51:22 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:51:22 [System] getLoggedInAccount 
+20170311@20:51:25 [System] getLoggedInAccount 
+20170311@20:51:25 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=47 
+20170311@20:51:25 [System] getLoggedInAccount 
+20170311@20:55:27 [System] getLoggedInAccount 
+20170311@20:55:27 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:55:27 [System] getLoggedInAccount 
+20170311@20:55:52 [System] getLoggedInAccount 
+20170311@20:55:52 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:55:52 [System] getLoggedInAccount 
+20170311@20:57:43 [System] getLoggedInAccount 
+20170311@20:57:43 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:57:43 [System] getLoggedInAccount 
+20170311@20:57:47 [System] getLoggedInAccount 
+20170311@20:57:47 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:57:47 [System] getLoggedInAccount 
+20170311@20:58:06 [System] getLoggedInAccount 
+20170311@20:58:06 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:58:06 [System] getLoggedInAccount 
+20170311@20:58:37 [System] getLoggedInAccount 
+20170311@20:58:37 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:58:37 [System] getLoggedInAccount 
+20170311@20:59:04 [System] getLoggedInAccount 
+20170311@20:59:04 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:59:04 [System] getLoggedInAccount 
+20170311@20:59:19 [System] getLoggedInAccount 
+20170311@20:59:19 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@20:59:19 [System] getLoggedInAccount 
+20170311@21:01:59 [System] getLoggedInAccount 
+20170311@21:01:59 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@21:02:00 [System] getLoggedInAccount 
+20170311@21:03:04 [System] getLoggedInAccount 
+20170311@21:03:04 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@21:03:04 [System] getLoggedInAccount 
+20170311@21:05:03 [System] getLoggedInAccount 
+20170311@21:05:03 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=52 
+20170311@21:05:03 [System] getLoggedInAccount 
+20170311@21:05:38 [System] getLoggedInAccount 
+20170311@21:05:38 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@21:05:38 [System] getLoggedInAccount 
+20170311@21:05:43 [System] getLoggedInAccount 
+20170311@21:05:43 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@21:05:43 [System] getLoggedInAccount 
+20170311@21:05:43 [System] getLoggedInAccount 
+20170311@21:05:43 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=50 
+20170311@21:05:43 [System] getLoggedInAccount 
+20170311@21:08:05 [System] getLoggedInAccount 
+20170311@21:08:05 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@21:08:05 [System] getLoggedInAccount 
+20170311@21:11:30 [System] getLoggedInAccount 
+20170311@21:11:30 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@21:11:30 [System] getLoggedInAccount 
+20170311@21:11:39 [System] getLoggedInAccount 
+20170311@21:11:39 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@21:11:39 [System] getLoggedInAccount 
+20170311@21:11:39 [System] getLoggedInAccount 
+20170311@21:11:39 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@21:11:39 [System] getLoggedInAccount 
+20170311@21:12:19 [System] getLoggedInAccount 
+20170311@21:12:19 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@21:12:19 [System] getLoggedInAccount 
+20170311@21:12:20 [System] getLoggedInAccount 
+20170311@21:12:20 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=49 
+20170311@21:12:20 [System] getLoggedInAccount 
+20170311@21:12:24 [System] getLoggedInAccount 
+20170311@21:12:24 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@21:12:25 [System] getLoggedInAccount 
+20170311@21:12:35 [System] getLoggedInAccount 
+20170311@21:12:35 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170311@21:12:35 [System] getLoggedInAccount 
+20170311@21:12:36 [System] getLoggedInAccount 
+20170311@21:12:36 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=62 
+20170311@21:12:36 [System] getLoggedInAccount 
+20170311@21:12:42 [System] getLoggedInAccount 
+20170311@21:12:42 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=62 
+20170311@21:12:42 [System] getLoggedInAccount 

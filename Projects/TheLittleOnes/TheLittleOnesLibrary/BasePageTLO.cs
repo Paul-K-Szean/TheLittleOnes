@@ -49,10 +49,6 @@ namespace TheLittleOnesLibrary
         protected AdoptInfoController adoptInfoCtrler;
         protected PetController petCtrler;
 
-        // Page variables
-        protected static PetInfoEntity viewPetInfoEntity;
-        protected static PetCharEntity viewPetCharEntity;
-
         // Data Access Object
         protected DAO dao;
 

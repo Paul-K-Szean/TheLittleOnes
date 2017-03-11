@@ -52,6 +52,7 @@ body:after {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  top:-92px;
 }
 
 .lb-outerContainer:after {
@@ -143,6 +144,7 @@ body:after {
 
 .lb-dataContainer {
   margin: 0 auto;
+  margin-top:-90px;
   padding-top: 5px;
   *zoom: 1;
   width: 100%;
@@ -173,7 +175,7 @@ body:after {
 }
 
 .lb-data .lb-caption {
-  font-size: 15px;
+  font-size: 19px;
   line-height: 1.2em;
 }
 
@@ -181,7 +183,7 @@ body:after {
   display: block;
   clear: left;
   padding-bottom: 1em;
-  font-size: 12px;
+  font-size: 15px;
   color: #999999;
   line-height: 1.2em;
 }
