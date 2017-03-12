@@ -21,8 +21,8 @@
             <asp:ControlParameter ControlID="HDFPetInfoID" Name="photoOwnerID" PropertyName="Value" Type="Int32" />
         </SelectParameters>
     </asp:SqlDataSource>
-    <asp:DataList ID="DDLPetInfo" runat="server" DataSourceID="SDSPetInfo" DataKeyField="petInfoID" Width="100%"
-        OnItemDataBound="DDLPetInfo_ItemDataBound">
+    <asp:DataList ID="DLPetInfo" runat="server" DataSourceID="SDSPetInfo" DataKeyField="petInfoID" Width="100%"
+        OnItemDataBound="DLPetInfo_ItemDataBound">
         <ItemTemplate>
             <!-- pet info details -->
             <div class="about">
@@ -198,41 +198,42 @@
                 </div>
             </div>
             <!-- //choose -->
-            <!-- gallery Dog-->
+
+            <!-- gallery-->
             <div class="gallery">
-                    <div class="container">
-                        <div class="agileits-about-top-heading">
-                            <h3>Photo</h3>
-                        </div>
-                        <div class="gallery-grids">
-                            <asp:DataList ID="DataList2" runat="server" DataKeyField="photoID" DataSourceID="SDSPhoto"
-                                RepeatDirection="Horizontal" RepeatLayout="Flow" Width="100%">
-                                <ItemTemplate>
-                                    <div class="col-md-4 gallery-grid text-center">
-                                        <div class="grid">
-                                            <figure class="effect-apollo">
-                                                <asp:HyperLink ID="HYPLKPetInfo" runat="server" class="example-image-link" data-lightbox="example-set"
-                                                    data-title='<%# Eval("petinfodesc") %>' NavigateUrl='<%# Eval("photopath")%>'>
-                                                    <div class="landscape overflowHidden">
-                                                        <asp:Image ID="imgBreedPhoto" runat="server"
-                                                            ImageUrl='<%# "uploadedFiles/database/petinfo/" + Eval("photoOwnerID") + "/" + Eval("photoName") %>' alt="" />
-                                                    </div>
-                                                    <figcaption>
-                                                        <p>
-                                                            <asp:Label ID="Label2" runat="server" Text='<%# splitCamelCase( Eval("petinfobreed").ToString() )%>'></asp:Label>
-                                                        </p>
-                                                    </figcaption>
-                                                </asp:HyperLink>
-                                            </figure>
-                                        </div>
-                                        <%--   <asp:LinkButton ID="LKBTNPetInfo" runat="server" Text='<%# splitCamelCase( Eval("petinfobreed").ToString() )%>'
-                                        CommandName="petinfoid" CommandArgument='<%# Eval("petinfoid")%>' OnCommand="LKBTNPetInfo_Command"></asp:LinkButton>--%>
-                                    </div>
-                                </ItemTemplate>
-                            </asp:DataList>
-                            <div class="clearfix"></div>
-                        </div>
+                <div class="container">
+                    <div class="agileits-about-top-heading">
+                        <h3>Photo</h3>
                     </div>
+                    <div class="gallery-grids">
+                        <asp:DataList ID="DataList2" runat="server" DataKeyField="photoID" DataSourceID="SDSPhoto"
+                            RepeatDirection="Horizontal" RepeatLayout="Flow" Width="100%">
+                            <ItemTemplate>
+                                <div class="col-md-4 gallery-grid text-center">
+                                    <div class="grid">
+                                        <figure class="effect-apollo">
+                                            <asp:HyperLink ID="HYPLKPetInfo" runat="server" class="example-image-link" data-lightbox="example-set"
+                                                data-title='<%# Eval("petinfodesc") %>' NavigateUrl='<%# Eval("photopath")%>'>
+                                                <div class="landscape overflowHidden">
+                                                    <asp:Image ID="imgBreedPhoto" runat="server"
+                                                        ImageUrl='<%# "uploadedFiles/database/petinfo/" + Eval("photoOwnerID") + "/" + Eval("photoName") %>' alt="" />
+                                                </div>
+                                                <figcaption>
+                                                    <p>
+                                                        <asp:Label ID="Label2" runat="server" Text='<%# splitCamelCase( Eval("petinfobreed").ToString() )%>'></asp:Label>
+                                                    </p>
+                                                </figcaption>
+                                            </asp:HyperLink>
+                                        </figure>
+                                    </div>
+                                    <%--   <asp:LinkButton ID="LKBTNPetInfo" runat="server" Text='<%# splitCamelCase( Eval("petinfobreed").ToString() )%>'
+                                        CommandName="petinfoid" CommandArgument='<%# Eval("petinfoid")%>' OnCommand="LKBTNPetInfo_Command"></asp:LinkButton>--%>
+                                </div>
+                            </ItemTemplate>
+                        </asp:DataList>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
             </div>
             <!-- //gallery -->
 

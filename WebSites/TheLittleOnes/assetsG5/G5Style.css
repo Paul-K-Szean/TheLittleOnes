@@ -11,6 +11,14 @@
         margin: 20% 47%;
     }
 
+.padding0 {
+    padding: 0px;
+}
+
+.margin0 {
+    margin: 0px;
+}
+
 .marginTop-0 {
     margin-top: 0px;
 }
@@ -55,6 +63,7 @@
                 border: 1px solid #dddddd;
                 margin-left: -1px;
             }
+
             .pagination-G5 table > tbody > tr > td > span {
                 position: relative;
                 float: left;
@@ -68,17 +77,20 @@
                 border-color: #dddddd;
                 cursor: default;
             }
+
             .pagination-G5 table > tbody > tr > td:first-child > a,
             .pagination-G5 table > tbody > tr > td:first-child > span {
                 margin-left: 0;
                 border-bottom-left-radius: 4px;
                 border-top-left-radius: 4px;
             }
+
             .pagination-G5 table > tbody > tr > td:last-child > a,
             .pagination-G5 table > tbody > tr > td:last-child > span {
                 border-bottom-right-radius: 4px;
                 border-top-right-radius: 4px;
             }
+
             .pagination-G5 table > tbody > tr > td > a:hover,
             .pagination-G5 table > tbody > tr > td > span:hover,
             .pagination-G5 table > tbody > tr > td > a:focus,
@@ -105,7 +117,7 @@ ul.dropdown-menu {
 }
 
     .w3layouts-banner-slider .container {
-        padding: 4em 0px;
+        padding: 8em 12px;
     }
 
 .wthree-top-grid {
@@ -124,10 +136,31 @@ ul.dropdown-menu {
     background-color: white;
 }
 
+.landscapeAdoption {
+    min-height:150px;
+    max-height: 195px;
+    max-width: 260px;
+    background-color: white;
+}
+
+
 .overflowHidden {
     overflow: hidden;
 }
 
+.adoption figure figcaption p {
+    margin: 0px 0px;
+    padding: 0px 4px;
+    opacity: 1;
+    width: 250px;
+    background-color: rgba(169,169,169,0.5);
+    border: none;
+}
+
+    .adoption figure figcaption p span {
+        opacity: 1;
+        color: white;
+    }
 /*progress bar colors*/
 .progress-bar-blueviolet {
     background-color: #8A2BE2;
@@ -140,10 +173,141 @@ ul.dropdown-menu {
 }
 
 
+.footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+}
 
+.maxWidth200 {
+    max-width: 200px;
+}
 
+.maxWidth220 {
+    max-width: 220px;
+}
 
+.maxWidth240 {
+    max-width: 240px;
+}
 
+.maxWidth260 {
+    max-width: 260px;
+}
+
+.maxWidth280 {
+    max-width: 280px;
+}
+
+.maxWidth300 {
+    max-width: 300px;
+}
+
+.hr {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    border-width: 1px 0 0;
+    border-top: 1px solid #E3E3E3;
+    margin: 12px 0;
+    border-top-color: rgba(0,0,0,.11);
+}
+
+.hr-double {
+    height: 3px;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    border-top-color: rgba(0,0,0,.11);
+    border-bottom-color: rgba(0,0,0,.11);
+}
+
+.hr-double2 {
+    height: 6px;
+    border-top: 2px solid #E3E3E3;
+    border-bottom: 2px solid #E3E3E3;
+    border-top-color: rgba(0,0,0,.11);
+    border-bottom-color: rgba(0,0,0,.11);
+}
+
+.hr-dotted, .hr.dotted {
+    border-style: dotted;
+}
+
+.hr-32, .hr32 {
+    margin: 32px 0;
+}
+
+.hr-30, .hr30 {
+    margin: 30px 0;
+}
+
+.hr-28, .hr28 {
+    margin: 28px 0;
+}
+
+.hr-26, .hr26 {
+    margin: 26px 0;
+}
+
+.hr-24, .hr24 {
+    margin: 24px 0;
+}
+
+.hr-22, .hr22 {
+    margin: 22px 0;
+}
+
+.hr-20, .hr20 {
+    margin: 20px 0;
+}
+
+.hr-18, .hr18 {
+    margin: 18px 0;
+}
+
+.hr-16, .hr16 {
+    margin: 16px 0;
+}
+
+.hr-14, .hr14 {
+    margin: 14px 0;
+}
+
+.hr-12, .hr12 {
+    margin: 12px 0;
+}
+
+.hr-10, .hr10 {
+    margin: 10px 0;
+}
+
+.hr-8, .hr8 {
+    margin: 8px 0;
+}
+
+.hr-6, .hr6 {
+    margin: 6px 0;
+}
+
+.hr-4, .hr4 {
+    margin: 4px 0;
+}
+
+.hr-2, .hr2 {
+    margin: 2px 0;
+}
+
+.space {
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+}
+
+[class*=vspace-] {
+    display: none;
+}
 
 .space-32, [class*=vspace-32] {
     max-height: 1px;
@@ -262,4 +426,17 @@ ul.dropdown-menu {
     min-height: 1px;
     overflow: hidden;
     margin: 0;
+}
+
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+    background: url('icon_top.png') no-repeat;
+    background-color: #000;
 }

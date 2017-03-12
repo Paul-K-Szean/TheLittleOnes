@@ -40,11 +40,5 @@ public partial class Breed : BasePageTLO
         }
     }
 
-    protected void LKBTNPetInfo_Command(object sender, CommandEventArgs e)
-    {
-        LinkButton LKBTNViewPetInfo = (LinkButton)(sender);
-        viewPetinfoID = LKBTNViewPetInfo.CommandArgument;
-        string redirect = string.Concat("<script>window.open('BreedDetails.aspx?petinfoid=", viewPetinfoID, "');</script>");
-        Response.Write(redirect);
-    }
+  
 }

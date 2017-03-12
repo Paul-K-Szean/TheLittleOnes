@@ -38,7 +38,7 @@ public partial class BreedDetails : BasePageTLO
         HDFPetInfoID.Value = viewPetInfoEntity.PetInfoID;
     }
 
-    protected void DDLPetInfo_ItemDataBound(object sender, DataListItemEventArgs e)
+    protected void DLPetInfo_ItemDataBound(object sender, DataListItemEventArgs e)
     {
         viewPetCharEntity = petInfoCtrler.getPetChar(viewPetInfoEntity.PetInfoID);
 

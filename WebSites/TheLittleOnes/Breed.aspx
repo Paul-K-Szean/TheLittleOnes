@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Breed" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="Breed.aspx.cs" Inherits="Breed" %>
+﻿<%@ Page Title="TheLittleOnes - Breed" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="Breed.aspx.cs" Inherits="Breed" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTHLOHead" runat="Server">
 </asp:Content>
@@ -12,7 +12,8 @@
                     DataSourceID="SDSPetInfoCat" DataKeyField="petInfoID"
                     OnItemDataBound="DLPetInfo_ItemDataBound" RepeatLayout="Flow">
                     <ItemTemplate>
-                        <div class="col-md-4 gallery-grid text-center">
+                        <div class="col-md-4  col-sm-4  gallery-grid text-center overflowHidden">
+                            <div class="space-6"></div>
                             <div class="grid">
                                 <figure class="effect-apollo">
                                     <asp:HyperLink ID="HYPLKPetInfo" runat="server" class="example-image-link" data-lightbox="example-set"
@@ -28,8 +29,8 @@
                                     </asp:HyperLink>
                                 </figure>
                             </div>
-                            <asp:LinkButton ID="LKBTNPetInfo" runat="server" Text='<%# splitCamelCase(Eval("petinfobreed").ToString()) %>'
-                                CommandName="petinfoid" CommandArgument='<%# Eval("petinfoid")%>' OnCommand="LKBTNPetInfo_Command"></asp:LinkButton>
+                            <asp:HyperLink ID="HYPLKPetInfoDetails" runat="server" Text='<%# splitCamelCase(Eval("petinfobreed").ToString()) %>'
+                                NavigateUrl='<%# "~/BreedDetails.aspx?petinfoid=" + Eval("petinfoid") %>' Target="_blank"></asp:HyperLink>
                         </div>
                     </ItemTemplate>
                 </asp:DataList>
@@ -47,11 +48,12 @@
                     DataSourceID="SDSPetInfoDog" DataKeyField="petInfoID"
                     OnItemDataBound="DLPetInfo_ItemDataBound" RepeatLayout="Flow">
                     <ItemTemplate>
-                        <div class="col-md-4 gallery-grid text-center">
+                        <div class="col-md-4 col-sm-4 gallery-grid text-center overflowHidden">
+                            <div class="space-6"></div>
                             <div class="grid">
                                 <figure class="effect-apollo">
                                     <asp:HyperLink ID="HYPLKPetInfo" runat="server" class="example-image-link" data-lightbox="example-set"
-                                        data-title='<%# Eval("petinfodesc") %>' >
+                                        data-title='<%# Eval("petinfodesc") %>'>
                                         <div class="landscape overflowHidden">
                                             <asp:Image ID="imgBreedPhoto" runat="server" alt="" CssClass="imageMaxHeight200" />
                                         </div>
@@ -63,8 +65,8 @@
                                     </asp:HyperLink>
                                 </figure>
                             </div>
-                            <asp:LinkButton ID="LKBTNPetInfo" runat="server" Text='<%# splitCamelCase( Eval("petinfobreed").ToString() )%>'
-                                CommandName="petinfoid" CommandArgument='<%# Eval("petinfoid")%>' OnCommand="LKBTNPetInfo_Command"></asp:LinkButton>
+                            <asp:HyperLink ID="HYPLKPetInfoDetails" runat="server" Text='<%# splitCamelCase(Eval("petinfobreed").ToString()) %>'
+                                NavigateUrl='<%# "~/BreedDetails.aspx?petinfoid=" + Eval("petinfoid") %>' Target="_blank"></asp:HyperLink>
                         </div>
                     </ItemTemplate>
                 </asp:DataList>

@@ -15,20 +15,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="keywords" content="" />
-    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script type="application/x-javascript"> 
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- bootstrap-css -->
-    <link href="assetsTheLittleOnes/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
     <!-- css -->
     <link rel="stylesheet" href="assetsTheLittleOnes/css/style.css" type="text/css" media="all" />
     <!-- font-awesome icons -->
     <link href="assetsTheLittleOnes/css/font-awesome.css" rel="stylesheet">
     <%--lightbox--%>
-    <link href="assetsTheLittleOnes/css/lightbox.css" rel="stylesheet" />
-    <!-- font -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.css" rel="stylesheet" />
+    <%--responsive slides--%>
+    <link href="assetsTheLittleOnes/css/responsiveslides.css" rel="stylesheet" />
+    <%--jQuery UI--%>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+
     <asp:ContentPlaceHolder ID="CPHTHLOHead" runat="server">
     </asp:ContentPlaceHolder>
     <%--Group G5 Style--%>
     <link href="assetsG5/G5Style.css" rel="stylesheet" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300" rel="stylesheet" type="text/css">
 </head>
 <body>
     <form id="form1" runat="server">
@@ -94,75 +103,79 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
         </div>
         <asp:ContentPlaceHolder ID="CPHTHLOBody" runat="server">
         </asp:ContentPlaceHolder>
-        <!-- footer -->
-        <footer>
-            <div class="container">
-                <div class="agileits-w3layouts-footer-grids">
-                    <div class="col-md-4 footer-left">
-                        <h3>
-                            <a href="Home.aspx"><span>the</span>Little<span>ones</span></a>
-                        </h3>
-                        <div class="footer-social-grids">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                            </ul>
+
+        <div class="footer">
+            <!-- footer -->
+            <footer>
+                <div class="container">
+                    <div class="agileits-w3layouts-footer-grids">
+                        <div class="col-md-4 footer-left">
+                            <h3>
+                                <a href="Home.aspx"><span>the</span>Little<span>ones</span></a>
+                            </h3>
+                            <div class="footer-social-grids">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 footer-left">
-                        <h4>Navigation</h4>
-                        <div class="col-md-6 footer-grid-left">
-                            <ul>
-                                <li><a class="active" href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="icons.html">Icons</a></li>
-                            </ul>
+                        <div class="col-md-4 footer-left">
+                            <h4>Navigation</h4>
+                            <div class="col-md-6 footer-grid-left">
+                                <ul>
+                                    <li><a class="active" href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="icons.html">Icons</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 footer-grid-left">
+                                <ul>
+                                    <li><a href="typography.html">Typography</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div class="col-md-6 footer-grid-left">
-                            <ul>
-                                <li><a href="typography.html">Typography</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
+                        <div class="col-md-4 footer-left">
+                            <h4>Newsletter</h4>
+                            <p>Subscribe With Us</p>
+                            <div>
+                                <input type="email" placeholder="Subscribe" name="Subscribe" >
+                                <button class="btn1">Go</button>
+                            </div>
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="col-md-4 footer-left">
-                        <h4>Newsletter</h4>
-                        <p>Subscribe With Us</p>
-                        <div>
-                            <input type="email" placeholder="Subscribe" name="Subscribe" required="">
-                            <button class="btn1">Go</button>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
+                </div>
+            </footer>
+            <!-- footer -->
+            <!-- copyright -->
+            <div class="copyright">
+                <div class="container">
+                    <p>© 2017 TheLittleOnes. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
                 </div>
             </div>
-        </footer>
-        <!-- footer -->
-        <!-- copyright -->
-        <div class="copyright">
-            <div class="container">
-                <p>© 2017 TheLittleOnes. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
-            </div>
+            <!-- //copyright -->
         </div>
-        <!-- //copyright -->
     </form>
 
-
-    <%--<link href="https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet" rel="stylesheet" type="text/css" />--%>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300" rel="stylesheet" type="text/css">
-    <script src="assetsTheLittleOnes/js/jquery-1.11.1.min.js"></script>
-    <script src="assetsTheLittleOnes/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assetsTheLittleOnes/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
     <script src="assetsTheLittleOnes/js/move-top.js"></script>
+    <%--SOURCE: https://github.com/viljamis/ResponsiveSlides.js/blob/master/responsiveslides.min.js--%>
     <script src="assetsTheLittleOnes/js/responsiveslides.min.js"></script>
-    <script src="assetsTheLittleOnes/js/SmoothScroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js"></script>
+
+    
+
     <%--Scroll to Top--%>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
@@ -172,6 +185,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
             });
         });
     </script>
+
     <!-- here stars scrolling icon -->
     <script type="text/javascript">
         $(document).ready(function () {
@@ -183,12 +197,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                 easingType: 'linear' 
                 };
             */
-
             $().UItoTop({ easingType: 'easeOutQuart' });
 
         });
     </script>
     <!-- //here ends scrolling icon -->
-
+    <!--banner Slider starts Here-->
+    <script>
+        $(document).ready(function () {
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+        });
+    </script>
+    <!--banner Slider ends Here-->
 </body>
 </html>

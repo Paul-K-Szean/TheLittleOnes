@@ -76,8 +76,8 @@ public partial class AdminAdoptionInfoAdd : BasePage
                 // change photo path to database instead of using temp
                 if (photoEntities != null)
                 {
-                    petEntity = petCtrler.createPhoto(petEntity);
                     petEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, petEntity.PetID);
+                    petEntity = petCtrler.createPhoto(petEntity);
                 }
 
                 if (adoptInfoEntity != null)

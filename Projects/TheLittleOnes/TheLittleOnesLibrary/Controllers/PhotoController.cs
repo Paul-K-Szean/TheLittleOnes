@@ -152,10 +152,11 @@ namespace TheLittleOnesLibrary.Controllers
                 foreach (PhotoEntity photoEntity in photoEntities)
                 {
                     photoEntity.PhotoPath = string.Concat(filePath_UploadFolderDatabase, photoEntity.PhotoName);
+                    LogController.LogLine(photoEntity.PhotoPath);
                 }
 
-                DirectoryInfo dirDatabase = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase));
-                LogController.LogLine(dirDatabase.FullName);
+                //DirectoryInfo dirDatabase = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase));
+                //LogController.LogLine(dirDatabase.FullName);
                 return photoEntities;
             }
         }

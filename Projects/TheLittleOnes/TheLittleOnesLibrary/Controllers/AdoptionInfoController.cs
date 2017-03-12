@@ -15,7 +15,7 @@ namespace TheLittleOnesLibrary.Controllers
     public class AdoptInfoController
     {
         private static AdoptInfoController AdoptInfoInfoCtrl;
-        
+
         public static AdoptInfoController getInstance()
         {
             if (AdoptInfoInfoCtrl == null)
@@ -115,11 +115,18 @@ namespace TheLittleOnesLibrary.Controllers
 
                 ShopInfoController shopInfoCtrler = new ShopInfoController();
                 PetController petCtrler = new PetController();
-                return new AdoptInfoEntity(
+                if (dataSet != null)
+                {
+                    return new AdoptInfoEntity(
                     dataSet.Tables[0].Rows[0][2].ToString(),// ID
                     shopInfoCtrler.getShopInfo(dataSet.Tables[0].Rows[0][0].ToString()), // shopInfoID
                     petCtrler.getPet(dataSet.Tables[0].Rows[0][1].ToString()),// petID
                     dataSet.Tables[0].Rows[0][3].ToString());// Status
+                }
+                else
+                {
+                    return null;
+                }
             }
         }
 
@@ -167,6 +174,6 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
 
-       
+
     }
 }

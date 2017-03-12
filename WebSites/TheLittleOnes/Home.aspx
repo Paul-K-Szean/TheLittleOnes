@@ -28,28 +28,6 @@
                             </li>
                         </ul>
                     </div>
-                    <script src="js/responsiveslides.min.js"></script>
-                    <script>
-						// You can also use "$(window).load(function() {"
-						$(function () {
-						  // Slideshow 4
-						  $("#slider4").responsiveSlides({
-							auto: true,
-							pager:true,
-							nav:true,
-							speed: 500,
-							namespace: "callbacks",
-							before: function () {
-							  $('.events').append("<li>before event fired.</li>");
-							},
-							after: function () {
-							  $('.events').append("<li>after event fired.</li>");
-							}
-						  });
-					
-						});
-                    </script>
-                    <!--banner Slider starts Here-->
                 </div>
             </div>
         </div>
@@ -66,7 +44,7 @@
                     <div class="grid">
                         <div class="col-md-6 agileits-left">
                             <figure class="effect-chico">
-                                <img src="images/2.jpg" alt="" />
+                                <img src="assetsTheLittleOnes/images/2.jpg" alt="" />
                                 <figcaption>
                                     <h4>Proin nulla</h4>
                                     <p>Chico's main fear was missing the morning bus.</p>
@@ -75,7 +53,7 @@
                         </div>
                         <div class="col-md-6 agileits-left">
                             <figure class="effect-chico">
-                                <img src="images/3.jpg" alt=" " />
+                                <img src="assetsTheLittleOnes/images/3.jpg" alt=" " />
                                 <figcaption>
                                     <h4>Nam ornare</h4>
                                     <p>Chico's main fear was missing the morning bus.</p>
@@ -196,7 +174,7 @@
                     </div>
                     <div class="w3-agile-news-img">
                         <a href="single.html">
-                            <img src="images/4.jpg" alt="" /></a>
+                            <img src="assetsTheLittleOnes/images/4.jpg" alt="" /></a>
                         <h4><a href="single.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</a></h4>
                         <p>Donec justo ante, maximus et aliquam et, elementum ac purus. Nam eget ante ac velit laoreet sodales ut vel nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed quam nibh. In sed nisi enim. Duis eget nunc vitae elit dignissim feugiat. Morbi molestie fringilla ipsum, id molestie dolor sodales vel.</p>
                     </div>
@@ -229,6 +207,7 @@
     </div>
     <!-- //news -->
 
-  
+
+    
 </asp:Content>
 
