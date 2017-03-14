@@ -21,7 +21,7 @@ namespace TheLittleOnesLibrary.Entities
             this.adoptInfoStatus = adoptInfoStatus;
         }
         // Retrieve/Update record consrtuctor
-        public AdoptInfoEntity(string adoptInfoID, ShopInfoEntity shopInfoEntity, PetEntity petEntity, string adoptInfoStatus)
+        public AdoptInfoEntity(ShopInfoEntity shopInfoEntity, PetEntity petEntity, string adoptInfoID, string adoptInfoStatus)
         {
             this.adoptInfoID = adoptInfoID;
             this.shopInfoEntity = shopInfoEntity;
@@ -81,8 +81,5 @@ namespace TheLittleOnesLibrary.Entities
             }
         }
 
-        // Create record
-
-        // Retrieve/Update record
     }
 }

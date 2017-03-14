@@ -93,14 +93,14 @@ namespace TheLittleOnesLibrary
                 }
                 else
                 {
-                    checkForAccessControl(accountEntity, currentPage);
+                    accountAccessControl(accountEntity, currentPage);
                 }
             }
 
 
         }
         // Validate access control for logged in user
-        private void checkForAccessControl(AccountEntity accountEntity, string currentPage)
+        private void accountAccessControl(AccountEntity accountEntity, string currentPage)
         {
             // pages that are not allowed for different account
             switch (accountEntity.AccountType.ToLower().Trim())
@@ -129,7 +129,6 @@ namespace TheLittleOnesLibrary
             }
 
         }
-
         // Initialize folders
         private void initializeFolders()
         {
@@ -152,7 +151,6 @@ namespace TheLittleOnesLibrary
                 Directory.CreateDirectory(Server.MapPath(filePath_UploadFolderDatabase));
             }
         }
-
         // Initialize controllers
         private void initializeControllers()
         {
@@ -188,7 +186,6 @@ namespace TheLittleOnesLibrary
             profileEntity = profileCtrler.getLoggedInProfile();
 
         }
-
         // Highlight select row for gridview
         protected void highlightSelectedRow(GridView gridview)
         {
@@ -217,7 +214,6 @@ namespace TheLittleOnesLibrary
                 }
             }
         }
-
         // Calculate gridview entry size
         protected void updateEntryCount(DataTable dTable, GridView gridview, Label LBLEntriesCount)
         {
@@ -240,7 +236,6 @@ namespace TheLittleOnesLibrary
             }
 
         }
-
         // Clear control value
         public void clearUIControlValues(ControlCollection pageControls)
         {
@@ -266,7 +261,5 @@ namespace TheLittleOnesLibrary
                 }
             }
         }
-
-
     }
 }

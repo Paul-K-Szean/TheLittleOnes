@@ -20,7 +20,7 @@ public partial class MasterAdmin : MasterPage
     protected AccountController accCtrler;
     protected ProfileController profileCtrler;
     protected PetInfoController petInfoCtrler;
-    // protected PhotoController photoCtrler;
+    protected PhotoController photoCtrler;
 
 
     protected void Page_Load(object sender, EventArgs e)
@@ -56,8 +56,6 @@ public partial class MasterAdmin : MasterPage
             LBLDisplayName.Text = profileEntity.ProfileName;
         }
     }
-
-
     // Initialize controllers
     private void initializeControllers()
     {
@@ -73,16 +71,49 @@ public partial class MasterAdmin : MasterPage
         {
             petInfoCtrler = PetInfoController.getInstance();
         }
-
+        if (photoCtrler == null)
+        {
+            photoCtrler = PhotoController.getInstance();
+        }
         accEntity = accCtrler.getLoggedInAccount();
         profileEntity = profileCtrler.getLoggedInProfile();
     }
-
-
-
+    // Button Clicks
     protected void LKBTNLogout_Click(object sender, EventArgs e)
     {
         accCtrler.SignOut();
         Response.Redirect("AdminLogin.aspx");
     }
+    // Validate access control for logged in user
+    private void accountAccessControl(AccountEntity accountEntity, string currentPage)
+    {
+        // pages that are not allowed for different account
+        switch (accountEntity.AccountType.ToLower().Trim())
+        {
+            case "websheltergroup":
+                if (currentPage.Contains("adminpetinfoadd") ||
+                    currentPage.Contains("adminpetinfoedit") ||
+                    currentPage.Contains("adminshopinfoadd") ||
+                    currentPage.Contains("adminshopinfoedit") ||
+                    currentPage.Contains("adminsystemaccountadd") ||
+                    currentPage.Contains("adminsystemaccountedit"))
+                {
+                    HttpContext.Current.Response.Redirect("AdminDashboard.aspx");
+                }
+                break;
+            case "websponsorgroup":
+                if (
+                    currentPage.Contains("adminadoptioninfoadd") ||
+                    currentPage.Contains("adminadoptioninfoedit") ||
+                    currentPage.Contains("adminsystemaccountadd") ||
+                    currentPage.Contains("adminsystemaccountedit"))
+                {
+                    HttpContext.Current.Response.Redirect("AdminDashboard.aspx");
+                }
+                break;
+        }
+
+    }
+
+
 }

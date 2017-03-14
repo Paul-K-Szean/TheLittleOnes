@@ -30,6 +30,8 @@ namespace TheLittleOnesLibrary
         protected static List<ShopTimeEntity> shopTimeEntities;
         protected static AdoptInfoEntity adoptInfoEntity;
         protected static List<AdoptInfoEntity> adoptInfoEntites;
+        protected static AdoptRequestEntity adoptRequestEntity;
+        protected static List<AdoptRequestEntity> adoptReqEntites;
         protected static PhotoEntity photoEntity;
         protected static List<PhotoEntity> photoEntities;
 

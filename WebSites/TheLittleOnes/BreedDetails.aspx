@@ -210,7 +210,7 @@
                             RepeatDirection="Horizontal" RepeatLayout="Flow" Width="100%">
                             <ItemTemplate>
                                 <div class="col-md-4 gallery-grid text-center">
-                                    <div class="grid">
+                                    <div class="grid adoption">
                                         <figure class="effect-apollo">
                                             <asp:HyperLink ID="HYPLKPetInfo" runat="server" class="example-image-link" data-lightbox="example-set"
                                                 data-title='<%# Eval("petinfodesc") %>' NavigateUrl='<%# Eval("photopath")%>'>

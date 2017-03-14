@@ -15,28 +15,25 @@ namespace TheLittleOnesLibrary.Controllers
     public class AdoptInfoController
     {
         private static AdoptInfoController AdoptInfoInfoCtrl;
-
         public static AdoptInfoController getInstance()
         {
             if (AdoptInfoInfoCtrl == null)
                 AdoptInfoInfoCtrl = new AdoptInfoController();
             return AdoptInfoInfoCtrl;
         }
-
         // Data Access Object
         private DAO dao;
         private OleDbCommand oleDbCommand;
         private DataSet dataSet;
-
         // Default Constructor
         public AdoptInfoController()
         {
             dao = DAO.getInstance();
         }
-
         // Check if adopt info exists
         public bool checkAdoptInfoExist(string adoptPetBreed, string adoptPetName)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
@@ -54,10 +51,10 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Create AdoptInfo
         public AdoptInfoEntity createAdoptInfo(AdoptInfoEntity adoptInfoEntity)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
@@ -79,7 +76,31 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
+        // Create Adopt Request
+        public AdoptRequestEntity createAdoptRequest(AdoptRequestEntity adoptRequestEntity)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("INSERT INTO ADOPTREQUEST(ADOPTREQUESTERID,ADOPTINFOID, ADOPTREQDATEAPPMT,ADOPTREQDATECREATED ) ",
+                                                         "              VALUES (@ADOPTREQUESTERID,@ADOPTINFOID,@ADOPTREQDATEAPPMT,NOW());");
+                oleDbCommand.Parameters.AddWithValue("@ADOPTREQUESTERID", adoptRequestEntity.AdoptRequesterID);
+                oleDbCommand.Parameters.AddWithValue("@ADOPTINFOID", adoptRequestEntity.AdoptInfoID);
+                oleDbCommand.Parameters.AddWithValue("@ADOPTREQDATEAPPMT", adoptRequestEntity.AdoptReqDateAppmt);
 
+                int insertID = dao.createRecord(oleDbCommand);
+                if (insertID > 0)
+                {
+                    adoptRequestEntity.AdoptReqID = insertID.ToString();
+                    return adoptRequestEntity;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
         // Update AdoptInfo
         public AdoptInfoEntity updateAdoptInfo(AdoptInfoEntity adoptInfoEntity)
         {
@@ -102,10 +123,10 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Retrieve AdoptInfoInfo
         public AdoptInfoEntity getAdoptInfo(string adoptInfoID)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;
@@ -118,10 +139,10 @@ namespace TheLittleOnesLibrary.Controllers
                 if (dataSet != null)
                 {
                     return new AdoptInfoEntity(
-                    dataSet.Tables[0].Rows[0][2].ToString(),// ID
-                    shopInfoCtrler.getShopInfo(dataSet.Tables[0].Rows[0][0].ToString()), // shopInfoID
-                    petCtrler.getPet(dataSet.Tables[0].Rows[0][1].ToString()),// petID
-                    dataSet.Tables[0].Rows[0][3].ToString());// Status
+                        shopInfoCtrler.getShopInfo(dataSet.Tables[0].Rows[0][0].ToString()), // shopInfoID
+                        petCtrler.getPet(dataSet.Tables[0].Rows[0][1].ToString()),// petID
+                        dataSet.Tables[0].Rows[0][2].ToString(),// adoptinfoID
+                        dataSet.Tables[0].Rows[0][3].ToString());// Status
                 }
                 else
                 {
@@ -129,10 +150,10 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Filter Data
         public DataTable filterAdoptionInfoData(string filterGender, string filterSize, string filterStatus, string tbSearchValue, Label LBLSearchResultAdoptInfo)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             LBLSearchResultAdoptInfo.ForeColor = Utility.getColorWhite();
             using (oleDbCommand = new OleDbCommand())
             {
@@ -173,7 +194,6 @@ namespace TheLittleOnesLibrary.Controllers
                 return dataSet.Tables[0];
             }
         }
-
 
     }
 }

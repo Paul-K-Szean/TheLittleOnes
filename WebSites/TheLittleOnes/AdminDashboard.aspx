@@ -361,8 +361,6 @@
                                                     <asp:Label ID="LBLEntriesCountShopInfo" runat="server" CssClass="pull-right"></asp:Label>
                                                 </div>
                                                 <!-- div.table-responsive -->
-
-
                                                 <div class="dataTables_wrapper form-inline no-footer">
                                                     <div class="row">
                                                         <div class="col-xs-6">

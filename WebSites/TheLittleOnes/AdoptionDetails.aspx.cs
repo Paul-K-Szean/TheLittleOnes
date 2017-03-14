@@ -14,7 +14,7 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     private static AdoptInfoEntity viewAdoptinfoEntity;
     private static ShopInfoEntity viewPetShopinfoEntity;
     private static PetEntity viewPetEntity;
-
+    private static Label LBLAdoptInfoStatus;
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -43,7 +43,7 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
 
     protected void DLAdoptInfo_ItemDataBound(object sender, DataListItemEventArgs e)
     {
-        Label LBLAdoptInfoStatus = e.Item.FindControl("LBLAdoptInfoStatus") as Label;
+        LBLAdoptInfoStatus = e.Item.FindControl("LBLAdoptInfoStatus") as Label;
         if (LBLAdoptInfoStatus != null)
         {
             if (viewAdoptinfoEntity.AdoptInfoStatus.Equals(AdoptionStatus.Adopted.ToString()))
@@ -59,5 +59,29 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
                 LBLAdoptInfoStatus.ForeColor = Utility.getWarningColor();
             }
         }
+    }
+
+    protected void BTNAdoptMe_Click(object sender, EventArgs e)
+    {
+        Label17.Text = "Login First Pending (1)";
+
+
+    }
+
+    protected void DLMorePet_ItemDataBound(object sender, DataListItemEventArgs e)
+    {
+        HyperLink HYPLKMorePet = e.Item.FindControl("HYPLKMorePet") as HyperLink;
+        HiddenField HDFMoreAdoptInfoID = e.Item.FindControl("HDFMoreAdoptInfoID") as HiddenField;
+        HiddenField HDFMorePetID = e.Item.FindControl("HDFMorePetID") as HiddenField;
+        Image IMGPhoto = e.Item.FindControl("IMGPhoto") as Image;
+
+        photoEntities = photoCtrler.getPhotoEntities(HDFMorePetID.Value.Trim(), "Pet");
+        if (photoEntities != null)
+        {
+            IMGPhoto.ImageUrl = photoEntities[0].PhotoPath.Replace("~/", "");
+            HYPLKMorePet.NavigateUrl = "AdoptionDetails.aspx?adoptinfoid=" + HDFMoreAdoptInfoID.Value;
+        }
+        else
+            IMGPhoto.ImageUrl = "assetsG5/images/default.png";
     }
 }

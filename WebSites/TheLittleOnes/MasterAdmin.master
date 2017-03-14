@@ -422,134 +422,104 @@
                             <i class="menu-icon fa fa-tachometer"></i>
                             <span class="menu-text">Dashboard </span>
                         </a>
-
                         <b class="arrow"></b>
                     </li>
 
                     <li class="">
-                        <a href="#" class="dropdown-toggle">
-                            <i class="menu-icon fa  fa-address-book-o"></i>
-                            <span class="menu-text">System Account
-                            </span>
-
+                        <asp:HyperLink ID="HYPLKSystemAccount" runat="server" class="dropdown-toggle">
+                              <i class="menu-icon fa  fa-user-plus"></i>
+                            <span class="menu-text">System Account</span>
                             <b class="arrow fa fa-angle-down"></b>
-                        </a>
-
+                        </asp:HyperLink>
                         <b class="arrow"></b>
-
                         <ul class="submenu">
-
-
                             <li class="">
-                                <a href="AdminSystemAccountAdd.aspx">
-                                    <i class="menu-icon fa fa-caret-right"></i>
+                                <asp:HyperLink ID="HYPLKSystemAccountAdd" runat="server" NavigateUrl="AdminSystemAccountAdd.aspx">
+                                       <i class="menu-icon fa fa-caret-right"></i>
                                     Add Account 
-                                </a>
-
+                                </asp:HyperLink>
                                 <b class="arrow"></b>
                             </li>
                             <li class="">
-                                <a href="AdminSystemAccountEdit.aspx">
-                                    <i class="menu-icon fa fa-caret-right"></i>
+                                <asp:HyperLink ID="HYPLKSystemAccountEdit" runat="server" NavigateUrl="AdminSystemAccountEdit.aspx">
+                                       <i class="menu-icon fa fa-caret-right"></i>
                                     Edit Account 
-                                </a>
-
+                                </asp:HyperLink>
                                 <b class="arrow"></b>
                             </li>
                         </ul>
                     </li>
 
                     <li class="">
-                        <a href="#" class="dropdown-toggle">
-                            <i class="menu-icon fa  fa-id-card-o"></i>
-                            <span class="menu-text">Pet Info Settings
-                            </span>
-
+                        <asp:HyperLink ID="HYPLKPetInfoSettings" runat="server" class="dropdown-toggle">
+                              <i class="menu-icon fa  fa-id-card-o"></i>
+                            <span class="menu-text">Pet Info Settings</span>
                             <b class="arrow fa fa-angle-down"></b>
-                        </a>
-
+                        </asp:HyperLink>
                         <b class="arrow"></b>
-
                         <ul class="submenu">
-
-
                             <li class="">
-                                <a href="AdminPetInfoAdd.aspx">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Add Pet Info
-                                </a>
-
+                                <asp:HyperLink ID="HYPLKPetInfoAdd" runat="server" NavigateUrl="AdminPetInfoAdd.aspx">
+                                       <i class="menu-icon fa fa-caret-right"></i>
+                                    Add Pet Info 
+                                </asp:HyperLink>
                                 <b class="arrow"></b>
                             </li>
                             <li class="">
-                                <a href="AdminPetInfoEdit.aspx">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Edit Pet Info
-                                </a>
-
+                                <asp:HyperLink ID="HYPLKPetInfoEdit" runat="server" NavigateUrl="AdminPetInfoEdit.aspx">
+                                       <i class="menu-icon fa fa-caret-right"></i>
+                                    Edit Pet Info 
+                                </asp:HyperLink>
                                 <b class="arrow"></b>
                             </li>
                         </ul>
                     </li>
 
                     <li class="">
-                        <a href="#" class="dropdown-toggle">
-
-                            <i class="menu-icon fa fa-university"></i>
-                            <span class="menu-text">Shop Info Settings </span>
-
+                        <asp:HyperLink ID="HYPLKShopInfoSettings" runat="server" class="dropdown-toggle">
+                              <i class="menu-icon fa  fa-university"></i>
+                            <span class="menu-text">Shop Info Settings</span>
                             <b class="arrow fa fa-angle-down"></b>
-                        </a>
-
+                        </asp:HyperLink>
                         <b class="arrow"></b>
-
                         <ul class="submenu">
                             <li class="">
-                                <a href="AdminShopInfoAdd.aspx">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Add Shop Info
-                                </a>
-
+                                <asp:HyperLink ID="HYPLKShopInfoAdd" runat="server" NavigateUrl="AdminShopInfoAdd.aspx">
+                                       <i class="menu-icon fa fa-caret-right"></i>
+                                    Add Shop Info 
+                                </asp:HyperLink>
                                 <b class="arrow"></b>
                             </li>
-
                             <li class="">
-                                <a href="AdminShopInfoEdit.aspx">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Edit Shop Info
-                                </a>
-
+                                <asp:HyperLink ID="HYPLKShopInfoEdit" runat="server" NavigateUrl="AdminShopInfoEdit.aspx">
+                                       <i class="menu-icon fa fa-caret-right"></i>
+                                    Edit Shop Info 
+                                </asp:HyperLink>
                                 <b class="arrow"></b>
                             </li>
                         </ul>
                     </li>
 
                     <li class="">
-                        <a href="#" class="dropdown-toggle">
-                            <i class="menu-icon fa fa-child"></i>
-                            <span class="menu-text">Adoption Settings </span>
-
+                        <asp:HyperLink ID="HYPLKAdoptionSettings" runat="server" class="dropdown-toggle">
+                              <i class="menu-icon fa  fa-address-book-o"></i>
+                            <span class="menu-text">Adoption Settings</span>
                             <b class="arrow fa fa-angle-down"></b>
-                        </a>
-
+                        </asp:HyperLink>
                         <b class="arrow"></b>
-
                         <ul class="submenu">
                             <li class="">
-                                <a href="AdminAdoptionInfoAdd.aspx">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Add Adoption List
-                                </a>
-
+                                <asp:HyperLink ID="HYPLKAdoptInfoAdd" runat="server" NavigateUrl="AdminAdoptionInfoAdd.aspx">
+                                       <i class="menu-icon fa fa-caret-right"></i>
+                                    Add Adopt Info 
+                                </asp:HyperLink>
                                 <b class="arrow"></b>
                             </li>
-
                             <li class="">
-                                <a href="AdminAdoptionInfoEdit.aspx">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Edit Adoption List
-                                </a>
-
+                                <asp:HyperLink ID="HYPLKAdoptInfoEdit" runat="server" NavigateUrl="AdminAdoptionInfoEdit.aspx">
+                                       <i class="menu-icon fa fa-caret-right"></i>
+                                    Edit Adopt Info 
+                                </asp:HyperLink>
                                 <b class="arrow"></b>
                             </li>
                         </ul>

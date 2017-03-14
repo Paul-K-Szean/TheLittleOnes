@@ -90,7 +90,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
                 petFriendlyWithPeople, petToiletTrained, petHealthInfo, photoEntities);
 
             shopInfoEntity = shopInfoCtrler.getShopInfo(shopInfoID);
-            adoptInfoEntity = new AdoptInfoEntity(adoptInfoID, shopInfoEntity, petEntity, adoptInfoStatus);
+            adoptInfoEntity = new AdoptInfoEntity(shopInfoEntity, petEntity, adoptInfoID, adoptInfoStatus);
 
             // update into database
             adoptInfoEntity = adoptInfoCtrler.updateAdoptInfo(adoptInfoEntity);
@@ -181,8 +181,10 @@ public partial class AdminAdoptionInfoEdit : BasePage
         GridViewRow row = GVAdoptInfoOverview.Rows[e.NewSelectedIndex];
         GVRowID = Convert.ToInt32(GVAdoptInfoOverview.DataKeys[row.RowIndex].Values[0]);
         adoptInfoEntity = adoptInfoCtrler.getAdoptInfo(GVRowID.ToString());
+        LogController.LogLine("GVRowID: " + GVRowID);
         initializeUIControlValues();
         loadAdoptInfo(adoptInfoEntity);
+
     }
 
     protected void GVAdoptInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
@@ -291,7 +293,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
         // DLPhotoUploaded.DataBind();
 
     }
-  
+
     // Filter data for adoption info
     private void filterAdoptionInfo()
     {

@@ -137,12 +137,17 @@ ul.dropdown-menu {
 }
 
 .landscapeAdoption {
-    min-height:150px;
+    min-height: 150px;
     max-height: 195px;
     max-width: 260px;
     background-color: white;
 }
-
+.portraitAdoption {
+    min-height: 100px;
+    max-height: 150px;
+    max-width: 150px;
+    background-color: white;
+}
 
 .overflowHidden {
     overflow: hidden;
@@ -152,7 +157,7 @@ ul.dropdown-menu {
     margin: 0px 0px;
     padding: 0px 4px;
     opacity: 1;
-    width: 250px;
+    min-width: 150px;
     background-color: rgba(169,169,169,0.5);
     border: none;
 }
@@ -161,6 +166,21 @@ ul.dropdown-menu {
         opacity: 1;
         color: white;
     }
+
+/*custom lightbox style*/
+.lb-data .lb-caption {
+    font-size: 19px;
+    line-height: 1.2em;
+}
+
+.lb-data .lb-number {
+    display: block;
+    clear: left;
+    padding-bottom: 1em;
+    font-size: 15px;
+    color: #999999;
+    line-height: 1.2em;
+}
 /*progress bar colors*/
 .progress-bar-blueviolet {
     background-color: #8A2BE2;
