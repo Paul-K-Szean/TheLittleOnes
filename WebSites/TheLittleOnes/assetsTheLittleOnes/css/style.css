@@ -99,7 +99,7 @@ ul.nav.navbar-nav {
 }
 
 .top-nav ul li a {
-    color: #2f2f2f !important;
+    /*color: #2f2f2f;*/
     font-size: 1em;
     margin: 0;
     text-decoration: none;

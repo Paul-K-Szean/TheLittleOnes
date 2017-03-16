@@ -18,32 +18,38 @@ namespace TheLittleOnesLibrary
 
     public class BasePageTLO : Page
     {
+        protected static BasePageTLO BasePageInstance;
+        public static BasePageTLO getInstance() {
+            if (BasePageInstance == null)
+                BasePageInstance = new BasePageTLO();
+            return BasePageInstance;
+        }
         // Entities for current logged in user
-        protected static AccountEntity accountEntity;
-        protected static ProfileEntity profileEntity;
-        protected static PetInfoEntity petInfoEntity;
-        protected static PetCharEntity petCharEntity;
-        protected static PetEntity petEntity;
-        protected static ShopInfoEntity shopInfoEntity;
-        protected static ShopTimeEntity shopTimeEntity;
+        protected static AccountEntity TLOAccountEntity;
+        //protected static ProfileEntity TLOProfileEntity;
+        //protected static PetInfoEntity TLOPetInfoEntity;
+        //protected static PetCharEntity TLOPetCharEntity;
+        //protected static PetEntity TLOPetEntity;
+        //protected static ShopInfoEntity TLOShopInfoEntity;
+        //protected static ShopTimeEntity TLOShopTimeEntity;
 
-        protected static List<ShopTimeEntity> shopTimeEntities;
-        protected static AdoptInfoEntity adoptInfoEntity;
-        protected static List<AdoptInfoEntity> adoptInfoEntites;
-        protected static AdoptRequestEntity adoptRequestEntity;
-        protected static List<AdoptRequestEntity> adoptReqEntites;
-        protected static PhotoEntity photoEntity;
-        protected static List<PhotoEntity> photoEntities;
+        //protected static List<ShopTimeEntity> TLOShopTimeEntities;
+        //protected static AdoptInfoEntity TLOAdoptInfoEntity;
+        //protected static List<AdoptInfoEntity> TLOAdoptInfoEntites;
+        //protected static AdoptRequestEntity TLOAdoptRequestEntity;
+        //protected static List<AdoptRequestEntity> TLOAdoptReqEntites;
+        protected static PhotoEntity TLOPhotoEntity;
+        protected static List<PhotoEntity> TLOPhotoEntities;
 
         // Entities for account editing
-        protected static AccountEntity editAccountEntity;
-        protected static ProfileEntity editProfileEntity;
-        protected static List<PhotoEntity> editPhotoEntities;
-        protected static ShopInfoEntity editShopInfoEntity;
-        protected static List<ShopTimeEntity> editShopTimeEntities;
+        protected static AccountEntity TLOEditAccountEntity;
+        protected static ProfileEntity TLOEditProfileEntity;
+        protected static List<PhotoEntity> TLOEditPhotoEntities;
+        protected static ShopInfoEntity TLOEditShopInfoEntity;
+        protected static List<ShopTimeEntity> TLOEditShopTimeEntities;
 
         // Controllers
-        protected AccountController accCtrler;
+        protected AccountController accountCtrler;
         protected ProfileController profileCtrler;
         protected PetInfoController petInfoCtrler;
         protected ShopInfoController shopInfoCtrler;
@@ -63,10 +69,9 @@ namespace TheLittleOnesLibrary
             initializeFolders();
             // capture page control
             postBackControl();
-
         }
         // Manage page control
-        private void postBackControl()
+        protected void postBackControl()
         {
             string currentPage = HttpContext.Current.Request.Url.AbsoluteUri.ToLower();
             if (IsPostBack)
@@ -77,33 +82,12 @@ namespace TheLittleOnesLibrary
             {
                 LogController.LogLine("Page loaded: " + currentPage);
             }
-
-            accountEntity = accCtrler.getLoggedInAccount();
-            profileEntity = profileCtrler.getLoggedInProfile();
-            // redirect to login page, except for login page
-            //if (currentPage.Contains("login"))
-            //{
-            //    accCtrler.SignOut();
-            //}
-            //else
-            //{
-            //    if (accountEntity == null)
-            //    {
-            //        // TODO: Decide where to redirect
-            //    }
-            //    else
-            //    {
-            //        // checkForAccessControl(accountEntity, currentPage);
-            //    }
-            //}
-
-
         }
         // Validate access control for logged in user
-        private void checkForAccessControl(AccountEntity accountEntity, string currentPage)
+        protected void checkForAccessControl(AccountEntity TLOAccountEntity, string currentPage)
         {
             // pages that are not allowed for different account
-            switch (accountEntity.AccountType.ToLower().Trim())
+            switch (TLOAccountEntity.AccountType.ToLower().Trim())
             {
                 case "websheltergroup":
                     if (currentPage.Contains("adminpetinfoadd") ||
@@ -130,7 +114,7 @@ namespace TheLittleOnesLibrary
 
         }
         // Initialize folders
-        private void initializeFolders()
+        protected void initializeFolders()
         {
             // for photos
             string filePath_UploadFolderTemp = "~/uploadedFiles/temp";
@@ -152,11 +136,11 @@ namespace TheLittleOnesLibrary
             }
         }
         // Initialize controllers
-        private void initializeControllers()
+        protected void initializeControllers()
         {
-            if (accCtrler == null)
+            if (accountCtrler == null)
             {
-                accCtrler = AccountController.getInstance();
+                accountCtrler = AccountController.getInstance();
             }
             if (profileCtrler == null)
             {
@@ -182,8 +166,6 @@ namespace TheLittleOnesLibrary
             {
                 petCtrler = PetController.getInstance();
             }
-            accountEntity = accCtrler.getLoggedInAccount();
-            profileEntity = profileCtrler.getLoggedInProfile();
 
         }
         // Highlight select row for gridview
@@ -237,7 +219,7 @@ namespace TheLittleOnesLibrary
 
         }
         // Clear control value
-        public void clearUIControlValues(ControlCollection pageControls)
+        protected void clearUIControlValues(ControlCollection pageControls)
         {
             TextBox textbox;
             DropDownList dropdownlist;
@@ -267,7 +249,7 @@ namespace TheLittleOnesLibrary
             return Path.GetFileName(Request.Url.AbsolutePath);
         }
         // Split  Camel Case
-        public static string splitCamelCase(string camelCase)
+        protected static string splitCamelCase(string camelCase)
         {
             // Author Reed Copsey
             // Source : http://stackoverflow.com/questions/17093423/how-do-i-programmatically-change-camelcase-names-to-displayable-names

@@ -100,7 +100,7 @@
         </div>
         <!-- /.ace-settings-container -->
 
-        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <asp:updatepanel id="UpdatePanel1" runat="server">
             <ContentTemplate>
                 <div class="page-header">
                     <h1>Settings
@@ -114,7 +114,7 @@
                 <div class="row">
                     <div class="col-xs-12 ">
                         <div class="form-inline pull-right">
-                            <asp:Label ID="LBLErrorMsg" runat="server" Text=""></asp:Label>
+                            <asp:Label ID="LBLErrorMsg" runat="server" Text="" Font-Size="Medium"></asp:Label>
                             <asp:Button ID="BTNSave" runat="server" CssClass="btn btn-primary btn-sm" Text="Save" OnClick="BTNSave_Click" />
                         </div>
                     </div>
@@ -166,16 +166,51 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="space-6"></div>
+                                <%--shop info--%>
+                                <div class="col-md-3">
+                                    <div class="widget-box">
+                                        <div class="widget-header">
+                                            <h4 class="widget-title">Shop Info</h4>
+                                        </div>
+
+                                        <div class="widget-body">
+                                            <div class="widget-main">
+                                                <div>
+                                                    <asp:Label ID="LBLShopInfoID" runat="server" Text="ShopInfo S/N" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBShopInfoID" runat="server" CssClass="form-control " placeholder="Shopinfo ID" disabled="disabled"></asp:TextBox>
+                                                </div>
+                                                <br />
+                                                <div>
+                                                    <asp:Label ID="LBLShopInfoName" runat="server" Text="Name" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBShopInfoName" runat="server" CssClass="form-control " placeholder="Name" disabled="disabled"></asp:TextBox>
+                                                </div>
+                                                <br />
+                                                <div>
+                                                    <asp:Label ID="LBLShopInfoContact" runat="server" Text="Contact" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBShopInfoContact" runat="server" CssClass="form-control " placeholder="Contact" disabled="disabled"></asp:TextBox>
+                                                </div>
+                                                <br />
+                                                <div>
+                                                    <asp:Label ID="LBLShopInfoAddress" runat="server" Text="Address" Font-Bold="True"></asp:Label>
+                                                    <asp:TextBox ID="TBShopInfoAddress" runat="server" CssClass="form-control" placeholder="Address" disabled="disabled"></asp:TextBox>
+                                                </div>
+                                                <br />
+
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <!-- PAGE CONTENT ENDS -->
                         </div>
                         <!-- /.col -->
                     </div>
-                    <!-- /.row -->
+                </div>
+                <!-- /.row -->
             </ContentTemplate>
 
-        </asp:UpdatePanel>
+        </asp:updatepanel>
 
     </div>
     <!-- /.page-content -->

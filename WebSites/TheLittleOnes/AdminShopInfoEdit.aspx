@@ -409,7 +409,7 @@
                                                                 <asp:DataList ID="DLPhotoUploaded" runat="server" DataSourceID="SDSPhoto" Width="100%"
                                                                     RepeatDirection="Horizontal">
                                                                     <ItemTemplate>
-                                                                        <img src="<%# "uploadedFiles/database/shopinfo/" + Eval("shopInfoID").ToString().ToLower().Replace(" ", "") + "/" + Eval("photoName") %>"
+                                                                        <img src="<%# "uploadedFiles/database/shopinfo/" + Eval("shopInfoID").ToString() + "/" + Eval("photoName") %>"
                                                                             style="max-height: 200px; margin: 0px 4px">
                                                                     </ItemTemplate>
                                                                 </asp:DataList>
@@ -458,7 +458,7 @@
                 <asp:SqlDataSource ID="SDSPhoto" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT ShopInfo.shopInfoID, ShopInfo.shopInfoName, ShopInfo.shopInfoContact, ShopInfo.shopInfoAddress, ShopInfo.shopInfoGrooming, ShopInfo.shopInfoType, ShopInfo.shopInfoDesc, ShopInfo.shopInfoCloseOnPublicHoliday, Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath FROM (ShopInfo INNER JOIN Photo ON ShopInfo.shopInfoID = Photo.photoOwnerID) WHERE (ShopInfo.shopInfoID = ?)">
+                    SelectCommand="SELECT ShopInfo.shopInfoID, ShopInfo.shopInfoName, ShopInfo.shopInfoContact, ShopInfo.shopInfoAddress, ShopInfo.shopInfoGrooming, ShopInfo.shopInfoType, ShopInfo.shopInfoDesc, ShopInfo.shopInfoCloseOnPublicHoliday, Photo.photoOwnerID, Photo.photoID, Photo.photoName, Photo.photoPath FROM (ShopInfo INNER JOIN Photo ON ShopInfo.shopInfoID = Photo.photoOwnerID) WHERE (ShopInfo.shopInfoID = ? AND Photo.PhotoPurpose ='ShopInfo')">
                     <SelectParameters>
                         <asp:ControlParameter ControlID="GVShopInfoOverview" Name="photoOwnerID" PropertyName="SelectedValue" Type="Int32" />
                     </SelectParameters>

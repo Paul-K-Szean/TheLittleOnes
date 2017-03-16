@@ -4,24 +4,20 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 
 public partial class MasterAdmin : MasterPage
 {
     // Entities
-    protected static AccountEntity accEntity;
-    protected static ProfileEntity profileEntity;
-    protected static PetInfoEntity petInfoEntity;
-    protected static PetCharEntity petCharEntity;
-    protected static PhotoEntity photoEntity;
+    private static AccountEntity accountEntity;
 
     // Controllers
-    protected AccountController accCtrler;
-    protected ProfileController profileCtrler;
-    protected PetInfoController petInfoCtrler;
-    protected PhotoController photoCtrler;
-
+    private AccountController accountCtrler;
+    private ProfileController profileCtrler;
+    private PetInfoController petInfoCtrler;
+    private PhotoController photoCtrler;
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -43,25 +39,28 @@ public partial class MasterAdmin : MasterPage
         {
 
         }
-        setUserInfo();
+        loadAccountInfo();
+        
     }
 
-    private void setUserInfo()
+    private void loadAccountInfo()
     {
-        if (accEntity != null)
+        accountEntity = BasePage.AccountEntity;
+        if (accountEntity != null)
         {
-            accEntity = accCtrler.getLoggedInAccount();
-            profileEntity = profileCtrler.getLoggedInProfile();
+            LBLDisplayName.Text = accountEntity.ProfileEntity.ProfileName;
+        }
+        else
+        {
 
-            LBLDisplayName.Text = profileEntity.ProfileName;
         }
     }
     // Initialize controllers
     private void initializeControllers()
     {
-        if (accCtrler == null)
+        if (accountCtrler == null)
         {
-            accCtrler = AccountController.getInstance();
+            accountCtrler = AccountController.getInstance();
         }
         if (profileCtrler == null)
         {
@@ -75,13 +74,11 @@ public partial class MasterAdmin : MasterPage
         {
             photoCtrler = PhotoController.getInstance();
         }
-        accEntity = accCtrler.getLoggedInAccount();
-        profileEntity = profileCtrler.getLoggedInProfile();
     }
     // Button Clicks
     protected void LKBTNLogout_Click(object sender, EventArgs e)
     {
-        accCtrler.SignOut();
+        accountCtrler.signOut();
         Response.Redirect("AdminLogin.aspx");
     }
     // Validate access control for logged in user

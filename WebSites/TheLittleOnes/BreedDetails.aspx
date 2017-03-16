@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="BreedDetails.aspx.cs" Inherits="BreedDetails" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="CPHTHLOHead" runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="CPHTHLOBody" runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBody" runat="Server">
     <asp:HiddenField ID="HDFPetInfoID" runat="server" />
     <asp:SqlDataSource ID="SDSPetInfo" runat="server"
         ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"

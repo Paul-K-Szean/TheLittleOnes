@@ -40,7 +40,7 @@ public partial class AdminLogin : BasePage
         else
         {
             // login
-            accountEntity = accCtrler.loginAccount(inputEmail, inputPassword);
+            accountEntity = accountCtrler.signIn(inputEmail, inputPassword);
             if (accountEntity != null)
             {
                 if (!accountEntity.AccountType.Equals(AccountType.WebUser.ToString()))
@@ -52,7 +52,7 @@ public partial class AdminLogin : BasePage
                 {
                     MessageHandler.ErrorMessage(LBLErrorMsg, "You are not authorised here");
                     TBLoginPassword.Text = string.Empty;
-                    accCtrler.SignOut();
+                    accountCtrler.signOut();
                 }
 
             }

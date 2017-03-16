@@ -35,10 +35,10 @@ public partial class AdminProfile : BasePage
 
     void loadProfileInfo()
     {
-        TBProfileID.Text = profileEntity.ProfileID;
-        TBName.Text = profileEntity.ProfileName;
-        TBContact.Text = profileEntity.ProfileContact;
-        TBAddress.Text = profileEntity.ProfileAddress;
+        TBProfileID.Text = accountEntity.ProfileEntity.ProfileID;
+        TBName.Text = accountEntity.ProfileEntity.ProfileName;
+        TBContact.Text = accountEntity.ProfileEntity.ProfileContact;
+        TBAddress.Text = accountEntity.ProfileEntity.ProfileAddress;
     }
 
 
@@ -63,7 +63,7 @@ public partial class AdminProfile : BasePage
         if (checkRequiredField(name, contact, address))
         {
             // update profile
-            ProfileEntity profileEntityTemp = profileEntity;
+            ProfileEntity profileEntityTemp = accountEntity.ProfileEntity;
             profileEntityTemp.ProfileName = name;
             profileEntityTemp.ProfileContact = contact;
             profileEntityTemp.ProfileAddress = address;

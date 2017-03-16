@@ -18,6 +18,18 @@ public partial class AdminAccount : BasePage
         if (accountEntity != null)
         {
             loadAccountInfo();
+            loadShopInfo();
+        }
+    }
+
+    private void loadShopInfo()
+    {
+        if (accountEntity.ShopInfoEntity != null)
+        {
+            TBShopInfoID.Text = accountEntity.ShopInfoEntity.ShopInfoID;
+            TBShopInfoName.Text = accountEntity.ShopInfoEntity.ShopInfoName;
+            TBShopInfoContact.Text = accountEntity.ShopInfoEntity.ShopInfoContact;
+            TBShopInfoAddress.Text = accountEntity.ShopInfoEntity.ShopInfoAddress;
         }
     }
 
@@ -36,13 +48,13 @@ public partial class AdminAccount : BasePage
         if (checkRequiredField(passwordOld, passwordNew))
         {
             // check old password
-            if (accCtrler.checkPassword(accountEntity.AccountID, passwordOld))
+            if (accountCtrler.checkPassword(accountEntity.AccountID, passwordOld))
             {
                 // change password
                 AccountEntity accEntityTemp = accountEntity;
                 accEntityTemp.AccountPassword = passwordNew;
                 // update 
-                accountEntity = accCtrler.changePassword(accEntityTemp);
+                accountEntity = accountCtrler.changePassword(accEntityTemp);
                 if (accountEntity != null)
                 {
                     MessageHandler.SuccessMessage(LBLErrorMsg, "Password successfully updated");

@@ -1,0 +1,953 @@
+20170315@13:56:57 [System] getLoggedInAccount 
+20170315@13:56:57 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@13:56:57 [System] getLoggedInAccount 
+20170315@13:58:51 [System] getLoggedInAccount 
+20170315@13:58:51 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170315@13:58:51 [System] getLoggedInAccount 
+20170315@14:08:49 [System] getLoggedInAccount 
+20170315@14:08:49 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@14:08:50 [System] getLoggedInAccount 
+20170315@14:08:57 [System] getLoggedInAccount 
+20170315@14:08:57 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@14:08:57 [System] getLoggedInAccount 
+20170315@14:09:01 [System] getLoggedInAccount 
+20170315@14:09:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170315@14:09:01 [System] getLoggedInAccount 
+20170315@14:09:01 [System] getAdoptInfo 
+20170315@14:09:01 [System] getShopInfo 
+20170315@14:09:01 [System] getShopTime 
+20170315@14:09:12 [System] getLoggedInAccount 
+20170315@14:09:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@14:09:12 [System] getLoggedInAccount 
+20170315@14:09:12 [System] getAdoptInfo 
+20170315@14:09:12 [System] getShopInfo 
+20170315@14:09:12 [System] getShopTime 
+20170315@14:12:35 [System] getLoggedInAccount 
+20170315@14:12:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170315@14:12:35 [System] getLoggedInAccount 
+20170315@14:12:35 [System] getAdoptInfo 
+20170315@14:12:35 [System] getShopInfo 
+20170315@14:12:35 [System] getShopTime 
+20170315@14:49:11 [System] getLoggedInAccount 
+20170315@14:49:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170315@14:49:11 [System] getLoggedInAccount 
+20170315@14:49:11 [System] getAdoptInfo 
+20170315@14:49:11 [System] getShopInfo 
+20170315@14:49:11 [System] getShopTime 
+20170315@14:55:22 [System] getLoggedInAccount 
+20170315@14:55:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170315@14:55:22 [System] getLoggedInAccount 
+20170315@14:55:22 [System] getAdoptInfo 
+20170315@14:55:22 [System] getShopInfo 
+20170315@14:55:22 [System] getShopTime 
+20170315@14:55:44 [System] getLoggedInAccount 
+20170315@14:55:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170315@14:55:44 [System] getLoggedInAccount 
+20170315@14:55:44 [System] getAdoptInfo 
+20170315@14:55:44 [System] getShopInfo 
+20170315@14:55:44 [System] getShopTime 
+20170315@14:56:12 [System] getLoggedInAccount 
+20170315@14:56:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170315@14:56:12 [System] getLoggedInAccount 
+20170315@14:56:12 [System] getAdoptInfo 
+20170315@14:56:12 [System] getShopInfo 
+20170315@14:56:12 [System] getShopTime 
+20170315@14:56:57 [System] getLoggedInAccount 
+20170315@14:56:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170315@14:56:57 [System] getLoggedInAccount 
+20170315@14:56:57 [System] getAdoptInfo 
+20170315@14:56:57 [System] getShopInfo 
+20170315@14:56:57 [System] getShopTime 
+20170315@14:57:26 [System] getLoggedInAccount 
+20170315@14:57:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170315@14:57:26 [System] getLoggedInAccount 
+20170315@14:57:26 [System] getAdoptInfo 
+20170315@14:57:26 [System] getShopInfo 
+20170315@14:57:26 [System] getShopTime 
+20170315@14:58:38 [System] getLoggedInAccount 
+20170315@14:58:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@14:58:38 [System] getLoggedInAccount 
+20170315@14:58:38 [System] getAdoptInfo 
+20170315@14:58:38 [System] getShopInfo 
+20170315@14:58:38 [System] getShopTime 
+20170315@15:00:17 [System] getLoggedInAccount 
+20170315@15:00:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170315@15:00:17 [System] getLoggedInAccount 
+20170315@15:00:17 [System] getAdoptInfo 
+20170315@15:00:17 [System] getShopInfo 
+20170315@15:00:17 [System] getShopTime 
+20170315@15:00:48 [System] getLoggedInAccount 
+20170315@15:00:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@15:00:48 [System] getLoggedInAccount 
+20170315@15:00:57 [System] getLoggedInAccount 
+20170315@15:00:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@15:00:57 [System] getLoggedInAccount 
+20170315@15:00:57 [System] getAdoptInfo 
+20170315@15:00:57 [System] getShopInfo 
+20170315@15:00:57 [System] getShopTime 
+20170315@15:01:05 [System] getLoggedInAccount 
+20170315@15:01:05 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@15:01:05 [System] getLoggedInAccount 
+20170315@15:01:05 [System] SignOut 
+20170315@15:01:11 [System] getLoggedInAccount 
+20170315@15:01:11 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@15:01:11 [System] getLoggedInAccount 
+20170315@15:01:11 [System] SignOut 
+20170315@15:01:11 [System] loginAccount 
+20170315@15:01:11 [System] getShopInfo 
+20170315@15:01:11 [System] getLoggedInAccount 
+20170315@15:01:11 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@15:01:11 [System] getLoggedInAccount 
+20170315@15:01:11 [System] getLoggedInAccount 
+20170315@15:01:11 [System] getLoggedInAccount 
+20170315@15:01:12 [System] GVPetInfoOverview_DataBound 
+20170315@15:01:12 [System] GVShopInfoOverview_DataBound 
+20170315@15:01:29 [System] getLoggedInAccount 
+20170315@15:01:29 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:01:29 [System] getLoggedInAccount 
+20170315@15:01:29 [System] getLoggedInAccount 
+20170315@15:01:29 [System] getLoggedInAccount 
+20170315@15:01:29 [System] GVShopInfoOverview_DataBound 
+20170315@15:01:31 [System] getLoggedInAccount 
+20170315@15:01:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@15:01:31 [System] getLoggedInAccount 
+20170315@15:01:31 [System] getAdoptInfo 
+20170315@15:01:32 [System] getShopInfo 
+20170315@15:01:32 [System] getShopTime 
+20170315@15:01:39 [System] getLoggedInAccount 
+20170315@15:01:39 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:01:39 [System] getLoggedInAccount 
+20170315@15:01:39 [System] getLoggedInAccount 
+20170315@15:01:39 [System] getLoggedInAccount 
+20170315@15:01:39 [System] filterShopInfoData 
+20170315@15:01:39 [System] GVShopInfoOverview_DataBound 
+20170315@15:01:39 [System] GVShopInfoOverview_DataBound 
+20170315@15:01:42 [System] getLoggedInAccount 
+20170315@15:01:42 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:01:42 [System] getLoggedInAccount 
+20170315@15:01:42 [System] getLoggedInAccount 
+20170315@15:01:42 [System] getLoggedInAccount 
+20170315@15:01:42 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:01:42 [System] initializeUIControlValues 
+20170315@15:01:42 [System] getShopInfo 
+20170315@15:01:42 [System] getShopTime 
+20170315@15:01:42 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:02:21 [System] getLoggedInAccount 
+20170315@15:02:21 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:02:21 [System] getLoggedInAccount 
+20170315@15:02:21 [System] getLoggedInAccount 
+20170315@15:02:21 [System] getLoggedInAccount 
+20170315@15:02:21 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:02:21 [System] initializeUIControlValues 
+20170315@15:02:21 [System] getShopInfo 
+20170315@15:02:21 [System] getShopTime 
+20170315@15:02:21 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:02:22 [System] getLoggedInAccount 
+20170315@15:02:22 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:02:22 [System] getLoggedInAccount 
+20170315@15:02:22 [System] getLoggedInAccount 
+20170315@15:02:22 [System] getLoggedInAccount 
+20170315@15:02:22 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:02:22 [System] initializeUIControlValues 
+20170315@15:02:22 [System] getShopInfo 
+20170315@15:02:22 [System] getShopTime 
+20170315@15:02:22 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:02:23 [System] getLoggedInAccount 
+20170315@15:02:23 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:02:23 [System] getLoggedInAccount 
+20170315@15:02:23 [System] getLoggedInAccount 
+20170315@15:02:23 [System] getLoggedInAccount 
+20170315@15:02:23 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:02:23 [System] initializeUIControlValues 
+20170315@15:02:23 [System] getShopInfo 
+20170315@15:02:23 [System] getShopTime 
+20170315@15:02:24 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:02:57 [System] getLoggedInAccount 
+20170315@15:02:57 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:02:57 [System] getLoggedInAccount 
+20170315@15:02:57 [System] getLoggedInAccount 
+20170315@15:02:57 [System] getLoggedInAccount 
+20170315@15:02:57 [System] BTNPreview_Click 
+20170315@15:02:57 [System] saveToTempFolder 
+20170315@15:02:57 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: False 
+20170315@15:02:57 [System] Total files posted: 1 
+20170315@15:02:57 [System] previewPhotos 
+20170315@15:02:57 [System] ~/uploadedFiles/temp/shopinfo/ID000//shop04.jpg 
+20170315@15:03:00 [System] getLoggedInAccount 
+20170315@15:03:00 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:03:00 [System] getLoggedInAccount 
+20170315@15:03:00 [System] getLoggedInAccount 
+20170315@15:03:00 [System] getLoggedInAccount 
+20170315@15:03:00 [System] updateShopInfo 
+20170315@15:03:00 [System] Record updated! 
+20170315@15:03:00 [System] deleteShopTime 
+20170315@15:03:00 [System] Record deleted! 
+20170315@15:03:00 [System] createShopTime 
+20170315@15:03:00 [System] Record created! 
+20170315@15:03:00 [System] Record created! 
+20170315@15:03:00 [System] Record created! 
+20170315@15:03:00 [System] Record created! 
+20170315@15:03:00 [System] Record created! 
+20170315@15:03:00 [System] Record created! 
+20170315@15:03:00 [System] changePhotoPathToDatabaseFolder 
+20170315@15:03:00 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170315@15:03:01 [System] ~/uploadedFiles/database/shopinfo/33/shop04.jpg 
+20170315@15:03:01 [System] deletePhoto 
+20170315@15:03:01 [System] Record not deleted! Please check through given parameter values 
+20170315@15:03:01 [System] createPhoto 
+20170315@15:03:01 [System] Record created! 
+20170315@15:03:01 [System] GVShopInfoOverview_DataBound 
+20170315@15:03:01 [System] filterShopInfoData 
+20170315@15:03:01 [System] GVShopInfoOverview_DataBound 
+20170315@15:03:34 [System] getLoggedInAccount 
+20170315@15:03:34 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:03:34 [System] getLoggedInAccount 
+20170315@15:03:34 [System] getLoggedInAccount 
+20170315@15:03:34 [System] getLoggedInAccount 
+20170315@15:03:34 [System] BTNPreview_Click 
+20170315@15:03:34 [System] saveToTempFolder 
+20170315@15:03:34 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170315@15:03:34 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170315@15:03:34 [System] Total files posted: 1 
+20170315@15:03:35 [System] previewPhotos 
+20170315@15:03:35 [System] ~/uploadedFiles/temp/shopinfo/ID000//shop04.jpg 
+20170315@15:03:39 [System] getLoggedInAccount 
+20170315@15:03:39 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:03:39 [System] getLoggedInAccount 
+20170315@15:03:39 [System] getLoggedInAccount 
+20170315@15:03:39 [System] getLoggedInAccount 
+20170315@15:03:39 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:03:39 [System] initializeUIControlValues 
+20170315@15:03:39 [System] getShopInfo 
+20170315@15:03:39 [System] getShopTime 
+20170315@15:03:40 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:04:06 [System] getLoggedInAccount 
+20170315@15:04:06 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:04:06 [System] getLoggedInAccount 
+20170315@15:04:06 [System] getLoggedInAccount 
+20170315@15:04:06 [System] getLoggedInAccount 
+20170315@15:04:06 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:04:06 [System] initializeUIControlValues 
+20170315@15:04:06 [System] getShopInfo 
+20170315@15:04:07 [System] getShopTime 
+20170315@15:04:07 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:04:10 [System] getLoggedInAccount 
+20170315@15:04:10 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:04:10 [System] getLoggedInAccount 
+20170315@15:04:10 [System] getLoggedInAccount 
+20170315@15:04:10 [System] getLoggedInAccount 
+20170315@15:04:10 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:04:10 [System] initializeUIControlValues 
+20170315@15:04:10 [System] getShopInfo 
+20170315@15:04:10 [System] getShopTime 
+20170315@15:04:10 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:04:11 [System] getLoggedInAccount 
+20170315@15:04:11 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:04:11 [System] getLoggedInAccount 
+20170315@15:04:11 [System] getLoggedInAccount 
+20170315@15:04:11 [System] getLoggedInAccount 
+20170315@15:04:11 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:04:11 [System] initializeUIControlValues 
+20170315@15:04:11 [System] getShopInfo 
+20170315@15:04:11 [System] getShopTime 
+20170315@15:04:11 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:04:12 [System] getLoggedInAccount 
+20170315@15:04:12 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:04:12 [System] getLoggedInAccount 
+20170315@15:04:12 [System] getLoggedInAccount 
+20170315@15:04:12 [System] getLoggedInAccount 
+20170315@15:04:12 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:04:12 [System] initializeUIControlValues 
+20170315@15:04:12 [System] getShopInfo 
+20170315@15:04:12 [System] getShopTime 
+20170315@15:04:12 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:04:17 [System] getLoggedInAccount 
+20170315@15:04:17 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:04:17 [System] getLoggedInAccount 
+20170315@15:04:17 [System] getLoggedInAccount 
+20170315@15:04:17 [System] getLoggedInAccount 
+20170315@15:04:17 [System] filterShopInfoData 
+20170315@15:04:17 [System] GVShopInfoOverview_DataBound 
+20170315@15:04:18 [System] getLoggedInAccount 
+20170315@15:04:18 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:04:18 [System] getLoggedInAccount 
+20170315@15:04:18 [System] getLoggedInAccount 
+20170315@15:04:18 [System] getLoggedInAccount 
+20170315@15:04:18 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:04:18 [System] initializeUIControlValues 
+20170315@15:04:18 [System] getShopInfo 
+20170315@15:04:19 [System] getShopTime 
+20170315@15:04:19 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:04:22 [System] getLoggedInAccount 
+20170315@15:04:22 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:04:22 [System] getLoggedInAccount 
+20170315@15:04:22 [System] getLoggedInAccount 
+20170315@15:04:22 [System] getLoggedInAccount 
+20170315@15:04:22 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:04:22 [System] initializeUIControlValues 
+20170315@15:04:22 [System] getShopInfo 
+20170315@15:04:22 [System] getShopTime 
+20170315@15:04:22 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:04:23 [System] getLoggedInAccount 
+20170315@15:04:23 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:04:23 [System] getLoggedInAccount 
+20170315@15:04:23 [System] getLoggedInAccount 
+20170315@15:04:23 [System] getLoggedInAccount 
+20170315@15:04:23 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:04:23 [System] initializeUIControlValues 
+20170315@15:04:23 [System] getShopInfo 
+20170315@15:04:23 [System] getShopTime 
+20170315@15:04:23 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:04:25 [System] getLoggedInAccount 
+20170315@15:04:25 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:04:25 [System] getLoggedInAccount 
+20170315@15:04:25 [System] getLoggedInAccount 
+20170315@15:04:25 [System] getLoggedInAccount 
+20170315@15:04:25 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@15:04:25 [System] initializeUIControlValues 
+20170315@15:04:25 [System] getShopInfo 
+20170315@15:04:25 [System] getShopTime 
+20170315@15:04:25 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@15:04:26 [System] getLoggedInAccount 
+20170315@15:04:26 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:04:26 [System] getLoggedInAccount 
+20170315@15:04:26 [System] getLoggedInAccount 
+20170315@15:04:26 [System] getLoggedInAccount 
+20170315@15:04:26 [System] filterShopInfoData 
+20170315@15:04:26 [System] GVShopInfoOverview_DataBound 
+20170315@15:04:29 [System] getLoggedInAccount 
+20170315@15:04:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@15:04:29 [System] getLoggedInAccount 
+20170315@15:04:29 [System] getAdoptInfo 
+20170315@15:04:29 [System] getShopInfo 
+20170315@15:04:29 [System] getShopTime 
+20170315@15:06:35 [System] getLoggedInAccount 
+20170315@15:06:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@15:06:35 [System] getLoggedInAccount 
+20170315@15:06:35 [System] getAdoptInfo 
+20170315@15:06:35 [System] getShopInfo 
+20170315@15:06:36 [System] getShopTime 
+20170315@15:07:17 [System] getLoggedInAccount 
+20170315@15:07:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@15:07:17 [System] getLoggedInAccount 
+20170315@15:07:17 [System] getAdoptInfo 
+20170315@15:07:17 [System] getShopInfo 
+20170315@15:07:17 [System] getShopTime 
+20170315@15:34:55 [System] getLoggedInAccount 
+20170315@15:34:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@15:34:55 [System] getLoggedInAccount 
+20170315@15:34:55 [System] getAdoptInfo 
+20170315@15:34:55 [System] getShopInfo 
+20170315@15:34:56 [System] getShopTime 
+20170315@15:35:12 [System] getLoggedInAccount 
+20170315@15:35:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@15:35:12 [System] getLoggedInAccount 
+20170315@15:35:12 [System] getAdoptInfo 
+20170315@15:35:12 [System] getShopInfo 
+20170315@15:35:12 [System] getShopTime 
+20170315@15:35:22 [System] getLoggedInAccount 
+20170315@15:35:22 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@15:35:22 [System] getLoggedInAccount 
+20170315@15:35:22 [System] No account logged in 
+20170315@15:35:22 [System] getLoggedInAccount 
+20170315@15:35:22 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@15:35:22 [System] getLoggedInAccount 
+20170315@15:35:22 [System] SignOut 
+20170315@15:35:26 [System] getLoggedInAccount 
+20170315@15:35:26 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@15:35:26 [System] getLoggedInAccount 
+20170315@15:35:26 [System] SignOut 
+20170315@15:35:26 [System] loginAccount 
+20170315@15:35:26 [System] getShopInfo 
+20170315@15:35:26 [System] getLoggedInAccount 
+20170315@15:35:26 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@15:35:26 [System] getLoggedInAccount 
+20170315@15:35:26 [System] getLoggedInAccount 
+20170315@15:35:26 [System] getLoggedInAccount 
+20170315@15:35:26 [System] GVPetInfoOverview_DataBound 
+20170315@15:35:26 [System] GVShopInfoOverview_DataBound 
+20170315@15:35:29 [System] getLoggedInAccount 
+20170315@15:35:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@15:35:29 [System] getLoggedInAccount 
+20170315@15:35:29 [System] getAdoptInfo 
+20170315@15:35:29 [System] getShopInfo 
+20170315@15:35:29 [System] getShopTime 
+20170315@15:38:02 [System] getLoggedInAccount 
+20170315@15:38:02 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@15:38:02 [System] getLoggedInAccount 
+20170315@15:38:02 [System] getLoggedInAccount 
+20170315@15:38:02 [System] getLoggedInAccount 
+20170315@15:38:03 [System] GVPetInfoOverview_DataBound 
+20170315@15:38:03 [System] GVShopInfoOverview_DataBound 
+20170315@15:38:06 [System] getLoggedInAccount 
+20170315@15:38:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@15:38:06 [System] getLoggedInAccount 
+20170315@15:38:06 [System] getAdoptInfo 
+20170315@15:38:06 [System] getShopInfo 
+20170315@15:38:06 [System] getShopTime 
+20170315@15:59:14 [System] getLoggedInAccount 
+20170315@15:59:14 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@15:59:14 [System] getLoggedInAccount 
+20170315@15:59:14 [System] getLoggedInAccount 
+20170315@15:59:14 [System] getLoggedInAccount 
+20170315@15:59:14 [System] GVPetInfoOverview_DataBound 
+20170315@15:59:14 [System] GVShopInfoOverview_DataBound 
+20170315@15:59:37 [System] getLoggedInAccount 
+20170315@15:59:37 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@15:59:37 [System] getLoggedInAccount 
+20170315@15:59:37 [System] getLoggedInAccount 
+20170315@15:59:37 [System] getLoggedInAccount 
+20170315@15:59:37 [System] GVPetInfoOverview_DataBound 
+20170315@15:59:37 [System] GVShopInfoOverview_DataBound 
+20170315@16:00:57 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@16:01:00 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@16:01:00 [System] SignOut 
+20170315@16:02:08 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@16:02:18 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@16:02:18 [System] SignOut 
+20170315@16:02:22 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@16:02:22 [System] SignOut 
+20170315@16:02:22 [System] loginAccount 
+20170315@16:02:23 [System] getShopInfo 
+20170315@16:03:51 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@16:03:53 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@16:03:53 [System] signOut 
+20170315@16:03:57 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@16:03:57 [System] signOut 
+20170315@16:03:57 [System] signIn 
+20170315@16:03:57 [System] getShopInfo 
+20170315@16:03:57 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@16:03:57 [System] GVPetInfoOverview_DataBound 
+20170315@16:03:57 [System] GVShopInfoOverview_DataBound 
+20170315@16:32:09 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@16:33:24 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@16:33:24 [System] signOut 
+20170315@16:33:28 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@16:33:28 [System] signOut 
+20170315@16:33:28 [System] signIn 
+20170315@16:33:29 [System] getShopInfo 
+20170315@16:33:29 [System] getShopTime 
+20170315@16:33:29 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@16:33:29 [System] getLoggedInAccount 
+20170315@16:33:29 [System] GVPetInfoOverview_DataBound 
+20170315@16:33:29 [System] GVShopInfoOverview_DataBound 
+20170315@16:33:33 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170315@16:33:33 [System] getLoggedInAccount 
+20170315@16:33:50 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:33:50 [System] getLoggedInAccount 
+20170315@16:34:44 [System] Page loaded: http://localhost:65063/adminsystemaccountedit.aspx 
+20170315@16:34:44 [System] getLoggedInAccount 
+20170315@16:34:44 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@16:34:44 [System] getLoggedInAccount 
+20170315@16:34:44 [System] GVPetInfoOverview_DataBound 
+20170315@16:34:44 [System] GVShopInfoOverview_DataBound 
+20170315@16:35:38 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@16:35:38 [System] getLoggedInAccount 
+20170315@16:35:38 [System] GVPetInfoOverview_DataBound 
+20170315@16:35:38 [System] GVShopInfoOverview_DataBound 
+20170315@16:35:44 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170315@16:35:44 [System] getLoggedInAccount 
+20170315@16:46:46 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170315@16:46:46 [System] getLoggedInAccount 
+20170315@16:46:54 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:46:54 [System] getLoggedInAccount 
+20170315@16:55:08 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@16:55:19 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:55:19 [System] getLoggedInAccount 
+20170315@16:55:19 [System] MessageHandler : New password cannot be the same as old password 
+20170315@16:55:24 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:55:24 [System] getLoggedInAccount 
+20170315@16:55:24 [System] checkPassword 
+20170315@16:55:24 [System] getValue() is 38 
+20170315@16:55:24 [System] changePassword 
+20170315@16:55:24 [System] Record updated! 
+20170315@16:55:47 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170315@16:55:47 [System] getLoggedInAccount 
+20170315@16:55:52 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:55:52 [System] getLoggedInAccount 
+20170315@16:56:17 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:56:17 [System] getLoggedInAccount 
+20170315@16:56:17 [System] MessageHandler : New password cannot be the same as old password 
+20170315@16:56:21 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:56:21 [System] getLoggedInAccount 
+20170315@16:56:21 [System] checkPassword 
+20170315@16:56:21 [System] getValue() is 38 
+20170315@16:56:21 [System] changePassword 
+20170315@16:56:21 [System] Record updated! 
+20170315@16:56:24 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:56:24 [System] getLoggedInAccount 
+20170315@16:56:24 [System] checkPassword 
+20170315@16:56:25 [System] No data found in getValue() 
+20170315@16:56:25 [System] MessageHandler : Invalid old password 
+20170315@16:56:31 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:56:31 [System] getLoggedInAccount 
+20170315@16:56:31 [System] MessageHandler : New password cannot be the same as old password 
+20170315@16:56:37 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:56:37 [System] getLoggedInAccount 
+20170315@16:56:37 [System] checkPassword 
+20170315@16:56:37 [System] No data found in getValue() 
+20170315@16:56:37 [System] MessageHandler : Invalid old password 
+20170315@16:56:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@16:56:45 [System] getAdoptInfo 
+20170315@16:56:45 [System] getShopInfo 
+20170315@16:56:45 [System] getShopTime 
+20170315@16:58:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@16:58:05 [System] getAdoptInfo 
+20170315@16:58:05 [System] getShopInfo 
+20170315@16:58:05 [System] getShopTime 
+20170315@16:58:15 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@16:58:15 [System] getLoggedInAccount 
+20170315@16:58:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@16:58:19 [System] getAdoptInfo 
+20170315@16:58:19 [System] getShopInfo 
+20170315@16:58:19 [System] getShopTime 
+20170315@17:01:17 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@17:01:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@17:01:19 [System] getAdoptInfo 
+20170315@17:01:20 [System] getShopInfo 
+20170315@17:01:20 [System] getShopTime 
+20170315@17:01:25 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@17:01:25 [System] signOut 
+20170315@17:01:30 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@17:01:30 [System] signOut 
+20170315@17:01:30 [System] signIn 
+20170315@17:01:30 [System] getShopInfo 
+20170315@17:01:30 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@17:01:30 [System] getLoggedInAccount 
+20170315@17:01:30 [System] GVPetInfoOverview_DataBound 
+20170315@17:01:30 [System] GVShopInfoOverview_DataBound 
+20170315@17:01:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@17:01:36 [System] getAdoptInfo 
+20170315@17:01:36 [System] getShopInfo 
+20170315@17:01:36 [System] getShopTime 
+20170315@17:04:16 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170315@17:04:23 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=64 
+20170315@17:04:53 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@17:04:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@17:04:56 [System] getAdoptInfo 
+20170315@17:04:56 [System] getShopInfo 
+20170315@17:04:56 [System] getShopTime 
+20170315@17:05:28 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@17:05:28 [System] signOut 
+20170315@17:05:34 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@17:05:34 [System] signOut 
+20170315@17:05:34 [System] signIn 
+20170315@17:05:34 [System] getShopInfo 
+20170315@17:05:34 [System] getShopTime 
+20170315@17:05:34 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@17:05:34 [System] getLoggedInAccount 
+20170315@17:05:34 [System] GVPetInfoOverview_DataBound 
+20170315@17:05:35 [System] GVShopInfoOverview_DataBound 
+20170315@17:05:43 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@17:05:43 [System] getLoggedInAccount 
+20170315@17:05:43 [System] GVShopInfoOverview_DataBound 
+20170315@17:06:01 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@17:06:01 [System] getLoggedInAccount 
+20170315@17:06:01 [System] filterShopInfoData 
+20170315@17:06:01 [System] GVShopInfoOverview_DataBound 
+20170315@17:06:01 [System] GVShopInfoOverview_DataBound 
+20170315@17:06:04 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@17:06:04 [System] getLoggedInAccount 
+20170315@17:06:04 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@17:06:04 [System] initializeUIControlValues 
+20170315@17:06:04 [System] getShopInfo 
+20170315@17:06:04 [System] getShopTime 
+20170315@17:06:04 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@17:06:08 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@17:06:08 [System] getLoggedInAccount 
+20170315@17:06:08 [System] BTNPreview_Click 
+20170315@17:06:08 [System] saveToTempFolder 
+20170315@17:06:08 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170315@17:06:09 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170315@17:06:09 [System] Total files posted: 1 
+20170315@17:06:09 [System] previewPhotos 
+20170315@17:06:09 [System] ~/uploadedFiles/temp/shopinfo/ID000//shop05.jpg 
+20170315@17:06:12 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@17:06:12 [System] getLoggedInAccount 
+20170315@17:06:12 [System] updateShopInfo 
+20170315@17:06:12 [System] Record updated! 
+20170315@17:06:12 [System] deleteShopTime 
+20170315@17:06:12 [System] Record not deleted! Please check through given parameter values 
+20170315@17:06:12 [System] createShopTime 
+20170315@17:06:12 [System] changePhotoPathToDatabaseFolder 
+20170315@17:06:12 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170315@17:06:12 [System] ~/uploadedFiles/database/shopinfo/34/shop05.jpg 
+20170315@17:06:12 [System] deletePhoto 
+20170315@17:06:12 [System] Record not deleted! Please check through given parameter values 
+20170315@17:06:12 [System] createPhoto 
+20170315@17:06:12 [System] Record created! 
+20170315@17:06:12 [System] GVShopInfoOverview_DataBound 
+20170315@17:06:13 [System] filterShopInfoData 
+20170315@17:06:13 [System] GVShopInfoOverview_DataBound 
+20170315@17:06:43 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170315@17:06:43 [System] getLoggedInAccount 
+20170315@17:07:03 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170315@17:07:03 [System] getLoggedInAccount 
+20170315@17:07:03 [System] signOut 
+20170315@17:07:03 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@17:07:03 [System] signOut 
+20170315@17:07:16 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@17:07:16 [System] signOut 
+20170315@17:07:16 [System] signIn 
+20170315@17:07:16 [System] getShopInfo 
+20170315@17:07:16 [System] getShopTime 
+20170315@17:07:16 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@17:07:16 [System] getLoggedInAccount 
+20170315@17:07:16 [System] GVPetInfoOverview_DataBound 
+20170315@17:07:16 [System] GVShopInfoOverview_DataBound 
+20170315@17:07:19 [System] Page loaded: http://localhost:65063/adminshopinfoadd.aspx 
+20170315@17:07:19 [System] getLoggedInAccount 
+20170315@17:07:19 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@17:07:19 [System] getLoggedInAccount 
+20170315@17:07:19 [System] GVPetInfoOverview_DataBound 
+20170315@17:07:19 [System] GVShopInfoOverview_DataBound 
+20170315@17:07:21 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170315@17:07:21 [System] getLoggedInAccount 
+20170315@17:07:21 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@17:07:21 [System] getLoggedInAccount 
+20170315@17:07:21 [System] GVPetInfoOverview_DataBound 
+20170315@17:07:21 [System] GVShopInfoOverview_DataBound 
+20170315@17:07:27 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170315@17:07:27 [System] getLoggedInAccount 
+20170315@17:07:27 [System] GVAdoptInfoOverview_DataBound 
+20170315@17:07:31 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170315@17:07:31 [System] getLoggedInAccount 
+20170315@17:07:59 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:07:59 [System] getLoggedInAccount 
+20170315@17:17:54 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:17:54 [System] getLoggedInAccount 
+20170315@17:19:58 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:19:58 [System] getLoggedInAccount 
+20170315@17:20:04 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:20:04 [System] getLoggedInAccount 
+20170315@17:29:56 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:29:56 [System] getLoggedInAccount 
+20170315@17:30:19 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170315@17:30:19 [System] getLoggedInAccount 
+20170315@17:30:23 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:30:23 [System] getLoggedInAccount 
+20170315@17:43:51 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@17:45:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@17:45:46 [System] getAdoptInfo 
+20170315@17:45:46 [System] getShopInfo 
+20170315@17:45:46 [System] getShopTime 
+20170315@17:45:50 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@17:45:50 [System] signOut 
+20170315@17:46:02 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170315@17:46:02 [System] signOut 
+20170315@17:46:02 [System] signIn 
+20170315@17:46:02 [System] getShopInfo 
+20170315@17:46:02 [System] getShopTime 
+20170315@17:46:02 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@17:46:02 [System] getLoggedInAccount 
+20170315@17:46:03 [System] GVPetInfoOverview_DataBound 
+20170315@17:46:03 [System] GVShopInfoOverview_DataBound 
+20170315@17:50:32 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:50:32 [System] getLoggedInAccount 
+20170315@17:51:50 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170315@17:51:50 [System] getLoggedInAccount 
+20170315@17:52:44 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:52:44 [System] getLoggedInAccount 
+20170315@17:53:14 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:53:14 [System] getLoggedInAccount 
+20170315@17:53:37 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:53:37 [System] getLoggedInAccount 
+20170315@17:54:17 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@17:54:17 [System] getLoggedInAccount 
+20170315@17:54:17 [System] GVPetInfoOverview_DataBound 
+20170315@17:54:17 [System] GVShopInfoOverview_DataBound 
+20170315@17:54:20 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@17:54:20 [System] getLoggedInAccount 
+20170315@17:54:20 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@17:54:20 [System] getShopInfo 
+20170315@17:54:20 [System] getShopTime 
+20170315@17:54:20 [System] MessageHandler : (Close on Wednesday) 
+20170315@17:54:20 [System] MessageHandler : (Close on Wednesday) 
+20170315@17:54:20 [System] MessageHandler : Close now 
+20170315@17:54:20 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@17:54:42 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@17:54:42 [System] getLoggedInAccount 
+20170315@17:54:42 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170315@17:54:42 [System] getShopInfo 
+20170315@17:54:42 [System] getShopTime 
+20170315@17:54:42 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170315@17:55:38 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170315@17:55:38 [System] getLoggedInAccount 
+20170315@17:55:38 [System] GVPetInfoOverview_DataBound 
+20170315@17:55:38 [System] GVShopInfoOverview_DataBound 
+20170315@17:55:59 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170315@17:55:59 [System] getLoggedInAccount 
+20170315@17:56:04 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:56:04 [System] getLoggedInAccount 
+20170315@17:56:54 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170315@17:56:54 [System] getLoggedInAccount 
+20170315@17:57:27 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170315@17:57:27 [System] getLoggedInAccount 
+20170315@17:57:27 [System] GVAdoptInfoOverview_DataBound 
+20170315@18:04:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:04:01 [System] getAdoptInfo 
+20170315@18:04:01 [System] getShopInfo 
+20170315@18:04:02 [System] getShopTime 
+20170315@18:06:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:06:28 [System] getAdoptInfo 
+20170315@18:06:28 [System] getShopInfo 
+20170315@18:06:28 [System] getShopTime 
+20170315@18:07:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:07:56 [System] getAdoptInfo 
+20170315@18:07:56 [System] getShopInfo 
+20170315@18:07:56 [System] getShopTime 
+20170315@18:09:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:09:24 [System] getAdoptInfo 
+20170315@18:09:24 [System] getShopInfo 
+20170315@18:09:24 [System] getShopTime 
+20170315@18:09:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:09:44 [System] getAdoptInfo 
+20170315@18:09:44 [System] getShopInfo 
+20170315@18:09:44 [System] getShopTime 
+20170315@18:10:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:10:05 [System] getAdoptInfo 
+20170315@18:10:05 [System] getShopInfo 
+20170315@18:10:05 [System] getShopTime 
+20170315@18:10:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:10:49 [System] getAdoptInfo 
+20170315@18:10:49 [System] getShopInfo 
+20170315@18:10:49 [System] getShopTime 
+20170315@18:11:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:11:17 [System] getAdoptInfo 
+20170315@18:11:17 [System] getShopInfo 
+20170315@18:11:17 [System] getShopTime 
+20170315@18:12:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:12:09 [System] getAdoptInfo 
+20170315@18:12:09 [System] getShopInfo 
+20170315@18:12:09 [System] getShopTime 
+20170315@18:12:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:12:48 [System] getAdoptInfo 
+20170315@18:12:48 [System] getShopInfo 
+20170315@18:12:48 [System] getShopTime 
+20170315@18:14:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:14:26 [System] getAdoptInfo 
+20170315@18:14:26 [System] getShopInfo 
+20170315@18:14:27 [System] getShopTime 
+20170315@18:15:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:15:13 [System] getAdoptInfo 
+20170315@18:15:13 [System] getShopInfo 
+20170315@18:15:13 [System] getShopTime 
+20170315@18:15:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:15:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:20:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:20:27 [System] getAdoptInfo 
+20170315@18:20:27 [System] getShopInfo 
+20170315@18:20:27 [System] getShopTime 
+20170315@18:20:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:21:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:21:16 [System] getAdoptInfo 
+20170315@18:21:16 [System] getShopInfo 
+20170315@18:21:16 [System] getShopTime 
+20170315@18:21:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:23:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:23:10 [System] getAdoptInfo 
+20170315@18:23:10 [System] getShopInfo 
+20170315@18:23:10 [System] getShopTime 
+20170315@18:23:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:23:15 [System] getAdoptInfo 
+20170315@18:23:16 [System] getShopInfo 
+20170315@18:23:16 [System] getShopTime 
+20170315@18:23:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:23:36 [System] getAdoptInfo 
+20170315@18:23:36 [System] getShopInfo 
+20170315@18:23:36 [System] getShopTime 
+20170315@18:28:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:28:02 [System] getAdoptInfo 
+20170315@18:28:02 [System] getShopInfo 
+20170315@18:28:02 [System] getShopTime 
+20170315@18:28:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:30:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:30:29 [System] getAdoptInfo 
+20170315@18:30:29 [System] getShopInfo 
+20170315@18:30:29 [System] getShopTime 
+20170315@18:30:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:35:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:35:24 [System] getAdoptInfo 
+20170315@18:35:24 [System] getShopInfo 
+20170315@18:35:24 [System] getShopTime 
+20170315@18:35:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:40:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:40:37 [System] getAdoptInfo 
+20170315@18:40:37 [System] getShopInfo 
+20170315@18:40:37 [System] getShopTime 
+20170315@18:40:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:41:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:42:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:42:05 [System] getAdoptInfo 
+20170315@18:42:05 [System] getShopInfo 
+20170315@18:42:05 [System] getShopTime 
+20170315@18:43:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:29 [System] getAdoptInfo 
+20170315@18:43:29 [System] getShopInfo 
+20170315@18:43:29 [System] getShopTime 
+20170315@18:43:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:43:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:44:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:44:01 [System] getAdoptInfo 
+20170315@18:44:01 [System] getShopInfo 
+20170315@18:44:01 [System] getShopTime 
+20170315@18:44:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:44:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:44:39 [System] getAdoptInfo 
+20170315@18:44:39 [System] getShopInfo 
+20170315@18:44:39 [System] getShopTime 
+20170315@18:44:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:44:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:44:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:44:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:44:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:51:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:51:05 [System] getAdoptInfo 
+20170315@18:51:05 [System] getShopInfo 
+20170315@18:51:05 [System] getShopTime 
+20170315@18:51:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:51:14 [System] getAdoptInfo 
+20170315@18:51:15 [System] getShopInfo 
+20170315@18:51:15 [System] getShopTime 
+20170315@18:52:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@18:52:12 [System] getAdoptInfo 
+20170315@18:52:12 [System] getShopInfo 
+20170315@18:52:12 [System] getShopTime 
+20170315@18:52:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:46:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:46:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:48:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:48:40 [System] getAdoptInfo 
+20170315@19:48:40 [System] getShopInfo 
+20170315@19:48:40 [System] getShopTime 
+20170315@19:48:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:49:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:50:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:50:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:50:33 [System] getAdoptInfo 
+20170315@19:50:33 [System] getShopInfo 
+20170315@19:50:33 [System] getShopTime 
+20170315@19:50:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:50:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:53:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:53:51 [System] getAdoptInfo 
+20170315@19:53:51 [System] getShopInfo 
+20170315@19:53:51 [System] getShopTime 
+20170315@19:54:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:54:38 [System] getAdoptInfo 
+20170315@19:54:38 [System] getShopInfo 
+20170315@19:54:38 [System] getShopTime 
+20170315@19:54:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:55:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@19:55:18 [System] getAdoptInfo 
+20170315@19:55:18 [System] getShopInfo 
+20170315@19:55:18 [System] getShopTime 
+20170315@19:56:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:00:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:00:41 [System] getAdoptInfo 
+20170315@20:00:41 [System] getShopInfo 
+20170315@20:00:41 [System] getShopTime 
+20170315@20:00:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:01:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:02:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:02:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:02:07 [System] getAdoptInfo 
+20170315@20:02:07 [System] getShopInfo 
+20170315@20:02:07 [System] getShopTime 
+20170315@20:02:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:09:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:09:17 [System] getAdoptInfo 
+20170315@20:09:17 [System] getShopInfo 
+20170315@20:09:17 [System] getShopTime 
+20170315@20:09:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:11:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:11:08 [System] getAdoptInfo 
+20170315@20:11:08 [System] getShopInfo 
+20170315@20:11:08 [System] getShopTime 
+20170315@20:11:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:11:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:11:35 [System] getAdoptInfo 
+20170315@20:11:35 [System] getShopInfo 
+20170315@20:11:35 [System] getShopTime 
+20170315@20:13:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:13:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:13:47 [System] getAdoptInfo 
+20170315@20:13:47 [System] getShopInfo 
+20170315@20:13:47 [System] getShopTime 
+20170315@20:13:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:14:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:14:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:14:21 [System] getAdoptInfo 
+20170315@20:14:21 [System] getShopInfo 
+20170315@20:14:21 [System] getShopTime 
+20170315@20:14:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:15:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:15:08 [System] getAdoptInfo 
+20170315@20:15:08 [System] getShopInfo 
+20170315@20:15:08 [System] getShopTime 
+20170315@20:15:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:15:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:15:22 [System] getAdoptInfo 
+20170315@20:15:22 [System] getShopInfo 
+20170315@20:15:22 [System] getShopTime 
+20170315@20:15:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:15:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:15:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:15:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:15:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:19:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:20:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:20:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:20:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:21:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:22:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:22:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:22:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:24:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:24:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:24:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170315@20:25:21 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@20:25:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170315@20:25:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:25:28 [System] getAdoptInfo 
+20170315@20:25:28 [System] getShopInfo 
+20170315@20:25:28 [System] getShopTime 
+20170315@20:25:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:25:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:26:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:26:20 [System] getAdoptInfo 
+20170315@20:26:20 [System] getShopInfo 
+20170315@20:26:20 [System] getShopTime 
+20170315@20:27:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:27:41 [System] getAdoptInfo 
+20170315@20:27:42 [System] getShopInfo 
+20170315@20:27:42 [System] getShopTime 
+20170315@20:27:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:27:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:27:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:27:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:28:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:28:06 [System] getAdoptInfo 
+20170315@20:28:06 [System] getShopInfo 
+20170315@20:28:06 [System] getShopTime 
+20170315@20:28:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:28:24 [System] getAdoptInfo 
+20170315@20:28:24 [System] getShopInfo 
+20170315@20:28:24 [System] getShopTime 
+20170315@20:28:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:29:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:29:27 [System] getAdoptInfo 
+20170315@20:29:27 [System] getShopInfo 
+20170315@20:29:27 [System] getShopTime 
+20170315@20:29:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170315@20:29:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="AdoptionDetails.aspx.cs" Inherits="uploadedFiles_AdoptionDetails" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="AdoptionAppointment.aspx.cs" Inherits="AdoptionAppointment" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
 </asp:Content>
@@ -7,6 +7,7 @@
     <asp:HiddenField ID="HDFPetID" runat="server" />
     <asp:HiddenField ID="HDFShopInfoID" runat="server" />
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+
         <ContentTemplate>
             <%--Adoption info--%>
             <asp:SqlDataSource ID="SDSAdoptInfo" runat="server"
@@ -58,12 +59,13 @@
             <div class="gallery">
                 <div class="container">
                     <div class="agileits-about-top-heading">
-                        <h3>Adoption Details</h3>
+                        <h3>Adoption Appointment</h3>
                     </div>
                     <div class="agileinfo-top-grids">
-                        <div class="row">
+                       
 
-                            <%--Left panel--%>
+                        <div class="row">
+                            <%--Basic info--%>
                             <div class="col-md-8">
                                 <asp:DataList ID="DLAdoptInfo" runat="server" DataSourceID="SDSAdoptInfo" Width="100%"
                                     OnItemDataBound="DLAdoptInfo_ItemDataBound">
@@ -72,7 +74,8 @@
                                             <div class="col-md-4 col-sm-4">
                                                 <div class="hr hr-double2 "></div>
                                                 <h4>
-                                                    <asp:Label ID="Label6" runat="server" Text="Pet Image" Font-Bold="true"></asp:Label></h4>
+                                                    <asp:Label ID="Label2" runat="server" Text="Pet Image" Font-Bold="true"></asp:Label>
+                                                </h4>
                                                 <div class="hr hr-double2 "></div>
                                                 <div class="text-center overflowHidden" style="padding: 0px 10px">
                                                     <asp:DataList ID="DLPet" runat="server" DataKeyField="photoID" DataSourceID="SDSAdoptionInfoPhoto"
@@ -210,7 +213,7 @@
                                                         <label class="col-sm-3 control-label text-right">Contact</label>
                                                         <div class="col-sm-9">
                                                             <div class="input-group">
-                                                                <asp:Label ID="Label15" runat="server" Text='<%# Eval("shopinfocontact") %>' />
+                                                                <asp:Label ID="Label15" runat="server" Text='<%# Eval("shopinfocontact") %>' /><asp:Label ID="LBLShopTimeStatus" runat="server" Font-Size="Small" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -273,11 +276,9 @@
                                         <br />
                                     </ItemTemplate>
                                 </asp:DataList>
-
                             </div>
-                            <%--Right panel--%>
+                            <%--Appointment info--%>
                             <div class="col-md-4 ">
-                                <%--Appointment --%>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="hr hr-double2 "></div>
@@ -287,73 +288,20 @@
                                         <div class="hr hr-double2 "></div>
                                         <asp:Label ID="LBLAppmtDate" runat="server" Text="Appointment Date"></asp:Label>
                                         <div class="input-group">
-                                            <input id="INPUTAppmtDate" runat="server" class="form-control datepicker" type="text"
-                                                data-date-format="dd-MM-yyyy" placeholder="Select date">
+                                            <input id="INPUTAppmtDate" runat="server" class="form-control date-picker" type="text" data-date-format="dd-MM-yyyy">
                                             <span class="input-group-addon">
                                                 <i class="fa fa-calendar"></i>
                                             </span>
-                                            <asp:Button ID="BTNAppmtDate" runat="server" Style="display: none;" OnClick="BTNAppmtDate_Click" />
                                         </div>
-
-                                        <%--<div class="input-group">
-                                            <asp:TextBox ID="TBAppmtDate" runat="server" class="form-control datepicker" type="text"
-                                                data-date-format="dd-MM-yyyy" placeholder="Select date" AutoPostBack="true" OnTextChanged="TBAppmtDate_TextChanged"></asp:TextBox>
-                                            <span class="input-group-addon">
-                                                <i class="fa fa-calendar"></i>
-                                            </span>
-                                        </div>--%>
-
                                         <asp:Label ID="LBLAppmtTime" runat="server" Text="Appointment Time"></asp:Label>
                                         <div class="input-group">
-                                            <asp:DropDownList ID="DDLAppmtTime" runat="server" CssClass="form-control" AutoPostBack="true" Enabled="false" OnSelectedIndexChanged="DDLAppmtTime_SelectedIndexChanged">
-                                                <asp:ListItem Value="">Select Time</asp:ListItem>
-                                            </asp:DropDownList>
+                                            <asp:DropDownList ID="DDLAppmtTime" runat="server" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="DDLAppmtTime_SelectedIndexChanged"></asp:DropDownList>
                                             <span class="input-group-addon">
                                                 <i class="fa fa-clock-o"></i>
                                             </span>
                                         </div>
-                                        <div class="text-center">
-                                            <asp:Button ID="BTNAdoptMe" runat="server" CssClass="btn btn-primary btn-sm" Text="Adopt Me" OnClick="BTNAdoptMe_Click" />
-                                        </div>
                                     </div>
-
                                     <div class="clearfix"></div>
-                                </div>
-                                <%--More pet for adoption--%>
-                                <div>
-                                    <div class="text-center">
-                                        <div class="hr hr-double2 "></div>
-                                        <h4>
-                                            <asp:Label ID="Label9" runat="server" Text="Other pets in this organisation" Font-Bold="true"></asp:Label>
-                                        </h4>
-                                        <div class="hr hr-double2 "></div>
-                                    </div>
-                                    <div class="gallery-grids">
-                                        <asp:DataList ID="DLMorePet" runat="server" DataKeyField="adoptinfoid" DataSourceID="SDSMorePet"
-                                            RepeatDirection="Horizontal" RepeatLayout="Flow" Width="100%" OnItemDataBound="DLMorePet_ItemDataBound">
-                                            <ItemTemplate>
-
-                                                <div class="col-md-6 gallery-grid text-center">
-                                                    <div class="grid adoption">
-                                                        <figure class="effect-apollo">
-                                                            <asp:HiddenField ID="HDFMoreAdoptInfoID" runat="server" Value='<%# Eval("adoptinfoid")%>' />
-                                                            <asp:HiddenField ID="HDFMorePetID" runat="server" Value='<%# Eval("petid")%>' />
-                                                            <asp:HyperLink ID="HYPLKMorePet" runat="server" class="example-image-link">
-                                                                <div class="portraitAdoption overflowHidden">
-                                                                    <asp:Image ID="IMGPhoto" runat="server" alt="" />
-                                                                </div>
-                                                                <figcaption>
-                                                                    <p>
-                                                                        <asp:Label ID="Label2" runat="server" Text='<%# splitCamelCase( Eval("petname").ToString() )%>' Font-Size="Small"></asp:Label>
-                                                                    </p>
-                                                                </figcaption>
-                                                            </asp:HyperLink>
-                                                        </figure>
-                                                    </div>
-                                                </div>
-                                            </ItemTemplate>
-                                        </asp:DataList>
-                                    </div>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -362,27 +310,8 @@
                 </div>
             </div>
             <!-- //adopt info details -->
+
         </ContentTemplate>
     </asp:UpdatePanel>
-    <!--datepicker Slider starts Here-->
-    <script type="text/javascript">
-        $(document).ready(function () {
-
-        });
-
-        function pageLoad() {
-            $('.datepicker').unbind()
-            $(".datepicker").datepicker({
-                autoclose: true,
-                todayHighlight: true,
-                startDate: "today",
-                constrainInput: true
-            });
-              // to make a postback after selecting date, use a button click
-            $('.datepicker').on('changeDate', function () {
-                document.getElementById('<%=BTNAppmtDate.ClientID %>').click();
-              });
-        }
-    </script>
-    <!--datepicker Slider ends Here-->
 </asp:Content>
+

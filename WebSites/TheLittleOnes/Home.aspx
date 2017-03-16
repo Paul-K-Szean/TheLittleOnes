@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="Home" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="CPHTHLOHead" runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="CPHTHLOBody" runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBody" runat="Server">
     <!-- banner -->
     <div class="banner">
         <div class="w3layouts-banner-slider">

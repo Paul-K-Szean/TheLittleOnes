@@ -55,7 +55,7 @@ public partial class AdminShopInfoEdit : BasePage
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         // initialize hour range
-        List<string> timeInterval = Utility.setupHourRange();
+        List<string> timeInterval = Utility.getTimeInterval();
         // loop over for controls
         foreach (Control ctrl in PNLShopInfoEdit.Controls)
         {

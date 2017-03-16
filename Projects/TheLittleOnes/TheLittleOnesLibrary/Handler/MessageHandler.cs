@@ -44,7 +44,11 @@ namespace TheLittleOnesLibrary.Handler
             label.Text = string.Empty;
             label.ForeColor = Utility.getDefaultColor();
         }
-
+        public static void ClearMessage(TextBox textbox)
+        {
+            textbox.Text = string.Empty;
+            textbox.ForeColor = Utility.getDefaultColor();
+        }
 
     }
 }

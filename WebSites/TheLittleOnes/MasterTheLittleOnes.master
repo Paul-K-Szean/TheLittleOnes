@@ -20,24 +20,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
     <!-- bootstrap-css -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
     <!-- css -->
-    <link rel="stylesheet" href="assetsTheLittleOnes/css/style.css" type="text/css" media="all" />
+    <link href="assetsTheLittleOnes/css/style.css" rel="stylesheet" type="text/css" />
     <!-- font-awesome icons -->
-    <link href="assetsTheLittleOnes/css/font-awesome.css" rel="stylesheet">
+    <link href="assetsTheLittleOnes/css/font-awesome.css" rel="stylesheet" type="text/css">
     <%--lightbox--%>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.css" rel="stylesheet" type="text/css" />
     <%--responsive slides--%>
     <link href="assetsTheLittleOnes/css/responsiveslides.css" rel="stylesheet" />
     <%--jQuery UI--%>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet">
+    <%--bootstrap datepicker--%>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" rel="stylesheet">
 
 
-    <asp:ContentPlaceHolder ID="CPHTHLOHead" runat="server">
+    <asp:ContentPlaceHolder ID="CPHTLOHead" runat="server">
     </asp:ContentPlaceHolder>
-    <%--Group G5 Style--%>
-    <link href="assetsG5/G5Style.css" rel="stylesheet" />
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300" rel="stylesheet" type="text/css">
+    <%--Group G5 Style--%>
+    <link href="assetsG5/G5Style.css" rel="stylesheet" />
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
+    <script src="assetsTheLittleOnes/js/move-top.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+    <%--SOURCE: https://github.com/viljamis/ResponsiveSlides.js/blob/master/responsiveslides.min.js--%>
+    <script src="assetsTheLittleOnes/js/responsiveslides.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js"></script>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -49,6 +65,73 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                 </div>
             </ProgressTemplate>
         </asp:UpdateProgress>
+
+        <!--Modal box-->
+        <div class="modal fade padding0" id="login" runat="server">
+            <div class="modal-dialog modal-md">
+                <!-- Modal content no 1-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title text-center form-title">Login</h4>
+                    </div>
+                    <div class="modal-body padtrbl">
+                        <div class="login-box-body">
+                            <p class="login-box-msg">Sign in to start your session</p>
+                            <div class="form-group">
+                                <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                    <ContentTemplate>
+                                        <div id="loginForm">
+                                            <div class="form-group has-feedback">
+                                                <!----- username -------------->
+                                                <asp:TextBox ID="TBLoginEmail" runat="server" CssClass="form-control" placeholder="Email"></asp:TextBox>
+                                                <span style="display: none; font-weight: bold; position: absolute; color: red; position: absolute; padding: 4px; font-size: 11px; background-color: rgba(128, 128, 128, 0.26); z-index: 17; right: 27px; top: 5px;" id="span_loginid"></span>
+                                                <!---Alredy exists  ! -->
+                                                <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                                            </div>
+                                            <div class="form-group has-feedback">
+                                                <!----- password -------------->
+                                                <asp:TextBox ID="TBLoginPassword" runat="server" CssClass="form-control" placeholder="Password" type="password"></asp:TextBox>
+                                                <span style="display: none; font-weight: bold; position: absolute; color: grey; position: absolute; padding: 4px; font-size: 11px; background-color: rgba(128, 128, 128, 0.26); z-index: 17; right: 27px; top: 5px;" id="span_loginpsw"></span>
+                                                <!---Alredy exists  ! -->
+                                                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <div class="checkbox icheck">
+                                                        <label>
+                                                            <input type="checkbox" id="loginrem">
+                                                            Remember Me
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12">
+                                                    <asp:Button ID="BTNLogin" runat="server" CssClass="btn btn-success btn-block btn-flat" Text="Sign In" OnClick="BTNLogin_Click" />
+                                                </div>
+                                                <div class="space-10"></div>
+                                                <div class="col-xs-12">
+                                                    You can register an account
+                                                    <asp:HyperLink ID="HYPLKRegister" runat="server" NavigateUrl="#" Text="here"></asp:HyperLink>
+                                                </div>
+                                                <div class="col-xs-12">
+                                                    <asp:Label ID="LBLErrorMsg" runat="server" Text=""></asp:Label>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </ContentTemplate>
+                                </asp:UpdatePanel>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--/ Modal box-->
+
+
+
         <div class="header">
             <div class="container">
                 <div class="header-left">
@@ -75,14 +158,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                     <li><a href="Adoption.aspx">Adoption</a></li>
                                     <li><a href="Breed.aspx">Breed Info</a></li>
                                     <li><a href="Clinic.aspx">Clinic Outlets</a></li>
-                                    <li class=""><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Codes<span class="caret"></span></a>
+
+                                    <li class="">
+                                        <asp:HyperLink ID="HYPLKAccountInfo" runat="server" CssClass="dropdown-toggle hvr-bounce-to-bottom "
+                                            data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                          
+                                        </asp:HyperLink>
+
                                         <ul class="dropdown-menu">
-                                            <li><a class="hvr-bounce-to-bottom" href="icons.html">Icons</a></li>
-                                            <li><a class="hvr-bounce-to-bottom" href="typography.html">Typography</a></li>
+                                            <li><a class="hvr-bounce-to-bottom" href="icons.html">Account Settings</a></li>
+                                            <li>
+                                                <asp:LinkButton ID="LKBTNSignOut" runat="server" CssClass="hvr-bounce-to-bottom" OnClick="LKBTNSignOut_Click" Text="Sign Out"></asp:LinkButton>
+                                            </li>
                                         </ul>
                                     </li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                                 <div class="clearfix"></div>
                             </div>
@@ -101,9 +190,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                 <div class="clearfix"></div>
             </div>
         </div>
-        <asp:ContentPlaceHolder ID="CPHTHLOBody" runat="server">
+        <asp:ContentPlaceHolder ID="CPHTLOBody" runat="server">
         </asp:ContentPlaceHolder>
-
         <div class="footer">
             <!-- footer -->
             <footer>
@@ -144,7 +232,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                             <h4>Newsletter</h4>
                             <p>Subscribe With Us</p>
                             <div>
-                                <input type="email" placeholder="Subscribe" name="Subscribe" >
+                                <input type="email" placeholder="Subscribe" name="Subscribe">
                                 <button class="btn1">Go</button>
                             </div>
                         </div>
@@ -163,18 +251,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
         </div>
     </form>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
-    <script src="assetsTheLittleOnes/js/move-top.js"></script>
-    <%--SOURCE: https://github.com/viljamis/ResponsiveSlides.js/blob/master/responsiveslides.min.js--%>
-    <script src="assetsTheLittleOnes/js/responsiveslides.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js"></script>
-
-    
 
     <%--Scroll to Top--%>
     <script type="text/javascript">
@@ -186,7 +263,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
         });
     </script>
 
-    <!-- here stars scrolling icon -->
+    <!--scrolling icon starts here-->
     <script type="text/javascript">
         $(document).ready(function () {
             /*
@@ -198,12 +275,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                 };
             */
             $().UItoTop({ easingType: 'easeOutQuart' });
-
         });
     </script>
-    <!-- //here ends scrolling icon -->
+    <!--scrolling icon ends here-->
     <!--banner Slider starts Here-->
-    <script>
+    <script type="text/javascript">
         $(document).ready(function () {
             // Slideshow 4
             $("#slider4").responsiveSlides({
@@ -222,5 +298,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
         });
     </script>
     <!--banner Slider ends Here-->
+ 
+
 </body>
 </html>

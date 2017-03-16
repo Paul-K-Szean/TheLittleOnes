@@ -60,14 +60,14 @@ public partial class AdminSystemAccountAdd : BasePage
             profileEntity = new ProfileEntity(profileName, profileContact, profileAddress, photoEntities);
             accountEntity = new AccountEntity(accountEmail, profileName.ToLower(), accountType, profileEntity, shopInfoEntity);
 
-            if (accCtrler.checkEmailAddressExist(accountEntity.AccountEmail))
+            if (accountCtrler.checkEmailAddressExist(accountEntity.AccountEmail))
             {
                 MessageHandler.ErrorMessage(LBLErrorMsg, "Email already exists");
             }
             else
             {
                 // add into database
-                accountEntity = accCtrler.createAccount(accountEntity);
+                accountEntity = accountCtrler.createAccount(accountEntity);
 
                 // change photo path to database instead of using temp
                 if (photoEntities != null)

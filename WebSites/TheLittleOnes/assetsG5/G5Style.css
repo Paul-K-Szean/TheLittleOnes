@@ -11,8 +11,24 @@
         margin: 20% 47%;
     }
 
+/*login forms*/
+.login-box-body {
+    padding: 15px 130px;
+}
+
+.login-box-msg, .register-box-msg {
+    margin: 0px;
+    text-align: center;
+    padding: 0px 20px 20px;
+}
+
+
 .padding0 {
     padding: 0px;
+}
+
+.paddingTop-100 {
+    padding-top: 100px;
 }
 
 .margin0 {
@@ -25,6 +41,10 @@
 
 .marginTop-10 {
     margin-top: 10px;
+}
+
+.marginTop-100 {
+    margin-top: 100px;
 }
 
 .scrollbarHorizontal {
@@ -102,10 +122,14 @@
 
 
 ul.dropdown-menu {
-    background-color: white;
+    background-color: rgba(0,0,0,0.27);
     border-radius: 0px;
-    opacity: 0.9;
+    box-shadow: 0 0 0;
     border: 1px dotted black;
+}
+
+.dropdown-menu > li > a, .top-nav > ul > li > a {
+    color: white;
 }
 
 .banner {
@@ -113,11 +137,12 @@ ul.dropdown-menu {
 }
 
 .w3layouts-banner-slider {
+    margin: 0;
     margin-top: 0px;
 }
 
     .w3layouts-banner-slider .container {
-        padding: 8em 12px;
+        padding: 8em 1em;
     }
 
 .wthree-top-grid {
@@ -142,6 +167,7 @@ ul.dropdown-menu {
     max-width: 260px;
     background-color: white;
 }
+
 .portraitAdoption {
     min-height: 100px;
     max-height: 150px;
@@ -167,6 +193,19 @@ ul.dropdown-menu {
         color: white;
     }
 
+
+.borderLeft {
+    border-left: 1px solid black
+}
+
+.borderRight {
+    border-right: 4px dotted #aea79f;
+}
+
+.borderBtm {
+    
+    border-bottom: 3px dotted #aea79f;
+}
 /*custom lightbox style*/
 .lb-data .lb-caption {
     font-size: 19px;

@@ -268,7 +268,7 @@ namespace TheLittleOnesLibrary
             }
         }
 
-     
+
         public static ShopInfoEntity getShopInfoEntity()
         {
             initialiseShopInfo();
@@ -327,8 +327,8 @@ namespace TheLittleOnesLibrary
         /// User: a2h
         /// Purpose: preload time interval and bind to drop down list
         /// </summary>
-        public static List<string> setupHourRange()
-        {   
+        public static List<string> getTimeInterval()
+        {
             // defualt start time value
             DateTime start = DateTime.ParseExact("00:00", "HH:mm", null);
             // default end time value
@@ -349,6 +349,34 @@ namespace TheLittleOnesLibrary
             //DropDownList1.DataBind();
         }
 
+        public static List<string> getTimeInterval(string startTime, string endTime)
+        {
+            // defualt start time value
+            DateTime start = DateTime.ParseExact(DateTime.Parse(startTime).ToString("HH:mm"), "HH:mm", null);
+            // default end time value
+            DateTime end = DateTime.ParseExact(DateTime.Parse(endTime).AddHours(-1).ToString("HH:mm"), "HH:mm", null);
+
+            //set the interval time 
+            int interval = 30;
+            //list to hold the values of intervals
+            List<string> listTimeIntervals = new List<string>();
+            //populate the list with the interval values
+            for (DateTime i = start; i <= end; i = i.AddMinutes(interval))
+            {
+                // TODO remove user select timing for lunch
+                if (i.ToString("HH:mm").Contains("11:00") ||
+                    i.ToString("HH:mm").Contains("11:30") ||
+                    i.ToString("HH:mm").Contains("12:00") ||
+                    i.ToString("HH:mm").Contains("12:30"))
+                {
+                }
+                else
+                {
+                    listTimeIntervals.Add(i.ToString("HH:mm tt"));
+                }
+            }
+            return listTimeIntervals;
+        }
     }
 
     public static class SubstringExtensions

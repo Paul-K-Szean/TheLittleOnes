@@ -1,12 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Web;
 using System.Web.UI;
+using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
+using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
+using TheLittleOnesLibrary.Handler;
 
 public partial class uploadedFiles_AdoptionDetails : BasePageTLO
 {
@@ -14,7 +19,6 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     private static AdoptInfoEntity viewAdoptinfoEntity;
     private static ShopInfoEntity viewPetShopinfoEntity;
     private static PetEntity viewPetEntity;
-    private static Label LBLAdoptInfoStatus;
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -29,10 +33,74 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
             else
             {
                 loadAdoptionInfo();
+
             }
+        }
+        // check any user logged in
+        TLOAccountEntity = accountCtrler.getLoggedInAccount();
+        if (TLOAccountEntity == null)
+        {
+            BTNAdoptMe.Attributes["data-target "] = "#login";
+            BTNAdoptMe.Attributes["data-toggle "] = "modal";
+        }
+        else
+        {
+
+            BTNAdoptMe.Attributes["data-target "] = "";
+            BTNAdoptMe.Attributes["data-toggle "] = "";
         }
     }
 
+    #region Button Clicks
+    protected void BTNAdoptMe_Click(object sender, EventArgs e)
+    {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        UpdatePanel updatepanel = Master.FindControl("UpdatePanel1") as UpdatePanel;
+        TextBox TBLoginEmail = updatepanel.ContentTemplateContainer.FindControl("TBLoginEmail") as TextBox;
+        TextBox TBLoginPassword = updatepanel.ContentTemplateContainer.FindControl("TBLoginPassword") as TextBox;
+        Label LBLErrorMsg = updatepanel.ContentTemplateContainer.FindControl("LBLErrorMsg") as Label;
+
+        MessageHandler.ClearMessage(TBLoginEmail);
+        MessageHandler.ClearMessage(TBLoginPassword);
+        MessageHandler.ClearMessage(LBLErrorMsg);
+
+        Label9.Text = " check for availability";
+
+
+    }
+    protected void BTNAppmtDate_Click(object sender, EventArgs e)
+    {
+        // to get date selected from bootstrap datepicker 
+        checkOperatingHours();
+    }
+    #endregion
+
+    #region Datalist Command
+    protected void DLAdoptInfo_ItemDataBound(object sender, DataListItemEventArgs e)
+    {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+
+    }
+    protected void DLMorePet_ItemDataBound(object sender, DataListItemEventArgs e)
+    {
+
+        HyperLink HYPLKMorePet = e.Item.FindControl("HYPLKMorePet") as HyperLink;
+        HiddenField HDFMoreAdoptInfoID = e.Item.FindControl("HDFMoreAdoptInfoID") as HiddenField;
+        HiddenField HDFMorePetID = e.Item.FindControl("HDFMorePetID") as HiddenField;
+        // photos
+        Image IMGPhoto = e.Item.FindControl("IMGPhoto") as Image;
+        TLOPhotoEntities = photoCtrler.getPhotoEntities(HDFMorePetID.Value.Trim(), "Pet");
+        if (TLOPhotoEntities != null && TLOPhotoEntities.Count > 0)
+        {
+            IMGPhoto.ImageUrl = TLOPhotoEntities[0].PhotoPath.Replace("~/", "");
+            HYPLKMorePet.NavigateUrl = "AdoptionDetails.aspx?adoptinfoid=" + HDFMoreAdoptInfoID.Value;
+        }
+        else
+            IMGPhoto.ImageUrl = "assetsG5/images/default.png";
+    }
+    #endregion
+
+    #region Logical Methods
     private void loadAdoptionInfo()
     {
         viewAdoptinfoEntity = adoptInfoCtrler.getAdoptInfo(adoptInfoID);
@@ -40,48 +108,48 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
         HDFPetID.Value = viewAdoptinfoEntity.PetEntity.PetID;
         HDFShopInfoID.Value = viewAdoptinfoEntity.ShopInfoEntity.ShopInfoID;
     }
-
-    protected void DLAdoptInfo_ItemDataBound(object sender, DataListItemEventArgs e)
+    protected void checkOperatingHours()
     {
-        LBLAdoptInfoStatus = e.Item.FindControl("LBLAdoptInfoStatus") as Label;
-        if (LBLAdoptInfoStatus != null)
+        string dateSelected = INPUTAppmtDate.Value;
+        DateTime dateTimeSelected = DateTime.Parse(dateSelected);
+        string daySelected = dateTimeSelected.DayOfWeek.ToString();
+        // to get which day is operating
+        bool isOperating = false;
+        ShopTimeEntity shopTimeEntitySelected = null;
+        foreach (ShopTimeEntity shopTimeEntity in viewAdoptinfoEntity.ShopInfoEntity.ShopTimeEntities)
         {
-            if (viewAdoptinfoEntity.AdoptInfoStatus.Equals(AdoptionStatus.Adopted.ToString()))
+            if (shopTimeEntity.DayOfWeek.ToLower().Contains(daySelected.ToLower()))
             {
-                LBLAdoptInfoStatus.ForeColor = Utility.getErrorColor();
-            }
-            if (viewAdoptinfoEntity.AdoptInfoStatus.Equals(AdoptionStatus.Available.ToString()))
-            {
-                LBLAdoptInfoStatus.ForeColor = Utility.getSuccessColor();
-            }
-            if (viewAdoptinfoEntity.AdoptInfoStatus.Equals(AdoptionStatus.Pending.ToString()))
-            {
-                LBLAdoptInfoStatus.ForeColor = Utility.getWarningColor();
+                isOperating = true;
+                shopTimeEntitySelected = shopTimeEntity;
+                break;
             }
         }
-    }
-
-    protected void BTNAdoptMe_Click(object sender, EventArgs e)
-    {
-        Label17.Text = "Login First Pending (1)";
-
-
-    }
-
-    protected void DLMorePet_ItemDataBound(object sender, DataListItemEventArgs e)
-    {
-        HyperLink HYPLKMorePet = e.Item.FindControl("HYPLKMorePet") as HyperLink;
-        HiddenField HDFMoreAdoptInfoID = e.Item.FindControl("HDFMoreAdoptInfoID") as HiddenField;
-        HiddenField HDFMorePetID = e.Item.FindControl("HDFMorePetID") as HiddenField;
-        Image IMGPhoto = e.Item.FindControl("IMGPhoto") as Image;
-
-        photoEntities = photoCtrler.getPhotoEntities(HDFMorePetID.Value.Trim(), "Pet");
-        if (photoEntities != null)
+        // UI display
+        DDLAppmtTime.Enabled = isOperating;
+        BTNAdoptMe.Enabled = isOperating;
+        if (isOperating)
         {
-            IMGPhoto.ImageUrl = photoEntities[0].PhotoPath.Replace("~/", "");
-            HYPLKMorePet.NavigateUrl = "AdoptionDetails.aspx?adoptinfoid=" + HDFMoreAdoptInfoID.Value;
+            MessageHandler.DefaultMessage(LBLAppmtTime, "Appointment Time");
+            MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ")"));
+            // allow only start time to end time of operation
+            DDLAppmtTime.DataSource = Utility.getTimeInterval(shopTimeEntitySelected.OpenTime, shopTimeEntitySelected.CloseTime);
+            DDLAppmtTime.DataBind();
+
         }
         else
-            IMGPhoto.ImageUrl = "assetsG5/images/default.png";
+        {
+            MessageHandler.ErrorMessage(LBLAppmtTime, "Appointment Time - Not open on selected date");
+            MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date"));
+        }
+    }
+    #endregion
+
+
+
+
+    protected void DDLAppmtTime_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        // TODO Check for availablility
     }
 }

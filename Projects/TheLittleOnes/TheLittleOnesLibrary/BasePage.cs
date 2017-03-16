@@ -41,7 +41,7 @@ namespace TheLittleOnesLibrary
         protected static List<ShopTimeEntity> editShopTimeEntities;
 
         // Controllers
-        protected AccountController accCtrler;
+        protected AccountController accountCtrler;
         protected ProfileController profileCtrler;
         protected PetInfoController petInfoCtrler;
         protected ShopInfoController shopInfoCtrler;
@@ -50,6 +50,8 @@ namespace TheLittleOnesLibrary
         protected PetController petCtrler;
         // Data Access Object
         protected DAO dao;
+
+        public static AccountEntity AccountEntity { get => accountEntity; set => accountEntity = value; }
 
         // Default Contsructor
         public BasePage()
@@ -62,10 +64,8 @@ namespace TheLittleOnesLibrary
             postBackControl();
 
         }
-
-
         // Manage page control
-        private void postBackControl()
+        protected void postBackControl()
         {
             string currentPage = HttpContext.Current.Request.Url.AbsoluteUri.ToLower();
             if (IsPostBack)
@@ -77,30 +77,30 @@ namespace TheLittleOnesLibrary
                 LogController.LogLine("Page loaded: " + currentPage);
             }
 
-            accountEntity = accCtrler.getLoggedInAccount();
-            profileEntity = profileCtrler.getLoggedInProfile();
             // redirect to login page, except for login page
             if (currentPage.Contains("adminlogin"))
             {
-                accCtrler.SignOut();
+                accountCtrler.signOut();
             }
             else
             {
-                if (accountEntity == null)
+                AccountEntity = accountCtrler.getLoggedInAccount();
+                if (AccountEntity == null)
                 {
                     LogController.LogLine("No account logged in");
-                    HttpContext.Current.Response.Redirect("AdminLogin.aspx");
+                    if (!currentPage.Contains("adminlogin"))
+                        HttpContext.Current.Response.Redirect("AdminLogin.aspx");
                 }
                 else
                 {
-                    accountAccessControl(accountEntity, currentPage);
+                    accountAccessControl(AccountEntity, currentPage);
                 }
             }
 
 
         }
         // Validate access control for logged in user
-        private void accountAccessControl(AccountEntity accountEntity, string currentPage)
+        protected void accountAccessControl(AccountEntity accountEntity, string currentPage)
         {
             // pages that are not allowed for different account
             switch (accountEntity.AccountType.ToLower().Trim())
@@ -130,7 +130,7 @@ namespace TheLittleOnesLibrary
 
         }
         // Initialize folders
-        private void initializeFolders()
+        protected void initializeFolders()
         {
             // for photos
             string filePath_UploadFolderTemp = "~/uploadedFiles/temp";
@@ -152,11 +152,11 @@ namespace TheLittleOnesLibrary
             }
         }
         // Initialize controllers
-        private void initializeControllers()
+        protected void initializeControllers()
         {
-            if (accCtrler == null)
+            if (accountCtrler == null)
             {
-                accCtrler = AccountController.getInstance();
+                accountCtrler = AccountController.getInstance();
             }
             if (profileCtrler == null)
             {
@@ -182,9 +182,6 @@ namespace TheLittleOnesLibrary
             {
                 petCtrler = PetController.getInstance();
             }
-            accountEntity = accCtrler.getLoggedInAccount();
-            profileEntity = profileCtrler.getLoggedInProfile();
-
         }
         // Highlight select row for gridview
         protected void highlightSelectedRow(GridView gridview)
@@ -237,7 +234,7 @@ namespace TheLittleOnesLibrary
 
         }
         // Clear control value
-        public void clearUIControlValues(ControlCollection pageControls)
+        protected void clearUIControlValues(ControlCollection pageControls)
         {
             TextBox textbox;
             DropDownList dropdownlist;

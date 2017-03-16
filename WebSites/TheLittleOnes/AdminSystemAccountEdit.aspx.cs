@@ -93,7 +93,7 @@ public partial class AdminSystemAccountEdit : BasePage
 
 
             // update into database
-            editAccountEntity = accCtrler.updateSystemAccount(editAccountEntity);
+            editAccountEntity = accountCtrler.updateSystemAccount(editAccountEntity);
             editProfileEntity = profileCtrler.updateSystemProfile(editProfileEntity);
 
             // update photo
@@ -210,7 +210,7 @@ public partial class AdminSystemAccountEdit : BasePage
         MessageHandler.ClearMessage(LBLErrorMsg);
         GridViewRow row = GVSystemAccountOverview.Rows[e.NewSelectedIndex];
         GVRowID = Convert.ToInt32(GVSystemAccountOverview.DataKeys[row.RowIndex].Values[0]);
-        editAccountEntity = accCtrler.getAccount(GVRowID.ToString());
+        editAccountEntity = accountCtrler.getAccount(GVRowID.ToString());
         initializeUIControlValues();
         loadAccountInfo(editAccountEntity);
     }
@@ -344,7 +344,7 @@ public partial class AdminSystemAccountEdit : BasePage
     {
         string filterAccountType = DDLFilterAccountType.SelectedValue.Trim();
         string tbSearchValue = TBSearchSystemAccount.Text.Trim();
-        dTableAccountInfo = accCtrler.filterAccountInfoData(filterAccountType, tbSearchValue, LBLSearchResultSystemAccount);
+        dTableAccountInfo = accountCtrler.filterAccountInfoData(filterAccountType, tbSearchValue, LBLSearchResultSystemAccount);
         GVSystemAccountOverview.DataSourceID = null;
         GVSystemAccountOverview.DataSource = null;
         GVSystemAccountOverview.DataSource = dTableAccountInfo;

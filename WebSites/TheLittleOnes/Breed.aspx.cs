@@ -28,10 +28,10 @@ public partial class Breed : BasePageTLO
         if (dataRowView != null)
         {
             petinfoID = dataRowView.Row["petinfoid"].ToString();
-            photoEntities = photoCtrler.getPhotoEntities(petinfoID, PhotoPurpose.PetInfo.ToString());
-            if (photoEntities != null && photoEntities.Count > 0)
+            TLOPhotoEntities = photoCtrler.getPhotoEntities(petinfoID, PhotoPurpose.PetInfo.ToString());
+            if (TLOPhotoEntities != null && TLOPhotoEntities.Count > 0)
             {
-                HYPLKPetInfo.NavigateUrl = image.ImageUrl = photoEntities[0].PhotoPath;
+                HYPLKPetInfo.NavigateUrl = image.ImageUrl = TLOPhotoEntities[0].PhotoPath;
             }
             else
             {
@@ -40,5 +40,5 @@ public partial class Breed : BasePageTLO
         }
     }
 
-  
+
 }

@@ -1,0 +1,2972 @@
+20170316@13:35:57 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@13:36:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:36:18 [System] getAdoptInfo 
+20170316@13:36:18 [System] getShopInfo 
+20170316@13:36:19 [System] getShopTime 
+20170316@13:36:31 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170316@13:36:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:37:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:37:08 [System] getAdoptInfo 
+20170316@13:37:08 [System] getShopInfo 
+20170316@13:37:08 [System] getShopTime 
+20170316@13:37:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:39:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:39:22 [System] getAdoptInfo 
+20170316@13:39:22 [System] getShopInfo 
+20170316@13:39:22 [System] getShopTime 
+20170316@13:39:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:40:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:40:38 [System] getAdoptInfo 
+20170316@13:40:39 [System] getShopInfo 
+20170316@13:40:39 [System] getShopTime 
+20170316@13:40:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:40:39 [System] getAdoptInfo 
+20170316@13:40:39 [System] getShopInfo 
+20170316@13:40:39 [System] getShopTime 
+20170316@13:40:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:40:48 [System] getAdoptInfo 
+20170316@13:40:48 [System] getShopInfo 
+20170316@13:40:48 [System] getShopTime 
+20170316@13:40:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:42:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:42:43 [System] getAdoptInfo 
+20170316@13:42:43 [System] getShopInfo 
+20170316@13:42:43 [System] getShopTime 
+20170316@13:42:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:42:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:48:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:48:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:48:26 [System] getAdoptInfo 
+20170316@13:48:26 [System] getShopInfo 
+20170316@13:48:26 [System] getShopTime 
+20170316@13:48:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:48:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:48:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:48:46 [System] getAdoptInfo 
+20170316@13:48:47 [System] getShopInfo 
+20170316@13:48:47 [System] getShopTime 
+20170316@13:48:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:52:19 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@13:52:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@13:52:22 [System] getAdoptInfo 
+20170316@13:52:22 [System] getShopInfo 
+20170316@13:52:22 [System] getShopTime 
+20170316@13:52:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@13:53:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@13:53:05 [System] getAdoptInfo 
+20170316@13:53:05 [System] getShopInfo 
+20170316@13:53:05 [System] getShopTime 
+20170316@13:53:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@13:53:21 [System] getAdoptInfo 
+20170316@13:53:21 [System] getShopInfo 
+20170316@13:53:21 [System] getShopTime 
+20170316@13:53:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@13:54:07 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@13:54:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@13:54:20 [System] getAdoptInfo 
+20170316@13:54:20 [System] getShopInfo 
+20170316@13:54:20 [System] getShopTime 
+20170316@13:54:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@13:54:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:54:43 [System] getAdoptInfo 
+20170316@13:54:43 [System] getShopInfo 
+20170316@13:54:43 [System] getShopTime 
+20170316@13:54:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:55:05 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@13:55:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@13:55:09 [System] getAdoptInfo 
+20170316@13:55:09 [System] getShopInfo 
+20170316@13:55:10 [System] getShopTime 
+20170316@13:55:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@13:56:42 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@13:56:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@13:56:56 [System] getAdoptInfo 
+20170316@13:56:57 [System] getShopInfo 
+20170316@13:56:57 [System] getShopTime 
+20170316@13:57:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@13:57:30 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@13:57:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:57:47 [System] getAdoptInfo 
+20170316@13:57:47 [System] getShopInfo 
+20170316@13:57:47 [System] getShopTime 
+20170316@13:57:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@13:58:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@13:58:44 [System] getAdoptInfo 
+20170316@13:58:44 [System] getShopInfo 
+20170316@13:58:44 [System] getShopTime 
+20170316@13:58:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@13:59:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@13:59:29 [System] getAdoptInfo 
+20170316@13:59:29 [System] getShopInfo 
+20170316@13:59:30 [System] getShopTime 
+20170316@13:59:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:00:32 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:00:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:00:35 [System] getAdoptInfo 
+20170316@14:00:35 [System] getShopInfo 
+20170316@14:00:35 [System] getShopTime 
+20170316@14:00:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:00:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:00:40 [System] MessageHandler : Either email or password is invalid 
+20170316@14:00:40 [System] MessageHandler : Either email or password is invalid 
+20170316@14:02:05 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:15:31 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:15:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:15:34 [System] getAdoptInfo 
+20170316@14:15:34 [System] getShopInfo 
+20170316@14:15:34 [System] getShopTime 
+20170316@14:15:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:15:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:15:37 [System] MessageHandler : Either email or password is invalid 
+20170316@14:15:37 [System] MessageHandler : Either email or password is invalid 
+20170316@14:15:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:15:51 [System] MessageHandler : Either email or password is invalid 
+20170316@14:15:51 [System] MessageHandler : Either email or password is invalid 
+20170316@14:15:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:21:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:21:30 [System] getAdoptInfo 
+20170316@14:21:30 [System] getShopInfo 
+20170316@14:21:30 [System] getShopTime 
+20170316@14:21:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:21:56 [System] getAdoptInfo 
+20170316@14:21:56 [System] getShopInfo 
+20170316@14:21:56 [System] getShopTime 
+20170316@14:22:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:22:10 [System] getAdoptInfo 
+20170316@14:22:10 [System] getShopInfo 
+20170316@14:22:10 [System] getShopTime 
+20170316@14:22:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:23:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:23:12 [System] getAdoptInfo 
+20170316@14:23:12 [System] getShopInfo 
+20170316@14:23:12 [System] getShopTime 
+20170316@14:23:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:23:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:23:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:23:43 [System] getAdoptInfo 
+20170316@14:23:43 [System] getShopInfo 
+20170316@14:23:43 [System] getShopTime 
+20170316@14:23:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:24:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:24:03 [System] getAdoptInfo 
+20170316@14:24:03 [System] getShopInfo 
+20170316@14:24:03 [System] getShopTime 
+20170316@14:24:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:24:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:24:53 [System] getAdoptInfo 
+20170316@14:24:53 [System] getShopInfo 
+20170316@14:24:53 [System] getShopTime 
+20170316@14:24:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:25:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:25:42 [System] getAdoptInfo 
+20170316@14:25:42 [System] getShopInfo 
+20170316@14:25:42 [System] getShopTime 
+20170316@14:25:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:27:07 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:27:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:27:10 [System] getAdoptInfo 
+20170316@14:27:10 [System] getShopInfo 
+20170316@14:27:11 [System] getShopTime 
+20170316@14:27:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:27:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:27:14 [System] MessageHandler : Either email or password is invalid 
+20170316@14:27:14 [System] MessageHandler : Either email or password is invalid 
+20170316@14:27:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:27:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:28:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:28:13 [System] getAdoptInfo 
+20170316@14:28:13 [System] getShopInfo 
+20170316@14:28:13 [System] getShopTime 
+20170316@14:28:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:28:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:28:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:28:58 [System] MessageHandler : Either email or password is invalid 
+20170316@14:28:58 [System] MessageHandler : Either email or password is invalid 
+20170316@14:29:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:29:09 [System] getAdoptInfo 
+20170316@14:29:09 [System] getShopInfo 
+20170316@14:29:09 [System] getShopTime 
+20170316@14:29:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:29:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:29:14 [System] MessageHandler : Either email or password is invalid 
+20170316@14:29:14 [System] MessageHandler : Either email or password is invalid 
+20170316@14:29:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:29:15 [System] MessageHandler : Either email or password is invalid 
+20170316@14:29:15 [System] MessageHandler : Either email or password is invalid 
+20170316@14:29:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:29:15 [System] MessageHandler : Either email or password is invalid 
+20170316@14:29:15 [System] MessageHandler : Either email or password is invalid 
+20170316@14:29:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:29:15 [System] MessageHandler : Either email or password is invalid 
+20170316@14:29:15 [System] MessageHandler : Either email or password is invalid 
+20170316@14:42:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:42:06 [System] getAdoptInfo 
+20170316@14:42:06 [System] getShopInfo 
+20170316@14:42:06 [System] getShopTime 
+20170316@14:42:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:42:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:42:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:43:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:43:00 [System] getAdoptInfo 
+20170316@14:43:00 [System] getShopInfo 
+20170316@14:43:01 [System] getShopTime 
+20170316@14:43:07 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:43:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:43:09 [System] getAdoptInfo 
+20170316@14:43:09 [System] getShopInfo 
+20170316@14:43:09 [System] getShopTime 
+20170316@14:43:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:43:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:43:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:43:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:43:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:43:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:43:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:43:39 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:43:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:43:42 [System] getAdoptInfo 
+20170316@14:43:42 [System] getShopInfo 
+20170316@14:43:43 [System] getShopTime 
+20170316@14:43:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:45:38 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:45:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:45:41 [System] getAdoptInfo 
+20170316@14:45:41 [System] getShopInfo 
+20170316@14:45:41 [System] getShopTime 
+20170316@14:45:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:48:57 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:49:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:49:00 [System] getAdoptInfo 
+20170316@14:49:00 [System] getShopInfo 
+20170316@14:49:00 [System] getShopTime 
+20170316@14:49:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:49:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:49:18 [System] getAdoptInfo 
+20170316@14:49:18 [System] getShopInfo 
+20170316@14:49:18 [System] getShopTime 
+20170316@14:49:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:49:30 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:49:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:49:32 [System] getAdoptInfo 
+20170316@14:49:32 [System] getShopInfo 
+20170316@14:49:32 [System] getShopTime 
+20170316@14:49:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:50:15 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:50:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:50:19 [System] getAdoptInfo 
+20170316@14:50:19 [System] getShopInfo 
+20170316@14:50:19 [System] getShopTime 
+20170316@14:50:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:50:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@14:50:53 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:50:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:50:56 [System] getAdoptInfo 
+20170316@14:50:56 [System] getShopInfo 
+20170316@14:50:56 [System] getShopTime 
+20170316@14:51:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:20 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:51:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:23 [System] getAdoptInfo 
+20170316@14:51:23 [System] getShopInfo 
+20170316@14:51:23 [System] getShopTime 
+20170316@14:51:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:51:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@14:52:21 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:52:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:52:25 [System] getAdoptInfo 
+20170316@14:52:26 [System] getShopInfo 
+20170316@14:52:26 [System] getShopTime 
+20170316@14:52:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:52:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:52:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:52:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:52:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:52:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:52:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:52:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:52:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:52:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@14:53:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:53:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@14:53:49 [System] getAdoptInfo 
+20170316@14:53:49 [System] getShopInfo 
+20170316@14:53:49 [System] getShopTime 
+20170316@14:53:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@14:56:29 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@14:56:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@14:56:32 [System] getAdoptInfo 
+20170316@14:56:33 [System] getShopInfo 
+20170316@14:56:33 [System] getShopTime 
+20170316@14:56:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@14:56:53 [System] getAdoptInfo 
+20170316@14:56:53 [System] getShopInfo 
+20170316@14:56:53 [System] getShopTime 
+20170316@14:57:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@14:57:34 [System] getAdoptInfo 
+20170316@14:57:34 [System] getShopInfo 
+20170316@14:57:34 [System] getShopTime 
+20170316@14:58:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@14:58:21 [System] getAdoptInfo 
+20170316@14:58:21 [System] getShopInfo 
+20170316@14:58:21 [System] getShopTime 
+20170316@14:58:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@14:58:41 [System] getAdoptInfo 
+20170316@14:58:41 [System] getShopInfo 
+20170316@14:58:41 [System] getShopTime 
+20170316@15:00:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@15:00:29 [System] getAdoptInfo 
+20170316@15:00:29 [System] getShopInfo 
+20170316@15:00:29 [System] getShopTime 
+20170316@15:00:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@15:00:31 [System] getAdoptInfo 
+20170316@15:00:31 [System] getShopInfo 
+20170316@15:00:31 [System] getShopTime 
+20170316@15:00:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@15:00:39 [System] getAdoptInfo 
+20170316@15:00:39 [System] getShopInfo 
+20170316@15:00:39 [System] getShopTime 
+20170316@15:00:47 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@15:00:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:00:50 [System] getAdoptInfo 
+20170316@15:00:50 [System] getShopInfo 
+20170316@15:00:50 [System] getShopTime 
+20170316@15:01:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:01:30 [System] getAdoptInfo 
+20170316@15:01:30 [System] getShopInfo 
+20170316@15:01:30 [System] getShopTime 
+20170316@15:01:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:01:56 [System] getAdoptInfo 
+20170316@15:01:56 [System] getShopInfo 
+20170316@15:01:56 [System] getShopTime 
+20170316@15:04:29 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@15:04:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@15:05:00 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@15:05:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:05:03 [System] getAdoptInfo 
+20170316@15:05:03 [System] getShopInfo 
+20170316@15:05:03 [System] getShopTime 
+20170316@15:07:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:07:33 [System] getAdoptInfo 
+20170316@15:07:33 [System] getShopInfo 
+20170316@15:07:33 [System] getShopTime 
+20170316@15:07:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:07:59 [System] getAdoptInfo 
+20170316@15:07:59 [System] getShopInfo 
+20170316@15:07:59 [System] getShopTime 
+20170316@15:14:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:14:14 [System] getAdoptInfo 
+20170316@15:14:14 [System] getShopInfo 
+20170316@15:14:14 [System] getShopTime 
+20170316@15:14:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:14:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:14:19 [System] MessageHandler : Either email or password is invalid 
+20170316@15:14:19 [System] MessageHandler : Either email or password is invalid 
+20170316@15:14:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:14:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:14:55 [System] MessageHandler : Either email or password is invalid 
+20170316@15:14:55 [System] MessageHandler : Either email or password is invalid 
+20170316@15:16:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:16:59 [System] getAdoptInfo 
+20170316@15:16:59 [System] getShopInfo 
+20170316@15:16:59 [System] getShopTime 
+20170316@15:17:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:34 [System] getAdoptInfo 
+20170316@15:17:34 [System] getShopInfo 
+20170316@15:17:34 [System] getShopTime 
+20170316@15:17:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:17:38 [System] MessageHandler : Either email or password is invalid 
+20170316@15:17:38 [System] MessageHandler : Either email or password is invalid 
+20170316@15:17:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:18:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:18:17 [System] getAdoptInfo 
+20170316@15:18:17 [System] getShopInfo 
+20170316@15:18:17 [System] getShopTime 
+20170316@15:18:55 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@15:19:24 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@15:19:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@15:19:28 [System] getAdoptInfo 
+20170316@15:19:28 [System] getShopInfo 
+20170316@15:19:28 [System] getShopTime 
+20170316@15:19:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@15:19:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@15:19:33 [System] MessageHandler : Either email or password is invalid 
+20170316@15:19:33 [System] MessageHandler : Either email or password is invalid 
+20170316@15:33:32 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@15:33:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:33:34 [System] getAdoptInfo 
+20170316@15:33:34 [System] getShopInfo 
+20170316@15:33:34 [System] getShopTime 
+20170316@15:33:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:40:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:40:40 [System] MessageHandler : Either email or password is invalid 
+20170316@15:40:41 [System] MessageHandler : Either email or password is invalid 
+20170316@15:40:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:40:42 [System] MessageHandler : Either email or password is invalid 
+20170316@15:40:42 [System] MessageHandler : Either email or password is invalid 
+20170316@15:40:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:40:49 [System] MessageHandler : Either email or password is invalid 
+20170316@15:40:49 [System] MessageHandler : Either email or password is invalid 
+20170316@15:41:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:22 [System] getAdoptInfo 
+20170316@15:41:22 [System] getShopInfo 
+20170316@15:41:22 [System] getShopTime 
+20170316@15:41:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:41:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:45:22 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@15:45:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:45:29 [System] getAdoptInfo 
+20170316@15:45:29 [System] getShopInfo 
+20170316@15:45:29 [System] getShopTime 
+20170316@15:46:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:46:15 [System] getAdoptInfo 
+20170316@15:46:15 [System] getShopInfo 
+20170316@15:46:15 [System] getShopTime 
+20170316@15:46:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:46:21 [System] getAdoptInfo 
+20170316@15:46:21 [System] getShopInfo 
+20170316@15:46:22 [System] getShopTime 
+20170316@15:46:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:46:26 [System] getAdoptInfo 
+20170316@15:46:26 [System] getShopInfo 
+20170316@15:46:27 [System] getShopTime 
+20170316@15:48:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:48:56 [System] getAdoptInfo 
+20170316@15:48:56 [System] getShopInfo 
+20170316@15:48:56 [System] getShopTime 
+20170316@15:49:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:49:39 [System] getAdoptInfo 
+20170316@15:49:39 [System] getShopInfo 
+20170316@15:49:39 [System] getShopTime 
+20170316@15:50:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:50:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@15:50:37 [System] MessageHandler : Either email or password is invalid 
+20170316@15:50:37 [System] signIn 
+20170316@15:50:38 [System] getShopInfo 
+20170316@15:53:25 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@15:53:38 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@15:53:45 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@15:55:02 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@15:55:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:55:05 [System] getAdoptInfo 
+20170316@15:55:05 [System] getShopInfo 
+20170316@15:55:05 [System] getShopTime 
+20170316@15:55:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:56:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@15:56:37 [System] getAdoptInfo 
+20170316@15:56:37 [System] getShopInfo 
+20170316@15:56:38 [System] getShopTime 
+20170316@16:01:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:01:38 [System] getAdoptInfo 
+20170316@16:01:38 [System] getShopInfo 
+20170316@16:01:38 [System] getShopTime 
+20170316@16:01:38 [System] getLoggedInAccount 
+20170316@16:01:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:01:43 [System] getAdoptInfo 
+20170316@16:01:43 [System] getShopInfo 
+20170316@16:01:43 [System] getShopTime 
+20170316@16:01:43 [System] getLoggedInAccount 
+20170316@16:02:08 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:02:08 [System] getLoggedInAccount 
+20170316@16:02:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:02:26 [System] getAdoptInfo 
+20170316@16:02:26 [System] getShopInfo 
+20170316@16:02:26 [System] getShopTime 
+20170316@16:02:26 [System] getLoggedInAccount 
+20170316@16:03:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:03:55 [System] getLoggedInAccount 
+20170316@16:04:06 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:04:06 [System] getLoggedInAccount 
+20170316@16:04:06 [System] MessageHandler : Either email or password is invalid 
+20170316@16:04:06 [System] signIn 
+20170316@16:04:06 [System] getShopInfo 
+20170316@16:04:06 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:04:06 [System] getLoggedInAccount 
+20170316@16:04:34 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:04:34 [System] getLoggedInAccount 
+20170316@16:04:47 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:04:47 [System] getLoggedInAccount 
+20170316@16:05:04 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:05:04 [System] getLoggedInAccount 
+20170316@16:05:28 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:05:28 [System] getLoggedInAccount 
+20170316@16:08:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:08:59 [System] getAdoptInfo 
+20170316@16:09:00 [System] getShopInfo 
+20170316@16:09:00 [System] getShopTime 
+20170316@16:09:00 [System] getLoggedInAccount 
+20170316@16:09:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:09:47 [System] getLoggedInAccount 
+20170316@16:09:47 [System] MessageHandler : Either email or password is invalid 
+20170316@16:09:47 [System] signIn 
+20170316@16:09:47 [System] getShopInfo 
+20170316@16:09:47 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:09:47 [System] getLoggedInAccount 
+20170316@16:10:53 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:10:53 [System] getLoggedInAccount 
+20170316@16:13:51 [System] getLoggedInAccount 
+20170316@16:15:40 [System] getLoggedInAccount 
+20170316@16:19:42 [System] getLoggedInAccount 
+20170316@16:19:48 [System] getLoggedInAccount 
+20170316@16:20:10 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:20:10 [System] getLoggedInAccount 
+20170316@16:25:39 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:25:40 [System] getLoggedInAccount 
+20170316@16:26:27 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:26:27 [System] getLoggedInAccount 
+20170316@16:26:27 [System] MessageHandler : Either email or password is invalid 
+20170316@16:26:27 [System] signIn 
+20170316@16:26:27 [System] getShopInfo 
+20170316@16:26:27 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:26:27 [System] getLoggedInAccount 
+20170316@16:28:32 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:28:32 [System] getLoggedInAccount 
+20170316@16:29:18 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:29:18 [System] getLoggedInAccount 
+20170316@16:29:27 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:29:27 [System] getLoggedInAccount 
+20170316@16:29:40 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:29:40 [System] getLoggedInAccount 
+20170316@16:29:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170316@16:29:55 [System] getAdoptInfo 
+20170316@16:29:55 [System] getShopInfo 
+20170316@16:29:55 [System] getShopTime 
+20170316@16:29:56 [System] getLoggedInAccount 
+20170316@16:30:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170316@16:30:03 [System] getLoggedInAccount 
+20170316@16:31:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170316@16:31:26 [System] getAdoptInfo 
+20170316@16:31:27 [System] getShopInfo 
+20170316@16:31:27 [System] getShopTime 
+20170316@16:31:27 [System] getLoggedInAccount 
+20170316@16:31:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170316@16:31:29 [System] getLoggedInAccount 
+20170316@16:31:33 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:31:33 [System] getLoggedInAccount 
+20170316@16:31:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:31:36 [System] getAdoptInfo 
+20170316@16:31:36 [System] getShopInfo 
+20170316@16:31:36 [System] getShopTime 
+20170316@16:31:36 [System] getLoggedInAccount 
+20170316@16:31:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:31:38 [System] getLoggedInAccount 
+20170316@16:31:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:31:54 [System] getAdoptInfo 
+20170316@16:31:54 [System] getShopInfo 
+20170316@16:31:54 [System] getShopTime 
+20170316@16:31:54 [System] getLoggedInAccount 
+20170316@16:32:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:32:50 [System] getAdoptInfo 
+20170316@16:32:50 [System] getShopInfo 
+20170316@16:32:51 [System] getShopTime 
+20170316@16:32:51 [System] getLoggedInAccount 
+20170316@16:33:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:33:27 [System] getAdoptInfo 
+20170316@16:33:28 [System] getShopInfo 
+20170316@16:33:28 [System] getShopTime 
+20170316@16:33:28 [System] getLoggedInAccount 
+20170316@16:35:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:35:08 [System] getAdoptInfo 
+20170316@16:35:08 [System] getShopInfo 
+20170316@16:35:08 [System] getShopTime 
+20170316@16:35:08 [System] getLoggedInAccount 
+20170316@16:35:08 [System] getLoggedInAccount 
+20170316@16:35:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:35:42 [System] getLoggedInAccount 
+20170316@16:35:42 [System] getLoggedInAccount 
+20170316@16:35:42 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:35:42 [System] getLoggedInAccount 
+20170316@16:35:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:35:48 [System] getAdoptInfo 
+20170316@16:35:48 [System] getShopInfo 
+20170316@16:35:48 [System] getShopTime 
+20170316@16:35:48 [System] getLoggedInAccount 
+20170316@16:35:48 [System] getLoggedInAccount 
+20170316@16:37:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:32 [System] getLoggedInAccount 
+20170316@16:37:32 [System] getLoggedInAccount 
+20170316@16:37:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:33 [System] getLoggedInAccount 
+20170316@16:37:33 [System] getLoggedInAccount 
+20170316@16:37:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:40 [System] getLoggedInAccount 
+20170316@16:37:40 [System] getLoggedInAccount 
+20170316@16:37:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:42 [System] getLoggedInAccount 
+20170316@16:37:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:45 [System] getAdoptInfo 
+20170316@16:37:45 [System] getShopInfo 
+20170316@16:37:45 [System] getShopTime 
+20170316@16:37:45 [System] getLoggedInAccount 
+20170316@16:37:45 [System] getLoggedInAccount 
+20170316@16:37:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:48 [System] getLoggedInAccount 
+20170316@16:37:48 [System] getLoggedInAccount 
+20170316@16:37:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:37:52 [System] getLoggedInAccount 
+20170316@16:37:52 [System] getLoggedInAccount 
+20170316@16:41:25 [System] getLoggedInAccount 
+20170316@16:41:31 [System] getLoggedInAccount 
+20170316@16:41:46 [System] getLoggedInAccount 
+20170316@16:41:46 [System] MessageHandler : Either email or password is invalid 
+20170316@16:41:46 [System] signIn 
+20170316@16:41:46 [System] getShopInfo 
+20170316@16:41:46 [System] getLoggedInAccount 
+20170316@16:42:03 [System] getLoggedInAccount 
+20170316@16:45:09 [System] getLoggedInAccount 
+20170316@16:45:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@16:45:16 [System] getAdoptInfo 
+20170316@16:45:17 [System] getShopInfo 
+20170316@16:45:17 [System] getShopTime 
+20170316@16:45:17 [System] getLoggedInAccount 
+20170316@16:45:17 [System] getLoggedInAccount 
+20170316@16:45:17 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:45:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@16:45:20 [System] getLoggedInAccount 
+20170316@16:45:20 [System] getLoggedInAccount 
+20170316@16:45:20 [System] BTNAdoptMe_Click 
+20170316@16:45:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@16:45:23 [System] getLoggedInAccount 
+20170316@16:45:24 [System] getLoggedInAccount 
+20170316@16:45:24 [System] BTNLogin_Click 
+20170316@16:45:24 [System] MessageHandler : Either email or password is invalid 
+20170316@16:45:24 [System] signIn 
+20170316@16:45:24 [System] getShopInfo 
+20170316@16:45:24 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:45:24 [System] getLoggedInAccount 
+20170316@16:46:13 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:46:13 [System] getLoggedInAccount 
+20170316@16:46:18 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:46:18 [System] getLoggedInAccount 
+20170316@16:46:18 [System] LKBTNSignOut_Click 
+20170316@16:46:18 [System] signOut 
+20170316@16:48:23 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:48:23 [System] getLoggedInAccount 
+20170316@16:48:23 [System] LKBTNSignOut_Click 
+20170316@16:48:23 [System] signOut 
+20170316@16:48:23 [System] getLoggedInAccount 
+20170316@16:48:31 [System] getLoggedInAccount 
+20170316@16:48:31 [System] BTNLogin_Click 
+20170316@16:48:31 [System] MessageHandler : Either email or password is invalid 
+20170316@16:48:31 [System] signIn 
+20170316@16:48:31 [System] getShopInfo 
+20170316@16:48:31 [System] getLoggedInAccount 
+20170316@16:48:35 [System] getLoggedInAccount 
+20170316@16:48:35 [System] LKBTNSignOut_Click 
+20170316@16:48:35 [System] signOut 
+20170316@16:48:35 [System] getLoggedInAccount 
+20170316@16:48:42 [System] getLoggedInAccount 
+20170316@16:48:42 [System] BTNLogin_Click 
+20170316@16:48:42 [System] MessageHandler : Either email or password is invalid 
+20170316@16:48:42 [System] signIn 
+20170316@16:48:42 [System] getShopInfo 
+20170316@16:48:42 [System] getLoggedInAccount 
+20170316@16:48:43 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:48:43 [System] getLoggedInAccount 
+20170316@16:48:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:48:48 [System] getAdoptInfo 
+20170316@16:48:48 [System] getShopInfo 
+20170316@16:48:48 [System] getShopTime 
+20170316@16:48:48 [System] getLoggedInAccount 
+20170316@16:48:48 [System] getLoggedInAccount 
+20170316@16:48:48 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:48:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:48:50 [System] getLoggedInAccount 
+20170316@16:48:50 [System] getLoggedInAccount 
+20170316@16:48:50 [System] BTNAdoptMe_Click 
+20170316@16:48:50 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:48:50 [System] getLoggedInAccount 
+20170316@16:49:33 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:49:33 [System] getLoggedInAccount 
+20170316@16:50:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:50:25 [System] getAdoptInfo 
+20170316@16:50:25 [System] getShopInfo 
+20170316@16:50:25 [System] getShopTime 
+20170316@16:50:26 [System] getLoggedInAccount 
+20170316@16:50:26 [System] getLoggedInAccount 
+20170316@16:50:26 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:51:49 [System] getLoggedInAccount 
+20170316@16:51:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:51:53 [System] getAdoptInfo 
+20170316@16:51:53 [System] getShopInfo 
+20170316@16:51:54 [System] getShopTime 
+20170316@16:51:54 [System] getLoggedInAccount 
+20170316@16:51:54 [System] getLoggedInAccount 
+20170316@16:51:54 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:52:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:52:03 [System] getLoggedInAccount 
+20170316@16:52:03 [System] getLoggedInAccount 
+20170316@16:52:03 [System] BTNAdoptMe_Click 
+20170316@16:52:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:52:07 [System] getLoggedInAccount 
+20170316@16:52:07 [System] getLoggedInAccount 
+20170316@16:52:07 [System] BTNLogin_Click 
+20170316@16:52:07 [System] MessageHandler : Either email or password is invalid 
+20170316@16:52:07 [System] signIn 
+20170316@16:52:07 [System] getShopInfo 
+20170316@16:52:07 [System] adoptiondetails.aspx 
+20170316@16:52:07 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid= 
+20170316@16:52:07 [System] getLoggedInAccount 
+20170316@16:53:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:53:17 [System] getAdoptInfo 
+20170316@16:53:18 [System] getShopInfo 
+20170316@16:53:18 [System] getShopTime 
+20170316@16:53:18 [System] getLoggedInAccount 
+20170316@16:53:18 [System] getLoggedInAccount 
+20170316@16:53:18 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:53:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:53:23 [System] getLoggedInAccount 
+20170316@16:53:23 [System] getLoggedInAccount 
+20170316@16:53:23 [System] BTNAdoptMe_Click 
+20170316@16:53:23 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:53:23 [System] getLoggedInAccount 
+20170316@16:53:42 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:53:42 [System] getLoggedInAccount 
+20170316@16:53:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@16:53:49 [System] getAdoptInfo 
+20170316@16:53:49 [System] getShopInfo 
+20170316@16:53:49 [System] getShopTime 
+20170316@16:53:49 [System] getLoggedInAccount 
+20170316@16:53:49 [System] getLoggedInAccount 
+20170316@16:53:50 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:53:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@16:53:51 [System] getLoggedInAccount 
+20170316@16:53:51 [System] getLoggedInAccount 
+20170316@16:53:51 [System] BTNAdoptMe_Click 
+20170316@16:53:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@16:53:54 [System] getLoggedInAccount 
+20170316@16:53:54 [System] getLoggedInAccount 
+20170316@16:53:54 [System] BTNLogin_Click 
+20170316@16:53:55 [System] MessageHandler : Either email or password is invalid 
+20170316@16:53:55 [System] signIn 
+20170316@16:53:55 [System] getShopInfo 
+20170316@16:53:55 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=25 
+20170316@16:53:55 [System] getLoggedInAccount 
+20170316@16:55:11 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=25 
+20170316@16:55:11 [System] getAdoptInfo 
+20170316@16:55:11 [System] getShopInfo 
+20170316@16:55:11 [System] getShopTime 
+20170316@16:55:12 [System] getLoggedInAccount 
+20170316@16:55:12 [System] getLoggedInAccount 
+20170316@16:55:12 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:55:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:55:25 [System] getAdoptInfo 
+20170316@16:55:25 [System] getShopInfo 
+20170316@16:55:25 [System] getShopTime 
+20170316@16:55:25 [System] getLoggedInAccount 
+20170316@16:55:25 [System] getLoggedInAccount 
+20170316@16:55:26 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:55:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:55:29 [System] getLoggedInAccount 
+20170316@16:55:29 [System] getLoggedInAccount 
+20170316@16:55:29 [System] BTNAdoptMe_Click 
+20170316@16:55:29 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:55:29 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:55:29 [System] getLoggedInAccount 
+20170316@16:55:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:55:41 [System] getAdoptInfo 
+20170316@16:55:41 [System] getShopInfo 
+20170316@16:55:41 [System] getShopTime 
+20170316@16:55:41 [System] getLoggedInAccount 
+20170316@16:55:41 [System] getLoggedInAccount 
+20170316@16:55:41 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:55:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:55:44 [System] getLoggedInAccount 
+20170316@16:55:44 [System] getLoggedInAccount 
+20170316@16:55:44 [System] BTNAdoptMe_Click 
+20170316@16:55:44 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:55:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:55:44 [System] getLoggedInAccount 
+20170316@16:56:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@16:56:01 [System] getAdoptInfo 
+20170316@16:56:01 [System] getShopInfo 
+20170316@16:56:01 [System] getShopTime 
+20170316@16:56:01 [System] getLoggedInAccount 
+20170316@16:56:01 [System] getLoggedInAccount 
+20170316@16:56:01 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:56:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@16:56:04 [System] getLoggedInAccount 
+20170316@16:56:04 [System] getLoggedInAccount 
+20170316@16:56:04 [System] BTNAdoptMe_Click 
+20170316@16:56:04 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:56:04 [System] getLoggedInAccount 
+20170316@16:56:04 [System] getLoggedInAccount 
+20170316@16:57:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:57:44 [System] getLoggedInAccount 
+20170316@16:57:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:57:47 [System] getAdoptInfo 
+20170316@16:57:47 [System] getShopInfo 
+20170316@16:57:47 [System] getShopTime 
+20170316@16:57:48 [System] getLoggedInAccount 
+20170316@16:57:48 [System] getLoggedInAccount 
+20170316@16:57:48 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:57:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:57:49 [System] getLoggedInAccount 
+20170316@16:57:49 [System] getLoggedInAccount 
+20170316@16:57:50 [System] BTNAdoptMe_Click 
+20170316@16:57:50 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx 
+20170316@16:57:50 [System] getLoggedInAccount 
+20170316@16:57:50 [System] getLoggedInAccount 
+20170316@16:57:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@16:57:52 [System] getAdoptInfo 
+20170316@16:57:52 [System] getShopInfo 
+20170316@16:57:52 [System] getShopTime 
+20170316@16:57:52 [System] getLoggedInAccount 
+20170316@16:57:52 [System] getLoggedInAccount 
+20170316@16:57:53 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:59:08 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@16:59:08 [System] getLoggedInAccount 
+20170316@16:59:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@16:59:16 [System] getAdoptInfo 
+20170316@16:59:16 [System] getShopInfo 
+20170316@16:59:16 [System] getShopTime 
+20170316@16:59:17 [System] getLoggedInAccount 
+20170316@16:59:17 [System] getLoggedInAccount 
+20170316@16:59:17 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:59:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@16:59:29 [System] getLoggedInAccount 
+20170316@16:59:29 [System] getLoggedInAccount 
+20170316@16:59:29 [System] BTNAdoptMe_Click 
+20170316@16:59:29 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@16:59:29 [System] getAdoptInfo 
+20170316@16:59:29 [System] getShopInfo 
+20170316@16:59:29 [System] getShopTime 
+20170316@16:59:29 [System] getLoggedInAccount 
+20170316@16:59:29 [System] getLoggedInAccount 
+20170316@16:59:29 [System] DLAdoptInfo_ItemDataBound 
+20170316@16:59:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@16:59:40 [System] getAdoptInfo 
+20170316@16:59:40 [System] getShopInfo 
+20170316@16:59:40 [System] getShopTime 
+20170316@16:59:40 [System] getLoggedInAccount 
+20170316@16:59:40 [System] getLoggedInAccount 
+20170316@16:59:41 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:00:42 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:00:42 [System] getAdoptInfo 
+20170316@17:00:42 [System] getShopInfo 
+20170316@17:00:42 [System] getShopTime 
+20170316@17:00:43 [System] getLoggedInAccount 
+20170316@17:00:43 [System] getLoggedInAccount 
+20170316@17:00:43 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:01:21 [System] getLoggedInAccount 
+20170316@17:02:09 [System] getLoggedInAccount 
+20170316@17:06:08 [System] getLoggedInAccount 
+20170316@17:07:26 [System] getLoggedInAccount 
+20170316@17:09:42 [System] getLoggedInAccount 
+20170316@17:18:06 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:18:06 [System] getAdoptInfo 
+20170316@17:18:06 [System] getShopInfo 
+20170316@17:18:06 [System] getShopTime 
+20170316@17:18:06 [System] getLoggedInAccount 
+20170316@17:18:06 [System] getLoggedInAccount 
+20170316@17:18:06 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:19:09 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:19:09 [System] getAdoptInfo 
+20170316@17:19:09 [System] getShopInfo 
+20170316@17:19:10 [System] getShopTime 
+20170316@17:19:10 [System] getLoggedInAccount 
+20170316@17:19:10 [System] getLoggedInAccount 
+20170316@17:19:10 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:19:14 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:19:14 [System] getLoggedInAccount 
+20170316@17:19:14 [System] getLoggedInAccount 
+20170316@17:19:15 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:19:16 [System] getLoggedInAccount 
+20170316@17:19:16 [System] getLoggedInAccount 
+20170316@17:19:18 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:19:18 [System] getLoggedInAccount 
+20170316@17:19:18 [System] getLoggedInAccount 
+20170316@17:19:19 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:19:19 [System] getLoggedInAccount 
+20170316@17:19:19 [System] getLoggedInAccount 
+20170316@17:19:21 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:19:21 [System] getLoggedInAccount 
+20170316@17:19:21 [System] getLoggedInAccount 
+20170316@17:19:23 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:19:23 [System] getLoggedInAccount 
+20170316@17:19:23 [System] getLoggedInAccount 
+20170316@17:19:24 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:19:24 [System] getLoggedInAccount 
+20170316@17:19:24 [System] getLoggedInAccount 
+20170316@17:19:25 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:19:25 [System] getLoggedInAccount 
+20170316@17:19:25 [System] getLoggedInAccount 
+20170316@17:20:08 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:20:08 [System] getAdoptInfo 
+20170316@17:20:08 [System] getShopInfo 
+20170316@17:20:08 [System] getShopTime 
+20170316@17:20:08 [System] getLoggedInAccount 
+20170316@17:20:08 [System] getLoggedInAccount 
+20170316@17:20:08 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:22:25 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:22:25 [System] getAdoptInfo 
+20170316@17:22:25 [System] getShopInfo 
+20170316@17:22:25 [System] getShopTime 
+20170316@17:22:26 [System] getLoggedInAccount 
+20170316@17:22:26 [System] getLoggedInAccount 
+20170316@17:22:26 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:23:27 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:23:27 [System] getAdoptInfo 
+20170316@17:23:27 [System] getShopInfo 
+20170316@17:23:27 [System] getShopTime 
+20170316@17:23:27 [System] getLoggedInAccount 
+20170316@17:23:27 [System] getLoggedInAccount 
+20170316@17:23:28 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:23:48 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:23:48 [System] getAdoptInfo 
+20170316@17:23:48 [System] getShopInfo 
+20170316@17:23:48 [System] getShopTime 
+20170316@17:23:48 [System] getLoggedInAccount 
+20170316@17:23:48 [System] getLoggedInAccount 
+20170316@17:23:48 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:24:43 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:24:43 [System] getLoggedInAccount 
+20170316@17:24:43 [System] getLoggedInAccount 
+20170316@17:24:44 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:24:44 [System] getLoggedInAccount 
+20170316@17:24:44 [System] getLoggedInAccount 
+20170316@17:24:47 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:24:47 [System] getLoggedInAccount 
+20170316@17:24:47 [System] getLoggedInAccount 
+20170316@17:24:48 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:24:48 [System] getLoggedInAccount 
+20170316@17:24:48 [System] getLoggedInAccount 
+20170316@17:24:49 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:24:49 [System] getLoggedInAccount 
+20170316@17:24:49 [System] getLoggedInAccount 
+20170316@17:24:53 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:24:53 [System] getLoggedInAccount 
+20170316@17:24:53 [System] getLoggedInAccount 
+20170316@17:24:54 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:24:54 [System] getLoggedInAccount 
+20170316@17:24:54 [System] getLoggedInAccount 
+20170316@17:24:56 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:24:56 [System] getLoggedInAccount 
+20170316@17:24:56 [System] getLoggedInAccount 
+20170316@17:24:57 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:24:57 [System] getLoggedInAccount 
+20170316@17:24:57 [System] getLoggedInAccount 
+20170316@17:26:02 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:26:02 [System] getAdoptInfo 
+20170316@17:26:02 [System] getShopInfo 
+20170316@17:26:02 [System] getShopTime 
+20170316@17:26:02 [System] getLoggedInAccount 
+20170316@17:26:02 [System] getLoggedInAccount 
+20170316@17:26:02 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:31:01 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:31:01 [System] getAdoptInfo 
+20170316@17:31:01 [System] getShopInfo 
+20170316@17:31:01 [System] getShopTime 
+20170316@17:31:01 [System] getLoggedInAccount 
+20170316@17:31:01 [System] getLoggedInAccount 
+20170316@17:31:01 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:31:43 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:31:44 [System] getAdoptInfo 
+20170316@17:31:44 [System] getShopInfo 
+20170316@17:31:44 [System] getShopTime 
+20170316@17:31:44 [System] getLoggedInAccount 
+20170316@17:31:44 [System] getLoggedInAccount 
+20170316@17:31:44 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:32:13 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:32:13 [System] getAdoptInfo 
+20170316@17:32:14 [System] getShopInfo 
+20170316@17:32:14 [System] getShopTime 
+20170316@17:32:14 [System] getLoggedInAccount 
+20170316@17:32:14 [System] getLoggedInAccount 
+20170316@17:32:14 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:33:26 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:33:27 [System] getAdoptInfo 
+20170316@17:33:27 [System] getShopInfo 
+20170316@17:33:27 [System] getShopTime 
+20170316@17:33:27 [System] getLoggedInAccount 
+20170316@17:33:27 [System] getLoggedInAccount 
+20170316@17:33:27 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:34:09 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:34:09 [System] getAdoptInfo 
+20170316@17:34:09 [System] getShopInfo 
+20170316@17:34:09 [System] getShopTime 
+20170316@17:34:09 [System] getLoggedInAccount 
+20170316@17:34:09 [System] getLoggedInAccount 
+20170316@17:34:09 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:34:41 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@17:34:42 [System] getLoggedInAccount 
+20170316@17:34:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@17:34:44 [System] getAdoptInfo 
+20170316@17:34:45 [System] getShopInfo 
+20170316@17:34:45 [System] getShopTime 
+20170316@17:34:45 [System] getLoggedInAccount 
+20170316@17:34:45 [System] getLoggedInAccount 
+20170316@17:34:45 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:34:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@17:34:48 [System] getLoggedInAccount 
+20170316@17:34:48 [System] getLoggedInAccount 
+20170316@17:34:48 [System] BTNAdoptMe_Click 
+20170316@17:34:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@17:34:51 [System] getLoggedInAccount 
+20170316@17:34:51 [System] getLoggedInAccount 
+20170316@17:34:51 [System] BTNLogin_Click 
+20170316@17:34:51 [System] MessageHandler : Either email or password is invalid 
+20170316@17:34:51 [System] signIn 
+20170316@17:34:51 [System] getShopInfo 
+20170316@17:34:51 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:34:51 [System] getAdoptInfo 
+20170316@17:34:51 [System] getShopInfo 
+20170316@17:34:51 [System] getShopTime 
+20170316@17:34:51 [System] getLoggedInAccount 
+20170316@17:34:51 [System] getLoggedInAccount 
+20170316@17:34:52 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:36:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@17:36:26 [System] getLoggedInAccount 
+20170316@17:36:29 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:36:29 [System] getAdoptInfo 
+20170316@17:36:29 [System] getShopInfo 
+20170316@17:36:29 [System] getShopTime 
+20170316@17:36:29 [System] getLoggedInAccount 
+20170316@17:36:29 [System] getLoggedInAccount 
+20170316@17:36:29 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:38:52 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:38:52 [System] getAdoptInfo 
+20170316@17:38:52 [System] getShopInfo 
+20170316@17:38:52 [System] getShopTime 
+20170316@17:38:52 [System] getLoggedInAccount 
+20170316@17:38:52 [System] getLoggedInAccount 
+20170316@17:38:52 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:39:21 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:39:21 [System] getAdoptInfo 
+20170316@17:39:21 [System] getShopInfo 
+20170316@17:39:21 [System] getShopTime 
+20170316@17:39:22 [System] getLoggedInAccount 
+20170316@17:39:22 [System] getLoggedInAccount 
+20170316@17:39:22 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:39:37 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@17:39:37 [System] getLoggedInAccount 
+20170316@17:41:04 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:41:04 [System] getAdoptInfo 
+20170316@17:41:04 [System] getShopInfo 
+20170316@17:41:04 [System] getShopTime 
+20170316@17:41:04 [System] getLoggedInAccount 
+20170316@17:41:04 [System] getLoggedInAccount 
+20170316@17:41:05 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:41:56 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:41:57 [System] getAdoptInfo 
+20170316@17:41:57 [System] getShopInfo 
+20170316@17:41:57 [System] getShopTime 
+20170316@17:41:57 [System] getLoggedInAccount 
+20170316@17:41:57 [System] getLoggedInAccount 
+20170316@17:41:57 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:42:27 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:42:27 [System] getAdoptInfo 
+20170316@17:42:27 [System] getShopInfo 
+20170316@17:42:27 [System] getShopTime 
+20170316@17:42:28 [System] getLoggedInAccount 
+20170316@17:42:28 [System] getLoggedInAccount 
+20170316@17:42:28 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:42:38 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:42:38 [System] getAdoptInfo 
+20170316@17:42:38 [System] getShopInfo 
+20170316@17:42:38 [System] getShopTime 
+20170316@17:42:38 [System] getLoggedInAccount 
+20170316@17:42:38 [System] getLoggedInAccount 
+20170316@17:42:38 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:42:48 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:42:48 [System] getAdoptInfo 
+20170316@17:42:48 [System] getShopInfo 
+20170316@17:42:48 [System] getShopTime 
+20170316@17:42:48 [System] getLoggedInAccount 
+20170316@17:42:49 [System] getLoggedInAccount 
+20170316@17:42:49 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:44:12 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:44:12 [System] getAdoptInfo 
+20170316@17:44:13 [System] getShopInfo 
+20170316@17:44:13 [System] getShopTime 
+20170316@17:44:13 [System] getLoggedInAccount 
+20170316@17:44:13 [System] getLoggedInAccount 
+20170316@17:44:13 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:44:45 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:44:46 [System] getAdoptInfo 
+20170316@17:44:46 [System] getShopInfo 
+20170316@17:44:46 [System] getShopTime 
+20170316@17:44:46 [System] getLoggedInAccount 
+20170316@17:44:46 [System] getLoggedInAccount 
+20170316@17:44:46 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:45:17 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:45:17 [System] getAdoptInfo 
+20170316@17:45:17 [System] getShopInfo 
+20170316@17:45:17 [System] getShopTime 
+20170316@17:45:17 [System] getLoggedInAccount 
+20170316@17:45:17 [System] getLoggedInAccount 
+20170316@17:45:17 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:45:51 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@17:45:51 [System] getLoggedInAccount 
+20170316@17:45:52 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:45:52 [System] getAdoptInfo 
+20170316@17:45:52 [System] getShopInfo 
+20170316@17:45:52 [System] getShopTime 
+20170316@17:45:52 [System] getLoggedInAccount 
+20170316@17:45:52 [System] getLoggedInAccount 
+20170316@17:45:52 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:46:28 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:46:28 [System] getAdoptInfo 
+20170316@17:46:28 [System] getShopInfo 
+20170316@17:46:28 [System] getShopTime 
+20170316@17:46:29 [System] getLoggedInAccount 
+20170316@17:46:29 [System] getLoggedInAccount 
+20170316@17:46:29 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:48:09 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:48:09 [System] getAdoptInfo 
+20170316@17:48:09 [System] getShopInfo 
+20170316@17:48:09 [System] getShopTime 
+20170316@17:48:09 [System] getLoggedInAccount 
+20170316@17:48:09 [System] getLoggedInAccount 
+20170316@17:48:09 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:48:30 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:48:31 [System] getAdoptInfo 
+20170316@17:48:31 [System] getShopInfo 
+20170316@17:48:31 [System] getShopTime 
+20170316@17:48:31 [System] getLoggedInAccount 
+20170316@17:48:31 [System] getLoggedInAccount 
+20170316@17:48:31 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:48:42 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:48:42 [System] getAdoptInfo 
+20170316@17:48:42 [System] getShopInfo 
+20170316@17:48:42 [System] getShopTime 
+20170316@17:48:42 [System] getLoggedInAccount 
+20170316@17:48:42 [System] getLoggedInAccount 
+20170316@17:48:42 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:48:46 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:48:46 [System] getAdoptInfo 
+20170316@17:48:47 [System] getShopInfo 
+20170316@17:48:47 [System] getShopTime 
+20170316@17:48:47 [System] getLoggedInAccount 
+20170316@17:48:47 [System] getLoggedInAccount 
+20170316@17:48:47 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:48:54 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:48:54 [System] getAdoptInfo 
+20170316@17:48:55 [System] getShopInfo 
+20170316@17:48:55 [System] getShopTime 
+20170316@17:48:55 [System] getLoggedInAccount 
+20170316@17:48:55 [System] getLoggedInAccount 
+20170316@17:48:55 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:49:16 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:49:16 [System] getAdoptInfo 
+20170316@17:49:16 [System] getShopInfo 
+20170316@17:49:16 [System] getShopTime 
+20170316@17:49:16 [System] getLoggedInAccount 
+20170316@17:49:16 [System] getLoggedInAccount 
+20170316@17:49:16 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:49:37 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:49:37 [System] getAdoptInfo 
+20170316@17:49:37 [System] getShopInfo 
+20170316@17:49:37 [System] getShopTime 
+20170316@17:49:37 [System] getLoggedInAccount 
+20170316@17:49:37 [System] getLoggedInAccount 
+20170316@17:49:37 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:50:00 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:50:00 [System] getAdoptInfo 
+20170316@17:50:00 [System] getShopInfo 
+20170316@17:50:00 [System] getShopTime 
+20170316@17:50:00 [System] getLoggedInAccount 
+20170316@17:50:00 [System] getLoggedInAccount 
+20170316@17:50:00 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:50:17 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:50:17 [System] getAdoptInfo 
+20170316@17:50:17 [System] getShopInfo 
+20170316@17:50:18 [System] getShopTime 
+20170316@17:50:18 [System] getLoggedInAccount 
+20170316@17:50:18 [System] getLoggedInAccount 
+20170316@17:50:18 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:52:46 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:52:46 [System] getAdoptInfo 
+20170316@17:52:46 [System] getShopInfo 
+20170316@17:52:47 [System] getShopTime 
+20170316@17:52:47 [System] getLoggedInAccount 
+20170316@17:52:47 [System] getLoggedInAccount 
+20170316@17:52:47 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:56:48 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:56:48 [System] getAdoptInfo 
+20170316@17:56:48 [System] getShopInfo 
+20170316@17:56:49 [System] getShopTime 
+20170316@17:56:49 [System] getLoggedInAccount 
+20170316@17:56:49 [System] getLoggedInAccount 
+20170316@17:56:49 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:57:29 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:57:29 [System] getAdoptInfo 
+20170316@17:57:29 [System] getShopInfo 
+20170316@17:57:30 [System] getShopTime 
+20170316@17:57:30 [System] initializeUIControlValues 
+20170316@17:57:30 [System] getLoggedInAccount 
+20170316@17:57:30 [System] getLoggedInAccount 
+20170316@17:57:30 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:57:46 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=29 
+20170316@17:57:46 [System] getLoggedInAccount 
+20170316@17:57:46 [System] getLoggedInAccount 
+20170316@17:58:36 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@17:58:36 [System] getLoggedInAccount 
+20170316@17:58:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@17:58:41 [System] getAdoptInfo 
+20170316@17:58:41 [System] getShopInfo 
+20170316@17:58:41 [System] getShopTime 
+20170316@17:58:41 [System] getLoggedInAccount 
+20170316@17:58:41 [System] getLoggedInAccount 
+20170316@17:58:41 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:58:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@17:58:43 [System] getLoggedInAccount 
+20170316@17:58:43 [System] getLoggedInAccount 
+20170316@17:58:43 [System] BTNAdoptMe_Click 
+20170316@17:58:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@17:58:49 [System] getLoggedInAccount 
+20170316@17:58:49 [System] getLoggedInAccount 
+20170316@17:58:49 [System] BTNLogin_Click 
+20170316@17:58:49 [System] MessageHandler : Either email or password is invalid 
+20170316@17:58:49 [System] signIn 
+20170316@17:58:49 [System] getShopInfo 
+20170316@17:58:49 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@17:58:49 [System] getAdoptInfo 
+20170316@17:58:49 [System] getShopInfo 
+20170316@17:58:49 [System] getShopTime 
+20170316@17:58:49 [System] initializeUIControlValues 
+20170316@17:58:49 [System] getLoggedInAccount 
+20170316@17:58:49 [System] getLoggedInAccount 
+20170316@17:58:50 [System] DLAdoptInfo_ItemDataBound 
+20170316@17:59:05 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@17:59:05 [System] getLoggedInAccount 
+20170316@17:59:05 [System] getLoggedInAccount 
+20170316@17:59:16 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@17:59:16 [System] getLoggedInAccount 
+20170316@17:59:16 [System] getLoggedInAccount 
+20170316@18:00:58 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:00:58 [System] getAdoptInfo 
+20170316@18:00:58 [System] getShopInfo 
+20170316@18:00:58 [System] getShopTime 
+20170316@18:00:58 [System] initializeUIControlValues 
+20170316@18:00:58 [System] getLoggedInAccount 
+20170316@18:00:58 [System] getLoggedInAccount 
+20170316@18:00:58 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:01:10 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:01:10 [System] getAdoptInfo 
+20170316@18:01:10 [System] getShopInfo 
+20170316@18:01:10 [System] getShopTime 
+20170316@18:01:11 [System] initializeUIControlValues 
+20170316@18:01:11 [System] getLoggedInAccount 
+20170316@18:01:11 [System] getLoggedInAccount 
+20170316@18:01:11 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:01:20 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:01:20 [System] getLoggedInAccount 
+20170316@18:01:20 [System] getLoggedInAccount 
+20170316@18:03:39 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:03:39 [System] getAdoptInfo 
+20170316@18:03:39 [System] getShopInfo 
+20170316@18:03:40 [System] getShopTime 
+20170316@18:03:40 [System] initializeUIControlValues 
+20170316@18:03:40 [System] getLoggedInAccount 
+20170316@18:03:40 [System] getLoggedInAccount 
+20170316@18:03:40 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:03:46 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:03:46 [System] getAdoptInfo 
+20170316@18:03:46 [System] getShopInfo 
+20170316@18:03:46 [System] getShopTime 
+20170316@18:03:46 [System] initializeUIControlValues 
+20170316@18:03:46 [System] getLoggedInAccount 
+20170316@18:03:47 [System] getLoggedInAccount 
+20170316@18:03:47 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:04:00 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:04:00 [System] getAdoptInfo 
+20170316@18:04:00 [System] getShopInfo 
+20170316@18:04:00 [System] getShopTime 
+20170316@18:04:00 [System] initializeUIControlValues 
+20170316@18:04:00 [System] getLoggedInAccount 
+20170316@18:04:00 [System] getLoggedInAccount 
+20170316@18:04:01 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:04:12 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:04:13 [System] getAdoptInfo 
+20170316@18:04:13 [System] getShopInfo 
+20170316@18:04:13 [System] getShopTime 
+20170316@18:04:13 [System] initializeUIControlValues 
+20170316@18:04:13 [System] getLoggedInAccount 
+20170316@18:04:13 [System] getLoggedInAccount 
+20170316@18:04:13 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:04:22 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:04:23 [System] getAdoptInfo 
+20170316@18:04:23 [System] getShopInfo 
+20170316@18:04:23 [System] getShopTime 
+20170316@18:04:23 [System] initializeUIControlValues 
+20170316@18:04:23 [System] getLoggedInAccount 
+20170316@18:04:23 [System] getLoggedInAccount 
+20170316@18:04:23 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:05:38 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:05:38 [System] getAdoptInfo 
+20170316@18:05:38 [System] getShopInfo 
+20170316@18:05:38 [System] getShopTime 
+20170316@18:05:39 [System] initializeUIControlValues 
+20170316@18:05:39 [System] getLoggedInAccount 
+20170316@18:05:39 [System] getLoggedInAccount 
+20170316@18:05:39 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:05:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:05:54 [System] getAdoptInfo 
+20170316@18:05:55 [System] getShopInfo 
+20170316@18:05:55 [System] getShopTime 
+20170316@18:05:55 [System] getLoggedInAccount 
+20170316@18:05:55 [System] getLoggedInAccount 
+20170316@18:05:55 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:07:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:07:20 [System] getAdoptInfo 
+20170316@18:07:20 [System] getShopInfo 
+20170316@18:07:20 [System] getShopTime 
+20170316@18:07:20 [System] getLoggedInAccount 
+20170316@18:07:20 [System] getLoggedInAccount 
+20170316@18:07:21 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:08:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:08:06 [System] getAdoptInfo 
+20170316@18:08:06 [System] getShopInfo 
+20170316@18:08:06 [System] getShopTime 
+20170316@18:08:07 [System] getLoggedInAccount 
+20170316@18:08:07 [System] getLoggedInAccount 
+20170316@18:08:07 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:08:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:08:11 [System] getLoggedInAccount 
+20170316@18:08:11 [System] getLoggedInAccount 
+20170316@18:08:11 [System] BTNLogin_Click 
+20170316@18:08:11 [System] MessageHandler : Either email or password is invalid 
+20170316@18:08:11 [System] signIn 
+20170316@18:08:11 [System] getShopInfo 
+20170316@18:08:12 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:08:12 [System] getAdoptInfo 
+20170316@18:08:12 [System] getShopInfo 
+20170316@18:08:12 [System] getShopTime 
+20170316@18:08:12 [System] initializeUIControlValues 
+20170316@18:08:12 [System] getLoggedInAccount 
+20170316@18:08:12 [System] getLoggedInAccount 
+20170316@18:08:12 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:08:17 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:08:17 [System] getLoggedInAccount 
+20170316@18:08:18 [System] getLoggedInAccount 
+20170316@18:08:18 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:08:18 [System] getLoggedInAccount 
+20170316@18:08:18 [System] getLoggedInAccount 
+20170316@18:08:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:08:21 [System] getAdoptInfo 
+20170316@18:08:21 [System] getShopInfo 
+20170316@18:08:21 [System] getShopTime 
+20170316@18:08:21 [System] getLoggedInAccount 
+20170316@18:08:21 [System] getLoggedInAccount 
+20170316@18:08:21 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:08:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:08:26 [System] getLoggedInAccount 
+20170316@18:08:26 [System] getLoggedInAccount 
+20170316@18:08:26 [System] BTNAdoptMe_Click 
+20170316@18:08:26 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:08:26 [System] getAdoptInfo 
+20170316@18:08:26 [System] getShopInfo 
+20170316@18:08:26 [System] getShopTime 
+20170316@18:08:26 [System] initializeUIControlValues 
+20170316@18:08:26 [System] getLoggedInAccount 
+20170316@18:08:26 [System] getLoggedInAccount 
+20170316@18:08:26 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:09:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:09:05 [System] getAdoptInfo 
+20170316@18:09:05 [System] getShopInfo 
+20170316@18:09:05 [System] getShopTime 
+20170316@18:09:05 [System] getLoggedInAccount 
+20170316@18:09:05 [System] getLoggedInAccount 
+20170316@18:09:06 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:09:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:09:19 [System] getLoggedInAccount 
+20170316@18:09:19 [System] getLoggedInAccount 
+20170316@18:09:19 [System] BTNAdoptMe_Click 
+20170316@18:09:19 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@18:09:19 [System] getAdoptInfo 
+20170316@18:09:19 [System] getShopInfo 
+20170316@18:09:19 [System] getShopTime 
+20170316@18:09:19 [System] initializeUIControlValues 
+20170316@18:09:19 [System] getLoggedInAccount 
+20170316@18:09:19 [System] getLoggedInAccount 
+20170316@18:09:19 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:09:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:09:52 [System] getAdoptInfo 
+20170316@18:09:52 [System] getShopInfo 
+20170316@18:09:52 [System] getShopTime 
+20170316@18:09:52 [System] getLoggedInAccount 
+20170316@18:09:52 [System] getLoggedInAccount 
+20170316@18:09:52 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:10:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170316@18:10:30 [System] getAdoptInfo 
+20170316@18:10:30 [System] getShopInfo 
+20170316@18:10:30 [System] getShopTime 
+20170316@18:10:30 [System] getLoggedInAccount 
+20170316@18:10:30 [System] getLoggedInAccount 
+20170316@18:10:30 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:10:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:10:31 [System] getLoggedInAccount 
+20170316@18:10:31 [System] getLoggedInAccount 
+20170316@18:10:31 [System] BTNAdoptMe_Click 
+20170316@18:10:31 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=32 
+20170316@18:10:31 [System] getAdoptInfo 
+20170316@18:10:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:10:33 [System] getAdoptInfo 
+20170316@18:10:33 [System] getShopInfo 
+20170316@18:10:33 [System] getShopTime 
+20170316@18:10:34 [System] getLoggedInAccount 
+20170316@18:10:34 [System] getLoggedInAccount 
+20170316@18:10:34 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:10:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@18:10:35 [System] getAdoptInfo 
+20170316@18:10:35 [System] getShopInfo 
+20170316@18:10:35 [System] getShopTime 
+20170316@18:10:36 [System] getLoggedInAccount 
+20170316@18:10:36 [System] getLoggedInAccount 
+20170316@18:10:36 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:10:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@18:10:40 [System] getLoggedInAccount 
+20170316@18:10:40 [System] getLoggedInAccount 
+20170316@18:10:40 [System] BTNAdoptMe_Click 
+20170316@18:10:40 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=33 
+20170316@18:10:40 [System] getAdoptInfo 
+20170316@18:10:40 [System] getShopInfo 
+20170316@18:10:40 [System] getShopTime 
+20170316@18:10:40 [System] initializeUIControlValues 
+20170316@18:10:40 [System] getLoggedInAccount 
+20170316@18:10:40 [System] getLoggedInAccount 
+20170316@18:10:41 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:10:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:10:41 [System] getAdoptInfo 
+20170316@18:10:42 [System] getShopInfo 
+20170316@18:10:42 [System] getShopTime 
+20170316@18:10:42 [System] getLoggedInAccount 
+20170316@18:10:42 [System] getLoggedInAccount 
+20170316@18:10:42 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:13:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:13:11 [System] getAdoptInfo 
+20170316@18:13:11 [System] getShopInfo 
+20170316@18:13:11 [System] getShopTime 
+20170316@18:13:11 [System] getLoggedInAccount 
+20170316@18:13:11 [System] getLoggedInAccount 
+20170316@18:13:11 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:13:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:13:59 [System] getAdoptInfo 
+20170316@18:13:59 [System] getShopInfo 
+20170316@18:13:59 [System] getShopTime 
+20170316@18:14:00 [System] getLoggedInAccount 
+20170316@18:14:00 [System] getLoggedInAccount 
+20170316@18:14:00 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:14:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:14:14 [System] getAdoptInfo 
+20170316@18:14:14 [System] getShopInfo 
+20170316@18:14:14 [System] getShopTime 
+20170316@18:14:15 [System] initializeUIControlValues 
+20170316@18:14:15 [System] getLoggedInAccount 
+20170316@18:14:15 [System] getLoggedInAccount 
+20170316@18:14:15 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:15:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:15:13 [System] getAdoptInfo 
+20170316@18:15:13 [System] getShopInfo 
+20170316@18:15:13 [System] getShopTime 
+20170316@18:15:14 [System] initializeUIControlValues 
+20170316@18:15:14 [System] getLoggedInAccount 
+20170316@18:15:14 [System] getLoggedInAccount 
+20170316@18:15:14 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:16:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:16:15 [System] getAdoptInfo 
+20170316@18:16:16 [System] getShopInfo 
+20170316@18:16:16 [System] getShopTime 
+20170316@18:16:16 [System] initializeUIControlValues 
+20170316@18:16:16 [System] getLoggedInAccount 
+20170316@18:16:16 [System] getLoggedInAccount 
+20170316@18:16:16 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:16:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:16:33 [System] getAdoptInfo 
+20170316@18:16:33 [System] getShopInfo 
+20170316@18:16:33 [System] getShopTime 
+20170316@18:16:33 [System] initializeUIControlValues 
+20170316@18:16:33 [System] getLoggedInAccount 
+20170316@18:16:33 [System] getLoggedInAccount 
+20170316@18:16:34 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:16:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:16:44 [System] getAdoptInfo 
+20170316@18:16:44 [System] getShopInfo 
+20170316@18:16:44 [System] getShopTime 
+20170316@18:16:44 [System] initializeUIControlValues 
+20170316@18:16:44 [System] getLoggedInAccount 
+20170316@18:16:44 [System] getLoggedInAccount 
+20170316@18:16:44 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:17:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:17:44 [System] getAdoptInfo 
+20170316@18:17:44 [System] getShopInfo 
+20170316@18:17:44 [System] getShopTime 
+20170316@18:17:44 [System] initializeUIControlValues 
+20170316@18:17:44 [System] getLoggedInAccount 
+20170316@18:17:44 [System] getLoggedInAccount 
+20170316@18:17:44 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:17:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:17:47 [System] getLoggedInAccount 
+20170316@18:17:47 [System] getLoggedInAccount 
+20170316@18:17:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:17:47 [System] getLoggedInAccount 
+20170316@18:17:47 [System] getLoggedInAccount 
+20170316@18:18:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:18:49 [System] getAdoptInfo 
+20170316@18:18:49 [System] getShopInfo 
+20170316@18:18:49 [System] getShopTime 
+20170316@18:18:49 [System] initializeUIControlValues 
+20170316@18:18:49 [System] getLoggedInAccount 
+20170316@18:18:49 [System] getLoggedInAccount 
+20170316@18:18:49 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:18:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:18:52 [System] getAdoptInfo 
+20170316@18:18:52 [System] getShopInfo 
+20170316@18:18:52 [System] getShopTime 
+20170316@18:18:52 [System] initializeUIControlValues 
+20170316@18:18:52 [System] getLoggedInAccount 
+20170316@18:18:52 [System] getLoggedInAccount 
+20170316@18:18:52 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:19:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:19:45 [System] getAdoptInfo 
+20170316@18:19:45 [System] getShopInfo 
+20170316@18:19:45 [System] getShopTime 
+20170316@18:19:45 [System] initializeUIControlValues 
+20170316@18:19:45 [System] getLoggedInAccount 
+20170316@18:19:45 [System] getLoggedInAccount 
+20170316@18:19:45 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:23:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:23:32 [System] getAdoptInfo 
+20170316@18:23:32 [System] getShopInfo 
+20170316@18:23:32 [System] getShopTime 
+20170316@18:23:32 [System] initializeUIControlValues 
+20170316@18:23:32 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:25:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:25:21 [System] getAdoptInfo 
+20170316@18:25:21 [System] getShopInfo 
+20170316@18:25:21 [System] getShopTime 
+20170316@18:25:21 [System] initializeUIControlValues 
+20170316@18:25:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:25:40 [System] getAdoptInfo 
+20170316@18:25:40 [System] getShopInfo 
+20170316@18:25:41 [System] getShopTime 
+20170316@18:25:41 [System] getLoggedInAccount 
+20170316@18:25:41 [System] getLoggedInAccount 
+20170316@18:25:41 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:25:41 [System] initializeUIControlValues 
+20170316@18:26:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:26:31 [System] getAdoptInfo 
+20170316@18:26:31 [System] getShopInfo 
+20170316@18:26:31 [System] getShopTime 
+20170316@18:26:32 [System] getLoggedInAccount 
+20170316@18:26:32 [System] getLoggedInAccount 
+20170316@18:26:32 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:26:32 [System] initializeUIControlValues 
+20170316@18:28:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:28:39 [System] getAdoptInfo 
+20170316@18:28:39 [System] getShopInfo 
+20170316@18:28:39 [System] getShopTime 
+20170316@18:28:39 [System] initializeUIControlValues 
+20170316@18:28:39 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:28:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:28:45 [System] getAdoptInfo 
+20170316@18:28:45 [System] getShopInfo 
+20170316@18:28:45 [System] getShopTime 
+20170316@18:28:45 [System] initializeUIControlValues 
+20170316@18:28:45 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:28:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:28:48 [System] getAdoptInfo 
+20170316@18:28:48 [System] getShopInfo 
+20170316@18:28:48 [System] getShopTime 
+20170316@18:28:49 [System] initializeUIControlValues 
+20170316@18:28:49 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:29:02 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@18:29:02 [System] getLoggedInAccount 
+20170316@18:29:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@18:29:07 [System] getAdoptInfo 
+20170316@18:29:07 [System] getShopInfo 
+20170316@18:29:07 [System] getShopTime 
+20170316@18:29:08 [System] initializeUIControlValues 
+20170316@18:29:08 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:29:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@18:29:32 [System] getAdoptInfo 
+20170316@18:29:32 [System] getShopInfo 
+20170316@18:29:32 [System] getShopTime 
+20170316@18:29:32 [System] initializeUIControlValues 
+20170316@18:29:32 [System] getLoggedInAccount 
+20170316@18:29:32 [System] getLoggedInAccount 
+20170316@18:29:32 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:29:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@18:29:51 [System] getLoggedInAccount 
+20170316@18:29:51 [System] getLoggedInAccount 
+20170316@18:30:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@18:30:24 [System] getAdoptInfo 
+20170316@18:30:24 [System] getShopInfo 
+20170316@18:30:24 [System] getShopTime 
+20170316@18:30:24 [System] initializeUIControlValues 
+20170316@18:30:24 [System] getLoggedInAccount 
+20170316@18:30:24 [System] getLoggedInAccount 
+20170316@18:30:24 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:30:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@18:30:27 [System] getLoggedInAccount 
+20170316@18:30:27 [System] getLoggedInAccount 
+20170316@18:30:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@18:30:31 [System] getLoggedInAccount 
+20170316@18:30:31 [System] getLoggedInAccount 
+20170316@18:30:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@18:30:53 [System] getAdoptInfo 
+20170316@18:30:53 [System] getShopInfo 
+20170316@18:30:53 [System] getShopTime 
+20170316@18:30:53 [System] initializeUIControlValues 
+20170316@18:30:53 [System] getLoggedInAccount 
+20170316@18:30:53 [System] getLoggedInAccount 
+20170316@18:30:53 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:31:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@18:31:00 [System] getAdoptInfo 
+20170316@18:31:00 [System] getShopInfo 
+20170316@18:31:00 [System] getShopTime 
+20170316@18:31:00 [System] initializeUIControlValues 
+20170316@18:31:00 [System] getLoggedInAccount 
+20170316@18:31:00 [System] getLoggedInAccount 
+20170316@18:31:00 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:31:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:31:02 [System] getAdoptInfo 
+20170316@18:31:02 [System] getShopInfo 
+20170316@18:31:02 [System] getShopTime 
+20170316@18:31:02 [System] initializeUIControlValues 
+20170316@18:31:02 [System] getLoggedInAccount 
+20170316@18:31:02 [System] getLoggedInAccount 
+20170316@18:31:03 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:33:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170316@18:33:50 [System] getAdoptInfo 
+20170316@18:33:50 [System] getShopInfo 
+20170316@18:33:50 [System] getShopTime 
+20170316@18:33:50 [System] initializeUIControlValues 
+20170316@18:33:50 [System] getLoggedInAccount 
+20170316@18:33:50 [System] getLoggedInAccount 
+20170316@18:33:51 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:33:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:33:57 [System] getAdoptInfo 
+20170316@18:33:58 [System] getShopInfo 
+20170316@18:33:58 [System] getShopTime 
+20170316@18:33:58 [System] initializeUIControlValues 
+20170316@18:33:58 [System] getLoggedInAccount 
+20170316@18:33:58 [System] getLoggedInAccount 
+20170316@18:33:58 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:34:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:34:24 [System] getAdoptInfo 
+20170316@18:34:24 [System] getShopInfo 
+20170316@18:34:24 [System] getShopTime 
+20170316@18:34:24 [System] initializeUIControlValues 
+20170316@18:34:24 [System] getLoggedInAccount 
+20170316@18:34:24 [System] getLoggedInAccount 
+20170316@18:34:25 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:35:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:35:06 [System] getAdoptInfo 
+20170316@18:35:06 [System] getShopInfo 
+20170316@18:35:07 [System] getShopTime 
+20170316@18:35:07 [System] initializeUIControlValues 
+20170316@18:35:07 [System] getLoggedInAccount 
+20170316@18:35:07 [System] getLoggedInAccount 
+20170316@18:35:07 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:35:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:35:37 [System] getAdoptInfo 
+20170316@18:35:37 [System] getShopInfo 
+20170316@18:35:37 [System] getShopTime 
+20170316@18:35:37 [System] initializeUIControlValues 
+20170316@18:35:37 [System] getLoggedInAccount 
+20170316@18:35:37 [System] getLoggedInAccount 
+20170316@18:35:37 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:39:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:39:37 [System] getAdoptInfo 
+20170316@18:39:37 [System] getShopInfo 
+20170316@18:39:37 [System] getShopTime 
+20170316@18:39:37 [System] initializeUIControlValues 
+20170316@18:39:37 [System] getLoggedInAccount 
+20170316@18:39:37 [System] getLoggedInAccount 
+20170316@18:39:37 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:39:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:39:59 [System] getAdoptInfo 
+20170316@18:39:59 [System] getShopInfo 
+20170316@18:39:59 [System] getShopTime 
+20170316@18:39:59 [System] initializeUIControlValues 
+20170316@18:39:59 [System] getLoggedInAccount 
+20170316@18:39:59 [System] getLoggedInAccount 
+20170316@18:40:00 [System] DLAdoptInfo_ItemDataBound 
+20170316@18:43:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@18:43:49 [System] getAdoptInfo 
+20170316@18:43:49 [System] getShopInfo 
+20170316@18:43:49 [System] getShopTime 
+20170316@18:43:50 [System] initializeUIControlValues 
+20170316@18:43:50 [System] getLoggedInAccount 
+20170316@18:43:50 [System] getLoggedInAccount 
+20170316@18:43:50 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:36:37 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@19:36:38 [System] getLoggedInAccount 
+20170316@19:36:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:36:44 [System] getAdoptInfo 
+20170316@19:36:44 [System] getShopInfo 
+20170316@19:36:44 [System] getShopTime 
+20170316@19:36:44 [System] initializeUIControlValues 
+20170316@19:36:44 [System] getLoggedInAccount 
+20170316@19:36:44 [System] getLoggedInAccount 
+20170316@19:36:44 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:36:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:36:47 [System] getLoggedInAccount 
+20170316@19:36:47 [System] getLoggedInAccount 
+20170316@19:38:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:38:51 [System] getLoggedInAccount 
+20170316@19:38:51 [System] getLoggedInAccount 
+20170316@19:38:51 [System] BTNLogin_Click 
+20170316@19:38:51 [System] MessageHandler : Either email or password is invalid 
+20170316@19:38:51 [System] signIn 
+20170316@19:38:51 [System] getShopInfo 
+20170316@19:38:51 [System] Page loaded: http://localhost:65063/adoptionappointment.aspx?adoptinfoid=26 
+20170316@19:38:51 [System] getAdoptInfo 
+20170316@19:38:51 [System] getShopInfo 
+20170316@19:38:51 [System] getShopTime 
+20170316@19:38:52 [System] initializeUIControlValues 
+20170316@19:38:52 [System] getLoggedInAccount 
+20170316@19:38:52 [System] getLoggedInAccount 
+20170316@19:38:52 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:38:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:38:53 [System] getAdoptInfo 
+20170316@19:38:53 [System] getShopInfo 
+20170316@19:38:53 [System] getShopTime 
+20170316@19:38:54 [System] initializeUIControlValues 
+20170316@19:38:54 [System] getLoggedInAccount 
+20170316@19:38:54 [System] getLoggedInAccount 
+20170316@19:38:54 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:41:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:41:14 [System] getLoggedInAccount 
+20170316@19:41:14 [System] getLoggedInAccount 
+20170316@19:41:14 [System] LKBTNSignOut_Click 
+20170316@19:41:14 [System] signOut 
+20170316@19:41:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx 
+20170316@19:41:15 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@19:41:15 [System] getLoggedInAccount 
+20170316@19:41:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@19:41:28 [System] getAdoptInfo 
+20170316@19:41:28 [System] getShopInfo 
+20170316@19:41:29 [System] getShopTime 
+20170316@19:41:29 [System] initializeUIControlValues 
+20170316@19:41:29 [System] getLoggedInAccount 
+20170316@19:41:29 [System] getLoggedInAccount 
+20170316@19:41:29 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:43:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@19:43:47 [System] getAdoptInfo 
+20170316@19:43:47 [System] getShopInfo 
+20170316@19:43:47 [System] getShopTime 
+20170316@19:43:47 [System] initializeUIControlValues 
+20170316@19:43:47 [System] getLoggedInAccount 
+20170316@19:43:47 [System] getLoggedInAccount 
+20170316@19:43:47 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:48:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@19:48:12 [System] getAdoptInfo 
+20170316@19:48:12 [System] getShopInfo 
+20170316@19:48:12 [System] getShopTime 
+20170316@19:48:12 [System] initializeUIControlValues 
+20170316@19:48:12 [System] getLoggedInAccount 
+20170316@19:48:12 [System] getLoggedInAccount 
+20170316@19:48:13 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:48:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@19:48:27 [System] getAdoptInfo 
+20170316@19:48:27 [System] getShopInfo 
+20170316@19:48:27 [System] getShopTime 
+20170316@19:48:27 [System] initializeUIControlValues 
+20170316@19:48:27 [System] getLoggedInAccount 
+20170316@19:48:27 [System] getLoggedInAccount 
+20170316@19:48:28 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:49:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@19:49:53 [System] getAdoptInfo 
+20170316@19:49:53 [System] getShopInfo 
+20170316@19:49:53 [System] getShopTime 
+20170316@19:49:53 [System] initializeUIControlValues 
+20170316@19:49:53 [System] getLoggedInAccount 
+20170316@19:49:53 [System] getLoggedInAccount 
+20170316@19:49:53 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:49:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@19:49:54 [System] getLoggedInAccount 
+20170316@19:49:54 [System] getLoggedInAccount 
+20170316@19:50:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:50:21 [System] getAdoptInfo 
+20170316@19:50:21 [System] getShopInfo 
+20170316@19:50:21 [System] getShopTime 
+20170316@19:50:21 [System] initializeUIControlValues 
+20170316@19:50:21 [System] getLoggedInAccount 
+20170316@19:50:21 [System] getLoggedInAccount 
+20170316@19:50:21 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:50:25 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@19:50:25 [System] getLoggedInAccount 
+20170316@19:50:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:50:27 [System] getAdoptInfo 
+20170316@19:50:27 [System] getShopInfo 
+20170316@19:50:27 [System] getShopTime 
+20170316@19:50:28 [System] initializeUIControlValues 
+20170316@19:50:28 [System] getLoggedInAccount 
+20170316@19:50:28 [System] getLoggedInAccount 
+20170316@19:50:28 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:50:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:50:29 [System] getLoggedInAccount 
+20170316@19:50:29 [System] getLoggedInAccount 
+20170316@19:50:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:50:46 [System] getAdoptInfo 
+20170316@19:50:46 [System] getShopInfo 
+20170316@19:50:46 [System] getShopTime 
+20170316@19:50:46 [System] initializeUIControlValues 
+20170316@19:50:46 [System] getLoggedInAccount 
+20170316@19:50:46 [System] getLoggedInAccount 
+20170316@19:50:46 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:53:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:53:32 [System] getAdoptInfo 
+20170316@19:53:32 [System] getShopInfo 
+20170316@19:53:32 [System] getShopTime 
+20170316@19:53:33 [System] initializeUIControlValues 
+20170316@19:53:33 [System] getLoggedInAccount 
+20170316@19:53:33 [System] getLoggedInAccount 
+20170316@19:53:33 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:53:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:53:34 [System] getLoggedInAccount 
+20170316@19:53:34 [System] getLoggedInAccount 
+20170316@19:54:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:54:44 [System] getAdoptInfo 
+20170316@19:54:44 [System] getShopInfo 
+20170316@19:54:44 [System] getShopTime 
+20170316@19:54:44 [System] initializeUIControlValues 
+20170316@19:54:44 [System] getLoggedInAccount 
+20170316@19:54:44 [System] getLoggedInAccount 
+20170316@19:54:44 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:54:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:54:45 [System] getLoggedInAccount 
+20170316@19:54:45 [System] getLoggedInAccount 
+20170316@19:55:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:55:20 [System] getAdoptInfo 
+20170316@19:55:20 [System] getShopInfo 
+20170316@19:55:21 [System] getShopTime 
+20170316@19:55:21 [System] initializeUIControlValues 
+20170316@19:55:21 [System] getLoggedInAccount 
+20170316@19:55:21 [System] getLoggedInAccount 
+20170316@19:55:21 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:55:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:55:22 [System] getLoggedInAccount 
+20170316@19:55:22 [System] getLoggedInAccount 
+20170316@19:56:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:56:56 [System] getAdoptInfo 
+20170316@19:56:56 [System] getShopInfo 
+20170316@19:56:56 [System] getShopTime 
+20170316@19:56:56 [System] initializeUIControlValues 
+20170316@19:56:56 [System] getLoggedInAccount 
+20170316@19:56:56 [System] getLoggedInAccount 
+20170316@19:56:56 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:57:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:57:06 [System] getAdoptInfo 
+20170316@19:57:06 [System] getShopInfo 
+20170316@19:57:07 [System] getShopTime 
+20170316@19:57:07 [System] initializeUIControlValues 
+20170316@19:57:07 [System] getLoggedInAccount 
+20170316@19:57:07 [System] getLoggedInAccount 
+20170316@19:57:07 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:58:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:58:27 [System] getAdoptInfo 
+20170316@19:58:27 [System] getShopInfo 
+20170316@19:58:27 [System] getShopTime 
+20170316@19:58:28 [System] initializeUIControlValues 
+20170316@19:58:28 [System] getLoggedInAccount 
+20170316@19:58:28 [System] getLoggedInAccount 
+20170316@19:58:28 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:58:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:58:45 [System] getAdoptInfo 
+20170316@19:58:45 [System] getShopInfo 
+20170316@19:58:45 [System] getShopTime 
+20170316@19:58:45 [System] initializeUIControlValues 
+20170316@19:58:45 [System] getLoggedInAccount 
+20170316@19:58:45 [System] getLoggedInAccount 
+20170316@19:58:46 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:58:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:58:59 [System] getAdoptInfo 
+20170316@19:58:59 [System] getShopInfo 
+20170316@19:58:59 [System] getShopTime 
+20170316@19:58:59 [System] initializeUIControlValues 
+20170316@19:58:59 [System] getLoggedInAccount 
+20170316@19:58:59 [System] getLoggedInAccount 
+20170316@19:59:00 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:59:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:59:36 [System] getAdoptInfo 
+20170316@19:59:36 [System] getShopInfo 
+20170316@19:59:36 [System] getShopTime 
+20170316@19:59:36 [System] initializeUIControlValues 
+20170316@19:59:36 [System] getLoggedInAccount 
+20170316@19:59:36 [System] getLoggedInAccount 
+20170316@19:59:37 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:59:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:59:46 [System] getAdoptInfo 
+20170316@19:59:46 [System] getShopInfo 
+20170316@19:59:47 [System] getShopTime 
+20170316@19:59:47 [System] initializeUIControlValues 
+20170316@19:59:47 [System] getLoggedInAccount 
+20170316@19:59:47 [System] getLoggedInAccount 
+20170316@19:59:47 [System] DLAdoptInfo_ItemDataBound 
+20170316@19:59:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@19:59:58 [System] getAdoptInfo 
+20170316@19:59:58 [System] getShopInfo 
+20170316@19:59:58 [System] getShopTime 
+20170316@19:59:59 [System] initializeUIControlValues 
+20170316@19:59:59 [System] getLoggedInAccount 
+20170316@19:59:59 [System] getLoggedInAccount 
+20170316@19:59:59 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:00:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:00:01 [System] getLoggedInAccount 
+20170316@20:00:01 [System] getLoggedInAccount 
+20170316@20:00:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:00:02 [System] getLoggedInAccount 
+20170316@20:00:02 [System] getLoggedInAccount 
+20170316@20:00:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:00:03 [System] getLoggedInAccount 
+20170316@20:00:03 [System] getLoggedInAccount 
+20170316@20:00:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:00:03 [System] getLoggedInAccount 
+20170316@20:00:03 [System] getLoggedInAccount 
+20170316@20:00:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:00:05 [System] getLoggedInAccount 
+20170316@20:00:05 [System] getLoggedInAccount 
+20170316@20:00:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:00:06 [System] getLoggedInAccount 
+20170316@20:00:06 [System] getLoggedInAccount 
+20170316@20:00:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:00:16 [System] getLoggedInAccount 
+20170316@20:00:16 [System] getLoggedInAccount 
+20170316@20:00:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:00:16 [System] getLoggedInAccount 
+20170316@20:00:16 [System] getLoggedInAccount 
+20170316@20:02:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:02:41 [System] getAdoptInfo 
+20170316@20:02:41 [System] getShopInfo 
+20170316@20:02:41 [System] getShopTime 
+20170316@20:02:41 [System] initializeUIControlValues 
+20170316@20:02:41 [System] getLoggedInAccount 
+20170316@20:02:41 [System] getLoggedInAccount 
+20170316@20:02:41 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:02:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:02:43 [System] getLoggedInAccount 
+20170316@20:02:43 [System] getLoggedInAccount 
+20170316@20:02:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:02:45 [System] getLoggedInAccount 
+20170316@20:02:45 [System] getLoggedInAccount 
+20170316@20:02:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:02:46 [System] getLoggedInAccount 
+20170316@20:02:46 [System] getLoggedInAccount 
+20170316@20:02:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:02:47 [System] getLoggedInAccount 
+20170316@20:02:47 [System] getLoggedInAccount 
+20170316@20:02:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:02:59 [System] getAdoptInfo 
+20170316@20:02:59 [System] getShopInfo 
+20170316@20:02:59 [System] getShopTime 
+20170316@20:02:59 [System] initializeUIControlValues 
+20170316@20:02:59 [System] getLoggedInAccount 
+20170316@20:02:59 [System] getLoggedInAccount 
+20170316@20:03:00 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:03:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:03:01 [System] getLoggedInAccount 
+20170316@20:03:01 [System] getLoggedInAccount 
+20170316@20:03:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:03:08 [System] getAdoptInfo 
+20170316@20:03:08 [System] getShopInfo 
+20170316@20:03:08 [System] getShopTime 
+20170316@20:03:09 [System] initializeUIControlValues 
+20170316@20:03:09 [System] getLoggedInAccount 
+20170316@20:03:09 [System] getLoggedInAccount 
+20170316@20:03:09 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:03:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:03:11 [System] getLoggedInAccount 
+20170316@20:03:11 [System] getLoggedInAccount 
+20170316@20:03:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:03:14 [System] getLoggedInAccount 
+20170316@20:03:14 [System] getLoggedInAccount 
+20170316@20:03:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:03:18 [System] getLoggedInAccount 
+20170316@20:03:18 [System] getLoggedInAccount 
+20170316@20:05:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:05:20 [System] getAdoptInfo 
+20170316@20:05:20 [System] getShopInfo 
+20170316@20:05:20 [System] getShopTime 
+20170316@20:05:20 [System] initializeUIControlValues 
+20170316@20:05:20 [System] getLoggedInAccount 
+20170316@20:05:20 [System] getLoggedInAccount 
+20170316@20:05:20 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:05:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:05:31 [System] getAdoptInfo 
+20170316@20:05:31 [System] getShopInfo 
+20170316@20:05:31 [System] getShopTime 
+20170316@20:05:31 [System] initializeUIControlValues 
+20170316@20:05:31 [System] getLoggedInAccount 
+20170316@20:05:31 [System] getLoggedInAccount 
+20170316@20:05:31 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:09:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:09:59 [System] getAdoptInfo 
+20170316@20:09:59 [System] getShopInfo 
+20170316@20:09:59 [System] getShopTime 
+20170316@20:09:59 [System] initializeUIControlValues 
+20170316@20:09:59 [System] getLoggedInAccount 
+20170316@20:09:59 [System] getLoggedInAccount 
+20170316@20:09:59 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:10:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:10:10 [System] getAdoptInfo 
+20170316@20:10:10 [System] getShopInfo 
+20170316@20:10:10 [System] getShopTime 
+20170316@20:10:10 [System] initializeUIControlValues 
+20170316@20:10:10 [System] getLoggedInAccount 
+20170316@20:10:10 [System] getLoggedInAccount 
+20170316@20:10:11 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:24:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:24:55 [System] getAdoptInfo 
+20170316@20:24:55 [System] getShopInfo 
+20170316@20:24:55 [System] getShopTime 
+20170316@20:24:55 [System] initializeUIControlValues 
+20170316@20:24:55 [System] getLoggedInAccount 
+20170316@20:24:55 [System] getLoggedInAccount 
+20170316@20:24:55 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:27:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:27:18 [System] getAdoptInfo 
+20170316@20:27:18 [System] getShopInfo 
+20170316@20:27:18 [System] getShopTime 
+20170316@20:27:18 [System] initializeUIControlValues 
+20170316@20:27:18 [System] getLoggedInAccount 
+20170316@20:27:18 [System] getLoggedInAccount 
+20170316@20:27:18 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:27:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:27:50 [System] getAdoptInfo 
+20170316@20:27:50 [System] getShopInfo 
+20170316@20:27:50 [System] getShopTime 
+20170316@20:27:50 [System] initializeUIControlValues 
+20170316@20:27:50 [System] getLoggedInAccount 
+20170316@20:27:50 [System] getLoggedInAccount 
+20170316@20:27:51 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:28:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:28:21 [System] getAdoptInfo 
+20170316@20:28:21 [System] getShopInfo 
+20170316@20:28:21 [System] getShopTime 
+20170316@20:28:21 [System] initializeUIControlValues 
+20170316@20:28:21 [System] getLoggedInAccount 
+20170316@20:28:21 [System] getLoggedInAccount 
+20170316@20:28:21 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:29:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:29:33 [System] getAdoptInfo 
+20170316@20:29:33 [System] getShopInfo 
+20170316@20:29:33 [System] getShopTime 
+20170316@20:29:33 [System] initializeUIControlValues 
+20170316@20:29:33 [System] getLoggedInAccount 
+20170316@20:29:33 [System] getLoggedInAccount 
+20170316@20:29:34 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:29:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:29:38 [System] getLoggedInAccount 
+20170316@20:29:38 [System] getLoggedInAccount 
+20170316@20:30:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:30:32 [System] getLoggedInAccount 
+20170316@20:30:32 [System] getLoggedInAccount 
+20170316@20:33:24 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@20:33:24 [System] getLoggedInAccount 
+20170316@20:33:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:33:26 [System] getAdoptInfo 
+20170316@20:33:26 [System] getShopInfo 
+20170316@20:33:26 [System] getShopTime 
+20170316@20:33:27 [System] initializeUIControlValues 
+20170316@20:33:27 [System] getLoggedInAccount 
+20170316@20:33:27 [System] getLoggedInAccount 
+20170316@20:33:27 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:33:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:33:30 [System] getLoggedInAccount 
+20170316@20:33:30 [System] getLoggedInAccount 
+20170316@20:34:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:34:38 [System] getAdoptInfo 
+20170316@20:34:38 [System] getShopInfo 
+20170316@20:34:38 [System] getShopTime 
+20170316@20:34:38 [System] initializeUIControlValues 
+20170316@20:34:38 [System] getLoggedInAccount 
+20170316@20:34:38 [System] getLoggedInAccount 
+20170316@20:34:39 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:34:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:34:42 [System] getLoggedInAccount 
+20170316@20:34:42 [System] getLoggedInAccount 
+20170316@20:36:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:36:49 [System] getAdoptInfo 
+20170316@20:36:49 [System] getShopInfo 
+20170316@20:36:49 [System] getShopTime 
+20170316@20:36:49 [System] initializeUIControlValues 
+20170316@20:36:49 [System] getLoggedInAccount 
+20170316@20:36:49 [System] getLoggedInAccount 
+20170316@20:36:49 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:36:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:36:52 [System] getLoggedInAccount 
+20170316@20:36:52 [System] getLoggedInAccount 
+20170316@20:37:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:37:17 [System] getAdoptInfo 
+20170316@20:37:17 [System] getShopInfo 
+20170316@20:37:17 [System] getShopTime 
+20170316@20:37:17 [System] initializeUIControlValues 
+20170316@20:37:17 [System] getLoggedInAccount 
+20170316@20:37:17 [System] getLoggedInAccount 
+20170316@20:37:17 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:37:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:37:20 [System] getLoggedInAccount 
+20170316@20:37:20 [System] getLoggedInAccount 
+20170316@20:38:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:38:53 [System] getAdoptInfo 
+20170316@20:38:53 [System] getShopInfo 
+20170316@20:38:53 [System] getShopTime 
+20170316@20:38:54 [System] initializeUIControlValues 
+20170316@20:38:54 [System] getLoggedInAccount 
+20170316@20:38:54 [System] getLoggedInAccount 
+20170316@20:38:54 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:38:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:38:57 [System] getLoggedInAccount 
+20170316@20:38:57 [System] getLoggedInAccount 
+20170316@20:39:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:39:16 [System] getAdoptInfo 
+20170316@20:39:16 [System] getShopInfo 
+20170316@20:39:16 [System] getShopTime 
+20170316@20:39:16 [System] initializeUIControlValues 
+20170316@20:39:16 [System] getLoggedInAccount 
+20170316@20:39:16 [System] getLoggedInAccount 
+20170316@20:39:17 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:39:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:39:20 [System] getLoggedInAccount 
+20170316@20:39:20 [System] getLoggedInAccount 
+20170316@20:39:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:39:22 [System] getLoggedInAccount 
+20170316@20:39:22 [System] getLoggedInAccount 
+20170316@20:39:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:39:24 [System] getLoggedInAccount 
+20170316@20:39:24 [System] getLoggedInAccount 
+20170316@20:50:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:50:49 [System] getLoggedInAccount 
+20170316@20:50:49 [System] getLoggedInAccount 
+20170316@20:54:46 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@20:54:46 [System] getLoggedInAccount 
+20170316@20:54:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:54:53 [System] getAdoptInfo 
+20170316@20:54:53 [System] getShopInfo 
+20170316@20:54:53 [System] getShopTime 
+20170316@20:54:53 [System] initializeUIControlValues 
+20170316@20:54:53 [System] getLoggedInAccount 
+20170316@20:54:53 [System] getLoggedInAccount 
+20170316@20:54:53 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:54:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:54:57 [System] getLoggedInAccount 
+20170316@20:54:57 [System] getLoggedInAccount 
+20170316@20:55:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:55:10 [System] getAdoptInfo 
+20170316@20:55:10 [System] getShopInfo 
+20170316@20:55:10 [System] getShopTime 
+20170316@20:55:10 [System] initializeUIControlValues 
+20170316@20:55:10 [System] getLoggedInAccount 
+20170316@20:55:10 [System] getLoggedInAccount 
+20170316@20:55:10 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:55:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:55:14 [System] getLoggedInAccount 
+20170316@20:55:14 [System] getLoggedInAccount 
+20170316@20:57:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:57:45 [System] getAdoptInfo 
+20170316@20:57:45 [System] getShopInfo 
+20170316@20:57:45 [System] getShopTime 
+20170316@20:57:45 [System] initializeUIControlValues 
+20170316@20:57:45 [System] getLoggedInAccount 
+20170316@20:57:45 [System] getLoggedInAccount 
+20170316@20:57:45 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:57:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:57:49 [System] getLoggedInAccount 
+20170316@20:57:49 [System] getLoggedInAccount 
+20170316@20:58:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:58:06 [System] getLoggedInAccount 
+20170316@20:58:06 [System] getLoggedInAccount 
+20170316@20:58:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:58:16 [System] getLoggedInAccount 
+20170316@20:58:16 [System] getLoggedInAccount 
+20170316@20:58:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:58:32 [System] getLoggedInAccount 
+20170316@20:58:32 [System] getLoggedInAccount 
+20170316@20:58:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:58:36 [System] getAdoptInfo 
+20170316@20:58:36 [System] getShopInfo 
+20170316@20:58:36 [System] getShopTime 
+20170316@20:58:36 [System] initializeUIControlValues 
+20170316@20:58:36 [System] getLoggedInAccount 
+20170316@20:58:36 [System] getLoggedInAccount 
+20170316@20:58:36 [System] DLAdoptInfo_ItemDataBound 
+20170316@20:58:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@20:58:41 [System] getLoggedInAccount 
+20170316@20:58:41 [System] getLoggedInAccount 
+20170316@21:00:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:00:19 [System] getAdoptInfo 
+20170316@21:00:19 [System] getShopInfo 
+20170316@21:00:19 [System] getShopTime 
+20170316@21:00:19 [System] initializeUIControlValues 
+20170316@21:00:19 [System] getLoggedInAccount 
+20170316@21:00:19 [System] getLoggedInAccount 
+20170316@21:00:19 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:00:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:00:24 [System] getLoggedInAccount 
+20170316@21:00:24 [System] getLoggedInAccount 
+20170316@21:00:24 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:24 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:24 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:24 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:24 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:00:43 [System] getLoggedInAccount 
+20170316@21:00:43 [System] getLoggedInAccount 
+20170316@21:00:43 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:43 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:43 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:43 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:43 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:00:58 [System] getAdoptInfo 
+20170316@21:00:58 [System] getShopInfo 
+20170316@21:00:58 [System] getShopTime 
+20170316@21:00:58 [System] initializeUIControlValues 
+20170316@21:00:58 [System] getLoggedInAccount 
+20170316@21:00:58 [System] getLoggedInAccount 
+20170316@21:00:58 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:01:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:01:02 [System] getLoggedInAccount 
+20170316@21:01:02 [System] getLoggedInAccount 
+20170316@21:01:02 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:01:02 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:01:02 [System] MessageHandler : Appointment Time 
+20170316@21:01:02 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:01:02 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:01:02 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:02:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:02:46 [System] getAdoptInfo 
+20170316@21:02:46 [System] getShopInfo 
+20170316@21:02:46 [System] getShopTime 
+20170316@21:02:46 [System] initializeUIControlValues 
+20170316@21:02:46 [System] getLoggedInAccount 
+20170316@21:02:46 [System] getLoggedInAccount 
+20170316@21:02:46 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:02:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:02:57 [System] getLoggedInAccount 
+20170316@21:02:57 [System] getLoggedInAccount 
+20170316@21:03:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:03:02 [System] getLoggedInAccount 
+20170316@21:03:02 [System] getLoggedInAccount 
+20170316@21:03:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:03:04 [System] getAdoptInfo 
+20170316@21:03:04 [System] getShopInfo 
+20170316@21:03:04 [System] getShopTime 
+20170316@21:03:05 [System] initializeUIControlValues 
+20170316@21:03:05 [System] getLoggedInAccount 
+20170316@21:03:05 [System] getLoggedInAccount 
+20170316@21:03:05 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:03:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:03:14 [System] getLoggedInAccount 
+20170316@21:03:14 [System] getLoggedInAccount 
+20170316@21:04:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:04:49 [System] getAdoptInfo 
+20170316@21:04:49 [System] getShopInfo 
+20170316@21:04:50 [System] getShopTime 
+20170316@21:04:50 [System] initializeUIControlValues 
+20170316@21:04:50 [System] getLoggedInAccount 
+20170316@21:04:50 [System] getLoggedInAccount 
+20170316@21:04:50 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:04:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:04:55 [System] getLoggedInAccount 
+20170316@21:04:55 [System] getLoggedInAccount 
+20170316@21:04:55 [System] MessageHandler : Appointment Time 
+20170316@21:05:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:05:14 [System] getLoggedInAccount 
+20170316@21:05:14 [System] getLoggedInAccount 
+20170316@21:05:14 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:05:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:05:27 [System] getLoggedInAccount 
+20170316@21:05:27 [System] getLoggedInAccount 
+20170316@21:05:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:05:46 [System] getLoggedInAccount 
+20170316@21:05:46 [System] getLoggedInAccount 
+20170316@21:05:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:05:50 [System] getLoggedInAccount 
+20170316@21:05:51 [System] getLoggedInAccount 
+20170316@21:05:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:05:53 [System] getLoggedInAccount 
+20170316@21:05:53 [System] getLoggedInAccount 
+20170316@21:05:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:05:55 [System] getAdoptInfo 
+20170316@21:05:55 [System] getShopInfo 
+20170316@21:05:55 [System] getShopTime 
+20170316@21:05:55 [System] initializeUIControlValues 
+20170316@21:05:55 [System] getLoggedInAccount 
+20170316@21:05:55 [System] getLoggedInAccount 
+20170316@21:05:55 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:05:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:06:00 [System] getLoggedInAccount 
+20170316@21:06:00 [System] getLoggedInAccount 
+20170316@21:06:00 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:12:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:12:37 [System] getAdoptInfo 
+20170316@21:12:37 [System] getShopInfo 
+20170316@21:12:37 [System] getShopTime 
+20170316@21:12:37 [System] initializeUIControlValues 
+20170316@21:12:37 [System] getLoggedInAccount 
+20170316@21:12:37 [System] getLoggedInAccount 
+20170316@21:12:38 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:13:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:13:23 [System] getAdoptInfo 
+20170316@21:13:23 [System] getShopInfo 
+20170316@21:13:23 [System] getShopTime 
+20170316@21:13:23 [System] initializeUIControlValues 
+20170316@21:13:23 [System] getLoggedInAccount 
+20170316@21:13:24 [System] getLoggedInAccount 
+20170316@21:13:24 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:13:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:13:29 [System] getAdoptInfo 
+20170316@21:13:29 [System] getShopInfo 
+20170316@21:13:29 [System] getShopTime 
+20170316@21:13:29 [System] initializeUIControlValues 
+20170316@21:13:29 [System] getLoggedInAccount 
+20170316@21:13:29 [System] getLoggedInAccount 
+20170316@21:13:30 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:13:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:13:35 [System] getLoggedInAccount 
+20170316@21:13:35 [System] getLoggedInAccount 
+20170316@21:13:35 [System] MessageHandler : Appointment Time 
+20170316@21:13:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:13:40 [System] getLoggedInAccount 
+20170316@21:13:40 [System] getLoggedInAccount 
+20170316@21:13:40 [System] MessageHandler : Appointment Time 
+20170316@21:13:46 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:13:46 [System] getLoggedInAccount 
+20170316@21:13:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:13:51 [System] getAdoptInfo 
+20170316@21:13:51 [System] getShopInfo 
+20170316@21:13:51 [System] getShopTime 
+20170316@21:13:51 [System] initializeUIControlValues 
+20170316@21:13:51 [System] getLoggedInAccount 
+20170316@21:13:51 [System] getLoggedInAccount 
+20170316@21:13:51 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:13:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:13:53 [System] getLoggedInAccount 
+20170316@21:13:53 [System] getLoggedInAccount 
+20170316@21:13:53 [System] MessageHandler : Appointment Time 
+20170316@21:14:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:14:07 [System] getLoggedInAccount 
+20170316@21:14:07 [System] getLoggedInAccount 
+20170316@21:14:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170316@21:14:09 [System] getLoggedInAccount 
+20170316@21:14:09 [System] getLoggedInAccount 
+20170316@21:14:11 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:14:11 [System] getLoggedInAccount 
+20170316@21:14:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@21:14:13 [System] getAdoptInfo 
+20170316@21:14:13 [System] getShopInfo 
+20170316@21:14:13 [System] getShopTime 
+20170316@21:14:13 [System] initializeUIControlValues 
+20170316@21:14:13 [System] getLoggedInAccount 
+20170316@21:14:13 [System] getLoggedInAccount 
+20170316@21:14:14 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:14:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@21:14:20 [System] getLoggedInAccount 
+20170316@21:14:20 [System] getLoggedInAccount 
+20170316@21:14:20 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:14:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@21:14:33 [System] getLoggedInAccount 
+20170316@21:14:33 [System] getLoggedInAccount 
+20170316@21:14:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170316@21:14:42 [System] getAdoptInfo 
+20170316@21:14:42 [System] getShopInfo 
+20170316@21:14:43 [System] getShopTime 
+20170316@21:14:43 [System] initializeUIControlValues 
+20170316@21:14:43 [System] getLoggedInAccount 
+20170316@21:14:43 [System] getLoggedInAccount 
+20170316@21:14:43 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:14:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170316@21:14:46 [System] getLoggedInAccount 
+20170316@21:14:46 [System] getLoggedInAccount 
+20170316@21:14:46 [System] MessageHandler : Appointment Time 
+20170316@21:14:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170316@21:14:53 [System] getLoggedInAccount 
+20170316@21:14:53 [System] getLoggedInAccount 
+20170316@21:14:53 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:15:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170316@21:15:03 [System] getAdoptInfo 
+20170316@21:15:03 [System] getShopInfo 
+20170316@21:15:03 [System] getShopTime 
+20170316@21:15:04 [System] initializeUIControlValues 
+20170316@21:15:04 [System] getLoggedInAccount 
+20170316@21:15:04 [System] getLoggedInAccount 
+20170316@21:15:04 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:15:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170316@21:15:11 [System] getLoggedInAccount 
+20170316@21:15:11 [System] getLoggedInAccount 
+20170316@21:15:11 [System] MessageHandler : Appointment Time 
+20170316@21:15:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170316@21:15:15 [System] getLoggedInAccount 
+20170316@21:15:15 [System] getLoggedInAccount 
+20170316@21:15:15 [System] MessageHandler : Appointment Time 
+20170316@21:15:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170316@21:15:17 [System] getLoggedInAccount 
+20170316@21:15:17 [System] getLoggedInAccount 
+20170316@21:15:17 [System] MessageHandler : Appointment Time 
+20170316@21:15:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170316@21:15:20 [System] getLoggedInAccount 
+20170316@21:15:20 [System] getLoggedInAccount 
+20170316@21:15:20 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:25:34 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:25:34 [System] getLoggedInAccount 
+20170316@21:25:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@21:25:36 [System] getAdoptInfo 
+20170316@21:25:36 [System] getShopInfo 
+20170316@21:25:36 [System] getShopTime 
+20170316@21:25:36 [System] initializeUIControlValues 
+20170316@21:25:36 [System] getLoggedInAccount 
+20170316@21:25:36 [System] getLoggedInAccount 
+20170316@21:25:37 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:25:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@21:25:43 [System] getLoggedInAccount 
+20170316@21:25:43 [System] getLoggedInAccount 
+20170316@21:25:43 [System] MessageHandler : Appointment Time 
+20170316@21:26:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@21:26:25 [System] getAdoptInfo 
+20170316@21:26:25 [System] getShopInfo 
+20170316@21:26:25 [System] getShopTime 
+20170316@21:26:25 [System] initializeUIControlValues 
+20170316@21:26:25 [System] getLoggedInAccount 
+20170316@21:26:25 [System] getLoggedInAccount 
+20170316@21:26:25 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:26:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@21:26:29 [System] getLoggedInAccount 
+20170316@21:26:29 [System] getLoggedInAccount 
+20170316@21:26:29 [System] MessageHandler : Appointment Time 
+20170316@21:27:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@21:28:00 [System] getAdoptInfo 
+20170316@21:28:00 [System] getShopInfo 
+20170316@21:28:00 [System] getShopTime 
+20170316@21:28:00 [System] initializeUIControlValues 
+20170316@21:28:00 [System] getLoggedInAccount 
+20170316@21:28:00 [System] getLoggedInAccount 
+20170316@21:28:00 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:28:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170316@21:28:05 [System] getLoggedInAccount 
+20170316@21:28:05 [System] getLoggedInAccount 
+20170316@21:28:05 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:28:14 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:28:14 [System] getLoggedInAccount 
+20170316@21:28:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@21:28:16 [System] getAdoptInfo 
+20170316@21:28:16 [System] getShopInfo 
+20170316@21:28:16 [System] getShopTime 
+20170316@21:28:17 [System] initializeUIControlValues 
+20170316@21:28:17 [System] getLoggedInAccount 
+20170316@21:28:17 [System] getLoggedInAccount 
+20170316@21:28:17 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:28:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@21:28:31 [System] getLoggedInAccount 
+20170316@21:28:31 [System] getLoggedInAccount 
+20170316@21:28:31 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:28:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@21:28:33 [System] getLoggedInAccount 
+20170316@21:28:33 [System] getLoggedInAccount 
+20170316@21:28:33 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:28:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@21:28:36 [System] getLoggedInAccount 
+20170316@21:28:36 [System] getLoggedInAccount 
+20170316@21:28:36 [System] MessageHandler : Appointment Time 
+20170316@21:29:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@21:29:09 [System] getLoggedInAccount 
+20170316@21:29:09 [System] getLoggedInAccount 
+20170316@21:29:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@21:29:10 [System] getLoggedInAccount 
+20170316@21:29:10 [System] getLoggedInAccount 
+20170316@21:29:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
+20170316@21:29:27 [System] getAdoptInfo 
+20170316@21:29:27 [System] getShopInfo 
+20170316@21:29:27 [System] getShopTime 
+20170316@21:29:27 [System] initializeUIControlValues 
+20170316@21:29:27 [System] getLoggedInAccount 
+20170316@21:29:27 [System] getLoggedInAccount 
+20170316@21:29:28 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:29:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170316@21:29:31 [System] getAdoptInfo 
+20170316@21:29:31 [System] getShopInfo 
+20170316@21:29:32 [System] getShopTime 
+20170316@21:29:32 [System] initializeUIControlValues 
+20170316@21:29:32 [System] getLoggedInAccount 
+20170316@21:29:32 [System] getLoggedInAccount 
+20170316@21:29:32 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:29:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:29:36 [System] getAdoptInfo 
+20170316@21:29:36 [System] getShopInfo 
+20170316@21:29:36 [System] getShopTime 
+20170316@21:29:36 [System] initializeUIControlValues 
+20170316@21:29:36 [System] getLoggedInAccount 
+20170316@21:29:36 [System] getLoggedInAccount 
+20170316@21:29:36 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:29:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:29:49 [System] getLoggedInAccount 
+20170316@21:29:49 [System] getLoggedInAccount 
+20170316@21:29:49 [System] MessageHandler : Appointment Time 
+20170316@21:30:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:30:43 [System] getAdoptInfo 
+20170316@21:30:43 [System] getShopInfo 
+20170316@21:30:43 [System] getShopTime 
+20170316@21:30:43 [System] initializeUIControlValues 
+20170316@21:30:43 [System] getLoggedInAccount 
+20170316@21:30:43 [System] getLoggedInAccount 
+20170316@21:30:43 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:30:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:30:48 [System] getLoggedInAccount 
+20170316@21:30:48 [System] getLoggedInAccount 
+20170316@21:30:48 [System] MessageHandler : Appointment Time 
+20170316@21:31:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:31:05 [System] getLoggedInAccount 
+20170316@21:31:05 [System] getLoggedInAccount 
+20170316@21:31:05 [System] MessageHandler : Appointment Time 
+20170316@21:31:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:31:29 [System] getAdoptInfo 
+20170316@21:31:29 [System] getShopInfo 
+20170316@21:31:29 [System] getShopTime 
+20170316@21:31:29 [System] initializeUIControlValues 
+20170316@21:31:29 [System] getLoggedInAccount 
+20170316@21:31:29 [System] getLoggedInAccount 
+20170316@21:31:29 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:32:14 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:32:14 [System] getLoggedInAccount 
+20170316@21:32:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:32:16 [System] getAdoptInfo 
+20170316@21:32:16 [System] getShopInfo 
+20170316@21:32:16 [System] getShopTime 
+20170316@21:32:16 [System] initializeUIControlValues 
+20170316@21:32:16 [System] getLoggedInAccount 
+20170316@21:32:16 [System] getLoggedInAccount 
+20170316@21:32:17 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:32:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:32:22 [System] getLoggedInAccount 
+20170316@21:32:22 [System] getLoggedInAccount 
+20170316@21:32:22 [System] MessageHandler : Appointment Time 
+20170316@21:32:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:32:49 [System] getLoggedInAccount 
+20170316@21:32:49 [System] getLoggedInAccount 
+20170316@21:32:49 [System] MessageHandler : Appointment Time 
+20170316@21:37:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:37:38 [System] getAdoptInfo 
+20170316@21:37:38 [System] getShopInfo 
+20170316@21:37:38 [System] getShopTime 
+20170316@21:37:38 [System] initializeUIControlValues 
+20170316@21:37:38 [System] getLoggedInAccount 
+20170316@21:37:38 [System] getLoggedInAccount 
+20170316@21:37:39 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:37:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:37:55 [System] getLoggedInAccount 
+20170316@21:37:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:37:59 [System] getAdoptInfo 
+20170316@21:37:59 [System] getShopInfo 
+20170316@21:37:59 [System] getShopTime 
+20170316@21:38:00 [System] initializeUIControlValues 
+20170316@21:38:00 [System] getLoggedInAccount 
+20170316@21:38:00 [System] getLoggedInAccount 
+20170316@21:38:00 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:38:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:38:03 [System] getLoggedInAccount 
+20170316@21:38:03 [System] getLoggedInAccount 
+20170316@21:38:03 [System] MessageHandler : Appointment Time 
+20170316@21:40:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:40:22 [System] getAdoptInfo 
+20170316@21:40:22 [System] getShopInfo 
+20170316@21:40:22 [System] getShopTime 
+20170316@21:40:22 [System] initializeUIControlValues 
+20170316@21:40:22 [System] getLoggedInAccount 
+20170316@21:40:22 [System] getLoggedInAccount 
+20170316@21:40:23 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:40:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:40:30 [System] getLoggedInAccount 
+20170316@21:40:30 [System] getLoggedInAccount 
+20170316@21:40:30 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:40:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:40:32 [System] getLoggedInAccount 
+20170316@21:40:32 [System] getLoggedInAccount 
+20170316@21:40:32 [System] MessageHandler : Appointment Time 
+20170316@21:40:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:40:53 [System] getAdoptInfo 
+20170316@21:40:53 [System] getShopInfo 
+20170316@21:40:53 [System] getShopTime 
+20170316@21:40:53 [System] getLoggedInAccount 
+20170316@21:40:53 [System] getLoggedInAccount 
+20170316@21:40:54 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:41:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:41:01 [System] getLoggedInAccount 
+20170316@21:41:01 [System] getLoggedInAccount 
+20170316@21:41:01 [System] MessageHandler : Appointment Time 
+20170316@21:41:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:41:11 [System] getAdoptInfo 
+20170316@21:41:11 [System] getShopInfo 
+20170316@21:41:11 [System] getShopTime 
+20170316@21:41:11 [System] getLoggedInAccount 
+20170316@21:41:11 [System] getLoggedInAccount 
+20170316@21:41:11 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:41:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:41:15 [System] getLoggedInAccount 
+20170316@21:41:15 [System] getLoggedInAccount 
+20170316@21:41:15 [System] MessageHandler : Appointment Time 
+20170316@21:41:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:41:19 [System] getLoggedInAccount 
+20170316@21:41:19 [System] getLoggedInAccount 
+20170316@21:41:19 [System] MessageHandler : Appointment Time 
+20170316@21:41:40 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:41:40 [System] getLoggedInAccount 
+20170316@21:41:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:41:41 [System] getAdoptInfo 
+20170316@21:41:42 [System] getShopInfo 
+20170316@21:41:42 [System] getShopTime 
+20170316@21:41:42 [System] getLoggedInAccount 
+20170316@21:41:42 [System] getLoggedInAccount 
+20170316@21:41:42 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:41:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:41:45 [System] getLoggedInAccount 
+20170316@21:41:45 [System] getLoggedInAccount 
+20170316@21:41:45 [System] MessageHandler : Appointment Time 
+20170316@21:41:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:41:57 [System] getAdoptInfo 
+20170316@21:41:57 [System] getShopInfo 
+20170316@21:41:57 [System] getShopTime 
+20170316@21:41:57 [System] getLoggedInAccount 
+20170316@21:41:57 [System] getLoggedInAccount 
+20170316@21:41:57 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:42:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:42:02 [System] getLoggedInAccount 
+20170316@21:42:02 [System] getLoggedInAccount 
+20170316@21:42:02 [System] MessageHandler : Appointment Time 
+20170316@21:42:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:42:17 [System] getAdoptInfo 
+20170316@21:42:17 [System] getShopInfo 
+20170316@21:42:17 [System] getShopTime 
+20170316@21:42:17 [System] getLoggedInAccount 
+20170316@21:42:17 [System] getLoggedInAccount 
+20170316@21:42:17 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:42:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:42:20 [System] getAdoptInfo 
+20170316@21:42:20 [System] getShopInfo 
+20170316@21:42:20 [System] getShopTime 
+20170316@21:42:21 [System] getLoggedInAccount 
+20170316@21:42:21 [System] getLoggedInAccount 
+20170316@21:42:21 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:42:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:42:24 [System] getLoggedInAccount 
+20170316@21:42:24 [System] getLoggedInAccount 
+20170316@21:42:24 [System] MessageHandler : Appointment Time 
+20170316@21:42:50 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:42:50 [System] getLoggedInAccount 
+20170316@21:42:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:42:54 [System] getAdoptInfo 
+20170316@21:42:54 [System] getShopInfo 
+20170316@21:42:54 [System] getShopTime 
+20170316@21:42:54 [System] getLoggedInAccount 
+20170316@21:42:54 [System] getLoggedInAccount 
+20170316@21:42:54 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:42:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:42:58 [System] getLoggedInAccount 
+20170316@21:42:58 [System] getLoggedInAccount 
+20170316@21:42:58 [System] MessageHandler : Appointment Time 
+20170316@21:45:11 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:45:11 [System] getLoggedInAccount 
+20170316@21:45:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:45:26 [System] getAdoptInfo 
+20170316@21:45:26 [System] getShopInfo 
+20170316@21:45:26 [System] getShopTime 
+20170316@21:45:27 [System] getLoggedInAccount 
+20170316@21:45:27 [System] getLoggedInAccount 
+20170316@21:45:27 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:45:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:45:31 [System] getLoggedInAccount 
+20170316@21:45:31 [System] getLoggedInAccount 
+20170316@21:45:31 [System] MessageHandler : Appointment Time 
+20170316@21:45:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:45:38 [System] getLoggedInAccount 
+20170316@21:45:38 [System] getLoggedInAccount 
+20170316@21:45:38 [System] MessageHandler : Appointment Time 
+20170316@21:45:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:45:59 [System] getAdoptInfo 
+20170316@21:45:59 [System] getShopInfo 
+20170316@21:45:59 [System] getShopTime 
+20170316@21:45:59 [System] getLoggedInAccount 
+20170316@21:45:59 [System] getLoggedInAccount 
+20170316@21:45:59 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:46:12 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:46:12 [System] getLoggedInAccount 
+20170316@21:46:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:46:15 [System] getAdoptInfo 
+20170316@21:46:15 [System] getShopInfo 
+20170316@21:46:15 [System] getShopTime 
+20170316@21:46:15 [System] getLoggedInAccount 
+20170316@21:46:15 [System] getLoggedInAccount 
+20170316@21:46:16 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:46:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:46:19 [System] getLoggedInAccount 
+20170316@21:46:19 [System] getLoggedInAccount 
+20170316@21:46:19 [System] MessageHandler : Appointment Time 
+20170316@21:46:41 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:46:41 [System] getLoggedInAccount 
+20170316@21:46:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:46:43 [System] getAdoptInfo 
+20170316@21:46:43 [System] getShopInfo 
+20170316@21:46:43 [System] getShopTime 
+20170316@21:46:43 [System] getLoggedInAccount 
+20170316@21:46:43 [System] getLoggedInAccount 
+20170316@21:46:44 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:46:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:46:46 [System] getLoggedInAccount 
+20170316@21:46:46 [System] getLoggedInAccount 
+20170316@21:46:46 [System] MessageHandler : Appointment Time 
+20170316@21:48:04 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:48:04 [System] getLoggedInAccount 
+20170316@21:48:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:48:08 [System] getAdoptInfo 
+20170316@21:48:08 [System] getShopInfo 
+20170316@21:48:08 [System] getShopTime 
+20170316@21:48:08 [System] getLoggedInAccount 
+20170316@21:48:08 [System] getLoggedInAccount 
+20170316@21:48:08 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:48:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:48:11 [System] getLoggedInAccount 
+20170316@21:48:11 [System] getLoggedInAccount 
+20170316@21:48:11 [System] MessageHandler : Appointment Time 
+20170316@21:49:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:49:02 [System] getLoggedInAccount 
+20170316@21:49:02 [System] getLoggedInAccount 
+20170316@21:49:02 [System] MessageHandler : Appointment Time 
+20170316@21:50:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:50:10 [System] getLoggedInAccount 
+20170316@21:50:10 [System] getLoggedInAccount 
+20170316@21:55:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:55:33 [System] getAdoptInfo 
+20170316@21:55:33 [System] getShopInfo 
+20170316@21:55:33 [System] getShopTime 
+20170316@21:55:33 [System] getLoggedInAccount 
+20170316@21:55:33 [System] getLoggedInAccount 
+20170316@21:55:33 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:56:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:56:02 [System] getLoggedInAccount 
+20170316@21:56:02 [System] getLoggedInAccount 
+20170316@21:56:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:56:06 [System] getLoggedInAccount 
+20170316@21:56:06 [System] getLoggedInAccount 
+20170316@21:56:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:56:13 [System] getLoggedInAccount 
+20170316@21:56:13 [System] getLoggedInAccount 
+20170316@21:56:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:56:42 [System] getAdoptInfo 
+20170316@21:56:42 [System] getShopInfo 
+20170316@21:56:42 [System] getShopTime 
+20170316@21:56:42 [System] getLoggedInAccount 
+20170316@21:56:42 [System] getLoggedInAccount 
+20170316@21:56:42 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:56:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:56:52 [System] getLoggedInAccount 
+20170316@21:56:52 [System] getLoggedInAccount 
+20170316@21:56:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:56:58 [System] getLoggedInAccount 
+20170316@21:56:58 [System] getLoggedInAccount 
+20170316@21:59:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:59:35 [System] getLoggedInAccount 
+20170316@21:59:35 [System] getLoggedInAccount 
+20170316@21:59:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:59:38 [System] getLoggedInAccount 
+20170316@21:59:38 [System] getLoggedInAccount 
+20170316@21:59:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:59:41 [System] getLoggedInAccount 
+20170316@21:59:41 [System] getLoggedInAccount 
+20170316@21:59:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:59:48 [System] getAdoptInfo 
+20170316@21:59:48 [System] getShopInfo 
+20170316@21:59:48 [System] getShopTime 
+20170316@21:59:48 [System] getLoggedInAccount 
+20170316@21:59:48 [System] getLoggedInAccount 
+20170316@21:59:49 [System] DLAdoptInfo_ItemDataBound 
+20170316@21:59:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:59:52 [System] getLoggedInAccount 
+20170316@21:59:52 [System] getLoggedInAccount 
+20170316@21:59:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@21:59:58 [System] getLoggedInAccount 
+20170316@21:59:58 [System] getLoggedInAccount 
+20170316@21:59:58 [System] BTNLogin_Click 
+20170316@21:59:58 [System] MessageHandler : Either email or password is invalid 
+20170316@21:59:58 [System] signIn 
+20170316@21:59:59 [System] getShopInfo 
+20170316@21:59:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx 
+20170316@21:59:59 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@21:59:59 [System] getLoggedInAccount 
+20170316@22:00:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:00:08 [System] getAdoptInfo 
+20170316@22:00:08 [System] getShopInfo 
+20170316@22:00:08 [System] getShopTime 
+20170316@22:00:08 [System] getLoggedInAccount 
+20170316@22:00:08 [System] getLoggedInAccount 
+20170316@22:00:08 [System] DLAdoptInfo_ItemDataBound 
+20170316@22:00:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:00:12 [System] getLoggedInAccount 
+20170316@22:00:12 [System] getLoggedInAccount 
+20170316@22:00:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:00:19 [System] getLoggedInAccount 
+20170316@22:00:19 [System] getLoggedInAccount 
+20170316@22:00:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:00:35 [System] getLoggedInAccount 
+20170316@22:00:35 [System] getLoggedInAccount 
+20170316@22:01:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:01:10 [System] getLoggedInAccount 
+20170316@22:01:10 [System] getLoggedInAccount 
+20170316@22:01:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:01:16 [System] getLoggedInAccount 
+20170316@22:01:16 [System] getLoggedInAccount 
+20170316@22:01:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:01:16 [System] getLoggedInAccount 
+20170316@22:01:16 [System] getLoggedInAccount 
+20170316@22:01:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:01:17 [System] getLoggedInAccount 
+20170316@22:01:17 [System] getLoggedInAccount 
+20170316@22:01:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:01:17 [System] getLoggedInAccount 
+20170316@22:01:17 [System] getLoggedInAccount 
+20170316@22:01:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@22:01:44 [System] getLoggedInAccount 
+20170316@22:02:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:02:06 [System] getAdoptInfo 
+20170316@22:02:07 [System] getShopInfo 
+20170316@22:02:07 [System] getShopTime 
+20170316@22:02:07 [System] getLoggedInAccount 
+20170316@22:02:07 [System] getLoggedInAccount 
+20170316@22:02:07 [System] DLAdoptInfo_ItemDataBound 
+20170316@22:02:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:02:10 [System] getLoggedInAccount 
+20170316@22:02:10 [System] getLoggedInAccount 
+20170316@22:02:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:02:13 [System] getLoggedInAccount 
+20170316@22:02:13 [System] getLoggedInAccount 
+20170316@22:02:13 [System] BTNLogin_Click 
+20170316@22:02:13 [System] MessageHandler : Either email or password is invalid 
+20170316@22:02:14 [System] signIn 
+20170316@22:02:14 [System] getShopInfo 
+20170316@22:02:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:02:20 [System] getAdoptInfo 
+20170316@22:02:20 [System] getShopInfo 
+20170316@22:02:20 [System] getShopTime 
+20170316@22:02:21 [System] getLoggedInAccount 
+20170316@22:02:21 [System] getLoggedInAccount 
+20170316@22:02:21 [System] DLAdoptInfo_ItemDataBound 
+20170316@22:02:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:02:37 [System] getLoggedInAccount 
+20170316@22:02:37 [System] getLoggedInAccount 
+20170316@22:03:20 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@22:03:20 [System] getLoggedInAccount 
+20170316@22:03:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:03:24 [System] getAdoptInfo 
+20170316@22:03:24 [System] getShopInfo 
+20170316@22:03:24 [System] getShopTime 
+20170316@22:03:24 [System] getLoggedInAccount 
+20170316@22:03:24 [System] getLoggedInAccount 
+20170316@22:03:25 [System] DLAdoptInfo_ItemDataBound 
+20170316@22:03:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:03:28 [System] getLoggedInAccount 
+20170316@22:03:28 [System] getLoggedInAccount 
+20170316@22:03:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:03:31 [System] getLoggedInAccount 
+20170316@22:03:31 [System] getLoggedInAccount 
+20170316@22:03:55 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170316@22:03:55 [System] getLoggedInAccount 
+20170316@22:03:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:03:59 [System] getAdoptInfo 
+20170316@22:03:59 [System] getShopInfo 
+20170316@22:03:59 [System] getShopTime 
+20170316@22:04:00 [System] getLoggedInAccount 
+20170316@22:04:00 [System] getLoggedInAccount 
+20170316@22:04:00 [System] DLAdoptInfo_ItemDataBound 
+20170316@22:04:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:04:03 [System] getLoggedInAccount 
+20170316@22:04:03 [System] getLoggedInAccount 
+20170316@22:04:03 [System] MessageHandler : Appointment Time 
+20170316@22:04:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:04:05 [System] getLoggedInAccount 
+20170316@22:04:05 [System] getLoggedInAccount 
+20170316@22:04:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:04:06 [System] getLoggedInAccount 
+20170316@22:04:06 [System] getLoggedInAccount 
+20170316@22:04:06 [System] BTNAdoptMe_Click 
+20170316@22:04:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:04:30 [System] getAdoptInfo 
+20170316@22:04:30 [System] getShopInfo 
+20170316@22:04:30 [System] getShopTime 
+20170316@22:04:30 [System] getLoggedInAccount 
+20170316@22:04:30 [System] getLoggedInAccount 
+20170316@22:04:30 [System] DLAdoptInfo_ItemDataBound 
+20170316@22:04:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:04:37 [System] getLoggedInAccount 
+20170316@22:04:37 [System] getLoggedInAccount 
+20170316@22:04:37 [System] MessageHandler : Appointment Time 
+20170316@22:04:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:04:40 [System] getLoggedInAccount 
+20170316@22:04:40 [System] getLoggedInAccount 
+20170316@22:04:40 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@22:06:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:06:05 [System] getAdoptInfo 
+20170316@22:06:05 [System] getShopInfo 
+20170316@22:06:05 [System] getShopTime 
+20170316@22:06:05 [System] getLoggedInAccount 
+20170316@22:06:05 [System] getLoggedInAccount 
+20170316@22:06:05 [System] DLAdoptInfo_ItemDataBound 
+20170316@22:06:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:06:08 [System] getLoggedInAccount 
+20170316@22:06:08 [System] getLoggedInAccount 
+20170316@22:06:08 [System] MessageHandler : Appointment Time 
+20170316@22:06:08 [System] MessageHandler : Appointment Date (Friday) 
+20170316@22:06:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:06:11 [System] getLoggedInAccount 
+20170316@22:06:11 [System] getLoggedInAccount 
+20170316@22:06:11 [System] MessageHandler : Appointment Time 
+20170316@22:06:11 [System] MessageHandler : Appointment Date (Wednesday) 
+20170316@22:06:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:06:33 [System] getLoggedInAccount 
+20170316@22:06:33 [System] getLoggedInAccount 
+20170316@22:06:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:06:34 [System] getLoggedInAccount 
+20170316@22:06:34 [System] getLoggedInAccount 
+20170316@22:06:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170316@22:06:37 [System] getLoggedInAccount 
+20170316@22:06:37 [System] getLoggedInAccount 
