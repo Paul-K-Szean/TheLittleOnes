@@ -19,13 +19,15 @@ namespace TheLittleOnesLibrary
     public class BasePageTLO : Page
     {
         protected static BasePageTLO BasePageInstance;
-        public static BasePageTLO getInstance() {
+        public static BasePageTLO getInstance()
+        {
             if (BasePageInstance == null)
                 BasePageInstance = new BasePageTLO();
             return BasePageInstance;
         }
         // Entities for current logged in user
         protected static AccountEntity TLOAccountEntity;
+        protected static AdoptionAppointmentEntity TLOAdoptionAppointmentEntity;
         //protected static ProfileEntity TLOProfileEntity;
         //protected static PetInfoEntity TLOPetInfoEntity;
         //protected static PetCharEntity TLOPetCharEntity;
@@ -49,13 +51,13 @@ namespace TheLittleOnesLibrary
         protected static List<ShopTimeEntity> TLOEditShopTimeEntities;
 
         // Controllers
-        protected AccountController accountCtrler;
-        protected ProfileController profileCtrler;
-        protected PetInfoController petInfoCtrler;
-        protected ShopInfoController shopInfoCtrler;
-        protected PhotoController photoCtrler;
-        protected AdoptInfoController adoptInfoCtrler;
-        protected PetController petCtrler;
+        protected static AccountController accountCtrler;
+        protected static ProfileController profileCtrler;
+        protected static PetInfoController petInfoCtrler;
+        protected static ShopInfoController shopInfoCtrler;
+        protected static PhotoController photoCtrler;
+        protected static AdoptInfoController adoptInfoCtrler;
+        protected static PetController petCtrler;
 
         // Data Access Object
         protected DAO dao;

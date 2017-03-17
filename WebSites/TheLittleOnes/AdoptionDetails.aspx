@@ -288,24 +288,18 @@
                                         <asp:Label ID="LBLAppmtDate" runat="server" Text="Appointment Date"></asp:Label>
                                         <div class="input-group">
                                             <input id="INPUTAppmtDate" runat="server" class="form-control datepicker" type="text"
-                                                data-date-format="dd-MM-yyyy" placeholder="Select date">
+                                                data-date-format="dd-MM-yyyy" placeholder="Select date" style="padding-left:14px;">
                                             <span class="input-group-addon">
                                                 <i class="fa fa-calendar"></i>
                                             </span>
                                             <asp:Button ID="BTNAppmtDate" runat="server" Style="display: none;" OnClick="BTNAppmtDate_Click" />
                                         </div>
 
-                                        <%--<div class="input-group">
-                                            <asp:TextBox ID="TBAppmtDate" runat="server" class="form-control datepicker" type="text"
-                                                data-date-format="dd-MM-yyyy" placeholder="Select date" AutoPostBack="true" OnTextChanged="TBAppmtDate_TextChanged"></asp:TextBox>
-                                            <span class="input-group-addon">
-                                                <i class="fa fa-calendar"></i>
-                                            </span>
-                                        </div>--%>
-
                                         <asp:Label ID="LBLAppmtTime" runat="server" Text="Appointment Time"></asp:Label>
                                         <div class="input-group">
-                                            <asp:DropDownList ID="DDLAppmtTime" runat="server" CssClass="form-control" AutoPostBack="true" Enabled="false" OnSelectedIndexChanged="DDLAppmtTime_SelectedIndexChanged">
+                                            <asp:DropDownList ID="DDLAppmtTime" runat="server" CssClass="form-control"
+                                                AutoPostBack="true" Enabled="false" OnSelectedIndexChanged="DDLAppmtTime_SelectedIndexChanged"
+                                                AppendDataBoundItems="true">
                                                 <asp:ListItem Value="">Select Time</asp:ListItem>
                                             </asp:DropDownList>
                                             <span class="input-group-addon">
@@ -313,7 +307,10 @@
                                             </span>
                                         </div>
                                         <div class="text-center">
-                                            <asp:Button ID="BTNAdoptMe" runat="server" CssClass="btn btn-primary btn-sm" Text="Adopt Me" OnClick="BTNAdoptMe_Click" />
+                                            <asp:Button ID="BTNAdoptMe" runat="server" CssClass="btn btn-primary btn-sm" Text="Adopt Me"
+                                                OnClick="BTNAdoptMe_Click" Enabled="false" />
+                                            <br />
+                                            <asp:Label ID="LBLErrorMsg" runat="server" Text="" Font-Size="Medium"></asp:Label>
                                         </div>
                                     </div>
 
@@ -378,10 +375,10 @@
                 startDate: "today",
                 constrainInput: true
             });
-              // to make a postback after selecting date, use a button click
+            // to make a postback after selecting date, use a button click
             $('.datepicker').on('changeDate', function () {
                 document.getElementById('<%=BTNAppmtDate.ClientID %>').click();
-              });
+            });
         }
     </script>
     <!--datepicker Slider ends Here-->

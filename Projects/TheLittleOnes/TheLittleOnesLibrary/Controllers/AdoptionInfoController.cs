@@ -21,6 +21,7 @@ namespace TheLittleOnesLibrary.Controllers
                 AdoptInfoInfoCtrl = new AdoptInfoController();
             return AdoptInfoInfoCtrl;
         }
+        private static AdoptionAppointmentEntity adoptionAppointmentEntity;
         // Data Access Object
         private DAO dao;
         private OleDbCommand oleDbCommand;
@@ -194,6 +195,23 @@ namespace TheLittleOnesLibrary.Controllers
                 return dataSet.Tables[0];
             }
         }
-
+        // Create adoption appointment entity
+        public AdoptionAppointmentEntity createAdoptionAppointmentEntity(AccountEntity accountEntityFrom, AdoptInfoEntity adoptInfoEntityTo, DateTime appointmentDateTime)
+        {
+            return adoptionAppointmentEntity = new AdoptionAppointmentEntity(accountEntityFrom, adoptInfoEntityTo, appointmentDateTime);
+        }
+        // Retrieve adoption appointment
+        public AdoptionAppointmentEntity getAdoptionAppointmentEntity()
+        {
+            if (adoptionAppointmentEntity != null)
+            {
+                return adoptionAppointmentEntity;
+            }
+            else
+            {
+                return null;
+            }
+        }
+        
     }
 }

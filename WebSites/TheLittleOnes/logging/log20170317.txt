@@ -1,0 +1,3265 @@
+20170317@14:13:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@14:13:55 [System] getLoggedInAccount 
+20170317@14:18:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170317@14:18:10 [System] getAdoptInfo 
+20170317@14:18:10 [System] getShopInfo 
+20170317@14:18:10 [System] getShopTime 
+20170317@14:18:10 [System] getLoggedInAccount 
+20170317@14:18:10 [System] getLoggedInAccount 
+20170317@14:18:11 [System] DLAdoptInfo_ItemDataBound 
+20170317@14:18:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170317@14:18:34 [System] getLoggedInAccount 
+20170317@14:18:34 [System] getLoggedInAccount 
+20170317@14:18:34 [System] MessageHandler : Appointment Time 
+20170317@14:18:34 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@14:18:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170317@14:18:37 [System] getLoggedInAccount 
+20170317@14:18:37 [System] getLoggedInAccount 
+20170317@14:18:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170317@14:18:38 [System] getLoggedInAccount 
+20170317@14:18:38 [System] getLoggedInAccount 
+20170317@14:18:38 [System] BTNAdoptMe_Click 
+20170317@14:18:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170317@14:18:43 [System] getLoggedInAccount 
+20170317@14:18:43 [System] getLoggedInAccount 
+20170317@14:18:43 [System] BTNLogin_Click 
+20170317@14:18:43 [System] MessageHandler : Either email or password is invalid 
+20170317@14:18:43 [System] signIn 
+20170317@14:18:43 [System] getShopInfo 
+20170317@14:18:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170317@14:18:43 [System] getAdoptInfo 
+20170317@14:18:43 [System] getShopInfo 
+20170317@14:18:44 [System] getShopTime 
+20170317@14:18:44 [System] getLoggedInAccount 
+20170317@14:18:44 [System] getLoggedInAccount 
+20170317@14:18:44 [System] DLAdoptInfo_ItemDataBound 
+20170317@14:36:09 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@14:36:09 [System] getLoggedInAccount 
+20170317@14:36:49 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@14:36:49 [System] getLoggedInAccount 
+20170317@14:36:59 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@14:36:59 [System] getLoggedInAccount 
+20170317@14:37:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:37:02 [System] getAdoptInfo 
+20170317@14:37:02 [System] getShopInfo 
+20170317@14:37:02 [System] getShopTime 
+20170317@14:37:02 [System] getLoggedInAccount 
+20170317@14:37:02 [System] getLoggedInAccount 
+20170317@14:37:02 [System] DLAdoptInfo_ItemDataBound 
+20170317@14:37:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:37:04 [System] getLoggedInAccount 
+20170317@14:37:04 [System] getLoggedInAccount 
+20170317@14:37:04 [System] BTNAdoptMe_Click 
+20170317@14:37:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:37:08 [System] getLoggedInAccount 
+20170317@14:37:08 [System] getLoggedInAccount 
+20170317@14:37:08 [System] BTNLogin_Click 
+20170317@14:37:08 [System] MessageHandler : Either email or password is invalid 
+20170317@14:37:08 [System] signIn 
+20170317@14:37:08 [System] getShopInfo 
+20170317@14:37:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:37:08 [System] getAdoptInfo 
+20170317@14:37:08 [System] getShopInfo 
+20170317@14:37:08 [System] getShopTime 
+20170317@14:37:08 [System] getLoggedInAccount 
+20170317@14:37:08 [System] getLoggedInAccount 
+20170317@14:37:08 [System] DLAdoptInfo_ItemDataBound 
+20170317@14:37:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:37:13 [System] getLoggedInAccount 
+20170317@14:37:13 [System] getLoggedInAccount 
+20170317@14:37:13 [System] BTNAdoptMe_Click 
+20170317@14:37:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:37:20 [System] getLoggedInAccount 
+20170317@14:37:20 [System] getLoggedInAccount 
+20170317@14:37:20 [System] MessageHandler : Appointment Time 
+20170317@14:37:20 [System] MessageHandler : Appointment Date (Tuesday) 
+20170317@14:37:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:37:25 [System] getLoggedInAccount 
+20170317@14:37:25 [System] getLoggedInAccount 
+20170317@14:37:25 [System] MessageHandler : Appointment Time 
+20170317@14:37:25 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@14:45:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@14:45:27 [System] getLoggedInAccount 
+20170317@14:45:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170317@14:45:39 [System] getAdoptInfo 
+20170317@14:45:39 [System] getShopInfo 
+20170317@14:45:40 [System] getShopTime 
+20170317@14:45:40 [System] getLoggedInAccount 
+20170317@14:45:40 [System] getLoggedInAccount 
+20170317@14:45:40 [System] DLAdoptInfo_ItemDataBound 
+20170317@14:45:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170317@14:45:43 [System] getLoggedInAccount 
+20170317@14:45:43 [System] getLoggedInAccount 
+20170317@14:45:44 [System] MessageHandler : Appointment Time 
+20170317@14:45:44 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@14:47:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@14:47:26 [System] getLoggedInAccount 
+20170317@14:47:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@14:47:34 [System] getAdoptInfo 
+20170317@14:47:34 [System] getShopInfo 
+20170317@14:47:34 [System] getShopTime 
+20170317@14:47:34 [System] getLoggedInAccount 
+20170317@14:47:34 [System] getLoggedInAccount 
+20170317@14:47:34 [System] DLAdoptInfo_ItemDataBound 
+20170317@14:47:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@14:47:38 [System] getLoggedInAccount 
+20170317@14:47:38 [System] getLoggedInAccount 
+20170317@14:47:38 [System] BTNAdoptMe_Click 
+20170317@14:47:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@14:47:48 [System] getLoggedInAccount 
+20170317@14:47:48 [System] getLoggedInAccount 
+20170317@14:47:48 [System] BTNLogin_Click 
+20170317@14:47:48 [System] MessageHandler : Either email or password is invalid 
+20170317@14:47:48 [System] signIn 
+20170317@14:47:48 [System] getShopInfo 
+20170317@14:47:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@14:47:48 [System] getAdoptInfo 
+20170317@14:47:48 [System] getShopInfo 
+20170317@14:47:49 [System] getShopTime 
+20170317@14:47:49 [System] getLoggedInAccount 
+20170317@14:47:49 [System] getLoggedInAccount 
+20170317@14:47:49 [System] DLAdoptInfo_ItemDataBound 
+20170317@14:47:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@14:47:52 [System] getLoggedInAccount 
+20170317@14:47:52 [System] getLoggedInAccount 
+20170317@14:47:52 [System] BTNAdoptMe_Click 
+20170317@14:47:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@14:47:53 [System] getLoggedInAccount 
+20170317@14:47:53 [System] getLoggedInAccount 
+20170317@14:47:53 [System] BTNAdoptMe_Click 
+20170317@14:47:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@14:47:53 [System] getLoggedInAccount 
+20170317@14:47:53 [System] getLoggedInAccount 
+20170317@14:47:53 [System] BTNAdoptMe_Click 
+20170317@14:47:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@14:47:54 [System] getLoggedInAccount 
+20170317@14:47:54 [System] getLoggedInAccount 
+20170317@14:47:54 [System] BTNAdoptMe_Click 
+20170317@14:47:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@14:47:54 [System] getLoggedInAccount 
+20170317@14:47:54 [System] getLoggedInAccount 
+20170317@14:47:54 [System] BTNAdoptMe_Click 
+20170317@14:47:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@14:47:54 [System] getLoggedInAccount 
+20170317@14:47:54 [System] getLoggedInAccount 
+20170317@14:47:54 [System] BTNAdoptMe_Click 
+20170317@14:54:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@14:54:26 [System] getLoggedInAccount 
+20170317@14:54:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:54:33 [System] getAdoptInfo 
+20170317@14:54:33 [System] getShopInfo 
+20170317@14:54:33 [System] getShopTime 
+20170317@14:54:33 [System] getLoggedInAccount 
+20170317@14:54:33 [System] getLoggedInAccount 
+20170317@14:54:33 [System] DLAdoptInfo_ItemDataBound 
+20170317@14:54:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:54:36 [System] getLoggedInAccount 
+20170317@14:54:36 [System] getLoggedInAccount 
+20170317@14:54:36 [System] BTNAdoptMe_Click 
+20170317@14:54:36 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@14:54:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:54:42 [System] getLoggedInAccount 
+20170317@14:54:42 [System] getLoggedInAccount 
+20170317@14:54:42 [System] MessageHandler : Appointment Time 
+20170317@14:54:42 [System] MessageHandler : Appointment Date (Tuesday) 
+20170317@14:54:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:54:43 [System] getLoggedInAccount 
+20170317@14:54:43 [System] getLoggedInAccount 
+20170317@14:54:44 [System] BTNAdoptMe_Click 
+20170317@14:54:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:54:46 [System] getLoggedInAccount 
+20170317@14:54:46 [System] getLoggedInAccount 
+20170317@14:54:46 [System] LKBTNSignOut_Click 
+20170317@14:54:46 [System] signOut 
+20170317@14:54:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx 
+20170317@14:54:46 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@14:54:46 [System] getLoggedInAccount 
+20170317@14:54:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:54:51 [System] getAdoptInfo 
+20170317@14:54:51 [System] getShopInfo 
+20170317@14:54:51 [System] getShopTime 
+20170317@14:54:51 [System] getLoggedInAccount 
+20170317@14:54:51 [System] getLoggedInAccount 
+20170317@14:54:51 [System] DLAdoptInfo_ItemDataBound 
+20170317@14:55:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:55:00 [System] getLoggedInAccount 
+20170317@14:55:00 [System] getLoggedInAccount 
+20170317@14:55:00 [System] BTNAdoptMe_Click 
+20170317@14:55:00 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@14:56:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:56:47 [System] getAdoptInfo 
+20170317@14:56:47 [System] getShopInfo 
+20170317@14:56:47 [System] getShopTime 
+20170317@14:56:47 [System] getLoggedInAccount 
+20170317@14:56:47 [System] getLoggedInAccount 
+20170317@14:56:47 [System] DLAdoptInfo_ItemDataBound 
+20170317@14:56:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@14:56:50 [System] getLoggedInAccount 
+20170317@14:56:50 [System] getLoggedInAccount 
+20170317@14:56:50 [System] BTNAdoptMe_Click 
+20170317@14:56:50 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@15:00:18 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@15:00:18 [System] getLoggedInAccount 
+20170317@15:00:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@15:00:20 [System] getAdoptInfo 
+20170317@15:00:20 [System] getShopInfo 
+20170317@15:00:20 [System] getShopTime 
+20170317@15:00:21 [System] getLoggedInAccount 
+20170317@15:00:21 [System] getLoggedInAccount 
+20170317@15:00:21 [System] DLAdoptInfo_ItemDataBound 
+20170317@15:00:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@15:00:25 [System] getLoggedInAccount 
+20170317@15:00:25 [System] getLoggedInAccount 
+20170317@15:00:25 [System] BTNAdoptMe_Click 
+20170317@15:00:25 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@15:00:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@15:00:28 [System] getLoggedInAccount 
+20170317@15:00:28 [System] getLoggedInAccount 
+20170317@15:00:28 [System] MessageHandler : Appointment Time 
+20170317@15:00:28 [System] MessageHandler : Appointment Date (Monday) 
+20170317@15:00:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@15:00:30 [System] getLoggedInAccount 
+20170317@15:00:30 [System] getLoggedInAccount 
+20170317@15:00:30 [System] BTNAdoptMe_Click 
+20170317@15:00:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@15:00:36 [System] getLoggedInAccount 
+20170317@15:00:36 [System] getLoggedInAccount 
+20170317@15:00:36 [System] BTNAdoptMe_Click 
+20170317@15:00:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@15:00:39 [System] getLoggedInAccount 
+20170317@15:00:39 [System] getLoggedInAccount 
+20170317@15:00:39 [System] BTNAdoptMe_Click 
+20170317@16:00:39 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:00:39 [System] getLoggedInAccount 
+20170317@16:00:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:00:48 [System] getAdoptInfo 
+20170317@16:00:48 [System] getShopInfo 
+20170317@16:00:48 [System] getShopTime 
+20170317@16:00:48 [System] getLoggedInAccount 
+20170317@16:00:48 [System] getLoggedInAccount 
+20170317@16:00:48 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:01:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:01:11 [System] getLoggedInAccount 
+20170317@16:01:11 [System] getLoggedInAccount 
+20170317@16:01:11 [System] BTNAdoptMe_Click 
+20170317@16:01:11 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:01:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:01:16 [System] getLoggedInAccount 
+20170317@16:01:16 [System] getLoggedInAccount 
+20170317@16:01:16 [System] BTNAdoptMe_Click 
+20170317@16:01:16 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:01:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:01:18 [System] getLoggedInAccount 
+20170317@16:01:18 [System] getLoggedInAccount 
+20170317@16:01:18 [System] BTNAdoptMe_Click 
+20170317@16:01:18 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:01:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:01:20 [System] getLoggedInAccount 
+20170317@16:01:20 [System] getLoggedInAccount 
+20170317@16:01:20 [System] MessageHandler : Appointment Time 
+20170317@16:01:20 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:01:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:01:22 [System] getLoggedInAccount 
+20170317@16:01:22 [System] getLoggedInAccount 
+20170317@16:01:22 [System] BTNAdoptMe_Click 
+20170317@16:01:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:01:24 [System] getLoggedInAccount 
+20170317@16:01:24 [System] getLoggedInAccount 
+20170317@16:01:24 [System] BTNAdoptMe_Click 
+20170317@16:01:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:01:25 [System] getLoggedInAccount 
+20170317@16:01:25 [System] getLoggedInAccount 
+20170317@16:01:25 [System] BTNAdoptMe_Click 
+20170317@16:01:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:01:30 [System] getLoggedInAccount 
+20170317@16:01:30 [System] getLoggedInAccount 
+20170317@16:01:30 [System] BTNLogin_Click 
+20170317@16:01:30 [System] MessageHandler : Either email or password is invalid 
+20170317@16:01:30 [System] signIn 
+20170317@16:01:30 [System] getShopInfo 
+20170317@16:01:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:01:30 [System] getAdoptInfo 
+20170317@16:01:30 [System] getShopInfo 
+20170317@16:01:30 [System] getShopTime 
+20170317@16:01:31 [System] getLoggedInAccount 
+20170317@16:01:31 [System] getLoggedInAccount 
+20170317@16:01:31 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:05:03 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:05:03 [System] getLoggedInAccount 
+20170317@16:05:11 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:05:11 [System] getLoggedInAccount 
+20170317@16:05:11 [System] LKBTNSignOut_Click 
+20170317@16:05:11 [System] signOut 
+20170317@16:05:11 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:05:11 [System] getLoggedInAccount 
+20170317@16:05:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170317@16:05:15 [System] getAdoptInfo 
+20170317@16:05:15 [System] getShopInfo 
+20170317@16:05:15 [System] getShopTime 
+20170317@16:05:15 [System] getLoggedInAccount 
+20170317@16:05:15 [System] getLoggedInAccount 
+20170317@16:05:15 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:05:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170317@16:05:18 [System] getLoggedInAccount 
+20170317@16:05:18 [System] getLoggedInAccount 
+20170317@16:05:18 [System] BTNAdoptMe_Click 
+20170317@16:05:18 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:05:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170317@16:05:31 [System] getLoggedInAccount 
+20170317@16:05:31 [System] getLoggedInAccount 
+20170317@16:05:31 [System] BTNAdoptMe_Click 
+20170317@16:05:31 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:05:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170317@16:05:34 [System] getLoggedInAccount 
+20170317@16:05:34 [System] getLoggedInAccount 
+20170317@16:06:08 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:06:08 [System] getLoggedInAccount 
+20170317@16:06:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:06:13 [System] getAdoptInfo 
+20170317@16:06:13 [System] getShopInfo 
+20170317@16:06:13 [System] getShopTime 
+20170317@16:06:13 [System] getLoggedInAccount 
+20170317@16:06:13 [System] getLoggedInAccount 
+20170317@16:06:13 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:06:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:06:15 [System] getLoggedInAccount 
+20170317@16:06:15 [System] getLoggedInAccount 
+20170317@16:06:15 [System] BTNAdoptMe_Click 
+20170317@16:06:15 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:06:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:06:17 [System] getLoggedInAccount 
+20170317@16:06:17 [System] getLoggedInAccount 
+20170317@16:06:17 [System] MessageHandler : Appointment Time 
+20170317@16:06:17 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:06:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:06:19 [System] getLoggedInAccount 
+20170317@16:06:19 [System] getLoggedInAccount 
+20170317@16:06:19 [System] BTNAdoptMe_Click 
+20170317@16:09:01 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:09:01 [System] getLoggedInAccount 
+20170317@16:09:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:09:07 [System] getAdoptInfo 
+20170317@16:09:07 [System] getShopInfo 
+20170317@16:09:08 [System] getShopTime 
+20170317@16:09:08 [System] getLoggedInAccount 
+20170317@16:09:08 [System] getLoggedInAccount 
+20170317@16:09:09 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:09:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:09:37 [System] getLoggedInAccount 
+20170317@16:09:37 [System] getLoggedInAccount 
+20170317@16:09:37 [System] BTNAdoptMe_Click 
+20170317@16:09:37 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:09:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:09:47 [System] getLoggedInAccount 
+20170317@16:09:47 [System] getLoggedInAccount 
+20170317@16:09:47 [System] MessageHandler : Appointment Time 
+20170317@16:09:47 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@16:10:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:10:01 [System] getLoggedInAccount 
+20170317@16:10:01 [System] getLoggedInAccount 
+20170317@16:10:01 [System] BTNAdoptMe_Click 
+20170317@16:13:55 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:13:55 [System] getLoggedInAccount 
+20170317@16:14:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:14:02 [System] getAdoptInfo 
+20170317@16:14:02 [System] getShopInfo 
+20170317@16:14:02 [System] getShopTime 
+20170317@16:14:02 [System] getLoggedInAccount 
+20170317@16:14:02 [System] getLoggedInAccount 
+20170317@16:14:02 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:14:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:14:08 [System] getLoggedInAccount 
+20170317@16:14:08 [System] getLoggedInAccount 
+20170317@16:14:08 [System] BTNAdoptMe_Click 
+20170317@16:14:08 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:14:25 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:14:25 [System] getLoggedInAccount 
+20170317@16:14:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:14:28 [System] getAdoptInfo 
+20170317@16:14:28 [System] getShopInfo 
+20170317@16:14:28 [System] getShopTime 
+20170317@16:14:28 [System] getLoggedInAccount 
+20170317@16:14:42 [System] getLoggedInAccount 
+20170317@16:14:51 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:14:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:14:55 [System] getLoggedInAccount 
+20170317@16:15:02 [System] getLoggedInAccount 
+20170317@16:15:02 [System] BTNAdoptMe_Click 
+20170317@16:15:02 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:15:24 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:15:24 [System] getLoggedInAccount 
+20170317@16:15:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:15:28 [System] getAdoptInfo 
+20170317@16:15:28 [System] getShopInfo 
+20170317@16:15:28 [System] getShopTime 
+20170317@16:15:28 [System] getLoggedInAccount 
+20170317@16:15:28 [System] getLoggedInAccount 
+20170317@16:15:28 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:15:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:15:29 [System] getAdoptInfo 
+20170317@16:15:29 [System] getShopInfo 
+20170317@16:15:29 [System] getShopTime 
+20170317@16:15:29 [System] getLoggedInAccount 
+20170317@16:15:30 [System] getLoggedInAccount 
+20170317@16:15:30 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:15:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:15:35 [System] getLoggedInAccount 
+20170317@16:15:35 [System] getLoggedInAccount 
+20170317@16:15:35 [System] BTNAdoptMe_Click 
+20170317@16:15:35 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:15:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:15:54 [System] getAdoptInfo 
+20170317@16:15:54 [System] getShopInfo 
+20170317@16:15:54 [System] getShopTime 
+20170317@16:15:55 [System] getLoggedInAccount 
+20170317@16:15:55 [System] getLoggedInAccount 
+20170317@16:15:55 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:15:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:15:58 [System] getLoggedInAccount 
+20170317@16:15:58 [System] getLoggedInAccount 
+20170317@16:15:58 [System] BTNAdoptMe_Click 
+20170317@16:15:58 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:16:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:16:01 [System] getLoggedInAccount 
+20170317@16:16:01 [System] getLoggedInAccount 
+20170317@16:16:01 [System] MessageHandler : Appointment Time 
+20170317@16:16:01 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:16:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:16:03 [System] getLoggedInAccount 
+20170317@16:16:03 [System] getLoggedInAccount 
+20170317@16:16:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:16:05 [System] getLoggedInAccount 
+20170317@16:16:05 [System] getLoggedInAccount 
+20170317@16:16:05 [System] BTNAdoptMe_Click 
+20170317@16:16:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:16:15 [System] getLoggedInAccount 
+20170317@16:16:15 [System] getLoggedInAccount 
+20170317@16:16:15 [System] MessageHandler : Appointment Time 
+20170317@16:16:15 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@16:16:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:16:18 [System] getLoggedInAccount 
+20170317@16:16:18 [System] getLoggedInAccount 
+20170317@16:16:18 [System] BTNAdoptMe_Click 
+20170317@16:16:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:16:58 [System] getAdoptInfo 
+20170317@16:16:58 [System] getShopInfo 
+20170317@16:16:58 [System] getShopTime 
+20170317@16:16:58 [System] getLoggedInAccount 
+20170317@16:16:58 [System] getLoggedInAccount 
+20170317@16:16:58 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:17:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:17:02 [System] getLoggedInAccount 
+20170317@16:17:02 [System] getLoggedInAccount 
+20170317@16:17:02 [System] MessageHandler : Appointment Time 
+20170317@16:17:02 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:17:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:17:04 [System] getLoggedInAccount 
+20170317@16:17:04 [System] getLoggedInAccount 
+20170317@16:17:04 [System] BTNAdoptMe_Click 
+20170317@16:17:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:17:05 [System] getLoggedInAccount 
+20170317@16:17:05 [System] getLoggedInAccount 
+20170317@16:17:06 [System] BTNAdoptMe_Click 
+20170317@16:19:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:19:21 [System] getAdoptInfo 
+20170317@16:19:21 [System] getShopInfo 
+20170317@16:19:22 [System] getShopTime 
+20170317@16:19:22 [System] getLoggedInAccount 
+20170317@16:19:22 [System] getLoggedInAccount 
+20170317@16:19:22 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:19:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:19:25 [System] getLoggedInAccount 
+20170317@16:19:25 [System] getLoggedInAccount 
+20170317@16:19:25 [System] MessageHandler : Appointment Time 
+20170317@16:19:25 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@16:19:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:19:27 [System] getLoggedInAccount 
+20170317@16:19:27 [System] getLoggedInAccount 
+20170317@16:19:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:19:30 [System] getLoggedInAccount 
+20170317@16:19:30 [System] getLoggedInAccount 
+20170317@16:19:30 [System] BTNAdoptMe_Click 
+20170317@16:19:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:19:35 [System] getLoggedInAccount 
+20170317@16:19:35 [System] getLoggedInAccount 
+20170317@16:19:35 [System] BTNAdoptMe_Click 
+20170317@16:20:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:20:41 [System] getAdoptInfo 
+20170317@16:20:42 [System] getShopInfo 
+20170317@16:20:42 [System] getShopTime 
+20170317@16:20:42 [System] getLoggedInAccount 
+20170317@16:20:42 [System] getLoggedInAccount 
+20170317@16:20:42 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:20:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:20:46 [System] getLoggedInAccount 
+20170317@16:20:46 [System] getLoggedInAccount 
+20170317@16:20:46 [System] BTNAdoptMe_Click 
+20170317@16:20:46 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:20:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:20:49 [System] getLoggedInAccount 
+20170317@16:20:49 [System] getLoggedInAccount 
+20170317@16:20:49 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170317@16:20:49 [System] MessageHandler : Appointment Date 
+20170317@16:20:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:20:57 [System] getLoggedInAccount 
+20170317@16:20:57 [System] getLoggedInAccount 
+20170317@16:20:57 [System] MessageHandler : Appointment Time 
+20170317@16:20:57 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:20:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:20:59 [System] getLoggedInAccount 
+20170317@16:20:59 [System] getLoggedInAccount 
+20170317@16:20:59 [System] BTNAdoptMe_Click 
+20170317@16:20:59 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:01 [System] getLoggedInAccount 
+20170317@16:21:01 [System] getLoggedInAccount 
+20170317@16:21:01 [System] BTNAdoptMe_Click 
+20170317@16:21:01 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:01 [System] getLoggedInAccount 
+20170317@16:21:01 [System] getLoggedInAccount 
+20170317@16:21:01 [System] BTNAdoptMe_Click 
+20170317@16:21:01 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:01 [System] getLoggedInAccount 
+20170317@16:21:01 [System] getLoggedInAccount 
+20170317@16:21:01 [System] BTNAdoptMe_Click 
+20170317@16:21:01 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:01 [System] getLoggedInAccount 
+20170317@16:21:01 [System] getLoggedInAccount 
+20170317@16:21:01 [System] BTNAdoptMe_Click 
+20170317@16:21:01 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:02 [System] getLoggedInAccount 
+20170317@16:21:02 [System] getLoggedInAccount 
+20170317@16:21:02 [System] BTNAdoptMe_Click 
+20170317@16:21:02 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:03 [System] getLoggedInAccount 
+20170317@16:21:03 [System] getLoggedInAccount 
+20170317@16:21:03 [System] BTNAdoptMe_Click 
+20170317@16:21:03 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:17 [System] getAdoptInfo 
+20170317@16:21:17 [System] getShopInfo 
+20170317@16:21:17 [System] getShopTime 
+20170317@16:21:17 [System] getLoggedInAccount 
+20170317@16:21:17 [System] getLoggedInAccount 
+20170317@16:21:18 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:21:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:21 [System] getLoggedInAccount 
+20170317@16:21:21 [System] getLoggedInAccount 
+20170317@16:21:21 [System] MessageHandler : Appointment Time 
+20170317@16:21:21 [System] MessageHandler : Appointment Date (Friday) 
+20170317@16:21:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:22 [System] getLoggedInAccount 
+20170317@16:21:22 [System] getLoggedInAccount 
+20170317@16:21:22 [System] BTNAdoptMe_Click 
+20170317@16:21:22 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:25 [System] getLoggedInAccount 
+20170317@16:21:25 [System] getLoggedInAccount 
+20170317@16:21:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:21:38 [System] getAdoptInfo 
+20170317@16:21:38 [System] getShopInfo 
+20170317@16:21:38 [System] getShopTime 
+20170317@16:21:38 [System] getLoggedInAccount 
+20170317@16:21:38 [System] getLoggedInAccount 
+20170317@16:21:38 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:22:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:22:00 [System] getAdoptInfo 
+20170317@16:22:00 [System] getShopInfo 
+20170317@16:22:00 [System] getShopTime 
+20170317@16:22:00 [System] getLoggedInAccount 
+20170317@16:22:00 [System] getLoggedInAccount 
+20170317@16:22:01 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:22:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:22:03 [System] getAdoptInfo 
+20170317@16:22:03 [System] getShopInfo 
+20170317@16:22:03 [System] getShopTime 
+20170317@16:22:03 [System] getLoggedInAccount 
+20170317@16:22:03 [System] getLoggedInAccount 
+20170317@16:22:03 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:22:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:22:45 [System] getAdoptInfo 
+20170317@16:22:45 [System] getShopInfo 
+20170317@16:22:46 [System] getShopTime 
+20170317@16:22:46 [System] getLoggedInAccount 
+20170317@16:22:46 [System] getLoggedInAccount 
+20170317@16:22:46 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:22:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:22:51 [System] getLoggedInAccount 
+20170317@16:22:51 [System] getLoggedInAccount 
+20170317@16:22:51 [System] MessageHandler : Appointment Time 
+20170317@16:22:51 [System] MessageHandler : Appointment Date (Sunday) 
+20170317@16:23:13 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:23:13 [System] getLoggedInAccount 
+20170317@16:23:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:23:21 [System] getAdoptInfo 
+20170317@16:23:21 [System] getShopInfo 
+20170317@16:23:21 [System] getShopTime 
+20170317@16:23:21 [System] getLoggedInAccount 
+20170317@16:23:21 [System] getLoggedInAccount 
+20170317@16:23:22 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:23:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:23:29 [System] getLoggedInAccount 
+20170317@16:23:29 [System] getLoggedInAccount 
+20170317@16:23:29 [System] MessageHandler : Appointment Time 
+20170317@16:23:29 [System] MessageHandler : Appointment Date (Friday) 
+20170317@16:24:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:24:02 [System] getAdoptInfo 
+20170317@16:24:02 [System] getShopInfo 
+20170317@16:24:02 [System] getShopTime 
+20170317@16:24:03 [System] getLoggedInAccount 
+20170317@16:24:03 [System] getLoggedInAccount 
+20170317@16:24:03 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:24:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:24:07 [System] getLoggedInAccount 
+20170317@16:24:07 [System] getLoggedInAccount 
+20170317@16:24:07 [System] MessageHandler : Appointment Time 
+20170317@16:24:07 [System] MessageHandler : Appointment Date (Monday) 
+20170317@16:25:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:25:16 [System] getLoggedInAccount 
+20170317@16:25:16 [System] getAdoptInfo 
+20170317@16:25:16 [System] getShopInfo 
+20170317@16:25:16 [System] getShopTime 
+20170317@16:25:16 [System] getLoggedInAccount 
+20170317@16:25:17 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:28:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:28:31 [System] getLoggedInAccount 
+20170317@16:28:31 [System] loadAdoptionInfo 
+20170317@16:28:31 [System] getAdoptInfo 
+20170317@16:28:32 [System] getShopInfo 
+20170317@16:28:32 [System] getShopTime 
+20170317@16:28:32 [System] getLoggedInAccount 
+20170317@16:28:32 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:28:32 [System] DLMorePet_ItemDataBound 
+20170317@16:28:32 [System] DLMorePet_ItemDataBound 
+20170317@16:28:32 [System] DLMorePet_ItemDataBound 
+20170317@16:28:32 [System] DLMorePet_ItemDataBound 
+20170317@16:28:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:28:36 [System] getLoggedInAccount 
+20170317@16:28:36 [System] getLoggedInAccount 
+20170317@16:28:36 [System] BTNAppmtDate_Click 
+20170317@16:28:36 [System] checkOperatingHours 
+20170317@16:28:36 [System] MessageHandler : Appointment Time 
+20170317@16:28:36 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:29:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:29:59 [System] getLoggedInAccount 
+20170317@16:29:59 [System] loadAdoptionInfo 
+20170317@16:29:59 [System] getAdoptInfo 
+20170317@16:29:59 [System] getShopInfo 
+20170317@16:29:59 [System] getShopTime 
+20170317@16:29:59 [System] getLoggedInAccount 
+20170317@16:30:00 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:30:00 [System] DLMorePet_ItemDataBound 
+20170317@16:30:00 [System] DLMorePet_ItemDataBound 
+20170317@16:30:00 [System] DLMorePet_ItemDataBound 
+20170317@16:30:00 [System] DLMorePet_ItemDataBound 
+20170317@16:30:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:30:04 [System] getLoggedInAccount 
+20170317@16:30:04 [System] getLoggedInAccount 
+20170317@16:30:04 [System] BTNAppmtDate_Click 
+20170317@16:30:04 [System] checkOperatingHours 
+20170317@16:30:05 [System] MessageHandler : Appointment Time 
+20170317@16:30:05 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:30:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:30:16 [System] getLoggedInAccount 
+20170317@16:30:16 [System] getLoggedInAccount 
+20170317@16:30:16 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@16:30:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:30:17 [System] getLoggedInAccount 
+20170317@16:30:17 [System] getLoggedInAccount 
+20170317@16:30:17 [System] BTNAdoptMe_Click 
+20170317@16:30:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:30:25 [System] getLoggedInAccount 
+20170317@16:30:25 [System] getLoggedInAccount 
+20170317@16:30:25 [System] BTNLogin_Click 
+20170317@16:30:25 [System] MessageHandler : Either email or password is invalid 
+20170317@16:30:25 [System] signIn 
+20170317@16:30:25 [System] getShopInfo 
+20170317@16:30:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:30:25 [System] getLoggedInAccount 
+20170317@16:30:25 [System] loadAdoptionInfo 
+20170317@16:30:25 [System] getAdoptInfo 
+20170317@16:30:25 [System] getShopInfo 
+20170317@16:30:26 [System] getShopTime 
+20170317@16:30:26 [System] getLoggedInAccount 
+20170317@16:30:26 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:30:26 [System] DLMorePet_ItemDataBound 
+20170317@16:30:26 [System] DLMorePet_ItemDataBound 
+20170317@16:30:26 [System] DLMorePet_ItemDataBound 
+20170317@16:30:26 [System] DLMorePet_ItemDataBound 
+20170317@16:30:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:30:34 [System] getLoggedInAccount 
+20170317@16:30:34 [System] getLoggedInAccount 
+20170317@16:30:34 [System] BTNAppmtDate_Click 
+20170317@16:30:34 [System] checkOperatingHours 
+20170317@16:30:34 [System] MessageHandler : Appointment Time 
+20170317@16:30:34 [System] MessageHandler : Appointment Date (Monday) 
+20170317@16:30:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:30:36 [System] getLoggedInAccount 
+20170317@16:30:36 [System] getLoggedInAccount 
+20170317@16:30:36 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@16:30:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:30:37 [System] getLoggedInAccount 
+20170317@16:30:37 [System] getLoggedInAccount 
+20170317@16:30:37 [System] BTNAdoptMe_Click 
+20170317@16:33:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:33:31 [System] getLoggedInAccount 
+20170317@16:33:31 [System] loadAdoptionInfo 
+20170317@16:33:31 [System] getAdoptInfo 
+20170317@16:33:31 [System] getShopInfo 
+20170317@16:33:31 [System] getShopTime 
+20170317@16:33:32 [System] getLoggedInAccount 
+20170317@16:33:32 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:33:32 [System] DLMorePet_ItemDataBound 
+20170317@16:33:32 [System] DLMorePet_ItemDataBound 
+20170317@16:33:32 [System] DLMorePet_ItemDataBound 
+20170317@16:33:32 [System] DLMorePet_ItemDataBound 
+20170317@16:33:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:33:37 [System] getLoggedInAccount 
+20170317@16:33:37 [System] getLoggedInAccount 
+20170317@16:33:37 [System] LKBTNSignOut_Click 
+20170317@16:33:37 [System] signOut 
+20170317@16:33:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx 
+20170317@16:33:37 [System] getLoggedInAccount 
+20170317@16:33:37 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:33:37 [System] getLoggedInAccount 
+20170317@16:33:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:33:40 [System] getLoggedInAccount 
+20170317@16:33:40 [System] loadAdoptionInfo 
+20170317@16:33:41 [System] getAdoptInfo 
+20170317@16:33:41 [System] getShopInfo 
+20170317@16:33:41 [System] getShopTime 
+20170317@16:33:41 [System] getLoggedInAccount 
+20170317@16:33:41 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:33:41 [System] DLMorePet_ItemDataBound 
+20170317@16:33:41 [System] DLMorePet_ItemDataBound 
+20170317@16:33:41 [System] DLMorePet_ItemDataBound 
+20170317@16:33:41 [System] DLMorePet_ItemDataBound 
+20170317@16:33:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:33:48 [System] getLoggedInAccount 
+20170317@16:33:48 [System] getLoggedInAccount 
+20170317@16:33:48 [System] BTNAppmtDate_Click 
+20170317@16:33:48 [System] checkOperatingHours 
+20170317@16:33:48 [System] MessageHandler : Appointment Time 
+20170317@16:33:48 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:34:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:34:06 [System] getLoggedInAccount 
+20170317@16:34:06 [System] getLoggedInAccount 
+20170317@16:34:06 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@16:34:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:34:13 [System] getLoggedInAccount 
+20170317@16:34:13 [System] getLoggedInAccount 
+20170317@16:34:13 [System] BTNAdoptMe_Click 
+20170317@16:37:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:37:24 [System] getLoggedInAccount 
+20170317@16:37:24 [System] loadAdoptionInfo 
+20170317@16:37:24 [System] getAdoptInfo 
+20170317@16:37:24 [System] getShopInfo 
+20170317@16:37:24 [System] getShopTime 
+20170317@16:37:25 [System] getLoggedInAccount 
+20170317@16:37:25 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:37:25 [System] DLMorePet_ItemDataBound 
+20170317@16:37:25 [System] DLMorePet_ItemDataBound 
+20170317@16:37:25 [System] DLMorePet_ItemDataBound 
+20170317@16:37:25 [System] DLMorePet_ItemDataBound 
+20170317@16:37:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:37:28 [System] getLoggedInAccount 
+20170317@16:37:28 [System] getLoggedInAccount 
+20170317@16:37:28 [System] BTNAppmtDate_Click 
+20170317@16:37:28 [System] loadOperatingHours 
+20170317@16:37:28 [System] MessageHandler : Appointment Time 
+20170317@16:37:28 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@16:37:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:37:31 [System] getLoggedInAccount 
+20170317@16:37:31 [System] getLoggedInAccount 
+20170317@16:37:31 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@16:51:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:51:52 [System] getLoggedInAccount 
+20170317@16:51:52 [System] saveTempAppointment 
+20170317@16:51:52 [System] getLoggedInAccount 
+20170317@16:51:52 [System] BTNAppmtDate_Click 
+20170317@16:51:52 [System] loadOperatingHours 
+20170317@16:52:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:52:10 [System] getLoggedInAccount 
+20170317@16:52:10 [System] loadAdoptionInfo 
+20170317@16:52:10 [System] getAdoptInfo 
+20170317@16:52:10 [System] getShopInfo 
+20170317@16:52:10 [System] getShopTime 
+20170317@16:52:10 [System] getLoggedInAccount 
+20170317@16:52:10 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:52:10 [System] DLMorePet_ItemDataBound 
+20170317@16:52:10 [System] DLMorePet_ItemDataBound 
+20170317@16:52:10 [System] DLMorePet_ItemDataBound 
+20170317@16:52:10 [System] DLMorePet_ItemDataBound 
+20170317@16:52:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:52:14 [System] getLoggedInAccount 
+20170317@16:52:14 [System] saveTempAppointment 
+20170317@16:52:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:52:18 [System] getLoggedInAccount 
+20170317@16:52:18 [System] saveTempAppointment 
+20170317@16:52:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:52:20 [System] getLoggedInAccount 
+20170317@16:52:20 [System] loadAdoptionInfo 
+20170317@16:52:20 [System] getAdoptInfo 
+20170317@16:52:20 [System] getShopInfo 
+20170317@16:52:20 [System] getShopTime 
+20170317@16:52:20 [System] getLoggedInAccount 
+20170317@16:52:20 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:52:20 [System] DLMorePet_ItemDataBound 
+20170317@16:52:20 [System] DLMorePet_ItemDataBound 
+20170317@16:52:20 [System] DLMorePet_ItemDataBound 
+20170317@16:52:20 [System] DLMorePet_ItemDataBound 
+20170317@16:52:38 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:52:38 [System] getLoggedInAccount 
+20170317@16:55:20 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@16:55:20 [System] getLoggedInAccount 
+20170317@16:55:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:55:23 [System] getLoggedInAccount 
+20170317@16:55:23 [System] loadAdoptionInfo 
+20170317@16:55:23 [System] getAdoptInfo 
+20170317@16:55:23 [System] getShopInfo 
+20170317@16:55:23 [System] getShopTime 
+20170317@16:55:24 [System] getLoggedInAccount 
+20170317@16:55:24 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:55:24 [System] DLMorePet_ItemDataBound 
+20170317@16:55:24 [System] DLMorePet_ItemDataBound 
+20170317@16:55:24 [System] DLMorePet_ItemDataBound 
+20170317@16:55:25 [System] DLMorePet_ItemDataBound 
+20170317@16:55:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:55:27 [System] getLoggedInAccount 
+20170317@16:55:27 [System] saveTempAppointment 
+20170317@16:55:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:55:58 [System] getLoggedInAccount 
+20170317@16:55:58 [System] loadAdoptionInfo 
+20170317@16:55:58 [System] getAdoptInfo 
+20170317@16:55:58 [System] getShopInfo 
+20170317@16:55:58 [System] getShopTime 
+20170317@16:55:58 [System] getLoggedInAccount 
+20170317@16:55:59 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:55:59 [System] DLMorePet_ItemDataBound 
+20170317@16:55:59 [System] DLMorePet_ItemDataBound 
+20170317@16:55:59 [System] DLMorePet_ItemDataBound 
+20170317@16:55:59 [System] DLMorePet_ItemDataBound 
+20170317@16:56:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:56:01 [System] getLoggedInAccount 
+20170317@16:56:01 [System] loadAdoptionInfo 
+20170317@16:56:01 [System] getAdoptInfo 
+20170317@16:56:01 [System] getShopInfo 
+20170317@16:56:01 [System] getShopTime 
+20170317@16:56:01 [System] getLoggedInAccount 
+20170317@16:56:01 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:56:02 [System] DLMorePet_ItemDataBound 
+20170317@16:56:02 [System] DLMorePet_ItemDataBound 
+20170317@16:56:02 [System] DLMorePet_ItemDataBound 
+20170317@16:56:02 [System] DLMorePet_ItemDataBound 
+20170317@16:56:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:56:22 [System] getLoggedInAccount 
+20170317@16:56:22 [System] loadAdoptionInfo 
+20170317@16:56:22 [System] getAdoptInfo 
+20170317@16:56:22 [System] getShopInfo 
+20170317@16:56:22 [System] getShopTime 
+20170317@16:56:22 [System] getLoggedInAccount 
+20170317@16:56:23 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:56:23 [System] DLMorePet_ItemDataBound 
+20170317@16:56:23 [System] DLMorePet_ItemDataBound 
+20170317@16:56:23 [System] DLMorePet_ItemDataBound 
+20170317@16:56:23 [System] DLMorePet_ItemDataBound 
+20170317@16:56:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:56:29 [System] getLoggedInAccount 
+20170317@16:56:29 [System] saveTempAppointment 
+20170317@16:56:29 [System] getLoggedInAccount 
+20170317@16:56:29 [System] BTNAppmtDate_Click 
+20170317@16:56:29 [System] loadOperatingHours 
+20170317@16:56:29 [System] MessageHandler : Appointment Time 
+20170317@16:56:29 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:57:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:57:08 [System] getLoggedInAccount 
+20170317@16:57:08 [System] loadAdoptionInfo 
+20170317@16:57:08 [System] getAdoptInfo 
+20170317@16:57:08 [System] getShopInfo 
+20170317@16:57:08 [System] getShopTime 
+20170317@16:57:08 [System] getLoggedInAccount 
+20170317@16:57:09 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:57:09 [System] DLMorePet_ItemDataBound 
+20170317@16:57:09 [System] DLMorePet_ItemDataBound 
+20170317@16:57:09 [System] DLMorePet_ItemDataBound 
+20170317@16:57:09 [System] DLMorePet_ItemDataBound 
+20170317@16:57:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:57:13 [System] getLoggedInAccount 
+20170317@16:57:13 [System] getLoggedInAccount 
+20170317@16:57:13 [System] BTNAppmtDate_Click 
+20170317@16:57:13 [System] loadOperatingHours 
+20170317@16:57:13 [System] MessageHandler : Appointment Time 
+20170317@16:57:13 [System] MessageHandler : Appointment Date (Friday) 
+20170317@16:57:13 [System] saveTempAppointment 
+20170317@16:57:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:57:47 [System] getLoggedInAccount 
+20170317@16:57:47 [System] getLoggedInAccount 
+20170317@16:57:47 [System] BTNAppmtDate_Click 
+20170317@16:57:47 [System] loadOperatingHours 
+20170317@16:57:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:57:49 [System] getLoggedInAccount 
+20170317@16:57:49 [System] loadAdoptionInfo 
+20170317@16:57:49 [System] getAdoptInfo 
+20170317@16:57:49 [System] getShopInfo 
+20170317@16:57:49 [System] getShopTime 
+20170317@16:57:50 [System] getLoggedInAccount 
+20170317@16:57:50 [System] DLAdoptInfo_ItemDataBound 
+20170317@16:57:50 [System] DLMorePet_ItemDataBound 
+20170317@16:57:50 [System] DLMorePet_ItemDataBound 
+20170317@16:57:50 [System] DLMorePet_ItemDataBound 
+20170317@16:57:50 [System] DLMorePet_ItemDataBound 
+20170317@16:57:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@16:57:53 [System] getLoggedInAccount 
+20170317@16:57:53 [System] getLoggedInAccount 
+20170317@16:57:53 [System] BTNAppmtDate_Click 
+20170317@16:57:53 [System] loadOperatingHours 
+20170317@16:57:53 [System] MessageHandler : Appointment Time 
+20170317@16:57:53 [System] MessageHandler : Appointment Date (Friday) 
+20170317@16:57:53 [System] saveTempAppointment 
+20170317@17:00:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:00:04 [System] getLoggedInAccount 
+20170317@17:00:04 [System] loadAdoptionInfo 
+20170317@17:00:04 [System] getAdoptInfo 
+20170317@17:00:04 [System] getShopInfo 
+20170317@17:00:04 [System] getShopTime 
+20170317@17:00:04 [System] getLoggedInAccount 
+20170317@17:00:04 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:00:04 [System] DLMorePet_ItemDataBound 
+20170317@17:00:04 [System] DLMorePet_ItemDataBound 
+20170317@17:00:04 [System] DLMorePet_ItemDataBound 
+20170317@17:00:05 [System] DLMorePet_ItemDataBound 
+20170317@17:00:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:00:18 [System] getLoggedInAccount 
+20170317@17:00:18 [System] loadAdoptionInfo 
+20170317@17:00:18 [System] getAdoptInfo 
+20170317@17:00:18 [System] getShopInfo 
+20170317@17:00:18 [System] getShopTime 
+20170317@17:00:18 [System] getLoggedInAccount 
+20170317@17:00:18 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:00:18 [System] DLMorePet_ItemDataBound 
+20170317@17:00:18 [System] DLMorePet_ItemDataBound 
+20170317@17:00:18 [System] DLMorePet_ItemDataBound 
+20170317@17:00:19 [System] DLMorePet_ItemDataBound 
+20170317@17:00:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:00:22 [System] getLoggedInAccount 
+20170317@17:00:22 [System] getLoggedInAccount 
+20170317@17:00:22 [System] BTNAppmtDate_Click 
+20170317@17:00:22 [System] loadOperatingHours 
+20170317@17:00:22 [System] MessageHandler : Appointment Time 
+20170317@17:00:22 [System] MessageHandler : Appointment Date (Sunday) 
+20170317@17:00:22 [System] saveTempAppointment 
+20170317@17:00:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:00:56 [System] getLoggedInAccount 
+20170317@17:00:56 [System] loadAdoptionInfo 
+20170317@17:00:56 [System] getAdoptInfo 
+20170317@17:00:56 [System] getShopInfo 
+20170317@17:00:56 [System] getShopTime 
+20170317@17:00:56 [System] getLoggedInAccount 
+20170317@17:00:57 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:00:57 [System] DLMorePet_ItemDataBound 
+20170317@17:00:57 [System] DLMorePet_ItemDataBound 
+20170317@17:00:57 [System] DLMorePet_ItemDataBound 
+20170317@17:00:57 [System] DLMorePet_ItemDataBound 
+20170317@17:01:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:01:02 [System] getLoggedInAccount 
+20170317@17:01:02 [System] getLoggedInAccount 
+20170317@17:01:02 [System] BTNAppmtDate_Click 
+20170317@17:01:02 [System] loadOperatingHours 
+20170317@17:01:02 [System] MessageHandler : Appointment Time 
+20170317@17:01:02 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:01:02 [System] saveTempAppointment 
+20170317@17:01:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:01:06 [System] getLoggedInAccount 
+20170317@17:01:06 [System] getLoggedInAccount 
+20170317@17:01:06 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:01:06 [System] saveTempAppointment 
+20170317@17:01:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:01:31 [System] getLoggedInAccount 
+20170317@17:01:31 [System] loadAdoptionInfo 
+20170317@17:01:31 [System] getAdoptInfo 
+20170317@17:01:31 [System] getShopInfo 
+20170317@17:01:31 [System] getShopTime 
+20170317@17:01:31 [System] getLoggedInAccount 
+20170317@17:01:32 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:01:32 [System] DLMorePet_ItemDataBound 
+20170317@17:01:32 [System] DLMorePet_ItemDataBound 
+20170317@17:01:32 [System] DLMorePet_ItemDataBound 
+20170317@17:01:32 [System] DLMorePet_ItemDataBound 
+20170317@17:01:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:01:37 [System] getLoggedInAccount 
+20170317@17:01:37 [System] getLoggedInAccount 
+20170317@17:01:37 [System] BTNAppmtDate_Click 
+20170317@17:01:37 [System] loadOperatingHours 
+20170317@17:01:37 [System] MessageHandler : Appointment Time 
+20170317@17:01:37 [System] MessageHandler : Appointment Date (Monday) 
+20170317@17:01:37 [System] saveTempAppointment 
+20170317@17:01:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:01:39 [System] getLoggedInAccount 
+20170317@17:01:39 [System] getLoggedInAccount 
+20170317@17:01:39 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:01:39 [System] saveTempAppointment 
+20170317@17:01:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:01:44 [System] getLoggedInAccount 
+20170317@17:01:44 [System] getLoggedInAccount 
+20170317@17:01:44 [System] BTNAppmtDate_Click 
+20170317@17:01:44 [System] loadOperatingHours 
+20170317@17:01:44 [System] MessageHandler : Appointment Time 
+20170317@17:01:44 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:01:44 [System] saveTempAppointment 
+20170317@17:02:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:02:43 [System] getLoggedInAccount 
+20170317@17:02:43 [System] loadAdoptionInfo 
+20170317@17:02:43 [System] getAdoptInfo 
+20170317@17:02:43 [System] getShopInfo 
+20170317@17:02:43 [System] getShopTime 
+20170317@17:02:44 [System] getLoggedInAccount 
+20170317@17:02:44 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:02:44 [System] DLMorePet_ItemDataBound 
+20170317@17:02:44 [System] DLMorePet_ItemDataBound 
+20170317@17:02:44 [System] DLMorePet_ItemDataBound 
+20170317@17:02:44 [System] DLMorePet_ItemDataBound 
+20170317@17:02:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:02:47 [System] getLoggedInAccount 
+20170317@17:02:47 [System] getLoggedInAccount 
+20170317@17:02:47 [System] BTNAppmtDate_Click 
+20170317@17:02:47 [System] loadOperatingHours 
+20170317@17:02:47 [System] MessageHandler : Appointment Time 
+20170317@17:02:47 [System] MessageHandler : Appointment Date (Monday) 
+20170317@17:02:47 [System] saveTempAppointment 
+20170317@17:02:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:02:51 [System] getLoggedInAccount 
+20170317@17:02:51 [System] getLoggedInAccount 
+20170317@17:02:51 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:02:51 [System] saveTempAppointment 
+20170317@17:02:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:02:54 [System] getLoggedInAccount 
+20170317@17:02:54 [System] getLoggedInAccount 
+20170317@17:02:54 [System] BTNAppmtDate_Click 
+20170317@17:02:54 [System] loadOperatingHours 
+20170317@17:02:54 [System] MessageHandler : Appointment Time 
+20170317@17:02:54 [System] MessageHandler : Appointment Date (Saturday) 
+20170317@17:02:54 [System] saveTempAppointment 
+20170317@17:03:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:03:00 [System] getLoggedInAccount 
+20170317@17:03:00 [System] getLoggedInAccount 
+20170317@17:03:00 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:03:00 [System] saveTempAppointment 
+20170317@17:03:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:03:38 [System] getLoggedInAccount 
+20170317@17:03:38 [System] getLoggedInAccount 
+20170317@17:03:38 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:03:38 [System] BTNAppmtDate_Click 
+20170317@17:03:38 [System] loadOperatingHours 
+20170317@17:03:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:03:39 [System] getLoggedInAccount 
+20170317@17:03:39 [System] loadAdoptionInfo 
+20170317@17:03:39 [System] getAdoptInfo 
+20170317@17:03:39 [System] getShopInfo 
+20170317@17:03:39 [System] getShopTime 
+20170317@17:03:39 [System] getLoggedInAccount 
+20170317@17:03:40 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:03:40 [System] DLMorePet_ItemDataBound 
+20170317@17:03:40 [System] DLMorePet_ItemDataBound 
+20170317@17:03:40 [System] DLMorePet_ItemDataBound 
+20170317@17:03:40 [System] DLMorePet_ItemDataBound 
+20170317@17:03:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:03:42 [System] getLoggedInAccount 
+20170317@17:03:42 [System] getLoggedInAccount 
+20170317@17:03:42 [System] BTNAppmtDate_Click 
+20170317@17:03:42 [System] loadOperatingHours 
+20170317@17:03:42 [System] MessageHandler : Appointment Time 
+20170317@17:03:42 [System] MessageHandler : Appointment Date (Saturday) 
+20170317@17:03:42 [System] saveTempAppointment 
+20170317@17:03:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:03:50 [System] getLoggedInAccount 
+20170317@17:03:50 [System] loadAdoptionInfo 
+20170317@17:03:50 [System] getAdoptInfo 
+20170317@17:03:50 [System] getShopInfo 
+20170317@17:03:50 [System] getShopTime 
+20170317@17:03:51 [System] getLoggedInAccount 
+20170317@17:03:51 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:03:51 [System] DLMorePet_ItemDataBound 
+20170317@17:03:51 [System] DLMorePet_ItemDataBound 
+20170317@17:03:51 [System] DLMorePet_ItemDataBound 
+20170317@17:03:51 [System] DLMorePet_ItemDataBound 
+20170317@17:03:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:03:55 [System] getLoggedInAccount 
+20170317@17:03:55 [System] getLoggedInAccount 
+20170317@17:03:55 [System] BTNAppmtDate_Click 
+20170317@17:03:55 [System] loadOperatingHours 
+20170317@17:03:55 [System] MessageHandler : Appointment Time 
+20170317@17:03:55 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:03:55 [System] saveTempAppointment 
+20170317@17:04:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:04:04 [System] getLoggedInAccount 
+20170317@17:04:04 [System] loadAdoptionInfo 
+20170317@17:04:04 [System] getAdoptInfo 
+20170317@17:04:04 [System] getShopInfo 
+20170317@17:04:04 [System] getShopTime 
+20170317@17:04:04 [System] getLoggedInAccount 
+20170317@17:04:04 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:04:05 [System] DLMorePet_ItemDataBound 
+20170317@17:04:05 [System] DLMorePet_ItemDataBound 
+20170317@17:04:05 [System] DLMorePet_ItemDataBound 
+20170317@17:04:05 [System] DLMorePet_ItemDataBound 
+20170317@17:04:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:04:22 [System] getLoggedInAccount 
+20170317@17:04:22 [System] getLoggedInAccount 
+20170317@17:04:22 [System] BTNAppmtDate_Click 
+20170317@17:04:22 [System] loadOperatingHours 
+20170317@17:04:22 [System] MessageHandler : Appointment Time 
+20170317@17:04:22 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:04:22 [System] saveTempAppointment 
+20170317@17:04:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:04:25 [System] getLoggedInAccount 
+20170317@17:04:25 [System] getLoggedInAccount 
+20170317@17:04:25 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:04:25 [System] saveTempAppointment 
+20170317@17:08:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:08:28 [System] getLoggedInAccount 
+20170317@17:08:28 [System] loadAdoptionInfo 
+20170317@17:08:28 [System] getAdoptInfo 
+20170317@17:08:28 [System] getShopInfo 
+20170317@17:08:28 [System] getShopTime 
+20170317@17:08:28 [System] loadOperatingHours 
+20170317@17:09:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:09:26 [System] getLoggedInAccount 
+20170317@17:09:26 [System] loadAdoptionInfo 
+20170317@17:09:26 [System] getAdoptInfo 
+20170317@17:09:26 [System] getShopInfo 
+20170317@17:09:26 [System] getShopTime 
+20170317@17:09:26 [System] loadOperatingHours 
+20170317@17:09:26 [System] getLoggedInAccount 
+20170317@17:09:27 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:09:27 [System] DLMorePet_ItemDataBound 
+20170317@17:09:27 [System] DLMorePet_ItemDataBound 
+20170317@17:09:27 [System] DLMorePet_ItemDataBound 
+20170317@17:09:27 [System] DLMorePet_ItemDataBound 
+20170317@17:09:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:09:32 [System] getLoggedInAccount 
+20170317@17:09:32 [System] loadOperatingHours 
+20170317@17:09:32 [System] MessageHandler : Appointment Time 
+20170317@17:09:32 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:09:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:09:35 [System] getLoggedInAccount 
+20170317@17:09:35 [System] loadOperatingHours 
+20170317@17:09:35 [System] MessageHandler : Appointment Time 
+20170317@17:09:35 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:09:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:09:37 [System] getLoggedInAccount 
+20170317@17:09:37 [System] loadOperatingHours 
+20170317@17:09:37 [System] MessageHandler : Appointment Time 
+20170317@17:09:37 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:09:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:09:59 [System] getLoggedInAccount 
+20170317@17:09:59 [System] loadAdoptionInfo 
+20170317@17:09:59 [System] getAdoptInfo 
+20170317@17:09:59 [System] getShopInfo 
+20170317@17:09:59 [System] getShopTime 
+20170317@17:10:00 [System] loadOperatingHours 
+20170317@17:10:00 [System] getLoggedInAccount 
+20170317@17:10:00 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:10:00 [System] DLMorePet_ItemDataBound 
+20170317@17:10:00 [System] DLMorePet_ItemDataBound 
+20170317@17:10:00 [System] DLMorePet_ItemDataBound 
+20170317@17:10:00 [System] DLMorePet_ItemDataBound 
+20170317@17:10:03 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@17:10:03 [System] getLoggedInAccount 
+20170317@17:10:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:10:05 [System] getLoggedInAccount 
+20170317@17:10:05 [System] loadAdoptionInfo 
+20170317@17:10:05 [System] getAdoptInfo 
+20170317@17:10:05 [System] getShopInfo 
+20170317@17:10:05 [System] getShopTime 
+20170317@17:10:05 [System] loadOperatingHours 
+20170317@17:10:05 [System] getLoggedInAccount 
+20170317@17:10:06 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:10:06 [System] DLMorePet_ItemDataBound 
+20170317@17:10:06 [System] DLMorePet_ItemDataBound 
+20170317@17:10:06 [System] DLMorePet_ItemDataBound 
+20170317@17:10:06 [System] DLMorePet_ItemDataBound 
+20170317@17:10:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:10:23 [System] getLoggedInAccount 
+20170317@17:10:23 [System] loadAdoptionInfo 
+20170317@17:10:23 [System] getAdoptInfo 
+20170317@17:10:23 [System] getShopInfo 
+20170317@17:10:24 [System] getShopTime 
+20170317@17:10:24 [System] getLoggedInAccount 
+20170317@17:10:24 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:10:24 [System] DLMorePet_ItemDataBound 
+20170317@17:10:24 [System] DLMorePet_ItemDataBound 
+20170317@17:10:24 [System] DLMorePet_ItemDataBound 
+20170317@17:10:24 [System] DLMorePet_ItemDataBound 
+20170317@17:10:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:10:27 [System] getLoggedInAccount 
+20170317@17:10:27 [System] getLoggedInAccount 
+20170317@17:10:27 [System] BTNAppmtDate_Click 
+20170317@17:10:27 [System] loadOperatingHours 
+20170317@17:10:27 [System] MessageHandler : Appointment Time 
+20170317@17:10:27 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:27 [System] saveTempAppointment 
+20170317@17:10:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:10:31 [System] getLoggedInAccount 
+20170317@17:10:31 [System] loadOperatingHours 
+20170317@17:10:31 [System] MessageHandler : Appointment Time 
+20170317@17:10:31 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:10:35 [System] getLoggedInAccount 
+20170317@17:10:35 [System] loadOperatingHours 
+20170317@17:10:35 [System] MessageHandler : Appointment Time 
+20170317@17:10:35 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:10:38 [System] getLoggedInAccount 
+20170317@17:10:38 [System] loadOperatingHours 
+20170317@17:10:38 [System] MessageHandler : Appointment Time 
+20170317@17:10:38 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:10:39 [System] getLoggedInAccount 
+20170317@17:10:39 [System] loadOperatingHours 
+20170317@17:10:39 [System] MessageHandler : Appointment Time 
+20170317@17:10:39 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:10:40 [System] getLoggedInAccount 
+20170317@17:10:40 [System] loadOperatingHours 
+20170317@17:10:40 [System] MessageHandler : Appointment Time 
+20170317@17:10:40 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:10:44 [System] getLoggedInAccount 
+20170317@17:10:44 [System] loadOperatingHours 
+20170317@17:10:44 [System] MessageHandler : Appointment Time 
+20170317@17:10:45 [System] MessageHandler : Appointment Date (Friday) 
+20170317@17:11:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:11:29 [System] getLoggedInAccount 
+20170317@17:11:29 [System] loadAdoptionInfo 
+20170317@17:11:29 [System] getAdoptInfo 
+20170317@17:11:30 [System] getShopInfo 
+20170317@17:11:30 [System] getShopTime 
+20170317@17:11:30 [System] getLoggedInAccount 
+20170317@17:11:30 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:11:30 [System] DLMorePet_ItemDataBound 
+20170317@17:11:30 [System] DLMorePet_ItemDataBound 
+20170317@17:11:30 [System] DLMorePet_ItemDataBound 
+20170317@17:11:30 [System] DLMorePet_ItemDataBound 
+20170317@17:11:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:11:33 [System] getLoggedInAccount 
+20170317@17:11:33 [System] loadOperatingHours 
+20170317@17:11:33 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170317@17:11:33 [System] MessageHandler : Appointment Date 
+20170317@17:11:33 [System] getLoggedInAccount 
+20170317@17:11:33 [System] BTNAppmtDate_Click 
+20170317@17:11:33 [System] loadOperatingHours 
+20170317@17:11:33 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170317@17:11:33 [System] MessageHandler : Appointment Date 
+20170317@17:11:33 [System] saveTempAppointment 
+20170317@17:11:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:11:36 [System] getLoggedInAccount 
+20170317@17:11:36 [System] loadOperatingHours 
+20170317@17:11:36 [System] MessageHandler : Appointment Time 
+20170317@17:11:36 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:11:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:11:59 [System] getLoggedInAccount 
+20170317@17:12:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:12:00 [System] getLoggedInAccount 
+20170317@17:12:00 [System] loadAdoptionInfo 
+20170317@17:12:00 [System] getAdoptInfo 
+20170317@17:12:01 [System] getShopInfo 
+20170317@17:12:01 [System] getShopTime 
+20170317@17:12:01 [System] getLoggedInAccount 
+20170317@17:12:01 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:12:01 [System] DLMorePet_ItemDataBound 
+20170317@17:12:01 [System] DLMorePet_ItemDataBound 
+20170317@17:12:01 [System] DLMorePet_ItemDataBound 
+20170317@17:12:01 [System] DLMorePet_ItemDataBound 
+20170317@17:12:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:12:04 [System] getLoggedInAccount 
+20170317@17:12:04 [System] getLoggedInAccount 
+20170317@17:12:04 [System] BTNAppmtDate_Click 
+20170317@17:12:04 [System] loadOperatingHours 
+20170317@17:12:05 [System] MessageHandler : Appointment Time 
+20170317@17:12:05 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:12:05 [System] saveTempAppointment 
+20170317@17:12:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:12:07 [System] getLoggedInAccount 
+20170317@17:12:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:12:10 [System] getLoggedInAccount 
+20170317@17:13:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:13:54 [System] getLoggedInAccount 
+20170317@17:13:54 [System] loadAdoptionInfo 
+20170317@17:13:54 [System] getAdoptInfo 
+20170317@17:13:54 [System] getShopInfo 
+20170317@17:13:54 [System] getShopTime 
+20170317@17:13:55 [System] getLoggedInAccount 
+20170317@17:13:55 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:13:55 [System] DLMorePet_ItemDataBound 
+20170317@17:13:55 [System] DLMorePet_ItemDataBound 
+20170317@17:13:55 [System] DLMorePet_ItemDataBound 
+20170317@17:13:55 [System] DLMorePet_ItemDataBound 
+20170317@17:14:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:14:14 [System] getLoggedInAccount 
+20170317@17:14:14 [System] loadAdoptionInfo 
+20170317@17:14:14 [System] getAdoptInfo 
+20170317@17:14:14 [System] getShopInfo 
+20170317@17:14:14 [System] getShopTime 
+20170317@17:14:14 [System] getLoggedInAccount 
+20170317@17:14:15 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:14:15 [System] DLMorePet_ItemDataBound 
+20170317@17:14:15 [System] DLMorePet_ItemDataBound 
+20170317@17:14:15 [System] DLMorePet_ItemDataBound 
+20170317@17:14:15 [System] DLMorePet_ItemDataBound 
+20170317@17:14:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:14:26 [System] getLoggedInAccount 
+20170317@17:14:26 [System] loadAdoptionInfo 
+20170317@17:14:26 [System] getAdoptInfo 
+20170317@17:14:26 [System] getShopInfo 
+20170317@17:14:26 [System] getShopTime 
+20170317@17:14:27 [System] getLoggedInAccount 
+20170317@17:14:27 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:14:27 [System] DLMorePet_ItemDataBound 
+20170317@17:14:27 [System] DLMorePet_ItemDataBound 
+20170317@17:14:27 [System] DLMorePet_ItemDataBound 
+20170317@17:14:27 [System] DLMorePet_ItemDataBound 
+20170317@17:14:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:14:31 [System] getLoggedInAccount 
+20170317@17:14:31 [System] getLoggedInAccount 
+20170317@17:14:31 [System] BTNAppmtDate_Click 
+20170317@17:14:31 [System] loadOperatingHours 
+20170317@17:14:31 [System] MessageHandler : Appointment Time 
+20170317@17:14:31 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:14:31 [System] saveTempAppointment 
+20170317@17:14:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:14:38 [System] getLoggedInAccount 
+20170317@17:14:38 [System] getLoggedInAccount 
+20170317@17:14:38 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:14:38 [System] saveTempAppointment 
+20170317@17:15:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:15:21 [System] getLoggedInAccount 
+20170317@17:15:21 [System] getLoggedInAccount 
+20170317@17:15:21 [System] BTNAppmtDate_Click 
+20170317@17:15:21 [System] loadOperatingHours 
+20170317@17:15:21 [System] MessageHandler : Appointment Time 
+20170317@17:15:21 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:15:21 [System] saveTempAppointment 
+20170317@17:15:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:15:31 [System] getLoggedInAccount 
+20170317@17:15:31 [System] getLoggedInAccount 
+20170317@17:15:31 [System] BTNAppmtDate_Click 
+20170317@17:15:31 [System] loadOperatingHours 
+20170317@17:15:31 [System] MessageHandler : Appointment Time 
+20170317@17:15:31 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:15:31 [System] saveTempAppointment 
+20170317@17:15:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:15:46 [System] getLoggedInAccount 
+20170317@17:15:46 [System] loadAdoptionInfo 
+20170317@17:15:46 [System] getAdoptInfo 
+20170317@17:15:46 [System] getShopInfo 
+20170317@17:15:47 [System] getShopTime 
+20170317@17:15:47 [System] getLoggedInAccount 
+20170317@17:15:47 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:15:47 [System] DLMorePet_ItemDataBound 
+20170317@17:15:47 [System] DLMorePet_ItemDataBound 
+20170317@17:15:47 [System] DLMorePet_ItemDataBound 
+20170317@17:15:47 [System] DLMorePet_ItemDataBound 
+20170317@17:15:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:15:52 [System] getLoggedInAccount 
+20170317@17:15:52 [System] getLoggedInAccount 
+20170317@17:15:52 [System] BTNAppmtDate_Click 
+20170317@17:15:52 [System] loadOperatingHours 
+20170317@17:15:52 [System] MessageHandler : Appointment Time 
+20170317@17:15:52 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:15:52 [System] saveTempAppointment 
+20170317@17:15:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:15:59 [System] getLoggedInAccount 
+20170317@17:15:59 [System] getLoggedInAccount 
+20170317@17:15:59 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:15:59 [System] saveTempAppointment 
+20170317@17:16:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:16:03 [System] getLoggedInAccount 
+20170317@17:16:03 [System] getLoggedInAccount 
+20170317@17:16:03 [System] BTNAppmtDate_Click 
+20170317@17:16:03 [System] loadOperatingHours 
+20170317@17:16:03 [System] MessageHandler : Appointment Time 
+20170317@17:16:03 [System] MessageHandler : Appointment Date (Saturday) 
+20170317@17:16:03 [System] saveTempAppointment 
+20170317@17:17:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:17:59 [System] getLoggedInAccount 
+20170317@17:17:59 [System] loadAdoptionInfo 
+20170317@17:17:59 [System] getAdoptInfo 
+20170317@17:17:59 [System] getShopInfo 
+20170317@17:17:59 [System] getShopTime 
+20170317@17:17:59 [System] getLoggedInAccount 
+20170317@17:17:59 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:17:59 [System] DLMorePet_ItemDataBound 
+20170317@17:17:59 [System] DLMorePet_ItemDataBound 
+20170317@17:17:59 [System] DLMorePet_ItemDataBound 
+20170317@17:18:00 [System] DLMorePet_ItemDataBound 
+20170317@17:18:04 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@17:18:04 [System] getLoggedInAccount 
+20170317@17:18:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:18:08 [System] getLoggedInAccount 
+20170317@17:18:08 [System] loadAdoptionInfo 
+20170317@17:18:09 [System] getAdoptInfo 
+20170317@17:18:09 [System] getShopInfo 
+20170317@17:18:09 [System] getShopTime 
+20170317@17:18:09 [System] getLoggedInAccount 
+20170317@17:18:09 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:18:09 [System] DLMorePet_ItemDataBound 
+20170317@17:18:09 [System] DLMorePet_ItemDataBound 
+20170317@17:18:09 [System] DLMorePet_ItemDataBound 
+20170317@17:18:10 [System] DLMorePet_ItemDataBound 
+20170317@17:18:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:18:14 [System] getLoggedInAccount 
+20170317@17:18:14 [System] getLoggedInAccount 
+20170317@17:18:14 [System] BTNAppmtDate_Click 
+20170317@17:18:14 [System] loadOperatingHours 
+20170317@17:18:14 [System] MessageHandler : Appointment Time 
+20170317@17:18:14 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:18:14 [System] saveTempAppointment 
+20170317@17:18:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:18:18 [System] getLoggedInAccount 
+20170317@17:18:18 [System] getLoggedInAccount 
+20170317@17:18:18 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:18:19 [System] saveTempAppointment 
+20170317@17:18:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:18:24 [System] getLoggedInAccount 
+20170317@17:18:24 [System] getLoggedInAccount 
+20170317@17:18:24 [System] BTNAppmtDate_Click 
+20170317@17:18:24 [System] loadOperatingHours 
+20170317@17:18:24 [System] MessageHandler : Appointment Time 
+20170317@17:18:24 [System] MessageHandler : Appointment Date (Saturday) 
+20170317@17:18:24 [System] saveTempAppointment 
+20170317@17:22:07 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@17:22:07 [System] getLoggedInAccount 
+20170317@17:22:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:22:13 [System] getLoggedInAccount 
+20170317@17:22:13 [System] loadAdoptionInfo 
+20170317@17:22:13 [System] getAdoptInfo 
+20170317@17:22:13 [System] getShopInfo 
+20170317@17:22:13 [System] getShopTime 
+20170317@17:22:13 [System] getLoggedInAccount 
+20170317@17:22:14 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:22:14 [System] DLMorePet_ItemDataBound 
+20170317@17:22:14 [System] DLMorePet_ItemDataBound 
+20170317@17:22:14 [System] DLMorePet_ItemDataBound 
+20170317@17:22:14 [System] DLMorePet_ItemDataBound 
+20170317@17:22:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:22:21 [System] getLoggedInAccount 
+20170317@17:22:21 [System] getLoggedInAccount 
+20170317@17:22:21 [System] BTNAppmtDate_Click 
+20170317@17:22:21 [System] loadOperatingHours 
+20170317@17:22:21 [System] MessageHandler : Appointment Time 
+20170317@17:22:21 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:22:37 [System] saveTempAppointment 
+20170317@17:22:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:22:42 [System] getLoggedInAccount 
+20170317@17:22:42 [System] getLoggedInAccount 
+20170317@17:22:42 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:22:42 [System] saveTempAppointment 
+20170317@17:22:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:22:46 [System] getLoggedInAccount 
+20170317@17:22:46 [System] getLoggedInAccount 
+20170317@17:22:46 [System] BTNAppmtDate_Click 
+20170317@17:22:46 [System] loadOperatingHours 
+20170317@17:22:46 [System] MessageHandler : Appointment Time 
+20170317@17:22:46 [System] MessageHandler : Appointment Date (Monday) 
+20170317@17:23:07 [System] saveTempAppointment 
+20170317@17:23:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:23:53 [System] getLoggedInAccount 
+20170317@17:23:53 [System] loadAdoptionInfo 
+20170317@17:23:53 [System] getAdoptInfo 
+20170317@17:23:53 [System] getShopInfo 
+20170317@17:23:53 [System] getShopTime 
+20170317@17:23:53 [System] getLoggedInAccount 
+20170317@17:23:53 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:23:53 [System] DLMorePet_ItemDataBound 
+20170317@17:23:53 [System] DLMorePet_ItemDataBound 
+20170317@17:23:53 [System] DLMorePet_ItemDataBound 
+20170317@17:23:54 [System] DLMorePet_ItemDataBound 
+20170317@17:23:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:23:57 [System] getLoggedInAccount 
+20170317@17:23:57 [System] getLoggedInAccount 
+20170317@17:23:58 [System] BTNAppmtDate_Click 
+20170317@17:23:58 [System] loadOperatingHours 
+20170317@17:23:58 [System] MessageHandler : Appointment Time 
+20170317@17:23:58 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:23:58 [System] saveTempAppointment 
+20170317@17:24:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:24:02 [System] getLoggedInAccount 
+20170317@17:24:02 [System] getLoggedInAccount 
+20170317@17:24:02 [System] BTNAppmtDate_Click 
+20170317@17:24:02 [System] loadOperatingHours 
+20170317@17:24:02 [System] MessageHandler : Appointment Time 
+20170317@17:24:02 [System] MessageHandler : Appointment Date (Saturday) 
+20170317@17:24:02 [System] saveTempAppointment 
+20170317@17:24:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:24:25 [System] getLoggedInAccount 
+20170317@17:24:25 [System] getLoggedInAccount 
+20170317@17:24:25 [System] BTNAppmtDate_Click 
+20170317@17:24:25 [System] loadOperatingHours 
+20170317@17:24:25 [System] MessageHandler : Appointment Time 
+20170317@17:24:26 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:24:26 [System] saveTempAppointment 
+20170317@17:24:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:24:42 [System] getLoggedInAccount 
+20170317@17:24:42 [System] loadAdoptionInfo 
+20170317@17:24:42 [System] getAdoptInfo 
+20170317@17:24:42 [System] getShopInfo 
+20170317@17:24:42 [System] getShopTime 
+20170317@17:24:42 [System] getLoggedInAccount 
+20170317@17:24:42 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:24:42 [System] DLMorePet_ItemDataBound 
+20170317@17:24:43 [System] DLMorePet_ItemDataBound 
+20170317@17:24:43 [System] DLMorePet_ItemDataBound 
+20170317@17:24:43 [System] DLMorePet_ItemDataBound 
+20170317@17:24:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:24:47 [System] getLoggedInAccount 
+20170317@17:24:47 [System] getLoggedInAccount 
+20170317@17:24:47 [System] BTNAppmtDate_Click 
+20170317@17:24:47 [System] loadOperatingHours 
+20170317@17:24:47 [System] MessageHandler : Appointment Time 
+20170317@17:24:47 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:24:47 [System] saveTempAppointment 
+20170317@17:25:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:25:00 [System] getLoggedInAccount 
+20170317@17:25:00 [System] getLoggedInAccount 
+20170317@17:25:00 [System] BTNAppmtDate_Click 
+20170317@17:25:00 [System] loadOperatingHours 
+20170317@17:25:00 [System] MessageHandler : Appointment Time 
+20170317@17:25:00 [System] MessageHandler : Appointment Date (Saturday) 
+20170317@17:25:00 [System] saveTempAppointment 
+20170317@17:25:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:25:03 [System] getLoggedInAccount 
+20170317@17:25:03 [System] getLoggedInAccount 
+20170317@17:25:03 [System] BTNAppmtDate_Click 
+20170317@17:25:03 [System] loadOperatingHours 
+20170317@17:25:03 [System] MessageHandler : Appointment Time 
+20170317@17:25:03 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:25:03 [System] saveTempAppointment 
+20170317@17:25:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:25:20 [System] getLoggedInAccount 
+20170317@17:25:20 [System] loadAdoptionInfo 
+20170317@17:25:21 [System] getAdoptInfo 
+20170317@17:25:21 [System] getShopInfo 
+20170317@17:25:21 [System] getShopTime 
+20170317@17:25:21 [System] getLoggedInAccount 
+20170317@17:25:21 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:25:21 [System] DLMorePet_ItemDataBound 
+20170317@17:25:21 [System] DLMorePet_ItemDataBound 
+20170317@17:25:21 [System] DLMorePet_ItemDataBound 
+20170317@17:25:21 [System] DLMorePet_ItemDataBound 
+20170317@17:32:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:32:41 [System] getLoggedInAccount 
+20170317@17:32:41 [System] loadAdoptionInfo 
+20170317@17:32:41 [System] getAdoptInfo 
+20170317@17:32:41 [System] getShopInfo 
+20170317@17:32:41 [System] getShopTime 
+20170317@17:32:42 [System] getLoggedInAccount 
+20170317@17:32:42 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:32:42 [System] DLMorePet_ItemDataBound 
+20170317@17:32:42 [System] DLMorePet_ItemDataBound 
+20170317@17:32:42 [System] DLMorePet_ItemDataBound 
+20170317@17:32:42 [System] DLMorePet_ItemDataBound 
+20170317@17:32:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:32:51 [System] getLoggedInAccount 
+20170317@17:32:51 [System] getLoggedInAccount 
+20170317@17:32:51 [System] BTNAppmtDate_Click 
+20170317@17:32:51 [System] loadOperatingHours 
+20170317@17:32:51 [System] MessageHandler : Appointment Time 
+20170317@17:32:51 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:32:51 [System] saveTempAppointment 
+20170317@17:33:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:33:07 [System] getLoggedInAccount 
+20170317@17:33:07 [System] getLoggedInAccount 
+20170317@17:33:07 [System] BTNAppmtDate_Click 
+20170317@17:33:07 [System] loadOperatingHours 
+20170317@17:33:07 [System] MessageHandler : Appointment Time 
+20170317@17:33:07 [System] MessageHandler : Appointment Date (Saturday) 
+20170317@17:33:07 [System] saveTempAppointment 
+20170317@17:33:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:33:47 [System] getLoggedInAccount 
+20170317@17:33:47 [System] loadAdoptionInfo 
+20170317@17:33:47 [System] getAdoptInfo 
+20170317@17:33:47 [System] getShopInfo 
+20170317@17:33:47 [System] getShopTime 
+20170317@17:33:48 [System] getLoggedInAccount 
+20170317@17:33:48 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:33:48 [System] DLMorePet_ItemDataBound 
+20170317@17:33:48 [System] DLMorePet_ItemDataBound 
+20170317@17:33:48 [System] DLMorePet_ItemDataBound 
+20170317@17:33:48 [System] DLMorePet_ItemDataBound 
+20170317@17:33:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:33:52 [System] getLoggedInAccount 
+20170317@17:33:52 [System] getLoggedInAccount 
+20170317@17:33:52 [System] BTNAppmtDate_Click 
+20170317@17:33:52 [System] loadOperatingHours 
+20170317@17:33:52 [System] MessageHandler : Appointment Time 
+20170317@17:33:52 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:33:52 [System] saveTempAppointment 
+20170317@17:33:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:33:56 [System] getLoggedInAccount 
+20170317@17:33:56 [System] getLoggedInAccount 
+20170317@17:33:56 [System] BTNAppmtDate_Click 
+20170317@17:33:56 [System] loadOperatingHours 
+20170317@17:33:56 [System] MessageHandler : Appointment Time 
+20170317@17:33:56 [System] MessageHandler : Appointment Date (Saturday) 
+20170317@17:33:56 [System] saveTempAppointment 
+20170317@17:34:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:34:16 [System] getLoggedInAccount 
+20170317@17:34:16 [System] loadAdoptionInfo 
+20170317@17:34:16 [System] getAdoptInfo 
+20170317@17:34:16 [System] getShopInfo 
+20170317@17:34:16 [System] getShopTime 
+20170317@17:34:17 [System] getLoggedInAccount 
+20170317@17:34:17 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:34:17 [System] DLMorePet_ItemDataBound 
+20170317@17:34:17 [System] DLMorePet_ItemDataBound 
+20170317@17:34:17 [System] DLMorePet_ItemDataBound 
+20170317@17:34:17 [System] DLMorePet_ItemDataBound 
+20170317@17:34:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:34:21 [System] getLoggedInAccount 
+20170317@17:34:21 [System] getLoggedInAccount 
+20170317@17:34:21 [System] BTNAppmtDate_Click 
+20170317@17:34:21 [System] loadOperatingHours 
+20170317@17:34:21 [System] MessageHandler : Appointment Time 
+20170317@17:34:21 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:34:21 [System] saveTempAppointment 
+20170317@17:34:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:34:24 [System] getLoggedInAccount 
+20170317@17:34:24 [System] getLoggedInAccount 
+20170317@17:34:24 [System] BTNAppmtDate_Click 
+20170317@17:34:24 [System] loadOperatingHours 
+20170317@17:34:24 [System] MessageHandler : Appointment Time 
+20170317@17:34:24 [System] MessageHandler : Appointment Date (Saturday) 
+20170317@17:34:24 [System] saveTempAppointment 
+20170317@17:36:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:36:03 [System] getLoggedInAccount 
+20170317@17:36:03 [System] loadAdoptionInfo 
+20170317@17:36:03 [System] getAdoptInfo 
+20170317@17:36:03 [System] getShopInfo 
+20170317@17:36:03 [System] getShopTime 
+20170317@17:36:04 [System] getLoggedInAccount 
+20170317@17:36:04 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:36:04 [System] DLMorePet_ItemDataBound 
+20170317@17:36:04 [System] DLMorePet_ItemDataBound 
+20170317@17:36:04 [System] DLMorePet_ItemDataBound 
+20170317@17:36:04 [System] DLMorePet_ItemDataBound 
+20170317@17:36:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:36:08 [System] getLoggedInAccount 
+20170317@17:36:08 [System] getLoggedInAccount 
+20170317@17:36:08 [System] BTNAppmtDate_Click 
+20170317@17:36:08 [System] loadOperatingHours 
+20170317@17:36:08 [System] MessageHandler : Appointment Time 
+20170317@17:36:08 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:36:08 [System] saveTempAppointment 
+20170317@17:36:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:36:11 [System] getLoggedInAccount 
+20170317@17:36:11 [System] getLoggedInAccount 
+20170317@17:36:11 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:36:11 [System] saveTempAppointment 
+20170317@17:36:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:36:12 [System] getLoggedInAccount 
+20170317@17:36:12 [System] getLoggedInAccount 
+20170317@17:36:12 [System] BTNAdoptMe_Click 
+20170317@17:36:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:36:17 [System] getLoggedInAccount 
+20170317@17:36:17 [System] getLoggedInAccount 
+20170317@17:36:17 [System] BTNLogin_Click 
+20170317@17:36:17 [System] MessageHandler : Either email or password is invalid 
+20170317@17:36:17 [System] signIn 
+20170317@17:36:17 [System] getShopInfo 
+20170317@17:36:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:36:17 [System] getLoggedInAccount 
+20170317@17:36:17 [System] loadAdoptionInfo 
+20170317@17:36:17 [System] getAdoptInfo 
+20170317@17:36:17 [System] getShopInfo 
+20170317@17:36:17 [System] getShopTime 
+20170317@17:36:18 [System] getLoggedInAccount 
+20170317@17:36:18 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:36:18 [System] DLMorePet_ItemDataBound 
+20170317@17:36:18 [System] DLMorePet_ItemDataBound 
+20170317@17:36:18 [System] DLMorePet_ItemDataBound 
+20170317@17:36:18 [System] DLMorePet_ItemDataBound 
+20170317@17:37:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:37:28 [System] getLoggedInAccount 
+20170317@17:37:28 [System] loadAdoptionInfo 
+20170317@17:37:28 [System] getAdoptInfo 
+20170317@17:37:28 [System] getShopInfo 
+20170317@17:37:29 [System] getShopTime 
+20170317@17:37:29 [System] getLoggedInAccount 
+20170317@17:37:29 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:37:29 [System] DLMorePet_ItemDataBound 
+20170317@17:37:29 [System] DLMorePet_ItemDataBound 
+20170317@17:37:29 [System] DLMorePet_ItemDataBound 
+20170317@17:37:29 [System] DLMorePet_ItemDataBound 
+20170317@17:37:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:37:51 [System] getLoggedInAccount 
+20170317@17:37:51 [System] loadAdoptionInfo 
+20170317@17:37:51 [System] getAdoptInfo 
+20170317@17:37:51 [System] getShopInfo 
+20170317@17:37:51 [System] getShopTime 
+20170317@17:37:51 [System] getLoggedInAccount 
+20170317@17:37:51 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:37:51 [System] DLMorePet_ItemDataBound 
+20170317@17:37:52 [System] DLMorePet_ItemDataBound 
+20170317@17:37:52 [System] DLMorePet_ItemDataBound 
+20170317@17:37:52 [System] DLMorePet_ItemDataBound 
+20170317@17:37:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:37:58 [System] getLoggedInAccount 
+20170317@17:37:58 [System] getLoggedInAccount 
+20170317@17:37:58 [System] BTNAppmtDate_Click 
+20170317@17:37:58 [System] loadOperatingHours 
+20170317@17:37:58 [System] MessageHandler : Appointment Time 
+20170317@17:37:58 [System] MessageHandler : Appointment Date (Friday) 
+20170317@17:37:58 [System] saveTempAppointment 
+20170317@17:38:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:38:21 [System] getLoggedInAccount 
+20170317@17:38:21 [System] loadAdoptionInfo 
+20170317@17:38:21 [System] getAdoptInfo 
+20170317@17:38:22 [System] getShopInfo 
+20170317@17:38:22 [System] getShopTime 
+20170317@17:38:22 [System] getLoggedInAccount 
+20170317@17:38:22 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:38:22 [System] DLMorePet_ItemDataBound 
+20170317@17:38:22 [System] DLMorePet_ItemDataBound 
+20170317@17:38:22 [System] DLMorePet_ItemDataBound 
+20170317@17:38:22 [System] DLMorePet_ItemDataBound 
+20170317@17:38:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:38:43 [System] getLoggedInAccount 
+20170317@17:38:43 [System] loadAdoptionInfo 
+20170317@17:38:43 [System] getAdoptInfo 
+20170317@17:38:43 [System] getShopInfo 
+20170317@17:38:43 [System] getShopTime 
+20170317@17:38:43 [System] getLoggedInAccount 
+20170317@17:38:43 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:38:43 [System] DLMorePet_ItemDataBound 
+20170317@17:38:43 [System] DLMorePet_ItemDataBound 
+20170317@17:38:43 [System] DLMorePet_ItemDataBound 
+20170317@17:38:43 [System] DLMorePet_ItemDataBound 
+20170317@17:39:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170317@17:39:15 [System] getLoggedInAccount 
+20170317@17:39:15 [System] getLoggedInAccount 
+20170317@17:39:15 [System] LKBTNSignOut_Click 
+20170317@17:39:15 [System] signOut 
+20170317@17:39:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx 
+20170317@17:39:15 [System] getLoggedInAccount 
+20170317@17:39:15 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@17:39:15 [System] getLoggedInAccount 
+20170317@17:39:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:39:18 [System] getLoggedInAccount 
+20170317@17:39:18 [System] loadAdoptionInfo 
+20170317@17:39:18 [System] getAdoptInfo 
+20170317@17:39:18 [System] getShopInfo 
+20170317@17:39:18 [System] getShopTime 
+20170317@17:39:18 [System] getLoggedInAccount 
+20170317@17:39:19 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:39:19 [System] DLMorePet_ItemDataBound 
+20170317@17:39:19 [System] DLMorePet_ItemDataBound 
+20170317@17:39:19 [System] DLMorePet_ItemDataBound 
+20170317@17:39:19 [System] DLMorePet_ItemDataBound 
+20170317@17:41:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:41:24 [System] getLoggedInAccount 
+20170317@17:41:24 [System] loadAdoptionInfo 
+20170317@17:41:24 [System] getAdoptInfo 
+20170317@17:41:24 [System] getShopInfo 
+20170317@17:41:24 [System] getShopTime 
+20170317@17:41:25 [System] getLoggedInAccount 
+20170317@17:41:25 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:41:25 [System] DLMorePet_ItemDataBound 
+20170317@17:41:25 [System] DLMorePet_ItemDataBound 
+20170317@17:41:25 [System] DLMorePet_ItemDataBound 
+20170317@17:41:25 [System] DLMorePet_ItemDataBound 
+20170317@17:41:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:41:30 [System] getLoggedInAccount 
+20170317@17:41:30 [System] getLoggedInAccount 
+20170317@17:41:30 [System] BTNAppmtDate_Click 
+20170317@17:41:30 [System] loadOperatingHours 
+20170317@17:41:30 [System] MessageHandler : Appointment Time 
+20170317@17:41:30 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:41:30 [System] saveTempAppointment 
+20170317@17:41:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:41:32 [System] getLoggedInAccount 
+20170317@17:41:32 [System] getLoggedInAccount 
+20170317@17:41:32 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:41:32 [System] saveTempAppointment 
+20170317@17:41:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:41:36 [System] getLoggedInAccount 
+20170317@17:41:36 [System] getLoggedInAccount 
+20170317@17:41:36 [System] BTNAdoptMe_Click 
+20170317@17:41:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:41:51 [System] getLoggedInAccount 
+20170317@17:41:51 [System] getLoggedInAccount 
+20170317@17:41:51 [System] BTNLogin_Click 
+20170317@17:41:51 [System] MessageHandler : Either email or password is invalid 
+20170317@17:41:51 [System] signIn 
+20170317@17:41:51 [System] getShopInfo 
+20170317@17:41:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:41:51 [System] getLoggedInAccount 
+20170317@17:41:51 [System] loadAdoptionInfo 
+20170317@17:41:51 [System] getAdoptInfo 
+20170317@17:41:51 [System] getShopInfo 
+20170317@17:41:51 [System] getShopTime 
+20170317@17:41:52 [System] getLoggedInAccount 
+20170317@17:41:52 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:41:52 [System] DLMorePet_ItemDataBound 
+20170317@17:41:52 [System] DLMorePet_ItemDataBound 
+20170317@17:41:52 [System] DLMorePet_ItemDataBound 
+20170317@17:41:52 [System] DLMorePet_ItemDataBound 
+20170317@17:42:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:42:44 [System] getLoggedInAccount 
+20170317@17:42:44 [System] getLoggedInAccount 
+20170317@17:42:44 [System] LKBTNSignOut_Click 
+20170317@17:42:44 [System] signOut 
+20170317@17:42:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:42:44 [System] getLoggedInAccount 
+20170317@17:42:44 [System] loadAdoptionInfo 
+20170317@17:42:44 [System] getAdoptInfo 
+20170317@17:42:44 [System] getShopInfo 
+20170317@17:42:44 [System] getShopTime 
+20170317@17:42:44 [System] getLoggedInAccount 
+20170317@17:42:44 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:42:44 [System] DLMorePet_ItemDataBound 
+20170317@17:42:44 [System] DLMorePet_ItemDataBound 
+20170317@17:42:45 [System] DLMorePet_ItemDataBound 
+20170317@17:42:45 [System] DLMorePet_ItemDataBound 
+20170317@17:43:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:43:42 [System] getLoggedInAccount 
+20170317@17:43:42 [System] loadAdoptionInfo 
+20170317@17:43:42 [System] getAdoptInfo 
+20170317@17:43:42 [System] getShopInfo 
+20170317@17:43:42 [System] getShopTime 
+20170317@17:43:42 [System] loadOperatingHours 
+20170317@17:43:42 [System] getLoggedInAccount 
+20170317@17:43:43 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:43:43 [System] DLMorePet_ItemDataBound 
+20170317@17:43:43 [System] DLMorePet_ItemDataBound 
+20170317@17:43:43 [System] DLMorePet_ItemDataBound 
+20170317@17:43:43 [System] DLMorePet_ItemDataBound 
+20170317@17:43:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:43:49 [System] getLoggedInAccount 
+20170317@17:43:49 [System] loadAdoptionInfo 
+20170317@17:43:49 [System] getAdoptInfo 
+20170317@17:43:50 [System] getShopInfo 
+20170317@17:43:50 [System] getShopTime 
+20170317@17:43:50 [System] loadOperatingHours 
+20170317@17:43:50 [System] getLoggedInAccount 
+20170317@17:43:50 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:43:50 [System] DLMorePet_ItemDataBound 
+20170317@17:43:50 [System] DLMorePet_ItemDataBound 
+20170317@17:43:50 [System] DLMorePet_ItemDataBound 
+20170317@17:43:50 [System] DLMorePet_ItemDataBound 
+20170317@17:44:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:44:03 [System] getLoggedInAccount 
+20170317@17:44:03 [System] loadAdoptionInfo 
+20170317@17:44:03 [System] getAdoptInfo 
+20170317@17:44:03 [System] getShopInfo 
+20170317@17:44:03 [System] getShopTime 
+20170317@17:44:03 [System] loadOperatingHours 
+20170317@17:44:03 [System] getLoggedInAccount 
+20170317@17:44:04 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:44:04 [System] DLMorePet_ItemDataBound 
+20170317@17:44:04 [System] DLMorePet_ItemDataBound 
+20170317@17:44:04 [System] DLMorePet_ItemDataBound 
+20170317@17:44:04 [System] DLMorePet_ItemDataBound 
+20170317@17:52:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@17:52:27 [System] getLoggedInAccount 
+20170317@17:52:27 [System] getLoggedInAccount 
+20170317@17:52:27 [System] BTNAppmtDate_Click 
+20170317@17:52:27 [System] loadOperatingHours 
+20170317@17:52:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170317@17:52:34 [System] getLoggedInAccount 
+20170317@17:52:34 [System] loadAdoptionInfo 
+20170317@17:52:34 [System] getAdoptInfo 
+20170317@17:52:34 [System] getShopInfo 
+20170317@17:52:34 [System] getShopTime 
+20170317@17:52:34 [System] loadOperatingHours 
+20170317@17:52:34 [System] getLoggedInAccount 
+20170317@17:52:34 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:52:34 [System] DLMorePet_ItemDataBound 
+20170317@17:52:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170317@17:52:40 [System] getLoggedInAccount 
+20170317@17:52:40 [System] getLoggedInAccount 
+20170317@17:52:40 [System] BTNAppmtDate_Click 
+20170317@17:52:40 [System] loadOperatingHours 
+20170317@17:52:40 [System] MessageHandler : Appointment Time 
+20170317@17:52:40 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:52:41 [System] saveTempAppointment 
+20170317@17:54:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170317@17:54:52 [System] getLoggedInAccount 
+20170317@17:54:52 [System] getLoggedInAccount 
+20170317@17:54:52 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@17:54:52 [System] saveTempAppointment 
+20170317@17:57:31 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@17:57:31 [System] getLoggedInAccount 
+20170317@17:57:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@17:57:36 [System] getLoggedInAccount 
+20170317@17:57:36 [System] loadAdoptionInfo 
+20170317@17:57:36 [System] getAdoptInfo 
+20170317@17:57:36 [System] getShopInfo 
+20170317@17:57:36 [System] getShopTime 
+20170317@17:57:36 [System] loadOperatingHours 
+20170317@17:57:36 [System] getLoggedInAccount 
+20170317@17:57:36 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:57:36 [System] DLMorePet_ItemDataBound 
+20170317@17:58:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@17:58:04 [System] getLoggedInAccount 
+20170317@17:58:04 [System] loadAdoptionInfo 
+20170317@17:58:04 [System] getAdoptInfo 
+20170317@17:58:04 [System] getShopInfo 
+20170317@17:58:04 [System] getShopTime 
+20170317@17:58:04 [System] getLoggedInAccount 
+20170317@17:58:04 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:58:04 [System] DLMorePet_ItemDataBound 
+20170317@17:58:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@17:58:09 [System] getLoggedInAccount 
+20170317@17:58:09 [System] getLoggedInAccount 
+20170317@17:58:09 [System] BTNAppmtDate_Click 
+20170317@17:58:09 [System] loadOperatingHours 
+20170317@17:58:09 [System] saveTempAppointment 
+20170317@17:59:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@17:59:10 [System] getLoggedInAccount 
+20170317@17:59:10 [System] loadAdoptionInfo 
+20170317@17:59:10 [System] getAdoptInfo 
+20170317@17:59:10 [System] getShopInfo 
+20170317@17:59:10 [System] getShopTime 
+20170317@17:59:10 [System] getLoggedInAccount 
+20170317@17:59:10 [System] DLAdoptInfo_ItemDataBound 
+20170317@17:59:11 [System] DLMorePet_ItemDataBound 
+20170317@18:05:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@18:05:58 [System] getLoggedInAccount 
+20170317@18:05:58 [System] getLoggedInAccount 
+20170317@18:05:58 [System] BTNAppmtDate_Click 
+20170317@18:05:58 [System] loadOperatingHours 
+20170317@18:05:58 [System] saveTempAppointment 
+20170317@18:06:09 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:06:09 [System] getLoggedInAccount 
+20170317@18:06:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:06:11 [System] getLoggedInAccount 
+20170317@18:06:11 [System] loadAdoptionInfo 
+20170317@18:06:12 [System] getAdoptInfo 
+20170317@18:06:12 [System] getShopInfo 
+20170317@18:06:12 [System] getShopTime 
+20170317@18:06:13 [System] getLoggedInAccount 
+20170317@18:06:13 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:06:13 [System] DLMorePet_ItemDataBound 
+20170317@18:06:13 [System] DLMorePet_ItemDataBound 
+20170317@18:06:13 [System] DLMorePet_ItemDataBound 
+20170317@18:06:13 [System] DLMorePet_ItemDataBound 
+20170317@18:06:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:06:17 [System] getLoggedInAccount 
+20170317@18:06:17 [System] getLoggedInAccount 
+20170317@18:06:17 [System] BTNAppmtDate_Click 
+20170317@18:06:17 [System] loadOperatingHours 
+20170317@18:06:17 [System] saveTempAppointment 
+20170317@18:07:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@18:07:27 [System] getLoggedInAccount 
+20170317@18:07:27 [System] loadAdoptionInfo 
+20170317@18:07:27 [System] getAdoptInfo 
+20170317@18:07:28 [System] getShopInfo 
+20170317@18:07:28 [System] getShopTime 
+20170317@18:07:28 [System] getLoggedInAccount 
+20170317@18:07:28 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:07:28 [System] DLMorePet_ItemDataBound 
+20170317@18:07:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@18:07:37 [System] getLoggedInAccount 
+20170317@18:07:37 [System] getLoggedInAccount 
+20170317@18:07:37 [System] BTNAppmtDate_Click 
+20170317@18:07:37 [System] loadOperatingHours 
+20170317@18:07:37 [System] saveTempAppointment 
+20170317@18:07:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@18:07:39 [System] getLoggedInAccount 
+20170317@18:07:39 [System] loadAdoptionInfo 
+20170317@18:07:39 [System] getAdoptInfo 
+20170317@18:07:39 [System] getShopInfo 
+20170317@18:07:39 [System] getShopTime 
+20170317@18:07:39 [System] getLoggedInAccount 
+20170317@18:07:39 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:07:40 [System] DLMorePet_ItemDataBound 
+20170317@18:07:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@18:07:43 [System] getLoggedInAccount 
+20170317@18:07:43 [System] getLoggedInAccount 
+20170317@18:07:43 [System] BTNAppmtDate_Click 
+20170317@18:07:43 [System] loadOperatingHours 
+20170317@18:07:43 [System] saveTempAppointment 
+20170317@18:07:49 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:07:49 [System] getLoggedInAccount 
+20170317@18:07:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:07:58 [System] getLoggedInAccount 
+20170317@18:07:58 [System] loadAdoptionInfo 
+20170317@18:07:58 [System] getAdoptInfo 
+20170317@18:07:58 [System] getShopInfo 
+20170317@18:07:58 [System] getShopTime 
+20170317@18:07:58 [System] getLoggedInAccount 
+20170317@18:07:58 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:07:59 [System] DLMorePet_ItemDataBound 
+20170317@18:07:59 [System] DLMorePet_ItemDataBound 
+20170317@18:07:59 [System] DLMorePet_ItemDataBound 
+20170317@18:07:59 [System] DLMorePet_ItemDataBound 
+20170317@18:08:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:08:02 [System] getLoggedInAccount 
+20170317@18:08:02 [System] getLoggedInAccount 
+20170317@18:08:02 [System] BTNAppmtDate_Click 
+20170317@18:08:02 [System] loadOperatingHours 
+20170317@18:08:02 [System] saveTempAppointment 
+20170317@18:08:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:08:07 [System] getLoggedInAccount 
+20170317@18:08:07 [System] loadAdoptionInfo 
+20170317@18:08:07 [System] getAdoptInfo 
+20170317@18:08:07 [System] getShopInfo 
+20170317@18:08:07 [System] getShopTime 
+20170317@18:08:08 [System] getLoggedInAccount 
+20170317@18:08:08 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:08:08 [System] DLMorePet_ItemDataBound 
+20170317@18:08:08 [System] DLMorePet_ItemDataBound 
+20170317@18:08:08 [System] DLMorePet_ItemDataBound 
+20170317@18:08:08 [System] DLMorePet_ItemDataBound 
+20170317@18:10:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:10:25 [System] getLoggedInAccount 
+20170317@18:10:25 [System] loadAdoptionInfo 
+20170317@18:10:25 [System] getAdoptInfo 
+20170317@18:10:25 [System] getShopInfo 
+20170317@18:10:25 [System] getShopTime 
+20170317@18:10:25 [System] getLoggedInAccount 
+20170317@18:10:25 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:10:25 [System] DLMorePet_ItemDataBound 
+20170317@18:10:25 [System] DLMorePet_ItemDataBound 
+20170317@18:10:25 [System] DLMorePet_ItemDataBound 
+20170317@18:10:26 [System] DLMorePet_ItemDataBound 
+20170317@18:10:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:10:30 [System] getLoggedInAccount 
+20170317@18:10:30 [System] getLoggedInAccount 
+20170317@18:10:30 [System] BTNAppmtDate_Click 
+20170317@18:10:30 [System] loadOperatingHours 
+20170317@18:10:30 [System] saveTempAppointment 
+20170317@18:10:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:10:32 [System] getLoggedInAccount 
+20170317@18:10:32 [System] loadOperatingHours 
+20170317@18:10:32 [System] MessageHandler : Appointment Time 
+20170317@18:10:32 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:10:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:10:55 [System] getLoggedInAccount 
+20170317@18:10:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:10:59 [System] getLoggedInAccount 
+20170317@18:10:59 [System] loadAdoptionInfo 
+20170317@18:10:59 [System] getAdoptInfo 
+20170317@18:10:59 [System] getShopInfo 
+20170317@18:10:59 [System] getShopTime 
+20170317@18:11:00 [System] getLoggedInAccount 
+20170317@18:11:00 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:11:00 [System] DLMorePet_ItemDataBound 
+20170317@18:11:00 [System] DLMorePet_ItemDataBound 
+20170317@18:11:00 [System] DLMorePet_ItemDataBound 
+20170317@18:11:00 [System] DLMorePet_ItemDataBound 
+20170317@18:11:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:11:04 [System] getLoggedInAccount 
+20170317@18:11:04 [System] getLoggedInAccount 
+20170317@18:11:04 [System] BTNAppmtDate_Click 
+20170317@18:11:04 [System] loadOperatingHours 
+20170317@18:11:04 [System] saveTempAppointment 
+20170317@18:11:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:11:10 [System] getLoggedInAccount 
+20170317@18:11:10 [System] loadOperatingHours 
+20170317@18:11:10 [System] MessageHandler : Appointment Time 
+20170317@18:11:10 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:11:40 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:11:40 [System] getLoggedInAccount 
+20170317@18:11:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:11:45 [System] getLoggedInAccount 
+20170317@18:11:45 [System] loadAdoptionInfo 
+20170317@18:11:45 [System] getAdoptInfo 
+20170317@18:11:45 [System] getShopInfo 
+20170317@18:11:45 [System] getShopTime 
+20170317@18:11:45 [System] getLoggedInAccount 
+20170317@18:11:46 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:11:46 [System] DLMorePet_ItemDataBound 
+20170317@18:11:46 [System] DLMorePet_ItemDataBound 
+20170317@18:11:46 [System] DLMorePet_ItemDataBound 
+20170317@18:11:46 [System] DLMorePet_ItemDataBound 
+20170317@18:11:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:11:48 [System] getLoggedInAccount 
+20170317@18:11:48 [System] getLoggedInAccount 
+20170317@18:11:48 [System] BTNAppmtDate_Click 
+20170317@18:11:48 [System] loadOperatingHours 
+20170317@18:11:48 [System] saveTempAppointment 
+20170317@18:12:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:12:31 [System] getLoggedInAccount 
+20170317@18:12:31 [System] loadOperatingHours 
+20170317@18:12:31 [System] MessageHandler : Appointment Time 
+20170317@18:12:32 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:13:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:13:08 [System] getLoggedInAccount 
+20170317@18:13:08 [System] loadAdoptionInfo 
+20170317@18:13:08 [System] getAdoptInfo 
+20170317@18:13:08 [System] getShopInfo 
+20170317@18:13:09 [System] getShopTime 
+20170317@18:13:09 [System] getLoggedInAccount 
+20170317@18:13:09 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:13:09 [System] DLMorePet_ItemDataBound 
+20170317@18:13:09 [System] DLMorePet_ItemDataBound 
+20170317@18:13:09 [System] DLMorePet_ItemDataBound 
+20170317@18:13:09 [System] DLMorePet_ItemDataBound 
+20170317@18:13:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:13:17 [System] getLoggedInAccount 
+20170317@18:13:17 [System] getLoggedInAccount 
+20170317@18:13:17 [System] BTNAppmtDate_Click 
+20170317@18:13:17 [System] loadOperatingHours 
+20170317@18:13:17 [System] MessageHandler : Appointment Time 
+20170317@18:13:17 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:13:17 [System] saveTempAppointment 
+20170317@18:13:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:13:30 [System] getLoggedInAccount 
+20170317@18:13:30 [System] loadOperatingHours 
+20170317@18:13:30 [System] MessageHandler : Appointment Time 
+20170317@18:13:30 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:13:30 [System] getLoggedInAccount 
+20170317@18:13:30 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:13:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:13:36 [System] getLoggedInAccount 
+20170317@18:13:36 [System] loadOperatingHours 
+20170317@18:13:36 [System] MessageHandler : Appointment Time 
+20170317@18:13:36 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:13:36 [System] getLoggedInAccount 
+20170317@18:13:36 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:14:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:14:38 [System] getLoggedInAccount 
+20170317@18:14:38 [System] loadAdoptionInfo 
+20170317@18:14:38 [System] getAdoptInfo 
+20170317@18:14:38 [System] getShopInfo 
+20170317@18:14:38 [System] getShopTime 
+20170317@18:14:38 [System] getLoggedInAccount 
+20170317@18:14:38 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:14:38 [System] DLMorePet_ItemDataBound 
+20170317@18:14:38 [System] DLMorePet_ItemDataBound 
+20170317@18:14:38 [System] DLMorePet_ItemDataBound 
+20170317@18:14:38 [System] DLMorePet_ItemDataBound 
+20170317@18:14:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:14:42 [System] getLoggedInAccount 
+20170317@18:14:42 [System] getLoggedInAccount 
+20170317@18:14:42 [System] BTNAppmtDate_Click 
+20170317@18:14:42 [System] loadOperatingHours 
+20170317@18:14:42 [System] MessageHandler : Appointment Time 
+20170317@18:14:42 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:14:42 [System] saveTempAppointment 
+20170317@18:14:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:14:45 [System] getLoggedInAccount 
+20170317@18:14:45 [System] loadOperatingHours 
+20170317@18:14:45 [System] MessageHandler : Appointment Time 
+20170317@18:14:45 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:14:45 [System] getLoggedInAccount 
+20170317@18:14:45 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:16:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:16:39 [System] getLoggedInAccount 
+20170317@18:16:39 [System] loadAdoptionInfo 
+20170317@18:16:39 [System] getAdoptInfo 
+20170317@18:16:39 [System] getShopInfo 
+20170317@18:16:39 [System] getShopTime 
+20170317@18:16:39 [System] getLoggedInAccount 
+20170317@18:16:40 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:16:40 [System] DLMorePet_ItemDataBound 
+20170317@18:16:40 [System] DLMorePet_ItemDataBound 
+20170317@18:16:40 [System] DLMorePet_ItemDataBound 
+20170317@18:16:40 [System] DLMorePet_ItemDataBound 
+20170317@18:16:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:16:43 [System] getLoggedInAccount 
+20170317@18:16:43 [System] getLoggedInAccount 
+20170317@18:16:43 [System] BTNAppmtDate_Click 
+20170317@18:16:43 [System] loadOperatingHours 
+20170317@18:16:43 [System] MessageHandler : Appointment Time 
+20170317@18:16:43 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:16:43 [System] saveTempAppointment 
+20170317@18:16:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:16:46 [System] getLoggedInAccount 
+20170317@18:16:46 [System] getLoggedInAccount 
+20170317@18:16:46 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:16:46 [System] saveTempAppointment 
+20170317@18:17:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:17:26 [System] getLoggedInAccount 
+20170317@18:17:26 [System] loadAdoptionInfo 
+20170317@18:17:26 [System] getAdoptInfo 
+20170317@18:17:27 [System] getShopInfo 
+20170317@18:17:27 [System] getShopTime 
+20170317@18:17:27 [System] loadOperatingHours 
+20170317@18:17:27 [System] getLoggedInAccount 
+20170317@18:17:27 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:17:27 [System] DLMorePet_ItemDataBound 
+20170317@18:17:27 [System] DLMorePet_ItemDataBound 
+20170317@18:17:27 [System] DLMorePet_ItemDataBound 
+20170317@18:17:27 [System] DLMorePet_ItemDataBound 
+20170317@18:17:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:17:36 [System] getLoggedInAccount 
+20170317@18:17:36 [System] getLoggedInAccount 
+20170317@18:17:36 [System] BTNAppmtDate_Click 
+20170317@18:17:36 [System] loadOperatingHours 
+20170317@18:17:36 [System] MessageHandler : Appointment Time 
+20170317@18:17:36 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:17:36 [System] saveTempAppointment 
+20170317@18:17:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:17:39 [System] getLoggedInAccount 
+20170317@18:17:39 [System] getLoggedInAccount 
+20170317@18:17:39 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:17:39 [System] saveTempAppointment 
+20170317@18:18:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:18:40 [System] getLoggedInAccount 
+20170317@18:18:40 [System] loadAdoptionInfo 
+20170317@18:18:40 [System] getAdoptInfo 
+20170317@18:18:40 [System] getShopInfo 
+20170317@18:18:41 [System] getShopTime 
+20170317@18:18:41 [System] loadOperatingHours 
+20170317@18:18:41 [System] getLoggedInAccount 
+20170317@18:18:41 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:18:41 [System] DLMorePet_ItemDataBound 
+20170317@18:18:41 [System] DLMorePet_ItemDataBound 
+20170317@18:18:41 [System] DLMorePet_ItemDataBound 
+20170317@18:18:41 [System] DLMorePet_ItemDataBound 
+20170317@18:19:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:19:25 [System] getLoggedInAccount 
+20170317@18:19:25 [System] loadAdoptionInfo 
+20170317@18:19:25 [System] getAdoptInfo 
+20170317@18:19:25 [System] getShopInfo 
+20170317@18:19:25 [System] getShopTime 
+20170317@18:19:25 [System] loadOperatingHours 
+20170317@18:19:25 [System] getLoggedInAccount 
+20170317@18:19:25 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:19:25 [System] DLMorePet_ItemDataBound 
+20170317@18:19:26 [System] DLMorePet_ItemDataBound 
+20170317@18:19:26 [System] DLMorePet_ItemDataBound 
+20170317@18:19:26 [System] DLMorePet_ItemDataBound 
+20170317@18:19:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:19:35 [System] getLoggedInAccount 
+20170317@18:19:35 [System] getLoggedInAccount 
+20170317@18:19:35 [System] BTNAppmtDate_Click 
+20170317@18:19:35 [System] loadOperatingHours 
+20170317@18:19:35 [System] MessageHandler : Appointment Time 
+20170317@18:19:35 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:19:35 [System] saveTempAppointment 
+20170317@18:19:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:19:38 [System] getLoggedInAccount 
+20170317@18:19:38 [System] getLoggedInAccount 
+20170317@18:19:38 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:19:38 [System] saveTempAppointment 
+20170317@18:19:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:19:48 [System] getLoggedInAccount 
+20170317@18:19:48 [System] getLoggedInAccount 
+20170317@18:19:48 [System] BTNAdoptMe_Click 
+20170317@18:19:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:19:51 [System] getLoggedInAccount 
+20170317@18:19:51 [System] getLoggedInAccount 
+20170317@18:19:51 [System] BTNLogin_Click 
+20170317@18:19:51 [System] MessageHandler : Either email or password is invalid 
+20170317@18:19:51 [System] signIn 
+20170317@18:19:51 [System] getShopInfo 
+20170317@18:19:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:19:52 [System] getLoggedInAccount 
+20170317@18:19:52 [System] loadAdoptionInfo 
+20170317@18:19:52 [System] getAdoptInfo 
+20170317@18:19:52 [System] getShopInfo 
+20170317@18:19:52 [System] getShopTime 
+20170317@18:19:52 [System] loadOperatingHours 
+20170317@18:19:52 [System] getLoggedInAccount 
+20170317@18:19:52 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:19:52 [System] DLMorePet_ItemDataBound 
+20170317@18:19:52 [System] DLMorePet_ItemDataBound 
+20170317@18:19:52 [System] DLMorePet_ItemDataBound 
+20170317@18:19:52 [System] DLMorePet_ItemDataBound 
+20170317@18:23:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:23:49 [System] getLoggedInAccount 
+20170317@18:23:49 [System] loadAdoptionInfo 
+20170317@18:23:49 [System] getAdoptInfo 
+20170317@18:23:50 [System] getShopInfo 
+20170317@18:23:50 [System] getShopTime 
+20170317@18:23:50 [System] getLoggedInAccount 
+20170317@18:23:50 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:23:50 [System] DLMorePet_ItemDataBound 
+20170317@18:23:50 [System] DLMorePet_ItemDataBound 
+20170317@18:23:50 [System] DLMorePet_ItemDataBound 
+20170317@18:23:50 [System] DLMorePet_ItemDataBound 
+20170317@18:24:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:24:24 [System] getLoggedInAccount 
+20170317@18:24:24 [System] loadAdoptionInfo 
+20170317@18:24:24 [System] getAdoptInfo 
+20170317@18:24:24 [System] getShopInfo 
+20170317@18:24:24 [System] getShopTime 
+20170317@18:24:24 [System] getLoggedInAccount 
+20170317@18:24:24 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:24:24 [System] DLMorePet_ItemDataBound 
+20170317@18:24:25 [System] DLMorePet_ItemDataBound 
+20170317@18:24:25 [System] DLMorePet_ItemDataBound 
+20170317@18:24:25 [System] DLMorePet_ItemDataBound 
+20170317@18:24:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:24:56 [System] getLoggedInAccount 
+20170317@18:24:56 [System] loadAdoptionInfo 
+20170317@18:24:56 [System] getAdoptInfo 
+20170317@18:24:56 [System] getShopInfo 
+20170317@18:24:56 [System] getShopTime 
+20170317@18:24:56 [System] getLoggedInAccount 
+20170317@18:24:57 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:24:57 [System] DLMorePet_ItemDataBound 
+20170317@18:24:57 [System] DLMorePet_ItemDataBound 
+20170317@18:24:57 [System] DLMorePet_ItemDataBound 
+20170317@18:24:57 [System] DLMorePet_ItemDataBound 
+20170317@18:25:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:25:39 [System] getLoggedInAccount 
+20170317@18:25:39 [System] getLoggedInAccount 
+20170317@18:25:39 [System] LKBTNSignOut_Click 
+20170317@18:25:39 [System] signOut 
+20170317@18:25:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:25:39 [System] getLoggedInAccount 
+20170317@18:25:39 [System] loadAdoptionInfo 
+20170317@18:25:39 [System] getAdoptInfo 
+20170317@18:25:39 [System] getShopInfo 
+20170317@18:25:39 [System] getShopTime 
+20170317@18:25:40 [System] getLoggedInAccount 
+20170317@18:25:40 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:25:40 [System] DLMorePet_ItemDataBound 
+20170317@18:25:40 [System] DLMorePet_ItemDataBound 
+20170317@18:25:40 [System] DLMorePet_ItemDataBound 
+20170317@18:25:40 [System] DLMorePet_ItemDataBound 
+20170317@18:25:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:25:52 [System] getLoggedInAccount 
+20170317@18:25:52 [System] loadAdoptionInfo 
+20170317@18:25:52 [System] getAdoptInfo 
+20170317@18:25:52 [System] getShopInfo 
+20170317@18:25:52 [System] getShopTime 
+20170317@18:25:52 [System] getLoggedInAccount 
+20170317@18:25:52 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:25:53 [System] DLMorePet_ItemDataBound 
+20170317@18:25:53 [System] DLMorePet_ItemDataBound 
+20170317@18:25:53 [System] DLMorePet_ItemDataBound 
+20170317@18:25:53 [System] DLMorePet_ItemDataBound 
+20170317@18:25:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:25:58 [System] getLoggedInAccount 
+20170317@18:25:58 [System] getLoggedInAccount 
+20170317@18:25:58 [System] BTNAppmtDate_Click 
+20170317@18:25:58 [System] loadOperatingHours 
+20170317@18:25:58 [System] MessageHandler : Appointment Time 
+20170317@18:25:58 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:25:58 [System] saveTempAppointment 
+20170317@18:26:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:26:48 [System] getLoggedInAccount 
+20170317@18:26:48 [System] loadAdoptionInfo 
+20170317@18:26:48 [System] getAdoptInfo 
+20170317@18:26:48 [System] getShopInfo 
+20170317@18:26:49 [System] getShopTime 
+20170317@18:26:49 [System] getLoggedInAccount 
+20170317@18:26:49 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:26:49 [System] DLMorePet_ItemDataBound 
+20170317@18:26:49 [System] DLMorePet_ItemDataBound 
+20170317@18:26:49 [System] DLMorePet_ItemDataBound 
+20170317@18:26:49 [System] DLMorePet_ItemDataBound 
+20170317@18:28:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:28:03 [System] getLoggedInAccount 
+20170317@18:28:03 [System] loadAdoptionInfo 
+20170317@18:28:03 [System] getAdoptInfo 
+20170317@18:28:03 [System] getShopInfo 
+20170317@18:28:04 [System] getShopTime 
+20170317@18:28:04 [System] getLoggedInAccount 
+20170317@18:28:04 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:28:04 [System] DLMorePet_ItemDataBound 
+20170317@18:28:04 [System] DLMorePet_ItemDataBound 
+20170317@18:28:04 [System] DLMorePet_ItemDataBound 
+20170317@18:28:04 [System] DLMorePet_ItemDataBound 
+20170317@18:28:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:28:08 [System] getLoggedInAccount 
+20170317@18:28:08 [System] getLoggedInAccount 
+20170317@18:28:08 [System] BTNAppmtDate_Click 
+20170317@18:28:08 [System] loadOperatingHours 
+20170317@18:28:08 [System] MessageHandler : Appointment Time 
+20170317@18:28:08 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:28:08 [System] saveTempAppointment 
+20170317@18:28:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:28:13 [System] getLoggedInAccount 
+20170317@18:28:13 [System] getLoggedInAccount 
+20170317@18:28:13 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:28:13 [System] saveTempAppointment 
+20170317@18:30:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:30:52 [System] getLoggedInAccount 
+20170317@18:30:52 [System] loadAdoptionInfo 
+20170317@18:30:52 [System] getAdoptInfo 
+20170317@18:30:52 [System] getShopInfo 
+20170317@18:30:52 [System] getShopTime 
+20170317@18:30:52 [System] getLoggedInAccount 
+20170317@18:30:53 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:30:53 [System] DLMorePet_ItemDataBound 
+20170317@18:30:53 [System] DLMorePet_ItemDataBound 
+20170317@18:30:53 [System] DLMorePet_ItemDataBound 
+20170317@18:30:53 [System] DLMorePet_ItemDataBound 
+20170317@18:30:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:30:59 [System] getLoggedInAccount 
+20170317@18:30:59 [System] getLoggedInAccount 
+20170317@18:30:59 [System] BTNAppmtDate_Click 
+20170317@18:30:59 [System] loadOperatingHours 
+20170317@18:30:59 [System] MessageHandler : Appointment Time 
+20170317@18:30:59 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:30:59 [System] saveTempAppointment 
+20170317@18:31:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:31:03 [System] getLoggedInAccount 
+20170317@18:31:03 [System] getLoggedInAccount 
+20170317@18:31:03 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:31:03 [System] saveTempAppointment 
+20170317@18:31:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:31:19 [System] getLoggedInAccount 
+20170317@18:31:19 [System] getLoggedInAccount 
+20170317@18:31:19 [System] BTNAdoptMe_Click 
+20170317@18:31:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:31:27 [System] getLoggedInAccount 
+20170317@18:31:27 [System] getLoggedInAccount 
+20170317@18:31:27 [System] BTNLogin_Click 
+20170317@18:31:27 [System] MessageHandler : Either email or password is invalid 
+20170317@18:31:27 [System] signIn 
+20170317@18:31:27 [System] getShopInfo 
+20170317@18:31:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:31:27 [System] getLoggedInAccount 
+20170317@18:31:27 [System] loadAdoptionInfo 
+20170317@18:31:27 [System] getAdoptInfo 
+20170317@18:31:27 [System] getShopInfo 
+20170317@18:31:27 [System] getShopTime 
+20170317@18:31:28 [System] getLoggedInAccount 
+20170317@18:31:28 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:31:28 [System] DLMorePet_ItemDataBound 
+20170317@18:31:28 [System] DLMorePet_ItemDataBound 
+20170317@18:31:28 [System] DLMorePet_ItemDataBound 
+20170317@18:31:28 [System] DLMorePet_ItemDataBound 
+20170317@18:33:29 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:33:29 [System] getLoggedInAccount 
+20170317@18:33:29 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:33:29 [System] getLoggedInAccount 
+20170317@18:33:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@18:33:36 [System] getLoggedInAccount 
+20170317@18:33:36 [System] loadAdoptionInfo 
+20170317@18:33:36 [System] getAdoptInfo 
+20170317@18:33:36 [System] getShopInfo 
+20170317@18:33:36 [System] getShopTime 
+20170317@18:33:36 [System] getLoggedInAccount 
+20170317@18:33:36 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:33:37 [System] DLMorePet_ItemDataBound 
+20170317@18:33:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@18:33:44 [System] getLoggedInAccount 
+20170317@18:33:44 [System] getLoggedInAccount 
+20170317@18:33:44 [System] BTNAppmtDate_Click 
+20170317@18:33:44 [System] loadOperatingHours 
+20170317@18:33:44 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170317@18:33:44 [System] MessageHandler : Appointment Date 
+20170317@18:33:44 [System] saveTempAppointment 
+20170317@18:33:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@18:33:52 [System] getLoggedInAccount 
+20170317@18:33:52 [System] getLoggedInAccount 
+20170317@18:33:52 [System] BTNAppmtDate_Click 
+20170317@18:33:52 [System] loadOperatingHours 
+20170317@18:33:52 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170317@18:33:52 [System] MessageHandler : Appointment Date 
+20170317@18:33:52 [System] saveTempAppointment 
+20170317@18:33:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170317@18:33:56 [System] getLoggedInAccount 
+20170317@18:33:56 [System] getLoggedInAccount 
+20170317@18:33:56 [System] BTNAppmtDate_Click 
+20170317@18:33:56 [System] loadOperatingHours 
+20170317@18:33:56 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170317@18:33:56 [System] MessageHandler : Appointment Date 
+20170317@18:33:56 [System] saveTempAppointment 
+20170317@18:34:01 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:34:01 [System] getLoggedInAccount 
+20170317@18:34:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:34:04 [System] getLoggedInAccount 
+20170317@18:34:04 [System] loadAdoptionInfo 
+20170317@18:34:04 [System] getAdoptInfo 
+20170317@18:34:04 [System] getShopInfo 
+20170317@18:34:04 [System] getShopTime 
+20170317@18:34:04 [System] getLoggedInAccount 
+20170317@18:34:04 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:34:04 [System] DLMorePet_ItemDataBound 
+20170317@18:34:05 [System] DLMorePet_ItemDataBound 
+20170317@18:34:05 [System] DLMorePet_ItemDataBound 
+20170317@18:34:05 [System] DLMorePet_ItemDataBound 
+20170317@18:34:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:34:09 [System] getLoggedInAccount 
+20170317@18:34:09 [System] getLoggedInAccount 
+20170317@18:34:09 [System] BTNAppmtDate_Click 
+20170317@18:34:09 [System] loadOperatingHours 
+20170317@18:34:09 [System] MessageHandler : Appointment Time 
+20170317@18:34:09 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:34:09 [System] saveTempAppointment 
+20170317@18:34:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:34:15 [System] getLoggedInAccount 
+20170317@18:34:15 [System] getLoggedInAccount 
+20170317@18:34:15 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:34:15 [System] saveTempAppointment 
+20170317@18:34:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:34:45 [System] getLoggedInAccount 
+20170317@18:34:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:34:49 [System] getLoggedInAccount 
+20170317@18:34:49 [System] loadAdoptionInfo 
+20170317@18:34:49 [System] getAdoptInfo 
+20170317@18:34:50 [System] getShopInfo 
+20170317@18:34:50 [System] getShopTime 
+20170317@18:34:50 [System] getLoggedInAccount 
+20170317@18:34:50 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:34:50 [System] DLMorePet_ItemDataBound 
+20170317@18:34:50 [System] DLMorePet_ItemDataBound 
+20170317@18:34:50 [System] DLMorePet_ItemDataBound 
+20170317@18:34:50 [System] DLMorePet_ItemDataBound 
+20170317@18:34:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:34:54 [System] getLoggedInAccount 
+20170317@18:34:54 [System] getLoggedInAccount 
+20170317@18:34:54 [System] BTNAppmtDate_Click 
+20170317@18:34:54 [System] loadOperatingHours 
+20170317@18:34:54 [System] MessageHandler : Appointment Time 
+20170317@18:34:54 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:34:54 [System] saveTempAppointment 
+20170317@18:35:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:35:14 [System] getLoggedInAccount 
+20170317@18:35:14 [System] getLoggedInAccount 
+20170317@18:35:14 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:35:14 [System] saveTempAppointment 
+20170317@18:36:30 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:36:30 [System] getLoggedInAccount 
+20170317@18:36:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:36:35 [System] getLoggedInAccount 
+20170317@18:36:35 [System] loadAdoptionInfo 
+20170317@18:36:35 [System] getAdoptInfo 
+20170317@18:36:35 [System] getShopInfo 
+20170317@18:36:35 [System] getShopTime 
+20170317@18:36:35 [System] getLoggedInAccount 
+20170317@18:36:36 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:36:36 [System] DLMorePet_ItemDataBound 
+20170317@18:36:36 [System] DLMorePet_ItemDataBound 
+20170317@18:36:36 [System] DLMorePet_ItemDataBound 
+20170317@18:36:36 [System] DLMorePet_ItemDataBound 
+20170317@18:36:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:36:39 [System] getLoggedInAccount 
+20170317@18:36:39 [System] getLoggedInAccount 
+20170317@18:36:39 [System] BTNAppmtDate_Click 
+20170317@18:36:39 [System] loadOperatingHours 
+20170317@18:36:39 [System] MessageHandler : Appointment Time 
+20170317@18:36:39 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:36:39 [System] saveTempAppointment 
+20170317@18:36:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:36:52 [System] getLoggedInAccount 
+20170317@18:36:52 [System] getLoggedInAccount 
+20170317@18:36:52 [System] BTNAppmtDate_Click 
+20170317@18:36:52 [System] loadOperatingHours 
+20170317@18:36:52 [System] MessageHandler : Appointment Time 
+20170317@18:36:52 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:36:52 [System] saveTempAppointment 
+20170317@18:37:32 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:37:32 [System] getLoggedInAccount 
+20170317@18:37:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:37:38 [System] getLoggedInAccount 
+20170317@18:37:38 [System] loadAdoptionInfo 
+20170317@18:37:38 [System] getAdoptInfo 
+20170317@18:37:39 [System] getShopInfo 
+20170317@18:37:39 [System] getShopTime 
+20170317@18:37:39 [System] getLoggedInAccount 
+20170317@18:37:39 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:37:39 [System] DLMorePet_ItemDataBound 
+20170317@18:37:39 [System] DLMorePet_ItemDataBound 
+20170317@18:37:39 [System] DLMorePet_ItemDataBound 
+20170317@18:37:40 [System] DLMorePet_ItemDataBound 
+20170317@18:37:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:37:43 [System] getLoggedInAccount 
+20170317@18:37:43 [System] getLoggedInAccount 
+20170317@18:37:43 [System] BTNAppmtDate_Click 
+20170317@18:37:43 [System] loadOperatingHours 
+20170317@18:37:43 [System] MessageHandler : Appointment Time 
+20170317@18:37:43 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:37:43 [System] saveTempAppointment 
+20170317@18:38:41 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:38:41 [System] getLoggedInAccount 
+20170317@18:38:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:38:45 [System] getLoggedInAccount 
+20170317@18:38:45 [System] loadAdoptionInfo 
+20170317@18:38:45 [System] getAdoptInfo 
+20170317@18:38:46 [System] getShopInfo 
+20170317@18:38:46 [System] getShopTime 
+20170317@18:38:46 [System] getLoggedInAccount 
+20170317@18:38:47 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:38:47 [System] DLMorePet_ItemDataBound 
+20170317@18:38:47 [System] DLMorePet_ItemDataBound 
+20170317@18:38:47 [System] DLMorePet_ItemDataBound 
+20170317@18:38:47 [System] DLMorePet_ItemDataBound 
+20170317@18:38:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:38:51 [System] getLoggedInAccount 
+20170317@18:38:51 [System] getLoggedInAccount 
+20170317@18:38:51 [System] BTNAppmtDate_Click 
+20170317@18:38:51 [System] loadOperatingHours 
+20170317@18:38:51 [System] MessageHandler : Appointment Time 
+20170317@18:38:51 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:38:51 [System] saveTempAppointment 
+20170317@18:39:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:39:31 [System] getLoggedInAccount 
+20170317@18:39:31 [System] getLoggedInAccount 
+20170317@18:39:31 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:39:31 [System] saveTempAppointment 
+20170317@18:40:33 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:40:33 [System] getLoggedInAccount 
+20170317@18:40:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:40:38 [System] getLoggedInAccount 
+20170317@18:40:38 [System] loadAdoptionInfo 
+20170317@18:40:38 [System] getAdoptInfo 
+20170317@18:40:39 [System] getShopInfo 
+20170317@18:40:39 [System] getShopTime 
+20170317@18:40:39 [System] getLoggedInAccount 
+20170317@18:40:39 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:40:40 [System] DLMorePet_ItemDataBound 
+20170317@18:40:40 [System] DLMorePet_ItemDataBound 
+20170317@18:40:40 [System] DLMorePet_ItemDataBound 
+20170317@18:40:40 [System] DLMorePet_ItemDataBound 
+20170317@18:40:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:40:44 [System] getLoggedInAccount 
+20170317@18:40:44 [System] getLoggedInAccount 
+20170317@18:40:44 [System] BTNAppmtDate_Click 
+20170317@18:40:44 [System] loadOperatingHours 
+20170317@18:40:44 [System] MessageHandler : Appointment Time 
+20170317@18:40:44 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:40:44 [System] saveTempAppointment 
+20170317@18:42:48 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:42:48 [System] getLoggedInAccount 
+20170317@18:42:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:42:52 [System] getLoggedInAccount 
+20170317@18:42:52 [System] loadAdoptionInfo 
+20170317@18:42:52 [System] getAdoptInfo 
+20170317@18:42:52 [System] getShopInfo 
+20170317@18:42:52 [System] getShopTime 
+20170317@18:42:53 [System] getLoggedInAccount 
+20170317@18:42:53 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:42:53 [System] DLMorePet_ItemDataBound 
+20170317@18:42:53 [System] DLMorePet_ItemDataBound 
+20170317@18:42:53 [System] DLMorePet_ItemDataBound 
+20170317@18:42:53 [System] DLMorePet_ItemDataBound 
+20170317@18:42:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:42:58 [System] getLoggedInAccount 
+20170317@18:42:58 [System] getLoggedInAccount 
+20170317@18:42:58 [System] BTNAppmtDate_Click 
+20170317@18:42:58 [System] loadOperatingHours 
+20170317@18:42:58 [System] MessageHandler : Appointment Time 
+20170317@18:42:58 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:42:58 [System] saveTempAppointment 
+20170317@18:43:31 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:43:31 [System] getLoggedInAccount 
+20170317@18:43:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:43:38 [System] getLoggedInAccount 
+20170317@18:43:38 [System] loadAdoptionInfo 
+20170317@18:43:38 [System] getAdoptInfo 
+20170317@18:43:39 [System] getShopInfo 
+20170317@18:43:39 [System] getShopTime 
+20170317@18:43:39 [System] getLoggedInAccount 
+20170317@18:43:39 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:43:39 [System] DLMorePet_ItemDataBound 
+20170317@18:43:39 [System] DLMorePet_ItemDataBound 
+20170317@18:43:39 [System] DLMorePet_ItemDataBound 
+20170317@18:43:39 [System] DLMorePet_ItemDataBound 
+20170317@18:43:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:43:43 [System] getLoggedInAccount 
+20170317@18:43:43 [System] getLoggedInAccount 
+20170317@18:43:43 [System] BTNAppmtDate_Click 
+20170317@18:43:43 [System] loadOperatingHours 
+20170317@18:43:43 [System] MessageHandler : Appointment Time 
+20170317@18:43:43 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:43:43 [System] saveTempAppointment 
+20170317@18:43:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:43:56 [System] getLoggedInAccount 
+20170317@18:43:56 [System] getLoggedInAccount 
+20170317@18:43:56 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:43:56 [System] saveTempAppointment 
+20170317@18:45:10 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:45:10 [System] getLoggedInAccount 
+20170317@18:45:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:45:35 [System] getLoggedInAccount 
+20170317@18:45:35 [System] loadAdoptionInfo 
+20170317@18:45:35 [System] getAdoptInfo 
+20170317@18:45:35 [System] getShopInfo 
+20170317@18:45:35 [System] getShopTime 
+20170317@18:45:35 [System] getLoggedInAccount 
+20170317@18:45:35 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:45:35 [System] DLMorePet_ItemDataBound 
+20170317@18:45:36 [System] DLMorePet_ItemDataBound 
+20170317@18:45:36 [System] DLMorePet_ItemDataBound 
+20170317@18:45:36 [System] DLMorePet_ItemDataBound 
+20170317@18:46:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:46:27 [System] getLoggedInAccount 
+20170317@18:46:27 [System] getLoggedInAccount 
+20170317@18:46:27 [System] BTNAppmtDate_Click 
+20170317@18:46:27 [System] loadOperatingHours 
+20170317@18:46:27 [System] MessageHandler : Appointment Time 
+20170317@18:46:27 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:46:27 [System] saveTempAppointment 
+20170317@18:46:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:46:40 [System] getLoggedInAccount 
+20170317@18:46:40 [System] getLoggedInAccount 
+20170317@18:46:40 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:46:40 [System] saveTempAppointment 
+20170317@18:47:47 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:47:47 [System] getLoggedInAccount 
+20170317@18:47:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:47:49 [System] getLoggedInAccount 
+20170317@18:47:49 [System] loadAdoptionInfo 
+20170317@18:47:49 [System] getAdoptInfo 
+20170317@18:47:49 [System] getShopInfo 
+20170317@18:47:49 [System] getShopTime 
+20170317@18:47:49 [System] getLoggedInAccount 
+20170317@18:47:50 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:47:50 [System] DLMorePet_ItemDataBound 
+20170317@18:47:50 [System] DLMorePet_ItemDataBound 
+20170317@18:47:50 [System] DLMorePet_ItemDataBound 
+20170317@18:47:50 [System] DLMorePet_ItemDataBound 
+20170317@18:47:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:47:57 [System] getLoggedInAccount 
+20170317@18:47:57 [System] getLoggedInAccount 
+20170317@18:47:57 [System] BTNAppmtDate_Click 
+20170317@18:47:57 [System] loadOperatingHours 
+20170317@18:47:57 [System] MessageHandler : Appointment Time 
+20170317@18:47:57 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:47:57 [System] saveTempAppointment 
+20170317@18:48:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:48:46 [System] getLoggedInAccount 
+20170317@18:48:46 [System] getLoggedInAccount 
+20170317@18:48:46 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:48:46 [System] saveTempAppointment 
+20170317@18:49:52 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:49:52 [System] getLoggedInAccount 
+20170317@18:50:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:50:01 [System] getLoggedInAccount 
+20170317@18:50:01 [System] loadAdoptionInfo 
+20170317@18:50:01 [System] getAdoptInfo 
+20170317@18:50:01 [System] getShopInfo 
+20170317@18:50:01 [System] getShopTime 
+20170317@18:50:01 [System] getLoggedInAccount 
+20170317@18:50:01 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:50:01 [System] DLMorePet_ItemDataBound 
+20170317@18:50:02 [System] DLMorePet_ItemDataBound 
+20170317@18:50:02 [System] DLMorePet_ItemDataBound 
+20170317@18:50:02 [System] DLMorePet_ItemDataBound 
+20170317@18:50:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:50:08 [System] getLoggedInAccount 
+20170317@18:50:08 [System] getLoggedInAccount 
+20170317@18:50:08 [System] BTNAppmtDate_Click 
+20170317@18:50:08 [System] loadOperatingHours 
+20170317@18:50:08 [System] MessageHandler : Appointment Time 
+20170317@18:50:08 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:50:08 [System] saveTempAppointment 
+20170317@18:51:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:51:26 [System] getLoggedInAccount 
+20170317@18:51:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:51:31 [System] getLoggedInAccount 
+20170317@18:51:31 [System] loadAdoptionInfo 
+20170317@18:51:31 [System] getAdoptInfo 
+20170317@18:51:31 [System] getShopInfo 
+20170317@18:51:31 [System] getShopTime 
+20170317@18:51:32 [System] getLoggedInAccount 
+20170317@18:51:32 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:51:32 [System] DLMorePet_ItemDataBound 
+20170317@18:51:32 [System] DLMorePet_ItemDataBound 
+20170317@18:51:32 [System] DLMorePet_ItemDataBound 
+20170317@18:51:32 [System] DLMorePet_ItemDataBound 
+20170317@18:51:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:51:36 [System] getLoggedInAccount 
+20170317@18:51:36 [System] getLoggedInAccount 
+20170317@18:51:36 [System] BTNAppmtDate_Click 
+20170317@18:51:36 [System] loadOperatingHours 
+20170317@18:51:36 [System] MessageHandler : Appointment Time 
+20170317@18:51:36 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:51:36 [System] saveTempAppointment 
+20170317@18:51:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:51:48 [System] getLoggedInAccount 
+20170317@18:51:48 [System] getLoggedInAccount 
+20170317@18:51:48 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:51:48 [System] saveTempAppointment 
+20170317@18:53:20 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:53:20 [System] getLoggedInAccount 
+20170317@18:53:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:53:26 [System] getLoggedInAccount 
+20170317@18:53:26 [System] loadAdoptionInfo 
+20170317@18:53:26 [System] getAdoptInfo 
+20170317@18:53:26 [System] getShopInfo 
+20170317@18:53:27 [System] getShopTime 
+20170317@18:53:27 [System] loadOperatingHours 
+20170317@18:53:27 [System] getLoggedInAccount 
+20170317@18:53:27 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:53:27 [System] DLMorePet_ItemDataBound 
+20170317@18:53:27 [System] DLMorePet_ItemDataBound 
+20170317@18:53:27 [System] DLMorePet_ItemDataBound 
+20170317@18:53:27 [System] DLMorePet_ItemDataBound 
+20170317@18:53:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:53:30 [System] getLoggedInAccount 
+20170317@18:53:30 [System] getLoggedInAccount 
+20170317@18:53:30 [System] BTNAppmtDate_Click 
+20170317@18:53:30 [System] loadOperatingHours 
+20170317@18:53:30 [System] MessageHandler : Appointment Time 
+20170317@18:53:30 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:53:30 [System] saveTempAppointment 
+20170317@18:53:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:53:32 [System] getLoggedInAccount 
+20170317@18:53:32 [System] getLoggedInAccount 
+20170317@18:53:32 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@18:53:32 [System] saveTempAppointment 
+20170317@18:53:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:53:34 [System] getLoggedInAccount 
+20170317@18:53:34 [System] getLoggedInAccount 
+20170317@18:53:34 [System] BTNAdoptMe_Click 
+20170317@18:53:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:53:38 [System] getLoggedInAccount 
+20170317@18:53:38 [System] getLoggedInAccount 
+20170317@18:53:38 [System] BTNLogin_Click 
+20170317@18:53:38 [System] MessageHandler : Either email or password is invalid 
+20170317@18:53:38 [System] signIn 
+20170317@18:53:38 [System] getShopInfo 
+20170317@18:53:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@18:53:38 [System] getLoggedInAccount 
+20170317@18:53:38 [System] loadAdoptionInfo 
+20170317@18:53:38 [System] getAdoptInfo 
+20170317@18:53:38 [System] getShopInfo 
+20170317@18:53:38 [System] getShopTime 
+20170317@18:53:38 [System] loadOperatingHours 
+20170317@18:53:38 [System] getLoggedInAccount 
+20170317@18:53:38 [System] DLAdoptInfo_ItemDataBound 
+20170317@18:53:38 [System] DLMorePet_ItemDataBound 
+20170317@18:53:38 [System] DLMorePet_ItemDataBound 
+20170317@18:53:39 [System] DLMorePet_ItemDataBound 
+20170317@18:53:39 [System] DLMorePet_ItemDataBound 
+20170317@18:55:07 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@18:55:07 [System] getLoggedInAccount 
+20170317@22:35:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:35:28 [System] getLoggedInAccount 
+20170317@22:35:28 [System] loadAdoptionInfo 
+20170317@22:35:28 [System] getAdoptInfo 
+20170317@22:35:28 [System] getShopInfo 
+20170317@22:35:28 [System] getShopTime 
+20170317@22:35:29 [System] getLoggedInAccount 
+20170317@22:35:29 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:35:29 [System] DLMorePet_ItemDataBound 
+20170317@22:35:29 [System] DLMorePet_ItemDataBound 
+20170317@22:35:29 [System] DLMorePet_ItemDataBound 
+20170317@22:35:29 [System] DLMorePet_ItemDataBound 
+20170317@22:35:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:35:36 [System] getLoggedInAccount 
+20170317@22:35:36 [System] getLoggedInAccount 
+20170317@22:35:36 [System] BTNAppmtDate_Click 
+20170317@22:35:36 [System] loadOperatingHours 
+20170317@22:35:36 [System] MessageHandler : Appointment Time 
+20170317@22:35:36 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@22:35:36 [System] saveTempAppointment 
+20170317@22:35:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:35:39 [System] getLoggedInAccount 
+20170317@22:35:39 [System] getLoggedInAccount 
+20170317@22:35:39 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@22:35:39 [System] saveTempAppointment 
+20170317@22:35:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:35:58 [System] getLoggedInAccount 
+20170317@22:35:58 [System] getLoggedInAccount 
+20170317@22:35:58 [System] BTNAdoptMe_Click 
+20170317@22:36:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:36:01 [System] getLoggedInAccount 
+20170317@22:36:01 [System] getLoggedInAccount 
+20170317@22:36:01 [System] BTNLogin_Click 
+20170317@22:36:01 [System] MessageHandler : Either email or password is invalid 
+20170317@22:36:01 [System] signIn 
+20170317@22:36:02 [System] getShopInfo 
+20170317@22:36:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:36:02 [System] getLoggedInAccount 
+20170317@22:36:02 [System] loadAdoptionInfo 
+20170317@22:36:02 [System] getAdoptInfo 
+20170317@22:36:02 [System] getShopInfo 
+20170317@22:36:02 [System] getShopTime 
+20170317@22:36:02 [System] loadOperatingHours 
+20170317@22:36:02 [System] getLoggedInAccount 
+20170317@22:36:02 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:36:02 [System] DLMorePet_ItemDataBound 
+20170317@22:36:02 [System] DLMorePet_ItemDataBound 
+20170317@22:36:02 [System] DLMorePet_ItemDataBound 
+20170317@22:36:02 [System] DLMorePet_ItemDataBound 
+20170317@22:36:47 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@22:36:48 [System] getLoggedInAccount 
+20170317@22:36:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:36:50 [System] getLoggedInAccount 
+20170317@22:36:50 [System] loadAdoptionInfo 
+20170317@22:36:50 [System] getAdoptInfo 
+20170317@22:36:50 [System] getShopInfo 
+20170317@22:36:50 [System] getShopTime 
+20170317@22:36:56 [System] loadOperatingHours 
+20170317@22:37:08 [System] getLoggedInAccount 
+20170317@22:37:12 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:37:12 [System] DLMorePet_ItemDataBound 
+20170317@22:37:13 [System] DLMorePet_ItemDataBound 
+20170317@22:37:13 [System] DLMorePet_ItemDataBound 
+20170317@22:37:13 [System] DLMorePet_ItemDataBound 
+20170317@22:37:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:37:19 [System] getLoggedInAccount 
+20170317@22:37:19 [System] getLoggedInAccount 
+20170317@22:37:19 [System] LKBTNSignOut_Click 
+20170317@22:37:19 [System] signOut 
+20170317@22:37:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:37:19 [System] getLoggedInAccount 
+20170317@22:37:19 [System] loadAdoptionInfo 
+20170317@22:37:19 [System] getAdoptInfo 
+20170317@22:37:19 [System] getShopInfo 
+20170317@22:37:19 [System] getShopTime 
+20170317@22:37:22 [System] loadOperatingHours 
+20170317@22:37:22 [System] getLoggedInAccount 
+20170317@22:37:23 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:37:23 [System] DLMorePet_ItemDataBound 
+20170317@22:37:23 [System] DLMorePet_ItemDataBound 
+20170317@22:37:23 [System] DLMorePet_ItemDataBound 
+20170317@22:37:23 [System] DLMorePet_ItemDataBound 
+20170317@22:37:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:37:32 [System] getLoggedInAccount 
+20170317@22:37:32 [System] loadAdoptionInfo 
+20170317@22:37:32 [System] getAdoptInfo 
+20170317@22:37:32 [System] getShopInfo 
+20170317@22:37:32 [System] getShopTime 
+20170317@22:38:01 [System] loadOperatingHours 
+20170317@22:38:01 [System] getLoggedInAccount 
+20170317@22:38:02 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:38:02 [System] DLMorePet_ItemDataBound 
+20170317@22:38:02 [System] DLMorePet_ItemDataBound 
+20170317@22:38:02 [System] DLMorePet_ItemDataBound 
+20170317@22:38:02 [System] DLMorePet_ItemDataBound 
+20170317@22:38:39 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@22:38:39 [System] getLoggedInAccount 
+20170317@22:38:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:38:56 [System] getLoggedInAccount 
+20170317@22:38:56 [System] loadAdoptionInfo 
+20170317@22:38:56 [System] getAdoptInfo 
+20170317@22:38:56 [System] getShopInfo 
+20170317@22:38:56 [System] getShopTime 
+20170317@22:39:26 [System] loadOperatingHours 
+20170317@22:39:37 [System] MessageHandler : Appointment Time 
+20170317@22:39:37 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@22:39:44 [System] getLoggedInAccount 
+20170317@22:39:46 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:39:46 [System] DLMorePet_ItemDataBound 
+20170317@22:39:46 [System] DLMorePet_ItemDataBound 
+20170317@22:39:46 [System] DLMorePet_ItemDataBound 
+20170317@22:39:46 [System] DLMorePet_ItemDataBound 
+20170317@22:44:21 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@22:44:21 [System] getLoggedInAccount 
+20170317@22:44:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:44:25 [System] getLoggedInAccount 
+20170317@22:44:25 [System] loadAdoptionInfo 
+20170317@22:44:25 [System] getAdoptInfo 
+20170317@22:44:25 [System] getShopInfo 
+20170317@22:44:25 [System] getShopTime 
+20170317@22:44:25 [System] getLoggedInAccount 
+20170317@22:44:25 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:44:26 [System] DLMorePet_ItemDataBound 
+20170317@22:44:26 [System] DLMorePet_ItemDataBound 
+20170317@22:44:26 [System] DLMorePet_ItemDataBound 
+20170317@22:44:26 [System] DLMorePet_ItemDataBound 
+20170317@22:44:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:44:29 [System] getLoggedInAccount 
+20170317@22:44:29 [System] getLoggedInAccount 
+20170317@22:44:29 [System] BTNAppmtDate_Click 
+20170317@22:44:29 [System] loadOperatingHours 
+20170317@22:44:29 [System] MessageHandler : Appointment Time 
+20170317@22:44:29 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@22:44:29 [System] saveTempAppointment 
+20170317@22:44:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:44:31 [System] getLoggedInAccount 
+20170317@22:44:31 [System] getLoggedInAccount 
+20170317@22:44:31 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@22:44:31 [System] saveTempAppointment 
+20170317@22:44:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:44:32 [System] getLoggedInAccount 
+20170317@22:44:32 [System] getLoggedInAccount 
+20170317@22:44:32 [System] BTNAdoptMe_Click 
+20170317@22:44:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:44:36 [System] getLoggedInAccount 
+20170317@22:44:36 [System] getLoggedInAccount 
+20170317@22:44:36 [System] BTNLogin_Click 
+20170317@22:44:37 [System] MessageHandler : Either email or password is invalid 
+20170317@22:44:37 [System] signIn 
+20170317@22:44:37 [System] getShopInfo 
+20170317@22:44:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:44:37 [System] getLoggedInAccount 
+20170317@22:44:37 [System] loadAdoptionInfo 
+20170317@22:44:37 [System] getAdoptInfo 
+20170317@22:44:37 [System] getShopInfo 
+20170317@22:44:37 [System] getShopTime 
+20170317@22:44:37 [System] getLoggedInAccount 
+20170317@22:44:37 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:44:37 [System] DLMorePet_ItemDataBound 
+20170317@22:44:37 [System] DLMorePet_ItemDataBound 
+20170317@22:44:38 [System] DLMorePet_ItemDataBound 
+20170317@22:44:38 [System] DLMorePet_ItemDataBound 
+20170317@22:44:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:44:52 [System] getLoggedInAccount 
+20170317@22:44:52 [System] getLoggedInAccount 
+20170317@22:44:52 [System] LKBTNSignOut_Click 
+20170317@22:44:53 [System] signOut 
+20170317@22:44:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:44:53 [System] getLoggedInAccount 
+20170317@22:44:53 [System] loadAdoptionInfo 
+20170317@22:44:53 [System] getAdoptInfo 
+20170317@22:44:53 [System] getShopInfo 
+20170317@22:44:53 [System] getShopTime 
+20170317@22:44:53 [System] getLoggedInAccount 
+20170317@22:44:53 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:44:53 [System] DLMorePet_ItemDataBound 
+20170317@22:44:53 [System] DLMorePet_ItemDataBound 
+20170317@22:44:53 [System] DLMorePet_ItemDataBound 
+20170317@22:44:54 [System] DLMorePet_ItemDataBound 
+20170317@22:48:16 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@22:48:16 [System] getLoggedInAccount 
+20170317@22:48:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:48:28 [System] getLoggedInAccount 
+20170317@22:48:28 [System] loadAdoptionInfo 
+20170317@22:48:28 [System] getAdoptInfo 
+20170317@22:48:28 [System] getShopInfo 
+20170317@22:48:28 [System] getShopTime 
+20170317@22:48:29 [System] getLoggedInAccount 
+20170317@22:48:29 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:48:29 [System] DLMorePet_ItemDataBound 
+20170317@22:48:29 [System] DLMorePet_ItemDataBound 
+20170317@22:48:29 [System] DLMorePet_ItemDataBound 
+20170317@22:48:29 [System] DLMorePet_ItemDataBound 
+20170317@22:48:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:48:32 [System] getLoggedInAccount 
+20170317@22:48:32 [System] getLoggedInAccount 
+20170317@22:48:32 [System] BTNAppmtDate_Click 
+20170317@22:48:32 [System] loadOperatingHours 
+20170317@22:48:32 [System] MessageHandler : Appointment Time 
+20170317@22:48:32 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@22:48:32 [System] saveTempAppointment 
+20170317@22:48:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:48:34 [System] getLoggedInAccount 
+20170317@22:48:34 [System] getLoggedInAccount 
+20170317@22:48:34 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@22:48:34 [System] saveTempAppointment 
+20170317@22:48:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:48:35 [System] getLoggedInAccount 
+20170317@22:48:35 [System] getLoggedInAccount 
+20170317@22:48:35 [System] BTNAdoptMe_Click 
+20170317@22:48:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:48:39 [System] getLoggedInAccount 
+20170317@22:48:39 [System] getLoggedInAccount 
+20170317@22:48:39 [System] BTNLogin_Click 
+20170317@22:48:39 [System] MessageHandler : Either email or password is invalid 
+20170317@22:48:39 [System] signIn 
+20170317@22:48:39 [System] getShopInfo 
+20170317@22:48:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@22:48:39 [System] getLoggedInAccount 
+20170317@22:48:39 [System] loadAdoptionInfo 
+20170317@22:48:39 [System] getAdoptInfo 
+20170317@22:48:39 [System] getShopInfo 
+20170317@22:48:40 [System] getShopTime 
+20170317@22:48:40 [System] loadOperatingHours 
+20170317@22:48:40 [System] MessageHandler : Appointment Time 
+20170317@22:48:40 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@22:48:40 [System] getLoggedInAccount 
+20170317@22:48:40 [System] DLAdoptInfo_ItemDataBound 
+20170317@22:48:40 [System] DLMorePet_ItemDataBound 
+20170317@22:48:40 [System] DLMorePet_ItemDataBound 
+20170317@22:48:40 [System] DLMorePet_ItemDataBound 
+20170317@22:48:40 [System] DLMorePet_ItemDataBound 
+20170317@23:25:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@23:25:54 [System] getLoggedInAccount 
+20170317@23:29:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:29:29 [System] getLoggedInAccount 
+20170317@23:29:29 [System] loadAdoptionInfo 
+20170317@23:29:29 [System] getAdoptInfo 
+20170317@23:29:29 [System] getShopInfo 
+20170317@23:29:29 [System] getShopTime 
+20170317@23:29:29 [System] getLoggedInAccount 
+20170317@23:29:30 [System] DLAdoptInfo_ItemDataBound 
+20170317@23:29:30 [System] DLMorePet_ItemDataBound 
+20170317@23:29:30 [System] DLMorePet_ItemDataBound 
+20170317@23:29:30 [System] DLMorePet_ItemDataBound 
+20170317@23:29:30 [System] DLMorePet_ItemDataBound 
+20170317@23:30:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:30:48 [System] getLoggedInAccount 
+20170317@23:30:48 [System] getLoggedInAccount 
+20170317@23:30:48 [System] BTNAppmtDate_Click 
+20170317@23:30:49 [System] loadOperatingHours 
+20170317@23:31:00 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@23:31:00 [System] getLoggedInAccount 
+20170317@23:31:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:31:05 [System] getLoggedInAccount 
+20170317@23:31:05 [System] loadAdoptionInfo 
+20170317@23:31:05 [System] getAdoptInfo 
+20170317@23:31:05 [System] getShopInfo 
+20170317@23:31:05 [System] getShopTime 
+20170317@23:31:05 [System] getLoggedInAccount 
+20170317@23:31:06 [System] DLAdoptInfo_ItemDataBound 
+20170317@23:31:06 [System] DLMorePet_ItemDataBound 
+20170317@23:31:06 [System] DLMorePet_ItemDataBound 
+20170317@23:31:06 [System] DLMorePet_ItemDataBound 
+20170317@23:31:06 [System] DLMorePet_ItemDataBound 
+20170317@23:31:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:31:08 [System] getLoggedInAccount 
+20170317@23:31:08 [System] getLoggedInAccount 
+20170317@23:31:08 [System] BTNAppmtDate_Click 
+20170317@23:31:09 [System] loadOperatingHours 
+20170317@23:31:09 [System] MessageHandler : Appointment Time 
+20170317@23:31:09 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@23:31:09 [System] saveTempAppointment 
+20170317@23:31:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:31:14 [System] getLoggedInAccount 
+20170317@23:31:14 [System] getLoggedInAccount 
+20170317@23:31:14 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@23:31:14 [System] saveTempAppointment 
+20170317@23:32:31 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@23:32:31 [System] getLoggedInAccount 
+20170317@23:32:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:32:33 [System] getLoggedInAccount 
+20170317@23:32:33 [System] loadAdoptionInfo 
+20170317@23:32:33 [System] getAdoptInfo 
+20170317@23:32:33 [System] getShopInfo 
+20170317@23:32:33 [System] getShopTime 
+20170317@23:32:33 [System] getLoggedInAccount 
+20170317@23:32:34 [System] DLAdoptInfo_ItemDataBound 
+20170317@23:32:34 [System] DLMorePet_ItemDataBound 
+20170317@23:32:34 [System] DLMorePet_ItemDataBound 
+20170317@23:32:34 [System] DLMorePet_ItemDataBound 
+20170317@23:32:34 [System] DLMorePet_ItemDataBound 
+20170317@23:32:36 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@23:32:36 [System] getLoggedInAccount 
+20170317@23:32:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:32:40 [System] getLoggedInAccount 
+20170317@23:32:40 [System] loadAdoptionInfo 
+20170317@23:32:40 [System] getAdoptInfo 
+20170317@23:32:40 [System] getShopInfo 
+20170317@23:32:40 [System] getShopTime 
+20170317@23:32:41 [System] getLoggedInAccount 
+20170317@23:32:41 [System] DLAdoptInfo_ItemDataBound 
+20170317@23:32:41 [System] DLMorePet_ItemDataBound 
+20170317@23:32:41 [System] DLMorePet_ItemDataBound 
+20170317@23:32:41 [System] DLMorePet_ItemDataBound 
+20170317@23:32:41 [System] DLMorePet_ItemDataBound 
+20170317@23:32:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:32:45 [System] getLoggedInAccount 
+20170317@23:32:45 [System] loadAdoptionInfo 
+20170317@23:32:45 [System] getAdoptInfo 
+20170317@23:32:45 [System] getShopInfo 
+20170317@23:32:45 [System] getShopTime 
+20170317@23:32:45 [System] getLoggedInAccount 
+20170317@23:32:45 [System] DLAdoptInfo_ItemDataBound 
+20170317@23:32:45 [System] DLMorePet_ItemDataBound 
+20170317@23:32:45 [System] DLMorePet_ItemDataBound 
+20170317@23:32:45 [System] DLMorePet_ItemDataBound 
+20170317@23:32:46 [System] DLMorePet_ItemDataBound 
+20170317@23:32:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:32:48 [System] getLoggedInAccount 
+20170317@23:32:48 [System] getLoggedInAccount 
+20170317@23:32:48 [System] BTNAppmtDate_Click 
+20170317@23:32:48 [System] loadOperatingHours 
+20170317@23:32:48 [System] MessageHandler : Appointment Time 
+20170317@23:32:48 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@23:32:48 [System] saveTempAppointment 
+20170317@23:32:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:32:50 [System] getLoggedInAccount 
+20170317@23:32:50 [System] getLoggedInAccount 
+20170317@23:32:50 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@23:32:50 [System] saveTempAppointment 
+20170317@23:32:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:32:54 [System] getLoggedInAccount 
+20170317@23:32:54 [System] getLoggedInAccount 
+20170317@23:32:54 [System] BTNAdoptMe_Click 
+20170317@23:40:05 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170317@23:40:05 [System] getLoggedInAccount 
+20170317@23:40:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:21 [System] getLoggedInAccount 
+20170317@23:40:21 [System] loadAdoptionInfo 
+20170317@23:40:21 [System] getAdoptInfo 
+20170317@23:40:21 [System] getShopInfo 
+20170317@23:40:21 [System] getShopTime 
+20170317@23:40:21 [System] getLoggedInAccount 
+20170317@23:40:21 [System] DLAdoptInfo_ItemDataBound 
+20170317@23:40:21 [System] DLMorePet_ItemDataBound 
+20170317@23:40:22 [System] DLMorePet_ItemDataBound 
+20170317@23:40:22 [System] DLMorePet_ItemDataBound 
+20170317@23:40:22 [System] DLMorePet_ItemDataBound 
+20170317@23:40:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:25 [System] getLoggedInAccount 
+20170317@23:40:25 [System] getLoggedInAccount 
+20170317@23:40:25 [System] BTNAppmtDate_Click 
+20170317@23:40:25 [System] loadOperatingHours 
+20170317@23:40:25 [System] MessageHandler : Appointment Time 
+20170317@23:40:25 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@23:40:25 [System] saveTempAppointment 
+20170317@23:40:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:27 [System] getLoggedInAccount 
+20170317@23:40:27 [System] getLoggedInAccount 
+20170317@23:40:27 [System] DDLAppmtTime_SelectedIndexChanged 
+20170317@23:40:27 [System] saveTempAppointment 
+20170317@23:40:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:28 [System] getLoggedInAccount 
+20170317@23:40:28 [System] getLoggedInAccount 
+20170317@23:40:28 [System] BTNAdoptMe_Click 
+20170317@23:40:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:35 [System] getLoggedInAccount 
+20170317@23:40:35 [System] getLoggedInAccount 
+20170317@23:40:35 [System] BTNLogin_Click 
+20170317@23:40:35 [System] MessageHandler : Either email or password is invalid 
+20170317@23:40:35 [System] signIn 
+20170317@23:40:35 [System] getShopInfo 
+20170317@23:40:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:41 [System] getLoggedInAccount 
+20170317@23:40:41 [System] getLoggedInAccount 
+20170317@23:40:41 [System] BTNLogin_Click 
+20170317@23:40:41 [System] MessageHandler : Either email or password is invalid 
+20170317@23:40:41 [System] signIn 
+20170317@23:40:41 [System] getShopInfo 
+20170317@23:40:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:42 [System] getLoggedInAccount 
+20170317@23:40:42 [System] getLoggedInAccount 
+20170317@23:40:43 [System] BTNLogin_Click 
+20170317@23:40:43 [System] MessageHandler : Either email or password is invalid 
+20170317@23:40:43 [System] signIn 
+20170317@23:40:43 [System] getShopInfo 
+20170317@23:40:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:45 [System] getLoggedInAccount 
+20170317@23:40:45 [System] getLoggedInAccount 
+20170317@23:40:45 [System] BTNLogin_Click 
+20170317@23:40:45 [System] MessageHandler : Either email or password is invalid 
+20170317@23:40:45 [System] signIn 
+20170317@23:40:45 [System] getShopInfo 
+20170317@23:40:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:46 [System] getLoggedInAccount 
+20170317@23:40:46 [System] getLoggedInAccount 
+20170317@23:40:46 [System] BTNLogin_Click 
+20170317@23:40:46 [System] MessageHandler : Either email or password is invalid 
+20170317@23:40:46 [System] signIn 
+20170317@23:40:46 [System] getShopInfo 
+20170317@23:40:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:53 [System] getLoggedInAccount 
+20170317@23:40:53 [System] getLoggedInAccount 
+20170317@23:40:53 [System] BTNLogin_Click 
+20170317@23:40:53 [System] MessageHandler : Either email or password is invalid 
+20170317@23:40:53 [System] signIn 
+20170317@23:40:53 [System] getShopInfo 
+20170317@23:40:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:40:54 [System] getLoggedInAccount 
+20170317@23:40:54 [System] getLoggedInAccount 
+20170317@23:40:54 [System] BTNLogin_Click 
+20170317@23:40:54 [System] MessageHandler : Either email or password is invalid 
+20170317@23:40:54 [System] signIn 
+20170317@23:40:55 [System] getShopInfo 
+20170317@23:41:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:41:05 [System] getLoggedInAccount 
+20170317@23:41:05 [System] getLoggedInAccount 
+20170317@23:41:05 [System] BTNAdoptMe_Click 
+20170317@23:41:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:41:13 [System] getLoggedInAccount 
+20170317@23:41:13 [System] getLoggedInAccount 
+20170317@23:41:13 [System] BTNAdoptMe_Click 
+20170317@23:41:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:41:15 [System] getLoggedInAccount 
+20170317@23:41:15 [System] getLoggedInAccount 
+20170317@23:41:15 [System] BTNAdoptMe_Click 
+20170317@23:41:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:41:15 [System] getLoggedInAccount 
+20170317@23:41:15 [System] getLoggedInAccount 
+20170317@23:41:15 [System] BTNAdoptMe_Click 
+20170317@23:41:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170317@23:41:26 [System] getLoggedInAccount 
+20170317@23:41:26 [System] loadAdoptionInfo 
+20170317@23:41:26 [System] getAdoptInfo 
+20170317@23:41:27 [System] getShopInfo 
+20170317@23:41:27 [System] getShopTime 
+20170317@23:41:27 [System] getLoggedInAccount 
+20170317@23:41:27 [System] DLAdoptInfo_ItemDataBound 
+20170317@23:41:27 [System] DLMorePet_ItemDataBound 
+20170317@23:41:27 [System] DLMorePet_ItemDataBound 
+20170317@23:41:27 [System] DLMorePet_ItemDataBound 
+20170317@23:41:28 [System] DLMorePet_ItemDataBound 

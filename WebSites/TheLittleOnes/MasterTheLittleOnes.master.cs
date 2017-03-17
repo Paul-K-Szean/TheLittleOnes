@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Web;
 using System.Web.UI;
+using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
@@ -17,6 +18,7 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
     AccountController accountCtrler;
     string loginEmail;
     string loginPassword;
+    string adoptInfoID;
     protected void Page_Load(object sender, EventArgs e)
     {
         if (IsPostBack)
@@ -51,6 +53,7 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
                     Response.Redirect("AdoptionDetails.aspx?adoptinfoid=" + adoptInfoID);
                 else
                     Response.Redirect(currentPage);
+
             }
         }
     }
@@ -58,11 +61,12 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         string currentPage = Path.GetFileName(Request.Url.AbsolutePath).ToLower().Trim();
+        adoptInfoID = HttpContext.Current.Request.QueryString["adoptinfoid"];
         accountCtrler.signOut();
         // must check for pages that requires login
-        if (currentPage.Contains("adoptionappointment"))
+        if (currentPage.Contains("adoptiondetails"))
         {
-            Response.Redirect("Home.aspx");
+            Response.Redirect(string.Concat(currentPage, "?adoptinfoid=", adoptInfoID));
         }
         else
         {
@@ -75,7 +79,6 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
     {
         loginEmail = TBLoginEmail.Text.Trim();
         loginPassword = TBLoginPassword.Text.Trim();
-        MessageHandler.ErrorMessage(LBLErrorMsg, "Either email or password is invalid");
         if (string.IsNullOrEmpty(loginEmail) || string.IsNullOrEmpty(loginPassword))
         {
             MessageHandler.ErrorMessage(LBLErrorMsg, "Either email or password is invalid");
