@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="TheLittleOnes - Breed" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="Breed.aspx.cs" Inherits="Breed" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBody" runat="Server">
@@ -75,7 +74,6 @@
         </div>
     </div>
     <!-- //gallery -->
-
     <%--Cat--%>
     <asp:SqlDataSource ID="SDSPetInfoCat" runat="server"
         ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
@@ -95,4 +93,3 @@
         </SelectParameters>
     </asp:SqlDataSource>
 </asp:Content>
-

@@ -13,14 +13,12 @@ using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
-
 public partial class AdminDashboard : BasePage
 {
     private static int GVRowIDPetInfo;
     private static int GVRowIDShopInfo;
     private static int gvPageSizePetInfo = 10; // default
     private static int gvPageSizeShopInfo = 10; // default
-
     private static DataTable dTablePetInfoChart;
     private static DataTable dTablePetInfo;
     private static DataTable dTableShopInfo;
@@ -32,19 +30,15 @@ public partial class AdminDashboard : BasePage
         GVPetInfoOverview.PageSize = gvPageSizePetInfo;
         gvPageSizeShopInfo = int.Parse(DDLDisplayRecordCountPetInfo.SelectedValue);
         GVShopInfoOverview.PageSize = gvPageSizeShopInfo;
-
         if (IsPostBack)
         {
-
         }
         else
         {
-
         }
         if (dTablePetInfoChart != null)
             loadPieChartPetInfo(dTablePetInfoChart);
     }
-
     #region Checkbox Control
     // Shop info filter pet shop
     protected void CHKBXFilterShop_CheckedChanged(object sender, EventArgs e)
@@ -78,7 +72,6 @@ public partial class AdminDashboard : BasePage
         filterShopInfo();
     }
     #endregion
-
     #region Drop Down List Control
     // Pet info
     protected void DDLDisplayRecordCountPetInfo_SelectedIndexChanged(object sender, EventArgs e)
@@ -101,7 +94,6 @@ public partial class AdminDashboard : BasePage
         GVShopInfoOverview.PageSize = gvPageSizeShopInfo;
     }
     #endregion
-
     #region Gridview Control
     // Pet info controls
     protected void GVPetInfoOverview_DataBound(object sender, EventArgs e)
@@ -111,7 +103,6 @@ public partial class AdminDashboard : BasePage
         if (dTablePetInfo == null)
             dTablePetInfo = ((DataView)SDSPetInfo.Select(DataSourceSelectArguments.Empty)).Table;
         updateEntryCount(dTablePetInfo, GVPetInfoOverview, LBLEntriesCountPetInfo);
-
     }
     // Pet info controls
     protected void GVPetInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
@@ -134,7 +125,6 @@ public partial class AdminDashboard : BasePage
     // Pet info controls
     protected void GVPetInfoOverview_PageIndexChanging(object sender, GridViewPageEventArgs e)
     {
-
     }
     // Shop info controls
     protected void GVShopInfoOverview_DataBound(object sender, EventArgs e)
@@ -162,7 +152,6 @@ public partial class AdminDashboard : BasePage
         highlightSelectedRow(GVShopInfoOverview);
     }
     #endregion
-
     #region Logical Methods
     // Pet Info Chart
     private void loadPieChartPetInfo(DataTable dTable)
@@ -172,7 +161,6 @@ public partial class AdminDashboard : BasePage
         List<string> dataValue = new List<string>();
         Font fontLabel = new Font(new FontFamily("Arial"), 15);
         Font fontLegend = new Font(new FontFamily("Arial"), 10);
-
         foreach (DataColumn column in dTable.Columns)
         {
             if (column.ColumnName.Contains("charOverall"))
@@ -184,8 +172,6 @@ public partial class AdminDashboard : BasePage
         // remove old data
         chart1.Series.Clear();
         chart1.ChartAreas.Clear();
-
-
         ChartArea chartArea = new ChartArea();
         // chartarea
         chartArea.AxisX.MajorGrid.LineColor = Color.Black;
@@ -196,27 +182,22 @@ public partial class AdminDashboard : BasePage
         chartArea.Area3DStyle.IsRightAngleAxes = false;
         chartArea.Position = new ElementPosition(0, 12, 100, 100);
         chart1.ChartAreas.Add(chartArea);
-
         // series
         Series series = new Series("Series1");
         series.ChartType = SeriesChartType.Pie;
         series.IsValueShownAsLabel = true;
         series.Font = fontLabel;
         chart1.Series.Add(series);
-
         // lengends
         chart1.Legends.Add(new Legend());
         chart1.Legends[0].Font = fontLegend;
         chart1.Legends[0].Enabled = true;
         chart1.Legends[0].Position.Auto = false;
         chart1.Legends[0].Position = new ElementPosition(0, 0, 100, 20);
-
         chart1.Palette = ChartColorPalette.Pastel;
         chart1.Width = 400;
-
         // bind the datapoints
         chart1.Series["Series1"].Points.DataBindXY(dataLabel, dataValue);
-
         // draw!
         chart1.DataBind();
         // write out a file
@@ -238,15 +219,12 @@ public partial class AdminDashboard : BasePage
         LBLShopInfoContact.Text = shopInfoEntity.ShopInfoContact;
         LBLShopInfoAddress.Text = shopInfoEntity.ShopInfoAddress;
         LBLShopInfoDesc.Text = shopInfoEntity.ShopInfoDesc;
-
         List<string> dayOfWeek = new List<string> { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
-
         // operating hours
         foreach (ShopTimeEntity shopTimeEntity in shopInfoEntity.ShopTimeEntities)
         {
             if (DateTime.Now.DayOfWeek.ToString().Equals(shopTimeEntity.DayOfWeek.ToString()))
             {
-
                 if (DateTime.Now.TimeOfDay > (DateTime.Parse(shopTimeEntity.OpenTime)).TimeOfDay &&
                     DateTime.Now.TimeOfDay < (DateTime.Parse(shopTimeEntity.CloseTime)).TimeOfDay)
                 {
@@ -263,14 +241,12 @@ public partial class AdminDashboard : BasePage
                 MessageHandler.ErrorMessage(LBLShopTimeStatus, "(Close on " + DateTime.Now.DayOfWeek + ")");
             }
         }
-
     }
     // Filter data for pet info
     private void filterPetInfo()
     {
         string ddlFilterBreed = DDLFilterBreed.SelectedValue.Trim();
         string tbSearchValue = TBSearchPetInfo.Text.Trim();
-
         GVPetInfoOverview.DataSourceID = null;
         GVPetInfoOverview.DataSource = null;
         dTablePetInfo = petInfoCtrler.filterPetInfoData(ddlFilterBreed, tbSearchValue, LBLSearchResultPetInfo);
@@ -291,7 +267,6 @@ public partial class AdminDashboard : BasePage
         GVShopInfoOverview.DataBind();
     }
     #endregion
-
     #region Textbox Control
     // Pet info filter search key
     protected void TBSearchPetInfo_TextChanged(object sender, EventArgs e)
@@ -306,6 +281,4 @@ public partial class AdminDashboard : BasePage
         filterShopInfo();
     }
     #endregion
-
-
 }

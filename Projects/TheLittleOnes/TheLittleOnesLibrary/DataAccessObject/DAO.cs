@@ -7,7 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Handler;
-
 namespace TheLittleOnesLibrary.DataAccessObject
 {
     public class DAO
@@ -19,7 +18,6 @@ namespace TheLittleOnesLibrary.DataAccessObject
                 dao = new DAO();
             return dao;
         }
-
         private string filePath_Database;//=  @"C:\Users\PaulKSzean\Documents\Visual Studio 2015\WebSites\TheLittleOnes\App_Data\TheLittleOnes.accdb";
         private string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=";
         private int insertID;
@@ -32,8 +30,6 @@ namespace TheLittleOnesLibrary.DataAccessObject
             filePath_Database = System.Web.HttpContext.Current.Server.MapPath("~/App_Data/TheLittleOnes.accdb");
             connectionString += filePath_Database;
         }
-
-
         // CREATE
         public int createRecord(OleDbCommand oleDbCommand)
         {
@@ -51,13 +47,11 @@ namespace TheLittleOnesLibrary.DataAccessObject
                         LogController.LogLine("Record created!");
                         return insertID;
                     }
-
                     else
                     {
                         LogController.LogLine("Record not created!");
                         return 0;
                     }
-
                 };
             }
             catch (Exception ex)
@@ -71,7 +65,6 @@ namespace TheLittleOnesLibrary.DataAccessObject
                 oleDbCommand.Parameters.Clear();
             }
         }
-
         // RETRIEVE SINGLE VALUE
         public string getValue(OleDbCommand oleDbCommand)
         {
@@ -107,7 +100,6 @@ namespace TheLittleOnesLibrary.DataAccessObject
                 oleDbCommand.Parameters.Clear();
             }
         }
-
         // RETRIEVE MULTIPLE VALUE
         public DataSet getRecord(OleDbCommand oleDbCommand)
         {
@@ -136,7 +128,6 @@ namespace TheLittleOnesLibrary.DataAccessObject
                 oleDbCommand.Parameters.Clear();
             }
         }
-
         // UPDATE
         public int updateRecord(OleDbCommand oleDbCommand)
         {
@@ -158,7 +149,6 @@ namespace TheLittleOnesLibrary.DataAccessObject
                         LogController.LogLine("Record not updated! Please check through given parameter values");
                         return 0;
                     }
-
                 };
             }
             catch (Exception ex)
@@ -172,7 +162,6 @@ namespace TheLittleOnesLibrary.DataAccessObject
                 oleDbCommand.Parameters.Clear();
             }
         }
-
         // DELETE
         public void deleteRecord(OleDbCommand oleDbCommand)
         {
@@ -192,7 +181,6 @@ namespace TheLittleOnesLibrary.DataAccessObject
                     {
                         LogController.LogLine("Record not deleted! Please check through given parameter values");
                     }
-
                 };
             }
             catch (Exception ex)

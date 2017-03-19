@@ -12,18 +12,14 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class AdminAdoptionInfoAdd : BasePage
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
     private CheckBox UICtrlCheckbox;
     private DropDownList UICtrlDropdownlist;
-
     protected void Page_Load(object sender, EventArgs e)
     {
-
-
     }
     #region Button Control
     // Preview image uploaded
@@ -36,12 +32,10 @@ public partial class AdminAdoptionInfoAdd : BasePage
         // preview photo
         photoCtrler.previewPhotos(photoPreview);
     }
-
     protected void BTNAdd_Click(object sender, EventArgs e)
     {
         string adoptPetBreed = DDLPetBreed.SelectedValue;
         string adoptPetName = TBPetName.Text.Trim();
-
         if (checkRequiredFields())
         {
             if (adoptInfoCtrler.checkAdoptInfoExist(adoptPetBreed, adoptPetName))
@@ -62,24 +56,20 @@ public partial class AdminAdoptionInfoAdd : BasePage
                 string petFriendlyWithPeople = DDLPetFriendlyWithPeople.SelectedValue.Trim();
                 string petToiletTrained = DDLPetToiletTrain.SelectedValue.Trim();
                 string petHealthInfo = TBPetHealthInfo.Text.Trim();
-
-                string adoptInfoStatus = AdoptionStatus.Available.ToString();
+                string adoptInfoStatus = SystemStatus.Available.ToString();
                 // ccreate entities
                 shopInfoEntity = shopInfoCtrler.getShopInfo(shopInfoID);
                 petEntity = new PetEntity(petBreed, petName, petGender, petWeight, petSize, petDesc, petEnergy, petFriendlyWithPet, petFriendlyWithPeople, petToiletTrained, petHealthInfo, photoEntities);
                 adoptInfoEntity = new AdoptInfoEntity(shopInfoEntity, petEntity, adoptInfoStatus);
-
                 // add into database
                 petEntity = petCtrler.createPet(petEntity);
                 adoptInfoEntity = adoptInfoCtrler.createAdoptInfo(adoptInfoEntity);
-
                 // change photo path to database instead of using temp
                 if (photoEntities != null)
                 {
                     petEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, petEntity.PetID);
                     petEntity = petCtrler.createPhoto(petEntity);
                 }
-
                 if (adoptInfoEntity != null)
                 {
                     MessageHandler.SuccessMessage(LBLErrorMsg, "Adoption info successfully added");
@@ -88,12 +78,9 @@ public partial class AdminAdoptionInfoAdd : BasePage
                 {
                     MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Adoption info was not successfully added");
                 }
-
-
             }
         }
     }
-
     protected void BTNGenerate_Click(object sender, EventArgs e)
     {
         MessageHandler.ClearMessage(LBLErrorMsg);
@@ -124,7 +111,6 @@ public partial class AdminAdoptionInfoAdd : BasePage
         photoPreview.InnerHtml = string.Empty;
     }
     #endregion
-
     #region Dropdownlist Control
     protected void DDLOrangisation_SelectedIndexChanged(object sender, EventArgs e)
     {
@@ -134,7 +120,6 @@ public partial class AdminAdoptionInfoAdd : BasePage
         PNLShopInfoDetails.Visible = true;
     }
     #endregion
-
     #region Logical Methods
     // Check Required Fields
     private bool checkRequiredFields()
@@ -164,7 +149,6 @@ public partial class AdminAdoptionInfoAdd : BasePage
                 }
             }
         }
-
         // return condition
         if (isUICtrlDropdownlistValid && isUICtrlTextboxValid)
         {
@@ -185,9 +169,6 @@ public partial class AdminAdoptionInfoAdd : BasePage
         LBLShopInfoContact.Text = shopInfoEntity.ShopInfoContact;
         LBLShopInfoAddress.Text = shopInfoEntity.ShopInfoAddress;
         LBLShopInfoDesc.Text = shopInfoEntity.ShopInfoDesc;
-
     }
     #endregion
-
-
 }

@@ -12,12 +12,10 @@ using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 namespace TheLittleOnesLibrary.Controllers
 {
     public class PetInfoController
     {
-
         private static PetInfoController petInfoCtrl;
         private static PetCharEntity petCharEntity;
         public static PetInfoController getInstance()
@@ -26,19 +24,15 @@ namespace TheLittleOnesLibrary.Controllers
                 petInfoCtrl = new PetInfoController();
             return petInfoCtrl;
         }
-
         // Data Access Object
         private DAO dao;
         private OleDbCommand oleDbCommand;
         private DataSet dataSet;
-
         // Default Constructor
         public PetInfoController()
         {
             dao = DAO.getInstance();
         }
-
-
         // Check if the same category and breed exist
         public bool checkPetInfoExist(string petCategory, string petBreed)
         {
@@ -59,7 +53,6 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Create PetInfo
         public PetInfoEntity createPetInfo(PetInfoEntity petInfoEntity)
         {
@@ -79,7 +72,6 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.Parameters.AddWithValue("@PETINFODESC", petInfoEntity.PetDesc);
                 oleDbCommand.Parameters.AddWithValue("@PETINFOPERSONALITY", petInfoEntity.PetPersonality);
                 oleDbCommand.Parameters.AddWithValue("@PETINFODISPLAYSTATUS", petInfoEntity.PetDisplayStatus);
-
                 int insertID = dao.createRecord(oleDbCommand);
                 if (insertID > 0)
                 {
@@ -92,7 +84,6 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Create PetCharacteristic
         public PetInfoEntity createPetCharacteristic(PetInfoEntity petInfoEntity)
         {
@@ -118,28 +109,23 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.Parameters.AddWithValue("@CHAROVERALLGROOMING", petInfoEntity.PetCharEntity.CharOverallGrooming);
                 oleDbCommand.Parameters.AddWithValue("@CHAROVERALLTRAINABILITY", petInfoEntity.PetCharEntity.CharOverallTrainability);
                 oleDbCommand.Parameters.AddWithValue("@CHAROVERALLEXERCISE", petInfoEntity.PetCharEntity.CharOverallExercise);
-
                 oleDbCommand.Parameters.AddWithValue("@CHARADAPTTOSURROUNDING", petInfoEntity.PetCharEntity.CharAdaptToSurrounding);
                 oleDbCommand.Parameters.AddWithValue("@CHARADAPTTONOVICE", petInfoEntity.PetCharEntity.CharAdaptToNovice);
                 oleDbCommand.Parameters.AddWithValue("@CHARADAPTTOLONELINESS", petInfoEntity.PetCharEntity.CharAdaptToLoneliness);
                 oleDbCommand.Parameters.AddWithValue("@CHARADAPTTOCOLD", petInfoEntity.PetCharEntity.CharAdaptToCold);
                 oleDbCommand.Parameters.AddWithValue("@CHARADAPTTOHOT", petInfoEntity.PetCharEntity.CharAdaptToHot);
-
                 oleDbCommand.Parameters.AddWithValue("@CHARFRIENDWITHFAMILY", petInfoEntity.PetCharEntity.CharFriendWithFamily);
                 oleDbCommand.Parameters.AddWithValue("@CHARFRIENDWITHKIDS", petInfoEntity.PetCharEntity.CharFriendWithKids);
                 oleDbCommand.Parameters.AddWithValue("@CHARFRIENDWITHSTRANGERS", petInfoEntity.PetCharEntity.CharFriendWithStranger);
                 oleDbCommand.Parameters.AddWithValue("@CHARFRIENDWITHOTHERPET", petInfoEntity.PetCharEntity.CharFriendWithOtherPet);
-
                 oleDbCommand.Parameters.AddWithValue("@CHARGROOMLEVEL", petInfoEntity.PetCharEntity.CharGroomLevel);
                 oleDbCommand.Parameters.AddWithValue("@CHARGROOMSHEDDING", petInfoEntity.PetCharEntity.CharGroomSheddingLevel);
                 oleDbCommand.Parameters.AddWithValue("@CHARGROOMDROOLING", petInfoEntity.PetCharEntity.CharGroomDrooling);
-
                 oleDbCommand.Parameters.AddWithValue("@CHARTRAINLEVEL", petInfoEntity.PetCharEntity.CharTrainLevel);
                 oleDbCommand.Parameters.AddWithValue("@CHARTRAININTELLIGENCE", petInfoEntity.PetCharEntity.CharTrainIntelligenceLevel);
                 oleDbCommand.Parameters.AddWithValue("@CHARTRAINMOUTHINESS", petInfoEntity.PetCharEntity.CharTrainMouthiness);
                 oleDbCommand.Parameters.AddWithValue("@CHARTRAINPREYDRIVE", petInfoEntity.PetCharEntity.CharTrainPreyDrive);
                 oleDbCommand.Parameters.AddWithValue("@CHARTRAINBARKHOWL", petInfoEntity.PetCharEntity.CharTrainBarkHowl);
-
                 oleDbCommand.Parameters.AddWithValue("@CHAREXERCISEENERGYLEVEL", petInfoEntity.PetCharEntity.CharExerciseEnergyLevel);
                 oleDbCommand.Parameters.AddWithValue("@CHAREXERCISENEEDS", petInfoEntity.PetCharEntity.CharExerciseNeeds);
                 oleDbCommand.Parameters.AddWithValue("@CHAREXERCISEPLAYFULLNESS", petInfoEntity.PetCharEntity.CharExercisePlayfullness);
@@ -155,14 +141,12 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Create PetPhoto
         public PetInfoEntity createPetPhoto(PetInfoEntity petInfoEntity)
         {
             petInfoEntity.PhotoEntities = PhotoController.getInstance().createPhoto(petInfoEntity.PhotoEntities, petInfoEntity.PetInfoID);
             return petInfoEntity;
         }
-
         // Update PetInfo
         public PetInfoEntity updatePetInfo(PetInfoEntity petInfoEntity)
         {
@@ -198,7 +182,6 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Update PetChar
         public PetCharEntity updatePetChar(PetCharEntity petCharEntity)
         {
@@ -216,34 +199,28 @@ namespace TheLittleOnesLibrary.Controllers
                                     "CHARTRAINPREYDRIVE = @CHARTRAINPREYDRIVE,CHARTRAINBARKHOWL = @CHARTRAINBARKHOWL, ",
                                     "CHAREXERCISEENERGYLEVEL = @CHAREXERCISEENERGYLEVEL,CHAREXERCISENEEDS = @CHAREXERCISENEEDS, CHAREXERCISEPLAYFULLNESS = @CHAREXERCISEPLAYFULLNESS ",
                                     "WHERE(CHARID = @CHARID)");
-
                 oleDbCommand.Parameters.AddWithValue("@CHAROVERALLADAPTABILITY", petCharEntity.CharOverallAdaptability);
                 oleDbCommand.Parameters.AddWithValue("@CHAROVERALLFRIENDLINESS", petCharEntity.CharOverallFriendliness);
                 oleDbCommand.Parameters.AddWithValue("@CHAROVERALLGROOMING", petCharEntity.CharOverallGrooming);
                 oleDbCommand.Parameters.AddWithValue("@CHAROVERALLTRAINABILITY", petCharEntity.CharOverallTrainability);
                 oleDbCommand.Parameters.AddWithValue("@CHAROVERALLEXERCISE", petCharEntity.CharOverallExercise);
-
                 oleDbCommand.Parameters.AddWithValue("@CHARADAPTTOSURROUNDING", petCharEntity.CharAdaptToSurrounding);
                 oleDbCommand.Parameters.AddWithValue("@CHARADAPTTONOVICE", petCharEntity.CharAdaptToNovice);
                 oleDbCommand.Parameters.AddWithValue("@CHARADAPTTOLONELINESS", petCharEntity.CharAdaptToLoneliness);
                 oleDbCommand.Parameters.AddWithValue("@CHARADAPTTOCOLD", petCharEntity.CharAdaptToCold);
                 oleDbCommand.Parameters.AddWithValue("@CHARADAPTTOHOT", petCharEntity.CharAdaptToHot);
-
                 oleDbCommand.Parameters.AddWithValue("@CHARFRIENDWITHFAMILY", petCharEntity.CharFriendWithFamily);
                 oleDbCommand.Parameters.AddWithValue("@CHARFRIENDWITHKIDS", petCharEntity.CharFriendWithKids);
                 oleDbCommand.Parameters.AddWithValue("@CHARFRIENDWITHSTRANGERS", petCharEntity.CharFriendWithStranger);
                 oleDbCommand.Parameters.AddWithValue("@CHARFRIENDWITHOTHERPET", petCharEntity.CharFriendWithOtherPet);
-
                 oleDbCommand.Parameters.AddWithValue("@CHARGROOMLEVEL", petCharEntity.CharGroomLevel);
                 oleDbCommand.Parameters.AddWithValue("@CHARGROOMSHEDDING", petCharEntity.CharGroomSheddingLevel);
                 oleDbCommand.Parameters.AddWithValue("@CHARGROOMDROOLING", petCharEntity.CharGroomDrooling);
-
                 oleDbCommand.Parameters.AddWithValue("@CHARTRAINLEVEL", petCharEntity.CharTrainLevel);
                 oleDbCommand.Parameters.AddWithValue("@CHARTRAININTELLIGENCE", petCharEntity.CharTrainIntelligenceLevel);
                 oleDbCommand.Parameters.AddWithValue("@CHARTRAINMOUTHINESS", petCharEntity.CharTrainMouthiness);
                 oleDbCommand.Parameters.AddWithValue("@CHARTRAINPREYDRIVE", petCharEntity.CharTrainPreyDrive);
                 oleDbCommand.Parameters.AddWithValue("@CHARTRAINBARKHOWL", petCharEntity.CharTrainBarkHowl);
-
                 oleDbCommand.Parameters.AddWithValue("@CHAREXERCISEENERGYLEVEL", petCharEntity.CharExerciseEnergyLevel);
                 oleDbCommand.Parameters.AddWithValue("@CHAREXERCISENEEDS", petCharEntity.CharExerciseNeeds);
                 oleDbCommand.Parameters.AddWithValue("@CHAREXERCISEPLAYFULLNESS", petCharEntity.CharExercisePlayfullness);
@@ -259,15 +236,13 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Delete PetPhoto
         public PetInfoEntity deletePetPhoto(PetInfoEntity petInfoEntity)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            PhotoController.getInstance().deletePhoto(petInfoEntity.PetInfoID, PhotoPurpose.ShopInfo.ToString());
+            PhotoController.getInstance().deletePhoto(petInfoEntity.PetInfoID, Enums.GetDescription(PhotoPurpose.ShopInfo));
             return petInfoEntity;
         }
-
         // Retrieve PetInfo
         public PetInfoEntity getPetInfo(string petInfoID)
         {
@@ -292,12 +267,11 @@ namespace TheLittleOnesLibrary.Controllers
                         dataSet.Tables[0].Rows[0][9].ToString(),
                         dataSet.Tables[0].Rows[0][10].ToString(),
                         dataSet.Tables[0].Rows[0][11].ToString(),
-                            petCharEntity = getPetChar(petInfoID), PhotoController.getInstance().getPhotoEntities(petInfoID, PhotoPurpose.PetInfo.ToString()));
+                            petCharEntity = getPetChar(petInfoID), PhotoController.getInstance().getPhotoEntities(petInfoID, Enums.GetDescription(PhotoPurpose.PetInfo)));
                 }
                 else { return null; }
             }
         }
-
         // Retrieve PetChar
         public PetCharEntity getPetChar(string petInfoID)
         {
@@ -337,7 +311,6 @@ namespace TheLittleOnesLibrary.Controllers
                     );
             }
         }
-
         // Filter Pet Info Data
         public DataTable filterPetInfoData(string ddlbreed, string tbSearchValue, Label searchResult)
         {
@@ -357,18 +330,11 @@ namespace TheLittleOnesLibrary.Controllers
                     searchResult.Text += string.Concat("\"", ddlbreed, "\" ");
                     sqlQuery += string.Concat(" AND (PETINFOBREED LIKE '%", ddlbreed, "%') ");
                 }
-
                 oleDbCommand.CommandText = sqlQuery;
                 oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));
-
                 dataSet = dao.getRecord(oleDbCommand);
                 return dataSet.Tables[0];
             }
         }
-
     }
-
-
-
-
 }

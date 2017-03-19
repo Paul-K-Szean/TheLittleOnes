@@ -12,7 +12,6 @@ using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
-
 namespace TheLittleOnesLibrary.Controllers
 {
     public class PhotoController
@@ -35,7 +34,6 @@ namespace TheLittleOnesLibrary.Controllers
         {
             dao = DAO.getInstance();
         }
-
         // Create Photo
         public List<PhotoEntity> createPhoto(List<PhotoEntity> photoEntities, string ownerID)
         {
@@ -60,7 +58,6 @@ namespace TheLittleOnesLibrary.Controllers
             }
             return photoEntities;
         }
-
         // Delete Photo
         public void deletePhoto(string ownerID, string photoPurpose)
         {
@@ -74,7 +71,6 @@ namespace TheLittleOnesLibrary.Controllers
                 dao.deleteRecord(oleDbCommand);
             }
         }
-
         // Create temp files in uploadfiles/temp foler
         public List<PhotoEntity> saveToTempFolder(string photoPurpose, FileUpload fileUpload)
         {
@@ -82,7 +78,6 @@ namespace TheLittleOnesLibrary.Controllers
             filePath_UploadFolderTemp = string.Concat("~/uploadedFiles/temp/", photoPurpose.ToLower(), "/ID000/");
             bool filePathExist = Directory.Exists(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
             LogController.LogLine("Check directory: " + filePath_UploadFolderTemp + " Result: " + filePathExist);
-
             // check for folder paths - Temp
             if (filePathExist)
             {
@@ -95,7 +90,6 @@ namespace TheLittleOnesLibrary.Controllers
                 // dont exists - create path
                 Directory.CreateDirectory(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
             }
-
             LogController.LogLine("Total files posted: " + fileUpload.PostedFiles.Count);
             // save posted files to temp folder
             if (fileUpload.HasFiles)
@@ -113,11 +107,9 @@ namespace TheLittleOnesLibrary.Controllers
                     }
                 }
             }
-
             // return list<photoEntities> with temp path
             return photoEntities;
         }
-
         public List<PhotoEntity> changePhotoPathToDatabaseFolder(List<PhotoEntity> photoEntities, string ownerID)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -130,11 +122,9 @@ namespace TheLittleOnesLibrary.Controllers
                 // check for database folder path
                 string filePath_UploadFolderDatabase = filePath_UploadFolderTemp.Replace("temp", "database").Replace("ID000", ownerID);
                 bool isfilePath_UploadFolderDatabaseExists = Directory.Exists(filePath_UploadFolderDatabase);
-
                 // exists = wont create
                 Directory.CreateDirectory(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase));
                 Array.ForEach(Directory.GetFiles(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase)), File.Delete);
-
                 // get files from temp folder into database folder
                 DirectoryInfo dirTemp = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
                 LogController.LogLine(dirTemp.FullName);
@@ -147,20 +137,17 @@ namespace TheLittleOnesLibrary.Controllers
                         Path.Combine(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase), file.Name), true);
                     }
                 }
-
                 // rename the file path from temp to database
                 foreach (PhotoEntity photoEntity in photoEntities)
                 {
                     photoEntity.PhotoPath = string.Concat(filePath_UploadFolderDatabase, photoEntity.PhotoName);
                     LogController.LogLine(photoEntity.PhotoPath);
                 }
-
                 //DirectoryInfo dirDatabase = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderDatabase));
                 //LogController.LogLine(dirDatabase.FullName);
                 return photoEntities;
             }
         }
-
         // Preview photos
         public void previewPhotos(HtmlGenericControl photoPreview)
         {
@@ -169,11 +156,9 @@ namespace TheLittleOnesLibrary.Controllers
             DirectoryInfo dir = new DirectoryInfo(HttpContext.Current.Server.MapPath(filePath_UploadFolderTemp));
             photoPreview.InnerHtml = string.Empty;
             photoPreview.Style.Add("Height", "300px");
-
             foreach (var file in dir.GetFiles())
             {
                 LogController.LogLine(string.Concat(filePath_UploadFolderTemp, "/", file.Name.ToLower().Trim().Replace(" ", "")));
-
                 photoPreview.InnerHtml += string.Concat(
                     "<img  src =\"",
                     string.Concat(filePath_UploadFolderTemp, "/", file.Name).Replace("~/", ""),
@@ -181,7 +166,6 @@ namespace TheLittleOnesLibrary.Controllers
                     "<br>", file.Name, "<hr/>");
             }
         }
-
         // Retrieve photoEntites
         public List<PhotoEntity> getPhotoEntities(string photoOwnerID, string photoPurpose)
         {
@@ -207,5 +191,4 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
     }
-
 }

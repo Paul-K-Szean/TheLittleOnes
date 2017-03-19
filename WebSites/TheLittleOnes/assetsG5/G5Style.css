@@ -6,71 +6,55 @@
     background-color: #666;
     z-index: 1;
 }
-
     .overlay-progress img {
         margin: 20% 47%;
     }
-
 /*login forms*/
 .login-box-body {
     padding: 15px 130px;
 }
-
 .login-box-msg, .register-box-msg {
     margin: 0px;
     text-align: center;
     padding: 0px 20px 20px;
 }
-
-
 .padding0 {
     padding: 0px;
 }
-
 .paddingTop-100 {
     padding-top: 100px;
 }
-
 .margin0 {
     margin: 0px;
 }
-
 .marginTop-0 {
     margin-top: 0px;
 }
-
 .marginTop-10 {
     margin-top: 10px;
 }
-
 .marginTop-100 {
     margin-top: 100px;
 }
-
 .scrollbarHorizontal {
     overflow-x: auto; /*for horizontal scroll bar */
     overflow-y: hidden; /*for hiding vertical scroll bar */
 }
-
 .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
     vertical-align: middle;
 }
-
 .pagination-G5 {
     /*display: inline-block;*/
     padding-left: 0;
     margin: 20px 0;
     border-radius: 4px;
 }
-
     .pagination-G5 table {
         float: right;
     }
-
         .pagination-G5 table > tbody > tr > td {
             display: inline;
         }
-
             .pagination-G5 table > tbody > tr > td > a,
             .pagination-G5 table > tbody > tr > td > span {
                 position: relative;
@@ -83,7 +67,6 @@
                 border: 1px solid #dddddd;
                 margin-left: -1px;
             }
-
             .pagination-G5 table > tbody > tr > td > span {
                 position: relative;
                 float: left;
@@ -97,20 +80,17 @@
                 border-color: #dddddd;
                 cursor: default;
             }
-
             .pagination-G5 table > tbody > tr > td:first-child > a,
             .pagination-G5 table > tbody > tr > td:first-child > span {
                 margin-left: 0;
                 border-bottom-left-radius: 4px;
                 border-top-left-radius: 4px;
             }
-
             .pagination-G5 table > tbody > tr > td:last-child > a,
             .pagination-G5 table > tbody > tr > td:last-child > span {
                 border-bottom-right-radius: 4px;
                 border-top-right-radius: 4px;
             }
-
             .pagination-G5 table > tbody > tr > td > a:hover,
             .pagination-G5 table > tbody > tr > td > span:hover,
             .pagination-G5 table > tbody > tr > td > a:focus,
@@ -119,66 +99,53 @@
                 background-color: #eeeeee;
                 border-color: #dddddd;
             }
-
-
 ul.dropdown-menu {
     background-color: rgba(0,0,0,0.27);
     border-radius: 0px;
     box-shadow: 0 0 0;
     border: 1px dotted black;
 }
-
 .dropdown-menu > li > a, .top-nav > ul > li > a {
     color: white;
 }
-
 .banner {
     background-position: 0px -110px;
 }
-
 .w3layouts-banner-slider {
     margin: 0;
     margin-top: 0px;
 }
-
     .w3layouts-banner-slider .container {
         padding: 8em 1em;
     }
-
 .wthree-top-grid {
     font-size: 18px;
 }
-
 .BGWhite {
     margin-top: 10px;
     background-color: white;
     padding: 4px 40px;
 }
-
 .landscape {
     height: 270px;
     min-width: 360px;
     background-color: white;
 }
-
 .landscapeAdoption {
     min-height: 150px;
     max-height: 195px;
     max-width: 260px;
     background-color: white;
 }
-
 .portraitAdoption {
     min-height: 100px;
     max-height: 150px;
     max-width: 150px;
     background-color: white;
 }
-
 .overflowHidden {
     overflow: hidden;
 }
-
 .adoption figure figcaption p {
     margin: 0px 0px;
     padding: 0px 4px;
@@ -187,21 +154,16 @@ ul.dropdown-menu {
     background-color: rgba(169,169,169,0.5);
     border: none;
 }
-
     .adoption figure figcaption p span {
         opacity: 1;
         color: white;
     }
-
-
 .borderLeft {
     border-left: 1px solid black
 }
-
 .borderRight {
     border-right: 4px dotted #aea79f;
 }
-
 .borderBtm {
     
     border-bottom: 3px dotted #aea79f;
@@ -211,7 +173,6 @@ ul.dropdown-menu {
     font-size: 19px;
     line-height: 1.2em;
 }
-
 .lb-data .lb-number {
     display: block;
     clear: left;
@@ -224,44 +185,34 @@ ul.dropdown-menu {
 .progress-bar-blueviolet {
     background-color: #8A2BE2;
 }
-
 .progress-striped .progress-bar-danger {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
-
-
 .footer {
     position: absolute;
     display: block;
     width: 100%;
 }
-
 .maxWidth200 {
     max-width: 200px;
 }
-
 .maxWidth220 {
     max-width: 220px;
 }
-
 .maxWidth240 {
     max-width: 240px;
 }
-
 .maxWidth260 {
     max-width: 260px;
 }
-
 .maxWidth280 {
     max-width: 280px;
 }
-
 .maxWidth300 {
     max-width: 300px;
 }
-
 .hr {
     display: block;
     height: 0;
@@ -272,7 +223,6 @@ ul.dropdown-menu {
     margin: 12px 0;
     border-top-color: rgba(0,0,0,.11);
 }
-
 .hr-double {
     height: 3px;
     border-top: 1px solid #E3E3E3;
@@ -280,7 +230,6 @@ ul.dropdown-menu {
     border-top-color: rgba(0,0,0,.11);
     border-bottom-color: rgba(0,0,0,.11);
 }
-
 .hr-double2 {
     height: 6px;
     border-top: 2px solid #E3E3E3;
@@ -288,206 +237,168 @@ ul.dropdown-menu {
     border-top-color: rgba(0,0,0,.11);
     border-bottom-color: rgba(0,0,0,.11);
 }
-
 .hr-dotted, .hr.dotted {
     border-style: dotted;
 }
-
 .hr-32, .hr32 {
     margin: 32px 0;
 }
-
 .hr-30, .hr30 {
     margin: 30px 0;
 }
-
 .hr-28, .hr28 {
     margin: 28px 0;
 }
-
 .hr-26, .hr26 {
     margin: 26px 0;
 }
-
 .hr-24, .hr24 {
     margin: 24px 0;
 }
-
 .hr-22, .hr22 {
     margin: 22px 0;
 }
-
 .hr-20, .hr20 {
     margin: 20px 0;
 }
-
 .hr-18, .hr18 {
     margin: 18px 0;
 }
-
 .hr-16, .hr16 {
     margin: 16px 0;
 }
-
 .hr-14, .hr14 {
     margin: 14px 0;
 }
-
 .hr-12, .hr12 {
     margin: 12px 0;
 }
-
 .hr-10, .hr10 {
     margin: 10px 0;
 }
-
 .hr-8, .hr8 {
     margin: 8px 0;
 }
-
 .hr-6, .hr6 {
     margin: 6px 0;
 }
-
 .hr-4, .hr4 {
     margin: 4px 0;
 }
-
 .hr-2, .hr2 {
     margin: 2px 0;
 }
-
 .space {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 12px 0;
 }
-
 [class*=vspace-] {
     display: none;
 }
-
 .space-32, [class*=vspace-32] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 32px 0 31px;
 }
-
 .space-30, [class*=vspace-30] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 30px 0 29px;
 }
-
 .space-28, [class*=vspace-28] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 28px 0 27px;
 }
-
 .space-26, [class*=vspace-26] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 26px 0 25px;
 }
-
 .space-24, [class*=vspace-24] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 24px 0 23px;
 }
-
 .space-22, [class*=vspace-22] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 22px 0 21px;
 }
-
 .space-20, [class*=vspace-20] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 20px 0 19px;
 }
-
 .space-18, [class*=vspace-18] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 18px 0 17px;
 }
-
 .space-16, [class*=vspace-16] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 16px 0 15px;
 }
-
 .space-14, [class*=vspace-14] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 14px 0 13px;
 }
-
 .space-12, [class*=vspace-12] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 12px 0 11px;
 }
-
 .space-10, [class*=vspace-10] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 10px 0 9px;
 }
-
 .space-8, [class*=vspace-8] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 8px 0 7px;
 }
-
 .space-6, [class*=vspace-6] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 6px 0 5px;
 }
-
 .space-4, [class*=vspace-4] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 4px 0 3px;
 }
-
 .space-2, [class*=vspace-2] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 2px 0 1px;
 }
-
 .space-0, [class*=vspace-0] {
     max-height: 1px;
     min-height: 1px;
     overflow: hidden;
     margin: 0;
 }
-
-
 .scrollup {
     width: 40px;
     height: 40px;

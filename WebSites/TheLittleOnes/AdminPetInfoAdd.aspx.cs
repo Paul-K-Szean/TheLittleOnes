@@ -12,7 +12,6 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class AdminPetInfoAdd : BasePage
 {
     private Label UICtrlLabel;
@@ -30,20 +29,17 @@ public partial class AdminPetInfoAdd : BasePage
     private string weightMax;
     private string desc;
     private string personality;
-
     // page load
     protected void Page_Load(object sender, EventArgs e)
     {
         if (IsPostBack)
         {
-
         }
         else
         {
             initializeUIControlValues();
         }
     }
-
     #region Initialize UI Control Values
     // Initial UI control values
     private void initializeUIControlValues()
@@ -72,12 +68,9 @@ public partial class AdminPetInfoAdd : BasePage
         {
             for (int index = 1; index <= 5; index++)
                 UICtrlDropdownlist.Items.Add(new ListItem(index.ToString(), index.ToString()));
-
         }
-
     }
     #endregion
-
     #region Button Clicks
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
@@ -89,7 +82,6 @@ public partial class AdminPetInfoAdd : BasePage
         // preview photo
         photoCtrler.previewPhotos(photoPreview);
     }
-
     // Create pet info
     protected void BTNAdd_Click(object sender, EventArgs e)
     {
@@ -106,7 +98,6 @@ public partial class AdminPetInfoAdd : BasePage
         weightMax = TBWeightMax.Text.Trim();
         desc = TBDesc.Text.Trim();
         personality = TBPersonality.Text.Trim();
-
         if (checkRequiredFields())
         {
             // check if pet info exists
@@ -121,18 +112,15 @@ public partial class AdminPetInfoAdd : BasePage
                 petInfoEntity = new PetInfoEntity(category, breed,
                     lifeSpanMin, heightMin, weightMin, lifeSpanMax, heightMax, weightMax, desc, personality, "Display",
                     petCharEntity, photoEntities);
-
                 // add into database
                 petInfoEntity = petInfoCtrler.createPetInfo(petInfoEntity);
                 petInfoEntity = petInfoCtrler.createPetCharacteristic(petInfoEntity);
-
                 // change photo path to database instead of using temp
                 if (photoEntities != null)
                 {
                     petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, petInfoEntity.PetInfoID);
                     petInfoEntity = petInfoCtrler.createPetPhoto(petInfoEntity);
                 }
-
                 if (petInfoEntity != null)
                 {
                     MessageHandler.SuccessMessage(LBLErrorMsg, "Pet info successfully added");
@@ -144,7 +132,6 @@ public partial class AdminPetInfoAdd : BasePage
             }
         }
     }
-
     // Generate random values
     protected void BTNGenerate_Click(object sender, EventArgs e)
     {
@@ -180,7 +167,6 @@ public partial class AdminPetInfoAdd : BasePage
         photoPreview.InnerHtml = string.Empty;
     }
     #endregion
-
     #region Logical Methods
     protected void calculateOverallRating()
     {
@@ -228,19 +214,16 @@ public partial class AdminPetInfoAdd : BasePage
                 }
             }
         }
-
         listOverallScore.Add(totalScoreAdaptability / 5);
         listOverallScore.Add(totalScoreFriendliness / 4);
         listOverallScore.Add(totalScoreGrooming / 3);
         listOverallScore.Add(totalScoreTrainability / 5);
         listOverallScore.Add(totalScoreExercise / 3);
-
         LBLOverallAdaptability.Text = string.Concat("Adaptability (", listOverallScore[0].ToString("0.0"), "/", factorValue, ")");
         LBLOverallFriendliness.Text = string.Concat("Friendliness (", listOverallScore[1].ToString("0.0"), "/", factorValue, ")");
         LBLOverallGrooming.Text = string.Concat("Grooming (", listOverallScore[2].ToString("0.0"), "/", factorValue, ")");
         LBLOverallTrainability.Text = string.Concat("Trainability (", listOverallScore[3].ToString("0.0"), "/", factorValue, ")");
         LBLOverallExercise.Text = string.Concat("Exercise (", listOverallScore[4].ToString("0.0"), "/", factorValue, ")");
-
         petCharEntity = new PetCharEntity(
             listOverallScore[0].ToString("0.0"), listOverallScore[1].ToString("0.0"), listOverallScore[2].ToString("0.0"), listOverallScore[3].ToString("0.0"), listOverallScore[4].ToString("0.0"),
             listAdaptabilityScore[0].ToString("0.0"), listAdaptabilityScore[1].ToString("0.0"), listAdaptabilityScore[2].ToString("0.0"), listAdaptabilityScore[3].ToString("0.0"), listAdaptabilityScore[4].ToString("0.0"),
@@ -249,9 +232,7 @@ public partial class AdminPetInfoAdd : BasePage
                listTrainabilityScore[0].ToString("0.0"), listTrainabilityScore[1].ToString("0.0"), listTrainabilityScore[2].ToString("0.0"), listTrainabilityScore[3].ToString("0.0"), listTrainabilityScore[4].ToString("0.0"),
                 listExerciseScore[0].ToString("0.0"), listExerciseScore[1].ToString("0.0"), listExerciseScore[2].ToString("0.0")
             );
-
     }
-
     private bool checkRequiredFields()
     {
         bool isUICtrlDropdownlistValid = true;
@@ -279,7 +260,6 @@ public partial class AdminPetInfoAdd : BasePage
                 }
             }
         }
-
         // return condition
         if (isUICtrlDropdownlistValid && isUICtrlTextboxValid)
         {
@@ -292,110 +272,88 @@ public partial class AdminPetInfoAdd : BasePage
             return false;
         }
     }
-
     #endregion
-
     #region Drop Down List PostBack Control
     protected void DDLAdaptSurrounding_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLAdapt_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLAdaptLoneliness_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLAdaptCold_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLAdaptHot_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLFriendlinessFamily_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLFriendlinessKids_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLFriendlinessStrangers_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLFriendlinessOtherPets_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLGroomingLevel_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLGroomingShedding_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLGroomingDrooling_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLTrainLevel_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLTrainIntelligence_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLTrainMouthiness_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLTrainPreyDrive_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLTrainBarkHowl_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLExerciseLevel_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLExerciseEnergy_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLExerciseNeeds_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();
     }
-
     protected void DDLExercisePlayfullness_SelectedIndexChanged(object sender, EventArgs e)
     {
         calculateOverallRating();

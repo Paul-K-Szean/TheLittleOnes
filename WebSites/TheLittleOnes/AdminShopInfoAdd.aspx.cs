@@ -13,13 +13,11 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class AdminShopInfoAdd : BasePage
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
     private DropDownList UICtrlDropdownlist;
-
     private string shopName;
     private string shopContact;
     private string shopAddress;
@@ -27,14 +25,12 @@ public partial class AdminShopInfoAdd : BasePage
     private string shopType;
     private string shopDesc;
     private bool shopCloseOnPublicHoliday;
-
     // page load
     protected void Page_Load(object sender, EventArgs e)
     {
         Page.Form.Attributes.Add("enctype", "multipart/form-data");
         if (IsPostBack)
         {
-
         }
         else
         {
@@ -42,7 +38,6 @@ public partial class AdminShopInfoAdd : BasePage
             initializeUIControlValues();
         }
     }
-
     #region Initialize UI Control Values
     // Initial UI control values
     private void initializeUIControlValues()
@@ -66,17 +61,14 @@ public partial class AdminShopInfoAdd : BasePage
                 {
                     UICtrlDropdownlist.SelectedValue = "09:00 AM";
                 }
-
                 if (UICtrlDropdownlist.ID.ToLower().Contains("close"))
                 {
                     UICtrlDropdownlist.SelectedValue = "17:00 PM";
                 }
             }
-
         }
     }
     #endregion
-
     #region Button Clicks
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
@@ -88,7 +80,6 @@ public partial class AdminShopInfoAdd : BasePage
         // preview photo
         photoCtrler.previewPhotos(photoPreview);
     }
-
     protected void BTNAdd_Click(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -101,7 +92,6 @@ public partial class AdminShopInfoAdd : BasePage
         shopDesc = TBShopDesc.Text.Trim();
         shopCloseOnPublicHoliday = CHKBXCloseOnPublicHoliday.Checked ? true : false;
         shopTimeEntities = getShopTime();
-
         if (checkRequiredFields())
         {
             // check if shop info exists
@@ -115,18 +105,15 @@ public partial class AdminShopInfoAdd : BasePage
                 // create shop info entity
                 shopInfoEntity = new ShopInfoEntity(shopName, shopContact,
                     shopAddress, shopGrooming, shopType, shopDesc, shopCloseOnPublicHoliday, shopTimeEntities, photoEntities);
-
                 // add into database
                 shopInfoEntity = shopInfoCtrler.createShopInfo(shopInfoEntity);
                 shopInfoEntity = shopInfoCtrler.createShopTime(shopInfoEntity);
-
                 // change photo path to database instead of using temp
                 if (photoEntities != null)
                 {
                     shopInfoEntity = shopInfoCtrler.createPhoto(shopInfoEntity);
                     shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, shopInfoEntity.ShopInfoID);
                 }
-
                 if (shopInfoEntity != null)
                 {
                     MessageHandler.SuccessMessage(LBLErrorMsg, "Shop info successfully added");
@@ -135,11 +122,9 @@ public partial class AdminShopInfoAdd : BasePage
                 {
                     MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Shop info was not successfully added");
                 }
-
             }
         }
     }
-
     protected void BTNGenerate_Click(object sender, EventArgs e)
     {
         ShopInfoEntity shopInfoEntityTemp = Utility.getShopInfoEntity();
@@ -147,14 +132,11 @@ public partial class AdminShopInfoAdd : BasePage
         shopContact = TBShopContact.Text = shopInfoEntityTemp.ShopInfoContact.Replace(" ", "");
         shopAddress = TBShopAddress.Text = shopInfoEntityTemp.ShopInfoAddress;
         shopDesc = TBShopDesc.Text = shopInfoEntityTemp.ShopInfoDesc;
-
         CHKBXGroomingService.Checked = shopInfoEntityTemp.ShopInfoGrooming.Equals("yes") ? true : false;
         DDLShopType.SelectedIndex = shopInfoEntityTemp.ShopInfoType.Equals(ShopType.PetShop.ToString()) ? 1 : 2;
         CHKBXGroomingService.Enabled = (DDLShopType.SelectedIndex == 1) ? true : false;
-
     }
     #endregion
-
     #region Dropdownlist Controls
     protected void DDLShopType_SelectedIndexChanged(object sender, EventArgs e)
     {
@@ -165,7 +147,6 @@ public partial class AdminShopInfoAdd : BasePage
         }
     }
     #endregion
-
     #region Logical Methods
     private bool checkRequiredFields()
     {
@@ -177,7 +158,6 @@ public partial class AdminShopInfoAdd : BasePage
             if (ctrl is DropDownList)
             {
                 UICtrlDropdownlist = (DropDownList)ctrl;
-
                 if (UICtrlDropdownlist.ID.ToLower().Contains("shoptype") && UICtrlDropdownlist.SelectedIndex == 0)
                 {
                     isUICtrlDropdownlistValid = false;
@@ -195,7 +175,6 @@ public partial class AdminShopInfoAdd : BasePage
                 }
             }
         }
-
         // return condition
         if (isUICtrlDropdownlistValid && isUICtrlTextboxValid)
         {
@@ -208,7 +187,6 @@ public partial class AdminShopInfoAdd : BasePage
             return false;
         }
     }
-
     private List<ShopTimeEntity> getShopTime()
     {
         shopTimeEntities = new List<ShopTimeEntity>();
@@ -250,7 +228,4 @@ public partial class AdminShopInfoAdd : BasePage
         return shopTimeEntities;
     }
     #endregion
-
-
-
 }

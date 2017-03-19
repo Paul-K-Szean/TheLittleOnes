@@ -9,20 +9,15 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
-
 public partial class AdminAdoptionInfoEdit : BasePage
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
     private CheckBox UICtrlCheckbox;
     private DropDownList UICtrlDropdownlist;
-
     private static int GVRowID;
     private static int gvPageSize = 5; // default
-
     private static DataTable dTableAdoptInfo;
-
     protected void Page_Load(object sender, EventArgs e)
     {
         Page.Form.Attributes.Add("enctype", "multipart/form-data");
@@ -30,7 +25,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
         GVAdoptInfoOverview.PageSize = gvPageSize;
         if (IsPostBack)
         {
-
         }
         else
         {
@@ -38,7 +32,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
             clearStaticData();
         }
     }
-
     #region Initialize UI Control Values
     // Initial UI control values
     private void initializeUIControlValues()
@@ -52,7 +45,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
         }
     }
     #endregion
-
     #region Button Control
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
@@ -60,11 +52,10 @@ public partial class AdminAdoptionInfoEdit : BasePage
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         MessageHandler.ClearMessage(LBLErrorMsg);
         // create temp files in temp foler
-        photoEntities = photoCtrler.saveToTempFolder(PhotoPurpose.Pet.ToString(), FileUpload1);
+        photoEntities = photoCtrler.saveToTempFolder(Enums.GetDescription(PhotoPurpose.Pet), FileUpload1);
         // preview photo
         photoCtrler.previewPhotos(photoPreview);
     }
-
     protected void BTNUpdate_Click(object sender, EventArgs e)
     {
         string shopInfoID = DDLShopInfo.SelectedValue;
@@ -82,31 +73,26 @@ public partial class AdminAdoptionInfoEdit : BasePage
         string petFriendlyWithPeople = DDLPetFriendlyWithPeople.SelectedValue.Trim();
         string petToiletTrained = DDLPetToiletTrain.SelectedValue.Trim();
         string petHealthInfo = TBPetHealthInfo.Text.Trim();
-
         if (checkRequiredFields())
         {
             // create entities with new changes
             petEntity = new PetEntity(petID, petBreed, petName, petGender, petWeight, petSize, petDesc, petEnergy, petFriendlyWithPet,
                 petFriendlyWithPeople, petToiletTrained, petHealthInfo, photoEntities);
-
             shopInfoEntity = shopInfoCtrler.getShopInfo(shopInfoID);
             adoptInfoEntity = new AdoptInfoEntity(shopInfoEntity, petEntity, adoptInfoID, adoptInfoStatus);
-
             // update into database
             adoptInfoEntity = adoptInfoCtrler.updateAdoptInfo(adoptInfoEntity);
             petEntity = petCtrler.updatePet(petEntity);
-
             // update photo
             if (photoEntities != null)
             {
                 // change photo path to database instead of using temp
                 petEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, petEntity.PetID);
                 // remove old photos from database
-                photoCtrler.deletePhoto(petEntity.PetID, PhotoPurpose.Pet.ToString());
+                photoCtrler.deletePhoto(petEntity.PetID, Enums.GetDescription(PhotoPurpose.Pet));
                 // create new photos into database
                 photoCtrler.createPhoto(photoEntities, petEntity.PetID);
             }
-
             if (petEntity != null)
             {
                 MessageHandler.SuccessMessage(LBLErrorMsg, "Adoption info successfully updated");
@@ -121,7 +107,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
             clearStaticData();
         }
     }
-
     protected void BTNCancel_Click(object sender, EventArgs e)
     {
         PNLAdoptInfoEdit.Visible = false;
@@ -130,7 +115,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
         LBLErrorMsg.Text = string.Empty;
     }
     #endregion
-
     #region Dropdownlist Control
     protected void DDLDisplayRecordCountAdoptInfo_SelectedIndexChanged(object sender, EventArgs e)
     {
@@ -150,20 +134,17 @@ public partial class AdminAdoptionInfoEdit : BasePage
         // Filter data
         filterAdoptionInfo();
     }
-
     protected void DDLFilterStatus_SelectedIndexChanged(object sender, EventArgs e)
     {
         // Filter data
         filterAdoptionInfo();
     }
-
     protected void DDLFilterGender_SelectedIndexChanged(object sender, EventArgs e)
     {
         // Filter data
         filterAdoptionInfo();
     }
     #endregion
-
     #region Gridview Control
     protected void GVAdoptInfoOverview_DataBound(object sender, EventArgs e)
     {
@@ -172,7 +153,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
             dTableAdoptInfo = ((DataView)SDSAdoptInfo.Select(DataSourceSelectArguments.Empty)).Table;
         updateEntryCount(dTableAdoptInfo, GVAdoptInfoOverview, LBLEntriesCount);
     }
-
     protected void GVAdoptInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -184,23 +164,19 @@ public partial class AdminAdoptionInfoEdit : BasePage
         LogController.LogLine("GVRowID: " + GVRowID);
         initializeUIControlValues();
         loadAdoptInfo(adoptInfoEntity);
-
     }
-
     protected void GVAdoptInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         highlightSelectedRow(GVAdoptInfoOverview);
         MessageHandler.ClearMessage(LBLErrorMsg);
     }
-
     protected void GVAdoptInfoOverview_PageIndexChanging(object sender, GridViewPageEventArgs e)
     {
         GVAdoptInfoOverview.PageIndex = e.NewPageIndex;
         filterAdoptionInfo();
     }
     #endregion Gridview Control
-
     #region Logical Methods
     // Check Required Fields
     private bool checkRequiredFields()
@@ -230,7 +206,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
                 }
             }
         }
-
         // return condition
         if (isUICtrlDropdownlistValid && isUICtrlTextboxValid)
         {
@@ -288,12 +263,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
         DDLPetFriendlyWithPeople.SelectedValue = petEntity.PetFriendlyWithPeople;
         DDLPetToiletTrain.SelectedValue = petEntity.PetToiletTrained;
         TBPetHealthInfo.Text = petEntity.PetHealthInfo;
-        // pet photo
-        // SDSPhoto.SelectCommand = string.Concat("SELECT * FROM PET INNER JOIN PHOTO ON PET.PETID = PHOTO.PHOTOOWNERID WHERE PET.PETID = ", petEntity.PetID, " AND PHOTO.PHOTOPURPOSE = ", PhotoPurpose.Pet.ToString());
-        // DLPhotoUploaded.DataBind();
-
     }
-
     // Filter data for adoption info
     private void filterAdoptionInfo()
     {
@@ -318,7 +288,6 @@ public partial class AdminAdoptionInfoEdit : BasePage
         photoPreview.InnerHtml = string.Empty;
     }
     #endregion
-
     #region Textbox control
     protected void TBSearchAdoptInfo_TextChanged(object sender, EventArgs e)
     {
@@ -326,5 +295,4 @@ public partial class AdminAdoptionInfoEdit : BasePage
         filterAdoptionInfo();
     }
     #endregion
-
 }

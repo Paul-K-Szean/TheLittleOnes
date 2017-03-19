@@ -7,25 +7,21 @@ using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
-
 public partial class MasterAdmin : MasterPage
 {
     // Entities
     private static AccountEntity accountEntity;
-
     // Controllers
     private AccountController accountCtrler;
     private ProfileController profileCtrler;
     private PetInfoController petInfoCtrler;
     private PhotoController photoCtrler;
-
     protected void Page_Load(object sender, EventArgs e)
     {
         // initialize controllers
         initializeControllers();
         // capture page control
         postBackControl();
-
     }
     // Manage page control
     private void postBackControl()
@@ -33,16 +29,13 @@ public partial class MasterAdmin : MasterPage
         string currentPage = HttpContext.Current.Request.Url.AbsoluteUri;
         if (IsPostBack)
         {
-
         }
         else
         {
-
         }
         loadAccountInfo();
         
     }
-
     private void loadAccountInfo()
     {
         accountEntity = BasePage.AccountEntity;
@@ -52,7 +45,6 @@ public partial class MasterAdmin : MasterPage
         }
         else
         {
-
         }
     }
     // Initialize controllers
@@ -109,8 +101,5 @@ public partial class MasterAdmin : MasterPage
                 }
                 break;
         }
-
     }
-
-
 }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace TheLittleOnesLibrary.Entities
 {
     public class ShopInfoEntity
@@ -18,10 +17,8 @@ namespace TheLittleOnesLibrary.Entities
         private bool shopCloseOnPublicHoliday;
         private List<ShopTimeEntity> shopTimeEntities;
         private List<PhotoEntity> photoEntities;
-
         // Create record
         public ShopInfoEntity() { }
-
         public ShopInfoEntity(string shopInfoName, string shopInfoContact, string shopInfoAddress, bool shopInfoGrooming, string shopInfoType, string shopInfoDesc, bool shopCloseOnPublicHoliday, List<ShopTimeEntity> shopTimeEntities, List<PhotoEntity> photoEntities)
         {
             this.ShopInfoName = shopInfoName;
@@ -34,7 +31,6 @@ namespace TheLittleOnesLibrary.Entities
             this.ShopTimeEntities = shopTimeEntities;
             this.PhotoEntities = photoEntities;
         }
-
         // Retrieve/Update record
         public ShopInfoEntity(string shopInfoID, string shopInfoName, string shopInfoContact, string shopInfoAddress, bool shopInfoGrooming, string shopInfoType, string shopInfoDesc, bool shopCloseOnPublicHoliday, List<ShopTimeEntity> shopTimeEntities, List<PhotoEntity> photoEntities)
         {
@@ -49,66 +45,56 @@ namespace TheLittleOnesLibrary.Entities
             this.ShopTimeEntities = shopTimeEntities;
             this.PhotoEntities = photoEntities;
         }
-
         public string ShopInfoID
         {
             get
             {
                 return shopInfoID;
             }
-
             set
             {
                 shopInfoID = value;
             }
         }
-
         public string ShopInfoName
         {
             get
             {
                 return shopInfoName;
             }
-
             set
             {
                 shopInfoName = value;
             }
         }
-
         public string ShopInfoContact
         {
             get
             {
                 return shopInfoContact;
             }
-
             set
             {
                 shopInfoContact = value;
             }
         }
-
         public string ShopInfoAddress
         {
             get
             {
                 return shopInfoAddress;
             }
-
             set
             {
                 shopInfoAddress = value;
             }
         }
-
         public bool ShopInfoGrooming
         {
             get
             {
                 return shopInfoGrooming;
             }
-
             set
             {
                 shopInfoGrooming = value;
@@ -120,65 +106,54 @@ namespace TheLittleOnesLibrary.Entities
             {
                 return shopInfoType;
             }
-
             set
             {
                 shopInfoType = value;
             }
         }
-
         public string ShopInfoDesc
         {
             get
             {
                 return shopInfoDesc;
             }
-
             set
             {
                 shopInfoDesc = value;
             }
         }
-
         public bool ShopCloseOnPublicHoliday
         {
             get
             {
                 return shopCloseOnPublicHoliday;
             }
-
             set
             {
                 shopCloseOnPublicHoliday = value;
             }
         }
-
         public List<ShopTimeEntity> ShopTimeEntities
         {
             get
             {
                 return shopTimeEntities;
             }
-
             set
             {
                 shopTimeEntities = value;
             }
         }
-
         public List<PhotoEntity> PhotoEntities
         {
             get
             {
                 return photoEntities;
             }
-
             set
             {
                 photoEntities = value;
             }
         }
-
-
     }
 }

@@ -9,31 +9,26 @@ using System.Threading.Tasks;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
-
 namespace TheLittleOnesLibrary.Controllers
 {
     public class PetController
     {
         private static PetController petCtrl;
-        
         public static PetController getInstance()
         {
             if (petCtrl == null)
                 petCtrl = new PetController();
             return petCtrl;
         }
-
         // Data Access Object
         private DAO dao;
         private OleDbCommand oleDbCommand;
         private DataSet dataSet;
-
         // Default Constructor
         public PetController()
         {
             dao = DAO.getInstance();
         }
-
         // Create Pet
         public PetEntity createPet(PetEntity petEntity)
         {
@@ -42,7 +37,6 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.CommandType = CommandType.Text;
                 oleDbCommand.CommandText = string.Concat("INSERT INTO PET (PETBREED,PETNAME,PETGENDER,PETWEIGHT, PETSIZE, PETDESC,PETENERGY,PETFRIENDLYWITHPET,PETFRIENDLYWITHPEOPLE,PETTOILETTRAINED,PETHEALTHINFO) ",
                                                          "VALUES (@PETBREED,@PETNAME,@PETGENDER,@PETWEIGHT,@PETSIZE,@PETDESC,@PETENERGY,@PETFRIENDLYWITHPET,@PETFRIENDLYWITHPEOPLE,@PETTOILETTRAINED,@PETHEALTHINFO);");
-
                 oleDbCommand.Parameters.AddWithValue("@PETBREED", petEntity.PetBreed);
                 oleDbCommand.Parameters.AddWithValue("@PETNAME", petEntity.PetName);
                 oleDbCommand.Parameters.AddWithValue("@PETGENDER", petEntity.PetGender);
@@ -66,14 +60,12 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Create Photo
         public PetEntity createPhoto(PetEntity petEntity)
         {
             petEntity.PhotoEntities = PhotoController.getInstance().createPhoto(petEntity.PhotoEntities, petEntity.PetID);
             return petEntity;
         }
-
         // Update Pet
         public PetEntity updatePet(PetEntity petEntity)
         {
@@ -109,15 +101,13 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         // Delete Photo
         public PetEntity deletePhoto(PetEntity petEntity)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            PhotoController.getInstance().deletePhoto(petEntity.PetID, PhotoPurpose.ShopInfo.ToString());
+            PhotoController.getInstance().deletePhoto(petEntity.PetID, Enums.GetDescription(PhotoPurpose.ShopInfo));
             return petEntity;
         }
-
         // Retrieve Pet
         public PetEntity getPet(string petID)
         {
@@ -127,7 +117,6 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.CommandText = string.Concat("SELECT * FROM PET WHERE PETID = @PETID");
                 oleDbCommand.Parameters.AddWithValue("@PETID", string.Concat(petID));
                 dataSet = dao.getRecord(oleDbCommand);
-
                 return new PetEntity(
                     dataSet.Tables[0].Rows[0][0].ToString(),
                     dataSet.Tables[0].Rows[0][1].ToString(),
@@ -141,15 +130,13 @@ namespace TheLittleOnesLibrary.Controllers
                     dataSet.Tables[0].Rows[0][9].ToString(),
                     dataSet.Tables[0].Rows[0][10].ToString(),
                     dataSet.Tables[0].Rows[0][11].ToString(),
-                 PhotoController.getInstance().getPhotoEntities(petID, PhotoPurpose.Pet.ToString()));
+                 PhotoController.getInstance().getPhotoEntities(petID, Enums.GetDescription(PhotoPurpose.Pet)));
             }
         }
-
         // Retrieve PetPhoto
         //public List<PhotoEntity> getPetPhoto(string petID)
         //{
         //    return PhotoController.getInstance().getPhotoEntities(petID);
         //}
-
     }
 }

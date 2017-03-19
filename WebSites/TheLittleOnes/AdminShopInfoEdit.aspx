@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterAdmin.master" AutoEventWireup="true" CodeFile="AdminShopInfoEdit.aspx.cs" Inherits="AdminShopInfoEdit" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHHeaderMasterAdmin" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHBodyMasterAdmin" runat="Server">
@@ -7,16 +6,14 @@
         <ul class="breadcrumb">
             <li>
                 <i class="ace-icon fa fa-home home-icon"></i>
-                <a href="#">Home</a>
+                <a href="AdminDashboard.aspx">Home</a>
             </li>
-
             <li>
                 <a href="#">Shop Info</a>
             </li>
             <li class="active">Settings</li>
         </ul>
         <!-- /.breadcrumb -->
-
         <div class="nav-search" id="nav-search">
             <div class="form-search">
                 <span class="input-icon">
@@ -32,7 +29,6 @@
             <div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
                 <i class="ace-icon fa fa-cog bigger-130"></i>
             </div>
-
             <div class="ace-settings-box clearfix" id="ace-settings-box">
                 <div class="pull-left width-50">
                     <div class="ace-settings-item">
@@ -54,27 +50,22 @@
                         </div>
                         <span>&nbsp; Choose Skin</span>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-navbar" autocomplete="off">
                         <label class="lbl" for="ace-settings-navbar">Fixed Navbar</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-sidebar" autocomplete="off">
                         <label class="lbl" for="ace-settings-sidebar">Fixed Sidebar</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-breadcrumbs" autocomplete="off">
                         <label class="lbl" for="ace-settings-breadcrumbs">Fixed Breadcrumbs</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" autocomplete="off">
                         <label class="lbl" for="ace-settings-rtl">Right To Left (rtl)</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-add-container" autocomplete="off">
                         <label class="lbl" for="ace-settings-add-container">
@@ -84,18 +75,15 @@
                     </div>
                 </div>
                 <!-- /.pull-left -->
-
                 <div class="pull-left width-50">
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover" autocomplete="off">
                         <label class="lbl" for="ace-settings-hover">Submenu on Hover</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact" autocomplete="off">
                         <label class="lbl" for="ace-settings-compact">Compact Sidebar</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight" autocomplete="off">
                         <label class="lbl" for="ace-settings-highlight">Alt. Active Item</label>
@@ -106,7 +94,6 @@
             <!-- /.ace-settings-box -->
         </div>
         <!-- /.ace-settings-container -->
-
         <div class="page-header">
             <h1>Settings
 								<small>
@@ -147,10 +134,8 @@
                                             <span class="block input-icon input-icon-right  toolbar">
                                                 <asp:CheckBox ID="CHKBXFilterPetShop" runat="server" CssClass="checkbox-inline" Text="Shop"
                                                     AutoPostBack="true" OnCheckedChanged="CHKBXFilterShop_CheckedChanged" />
-
                                                 <asp:CheckBox ID="CHKBXFilterPetClinic" runat="server" CssClass="checkbox-inline" Text="Clinic"
                                                     AutoPostBack="true" OnCheckedChanged="CHKBXFilterClinic_CheckedChanged" />
-
                                                 <asp:CheckBox ID="CHKBXFilterGrooming" runat="server" CssClass="checkbox-inline" Text="Grooming"
                                                     AutoPostBack="true" OnCheckedChanged="CHKBXFilterGrooming_CheckedChanged" />
                                             </span>
@@ -198,7 +183,6 @@
                                 <asp:Label ID="LBLErrorMsg" runat="server" Text="" Font-Size="Medium"></asp:Label>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <!-- /.row -->
@@ -209,7 +193,6 @@
                         <!-- PAGE CONTENT BEGINS -->
                         <div class="form-horizontal">
                             <asp:Panel ID="PNLShopInfoEdit" runat="server" Visible="false">
-
                                 <%--action buttons--%>
                                 <div class="row">
                                     <div class="col-xs-12 ">
@@ -221,7 +204,6 @@
                                 </div>
                                 <!-- /.row -->
                                 <div class="space-6"></div>
-
                                 <div class="row">
                                     <%--basic info--%>
                                     <div class="col-md-5">
@@ -229,7 +211,6 @@
                                             <div class="widget-header">
                                                 <h4 class="widget-title">Basic Info</h4>
                                             </div>
-
                                             <div class="widget-body">
                                                 <div class="widget-main">
                                                     <div>
@@ -274,7 +255,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                     <%--operating Hours--%>
                                     <div class="col-md-4">
@@ -282,11 +262,9 @@
                                             <div class="widget-header">
                                                 <h4 class="widget-title">Operating Hours</h4>
                                             </div>
-
                                             <div class="widget-body">
                                                 <div class="widget-main">
                                                     <asp:Label ID="Label1" runat="server" Text="Operating Hours" Font-Bold="True"></asp:Label>
-
                                                     <div class="form-inline">
                                                         <asp:CheckBox ID="CHKBXCloseMonday" runat="server" CssClass=" checkbox-inline " Text="Close" />
                                                         <asp:Label ID="LBLMonday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Monday @"></asp:Label>
@@ -398,10 +376,8 @@
                                             <div class="widget-header">
                                                 <h4 class="widget-title">Current Photo(s)</h4>
                                             </div>
-
                                             <div class="widget-body">
                                                 <div class="widget-main">
-
                                                     <hr />
                                                     <div class="center">
                                                         <div>
@@ -425,7 +401,6 @@
                                             <div class="widget-header">
                                                 <h4 class="widget-title">Photos</h4>
                                             </div>
-
                                             <div class="widget-body">
                                                 <div class="widget-main">
                                                     <div>
@@ -447,9 +422,6 @@
                     <!-- PAGE CONTENT ENDS -->
                 </div>
                 <!-- /.col -->
-
-
-
                 <%--SQLDataSource--%>
                 <asp:SqlDataSource ID="SDSShopInfo" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
@@ -471,4 +443,3 @@
     </div>
     <!-- /.page-content -->
 </asp:Content>
-

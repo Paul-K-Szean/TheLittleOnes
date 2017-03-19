@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.Controllers;
-
 namespace TheLittleOnesLibrary.Handler
 {
     public class MessageHandler
@@ -38,7 +37,6 @@ namespace TheLittleOnesLibrary.Handler
             label.ForeColor = Utility.getErrorColor();
             LogController.LogLine(string.Concat("MessageHandler : ", message, ". Please contact admin"));
         }
-
         public static void ClearMessage(Label label)
         {
             label.Text = string.Empty;
@@ -49,6 +47,5 @@ namespace TheLittleOnesLibrary.Handler
             textbox.Text = string.Empty;
             textbox.ForeColor = Utility.getDefaultColor();
         }
-
     }
 }

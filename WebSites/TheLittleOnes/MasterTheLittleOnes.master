@@ -1,5 +1,4 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterTheLittleOnes.master.cs" Inherits="MasterTheLittleOnes" %>
-
 <!DOCTYPE html>
 <!--
 Credit Note    
@@ -8,7 +7,6 @@ Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/ -->
-
 <html>
 <head runat="server">
     <title>TheLittleOnes</title>
@@ -31,8 +29,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
     <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet">
     <%--bootstrap datepicker--%>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" rel="stylesheet">
-
-
     <asp:ContentPlaceHolder ID="CPHTLOHead" runat="server">
     </asp:ContentPlaceHolder>
     <!-- font -->
@@ -40,9 +36,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300" rel="stylesheet" type="text/css">
     <%--Group G5 Style--%>
     <link href="assetsG5/G5Style.css" rel="stylesheet" />
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
@@ -53,7 +46,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
     <%--SOURCE: https://github.com/viljamis/ResponsiveSlides.js/blob/master/responsiveslides.min.js--%>
     <script src="assetsTheLittleOnes/js/responsiveslides.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js"></script>
-
 </head>
 <body>
     <form id="form1" runat="server">
@@ -65,7 +57,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                 </div>
             </ProgressTemplate>
         </asp:UpdateProgress>
-
         <!--Modal box-->
         <div class="modal fade padding0" id="login" runat="server">
             <div class="modal-dialog modal-md">
@@ -125,13 +116,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <!--/ Modal box-->
-
-
-
         <div class="header">
             <div class="container">
                 <div class="header-left">
@@ -158,15 +145,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                     <li><a href="Adoption.aspx">Adoption</a></li>
                                     <li><a href="Breed.aspx">Breed Info</a></li>
                                     <li><a href="Clinic.aspx">Clinic Outlets</a></li>
-
                                     <li class="">
                                         <asp:HyperLink ID="HYPLKAccountInfo" runat="server" CssClass="dropdown-toggle hvr-bounce-to-bottom "
                                             data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                           
                                         </asp:HyperLink>
-
                                         <ul class="dropdown-menu">
                                             <li><a class="hvr-bounce-to-bottom" href="icons.html">Account Settings</a></li>
+                                            <li><a class="hvr-bounce-to-bottom" href="AppointmentDetails.aspx">Appointment</a></li>
                                             <li>
                                                 <asp:LinkButton ID="LKBTNSignOut" runat="server" CssClass="hvr-bounce-to-bottom" OnClick="LKBTNSignOut_Click" Text="Sign Out"></asp:LinkButton>
                                             </li>
@@ -250,9 +236,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
             <!-- //copyright -->
         </div>
     </form>
-
-
-
     <%--Scroll to Top--%>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
@@ -262,7 +245,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
             });
         });
     </script>
-
     <!--scrolling icon starts here-->
     <script type="text/javascript">
         $(document).ready(function () {
@@ -299,6 +281,5 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
     </script>
     <!--banner Slider ends Here-->
  
-
 </body>
 </html>

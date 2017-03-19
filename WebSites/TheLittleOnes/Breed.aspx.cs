@@ -8,23 +8,18 @@ using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
-
 public partial class Breed : BasePageTLO
 {
     private static string petinfoID;
     private string viewPetinfoID;
-
     protected void Page_Load(object sender, EventArgs e)
     {
-
     }
-
     protected void DLPetInfo_ItemDataBound(object sender, DataListItemEventArgs e)
     {
         HyperLink HYPLKPetInfo = e.Item.FindControl("HYPLKPetInfo") as HyperLink;
         Image image = e.Item.FindControl("imgBreedPhoto") as Image;
         DataRowView dataRowView = e.Item.DataItem as DataRowView;
-
         if (dataRowView != null)
         {
             petinfoID = dataRowView.Row["petinfoid"].ToString();
@@ -39,6 +34,4 @@ public partial class Breed : BasePageTLO
             }
         }
     }
-
-
 }

@@ -12,10 +12,8 @@ using TheLittleOnesLibrary.Handler;
 using System.IO;
 using System.Data;
 using TheLittleOnesLibrary.EnumFolder;
-
 namespace TheLittleOnesLibrary
 {
-
     public class BasePage : Page
     {
         // Entities for current logged in user
@@ -26,20 +24,17 @@ namespace TheLittleOnesLibrary
         protected static PetEntity petEntity;
         protected static ShopInfoEntity shopInfoEntity;
         protected static ShopTimeEntity shopTimeEntity;
-
         protected static List<ShopTimeEntity> shopTimeEntities;
         protected static AdoptInfoEntity adoptInfoEntity;
         protected static List<AdoptInfoEntity> adoptInfoEntites;
         protected static PhotoEntity photoEntity;
         protected static List<PhotoEntity> photoEntities;
-
         // Entities for system account editing
         protected static AccountEntity editAccountEntity;
         protected static ProfileEntity editProfileEntity;
         protected static List<PhotoEntity> editPhotoEntities;
         protected static ShopInfoEntity editShopInfoEntity;
         protected static List<ShopTimeEntity> editShopTimeEntities;
-
         // Controllers
         protected AccountController accountCtrler;
         protected ProfileController profileCtrler;
@@ -50,9 +45,7 @@ namespace TheLittleOnesLibrary
         protected PetController petCtrler;
         // Data Access Object
         protected DAO dao;
-
         public static AccountEntity AccountEntity { get => accountEntity; set => accountEntity = value; }
-
         // Default Contsructor
         public BasePage()
         {
@@ -62,7 +55,6 @@ namespace TheLittleOnesLibrary
             initializeFolders();
             // capture page control
             postBackControl();
-
         }
         // Manage page control
         protected void postBackControl()
@@ -76,7 +68,6 @@ namespace TheLittleOnesLibrary
             {
                 LogController.LogLine("Page loaded: " + currentPage);
             }
-
             // redirect to login page, except for login page
             if (currentPage.Contains("adminlogin"))
             {
@@ -96,8 +87,6 @@ namespace TheLittleOnesLibrary
                     accountAccessControl(AccountEntity, currentPage);
                 }
             }
-
-
         }
         // Validate access control for logged in user
         protected void accountAccessControl(AccountEntity accountEntity, string currentPage)
@@ -127,7 +116,6 @@ namespace TheLittleOnesLibrary
                     }
                     break;
             }
-
         }
         // Initialize folders
         protected void initializeFolders()
@@ -143,7 +131,6 @@ namespace TheLittleOnesLibrary
                 // dont exists - create path
                 Directory.CreateDirectory(Server.MapPath(filePath_UploadFolderTemp));
             }
-
             // check for database folders path
             if (!isfilePath_UploadFolderTempExists)
             {
@@ -207,7 +194,6 @@ namespace TheLittleOnesLibrary
                         // odd rows
                         row.BackColor = Utility.getColorLightGray();
                     }
-
                 }
             }
         }
@@ -218,10 +204,8 @@ namespace TheLittleOnesLibrary
             int currentPageIndex = gridview.PageIndex * gridview.PageSize + 1;
             int pageSize = gridview.PageSize * (gridview.PageIndex + 1);
             int rowSize = gridview.Rows.Count;
-
             if (pageSize > totalSize)
                 pageSize = totalSize;
-
             if (rowSize == 0)
             {
                 currentPageIndex = rowSize;
@@ -231,7 +215,6 @@ namespace TheLittleOnesLibrary
             {
                 LBLEntriesCount.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
             }
-
         }
         // Clear control value
         protected void clearUIControlValues(ControlCollection pageControls)
@@ -246,7 +229,6 @@ namespace TheLittleOnesLibrary
                         textbox = (TextBox)ctrl;
                         textbox.Text = string.Empty;
                     }
-
                 }
                 if (ctrl is DropDownList)
                 {
@@ -254,7 +236,6 @@ namespace TheLittleOnesLibrary
                         dropdownlist = (DropDownList)ctrl;
                         dropdownlist.SelectedIndex = 0;
                     }
-
                 }
             }
         }

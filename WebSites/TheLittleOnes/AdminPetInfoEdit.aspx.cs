@@ -14,13 +14,11 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
 using TheLittleOnesLibrary.EnumFolder;
-
 public partial class AdminPetInfoEdit : BasePage
 {
     private TextBox UICtrlTextbox;
     private DropDownList UICtrlDropdownlist;
     private UpdatePanel UICtrlUpdatePanel;
-
     // temp variables
     private static FileUpload fileupload;
     private static HtmlGenericControl photoPreview;
@@ -29,7 +27,6 @@ public partial class AdminPetInfoEdit : BasePage
     private static DataTable dTableEdit;
     private static DataTable dTablePetInfo;
     private static DataListItemEventArgs events;
-
     // input variables
     private string petInfoID;
     private string charID;
@@ -44,11 +41,8 @@ public partial class AdminPetInfoEdit : BasePage
     private string desc;
     private string personality;
     private string displayStatus;
-
     private string charOverallAdaptability;
-
     private static int gvPageSize = 5; // default
-
     // Page load
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -66,7 +60,6 @@ public partial class AdminPetInfoEdit : BasePage
             clearStaticData();
         }
     }
-
     #region Button Clicks
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
@@ -79,7 +72,6 @@ public partial class AdminPetInfoEdit : BasePage
         photoCtrler.previewPhotos(photoPreview);
     }
     #endregion
-
     #region Datalist Controls - Update, Cancel Commands
     protected void DLPetInfoDetails_ItemCreated(object sender, DataListItemEventArgs e)
     {
@@ -89,7 +81,6 @@ public partial class AdminPetInfoEdit : BasePage
         {
             ScriptManager mgr = ScriptManager.GetCurrent(this.Page);
             mgr.RegisterPostBackControl(BTNPreview);
-
         }
         Control FUL = e.Item.FindControl("FileUpload1");
         if (FUL != null)
@@ -102,11 +93,9 @@ public partial class AdminPetInfoEdit : BasePage
             photoPreview = (HtmlGenericControl)divPhotoPreview;
         }
     }
-
     protected void DLPetInfoDetails_ItemDataBound(object sender, DataListItemEventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-
         if (e.Item.ItemType == ListItemType.EditItem)
         {
             events = e;
@@ -118,10 +107,8 @@ public partial class AdminPetInfoEdit : BasePage
         {
             events = e;
             DLPetInfoDetails.EditItemIndex = -1;
-
         }
     }
-
     protected void DLPetInfoDetails_EditCommand(object source, DataListCommandEventArgs e)
     {
         LogController.LogLine("DLPetInfoDetails_EditCommand");
@@ -132,9 +119,7 @@ public partial class AdminPetInfoEdit : BasePage
         }
         DLPetInfoDetails.EditItemIndex = e.Item.ItemIndex;
         DLPetInfoDetails.DataBind();
-
     }
-
     protected void DLPetInfoDetails_UpdateCommand(object source, DataListCommandEventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -152,7 +137,6 @@ public partial class AdminPetInfoEdit : BasePage
         desc = ((TextBox)e.Item.FindControl("TBDesc")).Text.Trim();
         personality = ((TextBox)e.Item.FindControl("TBPersonality")).Text.Trim();
         displayStatus = ((DropDownList)e.Item.FindControl("DDLStatus")).SelectedValue.Trim();
-
         // create object to update
         petInfoEntity = new PetInfoEntity(petInfoID, category, breed, lifeSpanMin, heightMin, weightMin, lifeSpanMax, heightMax, weightMax, desc, personality, displayStatus,
             petCharEntity, photoEntities);
@@ -177,7 +161,6 @@ public partial class AdminPetInfoEdit : BasePage
             MessageHandler.SuccessMessage(LBLErrorMsg, "Pet info successfully updated");
         else
             MessageHandler.SuccessMessage(LBLErrorMsg, "Pet info was not successfully updated");
-
         // disable the edit mode
         DLPetInfoDetails.EditItemIndex = -1;
         // update displays
@@ -187,7 +170,6 @@ public partial class AdminPetInfoEdit : BasePage
         // clear static data
         clearStaticData();
     }
-
     protected void DLPetInfoDetails_CancelCommand(object source, DataListCommandEventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -203,7 +185,6 @@ public partial class AdminPetInfoEdit : BasePage
         clearStaticData();
     }
     #endregion
-
     #region Dropdownlist Controls
     protected void DDLDisplayRecordCount_SelectedIndexChanged(object sender, EventArgs e)
     {
@@ -231,108 +212,87 @@ public partial class AdminPetInfoEdit : BasePage
             }
         }
     }
-
     protected void DDLCharAdaptToSurrounding_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharAdaptToNovice_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharAdaptToLoneliness_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharAdaptToCold_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharAdaptToHot_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharFriendWithFamily_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharFriendWithKids_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharFriendWithStrangers_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharFriendWithOtherPet_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharGroomLevel_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharGroomShedding_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharGroomDrooling_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharTrainLevel_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharTrainIntelligence_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharTrainMouthiness_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharTrainPreyDrive_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharTrainBarkHowl_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharExerciseEnergyLevel_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharExerciseNeeds_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
-
     protected void DDLCharExercisePlayfullness_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name); getEditedValues_Characteristics(sender);
     }
     #endregion
-
     #region Gridview Controls
     protected void GVPetInfoOverview_DataBound(object sender, EventArgs e)
     {
@@ -341,7 +301,6 @@ public partial class AdminPetInfoEdit : BasePage
             dTablePetInfo = ((DataView)SDSPetInfo.Select(DataSourceSelectArguments.Empty)).Table;
         updateEntryCount(dTablePetInfo, GVPetInfoOverview, LBLEntriesCount);
     }
-
     protected void GVPetInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -356,7 +315,6 @@ public partial class AdminPetInfoEdit : BasePage
         DLPetInfoDetails.DataBind();
     }
     #endregion
-
     #region Logical Methods
     // get characteristic new values 
     protected void getEditedValues_Characteristics(object sender)
@@ -375,7 +333,6 @@ public partial class AdminPetInfoEdit : BasePage
                     dTableEdit = dTableOld;
                 }
             }
-
             // get the new value of the drop down list
             foreach (Control ctrl in events.Item.Controls)
             {
@@ -401,7 +358,6 @@ public partial class AdminPetInfoEdit : BasePage
                     }
                 }
             }
-
             // calculate the overall rating
             calculateOverallRating(dTableEdit);
             // reset the data to preview current changes
@@ -415,7 +371,6 @@ public partial class AdminPetInfoEdit : BasePage
             Response.Redirect("AadminPetInfoEdit.aspx");
         }
     }
-
     // tabulate overall rating
     protected void calculateOverallRating(DataTable dTableEdit)
     {
@@ -430,7 +385,6 @@ public partial class AdminPetInfoEdit : BasePage
         List<double> listGroomingScore = new List<double>();
         List<double> listTrainabilityScore = new List<double>();
         List<double> listExerciseScore = new List<double>();
-
         // loop through all drop down list and store the value to the corresponding list<double>
         foreach (Control ctrl in events.Item.Controls)
         {
@@ -465,14 +419,12 @@ public partial class AdminPetInfoEdit : BasePage
                 }
             }
         }
-
         // calculate overall score for each characteristic
         listOverallScore.Add(Math.Round((totalScoreAdaptability / 5), 2));
         listOverallScore.Add(Math.Round((totalScoreFriendliness / 4), 2));
         listOverallScore.Add(Math.Round((totalScoreGrooming / 3), 2));
         listOverallScore.Add(Math.Round((totalScoreTrainability / 5), 2));
         listOverallScore.Add(Math.Round((totalScoreExercise / 3), 2));
-
         // convert new changes into object
         charID = ((TextBox)events.Item.FindControl("TBCharID")).Text.Trim();
         petCharEntity = new PetCharEntity(charID,
@@ -482,7 +434,6 @@ public partial class AdminPetInfoEdit : BasePage
               listGroomingScore[0].ToString(), listGroomingScore[1].ToString(), listGroomingScore[2].ToString(),
                listTrainabilityScore[0].ToString(), listTrainabilityScore[1].ToString(), listTrainabilityScore[2].ToString(), listTrainabilityScore[3].ToString(), listTrainabilityScore[4].ToString(),
                 listExerciseScore[0].ToString(), listExerciseScore[1].ToString(), listExerciseScore[2].ToString());
-
         // preview the new rating for each characteristic
         if (dTableEdit != null)
         {
@@ -514,9 +465,7 @@ public partial class AdminPetInfoEdit : BasePage
                 }
             }
         }
-
     }
-
     // Update search result label
     private void loadLabelSearchResult()
     {
@@ -525,7 +474,6 @@ public partial class AdminPetInfoEdit : BasePage
             MessageHandler.DefaultMessage(LBLSearchResult, string.Concat("Result for \"", TBSearchPetInfo.Text.Trim(), "\""));
         }
     }
-
     // Clear static data
     private void clearStaticData()
     {
@@ -537,9 +485,4 @@ public partial class AdminPetInfoEdit : BasePage
         // photoPreview.InnerHtml = string.Empty;
     }
     #endregion
-
-
-
-
-
 }

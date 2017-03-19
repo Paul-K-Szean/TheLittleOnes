@@ -1,8 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterAdmin.master" AutoEventWireup="true" CodeFile="AdminPetInfoEdit.aspx.cs" Inherits="AdminPetInfoEdit" %>
-
 <%@ Register Assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
     Namespace="System.Web.UI.DataVisualization.Charting" TagPrefix="asp" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHHeaderMasterAdmin" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHBodyMasterAdmin" runat="Server">
@@ -10,16 +8,14 @@
         <ul class="breadcrumb">
             <li>
                 <i class="ace-icon fa fa-home home-icon"></i>
-                <a href="#">Home</a>
+                <a href="AdminDashboard.aspx">Home</a>
             </li>
-
             <li>
                 <a href="#">Pet Info</a>
             </li>
             <li class="active">Settings</li>
         </ul>
         <!-- /.breadcrumb -->
-
         <div class="nav-search" id="nav-search">
             <div class="form-search">
                 <span class="input-icon">
@@ -35,7 +31,6 @@
             <div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
                 <i class="ace-icon fa fa-cog bigger-130"></i>
             </div>
-
             <div class="ace-settings-box clearfix" id="ace-settings-box">
                 <div class="pull-left width-50">
                     <div class="ace-settings-item">
@@ -57,27 +52,22 @@
                         </div>
                         <span>&nbsp; Choose Skin</span>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-navbar" autocomplete="off">
                         <label class="lbl" for="ace-settings-navbar">Fixed Navbar</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-sidebar" autocomplete="off">
                         <label class="lbl" for="ace-settings-sidebar">Fixed Sidebar</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-breadcrumbs" autocomplete="off">
                         <label class="lbl" for="ace-settings-breadcrumbs">Fixed Breadcrumbs</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" autocomplete="off">
                         <label class="lbl" for="ace-settings-rtl">Right To Left (rtl)</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-add-container" autocomplete="off">
                         <label class="lbl" for="ace-settings-add-container">
@@ -87,18 +77,15 @@
                     </div>
                 </div>
                 <!-- /.pull-left -->
-
                 <div class="pull-left width-50">
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover" autocomplete="off">
                         <label class="lbl" for="ace-settings-hover">Submenu on Hover</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact" autocomplete="off">
                         <label class="lbl" for="ace-settings-compact">Compact Sidebar</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight" autocomplete="off">
                         <label class="lbl" for="ace-settings-highlight">Alt. Active Item</label>
@@ -109,7 +96,6 @@
             <!-- /.ace-settings-box -->
         </div>
         <!-- /.ace-settings-container -->
-
         <div class="page-header">
             <h1>Settings
 								<small>
@@ -129,7 +115,6 @@
                             <div class="col-xs-12">
                                 <div class="table-header">
                                     <asp:Label ID="LBLSearchResult" runat="server" Text="Records for Pet info"></asp:Label>
-
                                     <asp:Label ID="LBLEntriesCount" runat="server" CssClass="pull-right"></asp:Label>
                                 </div>
                                 <!-- div.table-responsive -->
@@ -151,7 +136,6 @@
                                             </div>
                                             <div class="col-xs-6">
                                                 <div id="dynamic-table_filter" class="dataTables_filter">
-
                                                     <label class="block clearfix">
                                                         <span class="block input-icon input-icon-right">Search:         
                                                     <asp:TextBox ID="TBSearchPetInfo" runat="server" CssClass="form-control  input-sm" placeholder="EG: silky terrier" AutoPostBack="true"></asp:TextBox>
@@ -200,8 +184,6 @@
                     <!-- /.col -->
                 </div>
                 <!-- /.row -->
-
-
                 <%--Datalist--%>
                 <asp:DataList ID="DLPetInfoDetails" runat="server" DataKeyField="petInfoID" DataSourceID="SDSPetChar" Width="100%"
                     OnItemCreated="DLPetInfoDetails_ItemCreated"
@@ -219,7 +201,6 @@
                             </div>
                         </div>
                         <!-- /.row -->
-
                         <%--basic info--%>
                         <div class="row">
                             <div class="col-xs-12">
@@ -346,7 +327,6 @@
                                                 <div class="widget-header">
                                                     <h4 class="widget-title">Photos</h4>
                                                 </div>
-
                                                 <div class="widget-body">
                                                     <div class="widget-main">
                                                         <div>
@@ -767,15 +747,12 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="space-6"></div>
                                 </div>
                             </div>
                             <!-- /.col -->
                         </div>
                         <!-- /.row -->
-
-
                     </EditItemTemplate>
                     <ItemTemplate>
                         <div class="row">
@@ -803,42 +780,36 @@
                                                         <asp:Label ID="Label22" runat="server" Text='<%# Eval("petInfoID") %>' />
                                                     </div>
                                                 </div>
-
                                                 <div class="profile-info-row">
                                                     <div class="profile-info-name">Category </div>
                                                     <div class="profile-info-value">
                                                         <asp:Label ID="Label25" runat="server" Text='<%# Eval("petInfoCategory") %>' />
                                                     </div>
                                                 </div>
-
                                                 <div class="profile-info-row">
                                                     <div class="profile-info-name">Breed </div>
                                                     <div class="profile-info-value">
                                                         <asp:Label ID="petInfoIDLabel" runat="server" Text='<%# Eval("petInfoBreed") %>' />
                                                     </div>
                                                 </div>
-
                                                 <div class="profile-info-row">
                                                     <div class="profile-info-name">Life Span </div>
                                                     <div class="profile-info-value">
                                                         <asp:Label ID="Label26" runat="server" Text='<%# Eval("petInfoLifeSpanMin") + " to " + Eval("petInfoLifeSpanMax") + " years"  %>' />
                                                     </div>
                                                 </div>
-
                                                 <div class="profile-info-row">
                                                     <div class="profile-info-name">Heigh </div>
                                                     <div class="profile-info-value">
                                                         <asp:Label ID="Label27" runat="server" Text='<%# Eval("petInfoHeightMin") + " to " + Eval("petInfoHeightMax") + " cm tall from shoulder"  %>' />
                                                     </div>
                                                 </div>
-
                                                 <div class="profile-info-row">
                                                     <div class="profile-info-name">Weight </div>
                                                     <div class="profile-info-value">
                                                         <asp:Label ID="Label28" runat="server" Text='<%# Eval("petInfoWeightMin") + " to " + Eval("petInfoWeightMax") + " kg(s)"  %>' />
                                                     </div>
                                                 </div>
-
                                                 <div class="profile-info-row">
                                                     <div class="profile-info-name">Desciption</div>
                                                     <div class="profile-info-value">
@@ -853,7 +824,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <%--PHOTOS--%>
                                         <div class="col-xs-12 col-sm-8">
                                             <div class="center">
@@ -870,7 +840,6 @@
                                                     <div class="space-4"></div>
                                                 </div>
                                             </div>
-
                                             <div class="hr dotted"></div>
                                             <%--Adaptability--%>
                                             <div class="clearfix">
@@ -1112,7 +1081,6 @@
                                                 </div>
                                             </div>
                                             <div class="hr dotted"></div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -1123,8 +1091,6 @@
                         <!-- /.row -->
                     </ItemTemplate>
                 </asp:DataList>
-
-
                 <%--SQLDataSource--%>
                 <asp:SqlDataSource ID="SDSPetInfo" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
@@ -1152,10 +1118,7 @@
                     </SelectParameters>
                 </asp:SqlDataSource>
             </ContentTemplate>
-
         </asp:UpdatePanel>
     </div>
     <!-- /.page-content -->
-
 </asp:Content>
-

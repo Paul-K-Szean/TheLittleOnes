@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Threading;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
@@ -22,12 +23,12 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     private static string daySelected;
     private static string dateSelected;
     private static string timeSelected;
+
     protected void Page_Load(object sender, EventArgs e)
     {
         TLOAccountEntity = accountCtrler.getLoggedInAccount();
         if (IsPostBack)
         {
-
             if (string.IsNullOrEmpty(INPUTAppmtDate.Value) || string.IsNullOrEmpty(DDLAppmtTime.SelectedValue))
             {
                 // no input selected
@@ -61,16 +62,6 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
             {
                 loadAdoptionInfo();
             }
-            if (TLOAdoptionAppointmentEntity != null && TLOAccountEntity != null)
-            {
-                dateSelected = INPUTAppmtDate.Value = TLOAdoptionAppointmentEntity.AppmtDateTime.ToString("dd-MMMM-yyyy");
-                loadOperatingHours();
-                timeSelected = DDLAppmtTime.SelectedValue = TLOAdoptionAppointmentEntity.AppmtDateTime.ToString("HH:mm tt");
-            }
-            else
-            {
-                TLOAdoptionAppointmentEntity = null;
-            }
         }
     }
     #region Button Clicks
@@ -85,7 +76,20 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
             MessageHandler.ClearMessage(TBLoginEmail);
             MessageHandler.ClearMessage(TBLoginPassword);
             MessageHandler.ClearMessage(LBLErrorMsg);
-            MessageHandler.SuccessMessage(LBLErrorMsg, " check for availability");
+            if (TLOAdoptRequestEntity != null && TLOAccountEntity != null)
+            {
+                TLOAdoptRequestEntity.AccountEntity = TLOAccountEntity;
+                TLOAdoptRequestEntity = adoptInfoCtrler.createAdoptRequest(TLOAdoptRequestEntity);
+                if (!string.IsNullOrEmpty(TLOAdoptRequestEntity.AdoptReqID))
+                {
+                    MessageHandler.SuccessMessage(LBLErrorMsg, "Request created");
+                    Response.Redirect(string.Concat(getCurrentWebPage(), "?adoptinfoid=", adoptInfoID));
+                }
+                else
+                {
+                    MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Unable to make request.");
+                }
+            }// else just started, TODO: what to do 
         }
         else
         {
@@ -105,6 +109,9 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     protected void DLAdoptInfo_ItemDataBound(object sender, DataListItemEventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        Label LBLTotalRequest = e.Item.FindControl("LBLTotalRequest") as Label;
+        LBLTotalRequest.Text = string.Concat("Total Request: ", adoptInfoCtrler.getAllAdoptRequestEntities(adoptInfoID).Count.ToString());
+        checkAdoptionDetails();
     }
     protected void DLMorePet_ItemDataBound(object sender, DataListItemEventArgs e)
     {
@@ -154,9 +161,8 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
                     break;
                 }
             }
-            // UI display
+            // Enale drop down list to select time
             DDLAppmtTime.Enabled = isOperating;
-            BTNAdoptMe.Enabled = isOperating;
             if (isOperating)
             {
                 MessageHandler.DefaultMessage(LBLAppmtTime, "Appointment Time");
@@ -167,9 +173,20 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
                 DDLAppmtTime.Items.Add(firstItem);
                 DDLAppmtTime.DataSource = Utility.getTimeInterval(shopTimeEntitySelected.OpenTime, shopTimeEntitySelected.CloseTime);
                 DDLAppmtTime.DataBind();
+                List<AdoptRequestEntity> adoptRequestEntities = adoptInfoCtrler.getAllAdoptRequestEntities(adoptInfoID);
+                foreach (AdoptRequestEntity adopRequestEntity in adoptRequestEntities)
+                {
+                    ListItem item;
+                    if (daySelected.ToLower().Equals(adopRequestEntity.AdoptReqDateTime.DayOfWeek.ToString().ToLower()))
+                    {
+                        item = DDLAppmtTime.Items.FindByValue(adopRequestEntity.AdoptReqDateTime.ToString("HH:mm tt"));
+                        if (item != null) { DDLAppmtTime.Items.Remove(item); }
+                    }
+                }
             }
             else
             {
+                Thread.Sleep(1000);
                 MessageHandler.ErrorMessage(LBLAppmtTime, "Appointment Time - Not open on selected date");
                 MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date"));
             }
@@ -184,15 +201,61 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
         if (!string.IsNullOrEmpty(dateSelected) && !string.IsNullOrEmpty(timeSelected))
         {
             dateTimeSelected = DateTime.Parse(dateSelected + " " + timeSelected);
-            TLOAdoptionAppointmentEntity = new AdoptionAppointmentEntity(TLOAccountEntity, viewAdoptinfoEntity, dateTimeSelected);
+            TLOAdoptRequestEntity = new AdoptRequestEntity(TLOAccountEntity, viewAdoptinfoEntity, dateTimeSelected, DateTime.Now, SystemStatus.Pending.ToString());
         }
         else if (!string.IsNullOrEmpty(dateSelected))
         {
             dateTimeSelected = DateTime.Parse(dateSelected + " 00:00 AM");
-            TLOAdoptionAppointmentEntity = new AdoptionAppointmentEntity(TLOAccountEntity, viewAdoptinfoEntity, dateTimeSelected);
+            TLOAdoptRequestEntity = new AdoptRequestEntity(TLOAccountEntity, viewAdoptinfoEntity, dateTimeSelected, DateTime.Now, SystemStatus.Pending.ToString());
+        }
+    }
+    // Check if adoption already being requested
+    private void checkAdoptionDetails()
+    {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        if (TLOAccountEntity != null)
+        {
+            // user logged in, 
+            if (adoptInfoCtrler.checkAdoptRequestExist(TLOAccountEntity.AccountID, adoptInfoID))
+            {
+                // already requested
+                PNLAdoptReqExist.Visible = true;
+                TLOAdoptRequestEntity = adoptInfoCtrler.getUserAdoptRequestEntity(TLOAccountEntity.AccountID, adoptInfoID);
+                LBLAppmtDateTimeExistDetails.Text = TLOAdoptRequestEntity.AdoptReqDateTime.ToString("dd-MMMM-yyy @ HH:mm tt");
+                // display request status
+                if (TLOAdoptRequestEntity.AdoptReqStatus.Equals(Enums.GetDescription(SystemStatus.Confirmed)))
+                    MessageHandler.SuccessMessage(LBLAppmtDateTimeStatusDetails, TLOAdoptRequestEntity.AdoptReqStatus);
+                if (TLOAdoptRequestEntity.AdoptReqStatus.Equals(Enums.GetDescription(SystemStatus.Cancelled)))
+                    MessageHandler.WarningMessage(LBLAppmtDateTimeStatusDetails, TLOAdoptRequestEntity.AdoptReqStatus);
+            }
+            else
+            {
+                // new requested
+                PNLAdoptReq.Visible = true;
+                if (TLOAdoptRequestEntity != null)
+                {
+                    if (TLOAdoptRequestEntity.AdoptInfoEntity.AdoptInfoID.Equals(adoptInfoID))
+                    {
+                        dateSelected = INPUTAppmtDate.Value = TLOAdoptRequestEntity.AdoptReqDateTime.ToString("dd-MMMM-yyyy");
+                        loadOperatingHours();
+                        timeSelected = DDLAppmtTime.SelectedValue = TLOAdoptRequestEntity.AdoptReqDateTime.ToString("HH:mm tt");
+                    }
+                }
+                else
+                {
+                    TLOAdoptRequestEntity = null;
+                }
+            }
+        }
+        else
+        {
+            PNLAdoptReq.Visible = true;
+            INPUTAppmtDate.Attributes["disabled"] = "disabled";
+            MessageHandler.ErrorMessage(LBLErrorMsg, "Please log in first ");
         }
     }
     #endregion
+    #region Dropdownlist Controls
     protected void DDLAppmtTime_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -203,4 +266,5 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
             saveTempAppointment();
         }
     }
+    #endregion
 }

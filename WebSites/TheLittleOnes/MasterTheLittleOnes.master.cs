@@ -11,7 +11,6 @@ using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
-
 public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
 {
     AccountEntity accountEntity;
@@ -23,11 +22,9 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
     {
         if (IsPostBack)
         {
-
         }
         else
         {
-
         }
         // load controllers
         if (accountCtrler == null)
@@ -47,13 +44,14 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
             {
                 string adoptInfoID = HttpContext.Current.Request.QueryString["adoptinfoid"];
                 string currentPage = Path.GetFileName(Request.Url.AbsolutePath).ToLower().Trim();
-
                 // TODO where should the system response after logging in 
                 if (currentPage.Contains("adoptiondetails"))
                     Response.Redirect("AdoptionDetails.aspx?adoptinfoid=" + adoptInfoID);
                 else
                     Response.Redirect(currentPage);
-
+            }
+            else {
+                MessageHandler.ErrorMessage(LBLErrorMsg, "Either email or password is invalid");
             }
         }
     }
@@ -108,8 +106,6 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
     }
     private void loadAccountInfo()
     {
-
     }
     #endregion
-
 }

@@ -10,12 +10,10 @@ using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
-
 namespace TheLittleOnesLibrary.Controllers
 {
     public class ShopInfoController
     {
-
         private static ShopInfoController shopInfoCtrl;
         private static List<ShopTimeEntity> shopTimeEntities;
         public static ShopInfoController getInstance()
@@ -24,7 +22,6 @@ namespace TheLittleOnesLibrary.Controllers
                 shopInfoCtrl = new ShopInfoController();
             return shopInfoCtrl;
         }
-
         // Data Access Object
         private DAO dao;
         private OleDbCommand oleDbCommand;
@@ -44,7 +41,6 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.CommandType = CommandType.Text;
                 oleDbCommand.CommandText = string.Concat("SELECT * FROM SHOPINFO WHERE SHOPINFOADDRESS LIKE @SHOPINFOADDRESS");
                 oleDbCommand.Parameters.AddWithValue("@SHOPINFOADDRESS", string.Concat("%", address, "%"));
-
                 if (string.IsNullOrEmpty(dao.getValue(oleDbCommand)))
                 {
                     // empty = no record exists
@@ -72,7 +68,6 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.Parameters.AddWithValue("@SHOPINFOTYPE", shopInfoEntity.ShopInfoType);
                 oleDbCommand.Parameters.AddWithValue("@SHOPINFODESC", shopInfoEntity.ShopInfoDesc);
                 oleDbCommand.Parameters.AddWithValue("@SHOPINFOCLOSEONPUBLICHOLIDAY", shopInfoEntity.ShopCloseOnPublicHoliday);
-
                 int insertID = dao.createRecord(oleDbCommand);
                 if (insertID > 0)
                 {
@@ -100,7 +95,6 @@ namespace TheLittleOnesLibrary.Controllers
                     oleDbCommand.Parameters.AddWithValue("@SHOPDAY", shopTimeEntity.DayOfWeek);
                     oleDbCommand.Parameters.AddWithValue("@SHOPOPENTIME", Convert.ToDateTime(shopTimeEntity.OpenTime).ToString("HH:mm tt"));
                     oleDbCommand.Parameters.AddWithValue("@SHOPCLOSETIME", Convert.ToDateTime(shopTimeEntity.CloseTime).ToString("HH:mm tt"));
-
                     int insertID = dao.createRecord(oleDbCommand);
                     if (insertID > 0)
                     {
@@ -151,7 +145,7 @@ namespace TheLittleOnesLibrary.Controllers
         public ShopInfoEntity deleteShopPhoto(ShopInfoEntity shopInfoEntity)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            PhotoController.getInstance().deletePhoto(shopInfoEntity.ShopInfoID, PhotoPurpose.ShopInfo.ToString());
+            PhotoController.getInstance().deletePhoto(shopInfoEntity.ShopInfoID, Enums.GetDescription(PhotoPurpose.ShopInfo));
             return shopInfoEntity;
         }
         // Delete ShopTime
@@ -192,10 +186,9 @@ namespace TheLittleOnesLibrary.Controllers
                         dataSet.Tables[0].Rows[0][5].ToString(),
                         dataSet.Tables[0].Rows[0][6].ToString(),
                         Convert.ToBoolean(dataSet.Tables[0].Rows[0][7]),
-                            getShopTime(shopInfoID), PhotoController.getInstance().getPhotoEntities(shopInfoID, PhotoPurpose.ShopInfo.ToString()));
+                            getShopTime(shopInfoID), PhotoController.getInstance().getPhotoEntities(shopInfoID, Enums.GetDescription(PhotoPurpose.ShopInfo)));
                 }
             }
-
         }
         // Retrieve ShopTime
         public List<ShopTimeEntity> getShopTime(string shopInfoID)
@@ -250,14 +243,11 @@ namespace TheLittleOnesLibrary.Controllers
                     searchResult.Text += string.Concat("\"", "Grooming", "\" ");
                     sqlQuery += string.Concat(" AND (SHOPINFOGROOMING = TRUE) ");
                 }
-
                 oleDbCommand.CommandText = string.Concat(sqlQuery, " ORDER BY [SHOPINFOID] DESC, [SHOPINFONAME] ");
                 oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));
-
                 dataSet = dao.getRecord(oleDbCommand);
                 return dataSet.Tables[0];
             }
         }
-
     }
 }

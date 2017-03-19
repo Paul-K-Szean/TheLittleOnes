@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
-
 namespace TheLittleOnesLibrary
 {
     public class Utility
@@ -35,10 +34,8 @@ namespace TheLittleOnesLibrary
         {
             return ColorTranslator.FromHtml("#EFF3F8");
         }
-
         private static int randomNumber;
         private static string name;
-
         public static string getName()
         {
             randomNumber = new Random().Next(0, 30);
@@ -54,8 +51,6 @@ namespace TheLittleOnesLibrary
         {
             return "dd MM yyyy HH:mm:ss";
         }
-
-
         public static List<ShopInfoEntity> shopInfoPetClinic;
         public static List<ShopInfoEntity> shopInfoPetShop;
         public static void initialiseShopInfo()
@@ -213,13 +208,11 @@ namespace TheLittleOnesLibrary
                 shopAddress = "833, Bukit Timah Rd, #01-01, Royalville, Singapore 279887";
                 shopDesc = shopName + " are located at " + shopAddress + "! Contact them at " + shopContact;
                 shopInfoPetShop.Add(new ShopInfoEntity(shopName, shopContact, shopAddress, (getRandomNumber(0, 2) == 0) ? true : false, ShopType.PetShop.ToString(), shopDesc, true, null, null));
-
                 shopName = "Pet Essentials";
                 shopContact = "6763 3749";
                 shopAddress = "524A, Jelapang Rd, #03-09B Greenridge Shopping Centre Singapore 671524";
                 shopDesc = shopName + " are located at " + shopAddress + "! Contact them at " + shopContact;
                 shopInfoPetShop.Add(new ShopInfoEntity(shopName, shopContact, shopAddress, (getRandomNumber(0, 2) == 0) ? true : false, ShopType.PetShop.ToString(), shopDesc, true, null, null));
-
                 shopName = "Pets' Station";
                 shopContact = "6763 3749";
                 shopAddress = "1, Woodlands Square, #B1-42/43, Causeway Point, Singapore 738099";
@@ -267,15 +260,12 @@ namespace TheLittleOnesLibrary
                 shopInfoPetShop.Add(new ShopInfoEntity(shopName, shopContact, shopAddress, (getRandomNumber(0, 2) == 0) ? true : false, ShopType.PetShop.ToString(), shopDesc, true, null, null));
             }
         }
-
-
         public static ShopInfoEntity getShopInfoEntity()
         {
             initialiseShopInfo();
             Thread.Sleep(8);
             LogController.LogLine(shopInfoPetClinic.Count + " " + shopInfoPetShop.Count);
             int index = 0;
-
             switch (new Random().Next(0, 2) == 0 ? ShopType.PetClinic.ToString() : ShopType.PetShop.ToString())
             {
                 case "PetShop":
@@ -287,10 +277,8 @@ namespace TheLittleOnesLibrary
                 default:
                     Thread.Sleep(10);
                     return new Random().Next(0, 1) == 0 ? shopInfoPetShop[new Random().Next(shopInfoPetShop.Count - 1)] : shopInfoPetClinic[new Random().Next(shopInfoPetShop.Count - 1)];
-
             }
         }
-
         public static int getRandomNumber()
         {
             return new Random().Next(0, 100);
@@ -312,16 +300,14 @@ namespace TheLittleOnesLibrary
             {
                 case "cat":
                     values = Enum.GetValues(typeof(PetBreedCat));
-                    return ((PetBreedCat)values.GetValue(new Random((int)DateTime.Now.Ticks).Next(0, values.Length))).ToString();
+                    return Enums.GetDescription((PetBreedCat)values.GetValue(new Random((int)DateTime.Now.Ticks).Next(0, values.Length)));
                 case "dog":
                     values = Enum.GetValues(typeof(PetBreedDog));
-                    return ((PetBreedDog)values.GetValue(new Random((int)DateTime.Now.Ticks).Next(0, values.Length))).ToString();
+                    return Enums.GetDescription((PetBreedDog)values.GetValue(new Random((int)DateTime.Now.Ticks).Next(0, values.Length)));
                 default:
                     return "Breed";
             }
-
         }
-
         /// <summary>
         /// Source from https://forums.asp.net/t/2000851.aspx?24+hours+time+format
         /// User: a2h
@@ -333,7 +319,6 @@ namespace TheLittleOnesLibrary
             DateTime start = DateTime.ParseExact("00:00", "HH:mm", null);
             // default end time value
             DateTime end = DateTime.ParseExact("23:59", "HH:mm", null);
-
             //set the interval time 
             int interval = 30;
             //list to hold the values of intervals
@@ -341,21 +326,18 @@ namespace TheLittleOnesLibrary
             //populate the list with the interval values
             for (DateTime i = start; i <= end; i = i.AddMinutes(interval))
                 listTimeIntervals.Add(i.ToString("HH:mm tt"));
-
             return listTimeIntervals;
             ////Assign the list to datasource of dropdownlist
             //DropDownList1.DataSource = listTimeIntervals;
             ////Databind the dropdownlist
             //DropDownList1.DataBind();
         }
-
         public static List<string> getTimeInterval(string startTime, string endTime)
         {
             // defualt start time value
             DateTime start = DateTime.ParseExact(DateTime.Parse(startTime).ToString("HH:mm"), "HH:mm", null);
             // default end time value
             DateTime end = DateTime.ParseExact(DateTime.Parse(endTime).AddHours(-1).ToString("HH:mm"), "HH:mm", null);
-
             //set the interval time 
             int interval = 30;
             //list to hold the values of intervals
@@ -378,7 +360,6 @@ namespace TheLittleOnesLibrary
             return listTimeIntervals;
         }
     }
-
     public static class SubstringExtensions
     {
         /// <summary>
@@ -403,7 +384,6 @@ namespace TheLittleOnesLibrary
             }
             return value.Substring(adjustedPosA, posB - adjustedPosA);
         }
-
         /// <summary>
         /// Get string value after [first] a.
         /// </summary>
@@ -416,7 +396,6 @@ namespace TheLittleOnesLibrary
             }
             return value.Substring(0, posA);
         }
-
         /// <summary>
         /// Get string value after [last] a.
         /// </summary>
@@ -434,6 +413,5 @@ namespace TheLittleOnesLibrary
             }
             return value.Substring(adjustedPosA);
         }
-
     }
 }

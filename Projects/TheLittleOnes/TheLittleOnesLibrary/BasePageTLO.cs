@@ -12,10 +12,8 @@ using TheLittleOnesLibrary.Handler;
 using System.IO;
 using System.Data;
 using TheLittleOnesLibrary.EnumFolder;
-
 namespace TheLittleOnesLibrary
 {
-
     public class BasePageTLO : Page
     {
         protected static BasePageTLO BasePageInstance;
@@ -27,14 +25,13 @@ namespace TheLittleOnesLibrary
         }
         // Entities for current logged in user
         protected static AccountEntity TLOAccountEntity;
-        protected static AdoptionAppointmentEntity TLOAdoptionAppointmentEntity;
+        protected static AdoptRequestEntity TLOAdoptRequestEntity;
         //protected static ProfileEntity TLOProfileEntity;
         //protected static PetInfoEntity TLOPetInfoEntity;
         //protected static PetCharEntity TLOPetCharEntity;
         //protected static PetEntity TLOPetEntity;
         //protected static ShopInfoEntity TLOShopInfoEntity;
         //protected static ShopTimeEntity TLOShopTimeEntity;
-
         //protected static List<ShopTimeEntity> TLOShopTimeEntities;
         //protected static AdoptInfoEntity TLOAdoptInfoEntity;
         //protected static List<AdoptInfoEntity> TLOAdoptInfoEntites;
@@ -42,14 +39,12 @@ namespace TheLittleOnesLibrary
         //protected static List<AdoptRequestEntity> TLOAdoptReqEntites;
         protected static PhotoEntity TLOPhotoEntity;
         protected static List<PhotoEntity> TLOPhotoEntities;
-
         // Entities for account editing
         protected static AccountEntity TLOEditAccountEntity;
         protected static ProfileEntity TLOEditProfileEntity;
         protected static List<PhotoEntity> TLOEditPhotoEntities;
         protected static ShopInfoEntity TLOEditShopInfoEntity;
         protected static List<ShopTimeEntity> TLOEditShopTimeEntities;
-
         // Controllers
         protected static AccountController accountCtrler;
         protected static ProfileController profileCtrler;
@@ -58,10 +53,8 @@ namespace TheLittleOnesLibrary
         protected static PhotoController photoCtrler;
         protected static AdoptInfoController adoptInfoCtrler;
         protected static PetController petCtrler;
-
         // Data Access Object
         protected DAO dao;
-
         // Default Contsructor
         public BasePageTLO()
         {
@@ -113,7 +106,6 @@ namespace TheLittleOnesLibrary
                     }
                     break;
             }
-
         }
         // Initialize folders
         protected void initializeFolders()
@@ -129,7 +121,6 @@ namespace TheLittleOnesLibrary
                 // dont exists - create path
                 Directory.CreateDirectory(Server.MapPath(filePath_UploadFolderTemp));
             }
-
             // check for database folders path
             if (!isfilePath_UploadFolderTempExists)
             {
@@ -168,7 +159,6 @@ namespace TheLittleOnesLibrary
             {
                 petCtrler = PetController.getInstance();
             }
-
         }
         // Highlight select row for gridview
         protected void highlightSelectedRow(GridView gridview)
@@ -194,7 +184,6 @@ namespace TheLittleOnesLibrary
                         // odd rows
                         row.BackColor = Utility.getColorLightGray();
                     }
-
                 }
             }
         }
@@ -205,10 +194,8 @@ namespace TheLittleOnesLibrary
             int currentPageIndex = gridview.PageIndex * gridview.PageSize + 1;
             int pageSize = gridview.PageSize * (gridview.PageIndex + 1);
             int rowSize = gridview.Rows.Count;
-
             if (pageSize > totalSize)
                 pageSize = totalSize;
-
             if (rowSize == 0)
             {
                 currentPageIndex = rowSize;
@@ -218,7 +205,6 @@ namespace TheLittleOnesLibrary
             {
                 LBLEntriesCount.Text = string.Concat("Showing ", currentPageIndex, " to ", pageSize, " of ", totalSize, " entries");
             }
-
         }
         // Clear control value
         protected void clearUIControlValues(ControlCollection pageControls)
@@ -233,7 +219,6 @@ namespace TheLittleOnesLibrary
                         textbox = (TextBox)ctrl;
                         textbox.Text = string.Empty;
                     }
-
                 }
                 if (ctrl is DropDownList)
                 {
@@ -241,7 +226,6 @@ namespace TheLittleOnesLibrary
                         dropdownlist = (DropDownList)ctrl;
                         dropdownlist.SelectedIndex = 0;
                     }
-
                 }
             }
         }
@@ -251,24 +235,35 @@ namespace TheLittleOnesLibrary
             return Path.GetFileName(Request.Url.AbsolutePath);
         }
         // Split  Camel Case
-        protected static string splitCamelCase(string camelCase)
+        protected static string splitCamelCase(string inputString)
         {
-            // Author Reed Copsey
-            // Source : http://stackoverflow.com/questions/17093423/how-do-i-programmatically-change-camelcase-names-to-displayable-names
             List<char> chars = new List<char>();
-            chars.Add(camelCase[0]);
-            foreach (char c in camelCase.Skip(1))
+            if (!isAlreadyCamelCase(inputString))
             {
-                if (char.IsUpper(c))
+                // Author Reed Copsey
+                // Source : http://stackoverflow.com/questions/17093423/how-do-i-programmatically-change-camelcase-names-to-displayable-names
+                chars.Add(inputString[0]);
+                foreach (char c in inputString.Skip(1))
                 {
-                    chars.Add(' ');
-                    chars.Add(c);
+                    if (char.IsUpper(c))
+                    {
+                        chars.Add(' ');
+                        chars.Add(Char.ToUpper(c));
+                    }
+                    else
+                        chars.Add(c);
                 }
-                else
-                    chars.Add(c);
             }
-
             return new string(chars.ToArray());
+        }
+        private static bool isAlreadyCamelCase(string inputString)
+        {
+            string[] splitString = inputString.Split(' ');
+            foreach (string word in splitString)
+            {
+                Char.ToUpper(word[0]);
+            }
+            return true;
         }
     }
 }

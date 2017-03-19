@@ -9,20 +9,15 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
-
 public partial class AdminShopInfoEdit : BasePage
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
     private CheckBox UICtrlCheckbox;
     private DropDownList UICtrlDropdownlist;
-
     private static int GVRowID;
     private static int gvPageSize = 5; // default
-
     private static DataTable dTableShopInfo;
-
     private string shopID;
     private string shopName;
     private string shopContact;
@@ -32,7 +27,6 @@ public partial class AdminShopInfoEdit : BasePage
     private string shopDesc;
     private bool shopCloseOnPublicHoliday;
     
-
     protected void Page_Load(object sender, EventArgs e)
     {
         Page.Form.Attributes.Add("enctype", "multipart/form-data");
@@ -40,7 +34,6 @@ public partial class AdminShopInfoEdit : BasePage
         GVShopInfoOverview.PageSize = gvPageSize;
         if (IsPostBack)
         {
-
         }
         else
         {
@@ -48,7 +41,6 @@ public partial class AdminShopInfoEdit : BasePage
             clearStaticData();
         }
     }
-
     #region Initialize UI Control Values
     // Initial UI control values
     private void initializeUIControlValues()
@@ -72,17 +64,14 @@ public partial class AdminShopInfoEdit : BasePage
                 {
                     UICtrlDropdownlist.SelectedValue = "09:00 AM";
                 }
-
                 if (UICtrlDropdownlist.ID.ToLower().Contains("close"))
                 {
                     UICtrlDropdownlist.SelectedValue = "17:00 PM";
                 }
             }
-
         }
     }
     #endregion
-
     #region Button Clicks
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
@@ -94,7 +83,6 @@ public partial class AdminShopInfoEdit : BasePage
         // preview photo
         photoCtrler.previewPhotos(photoPreview);
     }
-
     protected void BTNUpdate_Click(object sender, EventArgs e)
     {
         shopID = TBShopInfoID.Text.Trim();
@@ -106,7 +94,6 @@ public partial class AdminShopInfoEdit : BasePage
         shopDesc = TBShopDesc.Text.Trim();
         shopCloseOnPublicHoliday = CHKBXCloseOnPublicHoliday.Checked ? true : false;
         shopTimeEntities = getShopTime();
-
         if (checkRequiredFields())
         {
             // create shop info entity with new changes
@@ -128,11 +115,9 @@ public partial class AdminShopInfoEdit : BasePage
                 // create new photos into database
                 photoCtrler.createPhoto(photoEntities, shopInfoEntity.ShopInfoID);
             }
-
             if (shopInfoEntity != null)
             {
                 MessageHandler.SuccessMessage(LBLErrorMsg, "Shop info successfully updated");
-
             }
             else
             {
@@ -144,7 +129,6 @@ public partial class AdminShopInfoEdit : BasePage
             clearStaticData();
         }
     }
-
     protected void BTNCancel_Click(object sender, EventArgs e)
     {
         PNLShopInfoEdit.Visible = false;
@@ -152,7 +136,6 @@ public partial class AdminShopInfoEdit : BasePage
         LBLErrorMsg.Text = string.Empty;
     }
     #endregion
-
     #region Checkbox Control
     // Shop info filter pet shop
     protected void CHKBXFilterShop_CheckedChanged(object sender, EventArgs e)
@@ -186,7 +169,6 @@ public partial class AdminShopInfoEdit : BasePage
         filterShopInfo();
     }
     #endregion
-
     #region Dropdownlist Controls
     protected void DDLDisplayRecordCountShopInfo_SelectedIndexChanged(object sender, EventArgs e)
     {
@@ -195,7 +177,6 @@ public partial class AdminShopInfoEdit : BasePage
         filterShopInfo();
     }
     #endregion
-
     #region Gridview Controls
     protected void GVShopInfoOverview_DataBound(object sender, EventArgs e)
     {
@@ -204,7 +185,6 @@ public partial class AdminShopInfoEdit : BasePage
             dTableShopInfo = ((DataView)SDSShopInfo.Select(DataSourceSelectArguments.Empty)).Table;
         updateEntryCount(dTableShopInfo, GVShopInfoOverview, LBLEntriesCount);
     }
-
     protected void GVShopInfoOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -215,21 +195,18 @@ public partial class AdminShopInfoEdit : BasePage
         initializeUIControlValues();
         loadShopInfo(GVRowID.ToString());
     }
-
     protected void GVShopInfoOverview_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         highlightSelectedRow(GVShopInfoOverview);
         MessageHandler.ClearMessage(LBLErrorMsg);
     }
-
     protected void GVShopInfoOverview_PageIndexChanging(object sender, GridViewPageEventArgs e)
     {
         GVShopInfoOverview.PageIndex = e.NewPageIndex;
         filterShopInfo();
     }
     #endregion
-
     #region Logical Methods
     // Check Required Fields
     private bool checkRequiredFields()
@@ -249,7 +226,6 @@ public partial class AdminShopInfoEdit : BasePage
                 }
             }
         }
-
         // return condition
         if (isUICtrlDropdownlistValid && isUICtrlTextboxValid)
         {
@@ -335,9 +311,6 @@ public partial class AdminShopInfoEdit : BasePage
             CHKBXCloseOnPublicHoliday.Checked = false;
             CHKBXGroomingService.Enabled = false;
         }
-
-
-
     }
     // Load shop time
     private void loadShoptime()
@@ -345,12 +318,10 @@ public partial class AdminShopInfoEdit : BasePage
         List<string> workDay = new List<string>();
         List<string> noWorkDay = new List<string>();
         List<string> dayOfWeek = new List<string> { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
-
         // get the work days
         foreach (ShopTimeEntity shopTimeEntity in shopInfoEntity.ShopTimeEntities)
         {
             workDay.Add(shopTimeEntity.DayOfWeek);
-
             if (shopTimeEntity.DayOfWeek.Equals("Monday"))
             {
                 DDLOpenTimeMonday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
@@ -451,10 +422,6 @@ public partial class AdminShopInfoEdit : BasePage
                     break;
             }
         }
-
-
-
-
     }
     // Filter data
     private void filterShopInfo()
@@ -479,9 +446,7 @@ public partial class AdminShopInfoEdit : BasePage
         photoEntities = null;
         photoPreview.InnerHtml = string.Empty;
     }
-
     #endregion
-
     #region Textbox Control
     protected void TBSearchShopInfo_TextChanged(object sender, EventArgs e)
     {
@@ -489,8 +454,4 @@ public partial class AdminShopInfoEdit : BasePage
         filterShopInfo();
     }
     #endregion
-
-
-
-
 }

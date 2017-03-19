@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="BreedDetails.aspx.cs" Inherits="BreedDetails" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBody" runat="Server">
@@ -35,7 +34,6 @@
                         <div class="agileinfo-top-grids">
                             <div class="col-sm-4 wthree-top-grid">
                                 <h4>Breed</h4>
-
                                 <div class="row">
                                     <div class="form-inline">
                                         <div class="col-xs-6 col-md-4">
@@ -93,7 +91,6 @@
                                 </div>
                             </div>
                             <div class="clearfix"></div>
-
                         </div>
                     </div>
                 </div>
@@ -119,7 +116,6 @@
                                                 <div id="InlineTrainability" runat="server" class="progress-bar progress-bar-blueviolet"></div>
                                                 <div id="InlineExercise" runat="server" class="progress-bar progress-bar-primary"></div>
                                             </div>
-
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-2">
@@ -134,7 +130,6 @@
                                                 <asp:Label ID="LBLOverallAdaptability" runat="server" Text='<%# Eval("charOverallAdaptability", "{0:0.0}") + " / 5" %>'></asp:Label>
                                             </div>
                                         </div>
-
                                         <div class="row">
                                             <div class="col-sm-2">
                                                 <asp:Label ID="Label9" runat="server" Text="Friendliness" Font-Bold="true"></asp:Label>
@@ -148,7 +143,6 @@
                                                 <asp:Label ID="Label13" runat="server" Text='<%# Eval("charOverallFriendliness", "{0:0.0}") + " / 5" %>'></asp:Label>
                                             </div>
                                         </div>
-
                                         <div class="row">
                                             <div class="col-sm-2">
                                                 <asp:Label ID="Label10" runat="server" Text="Grooming" Font-Bold="true"></asp:Label>
@@ -162,7 +156,6 @@
                                                 <asp:Label ID="Label14" runat="server" Text='<%# Eval("charOverallGrooming", "{0:0.0}") + " / 5" %>'></asp:Label>
                                             </div>
                                         </div>
-
                                         <div class="row">
                                             <div class="col-sm-2">
                                                 <asp:Label ID="Label11" runat="server" Text="Trainability" Font-Bold="true"></asp:Label>
@@ -176,7 +169,6 @@
                                                 <asp:Label ID="Label15" runat="server" Text='<%# Eval("charOverallTrainability", "{0:0.0}") + " / 5" %>'></asp:Label>
                                             </div>
                                         </div>
-
                                         <div class="row">
                                             <div class="col-sm-2">
                                                 <asp:Label ID="Label12" runat="server" Text="Exercise" Font-Bold="true"></asp:Label>
@@ -198,7 +190,6 @@
                 </div>
             </div>
             <!-- //choose -->
-
             <!-- gallery-->
             <div class="gallery">
                 <div class="container">
@@ -236,7 +227,6 @@
                 </div>
             </div>
             <!-- //gallery -->
-
             <!-- team -->
             <div class="team">
                 <div class="container">
@@ -317,4 +307,3 @@
         </ItemTemplate>
     </asp:DataList>
 </asp:Content>
-

@@ -6,49 +6,64 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.UI.WebControls;
-
 namespace TheLittleOnesLibrary.EnumFolder
 {
     public class Enums
     {
-
-        public static void EnumToDDL(Type EnumType, DropDownList TheListBox)
+        public static string GetDescription(Enum value)
         {
-            // Array listValues = Enum.GetValues(EnumType);
-            // Array.Sort(listValues);
-            List<string> listNames = Enum.GetNames(EnumType).ToList();
-            listNames.Sort();
-            TheListBox.DataSource = listNames;
-            TheListBox.DataBind();
+            // Get the Description attribute value for the enum value
+            FieldInfo fi = value.GetType().GetField(value.ToString());
+            DescriptionAttribute[] attributes =
+                (DescriptionAttribute[])fi.GetCustomAttributes(
+                    typeof(DescriptionAttribute), false);
+            if (attributes.Length > 0)
+            {
+                return attributes[0].Description;
+            }
+            else
+            {
+                return value.ToString();
+            }
         }
-
-
     }
-
     public enum AccountType
     {
-        WebUser,
+        [Description("Web Admin")]
         WebAdmin,
+        [Description("Web Sponsor Group")]
         WebSponsorGroup,
-        WebShelterGroup
+        [Description("Web Shelter Group")]
+        WebShelterGroup,
+        [Description("Web User")]
+        WebUser
     }
-
     public enum ShopType
     {
+        [Description("Pet Shop")]
         PetShop,
+        [Description("Pet Clinic")]
         PetClinic,
+        [Description("Pet Shelter")]
         PetShelter
     }
-    public enum AdoptionStatus
+    public enum SystemStatus
     {
-        Available,
         Adopted,
-        Pending
+        Available,
+        Cancelled,
+        Confirmed,
+        Pending,
+        Completed
     }
-    public enum PhotoPurpose {
+    public enum PhotoPurpose
+    {
         Pet,
+        [Description("Pet Info")]
         PetInfo,
+        [Description("Shop Info")]
         ShopInfo,
+        [Description("Profile Info")]
         ProfileInfo
     }
     public enum PetCategory
@@ -65,8 +80,6 @@ namespace TheLittleOnesLibrary.EnumFolder
         GermanShepherd,
         [Description("Golden Retriever")]
         GoldenRetriever,
-
-
         // L
         [Description("Labrador Retriever")]
         LabradorRetriever,
@@ -78,7 +91,6 @@ namespace TheLittleOnesLibrary.EnumFolder
         Pomeranian,
         [Description("Poodle")]
         Poodle,
-
         // S
         [Description("Schnauzer")]
         Schnauzer,
@@ -88,7 +100,6 @@ namespace TheLittleOnesLibrary.EnumFolder
         SiberianHusky,
         [Description("Silky Terrier")]
         SilkyTerrier,
-
         // W
         [Description("West Highland White Terrier")]
         WestHighlandWhiteTerrier,
@@ -96,7 +107,6 @@ namespace TheLittleOnesLibrary.EnumFolder
         [Description("Yorkshire Terrier")]
         YorkshireTerrier,
     }
-
     public enum PetBreedCat
     {
         // A 
@@ -112,7 +122,6 @@ namespace TheLittleOnesLibrary.EnumFolder
         // L
         [Description("Egyptian Mau")]
         EgyptianMau,
-
         // S
         [Description("Siamese Cat")]
         SiameseCat,
@@ -121,6 +130,5 @@ namespace TheLittleOnesLibrary.EnumFolder
         // P
         [Description("Persian Cat")]
         PersianCat,
-
     }
 }

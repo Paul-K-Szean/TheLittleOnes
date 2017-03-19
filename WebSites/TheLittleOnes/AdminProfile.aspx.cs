@@ -10,29 +10,23 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class AdminProfile : BasePage
 {
     private string profileID;
     private static string name;
     private static string contact;
     private static string address;
-
-
     protected void Page_Load(object sender, EventArgs e)
     {
         Page.Form.Attributes.Add("enctype", "multipart/form-data");
         if (IsPostBack)
         {
-
         }
         else
         {
             loadProfileInfo();
         }
-
     }
-
     void loadProfileInfo()
     {
         TBProfileID.Text = accountEntity.ProfileEntity.ProfileID;
@@ -40,8 +34,6 @@ public partial class AdminProfile : BasePage
         TBContact.Text = accountEntity.ProfileEntity.ProfileContact;
         TBAddress.Text = accountEntity.ProfileEntity.ProfileAddress;
     }
-
-
     #region Button Clicks
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
@@ -59,7 +51,6 @@ public partial class AdminProfile : BasePage
         name = TBName.Text.Trim();
         contact = TBContact.Text.Trim();
         address = TBAddress.Text.Trim();
-
         if (checkRequiredField(name, contact, address))
         {
             // update profile
@@ -67,9 +58,7 @@ public partial class AdminProfile : BasePage
             profileEntityTemp.ProfileName = name;
             profileEntityTemp.ProfileContact = contact;
             profileEntityTemp.ProfileAddress = address;
-
             profileEntity = profileCtrler.updateProfile(profileEntityTemp);
-
             if (photoEntities != null)
             {
                 // change photo path to database instead of using temp
@@ -78,9 +67,7 @@ public partial class AdminProfile : BasePage
                 photoCtrler.deletePhoto(profileEntity.ProfileID, PhotoPurpose.ProfileInfo.ToString());
                 // create new photos into database
                 photoCtrler.createPhoto(photoEntities, profileEntity.ProfileID);
-
             }
-
             if (profileEntity != null)
             {
                 MessageHandler.SuccessMessage(LBLErrorMsg, "Profile successfully updated");
@@ -109,7 +96,6 @@ public partial class AdminProfile : BasePage
         {
             MessageHandler.DefaultMessage(LBLName, "Name");
         }
-
         if (!string.IsNullOrEmpty(contact))
         {
             if (contact.Any(char.IsLetter))
@@ -123,9 +109,7 @@ public partial class AdminProfile : BasePage
                 MessageHandler.ErrorMessage(LBLContact, "Contact - Only digit allowed");
             }
         }
-
         return isRequiredFieldsValid;
     }
-
     #endregion
 }

@@ -8,7 +8,6 @@ using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class AdminLogin : BasePage
 {
     string inputEmail;
@@ -24,10 +23,8 @@ public partial class AdminLogin : BasePage
         }
         else
         {
-
         }
     }
-
     // Login method
     protected void BTNLogin_Click(object sender, EventArgs e)
     {
@@ -47,14 +44,12 @@ public partial class AdminLogin : BasePage
                 {
                     Response.Redirect("AdminDashboard.aspx");
                 }
-
                 else
                 {
                     MessageHandler.ErrorMessage(LBLErrorMsg, "You are not authorised here");
                     TBLoginPassword.Text = string.Empty;
                     accountCtrler.signOut();
                 }
-
             }
             else
             {

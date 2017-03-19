@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
-
 namespace TheLittleOnesLibrary.Controllers
 {
     public class ProfileController
@@ -21,8 +20,6 @@ namespace TheLittleOnesLibrary.Controllers
                 profileCtrl = new ProfileController();
             return profileCtrl;
         }
-
-
         // Data Access Object
         private DAO dao;
         private OleDbCommand oleDbCommand;
@@ -44,7 +41,6 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.Parameters.AddWithValue("@PROFILENAME", profileEntity.ProfileName);
                 oleDbCommand.Parameters.AddWithValue("@PROFILECONTACT", profileEntity.ProfileContact);
                 oleDbCommand.Parameters.AddWithValue("@PROFILEADDRESS", profileEntity.ProfileAddress);
-
                 int insertID = dao.createRecord(oleDbCommand);
                 if (insertID > 0)
                 {
@@ -71,7 +67,6 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.CommandType = CommandType.Text;
                 oleDbCommand.CommandText = string.Concat("SELECT * FROM PROFILE WHERE ACCOUNTID LIKE @ACCOUNTID");
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", string.Concat(accountID));
-
                 dataSet = dao.getRecord(oleDbCommand);
                 if (dataSet.Tables[0].Rows.Count > 0)
                 {
@@ -81,7 +76,7 @@ namespace TheLittleOnesLibrary.Controllers
                         dataSet.Tables[0].Rows[0]["profileName"].ToString(),
                         dataSet.Tables[0].Rows[0]["profileContact"].ToString(),
                         dataSet.Tables[0].Rows[0]["profileAddress"].ToString(),
-                        PhotoController.getInstance().getPhotoEntities(dataSet.Tables[0].Rows[0]["profileID"].ToString(), PhotoPurpose.ProfileInfo.ToString()));
+                        PhotoController.getInstance().getPhotoEntities(dataSet.Tables[0].Rows[0]["profileID"].ToString(), Enums.GetDescription(PhotoPurpose.ProfileInfo)));
                     return profileEntity;
                 }
                 else
@@ -108,7 +103,6 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.Parameters.AddWithValue("@PROFILECONTACT", string.Concat(profileEntity.ProfileContact));
                 oleDbCommand.Parameters.AddWithValue("@PROFILEADDRESS", string.Concat(profileEntity.ProfileAddress));
                 oleDbCommand.Parameters.AddWithValue("@PROFILEID", string.Concat(profileEntity.ProfileID));
-
                 int insertID = dao.updateRecord(oleDbCommand);
                 if (insertID > 0)
                 {
@@ -150,7 +144,6 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.CommandType = CommandType.Text;
                 oleDbCommand.CommandText = string.Concat("SELECT * FROM PROFILE WHERE ACCOUNTID LIKE @ACCOUNTID");
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", string.Concat(accountID));
-
                 dataSet = dao.getRecord(oleDbCommand);
                 if (dataSet.Tables[0].Rows.Count > 0)
                 {
@@ -160,7 +153,7 @@ namespace TheLittleOnesLibrary.Controllers
                         dataSet.Tables[0].Rows[0]["profileName"].ToString(),
                         dataSet.Tables[0].Rows[0]["profileContact"].ToString(),
                         dataSet.Tables[0].Rows[0]["profileAddress"].ToString(),
-                        PhotoController.getInstance().getPhotoEntities(dataSet.Tables[0].Rows[0]["profileID"].ToString(), PhotoPurpose.ProfileInfo.ToString()));
+                        PhotoController.getInstance().getPhotoEntities(dataSet.Tables[0].Rows[0]["profileID"].ToString(), Enums.GetDescription(PhotoPurpose.ProfileInfo)));
                     return loggedInProfile;
                 }
                 else
@@ -175,10 +168,6 @@ namespace TheLittleOnesLibrary.Controllers
             loggedInProfile = null;
             // signout profile
         }
-
       
-
-
-
     }
 }

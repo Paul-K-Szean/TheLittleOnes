@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterAdmin.master" AutoEventWireup="true" CodeFile="AdminAdoptionInfoEdit.aspx.cs" Inherits="AdminAdoptionInfoEdit" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHHeaderMasterAdmin" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHBodyMasterAdmin" runat="Server">
@@ -7,16 +6,14 @@
         <ul class="breadcrumb">
             <li>
                 <i class="ace-icon fa fa-home home-icon"></i>
-                <a href="Dashboard.aspx">Home</a>
+                <a href="AdminDashboard.aspx">Home</a>
             </li>
-
             <li>
                 <a href="#">Adoption Info</a>
             </li>
             <li class="active">Settings</li>
         </ul>
         <!-- /.breadcrumb -->
-
         <div class="nav-search" id="nav-search">
             <div class="form-search">
                 <span class="input-icon">
@@ -32,7 +29,6 @@
             <div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
                 <i class="ace-icon fa fa-cog bigger-130"></i>
             </div>
-
             <div class="ace-settings-box clearfix" id="ace-settings-box">
                 <div class="pull-left width-50">
                     <div class="ace-settings-item">
@@ -54,27 +50,22 @@
                         </div>
                         <span>&nbsp; Choose Skin</span>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-navbar" autocomplete="off">
                         <label class="lbl" for="ace-settings-navbar">Fixed Navbar</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-sidebar" autocomplete="off">
                         <label class="lbl" for="ace-settings-sidebar">Fixed Sidebar</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-breadcrumbs" autocomplete="off">
                         <label class="lbl" for="ace-settings-breadcrumbs">Fixed Breadcrumbs</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" autocomplete="off">
                         <label class="lbl" for="ace-settings-rtl">Right To Left (rtl)</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-add-container" autocomplete="off">
                         <label class="lbl" for="ace-settings-add-container">
@@ -84,18 +75,15 @@
                     </div>
                 </div>
                 <!-- /.pull-left -->
-
                 <div class="pull-left width-50">
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover" autocomplete="off">
                         <label class="lbl" for="ace-settings-hover">Submenu on Hover</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact" autocomplete="off">
                         <label class="lbl" for="ace-settings-compact">Compact Sidebar</label>
                     </div>
-
                     <div class="ace-settings-item">
                         <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight" autocomplete="off">
                         <label class="lbl" for="ace-settings-highlight">Alt. Active Item</label>
@@ -106,7 +94,6 @@
             <!-- /.ace-settings-box -->
         </div>
         <!-- /.ace-settings-container -->
-
         <div class="page-header">
             <h1>Settings
 								<small>
@@ -145,7 +132,6 @@
                                     <div class="col-xs-6">
                                         <div id="dynamic-table_filter" class="dataTables_filter">
                                             <span class="block input-icon input-icon-right  toolbar">
-
                                                 <asp:DropDownList ID="DDLFilterGender" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DDLFilterGender_SelectedIndexChanged">
                                                     <asp:ListItem Value="">Filter Gender</asp:ListItem>
                                                     <asp:ListItem Value="Female">Female</asp:ListItem>
@@ -188,15 +174,12 @@
                                         <asp:BoundField DataField="adoptInfoID" HeaderText="S/N" SortExpression="adoptInfoID" />
                                         <asp:BoundField DataField="shopInfoID" HeaderText="ShopInfo S/N" SortExpression="shopInfoID" />
                                         <asp:BoundField DataField="petID" HeaderText="Pet S/N" SortExpression="petID" />
-
                                         <asp:BoundField DataField="adoptInfoStatus" HeaderText="Adopt Status" SortExpression="adoptInfoStatus" />
-
                                         <asp:BoundField DataField="petBreed" HeaderText="Breed" SortExpression="petBreed" />
                                         <asp:BoundField DataField="petName" HeaderText="Name" SortExpression="petName" />
                                         <asp:BoundField DataField="petGender" HeaderText="Gender" SortExpression="petGender" />
                                         <asp:BoundField DataField="petWeight" HeaderText="Weight" SortExpression="petWeight" />
                                         <asp:BoundField DataField="petSize" HeaderText="Size" SortExpression="petSize" />
-
                                         <asp:BoundField DataField="shopInfoName" HeaderText="Organisation" SortExpression="shopInfoName" />
                                         <asp:BoundField DataField="shopInfoContact" HeaderText="Contact" SortExpression="shopInfoContact" />
                                         <asp:CommandField ShowSelectButton="true" SelectText="Edit" />
@@ -214,7 +197,6 @@
                                 <asp:Label ID="LBLErrorMsg" runat="server" Text="" Font-Size="Medium"></asp:Label>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <!-- /.row -->
@@ -225,7 +207,6 @@
                         <!-- PAGE CONTENT BEGINS -->
                         <div class="form-horizontal">
                             <asp:Panel ID="PNLAdoptInfoEdit" runat="server" Visible="false">
-
                                 <%--action buttons--%>
                                 <div class="row">
                                     <div class="col-xs-12 ">
@@ -237,7 +218,6 @@
                                 </div>
                                 <!-- /.row -->
                                 <div class="space-6"></div>
-
                                 <div class="row">
                                     <%--shopinfo--%>
                                     <div class="col-md-3">
@@ -266,7 +246,6 @@
                                                                         <asp:Label ID="LBLShopName" runat="server" Text=""></asp:Label>
                                                                     </h5>
                                                                 </div>
-
                                                                 <div class="widget-body">
                                                                     <div class="widget-main">
                                                                         <div class="row">
@@ -336,7 +315,6 @@
                                             <div class="widget-header">
                                                 <h4 class="widget-title">Basic Info</h4>
                                             </div>
-
                                             <div class="widget-body">
                                                 <div class="widget-main">
                                                     <div>
@@ -398,7 +376,6 @@
                                             <div class="widget-header">
                                                 <h4 class="widget-title">Characteristics</h4>
                                             </div>
-
                                             <div class="widget-body">
                                                 <div class="widget-main">
                                                     <div>
@@ -419,7 +396,6 @@
                                                             <asp:ListItem Value="Yes">Yes</asp:ListItem>
                                                             <asp:ListItem Value="No">No</asp:ListItem>
                                                         </asp:DropDownList>
-
                                                     </div>
                                                     <br />
                                                     <div>
@@ -429,7 +405,6 @@
                                                             <asp:ListItem Value="Yes">Yes</asp:ListItem>
                                                             <asp:ListItem Value="No">No</asp:ListItem>
                                                         </asp:DropDownList>
-
                                                     </div>
                                                     <br />
                                                     <div>
@@ -439,7 +414,6 @@
                                                             <asp:ListItem Value="Yes">Yes</asp:ListItem>
                                                             <asp:ListItem Value="No">No</asp:ListItem>
                                                         </asp:DropDownList>
-
                                                     </div>
                                                     <br />
                                                     <div>
@@ -457,10 +431,8 @@
                                             <div class="widget-header">
                                                 <h4 class="widget-title">Current Photo(s)</h4>
                                             </div>
-
                                             <div class="widget-body">
                                                 <div class="widget-main">
-
                                                     <hr />
                                                     <div class="center">
                                                         <div>
@@ -483,7 +455,6 @@
                                             <div class="widget-header">
                                                 <h4 class="widget-title">Photos</h4>
                                             </div>
-
                                             <div class="widget-body">
                                                 <div class="widget-main">
                                                     <div>
@@ -494,7 +465,6 @@
                                                     <hr />
                                                     <div id="photoPreview" runat="server" class="center overflow-scroll">
                                                     </div>
-
                                                 </div>
                                             </div>
                                         </div>
@@ -507,15 +477,11 @@
                     <!-- PAGE CONTENT ENDS -->
                 </div>
                 <!-- /.col -->
-
-
-
                 <%--SQLDataSource--%>
                 <asp:SqlDataSource ID="SDSAdoptInfo" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
                     SelectCommand="SELECT AdoptInfo.shopInfoID, AdoptInfo.petID, AdoptInfo.adoptInfoID, AdoptInfo.adoptInfoStatus, Pet.petID AS Expr1, Pet.petBreed, Pet.petName, Pet.petGender, Pet.petWeight, Pet.petSize, Pet.petDesc, Pet.petEnergy, Pet.petFriendlyWithPet, Pet.petFriendlyWithPeople, Pet.petToiletTrained, Pet.petHealthInfo, ShopInfo.shopInfoID AS Expr2, ShopInfo.shopInfoName, ShopInfo.shopInfoContact, ShopInfo.shopInfoAddress, ShopInfo.shopInfoGrooming, ShopInfo.shopInfoType, ShopInfo.shopInfoDesc, ShopInfo.shopInfoCloseOnPublicHoliday FROM ((AdoptInfo INNER JOIN Pet ON AdoptInfo.petID = Pet.petID) INNER JOIN ShopInfo ON AdoptInfo.shopInfoID = ShopInfo.shopInfoID) ORDER BY [adoptInfoId] DESC"></asp:SqlDataSource>
-
                 <asp:SqlDataSource ID="SDSPetInfo" runat="server"></asp:SqlDataSource>
                 <asp:SqlDataSource ID="SDSPhoto" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
@@ -533,4 +499,3 @@
     </div>
     <!-- /.page-content -->
 </asp:Content>
-

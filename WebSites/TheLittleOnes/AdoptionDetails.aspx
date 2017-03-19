@@ -62,7 +62,6 @@
                     </div>
                     <div class="agileinfo-top-grids">
                         <div class="row">
-
                             <%--Left panel--%>
                             <div class="col-md-8">
                                 <asp:DataList ID="DLAdoptInfo" runat="server" DataSourceID="SDSAdoptInfo" Width="100%"
@@ -92,6 +91,9 @@
                                                             </div>
                                                         </ItemTemplate>
                                                     </asp:DataList>
+                                                    <div>
+                                                        <asp:Label ID="LBLTotalRequest" runat="server" Text=""></asp:Label>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-8 col-sm-8">
@@ -160,7 +162,6 @@
                                             </div>
                                             <div class="clearfix"></div>
                                         </div>
-
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <%--Organisation info--%>
@@ -240,7 +241,6 @@
                                                             </asp:DataList>
                                                         </div>
                                                     </div>
-
                                                     <asp:SqlDataSource ID="SDSShopTime" runat="server"
                                                         ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                                                         ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
@@ -260,8 +260,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
-
                                         shopInfoID:
             <asp:Label ID="shopInfoIDLabel" runat="server" Text='<%# Eval("shopInfoID") %>' />
                                         <br />
@@ -273,7 +271,6 @@
                                         <br />
                                     </ItemTemplate>
                                 </asp:DataList>
-
                             </div>
                             <%--Right panel--%>
                             <div class="col-md-4 ">
@@ -285,35 +282,47 @@
                                             <asp:Label ID="Label2" runat="server" Text="Appointment Info" Font-Bold="true"></asp:Label>
                                         </h4>
                                         <div class="hr hr-double2 "></div>
-                                        <asp:Label ID="LBLAppmtDate" runat="server" Text="Appointment Date"></asp:Label>
-                                        <div class="input-group">
-                                            <input id="INPUTAppmtDate" runat="server" class="form-control datepicker" type="text"
-                                                data-date-format="dd-MM-yyyy" placeholder="Select date" style="padding-left:14px;">
-                                            <span class="input-group-addon">
-                                                <i class="fa fa-calendar"></i>
-                                            </span>
-                                            <asp:Button ID="BTNAppmtDate" runat="server" Style="display: none;" OnClick="BTNAppmtDate_Click" />
-                                        </div>
+                                        <asp:Panel ID="PNLAdoptReq" runat="server" Visible="false">
+                                            <asp:Label ID="LBLAppmtDate" runat="server" Text="Appointment Date"></asp:Label>
+                                            <div class="input-group">
+                                                <input id="INPUTAppmtDate" runat="server" class="form-control datepicker" type="text"
+                                                    data-date-format="dd-MM-yyyy" placeholder="Select date" style="padding-left: 14px;">
+                                                <span class="input-group-addon">
+                                                    <i class="fa fa-calendar"></i>
+                                                </span>
+                                                <asp:Button ID="BTNAppmtDate" runat="server" Style="display: none;" OnClick="BTNAppmtDate_Click" />
+                                            </div>
+                                            <asp:Label ID="LBLAppmtTime" runat="server" Text="Appointment Time"></asp:Label>
+                                            <div class="input-group">
+                                                <asp:DropDownList ID="DDLAppmtTime" runat="server" CssClass="form-control"
+                                                    AutoPostBack="true" Enabled="false" OnSelectedIndexChanged="DDLAppmtTime_SelectedIndexChanged"
+                                                    AppendDataBoundItems="true">
+                                                    <asp:ListItem Value="">Select Time</asp:ListItem>
+                                                </asp:DropDownList>
+                                                <span class="input-group-addon">
+                                                    <i class="fa fa-clock-o"></i>
+                                                </span>
+                                            </div>
+                                            <div class="text-center">
+                                                <asp:Button ID="BTNAdoptMe" runat="server" CssClass="btn btn-primary btn-sm" Text="Adopt Me"
+                                                    OnClick="BTNAdoptMe_Click" Enabled="false" />
+                                                <br />
+                                                <asp:Label ID="LBLErrorMsg" runat="server" Text="" Font-Size="Medium"></asp:Label>
+                                            </div>
+                                        </asp:Panel>
+                                        <asp:Panel ID="PNLAdoptReqExist" runat="server" Visible="false">
+                                            <asp:Label ID="LBLAppmtDateTimeExist" runat="server" Text="Appointment Date/Time" Font-Bold="true"></asp:Label>
+                                            <asp:HyperLink ID="HYPLKEdit" runat="server" CssClass="pull-right" Text="Edit" NavigateUrl="~/AppointmentDetails.aspx"></asp:HyperLink>
+                                            <div class="input-group">
+                                                <asp:Label ID="LBLAppmtDateTimeExistDetails" runat="server" Text=""></asp:Label>
+                                            </div>
+                                            <asp:Label ID="LBLAppmtDateTimeStatus" runat="server" Text="Appointment Status" Font-Bold="true"></asp:Label>
+                                            <div class="input-group">
+                                                <asp:Label ID="LBLAppmtDateTimeStatusDetails" runat="server" Text=""></asp:Label>
+                                            </div>
+                                        </asp:Panel>
 
-                                        <asp:Label ID="LBLAppmtTime" runat="server" Text="Appointment Time"></asp:Label>
-                                        <div class="input-group">
-                                            <asp:DropDownList ID="DDLAppmtTime" runat="server" CssClass="form-control"
-                                                AutoPostBack="true" Enabled="false" OnSelectedIndexChanged="DDLAppmtTime_SelectedIndexChanged"
-                                                AppendDataBoundItems="true">
-                                                <asp:ListItem Value="">Select Time</asp:ListItem>
-                                            </asp:DropDownList>
-                                            <span class="input-group-addon">
-                                                <i class="fa fa-clock-o"></i>
-                                            </span>
-                                        </div>
-                                        <div class="text-center">
-                                            <asp:Button ID="BTNAdoptMe" runat="server" CssClass="btn btn-primary btn-sm" Text="Adopt Me"
-                                                OnClick="BTNAdoptMe_Click" Enabled="false" />
-                                            <br />
-                                            <asp:Label ID="LBLErrorMsg" runat="server" Text="" Font-Size="Medium"></asp:Label>
-                                        </div>
                                     </div>
-
                                     <div class="clearfix"></div>
                                 </div>
                                 <%--More pet for adoption--%>
@@ -329,7 +338,6 @@
                                         <asp:DataList ID="DLMorePet" runat="server" DataKeyField="adoptinfoid" DataSourceID="SDSMorePet"
                                             RepeatDirection="Horizontal" RepeatLayout="Flow" Width="100%" OnItemDataBound="DLMorePet_ItemDataBound">
                                             <ItemTemplate>
-
                                                 <div class="col-md-6 gallery-grid text-center">
                                                     <div class="grid adoption">
                                                         <figure class="effect-apollo">
@@ -341,7 +349,7 @@
                                                                 </div>
                                                                 <figcaption>
                                                                     <p>
-                                                                        <asp:Label ID="Label2" runat="server" Text='<%# splitCamelCase( Eval("petname").ToString() )%>' Font-Size="Small"></asp:Label>
+                                                                        <asp:Label ID="Label2" runat="server" Text='<%# Eval("petname")%>' Font-Size="Small"></asp:Label>
                                                                     </p>
                                                                 </figcaption>
                                                             </asp:HyperLink>
@@ -364,9 +372,7 @@
     <!--datepicker Slider starts Here-->
     <script type="text/javascript">
         $(document).ready(function () {
-
         });
-
         function pageLoad() {
             $('.datepicker').unbind()
             $(".datepicker").datepicker({

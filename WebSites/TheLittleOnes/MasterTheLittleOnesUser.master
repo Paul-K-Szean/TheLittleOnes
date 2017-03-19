@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="MasterTheLittleOnesUser.master.cs" Inherits="MasterTheLittleOnesUser" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" Runat="Server">
+    <asp:ContentPlaceHolder ID="CPHTLOHeadUser" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBody" Runat="Server">
+    <asp:ContentPlaceHolder ID="CPHTLOBodyUser" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+

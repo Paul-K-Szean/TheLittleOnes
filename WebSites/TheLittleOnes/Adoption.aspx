@@ -1,9 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="Adoption.aspx.cs" Inherits="Adoption" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBody" runat="Server">
-
     <asp:SqlDataSource ID="SDSAdoptInfo" runat="server"
         ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
         ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
@@ -31,15 +29,15 @@
                                     <div class="col-md-4 gallery-grid text-center">
                                         <div class="grid adoption">
                                             <figure class="effect-apollo">
-                                                <asp:HyperLink ID="HYPLKPetInfo" runat="server" class="example-image-link" 
-                                                     NavigateUrl='<%# "~/AdoptionDetails.aspx?adoptinfoid="+Eval("adoptInfoID")%>' Target="_blank">
+                                                <asp:HyperLink ID="HYPLKPetInfo" runat="server" class="example-image-link"
+                                                    NavigateUrl='<%# "~/AdoptionDetails.aspx?adoptinfoid="+Eval("adoptInfoID")%>' Target="_blank">
                                                     <div class="landscapeAdoption overflowHidden">
                                                         <asp:Image ID="imgBreedPhoto" runat="server"
                                                             ImageUrl='<%# "uploadedFiles/database/pet/" + Eval("photoOwnerID") + "/" + Eval("photoName") %>' alt="" />
                                                     </div>
                                                     <figcaption>
                                                         <p>
-                                                            <asp:Label ID="Label2" runat="server" Text='<%# splitCamelCase( Eval("petname").ToString() )%>'></asp:Label>
+                                                            <asp:Label ID="Label2" runat="server" Text='<%# Eval("petname")%>'></asp:Label>
                                                         </p>
                                                     </figcaption>
                                                 </asp:HyperLink>
@@ -61,4 +59,3 @@
     </div>
     <!-- //adoption-->
 </asp:Content>
-

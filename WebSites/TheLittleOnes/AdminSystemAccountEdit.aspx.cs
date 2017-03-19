@@ -10,19 +10,15 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class AdminSystemAccountEdit : BasePage
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
     private CheckBox UICtrlCheckbox;
     private DropDownList UICtrlDropdownlist;
-
     private static int GVRowID;
     private static int gvPageSize = 5; // default
-
     private static DataTable dTableAccountInfo;
-
     protected void Page_Load(object sender, EventArgs e)
     {
         Page.Form.Attributes.Add("enctype", "multipart/form-data");
@@ -46,7 +42,6 @@ public partial class AdminSystemAccountEdit : BasePage
         DDLAccountType.Items.Add(new ListItem(AccountType.WebShelterGroup.ToString(), AccountType.WebShelterGroup.ToString()));
         DDLAccountType.Items.Add(new ListItem(AccountType.WebSponsorGroup.ToString(), AccountType.WebSponsorGroup.ToString()));
         DDLAccountType.Items.Add(new ListItem(AccountType.WebUser.ToString(), AccountType.WebUser.ToString()));
-
         if (DDLShopInfo.Items.Count <= 1)
         {
             ListItem firstItemDDLShopInfo = DDLShopInfo.Items[0];
@@ -56,7 +51,6 @@ public partial class AdminSystemAccountEdit : BasePage
         }
     }
     #endregion
-
     #region Button Clicks
     // Preview image uploaded
     protected void BTNPreview_Click(object sender, EventArgs e)
@@ -86,16 +80,12 @@ public partial class AdminSystemAccountEdit : BasePage
             // reset old password
             string accountPassword = CHKBXReset.Checked ? profileName.ToLower().Replace(" ", "") : editAccountEntity.AccountPassword;
             editShopInfoEntity = shopInfoCtrler.getShopInfo(DDLShopInfo.SelectedValue.ToString());
-
             // create entities
             editProfileEntity = new ProfileEntity(profileID, profileName, profileContact, profileAddress, editPhotoEntities);
             editAccountEntity = new AccountEntity(accountID, accountEmail, accountPassword, accountType, editProfileEntity, editShopInfoEntity, DateTime.Parse(accountDateJoined));
-
-
             // update into database
             editAccountEntity = accountCtrler.updateSystemAccount(editAccountEntity);
             editProfileEntity = profileCtrler.updateSystemProfile(editProfileEntity);
-
             // update photo
             if (editPhotoEntities != null)
             {
@@ -127,7 +117,6 @@ public partial class AdminSystemAccountEdit : BasePage
         LBLErrorMsg.Text = string.Empty;
     }
     #endregion
-
     #region Dropdownlist controls
     protected void DDLDisplayRecordCountSystemAccount_SelectedIndexChanged(object sender, EventArgs e)
     {
@@ -139,7 +128,6 @@ public partial class AdminSystemAccountEdit : BasePage
     }
     protected void DDLShopInfo_SelectedIndexChanged(object sender, EventArgs e)
     {
-
     }
     protected void DDLAccountType_SelectedIndexChanged(object sender, EventArgs e)
     {
@@ -163,7 +151,6 @@ public partial class AdminSystemAccountEdit : BasePage
     protected void DDLOrangisation_SelectedIndexChanged(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-
         if (DDLShopInfo.SelectedIndex == 0)
         {
             PNLShopInfoDetails.Visible = false;
@@ -175,10 +162,8 @@ public partial class AdminSystemAccountEdit : BasePage
             editShopInfoEntity = shopInfoCtrler.getShopInfo(DDLShopInfo.SelectedValue);
             loadShopInfo(editShopInfoEntity);
         }
-
     }
     #endregion
-
     #region Gridview
     protected void GVSystemAccountOverview_DataBound(object sender, EventArgs e)
     {
@@ -201,7 +186,6 @@ public partial class AdminSystemAccountEdit : BasePage
                 e.Row.Cells[GVSystemAccountOverview.Columns.Count-1].CssClass = "hide";
             }
         }
-
     }
     protected void GVSystemAccountOverview_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
     {
@@ -226,7 +210,6 @@ public partial class AdminSystemAccountEdit : BasePage
         filterAccountInfo();
     }
     #endregion
-
     #region Logical Methods
     // Check Required Fields
     private bool checkRequiredFields()
@@ -236,23 +219,18 @@ public partial class AdminSystemAccountEdit : BasePage
         bool isProfileNameValid = true;
         bool isProfileContactValid = true;
         bool isShopInfoValid = true;
-
         string accountType = DDLAccountType.SelectedValue.Trim();
         string accountEmail = TBAccountEmail.Text.Trim();
         string profileName = TBProfileName.Text.Trim();
         string profileContact = TBProfileContact.Text.Trim();
-
         if (DDLAccountType.SelectedIndex == 0)
         {
             isAccountTypeValid = false;
         }
-
         if (string.IsNullOrEmpty(accountEmail))
             isAccountEmailValid = false;
-
         if (string.IsNullOrEmpty(profileName))
             isProfileNameValid = false;
-
         if (!string.IsNullOrEmpty(profileContact))
         {
             isProfileContactValid = !(profileContact.Any(x => char.IsLetter(x)));
@@ -265,13 +243,11 @@ public partial class AdminSystemAccountEdit : BasePage
         {
             MessageHandler.ErrorMessage(LBLProfileContact, "Contact - Only digits allowed!");
         }
-
         if (DDLShopInfo.SelectedIndex == 0 &&
            (accountType.Equals(AccountType.WebShelterGroup.ToString()) || accountType.Equals(AccountType.WebSponsorGroup.ToString())))
         {
             isShopInfoValid = false;
         }
-
         // return condition
         if (isAccountTypeValid && isAccountEmailValid && isProfileNameValid && isProfileContactValid && isShopInfoValid)
         {
@@ -360,13 +336,10 @@ public partial class AdminSystemAccountEdit : BasePage
         photoPreview.InnerHtml = string.Empty;
     }
     #endregion
-
     #region Textbox Control
     protected void TBSearchSystemAccount_TextChanged(object sender, EventArgs e)
     {
         filterAccountInfo();
     }
     #endregion
-
-
 }

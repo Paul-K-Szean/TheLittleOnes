@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace TheLittleOnesLibrary.Entities
 {
     public class ShopTimeEntity
@@ -12,7 +11,6 @@ namespace TheLittleOnesLibrary.Entities
         private string dayOfWeek;
         private string openTime;
         private string closeTime;
-
         // Create record
         public ShopTimeEntity(string dayOfWeek, string openTime, string closeTime)
         {
@@ -28,53 +26,45 @@ namespace TheLittleOnesLibrary.Entities
             this.openTime = openTime;
             this.closeTime = closeTime;
         }
-
         public string ShopTimeID
         {
             get
             {
                 return shopTimeID;
             }
-
             set
             {
                 shopTimeID = value;
             }
         }
-
         public string DayOfWeek
         {
             get
             {
                 return dayOfWeek;
             }
-
             set
             {
                 dayOfWeek = value;
             }
         }
-
         public string OpenTime
         {
             get
             {
                 return openTime;
             }
-
             set
             {
                 openTime = value;
             }
         }
-
         public string CloseTime
         {
             get
             {
                 return closeTime;
             }
-
             set
             {
                 closeTime = value;

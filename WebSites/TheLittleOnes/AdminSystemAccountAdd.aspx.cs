@@ -10,14 +10,11 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class AdminSystemAccountAdd : BasePage
 {
-
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
     private DropDownList UICtrlDropdownlist;
-
     private string profileID;
     
     protected void Page_Load(object sender, EventArgs e)
@@ -28,7 +25,6 @@ public partial class AdminSystemAccountAdd : BasePage
             initializeUIControlValues();
         }
     }
-
     #region Initialize UI Control Values
     // Initial UI control values
     private void initializeUIControlValues()
@@ -40,11 +36,8 @@ public partial class AdminSystemAccountAdd : BasePage
         DDLAccountType.Items.Add(new ListItem(AccountType.WebShelterGroup.ToString(), AccountType.WebShelterGroup.ToString()));
         DDLAccountType.Items.Add(new ListItem(AccountType.WebSponsorGroup.ToString(), AccountType.WebSponsorGroup.ToString()));
         DDLAccountType.Items.Add(new ListItem(AccountType.WebUser.ToString(), AccountType.WebUser.ToString()));
-
     }
-
     #endregion
-
     #region Button Click
     protected void BTNAdd_Click(object sender, EventArgs e)
     {
@@ -59,7 +52,6 @@ public partial class AdminSystemAccountAdd : BasePage
             // create entity
             profileEntity = new ProfileEntity(profileName, profileContact, profileAddress, photoEntities);
             accountEntity = new AccountEntity(accountEmail, profileName.ToLower(), accountType, profileEntity, shopInfoEntity);
-
             if (accountCtrler.checkEmailAddressExist(accountEntity.AccountEmail))
             {
                 MessageHandler.ErrorMessage(LBLErrorMsg, "Email already exists");
@@ -68,7 +60,6 @@ public partial class AdminSystemAccountAdd : BasePage
             {
                 // add into database
                 accountEntity = accountCtrler.createAccount(accountEntity);
-
                 // change photo path to database instead of using temp
                 if (photoEntities != null)
                 {
@@ -76,7 +67,6 @@ public partial class AdminSystemAccountAdd : BasePage
                     profileEntity.PhotoEntities =
                         photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, accountEntity.ProfileEntity.ProfileID);
                 }
-
                 if (accountEntity != null)
                 {
                     MessageHandler.SuccessMessage(LBLErrorMsg, "Account info successfully added");
@@ -87,9 +77,7 @@ public partial class AdminSystemAccountAdd : BasePage
                 }
             }
         }
-
     }
-
     protected void BTNGenerate_Click(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -102,7 +90,6 @@ public partial class AdminSystemAccountAdd : BasePage
         TBProfileName.Text = name;
         TBProfileContact.Text = Utility.getRandomNumber(90000000, 99999999).ToString();
         TBAccountEmail.Text = string.Concat(name, "@hotmail.com");
-
         if (accountType.ToLower().Contains("webuser") || accountType.ToLower().Contains("webadmin"))
         {
             LBLOrganisation.Text = "Not applicable";
@@ -132,8 +119,6 @@ public partial class AdminSystemAccountAdd : BasePage
         photoCtrler.previewPhotos(photoPreview);
     }
     #endregion
-
-
     #region Dropdownlist Control
     // Dropdownlist show/hide shop info
     protected void DDLOrangisation_SelectedIndexChanged(object sender, EventArgs e)
@@ -164,13 +149,9 @@ public partial class AdminSystemAccountAdd : BasePage
         {
             LBLOrganisation.Text = "Organisation";
             DDLOrangisation.Visible = true;
-
         }
     }
     #endregion
-
-
-
     #region Logical Methods
     // Shop Info
     private void loadShopInfo(ShopInfoEntity shopInfoEntity)
@@ -180,7 +161,6 @@ public partial class AdminSystemAccountAdd : BasePage
         LBLShopInfoContact.Text = shopInfoEntity.ShopInfoContact;
         LBLShopInfoAddress.Text = shopInfoEntity.ShopInfoAddress;
         LBLShopInfoDesc.Text = shopInfoEntity.ShopInfoDesc;
-
     }
     // Check Required Fields
     private bool checkRequiredFields()
@@ -190,23 +170,18 @@ public partial class AdminSystemAccountAdd : BasePage
         bool isProfileNameValid = true;
         bool isProfileContactValid = true;
         bool isShopInfoValid = true;
-
         string accountType = DDLAccountType.SelectedValue.Trim();
         string accountEmail = TBAccountEmail.Text.Trim();
         string profileName = TBProfileName.Text.Trim();
         string profileContact = TBProfileContact.Text.Trim();
-
         if (DDLAccountType.SelectedIndex == 0)
         {
             isAccountTypeValid = false;
         }
-
         if (string.IsNullOrEmpty(accountEmail))
             isAccountEmailValid = false;
-
         if (string.IsNullOrEmpty(profileName))
             isProfileNameValid = false;
-
         if (!string.IsNullOrEmpty(profileContact))
         {
             isProfileContactValid = !(profileContact.Any(x => char.IsLetter(x)));
@@ -219,14 +194,10 @@ public partial class AdminSystemAccountAdd : BasePage
         {
             MessageHandler.ErrorMessage(LBLProfileContact, "Contact - Only digits allowed!");
         }
-
         if (DDLOrangisation.SelectedIndex == 0 && DDLOrangisation.Visible)
         {
             isShopInfoValid = false;
         }
-
-
-
         // return condition
         if (isAccountTypeValid && isAccountEmailValid && isProfileNameValid && isProfileContactValid && isShopInfoValid)
         {

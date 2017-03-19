@@ -7,12 +7,10 @@ using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
-
 public partial class AdminAccount : BasePage
 {
     string passwordOld;
     string passwordNew;
-
     protected void Page_Load(object sender, EventArgs e)
     {
         if (accountEntity != null)
@@ -21,7 +19,6 @@ public partial class AdminAccount : BasePage
             loadShopInfo();
         }
     }
-
     private void loadShopInfo()
     {
         if (accountEntity.ShopInfoEntity != null)
@@ -32,14 +29,12 @@ public partial class AdminAccount : BasePage
             TBShopInfoAddress.Text = accountEntity.ShopInfoEntity.ShopInfoAddress;
         }
     }
-
     void loadAccountInfo()
     {
         TBAccountID.Text = accountEntity.AccountID;
         TBEmail.Text = accountEntity.AccountEmail;
         TBAccountType.Text = accountEntity.AccountType;
     }
-
     #region Button Clicks
     protected void BTNSave_Click(object sender, EventArgs e)
     {
@@ -69,13 +64,9 @@ public partial class AdminAccount : BasePage
             {
                 MessageHandler.ErrorMessage(LBLErrorMsg, "Invalid old password");
             }
-
         }
-
-
     }
     #endregion
-
     #region Logical Methods
     private bool checkRequiredField(string passwordOld, string passwordNew)
     {
@@ -101,7 +92,6 @@ public partial class AdminAccount : BasePage
                     isRequiredFieldsValid = false;
                     MessageHandler.ErrorMessage(LBLErrorMsg, "New password cannot be the same as old password");
                 }
-
                 // check at least a digit
                 if (!passwordNew.Any(char.IsDigit))
                 {
@@ -110,10 +100,7 @@ public partial class AdminAccount : BasePage
                 }
             }
         }
-
-
         return isRequiredFieldsValid;
     }
     #endregion
-
 }

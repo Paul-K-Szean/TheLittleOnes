@@ -3,96 +3,99 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace TheLittleOnesLibrary.Entities
 {
     public class AdoptRequestEntity
     {
         private string adoptReqID;
-        private string adoptRequesterID;
-        private string adoptInfoID;
+        private AccountEntity accountEntity;
+        private AdoptInfoEntity adoptInfoEntity;
         private DateTime adoptReqDateAppmt;
         private DateTime adoptReqDateCreated;
+        private string adoptReqStatus;
         // Create record
-        public AdoptRequestEntity(string adoptRequesterID, string adoptInfoID, DateTime adoptReqDateAppmt, DateTime adoptReqDateCreated)
+        public AdoptRequestEntity(AccountEntity accountEntity, AdoptInfoEntity adoptInfoEntity, DateTime adoptReqDateAppmt, DateTime adoptReqDateCreated, string adoptReqStatus)
         {
-            this.AdoptRequesterID = adoptRequesterID;
-            this.AdoptInfoID = adoptInfoID;
+            this.accountEntity = accountEntity;
+            this.adoptInfoEntity = adoptInfoEntity;
             this.adoptReqDateAppmt = adoptReqDateAppmt;
             this.AdoptReqDateCreated = adoptReqDateCreated;
+            this.AdoptReqStatus = adoptReqStatus;
         }
         // Retrieve/update records
-        public AdoptRequestEntity(string adoptReqID, string adoptRequesterID, string adoptInfoID, DateTime adoptReqDateAppmt, DateTime adoptReqDateCreated)
+        public AdoptRequestEntity(string adoptReqID, AccountEntity accountEntity, AdoptInfoEntity adoptInfoEntity, DateTime adoptReqDateAppmt, DateTime adoptReqDateCreated, string adoptReqStatus)
         {
             this.AdoptReqID = adoptReqID;
-            this.AdoptRequesterID = adoptRequesterID;
-            this.AdoptInfoID = adoptInfoID;
+            this.accountEntity = accountEntity;
+            this.adoptInfoEntity = adoptInfoEntity;
             this.adoptReqDateAppmt = adoptReqDateAppmt;
             this.AdoptReqDateCreated = adoptReqDateCreated;
+            this.AdoptReqStatus = adoptReqStatus;
         }
-
         public string AdoptReqID
         {
             get
             {
                 return adoptReqID;
             }
-
             set
             {
                 adoptReqID = value;
             }
         }
-
-        public string AdoptRequesterID
+        public AccountEntity AccountEntity
         {
             get
             {
-                return adoptRequesterID;
+                return accountEntity;
             }
-
             set
             {
-                adoptRequesterID = value;
+                accountEntity = value;
             }
         }
-
-        public string AdoptInfoID
+        public AdoptInfoEntity AdoptInfoEntity
         {
             get
             {
-                return adoptInfoID;
+                return adoptInfoEntity;
             }
-
             set
             {
-                adoptInfoID = value;
+                adoptInfoEntity = value;
             }
         }
-
-        public DateTime AdoptReqDateAppmt
+        public DateTime AdoptReqDateTime
         {
             get
             {
                 return adoptReqDateAppmt;
             }
-
             set
             {
                 adoptReqDateAppmt = value;
             }
         }
-
         public DateTime AdoptReqDateCreated
         {
             get
             {
                 return adoptReqDateCreated;
             }
-
             set
             {
                 adoptReqDateCreated = value;
+            }
+        }
+        public string AdoptReqStatus
+        {
+            get
+            {
+                return adoptReqStatus;
+            }
+            set
+            {
+                adoptReqStatus = value;
             }
         }
     }
