@@ -1,0 +1,3592 @@
+20170322@13:55:36 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@13:55:39 [System] getLoggedInAccount 
+20170322@13:55:39 [System] getLoggedInAccount 
+20170322@14:39:24 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@14:39:24 [System] getLoggedInAccount 
+20170322@14:39:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170322@14:39:32 [System] getLoggedInAccount 
+20170322@14:39:32 [System] loadAdoptionInfo 
+20170322@14:39:32 [System] getAdoptInfo 
+20170322@14:39:32 [System] getShopInfo 
+20170322@14:39:32 [System] getShopTime 
+20170322@14:39:32 [System] getLoggedInAccount 
+20170322@14:39:32 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:39:32 [System] getAllAppointmentEntities 
+20170322@14:39:37 [System] getRecord() : The table 'APPOINTMENT' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. 
+20170322@14:42:40 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@14:42:40 [System] getLoggedInAccount 
+20170322@14:42:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170322@14:42:43 [System] getLoggedInAccount 
+20170322@14:42:43 [System] loadAdoptionInfo 
+20170322@14:42:43 [System] getAdoptInfo 
+20170322@14:42:43 [System] getShopInfo 
+20170322@14:42:43 [System] getShopTime 
+20170322@14:42:43 [System] getLoggedInAccount 
+20170322@14:42:44 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:42:44 [System] getAllAppointmentEntities 
+20170322@14:42:44 [System] checkAdoptionDetails 
+20170322@14:42:44 [System] MessageHandler : Please log in first  
+20170322@14:42:44 [System] DLMorePet_ItemDataBound 
+20170322@14:42:44 [System] DLMorePet_ItemDataBound 
+20170322@14:42:44 [System] DLMorePet_ItemDataBound 
+20170322@14:42:44 [System] DLMorePet_ItemDataBound 
+20170322@14:42:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170322@14:42:56 [System] getLoggedInAccount 
+20170322@14:42:56 [System] getLoggedInAccount 
+20170322@14:42:56 [System] BTNLogin_Click 
+20170322@14:42:56 [System] signIn 
+20170322@14:42:56 [System] getShopInfo 
+20170322@14:42:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170322@14:42:56 [System] getLoggedInAccount 
+20170322@14:42:56 [System] loadAdoptionInfo 
+20170322@14:42:56 [System] getAdoptInfo 
+20170322@14:42:56 [System] getShopInfo 
+20170322@14:42:56 [System] getShopTime 
+20170322@14:42:57 [System] getLoggedInAccount 
+20170322@14:42:57 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:42:57 [System] getAllAppointmentEntities 
+20170322@14:42:57 [System] checkAdoptionDetails 
+20170322@14:42:57 [System] checkAppointmentExist 
+20170322@14:42:57 [System] getValue() : Index was outside the bounds of the array. 
+20170322@14:42:57 [System] getUserAppointmentEntity 
+20170322@14:43:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170322@14:43:18 [System] getLoggedInAccount 
+20170322@14:43:18 [System] loadAdoptionInfo 
+20170322@14:43:18 [System] getAdoptInfo 
+20170322@14:43:18 [System] getShopInfo 
+20170322@14:43:18 [System] getShopTime 
+20170322@14:43:18 [System] getLoggedInAccount 
+20170322@14:43:18 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:43:18 [System] getAllAppointmentEntities 
+20170322@14:43:18 [System] checkAdoptionDetails 
+20170322@14:43:18 [System] checkAppointmentExist 
+20170322@14:43:18 [System] getValue() : Index was outside the bounds of the array. 
+20170322@14:43:18 [System] getUserAppointmentEntity 
+20170322@14:43:18 [System] getAccount 
+20170322@14:43:18 [System] getShopInfo 
+20170322@14:43:18 [System] DLMorePet_ItemDataBound 
+20170322@14:43:18 [System] DLMorePet_ItemDataBound 
+20170322@14:43:19 [System] DLMorePet_ItemDataBound 
+20170322@14:43:19 [System] DLMorePet_ItemDataBound 
+20170322@14:43:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:43:29 [System] getLoggedInAccount 
+20170322@14:43:29 [System] loadAdoptionInfo 
+20170322@14:43:29 [System] getAdoptInfo 
+20170322@14:43:29 [System] getShopInfo 
+20170322@14:43:29 [System] getShopTime 
+20170322@14:43:29 [System] getLoggedInAccount 
+20170322@14:43:29 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:43:29 [System] getAllAppointmentEntities 
+20170322@14:43:30 [System] checkAdoptionDetails 
+20170322@14:43:30 [System] checkAppointmentExist 
+20170322@14:43:30 [System] No data found in getValue() 
+20170322@14:43:30 [System] DLMorePet_ItemDataBound 
+20170322@14:43:30 [System] DLMorePet_ItemDataBound 
+20170322@14:43:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:43:35 [System] getLoggedInAccount 
+20170322@14:43:35 [System] getLoggedInAccount 
+20170322@14:43:35 [System] BTNAppmtDate_Click 
+20170322@14:43:35 [System] loadOperatingHours 
+20170322@14:43:36 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170322@14:43:36 [System] MessageHandler : Appointment Date 
+20170322@14:43:36 [System] saveTempAppointment 
+20170322@14:44:06 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170322@14:44:06 [System] signOut 
+20170322@14:44:11 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170322@14:44:11 [System] signOut 
+20170322@14:44:11 [System] signIn 
+20170322@14:44:11 [System] getShopInfo 
+20170322@14:44:11 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170322@14:44:11 [System] getLoggedInAccount 
+20170322@14:44:11 [System] GVPetInfoOverview_DataBound 
+20170322@14:44:11 [System] GVShopInfoOverview_DataBound 
+20170322@14:44:15 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170322@14:44:15 [System] getLoggedInAccount 
+20170322@14:44:15 [System] GVShopInfoOverview_DataBound 
+20170322@14:44:19 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170322@14:44:19 [System] getLoggedInAccount 
+20170322@14:44:19 [System] filterShopInfoData 
+20170322@14:44:19 [System] GVShopInfoOverview_DataBound 
+20170322@14:44:19 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170322@14:44:19 [System] getLoggedInAccount 
+20170322@14:44:21 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170322@14:44:21 [System] getLoggedInAccount 
+20170322@14:44:21 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170322@14:44:21 [System] initializeUIControlValues 
+20170322@14:44:21 [System] getShopInfo 
+20170322@14:44:21 [System] getShopTime 
+20170322@14:44:21 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170322@14:44:31 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170322@14:44:31 [System] getLoggedInAccount 
+20170322@14:44:31 [System] updateShopInfo 
+20170322@14:44:31 [System] Record updated! 
+20170322@14:44:31 [System] deleteShopTime 
+20170322@14:44:31 [System] Record not deleted! Please check through given parameter values 
+20170322@14:44:31 [System] createShopTime 
+20170322@14:44:31 [System] Record created! 
+20170322@14:44:31 [System] Record created! 
+20170322@14:44:31 [System] Record created! 
+20170322@14:44:31 [System] Record created! 
+20170322@14:44:31 [System] GVShopInfoOverview_DataBound 
+20170322@14:44:31 [System] filterShopInfoData 
+20170322@14:44:31 [System] GVShopInfoOverview_DataBound 
+20170322@14:44:34 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170322@14:44:34 [System] getLoggedInAccount 
+20170322@14:44:34 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170322@14:44:34 [System] initializeUIControlValues 
+20170322@14:44:34 [System] getShopInfo 
+20170322@14:44:34 [System] getShopTime 
+20170322@14:44:34 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170322@14:44:36 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170322@14:44:36 [System] getLoggedInAccount 
+20170322@14:44:36 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170322@14:44:36 [System] initializeUIControlValues 
+20170322@14:44:36 [System] getShopInfo 
+20170322@14:44:36 [System] getShopTime 
+20170322@14:44:36 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170322@14:44:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:44:42 [System] getLoggedInAccount 
+20170322@14:44:42 [System] loadAdoptionInfo 
+20170322@14:44:42 [System] getAdoptInfo 
+20170322@14:44:42 [System] getShopInfo 
+20170322@14:44:42 [System] getShopTime 
+20170322@14:44:42 [System] getLoggedInAccount 
+20170322@14:44:42 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:44:42 [System] getAllAppointmentEntities 
+20170322@14:44:42 [System] checkAdoptionDetails 
+20170322@14:44:42 [System] checkAppointmentExist 
+20170322@14:44:42 [System] No data found in getValue() 
+20170322@14:44:42 [System] loadOperatingHours 
+20170322@14:44:43 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170322@14:44:43 [System] MessageHandler : Appointment Date 
+20170322@14:44:43 [System] DLMorePet_ItemDataBound 
+20170322@14:44:43 [System] DLMorePet_ItemDataBound 
+20170322@14:44:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:44:47 [System] getLoggedInAccount 
+20170322@14:44:47 [System] getLoggedInAccount 
+20170322@14:44:47 [System] BTNAppmtDate_Click 
+20170322@14:44:47 [System] loadOperatingHours 
+20170322@14:44:47 [System] MessageHandler : Appointment Time 
+20170322@14:44:47 [System] MessageHandler : Appointment Date (Friday) 
+20170322@14:44:47 [System] getAllAppointmentEntities 
+20170322@14:44:47 [System] saveTempAppointment 
+20170322@14:45:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:45:00 [System] getLoggedInAccount 
+20170322@14:45:00 [System] getLoggedInAccount 
+20170322@14:45:00 [System] DDLAppmtTime_SelectedIndexChanged 
+20170322@14:45:00 [System] saveTempAppointment 
+20170322@14:45:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:45:13 [System] getLoggedInAccount 
+20170322@14:45:13 [System] getLoggedInAccount 
+20170322@14:45:13 [System] BTNAdoptMe_Click 
+20170322@14:45:13 [System] createAppointment 
+20170322@14:45:13 [System] Record created! 
+20170322@14:45:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:45:13 [System] getLoggedInAccount 
+20170322@14:45:13 [System] loadAdoptionInfo 
+20170322@14:45:13 [System] getAdoptInfo 
+20170322@14:45:13 [System] getShopInfo 
+20170322@14:45:13 [System] getShopTime 
+20170322@14:45:13 [System] getLoggedInAccount 
+20170322@14:45:13 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:45:13 [System] getAllAppointmentEntities 
+20170322@14:45:13 [System] checkAdoptionDetails 
+20170322@14:45:13 [System] checkAppointmentExist 
+20170322@14:45:13 [System] No data found in getValue() 
+20170322@14:45:14 [System] loadOperatingHours 
+20170322@14:45:14 [System] MessageHandler : Appointment Time 
+20170322@14:45:14 [System] MessageHandler : Appointment Date (Friday) 
+20170322@14:45:14 [System] getAllAppointmentEntities 
+20170322@14:45:14 [System] DLMorePet_ItemDataBound 
+20170322@14:45:14 [System] DLMorePet_ItemDataBound 
+20170322@14:48:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:48:37 [System] getLoggedInAccount 
+20170322@14:48:37 [System] loadAdoptionInfo 
+20170322@14:48:37 [System] getAdoptInfo 
+20170322@14:48:37 [System] getShopInfo 
+20170322@14:48:37 [System] getShopTime 
+20170322@14:48:37 [System] getLoggedInAccount 
+20170322@14:48:37 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:48:37 [System] getAllAppointmentEntities 
+20170322@14:48:37 [System] checkAdoptionDetails 
+20170322@14:48:37 [System] checkAppointmentExist 
+20170322@14:48:37 [System] No data found in getValue() 
+20170322@14:48:37 [System] loadOperatingHours 
+20170322@14:48:37 [System] MessageHandler : Appointment Time 
+20170322@14:48:37 [System] MessageHandler : Appointment Date (Friday) 
+20170322@14:48:37 [System] getAllAppointmentEntities 
+20170322@14:48:38 [System] DLMorePet_ItemDataBound 
+20170322@14:48:38 [System] DLMorePet_ItemDataBound 
+20170322@14:48:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:48:42 [System] getLoggedInAccount 
+20170322@14:48:42 [System] loadAdoptionInfo 
+20170322@14:48:42 [System] getAdoptInfo 
+20170322@14:48:42 [System] getShopInfo 
+20170322@14:48:42 [System] getShopTime 
+20170322@14:48:42 [System] getLoggedInAccount 
+20170322@14:48:43 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:48:43 [System] getAllAppointmentEntities 
+20170322@14:48:43 [System] checkAdoptionDetails 
+20170322@14:48:43 [System] checkAppointmentExist 
+20170322@14:48:43 [System] No data found in getValue() 
+20170322@14:48:43 [System] loadOperatingHours 
+20170322@14:48:43 [System] MessageHandler : Appointment Time 
+20170322@14:48:43 [System] MessageHandler : Appointment Date (Friday) 
+20170322@14:48:43 [System] getAllAppointmentEntities 
+20170322@14:48:43 [System] DLMorePet_ItemDataBound 
+20170322@14:48:43 [System] DLMorePet_ItemDataBound 
+20170322@14:49:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:49:07 [System] getLoggedInAccount 
+20170322@14:49:07 [System] getLoggedInAccount 
+20170322@14:49:07 [System] LKBTNSignOut_Click 
+20170322@14:49:07 [System] signOut 
+20170322@14:49:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:49:07 [System] getLoggedInAccount 
+20170322@14:49:07 [System] loadAdoptionInfo 
+20170322@14:49:07 [System] getAdoptInfo 
+20170322@14:49:07 [System] getShopInfo 
+20170322@14:49:07 [System] getShopTime 
+20170322@14:49:08 [System] getLoggedInAccount 
+20170322@14:49:08 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:49:08 [System] getAllAppointmentEntities 
+20170322@14:49:08 [System] checkAdoptionDetails 
+20170322@14:49:08 [System] MessageHandler : Please log in first  
+20170322@14:49:08 [System] DLMorePet_ItemDataBound 
+20170322@14:49:08 [System] DLMorePet_ItemDataBound 
+20170322@14:49:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:49:25 [System] getLoggedInAccount 
+20170322@14:49:25 [System] getLoggedInAccount 
+20170322@14:49:25 [System] BTNLogin_Click 
+20170322@14:49:25 [System] signIn 
+20170322@14:49:26 [System] getShopInfo 
+20170322@14:49:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:49:26 [System] getLoggedInAccount 
+20170322@14:49:26 [System] loadAdoptionInfo 
+20170322@14:49:26 [System] getAdoptInfo 
+20170322@14:49:26 [System] getShopInfo 
+20170322@14:49:26 [System] getShopTime 
+20170322@14:49:26 [System] getLoggedInAccount 
+20170322@14:49:26 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:49:26 [System] getAllAppointmentEntities 
+20170322@14:49:26 [System] checkAdoptionDetails 
+20170322@14:49:26 [System] checkAppointmentExist 
+20170322@14:49:26 [System] No data found in getValue() 
+20170322@14:49:26 [System] loadOperatingHours 
+20170322@14:49:26 [System] MessageHandler : Appointment Time 
+20170322@14:49:26 [System] MessageHandler : Appointment Date (Friday) 
+20170322@14:49:26 [System] getAllAppointmentEntities 
+20170322@14:49:26 [System] DLMorePet_ItemDataBound 
+20170322@14:49:26 [System] DLMorePet_ItemDataBound 
+20170322@14:49:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:49:42 [System] getLoggedInAccount 
+20170322@14:49:42 [System] loadAdoptionInfo 
+20170322@14:49:42 [System] getAdoptInfo 
+20170322@14:49:42 [System] getShopInfo 
+20170322@14:49:42 [System] getShopTime 
+20170322@14:49:42 [System] getLoggedInAccount 
+20170322@14:49:42 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:49:42 [System] getAllAppointmentEntities 
+20170322@14:49:42 [System] checkAdoptionDetails 
+20170322@14:49:42 [System] checkAppointmentExist 
+20170322@14:49:42 [System] No data found in getValue() 
+20170322@14:49:42 [System] loadOperatingHours 
+20170322@14:49:42 [System] MessageHandler : Appointment Time 
+20170322@14:49:42 [System] MessageHandler : Appointment Date (Friday) 
+20170322@14:49:42 [System] getAllAppointmentEntities 
+20170322@14:49:42 [System] DLMorePet_ItemDataBound 
+20170322@14:49:42 [System] DLMorePet_ItemDataBound 
+20170322@14:51:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:51:15 [System] getLoggedInAccount 
+20170322@14:51:15 [System] loadAdoptionInfo 
+20170322@14:51:15 [System] getAdoptInfo 
+20170322@14:51:15 [System] getShopInfo 
+20170322@14:51:15 [System] getShopTime 
+20170322@14:51:15 [System] getLoggedInAccount 
+20170322@14:51:15 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:51:15 [System] getAllAppointmentEntities 
+20170322@14:51:15 [System] checkAdoptionDetails 
+20170322@14:51:15 [System] checkAppointmentExist 
+20170322@14:51:15 [System] getValue() : Index was outside the bounds of the array. 
+20170322@14:51:15 [System] getUserAppointmentEntity 
+20170322@14:51:15 [System] getAccount 
+20170322@14:51:15 [System] getShopInfo 
+20170322@14:51:15 [System] DLMorePet_ItemDataBound 
+20170322@14:51:16 [System] DLMorePet_ItemDataBound 
+20170322@14:51:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:51:19 [System] getLoggedInAccount 
+20170322@14:51:19 [System] getLoggedInAccount 
+20170322@14:51:19 [System] LKBTNSignOut_Click 
+20170322@14:51:19 [System] signOut 
+20170322@14:51:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:51:19 [System] getLoggedInAccount 
+20170322@14:51:19 [System] loadAdoptionInfo 
+20170322@14:51:19 [System] getAdoptInfo 
+20170322@14:51:19 [System] getShopInfo 
+20170322@14:51:19 [System] getShopTime 
+20170322@14:51:20 [System] getLoggedInAccount 
+20170322@14:51:20 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:51:20 [System] getAllAppointmentEntities 
+20170322@14:51:20 [System] checkAdoptionDetails 
+20170322@14:51:20 [System] MessageHandler : Please log in first  
+20170322@14:51:20 [System] DLMorePet_ItemDataBound 
+20170322@14:51:20 [System] DLMorePet_ItemDataBound 
+20170322@14:51:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:51:26 [System] getLoggedInAccount 
+20170322@14:51:26 [System] getLoggedInAccount 
+20170322@14:51:26 [System] BTNLogin_Click 
+20170322@14:51:26 [System] signIn 
+20170322@14:51:26 [System] getShopInfo 
+20170322@14:51:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:51:26 [System] getLoggedInAccount 
+20170322@14:51:26 [System] loadAdoptionInfo 
+20170322@14:51:27 [System] getAdoptInfo 
+20170322@14:51:27 [System] getShopInfo 
+20170322@14:51:27 [System] getShopTime 
+20170322@14:51:27 [System] getLoggedInAccount 
+20170322@14:51:27 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:51:27 [System] getAllAppointmentEntities 
+20170322@14:51:27 [System] checkAdoptionDetails 
+20170322@14:51:27 [System] checkAppointmentExist 
+20170322@14:51:27 [System] No data found in getValue() 
+20170322@14:51:27 [System] loadOperatingHours 
+20170322@14:51:27 [System] MessageHandler : Appointment Time 
+20170322@14:51:27 [System] MessageHandler : Appointment Date (Friday) 
+20170322@14:51:27 [System] getAllAppointmentEntities 
+20170322@14:51:27 [System] DLMorePet_ItemDataBound 
+20170322@14:51:27 [System] DLMorePet_ItemDataBound 
+20170322@14:51:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:51:33 [System] getLoggedInAccount 
+20170322@14:51:33 [System] getLoggedInAccount 
+20170322@14:51:33 [System] DDLAppmtTime_SelectedIndexChanged 
+20170322@14:51:33 [System] saveTempAppointment 
+20170322@14:51:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:51:35 [System] getLoggedInAccount 
+20170322@14:51:35 [System] getLoggedInAccount 
+20170322@14:51:35 [System] BTNAdoptMe_Click 
+20170322@14:51:35 [System] createAppointment 
+20170322@14:51:35 [System] Record created! 
+20170322@14:51:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:51:35 [System] getLoggedInAccount 
+20170322@14:51:35 [System] loadAdoptionInfo 
+20170322@14:51:35 [System] getAdoptInfo 
+20170322@14:51:35 [System] getShopInfo 
+20170322@14:51:35 [System] getShopTime 
+20170322@14:51:35 [System] getLoggedInAccount 
+20170322@14:51:35 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:51:35 [System] getAllAppointmentEntities 
+20170322@14:51:35 [System] checkAdoptionDetails 
+20170322@14:51:35 [System] checkAppointmentExist 
+20170322@14:51:35 [System] No data found in getValue() 
+20170322@14:51:35 [System] loadOperatingHours 
+20170322@14:51:35 [System] MessageHandler : Appointment Time 
+20170322@14:51:35 [System] MessageHandler : Appointment Date (Friday) 
+20170322@14:51:35 [System] getAllAppointmentEntities 
+20170322@14:51:36 [System] DLMorePet_ItemDataBound 
+20170322@14:51:36 [System] DLMorePet_ItemDataBound 
+20170322@14:52:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:52:50 [System] getLoggedInAccount 
+20170322@14:52:50 [System] getLoggedInAccount 
+20170322@14:52:50 [System] LKBTNSignOut_Click 
+20170322@14:52:50 [System] signOut 
+20170322@14:52:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:52:50 [System] getLoggedInAccount 
+20170322@14:52:50 [System] loadAdoptionInfo 
+20170322@14:52:50 [System] getAdoptInfo 
+20170322@14:52:50 [System] getShopInfo 
+20170322@14:52:50 [System] getShopTime 
+20170322@14:52:50 [System] getLoggedInAccount 
+20170322@14:52:50 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:52:50 [System] getAllAppointmentEntities 
+20170322@14:52:50 [System] checkAdoptionDetails 
+20170322@14:52:50 [System] MessageHandler : Please log in first  
+20170322@14:52:50 [System] DLMorePet_ItemDataBound 
+20170322@14:52:50 [System] DLMorePet_ItemDataBound 
+20170322@14:52:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:52:58 [System] getLoggedInAccount 
+20170322@14:52:58 [System] getLoggedInAccount 
+20170322@14:52:58 [System] BTNLogin_Click 
+20170322@14:52:58 [System] signIn 
+20170322@14:52:58 [System] MessageHandler : Either email or password is invalid 
+20170322@14:53:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:53:03 [System] getLoggedInAccount 
+20170322@14:53:03 [System] getLoggedInAccount 
+20170322@14:53:03 [System] BTNLogin_Click 
+20170322@14:53:03 [System] signIn 
+20170322@14:53:03 [System] MessageHandler : Either email or password is invalid 
+20170322@14:53:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:53:09 [System] getLoggedInAccount 
+20170322@14:53:09 [System] getLoggedInAccount 
+20170322@14:53:09 [System] BTNLogin_Click 
+20170322@14:53:09 [System] signIn 
+20170322@14:53:09 [System] getShopInfo 
+20170322@14:53:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:53:09 [System] getLoggedInAccount 
+20170322@14:53:09 [System] loadAdoptionInfo 
+20170322@14:53:09 [System] getAdoptInfo 
+20170322@14:53:09 [System] getShopInfo 
+20170322@14:53:09 [System] getShopTime 
+20170322@14:53:09 [System] getLoggedInAccount 
+20170322@14:53:10 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:53:10 [System] getAllAppointmentEntities 
+20170322@14:53:10 [System] checkAdoptionDetails 
+20170322@14:53:10 [System] checkAppointmentExist 
+20170322@14:53:10 [System] No data found in getValue() 
+20170322@14:53:10 [System] loadOperatingHours 
+20170322@14:53:10 [System] MessageHandler : Appointment Time 
+20170322@14:53:10 [System] MessageHandler : Appointment Date (Friday) 
+20170322@14:53:10 [System] getAllAppointmentEntities 
+20170322@14:53:10 [System] DLMorePet_ItemDataBound 
+20170322@14:53:10 [System] DLMorePet_ItemDataBound 
+20170322@14:53:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:53:14 [System] getLoggedInAccount 
+20170322@14:53:14 [System] getLoggedInAccount 
+20170322@14:53:14 [System] DDLAppmtTime_SelectedIndexChanged 
+20170322@14:53:14 [System] saveTempAppointment 
+20170322@14:53:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:53:14 [System] getLoggedInAccount 
+20170322@14:53:14 [System] getLoggedInAccount 
+20170322@14:53:14 [System] BTNAdoptMe_Click 
+20170322@14:53:14 [System] createAppointment 
+20170322@14:53:14 [System] Record created! 
+20170322@14:53:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@14:53:14 [System] getLoggedInAccount 
+20170322@14:53:14 [System] loadAdoptionInfo 
+20170322@14:53:14 [System] getAdoptInfo 
+20170322@14:53:14 [System] getShopInfo 
+20170322@14:53:14 [System] getShopTime 
+20170322@14:53:15 [System] getLoggedInAccount 
+20170322@14:53:15 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:53:15 [System] getAllAppointmentEntities 
+20170322@14:53:15 [System] checkAdoptionDetails 
+20170322@14:53:15 [System] checkAppointmentExist 
+20170322@14:53:15 [System] No data found in getValue() 
+20170322@14:53:15 [System] loadOperatingHours 
+20170322@14:53:15 [System] MessageHandler : Appointment Time 
+20170322@14:53:15 [System] MessageHandler : Appointment Date (Friday) 
+20170322@14:53:15 [System] getAllAppointmentEntities 
+20170322@14:53:15 [System] DLMorePet_ItemDataBound 
+20170322@14:53:15 [System] DLMorePet_ItemDataBound 
+20170322@14:53:48 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@14:53:49 [System] getLoggedInAccount 
+20170322@14:54:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170322@14:54:53 [System] getLoggedInAccount 
+20170322@14:54:53 [System] loadAdoptionInfo 
+20170322@14:54:53 [System] getAdoptInfo 
+20170322@14:54:53 [System] getShopInfo 
+20170322@14:54:54 [System] getShopTime 
+20170322@14:54:54 [System] getLoggedInAccount 
+20170322@14:54:54 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:54:54 [System] getAllAppointmentEntities 
+20170322@14:54:54 [System] checkAdoptionDetails 
+20170322@14:54:54 [System] MessageHandler : Please log in first  
+20170322@14:54:54 [System] DLMorePet_ItemDataBound 
+20170322@14:54:54 [System] DLMorePet_ItemDataBound 
+20170322@14:54:54 [System] DLMorePet_ItemDataBound 
+20170322@14:54:54 [System] DLMorePet_ItemDataBound 
+20170322@14:59:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170322@14:59:40 [System] getLoggedInAccount 
+20170322@14:59:41 [System] getLoggedInAccount 
+20170322@14:59:41 [System] BTNLogin_Click 
+20170322@14:59:41 [System] signIn 
+20170322@14:59:41 [System] getShopInfo 
+20170322@14:59:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170322@14:59:41 [System] getLoggedInAccount 
+20170322@14:59:41 [System] loadAdoptionInfo 
+20170322@14:59:41 [System] getAdoptInfo 
+20170322@14:59:41 [System] getShopInfo 
+20170322@14:59:41 [System] getShopTime 
+20170322@14:59:41 [System] getLoggedInAccount 
+20170322@14:59:41 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:59:41 [System] getAllAppointmentEntities 
+20170322@14:59:41 [System] checkAdoptionDetails 
+20170322@14:59:41 [System] checkAppointmentExist 
+20170322@14:59:41 [System] No data found in getValue() 
+20170322@14:59:41 [System] DLMorePet_ItemDataBound 
+20170322@14:59:41 [System] DLMorePet_ItemDataBound 
+20170322@14:59:41 [System] DLMorePet_ItemDataBound 
+20170322@14:59:42 [System] DLMorePet_ItemDataBound 
+20170322@14:59:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170322@14:59:45 [System] getLoggedInAccount 
+20170322@14:59:45 [System] getLoggedInAccount 
+20170322@14:59:45 [System] BTNAppmtDate_Click 
+20170322@14:59:45 [System] loadOperatingHours 
+20170322@14:59:45 [System] MessageHandler : Appointment Time 
+20170322@14:59:45 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@14:59:45 [System] getAllAppointmentEntities 
+20170322@14:59:45 [System] saveTempAppointment 
+20170322@14:59:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170322@14:59:49 [System] getLoggedInAccount 
+20170322@14:59:49 [System] getLoggedInAccount 
+20170322@14:59:49 [System] DDLAppmtTime_SelectedIndexChanged 
+20170322@14:59:49 [System] saveTempAppointment 
+20170322@14:59:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170322@14:59:50 [System] getLoggedInAccount 
+20170322@14:59:50 [System] getLoggedInAccount 
+20170322@14:59:50 [System] BTNAdoptMe_Click 
+20170322@14:59:50 [System] createAppointment 
+20170322@14:59:50 [System] Record created! 
+20170322@14:59:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170322@14:59:50 [System] getLoggedInAccount 
+20170322@14:59:50 [System] loadAdoptionInfo 
+20170322@14:59:50 [System] getAdoptInfo 
+20170322@14:59:51 [System] getShopInfo 
+20170322@14:59:51 [System] getShopTime 
+20170322@14:59:51 [System] getLoggedInAccount 
+20170322@14:59:51 [System] DLAdoptInfo_ItemDataBound 
+20170322@14:59:51 [System] getAllAppointmentEntities 
+20170322@14:59:51 [System] checkAdoptionDetails 
+20170322@14:59:51 [System] checkAppointmentExist 
+20170322@14:59:51 [System] getValue() : Index was outside the bounds of the array. 
+20170322@14:59:51 [System] getUserAppointmentEntity 
+20170322@14:59:51 [System] getAccount 
+20170322@14:59:51 [System] getShopInfo 
+20170322@14:59:51 [System] DLMorePet_ItemDataBound 
+20170322@14:59:51 [System] DLMorePet_ItemDataBound 
+20170322@14:59:51 [System] DLMorePet_ItemDataBound 
+20170322@14:59:52 [System] DLMorePet_ItemDataBound 
+20170322@14:59:57 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@14:59:57 [System] getLoggedInAccount 
+20170322@14:59:57 [System] getLoggedInAccount 
+20170322@15:01:45 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:01:45 [System] getLoggedInAccount 
+20170322@15:01:45 [System] getLoggedInAccount 
+20170322@15:15:51 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:15:51 [System] getLoggedInAccount 
+20170322@15:15:51 [System] getLoggedInAccount 
+20170322@15:15:51 [System] GVAppointment_DataBound 
+20170322@15:16:25 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:16:25 [System] getLoggedInAccount 
+20170322@15:16:25 [System] getLoggedInAccount 
+20170322@15:16:25 [System] GVAppointment_DataBound 
+20170322@15:17:25 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:17:25 [System] getLoggedInAccount 
+20170322@15:17:25 [System] getLoggedInAccount 
+20170322@15:17:25 [System] GVAppointment_DataBound 
+20170322@15:19:36 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:19:36 [System] getLoggedInAccount 
+20170322@15:19:36 [System] getLoggedInAccount 
+20170322@15:19:36 [System] GVAppointment_DataBound 
+20170322@15:19:56 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:20:16 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:20:37 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:20:37 [System] getLoggedInAccount 
+20170322@15:20:46 [System] getLoggedInAccount 
+20170322@15:20:46 [System] BTNLogin_Click 
+20170322@15:20:46 [System] signIn 
+20170322@15:20:47 [System] getShopInfo 
+20170322@15:20:47 [System] getLoggedInAccount 
+20170322@15:20:49 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:20:50 [System] getLoggedInAccount 
+20170322@15:23:26 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:36 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:36 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:36 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:36 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:23:36 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:24:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:27 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:25:27 [System] getLoggedInAccount 
+20170322@15:25:27 [System] No account logged in 
+20170322@15:25:27 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:27 [System] getLoggedInAccount 
+20170322@15:25:27 [System] No account logged in 
+20170322@15:25:28 [System] getLoggedInAccount 
+20170322@15:25:28 [System] getLoggedInAccount 
+20170322@15:25:38 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:38 [System] getLoggedInAccount 
+20170322@15:25:38 [System] No account logged in 
+20170322@15:25:38 [System] getLoggedInAccount 
+20170322@15:25:38 [System] getLoggedInAccount 
+20170322@15:25:38 [System] BTNLogin_Click 
+20170322@15:25:38 [System] signIn 
+20170322@15:25:39 [System] getShopInfo 
+20170322@15:25:39 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:25:39 [System] getLoggedInAccount 
+20170322@15:25:39 [System] getLoggedInAccount 
+20170322@15:25:39 [System] getLoggedInAccount 
+20170322@15:25:44 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:25:44 [System] getLoggedInAccount 
+20170322@15:25:45 [System] getLoggedInAccount 
+20170322@15:25:45 [System] getLoggedInAccount 
+20170322@15:25:45 [System] GVAppointment_DataBound 
+20170322@15:25:56 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:25:56 [System] getLoggedInAccount 
+20170322@15:25:56 [System] getLoggedInAccount 
+20170322@15:25:56 [System] getLoggedInAccount 
+20170322@15:25:56 [System] GVAppointment_DataBound 
+20170322@15:25:58 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:25:58 [System] getLoggedInAccount 
+20170322@15:25:58 [System] getLoggedInAccount 
+20170322@15:25:58 [System] getLoggedInAccount 
+20170322@15:25:58 [System] GVAppointment_DataBound 
+20170322@15:28:42 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:28:42 [System] getLoggedInAccount 
+20170322@15:28:42 [System] getLoggedInAccount 
+20170322@15:28:42 [System] getLoggedInAccount 
+20170322@15:28:42 [System] GVAppointment_DataBound 
+20170322@15:28:57 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:28:57 [System] getLoggedInAccount 
+20170322@15:28:57 [System] getLoggedInAccount 
+20170322@15:28:57 [System] getLoggedInAccount 
+20170322@15:28:57 [System] GVAppointment_DataBound 
+20170322@15:30:26 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:30:26 [System] getLoggedInAccount 
+20170322@15:30:26 [System] getLoggedInAccount 
+20170322@15:30:26 [System] getLoggedInAccount 
+20170322@15:30:26 [System] GVAppointment_DataBound 
+20170322@15:31:17 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:31:17 [System] getLoggedInAccount 
+20170322@15:31:17 [System] getLoggedInAccount 
+20170322@15:31:17 [System] getLoggedInAccount 
+20170322@15:31:17 [System] GVAppointment_DataBound 
+20170322@15:33:59 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:33:59 [System] getLoggedInAccount 
+20170322@15:33:59 [System] No account logged in 
+20170322@15:33:59 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:33:59 [System] getLoggedInAccount 
+20170322@15:33:59 [System] No account logged in 
+20170322@15:33:59 [System] getLoggedInAccount 
+20170322@15:33:59 [System] getLoggedInAccount 
+20170322@15:34:08 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:34:08 [System] getLoggedInAccount 
+20170322@15:34:08 [System] No account logged in 
+20170322@15:34:08 [System] getLoggedInAccount 
+20170322@15:34:08 [System] getLoggedInAccount 
+20170322@15:34:08 [System] BTNLogin_Click 
+20170322@15:34:08 [System] signIn 
+20170322@15:34:08 [System] getShopInfo 
+20170322@15:34:08 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:34:08 [System] getLoggedInAccount 
+20170322@15:34:08 [System] getLoggedInAccount 
+20170322@15:34:08 [System] getLoggedInAccount 
+20170322@15:34:12 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:34:12 [System] getLoggedInAccount 
+20170322@15:34:12 [System] getLoggedInAccount 
+20170322@15:34:12 [System] getLoggedInAccount 
+20170322@15:34:13 [System] GVAppointment_DataBound 
+20170322@15:35:29 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:35:29 [System] getLoggedInAccount 
+20170322@15:35:29 [System] getLoggedInAccount 
+20170322@15:35:29 [System] getLoggedInAccount 
+20170322@15:35:29 [System] GVAppointment_DataBound 
+20170322@15:36:04 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:36:04 [System] getLoggedInAccount 
+20170322@15:36:04 [System] getLoggedInAccount 
+20170322@15:36:04 [System] getLoggedInAccount 
+20170322@15:36:04 [System] GVAppointment_DataBound 
+20170322@15:37:55 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:37:55 [System] getLoggedInAccount 
+20170322@15:37:55 [System] getLoggedInAccount 
+20170322@15:37:55 [System] getLoggedInAccount 
+20170322@15:37:55 [System] GVAppointment_DataBound 
+20170322@15:38:45 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:38:45 [System] getLoggedInAccount 
+20170322@15:38:45 [System] getLoggedInAccount 
+20170322@15:38:45 [System] getLoggedInAccount 
+20170322@15:38:45 [System] GVAppointment_DataBound 
+20170322@15:40:34 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170322@15:40:34 [System] signOut 
+20170322@15:40:39 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170322@15:40:39 [System] signOut 
+20170322@15:40:39 [System] signIn 
+20170322@15:40:39 [System] getShopInfo 
+20170322@15:40:39 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170322@15:40:39 [System] getLoggedInAccount 
+20170322@15:40:39 [System] GVPetInfoOverview_DataBound 
+20170322@15:40:39 [System] GVShopInfoOverview_DataBound 
+20170322@15:41:47 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:41:47 [System] getLoggedInAccount 
+20170322@15:41:47 [System] getLoggedInAccount 
+20170322@15:41:47 [System] getLoggedInAccount 
+20170322@15:41:47 [System] GVAppointment_DataBound 
+20170322@15:42:36 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:42:36 [System] getLoggedInAccount 
+20170322@15:42:36 [System] getLoggedInAccount 
+20170322@15:42:36 [System] getLoggedInAccount 
+20170322@15:42:36 [System] GVAppointment_DataBound 
+20170322@15:43:09 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:43:09 [System] getLoggedInAccount 
+20170322@15:43:09 [System] getLoggedInAccount 
+20170322@15:43:09 [System] getLoggedInAccount 
+20170322@15:43:09 [System] GVAppointment_DataBound 
+20170322@15:43:54 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:43:54 [System] getLoggedInAccount 
+20170322@15:43:54 [System] getLoggedInAccount 
+20170322@15:43:54 [System] getLoggedInAccount 
+20170322@15:43:54 [System] GVAppointment_DataBound 
+20170322@15:44:00 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:44:00 [System] getLoggedInAccount 
+20170322@15:44:00 [System] getLoggedInAccount 
+20170322@15:44:00 [System] getLoggedInAccount 
+20170322@15:44:00 [System] GVAppointment_DataBound 
+20170322@15:44:10 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@15:44:10 [System] getLoggedInAccount 
+20170322@15:44:10 [System] No account logged in 
+20170322@15:44:10 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:44:10 [System] getLoggedInAccount 
+20170322@15:44:10 [System] No account logged in 
+20170322@15:44:10 [System] getLoggedInAccount 
+20170322@15:44:10 [System] getLoggedInAccount 
+20170322@15:44:19 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:44:19 [System] getLoggedInAccount 
+20170322@15:44:19 [System] No account logged in 
+20170322@15:44:19 [System] getLoggedInAccount 
+20170322@15:44:19 [System] getLoggedInAccount 
+20170322@15:44:19 [System] BTNLogin_Click 
+20170322@15:44:19 [System] signIn 
+20170322@15:44:19 [System] getShopInfo 
+20170322@15:44:19 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@15:44:19 [System] getLoggedInAccount 
+20170322@15:44:19 [System] getLoggedInAccount 
+20170322@15:44:19 [System] getLoggedInAccount 
+20170322@15:44:23 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:44:23 [System] getLoggedInAccount 
+20170322@15:44:23 [System] getLoggedInAccount 
+20170322@15:44:23 [System] getLoggedInAccount 
+20170322@15:44:23 [System] GVAppointment_DataBound 
+20170322@15:45:13 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:45:13 [System] getLoggedInAccount 
+20170322@15:45:13 [System] getLoggedInAccount 
+20170322@15:45:13 [System] getLoggedInAccount 
+20170322@15:45:13 [System] GVAppointment_DataBound 
+20170322@15:47:57 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:47:57 [System] getLoggedInAccount 
+20170322@15:47:57 [System] getLoggedInAccount 
+20170322@15:47:57 [System] getLoggedInAccount 
+20170322@15:47:57 [System] GVAppointment_DataBound 
+20170322@15:58:16 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:58:16 [System] getLoggedInAccount 
+20170322@15:58:16 [System] getLoggedInAccount 
+20170322@15:58:16 [System] getLoggedInAccount 
+20170322@15:58:17 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:58:17 [System] getLoggedInAccount 
+20170322@15:58:17 [System] getLoggedInAccount 
+20170322@15:58:17 [System] getLoggedInAccount 
+20170322@15:58:17 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:58:17 [System] getLoggedInAccount 
+20170322@15:58:17 [System] getLoggedInAccount 
+20170322@15:58:17 [System] getLoggedInAccount 
+20170322@15:58:18 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@15:58:18 [System] getLoggedInAccount 
+20170322@15:58:18 [System] getLoggedInAccount 
+20170322@15:58:18 [System] getLoggedInAccount 
+20170322@16:01:37 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:01:37 [System] getLoggedInAccount 
+20170322@16:01:37 [System] getLoggedInAccount 
+20170322@16:01:37 [System] getLoggedInAccount 
+20170322@16:01:39 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:01:39 [System] getLoggedInAccount 
+20170322@16:01:39 [System] getLoggedInAccount 
+20170322@16:01:39 [System] getLoggedInAccount 
+20170322@16:01:39 [System] GVAppointment_DataBound 
+20170322@16:02:19 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:02:19 [System] getLoggedInAccount 
+20170322@16:02:19 [System] getLoggedInAccount 
+20170322@16:02:19 [System] getLoggedInAccount 
+20170322@16:02:20 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:02:20 [System] getLoggedInAccount 
+20170322@16:02:20 [System] getLoggedInAccount 
+20170322@16:02:20 [System] getLoggedInAccount 
+20170322@16:02:21 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:02:21 [System] getLoggedInAccount 
+20170322@16:02:21 [System] getLoggedInAccount 
+20170322@16:02:21 [System] getLoggedInAccount 
+20170322@16:02:22 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:02:22 [System] getLoggedInAccount 
+20170322@16:02:22 [System] getLoggedInAccount 
+20170322@16:02:22 [System] getLoggedInAccount 
+20170322@16:02:23 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:02:23 [System] getLoggedInAccount 
+20170322@16:02:23 [System] getLoggedInAccount 
+20170322@16:02:23 [System] getLoggedInAccount 
+20170322@16:02:58 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:02:58 [System] getLoggedInAccount 
+20170322@16:02:58 [System] getLoggedInAccount 
+20170322@16:02:58 [System] getLoggedInAccount 
+20170322@16:02:58 [System] GVAppointment_DataBound 
+20170322@16:03:15 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:03:15 [System] getLoggedInAccount 
+20170322@16:03:15 [System] getLoggedInAccount 
+20170322@16:03:15 [System] getLoggedInAccount 
+20170322@16:03:15 [System] GVAppointment_DataBound 
+20170322@16:03:31 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:03:31 [System] getLoggedInAccount 
+20170322@16:03:31 [System] getLoggedInAccount 
+20170322@16:03:31 [System] getLoggedInAccount 
+20170322@16:03:31 [System] GVAppointment_DataBound 
+20170322@16:54:11 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@16:54:11 [System] getLoggedInAccount 
+20170322@16:54:11 [System] No account logged in 
+20170322@16:54:11 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@16:54:11 [System] getLoggedInAccount 
+20170322@16:54:11 [System] No account logged in 
+20170322@16:54:12 [System] getLoggedInAccount 
+20170322@16:54:12 [System] getLoggedInAccount 
+20170322@16:54:18 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@16:54:18 [System] getLoggedInAccount 
+20170322@16:54:18 [System] No account logged in 
+20170322@16:54:18 [System] getLoggedInAccount 
+20170322@16:54:18 [System] getLoggedInAccount 
+20170322@16:54:18 [System] BTNLogin_Click 
+20170322@16:54:18 [System] signIn 
+20170322@16:54:18 [System] MessageHandler : Either email or password is invalid 
+20170322@16:54:21 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@16:54:21 [System] getLoggedInAccount 
+20170322@16:54:21 [System] No account logged in 
+20170322@16:54:21 [System] getLoggedInAccount 
+20170322@16:54:21 [System] getLoggedInAccount 
+20170322@16:54:21 [System] BTNLogin_Click 
+20170322@16:54:21 [System] signIn 
+20170322@16:54:21 [System] getShopInfo 
+20170322@16:54:21 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@16:54:21 [System] getLoggedInAccount 
+20170322@16:54:21 [System] getLoggedInAccount 
+20170322@16:54:21 [System] getLoggedInAccount 
+20170322@17:15:12 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:15:12 [System] getLoggedInAccount 
+20170322@17:15:13 [System] getLoggedInAccount 
+20170322@17:15:24 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:15:24 [System] getLoggedInAccount 
+20170322@17:15:24 [System] getLoggedInAccount 
+20170322@17:15:24 [System] getLoggedInAccount 
+20170322@17:15:24 [System] GVAppointment_DataBound 
+20170322@17:18:53 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:18:53 [System] getLoggedInAccount 
+20170322@17:18:53 [System] getLoggedInAccount 
+20170322@17:18:53 [System] getLoggedInAccount 
+20170322@17:18:53 [System] GVAppointment_DataBound 
+20170322@17:19:11 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:19:11 [System] getLoggedInAccount 
+20170322@17:19:11 [System] getLoggedInAccount 
+20170322@17:19:11 [System] getLoggedInAccount 
+20170322@17:19:11 [System] GVAppointment_DataBound 
+20170322@17:19:29 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:19:29 [System] getLoggedInAccount 
+20170322@17:19:29 [System] getLoggedInAccount 
+20170322@17:19:29 [System] getLoggedInAccount 
+20170322@17:19:30 [System] GVAppointment_DataBound 
+20170322@17:19:37 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:19:37 [System] getLoggedInAccount 
+20170322@17:19:37 [System] getLoggedInAccount 
+20170322@17:19:37 [System] getLoggedInAccount 
+20170322@17:19:37 [System] GVAppointment_DataBound 
+20170322@17:20:10 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:20:10 [System] getLoggedInAccount 
+20170322@17:20:10 [System] getLoggedInAccount 
+20170322@17:20:10 [System] getLoggedInAccount 
+20170322@17:20:10 [System] GVAppointment_DataBound 
+20170322@17:20:13 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:20:13 [System] getLoggedInAccount 
+20170322@17:20:13 [System] getLoggedInAccount 
+20170322@17:20:13 [System] getLoggedInAccount 
+20170322@17:20:13 [System] GVAppointment_SelectedIndexChanging 
+20170322@17:20:13 [System] GVAppointment_SelectedIndexChanged 
+20170322@17:20:37 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:20:37 [System] getLoggedInAccount 
+20170322@17:20:37 [System] getLoggedInAccount 
+20170322@17:20:37 [System] getLoggedInAccount 
+20170322@17:20:37 [System] GVAppointment_DataBound 
+20170322@17:20:49 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:20:49 [System] getLoggedInAccount 
+20170322@17:20:49 [System] getLoggedInAccount 
+20170322@17:20:49 [System] getLoggedInAccount 
+20170322@17:20:49 [System] GVAppointment_DataBound 
+20170322@17:20:53 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:20:53 [System] getLoggedInAccount 
+20170322@17:20:53 [System] getLoggedInAccount 
+20170322@17:20:53 [System] getLoggedInAccount 
+20170322@17:20:53 [System] GVAppointment_SelectedIndexChanging 
+20170322@17:20:53 [System] GVAppointment_SelectedIndexChanged 
+20170322@17:20:56 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:20:56 [System] getLoggedInAccount 
+20170322@17:20:56 [System] getLoggedInAccount 
+20170322@17:20:56 [System] getLoggedInAccount 
+20170322@17:20:56 [System] GVAppointment_SelectedIndexChanging 
+20170322@17:20:56 [System] GVAppointment_SelectedIndexChanged 
+20170322@17:21:10 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:21:10 [System] getLoggedInAccount 
+20170322@17:21:10 [System] getLoggedInAccount 
+20170322@17:21:10 [System] getLoggedInAccount 
+20170322@17:21:10 [System] GVAppointment_SelectedIndexChanging 
+20170322@17:21:10 [System] GVAppointment_SelectedIndexChanged 
+20170322@17:21:30 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:21:30 [System] getLoggedInAccount 
+20170322@17:21:30 [System] getLoggedInAccount 
+20170322@17:21:30 [System] getLoggedInAccount 
+20170322@17:21:30 [System] GVAppointment_DataBound 
+20170322@17:21:42 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:21:42 [System] getLoggedInAccount 
+20170322@17:21:42 [System] getLoggedInAccount 
+20170322@17:21:42 [System] getLoggedInAccount 
+20170322@17:21:42 [System] GVAppointment_DataBound 
+20170322@17:22:13 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:22:13 [System] getLoggedInAccount 
+20170322@17:22:13 [System] getLoggedInAccount 
+20170322@17:22:13 [System] getLoggedInAccount 
+20170322@17:22:13 [System] GVAppointment_DataBound 
+20170322@17:35:20 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:35:20 [System] getLoggedInAccount 
+20170322@17:35:20 [System] getLoggedInAccount 
+20170322@17:35:20 [System] getLoggedInAccount 
+20170322@17:36:50 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:36:50 [System] getLoggedInAccount 
+20170322@17:36:50 [System] getLoggedInAccount 
+20170322@17:36:50 [System] getLoggedInAccount 
+20170322@17:39:34 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:39:34 [System] getLoggedInAccount 
+20170322@17:39:34 [System] getLoggedInAccount 
+20170322@17:39:34 [System] getLoggedInAccount 
+20170322@17:39:34 [System] GVAppointment_DataBound 
+20170322@17:41:23 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:41:23 [System] getLoggedInAccount 
+20170322@17:41:23 [System] getLoggedInAccount 
+20170322@17:41:23 [System] getLoggedInAccount 
+20170322@17:41:23 [System] GVAppointment_DataBound 
+20170322@17:43:50 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:43:50 [System] getLoggedInAccount 
+20170322@17:43:50 [System] getLoggedInAccount 
+20170322@17:43:50 [System] getLoggedInAccount 
+20170322@17:43:50 [System] GVAppointment_DataBound 
+20170322@17:48:42 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:48:42 [System] getLoggedInAccount 
+20170322@17:48:42 [System] No account logged in 
+20170322@17:48:42 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:48:42 [System] getLoggedInAccount 
+20170322@17:48:42 [System] No account logged in 
+20170322@17:48:42 [System] getLoggedInAccount 
+20170322@17:48:42 [System] getLoggedInAccount 
+20170322@17:48:49 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:48:49 [System] getLoggedInAccount 
+20170322@17:48:49 [System] No account logged in 
+20170322@17:48:49 [System] getLoggedInAccount 
+20170322@17:48:49 [System] getLoggedInAccount 
+20170322@17:48:49 [System] BTNLogin_Click 
+20170322@17:48:49 [System] signIn 
+20170322@17:48:49 [System] getShopInfo 
+20170322@17:48:49 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:48:49 [System] getLoggedInAccount 
+20170322@17:48:49 [System] getLoggedInAccount 
+20170322@17:48:49 [System] getLoggedInAccount 
+20170322@17:48:53 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:48:53 [System] getLoggedInAccount 
+20170322@17:48:53 [System] getLoggedInAccount 
+20170322@17:48:53 [System] getLoggedInAccount 
+20170322@17:50:11 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:50:11 [System] getLoggedInAccount 
+20170322@17:50:11 [System] getLoggedInAccount 
+20170322@17:50:11 [System] getLoggedInAccount 
+20170322@17:50:27 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@17:50:27 [System] getLoggedInAccount 
+20170322@17:50:27 [System] No account logged in 
+20170322@17:50:27 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:50:27 [System] getLoggedInAccount 
+20170322@17:50:27 [System] No account logged in 
+20170322@17:50:28 [System] getLoggedInAccount 
+20170322@17:50:28 [System] getLoggedInAccount 
+20170322@17:50:33 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:50:33 [System] getLoggedInAccount 
+20170322@17:50:33 [System] No account logged in 
+20170322@17:50:33 [System] getLoggedInAccount 
+20170322@17:50:33 [System] getLoggedInAccount 
+20170322@17:50:33 [System] BTNLogin_Click 
+20170322@17:50:33 [System] signIn 
+20170322@17:50:33 [System] getShopInfo 
+20170322@17:50:33 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:50:33 [System] getLoggedInAccount 
+20170322@17:50:33 [System] getLoggedInAccount 
+20170322@17:50:33 [System] getLoggedInAccount 
+20170322@17:51:40 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:51:40 [System] getLoggedInAccount 
+20170322@17:51:40 [System] getLoggedInAccount 
+20170322@17:51:40 [System] getLoggedInAccount 
+20170322@17:52:42 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:52:42 [System] getLoggedInAccount 
+20170322@17:52:42 [System] getLoggedInAccount 
+20170322@17:52:42 [System] getLoggedInAccount 
+20170322@17:52:42 [System] getAdoptInfo 
+20170322@17:52:42 [System] getShopInfo 
+20170322@17:52:43 [System] getShopTime 
+20170322@17:52:43 [System] getAdoptInfo 
+20170322@17:52:43 [System] getShopInfo 
+20170322@17:52:43 [System] getShopTime 
+20170322@17:52:43 [System] GVAppointment_DataBound 
+20170322@17:53:28 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:53:28 [System] getLoggedInAccount 
+20170322@17:53:28 [System] getLoggedInAccount 
+20170322@17:53:28 [System] getLoggedInAccount 
+20170322@17:53:28 [System] getAdoptInfo 
+20170322@17:53:29 [System] getShopInfo 
+20170322@17:53:29 [System] getShopTime 
+20170322@17:53:29 [System] getAdoptInfo 
+20170322@17:53:29 [System] getShopInfo 
+20170322@17:53:29 [System] getShopTime 
+20170322@17:53:29 [System] GVAppointment_DataBound 
+20170322@17:54:22 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:54:23 [System] getLoggedInAccount 
+20170322@17:54:23 [System] getLoggedInAccount 
+20170322@17:54:23 [System] getLoggedInAccount 
+20170322@17:54:23 [System] getAdoptInfo 
+20170322@17:54:23 [System] getShopInfo 
+20170322@17:54:23 [System] getShopTime 
+20170322@17:54:23 [System] getAdoptInfo 
+20170322@17:54:23 [System] getShopInfo 
+20170322@17:54:23 [System] getShopTime 
+20170322@17:54:23 [System] GVAppointment_DataBound 
+20170322@17:54:37 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:54:37 [System] getLoggedInAccount 
+20170322@17:54:37 [System] getLoggedInAccount 
+20170322@17:54:37 [System] getLoggedInAccount 
+20170322@17:54:37 [System] getAdoptInfo 
+20170322@17:54:37 [System] getShopInfo 
+20170322@17:54:37 [System] getShopTime 
+20170322@17:54:37 [System] getAdoptInfo 
+20170322@17:54:37 [System] getShopInfo 
+20170322@17:54:37 [System] getShopTime 
+20170322@17:54:38 [System] GVAppointment_DataBound 
+20170322@17:54:42 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@17:54:42 [System] getLoggedInAccount 
+20170322@17:54:42 [System] getLoggedInAccount 
+20170322@17:54:46 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@17:54:46 [System] getLoggedInAccount 
+20170322@17:54:46 [System] getLoggedInAccount 
+20170322@17:54:46 [System] LKBTNSignOut_Click 
+20170322@17:54:46 [System] signOut 
+20170322@17:54:46 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@17:54:46 [System] getLoggedInAccount 
+20170322@17:54:46 [System] No account logged in 
+20170322@17:54:46 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:54:46 [System] getLoggedInAccount 
+20170322@17:54:46 [System] No account logged in 
+20170322@17:54:46 [System] getLoggedInAccount 
+20170322@17:54:46 [System] getLoggedInAccount 
+20170322@17:54:52 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:54:52 [System] getLoggedInAccount 
+20170322@17:54:52 [System] No account logged in 
+20170322@17:54:52 [System] getLoggedInAccount 
+20170322@17:54:52 [System] getLoggedInAccount 
+20170322@17:54:52 [System] BTNLogin_Click 
+20170322@17:54:52 [System] signIn 
+20170322@17:54:52 [System] getShopInfo 
+20170322@17:54:52 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:54:52 [System] getLoggedInAccount 
+20170322@17:54:52 [System] getLoggedInAccount 
+20170322@17:54:52 [System] getLoggedInAccount 
+20170322@17:54:57 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:54:57 [System] getLoggedInAccount 
+20170322@17:54:57 [System] getLoggedInAccount 
+20170322@17:54:58 [System] getLoggedInAccount 
+20170322@17:54:58 [System] getAdoptInfo 
+20170322@17:54:58 [System] getShopInfo 
+20170322@17:54:58 [System] getShopTime 
+20170322@17:54:58 [System] getAdoptInfo 
+20170322@17:54:58 [System] getShopInfo 
+20170322@17:54:58 [System] getShopTime 
+20170322@17:54:58 [System] getAdoptInfo 
+20170322@17:54:58 [System] getShopInfo 
+20170322@17:54:58 [System] getShopTime 
+20170322@17:54:58 [System] getAdoptInfo 
+20170322@17:54:58 [System] getShopInfo 
+20170322@17:54:59 [System] getShopTime 
+20170322@17:54:59 [System] getAdoptInfo 
+20170322@17:54:59 [System] getShopInfo 
+20170322@17:54:59 [System] getShopTime 
+20170322@17:54:59 [System] GVAppointment_DataBound 
+20170322@17:55:03 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:55:03 [System] getLoggedInAccount 
+20170322@17:55:03 [System] getLoggedInAccount 
+20170322@17:55:03 [System] getLoggedInAccount 
+20170322@17:55:03 [System] LKBTNSignOut_Click 
+20170322@17:55:03 [System] signOut 
+20170322@17:55:03 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:55:03 [System] getLoggedInAccount 
+20170322@17:55:03 [System] No account logged in 
+20170322@17:55:03 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:55:03 [System] getLoggedInAccount 
+20170322@17:55:03 [System] No account logged in 
+20170322@17:55:03 [System] getLoggedInAccount 
+20170322@17:55:03 [System] getLoggedInAccount 
+20170322@17:55:08 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:55:08 [System] getLoggedInAccount 
+20170322@17:55:08 [System] No account logged in 
+20170322@17:55:08 [System] getLoggedInAccount 
+20170322@17:55:08 [System] getLoggedInAccount 
+20170322@17:55:08 [System] BTNLogin_Click 
+20170322@17:55:08 [System] signIn 
+20170322@17:55:08 [System] getShopInfo 
+20170322@17:55:08 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@17:55:08 [System] getLoggedInAccount 
+20170322@17:55:08 [System] getLoggedInAccount 
+20170322@17:55:08 [System] getLoggedInAccount 
+20170322@17:55:10 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:55:10 [System] getLoggedInAccount 
+20170322@17:55:10 [System] getLoggedInAccount 
+20170322@17:55:10 [System] getLoggedInAccount 
+20170322@17:55:10 [System] getAdoptInfo 
+20170322@17:55:10 [System] getShopInfo 
+20170322@17:55:10 [System] getShopTime 
+20170322@17:55:10 [System] getAdoptInfo 
+20170322@17:55:11 [System] getShopInfo 
+20170322@17:55:11 [System] getShopTime 
+20170322@17:55:11 [System] GVAppointment_DataBound 
+20170322@17:58:14 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:58:14 [System] getLoggedInAccount 
+20170322@17:58:14 [System] getLoggedInAccount 
+20170322@17:58:14 [System] getLoggedInAccount 
+20170322@17:58:35 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@17:58:35 [System] getLoggedInAccount 
+20170322@17:58:35 [System] getLoggedInAccount 
+20170322@17:58:35 [System] getLoggedInAccount 
+20170322@17:58:35 [System] getAdoptInfo 
+20170322@17:58:35 [System] getShopInfo 
+20170322@17:58:35 [System] getShopTime 
+20170322@17:58:35 [System] getAdoptInfo 
+20170322@17:58:35 [System] getShopInfo 
+20170322@17:58:35 [System] getShopTime 
+20170322@17:58:35 [System] GVAppointment_DataBound 
+20170322@18:01:14 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:01:14 [System] getLoggedInAccount 
+20170322@18:01:14 [System] getLoggedInAccount 
+20170322@18:01:14 [System] getLoggedInAccount 
+20170322@18:01:14 [System] getAdoptInfo 
+20170322@18:01:15 [System] getShopInfo 
+20170322@18:01:15 [System] getShopTime 
+20170322@18:01:15 [System] getAdoptInfo 
+20170322@18:01:15 [System] getShopInfo 
+20170322@18:01:15 [System] getShopTime 
+20170322@18:01:15 [System] GVAppointment_DataBound 
+20170322@18:01:44 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:01:44 [System] getLoggedInAccount 
+20170322@18:01:44 [System] getLoggedInAccount 
+20170322@18:01:44 [System] getLoggedInAccount 
+20170322@18:01:44 [System] getAdoptInfo 
+20170322@18:01:45 [System] getShopInfo 
+20170322@18:01:45 [System] getShopTime 
+20170322@18:01:45 [System] getAdoptInfo 
+20170322@18:01:45 [System] getShopInfo 
+20170322@18:01:45 [System] getShopTime 
+20170322@18:01:45 [System] GVAppointment_DataBound 
+20170322@18:01:54 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:01:54 [System] getLoggedInAccount 
+20170322@18:01:54 [System] getLoggedInAccount 
+20170322@18:01:54 [System] getLoggedInAccount 
+20170322@18:01:54 [System] getAdoptInfo 
+20170322@18:01:54 [System] getShopInfo 
+20170322@18:01:54 [System] getShopTime 
+20170322@18:01:54 [System] getAdoptInfo 
+20170322@18:01:54 [System] getShopInfo 
+20170322@18:01:54 [System] getShopTime 
+20170322@18:01:54 [System] GVAppointment_DataBound 
+20170322@18:02:06 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:02:06 [System] getLoggedInAccount 
+20170322@18:02:06 [System] getLoggedInAccount 
+20170322@18:02:06 [System] getLoggedInAccount 
+20170322@18:02:06 [System] getAdoptInfo 
+20170322@18:02:06 [System] getShopInfo 
+20170322@18:02:06 [System] getShopTime 
+20170322@18:02:07 [System] getAdoptInfo 
+20170322@18:02:07 [System] getShopInfo 
+20170322@18:02:07 [System] getShopTime 
+20170322@18:02:07 [System] GVAppointment_DataBound 
+20170322@18:02:45 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:02:45 [System] getLoggedInAccount 
+20170322@18:02:45 [System] getLoggedInAccount 
+20170322@18:02:45 [System] getLoggedInAccount 
+20170322@18:02:45 [System] getAdoptInfo 
+20170322@18:02:45 [System] getShopInfo 
+20170322@18:02:45 [System] getShopTime 
+20170322@18:02:45 [System] getAdoptInfo 
+20170322@18:02:45 [System] getShopInfo 
+20170322@18:02:45 [System] getShopTime 
+20170322@18:02:45 [System] GVAppointment_DataBound 
+20170322@18:03:23 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@18:03:23 [System] getLoggedInAccount 
+20170322@18:03:23 [System] getLoggedInAccount 
+20170322@18:03:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170322@18:03:28 [System] getLoggedInAccount 
+20170322@18:03:29 [System] getLoggedInAccount 
+20170322@18:03:29 [System] loadAdoptionInfo 
+20170322@18:03:29 [System] getAdoptInfo 
+20170322@18:03:29 [System] getShopInfo 
+20170322@18:03:29 [System] getShopTime 
+20170322@18:03:29 [System] getLoggedInAccount 
+20170322@18:03:29 [System] DLAdoptInfo_ItemDataBound 
+20170322@18:03:29 [System] getAllAppointmentEntities 
+20170322@18:03:29 [System] checkAdoptionDetails 
+20170322@18:03:29 [System] checkAppointmentExist 
+20170322@18:03:29 [System] No data found in getValue() 
+20170322@18:03:29 [System] DLMorePet_ItemDataBound 
+20170322@18:03:29 [System] DLMorePet_ItemDataBound 
+20170322@18:03:30 [System] DLMorePet_ItemDataBound 
+20170322@18:03:30 [System] DLMorePet_ItemDataBound 
+20170322@18:03:34 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:03:34 [System] getLoggedInAccount 
+20170322@18:03:34 [System] getLoggedInAccount 
+20170322@18:03:34 [System] getLoggedInAccount 
+20170322@18:03:34 [System] getAdoptInfo 
+20170322@18:03:34 [System] getShopInfo 
+20170322@18:03:34 [System] getShopTime 
+20170322@18:03:34 [System] getAdoptInfo 
+20170322@18:03:34 [System] getShopInfo 
+20170322@18:03:34 [System] getShopTime 
+20170322@18:03:34 [System] GVAppointment_DataBound 
+20170322@18:03:59 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:03:59 [System] getLoggedInAccount 
+20170322@18:03:59 [System] getLoggedInAccount 
+20170322@18:03:59 [System] getLoggedInAccount 
+20170322@18:04:00 [System] getAdoptInfo 
+20170322@18:04:00 [System] getShopInfo 
+20170322@18:04:00 [System] getShopTime 
+20170322@18:04:00 [System] getAdoptInfo 
+20170322@18:04:00 [System] getShopInfo 
+20170322@18:04:00 [System] getShopTime 
+20170322@18:04:00 [System] GVAppointment_DataBound 
+20170322@18:04:06 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:04:06 [System] getLoggedInAccount 
+20170322@18:04:06 [System] getLoggedInAccount 
+20170322@18:04:06 [System] getLoggedInAccount 
+20170322@18:04:07 [System] getAdoptInfo 
+20170322@18:04:07 [System] getShopInfo 
+20170322@18:04:07 [System] getShopTime 
+20170322@18:04:07 [System] getAdoptInfo 
+20170322@18:04:07 [System] getShopInfo 
+20170322@18:04:07 [System] getShopTime 
+20170322@18:04:07 [System] GVAppointment_DataBound 
+20170322@18:04:14 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:04:14 [System] getLoggedInAccount 
+20170322@18:04:14 [System] getLoggedInAccount 
+20170322@18:04:14 [System] getLoggedInAccount 
+20170322@18:04:14 [System] getAdoptInfo 
+20170322@18:04:14 [System] getShopInfo 
+20170322@18:04:14 [System] getShopTime 
+20170322@18:04:14 [System] getAdoptInfo 
+20170322@18:04:14 [System] getShopInfo 
+20170322@18:04:14 [System] getShopTime 
+20170322@18:04:15 [System] GVAppointment_DataBound 
+20170322@18:04:42 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:04:42 [System] getLoggedInAccount 
+20170322@18:04:42 [System] getLoggedInAccount 
+20170322@18:04:42 [System] getLoggedInAccount 
+20170322@18:04:42 [System] getAdoptInfo 
+20170322@18:04:42 [System] getShopInfo 
+20170322@18:04:42 [System] getShopTime 
+20170322@18:04:43 [System] getAdoptInfo 
+20170322@18:04:43 [System] getShopInfo 
+20170322@18:04:43 [System] getShopTime 
+20170322@18:04:43 [System] GVAppointment_DataBound 
+20170322@18:05:01 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:05:01 [System] getLoggedInAccount 
+20170322@18:05:01 [System] getLoggedInAccount 
+20170322@18:05:01 [System] getLoggedInAccount 
+20170322@18:05:01 [System] getAdoptInfo 
+20170322@18:05:01 [System] getShopInfo 
+20170322@18:05:01 [System] getShopTime 
+20170322@18:05:01 [System] getAdoptInfo 
+20170322@18:05:01 [System] getShopInfo 
+20170322@18:05:01 [System] getShopTime 
+20170322@18:05:01 [System] GVAppointment_DataBound 
+20170322@18:05:49 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:05:49 [System] getLoggedInAccount 
+20170322@18:05:49 [System] No account logged in 
+20170322@18:05:49 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@18:05:49 [System] getLoggedInAccount 
+20170322@18:05:49 [System] No account logged in 
+20170322@18:05:49 [System] getLoggedInAccount 
+20170322@18:05:49 [System] getLoggedInAccount 
+20170322@18:06:04 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:06:04 [System] getLoggedInAccount 
+20170322@18:06:04 [System] No account logged in 
+20170322@18:06:04 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@18:06:04 [System] getLoggedInAccount 
+20170322@18:06:04 [System] No account logged in 
+20170322@18:06:04 [System] getLoggedInAccount 
+20170322@18:06:04 [System] getLoggedInAccount 
+20170322@18:07:11 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@18:07:11 [System] getLoggedInAccount 
+20170322@18:07:11 [System] No account logged in 
+20170322@18:07:11 [System] getLoggedInAccount 
+20170322@18:07:11 [System] getLoggedInAccount 
+20170322@18:07:11 [System] BTNLogin_Click 
+20170322@18:07:11 [System] signIn 
+20170322@18:07:11 [System] getShopInfo 
+20170322@18:07:11 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@18:07:11 [System] getLoggedInAccount 
+20170322@18:07:11 [System] getLoggedInAccount 
+20170322@18:07:11 [System] getLoggedInAccount 
+20170322@18:07:15 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:07:15 [System] getLoggedInAccount 
+20170322@18:07:15 [System] getLoggedInAccount 
+20170322@18:07:15 [System] getLoggedInAccount 
+20170322@18:07:41 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:07:41 [System] getLoggedInAccount 
+20170322@18:07:41 [System] getLoggedInAccount 
+20170322@18:07:41 [System] getLoggedInAccount 
+20170322@18:07:41 [System] getAdoptInfo 
+20170322@18:07:41 [System] getShopInfo 
+20170322@18:07:41 [System] getShopTime 
+20170322@18:07:42 [System] getAdoptInfo 
+20170322@18:07:42 [System] getShopInfo 
+20170322@18:07:42 [System] getShopTime 
+20170322@18:07:42 [System] GVAppointment_DataBound 
+20170322@18:09:59 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:09:59 [System] getLoggedInAccount 
+20170322@18:09:59 [System] getLoggedInAccount 
+20170322@18:09:59 [System] getLoggedInAccount 
+20170322@18:09:59 [System] getAdoptInfo 
+20170322@18:09:59 [System] getShopInfo 
+20170322@18:09:59 [System] getShopTime 
+20170322@18:09:59 [System] getAdoptInfo 
+20170322@18:09:59 [System] getShopInfo 
+20170322@18:09:59 [System] getShopTime 
+20170322@18:10:30 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:10:30 [System] getLoggedInAccount 
+20170322@18:10:30 [System] getLoggedInAccount 
+20170322@18:10:30 [System] getLoggedInAccount 
+20170322@18:10:30 [System] getAdoptInfo 
+20170322@18:10:30 [System] getShopInfo 
+20170322@18:10:30 [System] getShopTime 
+20170322@18:10:30 [System] getAdoptInfo 
+20170322@18:10:30 [System] getShopInfo 
+20170322@18:10:30 [System] getShopTime 
+20170322@18:10:30 [System] getAdoptInfo 
+20170322@18:10:30 [System] getShopInfo 
+20170322@18:10:30 [System] getShopTime 
+20170322@18:10:30 [System] getAdoptInfo 
+20170322@18:10:30 [System] getShopInfo 
+20170322@18:10:30 [System] getShopTime 
+20170322@18:10:31 [System] GVAppointment_DataBound 
+20170322@18:11:47 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:11:47 [System] getLoggedInAccount 
+20170322@18:11:47 [System] getLoggedInAccount 
+20170322@18:11:47 [System] getLoggedInAccount 
+20170322@18:11:47 [System] getAdoptInfo 
+20170322@18:11:47 [System] getShopInfo 
+20170322@18:11:47 [System] getShopTime 
+20170322@18:11:47 [System] getAdoptInfo 
+20170322@18:11:47 [System] getShopInfo 
+20170322@18:11:47 [System] getShopTime 
+20170322@18:11:47 [System] getAdoptInfo 
+20170322@18:11:47 [System] getShopInfo 
+20170322@18:11:47 [System] getShopTime 
+20170322@18:11:48 [System] getAdoptInfo 
+20170322@18:11:48 [System] getShopInfo 
+20170322@18:11:48 [System] getShopTime 
+20170322@18:11:48 [System] getAdoptInfo 
+20170322@18:12:45 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:12:45 [System] getLoggedInAccount 
+20170322@18:12:45 [System] getLoggedInAccount 
+20170322@18:12:45 [System] getLoggedInAccount 
+20170322@18:12:45 [System] getAdoptInfo 
+20170322@18:12:45 [System] getShopInfo 
+20170322@18:12:46 [System] getShopTime 
+20170322@18:12:46 [System] getAdoptInfo 
+20170322@18:12:46 [System] getShopInfo 
+20170322@18:12:46 [System] getShopTime 
+20170322@18:12:46 [System] getAdoptInfo 
+20170322@18:12:46 [System] getShopInfo 
+20170322@18:12:46 [System] getShopTime 
+20170322@18:12:46 [System] getAdoptInfo 
+20170322@18:12:46 [System] getShopInfo 
+20170322@18:12:46 [System] getShopTime 
+20170322@18:12:46 [System] getAdoptInfo 
+20170322@18:13:40 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@18:13:40 [System] getLoggedInAccount 
+20170322@18:13:40 [System] getLoggedInAccount 
+20170322@18:13:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170322@18:13:49 [System] getLoggedInAccount 
+20170322@18:13:49 [System] getLoggedInAccount 
+20170322@18:13:49 [System] loadAdoptionInfo 
+20170322@18:13:49 [System] getAdoptInfo 
+20170322@18:13:49 [System] getShopInfo 
+20170322@18:13:49 [System] getShopTime 
+20170322@18:13:49 [System] getLoggedInAccount 
+20170322@18:13:49 [System] DLAdoptInfo_ItemDataBound 
+20170322@18:13:49 [System] getAllAppointmentEntities 
+20170322@18:13:49 [System] checkAdoptionDetails 
+20170322@18:13:49 [System] checkAppointmentExist 
+20170322@18:13:49 [System] No data found in getValue() 
+20170322@18:13:49 [System] DLMorePet_ItemDataBound 
+20170322@18:13:50 [System] DLMorePet_ItemDataBound 
+20170322@18:13:50 [System] DLMorePet_ItemDataBound 
+20170322@18:13:50 [System] DLMorePet_ItemDataBound 
+20170322@18:13:54 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:13:54 [System] getLoggedInAccount 
+20170322@18:13:54 [System] getLoggedInAccount 
+20170322@18:13:54 [System] getLoggedInAccount 
+20170322@18:13:54 [System] getAdoptInfo 
+20170322@18:13:54 [System] getShopInfo 
+20170322@18:13:54 [System] getShopTime 
+20170322@18:13:54 [System] getAdoptInfo 
+20170322@18:13:54 [System] getShopInfo 
+20170322@18:13:54 [System] getShopTime 
+20170322@18:13:54 [System] getAdoptInfo 
+20170322@18:13:54 [System] getShopInfo 
+20170322@18:13:54 [System] getShopTime 
+20170322@18:13:54 [System] getAdoptInfo 
+20170322@18:13:54 [System] getShopInfo 
+20170322@18:13:54 [System] getShopTime 
+20170322@18:13:55 [System] getAdoptInfo 
+20170322@18:15:04 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:15:04 [System] getLoggedInAccount 
+20170322@18:15:04 [System] getLoggedInAccount 
+20170322@18:15:04 [System] getLoggedInAccount 
+20170322@18:15:04 [System] getAdoptInfo 
+20170322@18:15:04 [System] getShopInfo 
+20170322@18:15:04 [System] getShopTime 
+20170322@18:15:05 [System] getAdoptInfo 
+20170322@18:15:05 [System] getShopInfo 
+20170322@18:15:05 [System] getShopTime 
+20170322@18:15:05 [System] getAdoptInfo 
+20170322@18:15:05 [System] getShopInfo 
+20170322@18:15:05 [System] getShopTime 
+20170322@18:15:05 [System] getAdoptInfo 
+20170322@18:15:05 [System] getShopInfo 
+20170322@18:15:05 [System] getShopTime 
+20170322@18:15:05 [System] getShopInfo 
+20170322@18:15:05 [System] getShopTime 
+20170322@18:15:05 [System] GVAppointment_DataBound 
+20170322@18:16:01 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:16:01 [System] getLoggedInAccount 
+20170322@18:16:01 [System] getLoggedInAccount 
+20170322@18:16:01 [System] getLoggedInAccount 
+20170322@18:16:01 [System] getAdoptInfo 
+20170322@18:16:01 [System] getShopInfo 
+20170322@18:16:01 [System] getShopTime 
+20170322@18:16:01 [System] getAdoptInfo 
+20170322@18:16:01 [System] getShopInfo 
+20170322@18:16:01 [System] getShopTime 
+20170322@18:16:01 [System] getAdoptInfo 
+20170322@18:16:01 [System] getShopInfo 
+20170322@18:16:01 [System] getShopTime 
+20170322@18:16:01 [System] getAdoptInfo 
+20170322@18:16:02 [System] getShopInfo 
+20170322@18:16:02 [System] getShopTime 
+20170322@18:16:02 [System] getShopInfo 
+20170322@18:16:02 [System] getShopTime 
+20170322@18:16:02 [System] GVAppointment_DataBound 
+20170322@18:16:09 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:16:09 [System] getLoggedInAccount 
+20170322@18:16:09 [System] getLoggedInAccount 
+20170322@18:16:09 [System] getLoggedInAccount 
+20170322@18:16:09 [System] getAdoptInfo 
+20170322@18:16:09 [System] getShopInfo 
+20170322@18:16:09 [System] getShopTime 
+20170322@18:16:09 [System] getAdoptInfo 
+20170322@18:16:09 [System] getShopInfo 
+20170322@18:16:09 [System] getShopTime 
+20170322@18:16:10 [System] getAdoptInfo 
+20170322@18:16:10 [System] getShopInfo 
+20170322@18:16:10 [System] getShopTime 
+20170322@18:16:10 [System] getAdoptInfo 
+20170322@18:16:10 [System] getShopInfo 
+20170322@18:16:10 [System] getShopTime 
+20170322@18:16:10 [System] getShopInfo 
+20170322@18:16:10 [System] getShopTime 
+20170322@18:16:10 [System] GVAppointment_DataBound 
+20170322@18:17:55 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:17:55 [System] getLoggedInAccount 
+20170322@18:17:55 [System] getLoggedInAccount 
+20170322@18:17:55 [System] getLoggedInAccount 
+20170322@18:17:55 [System] getAdoptInfo 
+20170322@18:17:55 [System] getShopInfo 
+20170322@18:17:55 [System] getShopTime 
+20170322@18:17:56 [System] getAdoptInfo 
+20170322@18:17:56 [System] getShopInfo 
+20170322@18:17:56 [System] getShopTime 
+20170322@18:17:56 [System] getAdoptInfo 
+20170322@18:17:56 [System] getShopInfo 
+20170322@18:17:56 [System] getShopTime 
+20170322@18:17:56 [System] getAdoptInfo 
+20170322@18:17:56 [System] getShopInfo 
+20170322@18:17:56 [System] getShopTime 
+20170322@18:17:56 [System] getShopInfo 
+20170322@18:17:56 [System] getShopTime 
+20170322@18:17:56 [System] GVAppointment_DataBound 
+20170322@18:18:09 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:18:09 [System] getLoggedInAccount 
+20170322@18:18:09 [System] getLoggedInAccount 
+20170322@18:18:09 [System] getLoggedInAccount 
+20170322@18:18:09 [System] GVAppointment_SelectedIndexChanging 
+20170322@18:18:09 [System] GVAppointment_SelectedIndexChanged 
+20170322@18:18:11 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:18:11 [System] getLoggedInAccount 
+20170322@18:18:11 [System] getLoggedInAccount 
+20170322@18:18:11 [System] getLoggedInAccount 
+20170322@18:18:11 [System] GVAppointment_SelectedIndexChanging 
+20170322@18:18:11 [System] GVAppointment_SelectedIndexChanged 
+20170322@18:19:01 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:19:01 [System] getLoggedInAccount 
+20170322@18:19:01 [System] getLoggedInAccount 
+20170322@18:19:01 [System] getLoggedInAccount 
+20170322@18:19:01 [System] getAdoptInfo 
+20170322@18:19:01 [System] getShopInfo 
+20170322@18:19:01 [System] getShopTime 
+20170322@18:19:01 [System] getAdoptInfo 
+20170322@18:19:01 [System] getShopInfo 
+20170322@18:19:01 [System] getShopTime 
+20170322@18:19:01 [System] getAdoptInfo 
+20170322@18:19:01 [System] getShopInfo 
+20170322@18:19:02 [System] getShopTime 
+20170322@18:19:02 [System] getAdoptInfo 
+20170322@18:19:02 [System] getShopInfo 
+20170322@18:19:02 [System] getShopTime 
+20170322@18:19:02 [System] getShopInfo 
+20170322@18:19:02 [System] getShopTime 
+20170322@18:19:02 [System] GVAppointment_DataBound 
+20170322@18:19:06 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:19:06 [System] getLoggedInAccount 
+20170322@18:19:06 [System] getLoggedInAccount 
+20170322@18:19:06 [System] getLoggedInAccount 
+20170322@18:19:06 [System] GVAppointment_SelectedIndexChanging 
+20170322@18:19:06 [System] GVAppointment_SelectedIndexChanged 
+20170322@18:19:16 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:19:16 [System] getLoggedInAccount 
+20170322@18:19:16 [System] getLoggedInAccount 
+20170322@18:19:16 [System] getLoggedInAccount 
+20170322@18:19:16 [System] getAdoptInfo 
+20170322@18:19:16 [System] getShopInfo 
+20170322@18:19:16 [System] getShopTime 
+20170322@18:19:16 [System] getAdoptInfo 
+20170322@18:19:16 [System] getShopInfo 
+20170322@18:19:16 [System] getShopTime 
+20170322@18:19:16 [System] getAdoptInfo 
+20170322@18:19:16 [System] getShopInfo 
+20170322@18:19:16 [System] getShopTime 
+20170322@18:19:17 [System] getAdoptInfo 
+20170322@18:19:17 [System] getShopInfo 
+20170322@18:19:17 [System] getShopTime 
+20170322@18:19:17 [System] getShopInfo 
+20170322@18:19:17 [System] getShopTime 
+20170322@18:19:17 [System] GVAppointment_DataBound 
+20170322@18:19:29 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:19:29 [System] getLoggedInAccount 
+20170322@18:19:29 [System] getLoggedInAccount 
+20170322@18:19:29 [System] getLoggedInAccount 
+20170322@18:19:29 [System] getAdoptInfo 
+20170322@18:19:29 [System] getShopInfo 
+20170322@18:19:29 [System] getShopTime 
+20170322@18:19:30 [System] getAdoptInfo 
+20170322@18:19:30 [System] getShopInfo 
+20170322@18:19:30 [System] getShopTime 
+20170322@18:19:30 [System] getAdoptInfo 
+20170322@18:19:30 [System] getShopInfo 
+20170322@18:19:30 [System] getShopTime 
+20170322@18:19:30 [System] getAdoptInfo 
+20170322@18:19:30 [System] getShopInfo 
+20170322@18:19:30 [System] getShopTime 
+20170322@18:19:30 [System] getShopInfo 
+20170322@18:19:30 [System] getShopTime 
+20170322@18:19:31 [System] GVAppointment_DataBound 
+20170322@18:19:41 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@18:19:41 [System] getLoggedInAccount 
+20170322@18:19:41 [System] getLoggedInAccount 
+20170322@18:19:41 [System] getLoggedInAccount 
+20170322@18:19:41 [System] getAdoptInfo 
+20170322@18:19:41 [System] getShopInfo 
+20170322@18:19:41 [System] getShopTime 
+20170322@18:19:41 [System] getAdoptInfo 
+20170322@18:19:41 [System] getShopInfo 
+20170322@18:19:41 [System] getShopTime 
+20170322@18:19:41 [System] getAdoptInfo 
+20170322@18:19:41 [System] getShopInfo 
+20170322@18:19:41 [System] getShopTime 
+20170322@18:19:41 [System] getAdoptInfo 
+20170322@18:19:41 [System] getShopInfo 
+20170322@18:19:41 [System] getShopTime 
+20170322@18:19:42 [System] getShopInfo 
+20170322@18:19:42 [System] getShopTime 
+20170322@18:19:42 [System] GVAppointment_DataBound 
+20170322@20:16:24 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@20:16:24 [System] getLoggedInAccount 
+20170322@20:16:24 [System] getLoggedInAccount 
+20170322@20:16:24 [System] getLoggedInAccount 
+20170322@20:16:24 [System] getAdoptInfo 
+20170322@20:16:24 [System] getShopInfo 
+20170322@20:16:24 [System] getShopTime 
+20170322@20:16:24 [System] getAdoptInfo 
+20170322@20:16:24 [System] getShopInfo 
+20170322@20:16:25 [System] getShopTime 
+20170322@20:16:25 [System] getAdoptInfo 
+20170322@20:16:25 [System] getShopInfo 
+20170322@20:16:25 [System] getShopTime 
+20170322@20:16:25 [System] getAdoptInfo 
+20170322@20:16:25 [System] getShopInfo 
+20170322@20:16:25 [System] getShopTime 
+20170322@20:16:25 [System] getShopInfo 
+20170322@20:16:25 [System] getShopTime 
+20170322@20:16:25 [System] GVAppointment_DataBound 
+20170322@20:16:28 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@20:16:28 [System] getLoggedInAccount 
+20170322@20:16:28 [System] getLoggedInAccount 
+20170322@20:16:28 [System] getLoggedInAccount 
+20170322@20:16:28 [System] GVAppointment_SelectedIndexChanging 
+20170322@20:16:28 [System] GVAppointment_SelectedIndexChanged 
+20170322@20:17:21 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@20:17:21 [System] getLoggedInAccount 
+20170322@20:17:21 [System] No account logged in 
+20170322@20:17:21 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@20:17:21 [System] getLoggedInAccount 
+20170322@20:17:21 [System] No account logged in 
+20170322@20:17:21 [System] getLoggedInAccount 
+20170322@20:17:21 [System] getLoggedInAccount 
+20170322@20:17:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@20:17:28 [System] getLoggedInAccount 
+20170322@20:17:28 [System] No account logged in 
+20170322@20:17:31 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@20:17:31 [System] getLoggedInAccount 
+20170322@20:17:31 [System] No account logged in 
+20170322@20:17:31 [System] getLoggedInAccount 
+20170322@20:17:31 [System] getLoggedInAccount 
+20170322@20:17:31 [System] BTNLogin_Click 
+20170322@20:17:31 [System] signIn 
+20170322@20:17:31 [System] getShopInfo 
+20170322@20:17:31 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@20:17:31 [System] getLoggedInAccount 
+20170322@20:17:31 [System] getLoggedInAccount 
+20170322@20:17:31 [System] getLoggedInAccount 
+20170322@20:17:35 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@20:17:35 [System] getLoggedInAccount 
+20170322@20:17:35 [System] getLoggedInAccount 
+20170322@20:17:35 [System] getLoggedInAccount 
+20170322@20:17:35 [System] getAdoptInfo 
+20170322@20:17:35 [System] getShopInfo 
+20170322@20:17:35 [System] getShopTime 
+20170322@20:17:35 [System] getAdoptInfo 
+20170322@20:17:35 [System] getShopInfo 
+20170322@20:17:35 [System] getShopTime 
+20170322@20:17:35 [System] getAdoptInfo 
+20170322@20:17:35 [System] getShopInfo 
+20170322@20:17:35 [System] getShopTime 
+20170322@20:17:36 [System] getAdoptInfo 
+20170322@20:17:36 [System] getShopInfo 
+20170322@20:17:36 [System] getShopTime 
+20170322@20:17:36 [System] GVAppointment_DataBound 
+20170322@21:35:24 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@21:35:24 [System] getLoggedInAccount 
+20170322@21:35:24 [System] No account logged in 
+20170322@21:35:24 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@21:35:24 [System] getLoggedInAccount 
+20170322@21:35:24 [System] No account logged in 
+20170322@21:35:24 [System] getLoggedInAccount 
+20170322@21:35:24 [System] getLoggedInAccount 
+20170322@21:35:33 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@21:35:33 [System] getLoggedInAccount 
+20170322@21:35:33 [System] No account logged in 
+20170322@21:35:33 [System] getLoggedInAccount 
+20170322@21:35:33 [System] getLoggedInAccount 
+20170322@21:35:33 [System] BTNLogin_Click 
+20170322@21:35:33 [System] signIn 
+20170322@21:35:33 [System] getShopInfo 
+20170322@21:35:33 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@21:35:33 [System] getLoggedInAccount 
+20170322@21:35:33 [System] getLoggedInAccount 
+20170322@21:35:33 [System] getLoggedInAccount 
+20170322@21:35:37 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:35:37 [System] getLoggedInAccount 
+20170322@21:35:37 [System] getLoggedInAccount 
+20170322@21:35:37 [System] getLoggedInAccount 
+20170322@21:35:52 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:35:52 [System] getLoggedInAccount 
+20170322@21:35:52 [System] getLoggedInAccount 
+20170322@21:35:52 [System] getLoggedInAccount 
+20170322@21:35:52 [System] getAdoptInfo 
+20170322@21:35:52 [System] getShopInfo 
+20170322@21:35:52 [System] getShopTime 
+20170322@21:35:52 [System] getAdoptInfo 
+20170322@21:35:52 [System] getShopInfo 
+20170322@21:35:52 [System] getShopTime 
+20170322@21:35:53 [System] getAdoptInfo 
+20170322@21:35:53 [System] getShopInfo 
+20170322@21:35:53 [System] getShopTime 
+20170322@21:35:53 [System] getAdoptInfo 
+20170322@21:35:53 [System] getShopInfo 
+20170322@21:35:53 [System] getShopTime 
+20170322@21:35:53 [System] getShopInfo 
+20170322@21:35:53 [System] getShopTime 
+20170322@21:35:53 [System] GVAppointment_DataBound 
+20170322@21:36:09 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:36:09 [System] getLoggedInAccount 
+20170322@21:36:09 [System] getLoggedInAccount 
+20170322@21:36:09 [System] getLoggedInAccount 
+20170322@21:36:09 [System] getAdoptInfo 
+20170322@21:36:09 [System] getShopInfo 
+20170322@21:36:09 [System] getShopTime 
+20170322@21:36:09 [System] getAdoptInfo 
+20170322@21:36:09 [System] getShopInfo 
+20170322@21:36:09 [System] getShopTime 
+20170322@21:36:09 [System] getAdoptInfo 
+20170322@21:36:09 [System] getShopInfo 
+20170322@21:36:09 [System] getShopTime 
+20170322@21:36:10 [System] getAdoptInfo 
+20170322@21:36:10 [System] getShopInfo 
+20170322@21:36:10 [System] getShopTime 
+20170322@21:36:10 [System] getShopInfo 
+20170322@21:36:10 [System] getShopTime 
+20170322@21:36:10 [System] GVAppointment_DataBound 
+20170322@21:37:00 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:37:00 [System] getLoggedInAccount 
+20170322@21:37:00 [System] getLoggedInAccount 
+20170322@21:37:00 [System] getLoggedInAccount 
+20170322@21:37:00 [System] getAdoptInfo 
+20170322@21:37:00 [System] getShopInfo 
+20170322@21:37:00 [System] getShopTime 
+20170322@21:37:00 [System] getAdoptInfo 
+20170322@21:37:00 [System] getShopInfo 
+20170322@21:37:00 [System] getShopTime 
+20170322@21:37:00 [System] getAdoptInfo 
+20170322@21:37:00 [System] getShopInfo 
+20170322@21:37:01 [System] getShopTime 
+20170322@21:37:01 [System] getAdoptInfo 
+20170322@21:37:01 [System] getShopInfo 
+20170322@21:37:01 [System] getShopTime 
+20170322@21:37:01 [System] getShopInfo 
+20170322@21:37:01 [System] getShopTime 
+20170322@21:37:01 [System] GVAppointment_DataBound 
+20170322@21:37:54 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:37:54 [System] getLoggedInAccount 
+20170322@21:37:54 [System] getLoggedInAccount 
+20170322@21:37:54 [System] getLoggedInAccount 
+20170322@21:37:54 [System] getAdoptInfo 
+20170322@21:37:54 [System] getShopInfo 
+20170322@21:37:54 [System] getShopTime 
+20170322@21:37:54 [System] getAdoptInfo 
+20170322@21:37:54 [System] getShopInfo 
+20170322@21:37:54 [System] getShopTime 
+20170322@21:37:54 [System] getAdoptInfo 
+20170322@21:37:54 [System] getShopInfo 
+20170322@21:37:54 [System] getShopTime 
+20170322@21:37:54 [System] getAdoptInfo 
+20170322@21:37:54 [System] getShopInfo 
+20170322@21:37:54 [System] getShopTime 
+20170322@21:37:55 [System] getShopInfo 
+20170322@21:37:55 [System] getShopTime 
+20170322@21:37:55 [System] GVAppointment_DataBound 
+20170322@21:38:03 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:38:03 [System] getLoggedInAccount 
+20170322@21:38:03 [System] getLoggedInAccount 
+20170322@21:38:03 [System] getLoggedInAccount 
+20170322@21:38:03 [System] getAdoptInfo 
+20170322@21:38:04 [System] getShopInfo 
+20170322@21:38:04 [System] getShopTime 
+20170322@21:38:04 [System] getAdoptInfo 
+20170322@21:38:04 [System] getShopInfo 
+20170322@21:38:04 [System] getShopTime 
+20170322@21:38:04 [System] getAdoptInfo 
+20170322@21:38:04 [System] getShopInfo 
+20170322@21:38:04 [System] getShopTime 
+20170322@21:38:04 [System] getAdoptInfo 
+20170322@21:38:04 [System] getShopInfo 
+20170322@21:38:04 [System] getShopTime 
+20170322@21:38:05 [System] getShopInfo 
+20170322@21:38:05 [System] getShopTime 
+20170322@21:38:05 [System] GVAppointment_DataBound 
+20170322@21:38:25 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:38:25 [System] getLoggedInAccount 
+20170322@21:38:26 [System] getLoggedInAccount 
+20170322@21:38:26 [System] getLoggedInAccount 
+20170322@21:38:26 [System] getAdoptInfo 
+20170322@21:38:26 [System] getShopInfo 
+20170322@21:38:26 [System] getShopTime 
+20170322@21:38:26 [System] getAdoptInfo 
+20170322@21:38:26 [System] getShopInfo 
+20170322@21:38:26 [System] getShopTime 
+20170322@21:38:26 [System] getAdoptInfo 
+20170322@21:38:26 [System] getShopInfo 
+20170322@21:38:26 [System] getShopTime 
+20170322@21:38:26 [System] getAdoptInfo 
+20170322@21:38:26 [System] getShopInfo 
+20170322@21:38:26 [System] getShopTime 
+20170322@21:38:27 [System] getShopInfo 
+20170322@21:38:27 [System] getShopTime 
+20170322@21:38:27 [System] GVAppointment_DataBound 
+20170322@21:40:53 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:40:53 [System] getLoggedInAccount 
+20170322@21:40:53 [System] getLoggedInAccount 
+20170322@21:40:53 [System] getLoggedInAccount 
+20170322@21:40:53 [System] getAdoptInfo 
+20170322@21:40:53 [System] getShopInfo 
+20170322@21:40:53 [System] getShopTime 
+20170322@21:40:54 [System] getAdoptInfo 
+20170322@21:40:54 [System] getShopInfo 
+20170322@21:40:54 [System] getShopTime 
+20170322@21:40:54 [System] getAdoptInfo 
+20170322@21:40:54 [System] getShopInfo 
+20170322@21:40:54 [System] getShopTime 
+20170322@21:40:54 [System] getAdoptInfo 
+20170322@21:40:54 [System] getShopInfo 
+20170322@21:40:54 [System] getShopTime 
+20170322@21:40:54 [System] getShopInfo 
+20170322@21:40:54 [System] getShopTime 
+20170322@21:40:54 [System] GVAppointment_DataBound 
+20170322@21:44:27 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:44:28 [System] getLoggedInAccount 
+20170322@21:44:28 [System] getLoggedInAccount 
+20170322@21:44:28 [System] getLoggedInAccount 
+20170322@21:44:28 [System] getAdoptInfo 
+20170322@21:44:28 [System] getShopInfo 
+20170322@21:44:28 [System] getShopTime 
+20170322@21:44:28 [System] getAdoptInfo 
+20170322@21:44:28 [System] getShopInfo 
+20170322@21:44:28 [System] getShopTime 
+20170322@21:44:28 [System] getAdoptInfo 
+20170322@21:44:28 [System] getShopInfo 
+20170322@21:44:28 [System] getShopTime 
+20170322@21:44:28 [System] getAdoptInfo 
+20170322@21:44:28 [System] getShopInfo 
+20170322@21:44:28 [System] getShopTime 
+20170322@21:44:29 [System] getShopInfo 
+20170322@21:44:29 [System] getShopTime 
+20170322@21:44:29 [System] GVAppointment_DataBound 
+20170322@21:44:33 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:44:33 [System] getLoggedInAccount 
+20170322@21:44:33 [System] getLoggedInAccount 
+20170322@21:44:33 [System] getLoggedInAccount 
+20170322@21:44:33 [System] GVAppointment_SelectedIndexChanging 
+20170322@21:44:34 [System] getUserAppointmentEntity 
+20170322@21:45:35 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@21:45:35 [System] getLoggedInAccount 
+20170322@21:45:35 [System] No account logged in 
+20170322@21:45:35 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@21:45:35 [System] getLoggedInAccount 
+20170322@21:45:35 [System] No account logged in 
+20170322@21:45:36 [System] getLoggedInAccount 
+20170322@21:45:36 [System] getLoggedInAccount 
+20170322@21:47:49 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@21:47:49 [System] getLoggedInAccount 
+20170322@21:47:49 [System] No account logged in 
+20170322@21:47:49 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@21:47:49 [System] getLoggedInAccount 
+20170322@21:47:50 [System] No account logged in 
+20170322@21:47:50 [System] getLoggedInAccount 
+20170322@21:47:50 [System] getLoggedInAccount 
+20170322@21:48:21 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@21:48:21 [System] getLoggedInAccount 
+20170322@21:48:21 [System] No account logged in 
+20170322@21:48:21 [System] getLoggedInAccount 
+20170322@21:48:21 [System] getLoggedInAccount 
+20170322@21:48:21 [System] BTNLogin_Click 
+20170322@21:48:21 [System] signIn 
+20170322@21:48:22 [System] getShopInfo 
+20170322@21:48:22 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@21:48:22 [System] getLoggedInAccount 
+20170322@21:48:22 [System] getLoggedInAccount 
+20170322@21:48:22 [System] getLoggedInAccount 
+20170322@21:49:17 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:49:17 [System] getLoggedInAccount 
+20170322@21:49:17 [System] getLoggedInAccount 
+20170322@21:49:17 [System] getLoggedInAccount 
+20170322@21:49:17 [System] getAdoptInfo 
+20170322@21:49:17 [System] getShopInfo 
+20170322@21:49:17 [System] getShopTime 
+20170322@21:49:18 [System] getAdoptInfo 
+20170322@21:49:18 [System] getShopInfo 
+20170322@21:49:18 [System] getShopTime 
+20170322@21:49:18 [System] getAdoptInfo 
+20170322@21:49:18 [System] getShopInfo 
+20170322@21:49:18 [System] getShopTime 
+20170322@21:49:18 [System] getAdoptInfo 
+20170322@21:49:18 [System] getShopInfo 
+20170322@21:49:18 [System] getShopTime 
+20170322@21:49:19 [System] getShopInfo 
+20170322@21:49:19 [System] getShopTime 
+20170322@21:49:19 [System] GVAppointment_DataBound 
+20170322@21:49:24 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@21:49:24 [System] getLoggedInAccount 
+20170322@21:49:24 [System] getLoggedInAccount 
+20170322@21:49:24 [System] getLoggedInAccount 
+20170322@21:49:24 [System] GVAppointment_SelectedIndexChanging 
+20170322@21:49:24 [System] getUserAppointmentEntity 
+20170322@22:10:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@22:10:54 [System] getLoggedInAccount 
+20170322@22:10:54 [System] No account logged in 
+20170322@22:10:54 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:10:54 [System] getLoggedInAccount 
+20170322@22:10:54 [System] No account logged in 
+20170322@22:10:55 [System] getLoggedInAccount 
+20170322@22:10:55 [System] getLoggedInAccount 
+20170322@22:11:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:11:06 [System] getLoggedInAccount 
+20170322@22:11:06 [System] No account logged in 
+20170322@22:11:06 [System] getLoggedInAccount 
+20170322@22:11:06 [System] getLoggedInAccount 
+20170322@22:11:06 [System] BTNLogin_Click 
+20170322@22:11:06 [System] signIn 
+20170322@22:11:06 [System] getShopInfo 
+20170322@22:11:07 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:11:07 [System] getLoggedInAccount 
+20170322@22:11:07 [System] getLoggedInAccount 
+20170322@22:11:07 [System] getLoggedInAccount 
+20170322@22:11:08 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@22:11:08 [System] getLoggedInAccount 
+20170322@22:11:08 [System] getLoggedInAccount 
+20170322@22:11:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:11:10 [System] getLoggedInAccount 
+20170322@22:11:10 [System] getLoggedInAccount 
+20170322@22:11:10 [System] loadAdoptionInfo 
+20170322@22:11:10 [System] getAdoptInfo 
+20170322@22:11:10 [System] getShopInfo 
+20170322@22:11:10 [System] getShopTime 
+20170322@22:11:10 [System] getLoggedInAccount 
+20170322@22:11:11 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:11:11 [System] getAllAppointmentEntities 
+20170322@22:11:11 [System] checkAdoptionDetails 
+20170322@22:11:11 [System] checkAppointmentExist 
+20170322@22:11:11 [System] No data found in getValue() 
+20170322@22:11:11 [System] DLMorePet_ItemDataBound 
+20170322@22:11:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:11:13 [System] getLoggedInAccount 
+20170322@22:11:13 [System] getLoggedInAccount 
+20170322@22:11:13 [System] getLoggedInAccount 
+20170322@22:11:13 [System] BTNAppmtDate_Click 
+20170322@22:11:13 [System] loadOperatingHours 
+20170322@22:11:14 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170322@22:11:14 [System] MessageHandler : Appointment Date 
+20170322@22:11:14 [System] saveTempAppointment 
+20170322@22:11:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:11:17 [System] getLoggedInAccount 
+20170322@22:11:17 [System] getLoggedInAccount 
+20170322@22:11:17 [System] getLoggedInAccount 
+20170322@22:11:17 [System] BTNAppmtDate_Click 
+20170322@22:11:17 [System] loadOperatingHours 
+20170322@22:11:17 [System] MessageHandler : Appointment Time 
+20170322@22:11:17 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:11:17 [System] getAllAppointmentEntities 
+20170322@22:11:18 [System] saveTempAppointment 
+20170322@22:11:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:11:19 [System] getLoggedInAccount 
+20170322@22:11:19 [System] getLoggedInAccount 
+20170322@22:11:19 [System] getLoggedInAccount 
+20170322@22:11:19 [System] DDLAppmtTime_SelectedIndexChanged 
+20170322@22:11:19 [System] saveTempAppointment 
+20170322@22:11:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:11:23 [System] getLoggedInAccount 
+20170322@22:11:23 [System] getLoggedInAccount 
+20170322@22:11:23 [System] getLoggedInAccount 
+20170322@22:11:23 [System] BTNAdoptMe_Click 
+20170322@22:11:23 [System] createAppointment 
+20170322@22:11:23 [System] Record created! 
+20170322@22:11:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:11:23 [System] getLoggedInAccount 
+20170322@22:11:23 [System] getLoggedInAccount 
+20170322@22:11:23 [System] loadAdoptionInfo 
+20170322@22:11:23 [System] getAdoptInfo 
+20170322@22:11:23 [System] getShopInfo 
+20170322@22:11:23 [System] getShopTime 
+20170322@22:11:23 [System] getLoggedInAccount 
+20170322@22:11:24 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:11:24 [System] getAllAppointmentEntities 
+20170322@22:11:24 [System] checkAdoptionDetails 
+20170322@22:11:24 [System] checkAppointmentExist 
+20170322@22:11:24 [System] getValue() : Index was outside the bounds of the array. 
+20170322@22:11:24 [System] getUserAppointmentEntity 
+20170322@22:11:24 [System] getAccount 
+20170322@22:11:24 [System] getShopInfo 
+20170322@22:11:24 [System] DLMorePet_ItemDataBound 
+20170322@22:11:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:11:51 [System] getLoggedInAccount 
+20170322@22:11:51 [System] getLoggedInAccount 
+20170322@22:11:51 [System] loadAdoptionInfo 
+20170322@22:11:51 [System] getAdoptInfo 
+20170322@22:11:51 [System] getShopInfo 
+20170322@22:11:51 [System] getShopTime 
+20170322@22:11:51 [System] getLoggedInAccount 
+20170322@22:11:51 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:11:51 [System] getAllAppointmentEntities 
+20170322@22:11:51 [System] checkAdoptionDetails 
+20170322@22:11:51 [System] checkAppointmentExist 
+20170322@22:11:51 [System] No data found in getValue() 
+20170322@22:11:51 [System] loadOperatingHours 
+20170322@22:11:51 [System] MessageHandler : Appointment Time 
+20170322@22:11:51 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:11:51 [System] getAllAppointmentEntities 
+20170322@22:11:52 [System] DLMorePet_ItemDataBound 
+20170322@22:11:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:11:54 [System] getLoggedInAccount 
+20170322@22:11:54 [System] getLoggedInAccount 
+20170322@22:11:54 [System] loadAdoptionInfo 
+20170322@22:11:54 [System] getAdoptInfo 
+20170322@22:11:54 [System] getShopInfo 
+20170322@22:11:54 [System] getShopTime 
+20170322@22:11:54 [System] getLoggedInAccount 
+20170322@22:11:54 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:11:54 [System] getAllAppointmentEntities 
+20170322@22:11:54 [System] checkAdoptionDetails 
+20170322@22:11:54 [System] checkAppointmentExist 
+20170322@22:11:54 [System] No data found in getValue() 
+20170322@22:11:54 [System] loadOperatingHours 
+20170322@22:11:54 [System] MessageHandler : Appointment Time 
+20170322@22:11:54 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:11:54 [System] getAllAppointmentEntities 
+20170322@22:11:54 [System] DLMorePet_ItemDataBound 
+20170322@22:11:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:11:57 [System] getLoggedInAccount 
+20170322@22:11:57 [System] getLoggedInAccount 
+20170322@22:11:57 [System] loadAdoptionInfo 
+20170322@22:11:57 [System] getAdoptInfo 
+20170322@22:11:57 [System] getShopInfo 
+20170322@22:11:57 [System] getShopTime 
+20170322@22:11:57 [System] getLoggedInAccount 
+20170322@22:11:58 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:11:58 [System] getAllAppointmentEntities 
+20170322@22:11:58 [System] checkAdoptionDetails 
+20170322@22:11:58 [System] checkAppointmentExist 
+20170322@22:11:58 [System] No data found in getValue() 
+20170322@22:11:58 [System] loadOperatingHours 
+20170322@22:11:58 [System] MessageHandler : Appointment Time 
+20170322@22:11:58 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:11:58 [System] getAllAppointmentEntities 
+20170322@22:11:58 [System] DLMorePet_ItemDataBound 
+20170322@22:12:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:12:00 [System] getLoggedInAccount 
+20170322@22:12:00 [System] getLoggedInAccount 
+20170322@22:12:00 [System] loadAdoptionInfo 
+20170322@22:12:00 [System] getAdoptInfo 
+20170322@22:12:00 [System] getShopInfo 
+20170322@22:12:00 [System] getShopTime 
+20170322@22:12:00 [System] getLoggedInAccount 
+20170322@22:12:00 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:12:00 [System] getAllAppointmentEntities 
+20170322@22:12:00 [System] checkAdoptionDetails 
+20170322@22:12:00 [System] checkAppointmentExist 
+20170322@22:12:00 [System] No data found in getValue() 
+20170322@22:12:00 [System] loadOperatingHours 
+20170322@22:12:00 [System] MessageHandler : Appointment Time 
+20170322@22:12:00 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:12:00 [System] getAllAppointmentEntities 
+20170322@22:12:01 [System] DLMorePet_ItemDataBound 
+20170322@22:12:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
+20170322@22:12:06 [System] getLoggedInAccount 
+20170322@22:12:06 [System] getLoggedInAccount 
+20170322@22:12:06 [System] loadAdoptionInfo 
+20170322@22:12:06 [System] getAdoptInfo 
+20170322@22:12:06 [System] getShopInfo 
+20170322@22:12:06 [System] getShopTime 
+20170322@22:12:07 [System] getLoggedInAccount 
+20170322@22:12:07 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:12:07 [System] getAllAppointmentEntities 
+20170322@22:12:07 [System] checkAdoptionDetails 
+20170322@22:12:07 [System] checkAppointmentExist 
+20170322@22:12:07 [System] No data found in getValue() 
+20170322@22:12:07 [System] loadOperatingHours 
+20170322@22:12:07 [System] MessageHandler : Appointment Time 
+20170322@22:12:07 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:12:07 [System] getAllAppointmentEntities 
+20170322@22:12:07 [System] DLMorePet_ItemDataBound 
+20170322@22:12:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
+20170322@22:12:25 [System] getLoggedInAccount 
+20170322@22:12:25 [System] getLoggedInAccount 
+20170322@22:12:25 [System] loadAdoptionInfo 
+20170322@22:12:25 [System] getAdoptInfo 
+20170322@22:12:26 [System] getShopInfo 
+20170322@22:12:26 [System] getShopTime 
+20170322@22:12:26 [System] getLoggedInAccount 
+20170322@22:12:26 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:12:26 [System] getAllAppointmentEntities 
+20170322@22:12:26 [System] checkAdoptionDetails 
+20170322@22:12:26 [System] checkAppointmentExist 
+20170322@22:12:26 [System] No data found in getValue() 
+20170322@22:12:26 [System] DLMorePet_ItemDataBound 
+20170322@22:12:26 [System] DLMorePet_ItemDataBound 
+20170322@22:12:26 [System] DLMorePet_ItemDataBound 
+20170322@22:12:26 [System] DLMorePet_ItemDataBound 
+20170322@22:12:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170322@22:12:29 [System] getLoggedInAccount 
+20170322@22:12:29 [System] getLoggedInAccount 
+20170322@22:12:29 [System] loadAdoptionInfo 
+20170322@22:12:29 [System] getAdoptInfo 
+20170322@22:12:29 [System] getShopInfo 
+20170322@22:12:29 [System] getShopTime 
+20170322@22:12:29 [System] getLoggedInAccount 
+20170322@22:12:30 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:12:30 [System] getAllAppointmentEntities 
+20170322@22:12:30 [System] checkAdoptionDetails 
+20170322@22:12:30 [System] checkAppointmentExist 
+20170322@22:12:30 [System] No data found in getValue() 
+20170322@22:12:30 [System] DLMorePet_ItemDataBound 
+20170322@22:12:30 [System] DLMorePet_ItemDataBound 
+20170322@22:12:30 [System] DLMorePet_ItemDataBound 
+20170322@22:12:30 [System] DLMorePet_ItemDataBound 
+20170322@22:12:36 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:12:36 [System] getLoggedInAccount 
+20170322@22:12:36 [System] getLoggedInAccount 
+20170322@22:12:36 [System] getLoggedInAccount 
+20170322@22:12:36 [System] getAdoptInfo 
+20170322@22:12:36 [System] getShopInfo 
+20170322@22:12:36 [System] getShopTime 
+20170322@22:12:36 [System] getAdoptInfo 
+20170322@22:12:36 [System] getShopInfo 
+20170322@22:12:36 [System] getShopTime 
+20170322@22:12:37 [System] getAdoptInfo 
+20170322@22:12:37 [System] getShopInfo 
+20170322@22:12:37 [System] getShopTime 
+20170322@22:12:37 [System] getAdoptInfo 
+20170322@22:12:37 [System] getShopInfo 
+20170322@22:12:37 [System] getShopTime 
+20170322@22:12:37 [System] getShopInfo 
+20170322@22:12:37 [System] getShopTime 
+20170322@22:12:37 [System] getShopInfo 
+20170322@22:12:37 [System] getShopTime 
+20170322@22:12:37 [System] GVAppointment_DataBound 
+20170322@22:12:47 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@22:12:47 [System] getLoggedInAccount 
+20170322@22:12:47 [System] getLoggedInAccount 
+20170322@22:12:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@22:12:53 [System] getLoggedInAccount 
+20170322@22:12:53 [System] getLoggedInAccount 
+20170322@22:12:53 [System] loadAdoptionInfo 
+20170322@22:12:53 [System] getAdoptInfo 
+20170322@22:12:53 [System] getShopInfo 
+20170322@22:12:53 [System] getShopTime 
+20170322@22:12:53 [System] getLoggedInAccount 
+20170322@22:12:54 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:12:54 [System] getAllAppointmentEntities 
+20170322@22:12:54 [System] checkAdoptionDetails 
+20170322@22:12:54 [System] checkAppointmentExist 
+20170322@22:12:54 [System] getValue() : Index was outside the bounds of the array. 
+20170322@22:12:54 [System] getUserAppointmentEntity 
+20170322@22:12:54 [System] getAccount 
+20170322@22:12:54 [System] getShopInfo 
+20170322@22:12:54 [System] DLMorePet_ItemDataBound 
+20170322@22:12:54 [System] DLMorePet_ItemDataBound 
+20170322@22:13:06 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:13:06 [System] getLoggedInAccount 
+20170322@22:13:06 [System] getLoggedInAccount 
+20170322@22:13:06 [System] getLoggedInAccount 
+20170322@22:13:06 [System] getAdoptInfo 
+20170322@22:13:06 [System] getShopInfo 
+20170322@22:13:06 [System] getShopTime 
+20170322@22:13:06 [System] getAdoptInfo 
+20170322@22:13:06 [System] getShopInfo 
+20170322@22:13:06 [System] getShopTime 
+20170322@22:13:06 [System] getAdoptInfo 
+20170322@22:13:06 [System] getShopInfo 
+20170322@22:13:07 [System] getShopTime 
+20170322@22:13:07 [System] getAdoptInfo 
+20170322@22:13:07 [System] getShopInfo 
+20170322@22:13:07 [System] getShopTime 
+20170322@22:13:07 [System] getShopInfo 
+20170322@22:13:07 [System] getShopTime 
+20170322@22:13:07 [System] getShopInfo 
+20170322@22:13:07 [System] getShopTime 
+20170322@22:13:07 [System] GVAppointment_DataBound 
+20170322@22:13:19 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:13:19 [System] getLoggedInAccount 
+20170322@22:13:19 [System] getLoggedInAccount 
+20170322@22:13:19 [System] getLoggedInAccount 
+20170322@22:13:19 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:13:19 [System] getUserAppointmentEntity 
+20170322@22:13:19 [System] getAccount 
+20170322@22:13:19 [System] getShopInfo 
+20170322@22:13:19 [System] getShopInfo 
+20170322@22:13:19 [System] getShopTime 
+20170322@22:13:19 [System] loadOperatingHours 
+20170322@22:13:19 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:13:29 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:13:29 [System] getLoggedInAccount 
+20170322@22:13:29 [System] getLoggedInAccount 
+20170322@22:13:29 [System] getLoggedInAccount 
+20170322@22:13:29 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:13:29 [System] getUserAppointmentEntity 
+20170322@22:13:29 [System] getAccount 
+20170322@22:13:29 [System] getShopInfo 
+20170322@22:13:29 [System] getShopInfo 
+20170322@22:13:29 [System] getShopTime 
+20170322@22:13:29 [System] loadOperatingHours 
+20170322@22:13:29 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:14:04 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:14:04 [System] getLoggedInAccount 
+20170322@22:14:04 [System] getLoggedInAccount 
+20170322@22:14:04 [System] getLoggedInAccount 
+20170322@22:14:04 [System] getAdoptInfo 
+20170322@22:14:04 [System] getShopInfo 
+20170322@22:14:04 [System] getShopTime 
+20170322@22:14:04 [System] getAdoptInfo 
+20170322@22:14:04 [System] getShopInfo 
+20170322@22:14:04 [System] getShopTime 
+20170322@22:14:04 [System] getAdoptInfo 
+20170322@22:14:04 [System] getShopInfo 
+20170322@22:14:04 [System] getShopTime 
+20170322@22:14:05 [System] getAdoptInfo 
+20170322@22:14:05 [System] getShopInfo 
+20170322@22:14:05 [System] getShopTime 
+20170322@22:14:05 [System] getShopInfo 
+20170322@22:14:05 [System] getShopTime 
+20170322@22:14:05 [System] getShopInfo 
+20170322@22:14:05 [System] getShopTime 
+20170322@22:14:05 [System] GVAppointment_DataBound 
+20170322@22:14:13 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:14:13 [System] getLoggedInAccount 
+20170322@22:14:13 [System] getLoggedInAccount 
+20170322@22:14:13 [System] getLoggedInAccount 
+20170322@22:14:13 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:14:13 [System] getUserAppointmentEntity 
+20170322@22:14:13 [System] getAccount 
+20170322@22:14:13 [System] getShopInfo 
+20170322@22:14:13 [System] getShopInfo 
+20170322@22:14:13 [System] getShopTime 
+20170322@22:14:13 [System] loadOperatingHours 
+20170322@22:14:13 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:15:16 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:15:16 [System] getLoggedInAccount 
+20170322@22:15:16 [System] getLoggedInAccount 
+20170322@22:15:16 [System] getLoggedInAccount 
+20170322@22:15:17 [System] getAdoptInfo 
+20170322@22:15:17 [System] getShopInfo 
+20170322@22:15:17 [System] getShopTime 
+20170322@22:15:17 [System] getAdoptInfo 
+20170322@22:15:17 [System] getShopInfo 
+20170322@22:15:17 [System] getShopTime 
+20170322@22:15:17 [System] getAdoptInfo 
+20170322@22:15:17 [System] getShopInfo 
+20170322@22:15:17 [System] getShopTime 
+20170322@22:15:17 [System] getAdoptInfo 
+20170322@22:15:17 [System] getShopInfo 
+20170322@22:15:17 [System] getShopTime 
+20170322@22:15:18 [System] getShopInfo 
+20170322@22:15:18 [System] getShopTime 
+20170322@22:15:18 [System] getShopInfo 
+20170322@22:15:18 [System] getShopTime 
+20170322@22:15:18 [System] GVAppointment_DataBound 
+20170322@22:15:21 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:15:21 [System] getLoggedInAccount 
+20170322@22:15:21 [System] getLoggedInAccount 
+20170322@22:15:21 [System] getLoggedInAccount 
+20170322@22:15:21 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:15:21 [System] getUserAppointmentEntity 
+20170322@22:15:21 [System] getAccount 
+20170322@22:15:22 [System] getShopInfo 
+20170322@22:15:22 [System] getAdoptInfo 
+20170322@22:15:22 [System] getShopInfo 
+20170322@22:15:22 [System] getShopTime 
+20170322@22:15:22 [System] loadOperatingHours 
+20170322@22:15:22 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:16:10 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:16:10 [System] getLoggedInAccount 
+20170322@22:16:10 [System] getLoggedInAccount 
+20170322@22:16:10 [System] getLoggedInAccount 
+20170322@22:16:10 [System] getAdoptInfo 
+20170322@22:16:10 [System] getShopInfo 
+20170322@22:16:10 [System] getShopTime 
+20170322@22:16:10 [System] getAdoptInfo 
+20170322@22:16:11 [System] getShopInfo 
+20170322@22:16:11 [System] getShopTime 
+20170322@22:16:11 [System] getAdoptInfo 
+20170322@22:16:11 [System] getShopInfo 
+20170322@22:16:11 [System] getShopTime 
+20170322@22:16:11 [System] getAdoptInfo 
+20170322@22:16:11 [System] getShopInfo 
+20170322@22:16:11 [System] getShopTime 
+20170322@22:16:11 [System] getShopInfo 
+20170322@22:16:11 [System] getShopTime 
+20170322@22:16:11 [System] getShopInfo 
+20170322@22:16:11 [System] getShopTime 
+20170322@22:16:12 [System] GVAppointment_DataBound 
+20170322@22:16:16 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:16:16 [System] getLoggedInAccount 
+20170322@22:16:17 [System] getLoggedInAccount 
+20170322@22:16:17 [System] getLoggedInAccount 
+20170322@22:16:17 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:16:17 [System] getUserAppointmentEntity 
+20170322@22:16:17 [System] getAccount 
+20170322@22:16:17 [System] getShopInfo 
+20170322@22:16:17 [System] getShopInfo 
+20170322@22:16:17 [System] getShopTime 
+20170322@22:16:17 [System] loadOperatingHours 
+20170322@22:16:17 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:16:41 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:16:41 [System] getLoggedInAccount 
+20170322@22:16:41 [System] getLoggedInAccount 
+20170322@22:16:41 [System] getLoggedInAccount 
+20170322@22:16:41 [System] getAdoptInfo 
+20170322@22:16:41 [System] getShopInfo 
+20170322@22:16:41 [System] getShopTime 
+20170322@22:16:42 [System] getAdoptInfo 
+20170322@22:16:42 [System] getShopInfo 
+20170322@22:16:42 [System] getShopTime 
+20170322@22:16:42 [System] getAdoptInfo 
+20170322@22:16:42 [System] getShopInfo 
+20170322@22:16:42 [System] getShopTime 
+20170322@22:16:42 [System] getAdoptInfo 
+20170322@22:16:42 [System] getShopInfo 
+20170322@22:16:42 [System] getShopTime 
+20170322@22:16:42 [System] getShopInfo 
+20170322@22:16:42 [System] getShopTime 
+20170322@22:16:42 [System] getShopInfo 
+20170322@22:16:42 [System] getShopTime 
+20170322@22:16:43 [System] GVAppointment_DataBound 
+20170322@22:16:55 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:16:55 [System] getLoggedInAccount 
+20170322@22:16:55 [System] getLoggedInAccount 
+20170322@22:16:55 [System] getLoggedInAccount 
+20170322@22:16:55 [System] getAdoptInfo 
+20170322@22:16:55 [System] getShopInfo 
+20170322@22:16:55 [System] getShopTime 
+20170322@22:16:56 [System] getAdoptInfo 
+20170322@22:16:56 [System] getShopInfo 
+20170322@22:16:56 [System] getShopTime 
+20170322@22:16:56 [System] getAdoptInfo 
+20170322@22:16:56 [System] getShopInfo 
+20170322@22:16:56 [System] getShopTime 
+20170322@22:16:56 [System] getAdoptInfo 
+20170322@22:16:56 [System] getShopInfo 
+20170322@22:16:56 [System] getShopTime 
+20170322@22:16:56 [System] getShopInfo 
+20170322@22:16:56 [System] getShopTime 
+20170322@22:16:56 [System] getShopInfo 
+20170322@22:16:56 [System] getShopTime 
+20170322@22:16:57 [System] GVAppointment_DataBound 
+20170322@22:17:09 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:17:09 [System] getLoggedInAccount 
+20170322@22:17:09 [System] getLoggedInAccount 
+20170322@22:17:09 [System] getLoggedInAccount 
+20170322@22:17:09 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:17:09 [System] getUserAppointmentEntity 
+20170322@22:17:10 [System] getAccount 
+20170322@22:17:10 [System] getShopInfo 
+20170322@22:17:10 [System] getShopInfo 
+20170322@22:17:10 [System] getShopTime 
+20170322@22:17:10 [System] loadOperatingHours 
+20170322@22:17:10 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:19:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@22:19:44 [System] getLoggedInAccount 
+20170322@22:19:44 [System] getLoggedInAccount 
+20170322@22:19:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170322@22:19:48 [System] getLoggedInAccount 
+20170322@22:19:48 [System] getLoggedInAccount 
+20170322@22:19:48 [System] loadAdoptionInfo 
+20170322@22:19:48 [System] getAdoptInfo 
+20170322@22:19:48 [System] getShopInfo 
+20170322@22:19:48 [System] getShopTime 
+20170322@22:19:49 [System] getLoggedInAccount 
+20170322@22:19:49 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:19:49 [System] getAllAppointmentEntities 
+20170322@22:19:49 [System] checkAdoptionDetails 
+20170322@22:19:49 [System] checkAppointmentExist 
+20170322@22:19:49 [System] getValue() : Index was outside the bounds of the array. 
+20170322@22:19:49 [System] getUserAppointmentEntity 
+20170322@22:19:49 [System] getAccount 
+20170322@22:19:50 [System] getShopInfo 
+20170322@22:19:50 [System] DLMorePet_ItemDataBound 
+20170322@22:19:50 [System] DLMorePet_ItemDataBound 
+20170322@22:19:54 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:19:54 [System] getLoggedInAccount 
+20170322@22:19:54 [System] getLoggedInAccount 
+20170322@22:19:54 [System] getLoggedInAccount 
+20170322@22:19:54 [System] getAdoptInfo 
+20170322@22:19:54 [System] getShopInfo 
+20170322@22:19:54 [System] getShopTime 
+20170322@22:19:54 [System] getAdoptInfo 
+20170322@22:19:54 [System] getShopInfo 
+20170322@22:19:54 [System] getShopTime 
+20170322@22:19:54 [System] getAdoptInfo 
+20170322@22:19:54 [System] getShopInfo 
+20170322@22:19:54 [System] getShopTime 
+20170322@22:19:55 [System] getAdoptInfo 
+20170322@22:19:55 [System] getShopInfo 
+20170322@22:19:55 [System] getShopTime 
+20170322@22:19:55 [System] getShopInfo 
+20170322@22:19:55 [System] getShopTime 
+20170322@22:19:55 [System] getShopInfo 
+20170322@22:19:55 [System] getShopTime 
+20170322@22:19:55 [System] GVAppointment_DataBound 
+20170322@22:19:59 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:19:59 [System] getLoggedInAccount 
+20170322@22:19:59 [System] getLoggedInAccount 
+20170322@22:19:59 [System] getLoggedInAccount 
+20170322@22:19:59 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:19:59 [System] getUserAppointmentEntity 
+20170322@22:19:59 [System] getAccount 
+20170322@22:19:59 [System] getShopInfo 
+20170322@22:19:59 [System] getShopInfo 
+20170322@22:19:59 [System] getShopTime 
+20170322@22:19:59 [System] loadOperatingHours 
+20170322@22:19:59 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:20:16 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:20:16 [System] getLoggedInAccount 
+20170322@22:20:16 [System] getLoggedInAccount 
+20170322@22:20:16 [System] getLoggedInAccount 
+20170322@22:20:16 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:20:16 [System] getUserAppointmentEntity 
+20170322@22:20:16 [System] getAccount 
+20170322@22:20:16 [System] getShopInfo 
+20170322@22:20:16 [System] getShopInfo 
+20170322@22:20:16 [System] getShopTime 
+20170322@22:20:16 [System] loadOperatingHours 
+20170322@22:20:38 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:20:43 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:20:43 [System] getLoggedInAccount 
+20170322@22:20:43 [System] getLoggedInAccount 
+20170322@22:20:43 [System] getLoggedInAccount 
+20170322@22:20:43 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:20:43 [System] getUserAppointmentEntity 
+20170322@22:20:43 [System] getAccount 
+20170322@22:20:44 [System] getShopInfo 
+20170322@22:21:10 [System] getShopInfo 
+20170322@22:21:10 [System] getShopTime 
+20170322@22:21:15 [System] loadOperatingHours 
+20170322@22:21:21 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:21:38 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:21:38 [System] getLoggedInAccount 
+20170322@22:21:38 [System] getLoggedInAccount 
+20170322@22:21:38 [System] getLoggedInAccount 
+20170322@22:21:38 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:21:38 [System] getUserAppointmentEntity 
+20170322@22:21:38 [System] getAccount 
+20170322@22:21:38 [System] getShopInfo 
+20170322@22:21:38 [System] getShopInfo 
+20170322@22:21:38 [System] getShopTime 
+20170322@22:21:39 [System] loadOperatingHours 
+20170322@22:21:39 [System] MessageHandler : Appointment Time 
+20170322@22:21:39 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:21:39 [System] getAllAppointmentEntities 
+20170322@22:21:39 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:22:34 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:22:34 [System] getLoggedInAccount 
+20170322@22:22:34 [System] getLoggedInAccount 
+20170322@22:22:34 [System] getLoggedInAccount 
+20170322@22:22:34 [System] getAdoptInfo 
+20170322@22:22:34 [System] getShopInfo 
+20170322@22:22:34 [System] getShopTime 
+20170322@22:22:34 [System] getAdoptInfo 
+20170322@22:22:35 [System] getShopInfo 
+20170322@22:22:35 [System] getShopTime 
+20170322@22:22:35 [System] getAdoptInfo 
+20170322@22:22:35 [System] getShopInfo 
+20170322@22:22:35 [System] getShopTime 
+20170322@22:22:35 [System] getAdoptInfo 
+20170322@22:22:35 [System] getShopInfo 
+20170322@22:22:35 [System] getShopTime 
+20170322@22:22:35 [System] getShopInfo 
+20170322@22:22:35 [System] getShopTime 
+20170322@22:22:35 [System] getShopInfo 
+20170322@22:22:35 [System] getShopTime 
+20170322@22:22:36 [System] GVAppointment_DataBound 
+20170322@22:22:39 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:22:39 [System] getLoggedInAccount 
+20170322@22:22:39 [System] getLoggedInAccount 
+20170322@22:22:39 [System] getLoggedInAccount 
+20170322@22:22:39 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:22:39 [System] getUserAppointmentEntity 
+20170322@22:22:39 [System] getAccount 
+20170322@22:22:39 [System] getShopInfo 
+20170322@22:22:39 [System] getShopInfo 
+20170322@22:22:39 [System] getShopTime 
+20170322@22:22:40 [System] loadOperatingHours 
+20170322@22:22:40 [System] MessageHandler : Appointment Time 
+20170322@22:22:40 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:22:40 [System] getAllAppointmentEntities 
+20170322@22:22:40 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:26:33 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:26:33 [System] getLoggedInAccount 
+20170322@22:26:33 [System] getLoggedInAccount 
+20170322@22:26:33 [System] getLoggedInAccount 
+20170322@22:26:33 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:26:33 [System] getUserAppointmentEntity 
+20170322@22:26:33 [System] getAccount 
+20170322@22:26:33 [System] getShopInfo 
+20170322@22:26:33 [System] getShopInfo 
+20170322@22:26:33 [System] getShopTime 
+20170322@22:26:33 [System] loadOperatingHours 
+20170322@22:26:33 [System] MessageHandler : Appointment Time 
+20170322@22:26:33 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:26:33 [System] getAllAppointmentEntities 
+20170322@22:26:33 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:28:19 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:28:19 [System] getLoggedInAccount 
+20170322@22:28:19 [System] No account logged in 
+20170322@22:28:19 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:28:19 [System] getLoggedInAccount 
+20170322@22:28:19 [System] No account logged in 
+20170322@22:28:19 [System] getLoggedInAccount 
+20170322@22:28:19 [System] getLoggedInAccount 
+20170322@22:28:27 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:28:27 [System] getLoggedInAccount 
+20170322@22:28:27 [System] No account logged in 
+20170322@22:28:27 [System] getLoggedInAccount 
+20170322@22:28:27 [System] getLoggedInAccount 
+20170322@22:28:27 [System] BTNLogin_Click 
+20170322@22:28:27 [System] signIn 
+20170322@22:28:27 [System] getShopInfo 
+20170322@22:28:27 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:28:27 [System] getLoggedInAccount 
+20170322@22:28:27 [System] getLoggedInAccount 
+20170322@22:28:27 [System] getLoggedInAccount 
+20170322@22:28:30 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:28:30 [System] getLoggedInAccount 
+20170322@22:28:30 [System] getLoggedInAccount 
+20170322@22:28:30 [System] getLoggedInAccount 
+20170322@22:28:30 [System] getAdoptInfo 
+20170322@22:28:30 [System] getShopInfo 
+20170322@22:28:30 [System] getShopTime 
+20170322@22:28:30 [System] getAdoptInfo 
+20170322@22:28:31 [System] getShopInfo 
+20170322@22:28:31 [System] getShopTime 
+20170322@22:28:31 [System] getAdoptInfo 
+20170322@22:28:31 [System] getShopInfo 
+20170322@22:28:31 [System] getShopTime 
+20170322@22:28:31 [System] getAdoptInfo 
+20170322@22:28:31 [System] getShopInfo 
+20170322@22:28:31 [System] getShopTime 
+20170322@22:28:31 [System] getShopInfo 
+20170322@22:28:31 [System] getShopTime 
+20170322@22:28:31 [System] getShopInfo 
+20170322@22:28:31 [System] getShopTime 
+20170322@22:28:32 [System] GVAppointment_DataBound 
+20170322@22:29:16 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:29:16 [System] getLoggedInAccount 
+20170322@22:29:16 [System] getLoggedInAccount 
+20170322@22:29:16 [System] getLoggedInAccount 
+20170322@22:29:16 [System] getAdoptInfo 
+20170322@22:29:16 [System] getShopInfo 
+20170322@22:29:16 [System] getShopTime 
+20170322@22:29:16 [System] getAdoptInfo 
+20170322@22:29:16 [System] getShopInfo 
+20170322@22:29:16 [System] getShopTime 
+20170322@22:29:16 [System] getAdoptInfo 
+20170322@22:29:16 [System] getShopInfo 
+20170322@22:29:16 [System] getShopTime 
+20170322@22:29:16 [System] getAdoptInfo 
+20170322@22:29:16 [System] getShopInfo 
+20170322@22:29:17 [System] getShopTime 
+20170322@22:29:17 [System] getShopInfo 
+20170322@22:29:17 [System] getShopTime 
+20170322@22:29:17 [System] getShopInfo 
+20170322@22:29:17 [System] getShopTime 
+20170322@22:29:17 [System] GVAppointment_DataBound 
+20170322@22:29:22 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:29:22 [System] getLoggedInAccount 
+20170322@22:29:22 [System] getLoggedInAccount 
+20170322@22:29:22 [System] getLoggedInAccount 
+20170322@22:29:22 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:29:22 [System] getUserAppointmentEntity 
+20170322@22:29:22 [System] getAccount 
+20170322@22:29:22 [System] getShopInfo 
+20170322@22:29:22 [System] getShopInfo 
+20170322@22:29:22 [System] getShopTime 
+20170322@22:29:22 [System] loadOperatingHours 
+20170322@22:29:22 [System] MessageHandler : Appointment Time 
+20170322@22:29:22 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:29:22 [System] getAllAppointmentEntities 
+20170322@22:29:22 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:30:02 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@22:30:02 [System] getLoggedInAccount 
+20170322@22:30:02 [System] getLoggedInAccount 
+20170322@22:30:09 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:30:09 [System] getLoggedInAccount 
+20170322@22:30:09 [System] getLoggedInAccount 
+20170322@22:30:09 [System] getLoggedInAccount 
+20170322@22:30:09 [System] getAdoptInfo 
+20170322@22:30:09 [System] getShopInfo 
+20170322@22:30:09 [System] getShopTime 
+20170322@22:30:09 [System] getAdoptInfo 
+20170322@22:30:09 [System] getShopInfo 
+20170322@22:30:09 [System] getShopTime 
+20170322@22:30:10 [System] getAdoptInfo 
+20170322@22:30:10 [System] getShopInfo 
+20170322@22:30:10 [System] getShopTime 
+20170322@22:30:10 [System] getAdoptInfo 
+20170322@22:30:10 [System] getShopInfo 
+20170322@22:30:10 [System] getShopTime 
+20170322@22:30:10 [System] getShopInfo 
+20170322@22:30:10 [System] getShopTime 
+20170322@22:30:10 [System] getShopInfo 
+20170322@22:30:10 [System] getShopTime 
+20170322@22:30:11 [System] GVAppointment_DataBound 
+20170322@22:30:14 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:30:14 [System] getLoggedInAccount 
+20170322@22:30:14 [System] getLoggedInAccount 
+20170322@22:30:14 [System] getLoggedInAccount 
+20170322@22:30:14 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:30:14 [System] getUserAppointmentEntity 
+20170322@22:30:14 [System] getAccount 
+20170322@22:30:14 [System] getShopInfo 
+20170322@22:30:14 [System] getShopInfo 
+20170322@22:30:14 [System] getShopTime 
+20170322@22:30:15 [System] loadOperatingHours 
+20170322@22:30:15 [System] MessageHandler : Appointment Time 
+20170322@22:30:15 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:30:15 [System] getAllAppointmentEntities 
+20170322@22:30:15 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:32:02 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:32:02 [System] getLoggedInAccount 
+20170322@22:32:02 [System] getLoggedInAccount 
+20170322@22:32:02 [System] getLoggedInAccount 
+20170322@22:32:02 [System] getAdoptInfo 
+20170322@22:32:02 [System] getShopInfo 
+20170322@22:32:02 [System] getShopTime 
+20170322@22:32:02 [System] getAdoptInfo 
+20170322@22:32:02 [System] getShopInfo 
+20170322@22:32:02 [System] getShopTime 
+20170322@22:32:03 [System] getAdoptInfo 
+20170322@22:32:03 [System] getShopInfo 
+20170322@22:32:03 [System] getShopTime 
+20170322@22:32:03 [System] getAdoptInfo 
+20170322@22:32:03 [System] getShopInfo 
+20170322@22:32:03 [System] getShopTime 
+20170322@22:32:03 [System] getShopInfo 
+20170322@22:32:03 [System] getShopTime 
+20170322@22:32:03 [System] getShopInfo 
+20170322@22:32:03 [System] getShopTime 
+20170322@22:32:03 [System] GVAppointment_DataBound 
+20170322@22:32:16 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@22:32:16 [System] getLoggedInAccount 
+20170322@22:32:16 [System] getLoggedInAccount 
+20170322@22:32:19 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:32:19 [System] getLoggedInAccount 
+20170322@22:32:19 [System] getLoggedInAccount 
+20170322@22:32:19 [System] getLoggedInAccount 
+20170322@22:32:20 [System] getAdoptInfo 
+20170322@22:32:20 [System] getShopInfo 
+20170322@22:32:20 [System] getShopTime 
+20170322@22:32:20 [System] getAdoptInfo 
+20170322@22:32:20 [System] getShopInfo 
+20170322@22:32:20 [System] getShopTime 
+20170322@22:32:20 [System] getAdoptInfo 
+20170322@22:32:21 [System] getShopInfo 
+20170322@22:32:21 [System] getShopTime 
+20170322@22:32:21 [System] getAdoptInfo 
+20170322@22:32:21 [System] getShopInfo 
+20170322@22:32:21 [System] getShopTime 
+20170322@22:32:21 [System] getShopInfo 
+20170322@22:32:22 [System] getShopTime 
+20170322@22:32:22 [System] getShopInfo 
+20170322@22:32:22 [System] getShopTime 
+20170322@22:32:22 [System] GVAppointment_DataBound 
+20170322@22:32:27 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:32:27 [System] getLoggedInAccount 
+20170322@22:32:27 [System] getLoggedInAccount 
+20170322@22:32:27 [System] getLoggedInAccount 
+20170322@22:32:27 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:32:27 [System] getUserAppointmentEntity 
+20170322@22:32:27 [System] getAccount 
+20170322@22:32:28 [System] getShopInfo 
+20170322@22:32:28 [System] getShopInfo 
+20170322@22:32:28 [System] getShopTime 
+20170322@22:32:28 [System] loadOperatingHours 
+20170322@22:32:28 [System] MessageHandler : Appointment Time 
+20170322@22:32:28 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:32:28 [System] getAllAppointmentEntities 
+20170322@22:32:28 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:32:30 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@22:32:30 [System] getLoggedInAccount 
+20170322@22:32:30 [System] getLoggedInAccount 
+20170322@22:32:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170322@22:32:31 [System] getLoggedInAccount 
+20170322@22:32:31 [System] getLoggedInAccount 
+20170322@22:32:31 [System] loadAdoptionInfo 
+20170322@22:32:31 [System] getAdoptInfo 
+20170322@22:32:31 [System] getShopInfo 
+20170322@22:32:31 [System] getShopTime 
+20170322@22:32:32 [System] getLoggedInAccount 
+20170322@22:32:32 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:32:32 [System] getAllAppointmentEntities 
+20170322@22:32:32 [System] checkAdoptionDetails 
+20170322@22:32:32 [System] checkAppointmentExist 
+20170322@22:32:32 [System] No data found in getValue() 
+20170322@22:32:32 [System] DLMorePet_ItemDataBound 
+20170322@22:32:32 [System] DLMorePet_ItemDataBound 
+20170322@22:32:32 [System] DLMorePet_ItemDataBound 
+20170322@22:32:32 [System] DLMorePet_ItemDataBound 
+20170322@22:34:41 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@22:34:41 [System] getLoggedInAccount 
+20170322@22:34:41 [System] getLoggedInAccount 
+20170322@22:34:48 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:34:48 [System] getLoggedInAccount 
+20170322@22:34:48 [System] getLoggedInAccount 
+20170322@22:34:48 [System] getLoggedInAccount 
+20170322@22:34:48 [System] getAdoptInfo 
+20170322@22:34:48 [System] getShopInfo 
+20170322@22:34:48 [System] getShopTime 
+20170322@22:34:48 [System] getAdoptInfo 
+20170322@22:34:48 [System] getShopInfo 
+20170322@22:34:48 [System] getShopTime 
+20170322@22:34:48 [System] getAdoptInfo 
+20170322@22:34:48 [System] getShopInfo 
+20170322@22:34:49 [System] getShopTime 
+20170322@22:34:49 [System] getAdoptInfo 
+20170322@22:34:49 [System] getShopInfo 
+20170322@22:34:49 [System] getShopTime 
+20170322@22:34:49 [System] getShopInfo 
+20170322@22:34:49 [System] getShopTime 
+20170322@22:34:49 [System] getShopInfo 
+20170322@22:34:49 [System] getShopTime 
+20170322@22:34:49 [System] GVAppointment_DataBound 
+20170322@22:36:01 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:36:01 [System] getLoggedInAccount 
+20170322@22:36:01 [System] getLoggedInAccount 
+20170322@22:36:01 [System] getLoggedInAccount 
+20170322@22:36:01 [System] getAdoptInfo 
+20170322@22:36:01 [System] getShopInfo 
+20170322@22:36:01 [System] getShopTime 
+20170322@22:36:01 [System] getAdoptInfo 
+20170322@22:36:01 [System] getShopInfo 
+20170322@22:36:01 [System] getShopTime 
+20170322@22:36:01 [System] getAdoptInfo 
+20170322@22:36:01 [System] getShopInfo 
+20170322@22:36:01 [System] getShopTime 
+20170322@22:36:01 [System] getAdoptInfo 
+20170322@22:36:01 [System] getShopInfo 
+20170322@22:36:01 [System] getShopTime 
+20170322@22:36:02 [System] getShopInfo 
+20170322@22:36:02 [System] getShopTime 
+20170322@22:36:02 [System] getShopInfo 
+20170322@22:36:02 [System] getShopTime 
+20170322@22:36:02 [System] GVAppointment_DataBound 
+20170322@22:36:06 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:36:06 [System] getLoggedInAccount 
+20170322@22:36:06 [System] getLoggedInAccount 
+20170322@22:36:06 [System] getLoggedInAccount 
+20170322@22:36:06 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:36:06 [System] getUserAppointmentEntity 
+20170322@22:36:07 [System] getAccount 
+20170322@22:36:07 [System] getShopInfo 
+20170322@22:36:07 [System] getShopInfo 
+20170322@22:36:07 [System] getShopTime 
+20170322@22:36:07 [System] loadOperatingHours 
+20170322@22:36:07 [System] MessageHandler : Appointment Time 
+20170322@22:36:07 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:36:07 [System] getAllAppointmentEntities 
+20170322@22:36:07 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:36:38 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:36:38 [System] getLoggedInAccount 
+20170322@22:36:38 [System] getLoggedInAccount 
+20170322@22:36:38 [System] getLoggedInAccount 
+20170322@22:36:39 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:36:39 [System] getLoggedInAccount 
+20170322@22:36:39 [System] getLoggedInAccount 
+20170322@22:36:39 [System] getLoggedInAccount 
+20170322@22:36:40 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:36:40 [System] getLoggedInAccount 
+20170322@22:36:40 [System] getLoggedInAccount 
+20170322@22:36:40 [System] getLoggedInAccount 
+20170322@22:36:43 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:36:43 [System] getLoggedInAccount 
+20170322@22:36:43 [System] getLoggedInAccount 
+20170322@22:36:43 [System] getLoggedInAccount 
+20170322@22:37:42 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@22:37:42 [System] getLoggedInAccount 
+20170322@22:37:42 [System] getLoggedInAccount 
+20170322@22:37:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170322@22:37:45 [System] getLoggedInAccount 
+20170322@22:37:45 [System] getLoggedInAccount 
+20170322@22:37:46 [System] loadAdoptionInfo 
+20170322@22:37:46 [System] getAdoptInfo 
+20170322@22:37:46 [System] getShopInfo 
+20170322@22:37:46 [System] getShopTime 
+20170322@22:37:46 [System] getLoggedInAccount 
+20170322@22:37:46 [System] DLAdoptInfo_ItemDataBound 
+20170322@22:37:46 [System] getAllAppointmentEntities 
+20170322@22:37:46 [System] checkAdoptionDetails 
+20170322@22:37:46 [System] checkAppointmentExist 
+20170322@22:37:46 [System] No data found in getValue() 
+20170322@22:37:46 [System] DLMorePet_ItemDataBound 
+20170322@22:37:46 [System] DLMorePet_ItemDataBound 
+20170322@22:37:46 [System] DLMorePet_ItemDataBound 
+20170322@22:37:46 [System] DLMorePet_ItemDataBound 
+20170322@22:37:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
+20170322@22:37:50 [System] getLoggedInAccount 
+20170322@22:37:50 [System] getLoggedInAccount 
+20170322@22:37:50 [System] getLoggedInAccount 
+20170322@22:37:50 [System] BTNAppmtDate_Click 
+20170322@22:37:50 [System] loadOperatingHours 
+20170322@22:37:50 [System] MessageHandler : Appointment Time 
+20170322@22:37:50 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:37:50 [System] getAllAppointmentEntities 
+20170322@22:37:50 [System] saveTempAppointment 
+20170322@22:41:16 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:41:16 [System] getLoggedInAccount 
+20170322@22:41:16 [System] getLoggedInAccount 
+20170322@22:41:16 [System] getLoggedInAccount 
+20170322@22:41:16 [System] getAdoptInfo 
+20170322@22:41:16 [System] getShopInfo 
+20170322@22:41:16 [System] getShopTime 
+20170322@22:41:17 [System] getAdoptInfo 
+20170322@22:41:17 [System] getShopInfo 
+20170322@22:41:17 [System] getShopTime 
+20170322@22:41:17 [System] getAdoptInfo 
+20170322@22:41:17 [System] getShopInfo 
+20170322@22:41:17 [System] getShopTime 
+20170322@22:41:17 [System] getAdoptInfo 
+20170322@22:41:17 [System] getShopInfo 
+20170322@22:41:17 [System] getShopTime 
+20170322@22:41:17 [System] getShopInfo 
+20170322@22:41:17 [System] getShopTime 
+20170322@22:41:17 [System] getShopInfo 
+20170322@22:41:17 [System] getShopTime 
+20170322@22:41:18 [System] GVAppointment_DataBound 
+20170322@22:41:23 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:41:23 [System] getLoggedInAccount 
+20170322@22:41:23 [System] getLoggedInAccount 
+20170322@22:41:23 [System] getLoggedInAccount 
+20170322@22:41:23 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:41:23 [System] getUserAppointmentEntity 
+20170322@22:41:23 [System] getAccount 
+20170322@22:41:23 [System] getShopInfo 
+20170322@22:41:23 [System] getShopInfo 
+20170322@22:41:23 [System] getShopTime 
+20170322@22:41:23 [System] loadOperatingHours 
+20170322@22:41:23 [System] MessageHandler : Appointment Time 
+20170322@22:41:23 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:41:23 [System] getAllAppointmentEntities 
+20170322@22:41:23 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:42:01 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:42:01 [System] getLoggedInAccount 
+20170322@22:42:01 [System] getLoggedInAccount 
+20170322@22:42:01 [System] getLoggedInAccount 
+20170322@22:42:01 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:42:01 [System] getUserAppointmentEntity 
+20170322@22:42:01 [System] getAccount 
+20170322@22:42:01 [System] getShopInfo 
+20170322@22:42:01 [System] getShopInfo 
+20170322@22:42:01 [System] getShopTime 
+20170322@22:42:01 [System] loadOperatingHours 
+20170322@22:42:01 [System] MessageHandler : Appointment Time 
+20170322@22:42:01 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:42:01 [System] getAllAppointmentEntities 
+20170322@22:42:01 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:42:08 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:42:08 [System] getLoggedInAccount 
+20170322@22:42:08 [System] getLoggedInAccount 
+20170322@22:42:08 [System] getLoggedInAccount 
+20170322@22:42:08 [System] BTNAppmtDate_Click 
+20170322@22:42:08 [System] loadOperatingHours 
+20170322@22:42:09 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170322@22:42:09 [System] MessageHandler : Appointment Date 
+20170322@22:42:09 [System] saveTempAppointment 
+20170322@22:42:14 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:42:14 [System] getLoggedInAccount 
+20170322@22:42:14 [System] getLoggedInAccount 
+20170322@22:42:14 [System] getLoggedInAccount 
+20170322@22:42:14 [System] BTNAppmtDate_Click 
+20170322@22:42:14 [System] loadOperatingHours 
+20170322@22:42:14 [System] MessageHandler : Appointment Time 
+20170322@22:42:14 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:42:14 [System] getAllAppointmentEntities 
+20170322@22:42:14 [System] saveTempAppointment 
+20170322@22:42:26 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170322@22:42:26 [System] signOut 
+20170322@22:42:33 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170322@22:42:33 [System] signOut 
+20170322@22:42:33 [System] signIn 
+20170322@22:42:33 [System] getShopInfo 
+20170322@22:42:33 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170322@22:42:33 [System] getLoggedInAccount 
+20170322@22:42:33 [System] GVPetInfoOverview_DataBound 
+20170322@22:42:33 [System] GVShopInfoOverview_DataBound 
+20170322@22:42:38 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170322@22:42:38 [System] getLoggedInAccount 
+20170322@22:42:38 [System] GVAdoptInfoOverview_DataBound 
+20170322@22:42:41 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170322@22:42:41 [System] getLoggedInAccount 
+20170322@22:42:41 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170322@22:42:41 [System] getAdoptInfo 
+20170322@22:42:41 [System] getShopInfo 
+20170322@22:42:41 [System] getShopTime 
+20170322@22:42:41 [System] GVRowID: 29 
+20170322@22:42:41 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170322@22:45:58 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:45:58 [System] getLoggedInAccount 
+20170322@22:45:58 [System] getLoggedInAccount 
+20170322@22:45:58 [System] getLoggedInAccount 
+20170322@22:45:58 [System] GVAppointment_DataBound 
+20170322@22:46:06 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:46:06 [System] getLoggedInAccount 
+20170322@22:46:06 [System] getLoggedInAccount 
+20170322@22:46:06 [System] getLoggedInAccount 
+20170322@22:46:06 [System] LKBTNSignOut_Click 
+20170322@22:46:06 [System] signOut 
+20170322@22:46:06 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:46:06 [System] getLoggedInAccount 
+20170322@22:46:06 [System] No account logged in 
+20170322@22:46:06 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:46:06 [System] getLoggedInAccount 
+20170322@22:46:06 [System] No account logged in 
+20170322@22:46:06 [System] getLoggedInAccount 
+20170322@22:46:06 [System] getLoggedInAccount 
+20170322@22:46:17 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:46:17 [System] getLoggedInAccount 
+20170322@22:46:17 [System] No account logged in 
+20170322@22:46:17 [System] getLoggedInAccount 
+20170322@22:46:17 [System] getLoggedInAccount 
+20170322@22:46:17 [System] BTNLogin_Click 
+20170322@22:46:17 [System] signIn 
+20170322@22:46:17 [System] MessageHandler : Either email or password is invalid 
+20170322@22:46:27 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:46:27 [System] getLoggedInAccount 
+20170322@22:46:27 [System] No account logged in 
+20170322@22:46:27 [System] getLoggedInAccount 
+20170322@22:46:27 [System] getLoggedInAccount 
+20170322@22:46:27 [System] BTNLogin_Click 
+20170322@22:46:27 [System] signIn 
+20170322@22:46:27 [System] getShopInfo 
+20170322@22:46:27 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:46:27 [System] getLoggedInAccount 
+20170322@22:46:27 [System] getLoggedInAccount 
+20170322@22:46:27 [System] getLoggedInAccount 
+20170322@22:46:30 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:46:30 [System] getLoggedInAccount 
+20170322@22:46:30 [System] getLoggedInAccount 
+20170322@22:46:30 [System] getLoggedInAccount 
+20170322@22:46:30 [System] getAdoptInfo 
+20170322@22:46:30 [System] getShopInfo 
+20170322@22:46:31 [System] getShopTime 
+20170322@22:46:31 [System] getAdoptInfo 
+20170322@22:46:31 [System] getShopInfo 
+20170322@22:46:31 [System] getShopTime 
+20170322@22:46:31 [System] getAdoptInfo 
+20170322@22:46:31 [System] getShopInfo 
+20170322@22:46:31 [System] getShopTime 
+20170322@22:46:31 [System] getAdoptInfo 
+20170322@22:46:31 [System] getShopInfo 
+20170322@22:46:31 [System] getShopTime 
+20170322@22:46:32 [System] getShopInfo 
+20170322@22:46:32 [System] getShopTime 
+20170322@22:46:32 [System] getShopInfo 
+20170322@22:46:32 [System] getShopTime 
+20170322@22:46:32 [System] GVAppointment_DataBound 
+20170322@22:46:40 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:46:40 [System] getLoggedInAccount 
+20170322@22:46:40 [System] getLoggedInAccount 
+20170322@22:46:40 [System] getLoggedInAccount 
+20170322@22:46:40 [System] getAdoptInfo 
+20170322@22:46:40 [System] getShopInfo 
+20170322@22:46:40 [System] getShopTime 
+20170322@22:46:40 [System] getAdoptInfo 
+20170322@22:46:40 [System] getShopInfo 
+20170322@22:46:40 [System] getShopTime 
+20170322@22:46:41 [System] getAdoptInfo 
+20170322@22:46:41 [System] getShopInfo 
+20170322@22:46:41 [System] getShopTime 
+20170322@22:46:41 [System] getAdoptInfo 
+20170322@22:46:41 [System] getShopInfo 
+20170322@22:46:41 [System] getShopTime 
+20170322@22:46:41 [System] getShopInfo 
+20170322@22:46:41 [System] getShopTime 
+20170322@22:46:41 [System] getShopInfo 
+20170322@22:46:41 [System] getShopTime 
+20170322@22:46:41 [System] GVAppointment_DataBound 
+20170322@22:46:46 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:46:46 [System] getLoggedInAccount 
+20170322@22:46:46 [System] getLoggedInAccount 
+20170322@22:46:46 [System] getLoggedInAccount 
+20170322@22:46:46 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:46:46 [System] getUserAppointmentEntity 
+20170322@22:46:46 [System] getAccount 
+20170322@22:46:46 [System] getShopInfo 
+20170322@22:46:46 [System] getShopInfo 
+20170322@22:46:46 [System] getShopTime 
+20170322@22:46:46 [System] loadOperatingHours 
+20170322@22:46:46 [System] MessageHandler : Appointment Time 
+20170322@22:46:46 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:46:46 [System] getAllAppointmentEntities 
+20170322@22:46:46 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:46:52 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170322@22:46:52 [System] getLoggedInAccount 
+20170322@22:46:52 [System] getLoggedInAccount 
+20170322@22:46:56 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:46:56 [System] getLoggedInAccount 
+20170322@22:46:56 [System] getLoggedInAccount 
+20170322@22:46:56 [System] getLoggedInAccount 
+20170322@22:46:56 [System] getAdoptInfo 
+20170322@22:46:56 [System] getShopInfo 
+20170322@22:46:56 [System] getShopTime 
+20170322@22:46:56 [System] getAdoptInfo 
+20170322@22:46:56 [System] getShopInfo 
+20170322@22:46:56 [System] getShopTime 
+20170322@22:46:56 [System] getAdoptInfo 
+20170322@22:46:56 [System] getShopInfo 
+20170322@22:46:56 [System] getShopTime 
+20170322@22:46:57 [System] getAdoptInfo 
+20170322@22:46:57 [System] getShopInfo 
+20170322@22:46:57 [System] getShopTime 
+20170322@22:46:57 [System] getShopInfo 
+20170322@22:46:57 [System] getShopTime 
+20170322@22:46:57 [System] getShopInfo 
+20170322@22:46:57 [System] getShopTime 
+20170322@22:46:57 [System] GVAppointment_DataBound 
+20170322@22:47:08 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:47:08 [System] getLoggedInAccount 
+20170322@22:47:08 [System] getLoggedInAccount 
+20170322@22:47:08 [System] getLoggedInAccount 
+20170322@22:47:08 [System] getAdoptInfo 
+20170322@22:47:08 [System] getShopInfo 
+20170322@22:47:08 [System] getShopTime 
+20170322@22:47:08 [System] getAdoptInfo 
+20170322@22:47:09 [System] getShopInfo 
+20170322@22:47:09 [System] getShopTime 
+20170322@22:47:09 [System] getAdoptInfo 
+20170322@22:47:09 [System] getShopInfo 
+20170322@22:47:09 [System] getShopTime 
+20170322@22:47:09 [System] getAdoptInfo 
+20170322@22:47:09 [System] getShopInfo 
+20170322@22:47:09 [System] getShopTime 
+20170322@22:47:09 [System] getShopInfo 
+20170322@22:47:09 [System] getShopTime 
+20170322@22:47:09 [System] getShopInfo 
+20170322@22:47:10 [System] getShopTime 
+20170322@22:47:10 [System] GVAppointment_DataBound 
+20170322@22:47:16 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:47:16 [System] getLoggedInAccount 
+20170322@22:47:16 [System] getLoggedInAccount 
+20170322@22:47:16 [System] getLoggedInAccount 
+20170322@22:47:16 [System] getAdoptInfo 
+20170322@22:47:16 [System] getShopInfo 
+20170322@22:47:16 [System] getShopTime 
+20170322@22:47:17 [System] getAdoptInfo 
+20170322@22:47:17 [System] getShopInfo 
+20170322@22:47:17 [System] getShopTime 
+20170322@22:47:17 [System] getAdoptInfo 
+20170322@22:47:17 [System] getShopInfo 
+20170322@22:47:17 [System] getShopTime 
+20170322@22:47:17 [System] getAdoptInfo 
+20170322@22:47:17 [System] getShopInfo 
+20170322@22:47:17 [System] getShopTime 
+20170322@22:47:17 [System] getShopInfo 
+20170322@22:47:17 [System] getShopTime 
+20170322@22:47:17 [System] getShopInfo 
+20170322@22:47:17 [System] getShopTime 
+20170322@22:47:18 [System] GVAppointment_DataBound 
+20170322@22:49:47 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:49:47 [System] getLoggedInAccount 
+20170322@22:49:47 [System] No account logged in 
+20170322@22:49:47 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:49:47 [System] getLoggedInAccount 
+20170322@22:49:47 [System] No account logged in 
+20170322@22:49:47 [System] getLoggedInAccount 
+20170322@22:49:47 [System] getLoggedInAccount 
+20170322@22:49:53 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:49:53 [System] getLoggedInAccount 
+20170322@22:49:53 [System] No account logged in 
+20170322@22:49:53 [System] getLoggedInAccount 
+20170322@22:49:53 [System] getLoggedInAccount 
+20170322@22:49:53 [System] BTNLogin_Click 
+20170322@22:49:53 [System] signIn 
+20170322@22:49:53 [System] getShopInfo 
+20170322@22:49:53 [System] Page loaded: http://localhost:65063/home.aspx 
+20170322@22:49:53 [System] getLoggedInAccount 
+20170322@22:49:53 [System] getLoggedInAccount 
+20170322@22:49:53 [System] getLoggedInAccount 
+20170322@22:49:58 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:49:58 [System] getLoggedInAccount 
+20170322@22:49:58 [System] getLoggedInAccount 
+20170322@22:49:58 [System] getLoggedInAccount 
+20170322@22:49:58 [System] getAdoptInfo 
+20170322@22:49:58 [System] getShopInfo 
+20170322@22:49:58 [System] getShopTime 
+20170322@22:49:59 [System] getAdoptInfo 
+20170322@22:49:59 [System] getShopInfo 
+20170322@22:49:59 [System] getShopTime 
+20170322@22:49:59 [System] getAdoptInfo 
+20170322@22:49:59 [System] getShopInfo 
+20170322@22:49:59 [System] getShopTime 
+20170322@22:49:59 [System] getAdoptInfo 
+20170322@22:49:59 [System] getShopInfo 
+20170322@22:49:59 [System] getShopTime 
+20170322@22:49:59 [System] getShopInfo 
+20170322@22:49:59 [System] getShopTime 
+20170322@22:50:00 [System] getShopInfo 
+20170322@22:50:00 [System] getShopTime 
+20170322@22:50:00 [System] GVAppointment_DataBound 
+20170322@22:50:57 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:50:57 [System] getLoggedInAccount 
+20170322@22:50:57 [System] getLoggedInAccount 
+20170322@22:50:57 [System] getLoggedInAccount 
+20170322@22:50:58 [System] getAdoptInfo 
+20170322@22:50:58 [System] getShopInfo 
+20170322@22:50:58 [System] getShopTime 
+20170322@22:50:58 [System] getAdoptInfo 
+20170322@22:50:58 [System] getShopInfo 
+20170322@22:50:58 [System] getShopTime 
+20170322@22:50:58 [System] getAdoptInfo 
+20170322@22:50:58 [System] getShopInfo 
+20170322@22:50:58 [System] getShopTime 
+20170322@22:50:58 [System] getAdoptInfo 
+20170322@22:50:58 [System] getShopInfo 
+20170322@22:50:58 [System] getShopTime 
+20170322@22:50:59 [System] getShopInfo 
+20170322@22:50:59 [System] getShopTime 
+20170322@22:50:59 [System] getShopInfo 
+20170322@22:50:59 [System] getShopTime 
+20170322@22:50:59 [System] GVAppointment_DataBound 
+20170322@22:51:30 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:51:30 [System] getLoggedInAccount 
+20170322@22:51:30 [System] getLoggedInAccount 
+20170322@22:51:30 [System] getLoggedInAccount 
+20170322@22:51:30 [System] getAdoptInfo 
+20170322@22:51:30 [System] getShopInfo 
+20170322@22:51:30 [System] getShopTime 
+20170322@22:51:30 [System] getAdoptInfo 
+20170322@22:51:30 [System] getShopInfo 
+20170322@22:51:30 [System] getShopTime 
+20170322@22:51:30 [System] getAdoptInfo 
+20170322@22:51:30 [System] getShopInfo 
+20170322@22:51:30 [System] getShopTime 
+20170322@22:51:31 [System] getAdoptInfo 
+20170322@22:51:31 [System] getShopInfo 
+20170322@22:51:31 [System] getShopTime 
+20170322@22:51:31 [System] getShopInfo 
+20170322@22:51:31 [System] getShopTime 
+20170322@22:51:31 [System] getShopInfo 
+20170322@22:51:31 [System] getShopTime 
+20170322@22:51:31 [System] GVAppointment_DataBound 
+20170322@22:52:02 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:52:02 [System] getLoggedInAccount 
+20170322@22:52:02 [System] getLoggedInAccount 
+20170322@22:52:02 [System] getLoggedInAccount 
+20170322@22:52:03 [System] getAdoptInfo 
+20170322@22:52:03 [System] getShopInfo 
+20170322@22:52:03 [System] getShopTime 
+20170322@22:52:03 [System] getAdoptInfo 
+20170322@22:52:03 [System] getShopInfo 
+20170322@22:52:03 [System] getShopTime 
+20170322@22:52:03 [System] getAdoptInfo 
+20170322@22:52:03 [System] getShopInfo 
+20170322@22:52:03 [System] getShopTime 
+20170322@22:52:03 [System] getAdoptInfo 
+20170322@22:52:03 [System] getShopInfo 
+20170322@22:52:03 [System] getShopTime 
+20170322@22:52:04 [System] getShopInfo 
+20170322@22:52:04 [System] getShopTime 
+20170322@22:52:04 [System] getShopInfo 
+20170322@22:52:04 [System] getShopTime 
+20170322@22:52:04 [System] GVAppointment_DataBound 
+20170322@22:52:13 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:52:13 [System] getLoggedInAccount 
+20170322@22:52:14 [System] getLoggedInAccount 
+20170322@22:52:14 [System] getLoggedInAccount 
+20170322@22:52:14 [System] getAdoptInfo 
+20170322@22:52:14 [System] getShopInfo 
+20170322@22:52:14 [System] getShopTime 
+20170322@22:52:14 [System] getAdoptInfo 
+20170322@22:52:14 [System] getShopInfo 
+20170322@22:52:14 [System] getShopTime 
+20170322@22:52:14 [System] getAdoptInfo 
+20170322@22:52:14 [System] getShopInfo 
+20170322@22:52:14 [System] getShopTime 
+20170322@22:52:14 [System] getAdoptInfo 
+20170322@22:52:14 [System] getShopInfo 
+20170322@22:52:14 [System] getShopTime 
+20170322@22:52:15 [System] getShopInfo 
+20170322@22:52:15 [System] getShopTime 
+20170322@22:52:15 [System] getShopInfo 
+20170322@22:52:15 [System] getShopTime 
+20170322@22:52:15 [System] GVAppointment_DataBound 
+20170322@22:52:26 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:52:26 [System] getLoggedInAccount 
+20170322@22:52:26 [System] getLoggedInAccount 
+20170322@22:52:26 [System] getLoggedInAccount 
+20170322@22:52:26 [System] getAdoptInfo 
+20170322@22:52:26 [System] getShopInfo 
+20170322@22:52:26 [System] getShopTime 
+20170322@22:52:26 [System] getAdoptInfo 
+20170322@22:52:26 [System] getShopInfo 
+20170322@22:52:26 [System] getShopTime 
+20170322@22:52:26 [System] getAdoptInfo 
+20170322@22:52:26 [System] getShopInfo 
+20170322@22:52:26 [System] getShopTime 
+20170322@22:52:27 [System] getAdoptInfo 
+20170322@22:52:27 [System] getShopInfo 
+20170322@22:52:27 [System] getShopTime 
+20170322@22:52:27 [System] getShopInfo 
+20170322@22:52:27 [System] getShopTime 
+20170322@22:52:27 [System] getShopInfo 
+20170322@22:52:27 [System] getShopTime 
+20170322@22:52:27 [System] GVAppointment_DataBound 
+20170322@22:52:31 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:52:32 [System] getLoggedInAccount 
+20170322@22:52:32 [System] getLoggedInAccount 
+20170322@22:52:32 [System] getLoggedInAccount 
+20170322@22:53:33 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:53:33 [System] getLoggedInAccount 
+20170322@22:53:33 [System] getLoggedInAccount 
+20170322@22:53:33 [System] getLoggedInAccount 
+20170322@22:53:33 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:53:33 [System] getUserAppointmentEntity 
+20170322@22:53:33 [System] getAccount 
+20170322@22:53:33 [System] getShopInfo 
+20170322@22:53:33 [System] getShopInfo 
+20170322@22:53:33 [System] getShopTime 
+20170322@22:53:33 [System] loadOperatingHours 
+20170322@22:53:33 [System] MessageHandler : Appointment Time 
+20170322@22:53:33 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:53:33 [System] getAllAppointmentEntities 
+20170322@22:53:33 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:54:07 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:54:07 [System] getLoggedInAccount 
+20170322@22:54:07 [System] getLoggedInAccount 
+20170322@22:54:07 [System] getLoggedInAccount 
+20170322@22:54:07 [System] getAdoptInfo 
+20170322@22:54:07 [System] getShopInfo 
+20170322@22:54:07 [System] getShopTime 
+20170322@22:54:07 [System] getAdoptInfo 
+20170322@22:54:07 [System] getShopInfo 
+20170322@22:54:08 [System] getShopTime 
+20170322@22:54:08 [System] getAdoptInfo 
+20170322@22:54:08 [System] getShopInfo 
+20170322@22:54:08 [System] getShopTime 
+20170322@22:54:08 [System] getAdoptInfo 
+20170322@22:54:08 [System] getShopInfo 
+20170322@22:54:08 [System] getShopTime 
+20170322@22:54:08 [System] getShopInfo 
+20170322@22:54:08 [System] getShopTime 
+20170322@22:54:08 [System] getShopInfo 
+20170322@22:54:08 [System] getShopTime 
+20170322@22:54:08 [System] GVAppointment_DataBound 
+20170322@22:54:18 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:54:18 [System] getLoggedInAccount 
+20170322@22:54:18 [System] getLoggedInAccount 
+20170322@22:54:18 [System] getLoggedInAccount 
+20170322@22:54:18 [System] GVAppointment_SelectedIndexChanging 
+20170322@22:54:18 [System] getUserAppointmentEntity 
+20170322@22:54:18 [System] getAccount 
+20170322@22:54:18 [System] getShopInfo 
+20170322@22:54:18 [System] getShopInfo 
+20170322@22:54:18 [System] getShopTime 
+20170322@22:54:19 [System] loadOperatingHours 
+20170322@22:54:19 [System] MessageHandler : Appointment Time 
+20170322@22:54:19 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:54:19 [System] getAllAppointmentEntities 
+20170322@22:54:19 [System] GVAppointment_SelectedIndexChanged 
+20170322@22:54:22 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:54:22 [System] getLoggedInAccount 
+20170322@22:54:22 [System] getLoggedInAccount 
+20170322@22:54:22 [System] getLoggedInAccount 
+20170322@22:54:22 [System] BTNAppmtDate_Click 
+20170322@22:54:22 [System] loadOperatingHours 
+20170322@22:54:22 [System] MessageHandler : Appointment Time 
+20170322@22:54:22 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:54:22 [System] getAllAppointmentEntities 
+20170322@22:54:22 [System] saveTempAppointment 
+20170322@22:54:24 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:54:24 [System] getLoggedInAccount 
+20170322@22:54:24 [System] getLoggedInAccount 
+20170322@22:54:24 [System] getLoggedInAccount 
+20170322@22:54:24 [System] BTNAppmtDate_Click 
+20170322@22:54:24 [System] loadOperatingHours 
+20170322@22:54:24 [System] MessageHandler : Appointment Time 
+20170322@22:54:24 [System] MessageHandler : Appointment Date (Wednesday) 
+20170322@22:54:24 [System] getAllAppointmentEntities 
+20170322@22:54:24 [System] saveTempAppointment 
+20170322@22:54:25 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:54:25 [System] getLoggedInAccount 
+20170322@22:54:25 [System] getLoggedInAccount 
+20170322@22:54:25 [System] getLoggedInAccount 
+20170322@22:54:25 [System] BTNAppmtDate_Click 
+20170322@22:54:25 [System] loadOperatingHours 
+20170322@22:54:25 [System] MessageHandler : Appointment Time 
+20170322@22:54:25 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@22:54:25 [System] getAllAppointmentEntities 
+20170322@22:54:26 [System] saveTempAppointment 
+20170322@22:54:27 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:54:27 [System] getLoggedInAccount 
+20170322@22:54:27 [System] getLoggedInAccount 
+20170322@22:54:27 [System] getLoggedInAccount 
+20170322@22:54:27 [System] BTNAppmtDate_Click 
+20170322@22:54:27 [System] loadOperatingHours 
+20170322@22:54:27 [System] MessageHandler : Appointment Time 
+20170322@22:54:27 [System] MessageHandler : Appointment Date (Friday) 
+20170322@22:54:27 [System] getAllAppointmentEntities 
+20170322@22:54:27 [System] saveTempAppointment 
+20170322@22:54:28 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:54:28 [System] getLoggedInAccount 
+20170322@22:54:28 [System] getLoggedInAccount 
+20170322@22:54:28 [System] getLoggedInAccount 
+20170322@22:54:28 [System] BTNAppmtDate_Click 
+20170322@22:54:28 [System] loadOperatingHours 
+20170322@22:54:28 [System] MessageHandler : Appointment Time 
+20170322@22:54:28 [System] MessageHandler : Appointment Date (Saturday) 
+20170322@22:54:28 [System] getAllAppointmentEntities 
+20170322@22:54:28 [System] saveTempAppointment 
+20170322@22:55:24 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@22:55:24 [System] getLoggedInAccount 
+20170322@22:55:24 [System] getLoggedInAccount 
+20170322@22:55:24 [System] getLoggedInAccount 
+20170322@22:55:24 [System] getAdoptInfo 
+20170322@22:55:24 [System] getShopInfo 
+20170322@22:55:24 [System] getShopTime 
+20170322@22:55:24 [System] getAdoptInfo 
+20170322@22:55:24 [System] getShopInfo 
+20170322@22:55:24 [System] getShopTime 
+20170322@22:55:24 [System] getAdoptInfo 
+20170322@22:55:24 [System] getShopInfo 
+20170322@22:55:24 [System] getShopTime 
+20170322@22:55:25 [System] getAdoptInfo 
+20170322@22:55:25 [System] getShopInfo 
+20170322@22:55:25 [System] getShopTime 
+20170322@22:55:25 [System] getShopInfo 
+20170322@22:55:25 [System] getShopTime 
+20170322@22:55:25 [System] getShopInfo 
+20170322@22:55:25 [System] getShopTime 
+20170322@22:55:25 [System] GVAppointment_DataBound 
+20170322@23:06:05 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@23:06:05 [System] getLoggedInAccount 
+20170322@23:06:05 [System] getLoggedInAccount 
+20170322@23:06:05 [System] getLoggedInAccount 
+20170322@23:06:05 [System] GVAppointment_SelectedIndexChanging 
+20170322@23:06:05 [System] getUserAppointmentEntity 
+20170322@23:06:05 [System] getAccount 
+20170322@23:06:05 [System] getShopInfo 
+20170322@23:06:05 [System] getShopInfo 
+20170322@23:06:05 [System] getShopTime 
+20170322@23:06:05 [System] loadOperatingHours 
+20170322@23:06:05 [System] MessageHandler : Appointment Time 
+20170322@23:06:05 [System] MessageHandler : Appointment Date (Friday) 
+20170322@23:06:05 [System] getAllAppointmentEntities 
+20170322@23:06:05 [System] GVAppointment_SelectedIndexChanged 
+20170322@23:08:34 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@23:08:34 [System] getLoggedInAccount 
+20170322@23:08:34 [System] getLoggedInAccount 
+20170322@23:08:34 [System] getLoggedInAccount 
+20170322@23:09:31 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@23:09:31 [System] getLoggedInAccount 
+20170322@23:09:31 [System] getLoggedInAccount 
+20170322@23:09:31 [System] getLoggedInAccount 
+20170322@23:09:31 [System] getAdoptInfo 
+20170322@23:09:31 [System] getShopInfo 
+20170322@23:09:31 [System] getShopTime 
+20170322@23:09:31 [System] getAdoptInfo 
+20170322@23:09:31 [System] getShopInfo 
+20170322@23:09:32 [System] getShopTime 
+20170322@23:09:32 [System] getAdoptInfo 
+20170322@23:09:32 [System] getShopInfo 
+20170322@23:09:32 [System] getShopTime 
+20170322@23:09:32 [System] getAdoptInfo 
+20170322@23:09:32 [System] getShopInfo 
+20170322@23:09:32 [System] getShopTime 
+20170322@23:09:32 [System] getShopInfo 
+20170322@23:09:32 [System] getShopTime 
+20170322@23:09:32 [System] getShopInfo 
+20170322@23:09:32 [System] getShopTime 
+20170322@23:09:32 [System] GVAppointment_DataBound 
+20170322@23:09:37 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@23:09:37 [System] getLoggedInAccount 
+20170322@23:09:37 [System] getLoggedInAccount 
+20170322@23:09:37 [System] getLoggedInAccount 
+20170322@23:09:37 [System] GVAppointment_SelectedIndexChanging 
+20170322@23:09:37 [System] getUserAppointmentEntity 
+20170322@23:09:37 [System] getAccount 
+20170322@23:09:37 [System] getShopInfo 
+20170322@23:09:37 [System] getShopInfo 
+20170322@23:09:37 [System] getShopTime 
+20170322@23:09:37 [System] loadOperatingHours 
+20170322@23:09:37 [System] MessageHandler : Appointment Time 
+20170322@23:09:37 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@23:09:37 [System] getAllAppointmentEntities 
+20170322@23:09:37 [System] GVAppointment_SelectedIndexChanged 
+20170322@23:10:27 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@23:10:27 [System] getLoggedInAccount 
+20170322@23:10:27 [System] getLoggedInAccount 
+20170322@23:10:27 [System] getLoggedInAccount 
+20170322@23:10:27 [System] getAdoptInfo 
+20170322@23:10:27 [System] getShopInfo 
+20170322@23:10:27 [System] getShopTime 
+20170322@23:10:27 [System] getAdoptInfo 
+20170322@23:10:27 [System] getShopInfo 
+20170322@23:10:27 [System] getShopTime 
+20170322@23:10:28 [System] getAdoptInfo 
+20170322@23:10:28 [System] getShopInfo 
+20170322@23:10:28 [System] getShopTime 
+20170322@23:10:28 [System] getAdoptInfo 
+20170322@23:10:28 [System] getShopInfo 
+20170322@23:10:28 [System] getShopTime 
+20170322@23:10:28 [System] getShopInfo 
+20170322@23:10:28 [System] getShopTime 
+20170322@23:10:28 [System] getShopInfo 
+20170322@23:10:28 [System] getShopTime 
+20170322@23:10:28 [System] GVAppointment_DataBound 
+20170322@23:10:33 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@23:10:33 [System] getLoggedInAccount 
+20170322@23:10:33 [System] getLoggedInAccount 
+20170322@23:10:33 [System] getLoggedInAccount 
+20170322@23:10:33 [System] GVAppointment_SelectedIndexChanging 
+20170322@23:10:33 [System] getUserAppointmentEntity 
+20170322@23:10:33 [System] getAccount 
+20170322@23:10:33 [System] getShopInfo 
+20170322@23:10:33 [System] getShopInfo 
+20170322@23:10:33 [System] getShopTime 
+20170322@23:10:33 [System] loadOperatingHours 
+20170322@23:10:33 [System] MessageHandler : Appointment Time 
+20170322@23:10:33 [System] MessageHandler : Appointment Date (Thursday) 
+20170322@23:10:33 [System] getAllAppointmentEntities 
+20170322@23:10:33 [System] GVAppointment_SelectedIndexChanged 
+20170322@23:10:55 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@23:10:55 [System] getLoggedInAccount 
+20170322@23:10:55 [System] getLoggedInAccount 
+20170322@23:10:55 [System] getLoggedInAccount 
+20170322@23:10:55 [System] getAdoptInfo 
+20170322@23:10:55 [System] getShopInfo 
+20170322@23:10:55 [System] getShopTime 
+20170322@23:10:55 [System] getAdoptInfo 
+20170322@23:10:55 [System] getShopInfo 
+20170322@23:10:55 [System] getShopTime 
+20170322@23:10:55 [System] getAdoptInfo 
+20170322@23:10:56 [System] getShopInfo 
+20170322@23:10:56 [System] getShopTime 
+20170322@23:10:56 [System] getAdoptInfo 
+20170322@23:10:56 [System] getShopInfo 
+20170322@23:10:56 [System] getShopTime 
+20170322@23:10:56 [System] getShopInfo 
+20170322@23:10:56 [System] getShopTime 
+20170322@23:10:56 [System] getShopInfo 
+20170322@23:10:56 [System] getShopTime 
+20170322@23:10:56 [System] GVAppointment_DataBound 
+20170322@23:11:13 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@23:11:13 [System] getLoggedInAccount 
+20170322@23:11:13 [System] getLoggedInAccount 
+20170322@23:11:13 [System] getLoggedInAccount 
+20170322@23:11:13 [System] getAdoptInfo 
+20170322@23:11:13 [System] getShopInfo 
+20170322@23:11:13 [System] getShopTime 
+20170322@23:11:13 [System] getAdoptInfo 
+20170322@23:11:13 [System] getShopInfo 
+20170322@23:11:13 [System] getShopTime 
+20170322@23:11:14 [System] getAdoptInfo 
+20170322@23:11:14 [System] getShopInfo 
+20170322@23:11:14 [System] getShopTime 
+20170322@23:11:14 [System] getAdoptInfo 
+20170322@23:11:14 [System] getShopInfo 
+20170322@23:11:14 [System] getShopTime 
+20170322@23:11:14 [System] getShopInfo 
+20170322@23:11:14 [System] getShopTime 
+20170322@23:11:14 [System] getShopInfo 
+20170322@23:11:14 [System] getShopTime 
+20170322@23:11:14 [System] GVAppointment_DataBound 
+20170322@23:11:32 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@23:11:32 [System] getLoggedInAccount 
+20170322@23:11:32 [System] getLoggedInAccount 
+20170322@23:11:32 [System] getLoggedInAccount 
+20170322@23:11:32 [System] getAdoptInfo 
+20170322@23:11:32 [System] getShopInfo 
+20170322@23:11:32 [System] getShopTime 
+20170322@23:11:32 [System] getAdoptInfo 
+20170322@23:11:33 [System] getShopInfo 
+20170322@23:11:33 [System] getShopTime 
+20170322@23:11:33 [System] getAdoptInfo 
+20170322@23:11:33 [System] getShopInfo 
+20170322@23:11:33 [System] getShopTime 
+20170322@23:11:33 [System] getAdoptInfo 
+20170322@23:11:33 [System] getShopInfo 
+20170322@23:11:33 [System] getShopTime 
+20170322@23:11:33 [System] getShopInfo 
+20170322@23:11:33 [System] getShopTime 
+20170322@23:11:33 [System] getShopInfo 
+20170322@23:11:33 [System] getShopTime 
+20170322@23:11:34 [System] GVAppointment_DataBound 
+20170322@23:13:14 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170322@23:13:14 [System] getLoggedInAccount 
+20170322@23:13:15 [System] getLoggedInAccount 
+20170322@23:13:15 [System] getLoggedInAccount 
+20170322@23:13:15 [System] getAdoptInfo 
+20170322@23:13:15 [System] getShopInfo 
+20170322@23:13:15 [System] getShopTime 
+20170322@23:13:15 [System] getAdoptInfo 
+20170322@23:13:15 [System] getShopInfo 
+20170322@23:13:15 [System] getShopTime 
+20170322@23:13:15 [System] getAdoptInfo 
+20170322@23:13:15 [System] getShopInfo 
+20170322@23:13:15 [System] getShopTime 
+20170322@23:13:15 [System] getAdoptInfo 
+20170322@23:13:15 [System] getShopInfo 
+20170322@23:13:16 [System] getShopTime 
+20170322@23:13:16 [System] getShopInfo 
+20170322@23:13:16 [System] getShopTime 
+20170322@23:13:16 [System] getShopInfo 
+20170322@23:13:16 [System] getShopTime 
+20170322@23:13:16 [System] GVAppointment_DataBound 

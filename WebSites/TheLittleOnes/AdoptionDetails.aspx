@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="AdoptionDetails.aspx.cs" Inherits="uploadedFiles_AdoptionDetails" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBody" runat="Server">
@@ -321,7 +320,6 @@
                                                 <asp:Label ID="LBLAppmtDateTimeStatusDetails" runat="server" Text=""></asp:Label>
                                             </div>
                                         </asp:Panel>
-
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>

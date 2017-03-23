@@ -1,0 +1,38 @@
+20170320@19:54:28 [System] getLoggedInAccount 
+20170320@19:55:12 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170320@19:55:12 [System] getLoggedInAccount 
+20170320@19:55:12 [System] getLoggedInAccount 
+20170320@20:02:14 [System] getLoggedInAccount 
+20170320@20:03:50 [System] getLoggedInAccount 
+20170320@20:07:01 [System] getLoggedInAccount 
+20170320@20:07:17 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170320@20:07:17 [System] getLoggedInAccount 
+20170320@20:07:17 [System] getLoggedInAccount 
+20170320@20:08:23 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170320@20:08:23 [System] getLoggedInAccount 
+20170320@20:08:23 [System] getLoggedInAccount 
+20170320@20:10:08 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170320@20:10:08 [System] getLoggedInAccount 
+20170320@20:10:08 [System] getLoggedInAccount 
+20170320@20:10:09 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170320@20:10:09 [System] getLoggedInAccount 
+20170320@20:10:09 [System] getLoggedInAccount 
+20170320@20:10:10 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170320@20:10:10 [System] getLoggedInAccount 
+20170320@20:10:10 [System] getLoggedInAccount 
+20170320@20:10:22 [System] Page loaded: http://localhost:65063/userdashboard.aspx 
+20170320@20:10:22 [System] getLoggedInAccount 
+20170320@20:12:46 [System] Page loaded: http://localhost:65063/userdashboard.aspx 
+20170320@20:12:46 [System] getLoggedInAccount 
+20170320@20:13:36 [System] Page loaded: http://localhost:65063/userdashboard.aspx 
+20170320@20:13:36 [System] getLoggedInAccount 
+20170320@20:13:45 [System] Page loaded: http://localhost:65063/userdashboard.aspx 
+20170320@20:13:45 [System] getLoggedInAccount 
+20170320@20:14:22 [System] Page loaded: http://localhost:65063/userdashboard.aspx 
+20170320@20:14:22 [System] getLoggedInAccount 
+20170320@20:14:43 [System] Page loaded: http://localhost:65063/userdashboard.aspx 
+20170320@20:14:43 [System] getLoggedInAccount 
+20170320@20:17:03 [System] Page loaded: http://localhost:65063/userdashboard.aspx 
+20170320@20:17:03 [System] getLoggedInAccount 
+20170320@20:18:17 [System] Page loaded: http://localhost:65063/userdashboard.aspx 
+20170320@20:18:18 [System] getLoggedInAccount 

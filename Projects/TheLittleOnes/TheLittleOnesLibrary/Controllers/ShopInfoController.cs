@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.OleDb;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
@@ -26,7 +23,6 @@ namespace TheLittleOnesLibrary.Controllers
         private DAO dao;
         private OleDbCommand oleDbCommand;
         private DataSet dataSet;
-        
         // Default Constructor
         public ShopInfoController()
         {

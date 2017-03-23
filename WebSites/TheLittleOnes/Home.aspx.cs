@@ -4,9 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-public partial class Home : System.Web.UI.Page
+using TheLittleOnesLibrary;
+public partial class Home : BasePageTLO
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        TLOAccountEntity = accountCtrler.getLoggedInAccount();
     }
 }

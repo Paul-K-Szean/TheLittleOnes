@@ -1,17 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Threading;
 using System.Web;
 using System.Web.UI;
+using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
-using TheLittleOnesLibrary;
-using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.DataAccessObject;
+using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
-using System.IO;
-using System.Data;
-using TheLittleOnesLibrary.EnumFolder;
 namespace TheLittleOnesLibrary
 {
     public class BasePageTLO : Page
@@ -25,18 +26,7 @@ namespace TheLittleOnesLibrary
         }
         // Entities for current logged in user
         protected static AccountEntity TLOAccountEntity;
-        protected static AdoptRequestEntity TLOAdoptRequestEntity;
-        //protected static ProfileEntity TLOProfileEntity;
-        //protected static PetInfoEntity TLOPetInfoEntity;
-        //protected static PetCharEntity TLOPetCharEntity;
-        //protected static PetEntity TLOPetEntity;
-        //protected static ShopInfoEntity TLOShopInfoEntity;
-        //protected static ShopTimeEntity TLOShopTimeEntity;
-        //protected static List<ShopTimeEntity> TLOShopTimeEntities;
-        //protected static AdoptInfoEntity TLOAdoptInfoEntity;
-        //protected static List<AdoptInfoEntity> TLOAdoptInfoEntites;
-        //protected static AdoptRequestEntity TLOAdoptRequestEntity;
-        //protected static List<AdoptRequestEntity> TLOAdoptReqEntites;
+        protected static AppointmentEntity TLOAppointmentEntity;
         protected static PhotoEntity TLOPhotoEntity;
         protected static List<PhotoEntity> TLOPhotoEntities;
         // Entities for account editing
@@ -52,6 +42,7 @@ namespace TheLittleOnesLibrary
         protected static ShopInfoController shopInfoCtrler;
         protected static PhotoController photoCtrler;
         protected static AdoptInfoController adoptInfoCtrler;
+        protected static AppointmentController appointmentCrtler;
         protected static PetController petCtrler;
         // Data Access Object
         protected DAO dao;
@@ -76,6 +67,18 @@ namespace TheLittleOnesLibrary
             else
             {
                 LogController.LogLine("Page loaded: " + currentPage);
+            }
+            TLOAccountEntity = accountCtrler.getLoggedInAccount();
+            if (TLOAccountEntity == null)
+            {
+                LogController.LogLine("No account logged in");
+                if (!currentPage.Contains("home"))
+                {
+                    if (currentPage.ToLower().Contains("appointmentdetails"))
+                    {
+                        HttpContext.Current.Response.Redirect("Home.aspx");
+                    }
+                }
             }
         }
         // Validate access control for logged in user
@@ -158,6 +161,10 @@ namespace TheLittleOnesLibrary
             if (petCtrler == null)
             {
                 petCtrler = PetController.getInstance();
+            }
+            if (appointmentCrtler == null)
+            {
+                appointmentCrtler = AppointmentController.getInstance();
             }
         }
         // Highlight select row for gridview
@@ -264,6 +271,106 @@ namespace TheLittleOnesLibrary
                 Char.ToUpper(word[0]);
             }
             return true;
+        }
+        // Load operation hours
+        protected void loadOperatingHours(string dateSelected, string daySelected, HtmlInputText INPUTAppmtDate,
+            List<ShopTimeEntity> shopTimeEntities, DropDownList DDLAppmtTime, Label LBLAppmtDate, Label LBLAppmtTime, string AppmtFromID, string AppmtToID)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            dateSelected = INPUTAppmtDate.Value; // get dateSelected
+            if (!string.IsNullOrEmpty(dateSelected))
+            {
+                daySelected = (DateTime.Parse(dateSelected)).DayOfWeek.ToString();
+                // to get which day is operating
+                bool isOperating = false;
+                ShopTimeEntity shopTimeEntitySelected = null;
+                foreach (ShopTimeEntity shopTimeEntity in shopTimeEntities)
+                {
+                    if (shopTimeEntity.DayOfWeek.ToLower().Contains(daySelected.ToLower()))
+                    {
+                        isOperating = true;
+                        shopTimeEntitySelected = shopTimeEntity;
+                        break;
+                    }
+                }
+                // Enale drop down list to select time
+                DDLAppmtTime.Enabled = isOperating;
+                if (isOperating)
+                {
+                    MessageHandler.DefaultMessage(LBLAppmtTime, "Appointment Time");
+                    MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ")"));
+                    // display operation hours of a particular day
+                    var firstItem = DDLAppmtTime.Items[0];
+                    DDLAppmtTime.Items.Clear();
+                    DDLAppmtTime.Items.Add(firstItem);
+                    DDLAppmtTime.DataSource = Utility.getTimeInterval(shopTimeEntitySelected.OpenTime, shopTimeEntitySelected.CloseTime);
+                    DDLAppmtTime.DataBind();
+                    List<AppointmentEntity> adoptRequestEntities = appointmentCrtler.getAllAppointmentEntities(AppmtToID);
+                    foreach (AppointmentEntity appointmentEntity in adoptRequestEntities)
+                    {
+                        ListItem item;
+                        if (daySelected.ToLower().Equals(appointmentEntity.AppmtDateTime.DayOfWeek.ToString().ToLower()))
+                        {
+                            // remove time slot that aleady been booked
+                            item = DDLAppmtTime.Items.FindByValue(appointmentEntity.AppmtDateTime.ToString("HH:mm tt"));
+                            if (item != null)
+                            {
+                                // except the user booked time
+                                if (string.IsNullOrEmpty(AppmtFromID))
+                                    DDLAppmtTime.Items.Remove(item);
+                                if (!appointmentEntity.AppmtID.Equals(AppmtFromID))
+                                    DDLAppmtTime.Items.Remove(item);
+                            }
+                        }
+                    }
+                    // remove time selection after operating hours on current day
+                    if (dateSelected.Equals(DateTime.Now.ToString("dd-MMMM-yyyy")))
+                    {
+                        if ((DateTime.Parse(shopTimeEntitySelected.CloseTime).TimeOfDay < DateTime.Now.TimeOfDay))
+                        {
+                            MessageHandler.ErrorMessage(LBLAppmtDate, string.Concat("Appointment Date (Close Now)"));
+                            DDLAppmtTime.Enabled = false;
+                        }
+                        else
+                        {
+                            DDLAppmtTime.Enabled = true;
+                            // still in operation, but need to remove time slot that is past current time
+                            List<string> operationTimes = new List<string>();
+                            foreach (ListItem item in DDLAppmtTime.Items)
+                            {
+                                operationTimes.Add(item.Value);
+                            }
+                            ListItem itemTime = new ListItem();
+                            foreach (string time in operationTimes)
+                            {
+                                if (!string.IsNullOrEmpty(time))
+                                {
+                                    itemTime = DDLAppmtTime.Items.FindByValue(time);
+                                    if (DateTime.Parse(time).TimeOfDay < DateTime.Now.TimeOfDay)
+                                    {
+                                        DDLAppmtTime.Items.Remove(itemTime);
+                                    }
+                                }
+                            }
+                            // additional information of operation status
+                            if (DDLAppmtTime.Items.Count <= 2)
+                            {
+                                MessageHandler.WarningMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ") Closing soon"));
+                            }
+                            else
+                            {
+                                MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ")"));
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    Thread.Sleep(1000);
+                    MessageHandler.ErrorMessage(LBLAppmtTime, "Appointment Time - Not open on selected date");
+                    MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date"));
+                }
+            }
         }
     }
 }

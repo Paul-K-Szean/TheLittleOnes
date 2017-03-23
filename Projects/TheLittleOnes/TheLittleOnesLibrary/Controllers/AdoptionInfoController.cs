@@ -1,33 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data;
 using System.Data.OleDb;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
-using TheLittleOnesLibrary.EnumFolder;
-
 namespace TheLittleOnesLibrary.Controllers
 {
     public class AdoptInfoController
     {
-        private static AdoptInfoController AdoptInfoInfoCtrl;
+        private static AdoptInfoController AdoptInfoCtrl;
         public static AdoptInfoController getInstance()
         {
-            if (AdoptInfoInfoCtrl == null)
-                AdoptInfoInfoCtrl = new AdoptInfoController();
-            return AdoptInfoInfoCtrl;
+            if (AdoptInfoCtrl == null)
+                AdoptInfoCtrl = new AdoptInfoController();
+            return AdoptInfoCtrl;
         }
-        private static List<AdoptRequestEntity> adoptReqEntities;
+        private static List<AppointmentEntity> adoptReqEntities;
         // Data Access Object
         private DAO dao;
         private OleDbCommand oleDbCommand;
         private DataSet dataSet;
-        private DataSet dataSetAdoptRequest;
+        private DataSet dataSetAppointment;
         // Default Constructor
         public AdoptInfoController()
         {
@@ -166,178 +160,6 @@ namespace TheLittleOnesLibrary.Controllers
                 return dataSet.Tables[0];
             }
         }
-        #region Adopt Request
-        // Automatically checks if adopt request date is over
-        public void checkAdoptRequestStatus()
-        {
-            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            List<AdoptRequestEntity> adoptRequestEntities = new List<AdoptRequestEntity>();
-            DateTime currentDateTime = DateTime.Now;
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM ADOPTREQUEST");
-                dataSet = dao.getRecord(oleDbCommand);
-                foreach (AdoptRequestEntity adoptRequestEntity in adoptRequestEntities)
-                {
-                    if (adoptRequestEntity.AdoptReqDateTime < currentDateTime)
-                    {
-                        LogController.LogLine(Enums.GetDescription(SystemStatus.Completed));
-                    }
-                }
-            }
-        }
-        // Check if AdoptRequest exists
-        public bool checkAdoptRequestExist(string adoptRequesterID, string adoptInfoID)
-        {
-            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT ADOPTREQID FROM ADOPTREQUEST WHERE ADOPTREQUESTERID = @ADOPTREQUESTERID AND ADOPTINFOID = @ADOPTINFOID AND ADOPTREQSTATUS='Confirmed'");
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQUESTERID", string.Concat(adoptRequesterID));
-                oleDbCommand.Parameters.AddWithValue("@ADOPTINFOID", string.Concat(adoptInfoID));
-                if (string.IsNullOrEmpty(dao.getValue(oleDbCommand)))
-                {
-                    // empty = no record exists
-                    return false;
-                }
-                else
-                {
-                    return true;
-                }
-            }
-        }
-        // Create AdoptRequest
-        public AdoptRequestEntity createAdoptRequest(AdoptRequestEntity adoptRequestEntity)
-        {
-            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("INSERT INTO ADOPTREQUEST(ADOPTREQUESTERID,ADOPTINFOID,ADOPTREQDATETIME,ADOPTREQDATECREATED, ADOPTREQSTATUS ) ",
-                                                         "              VALUES (@ADOPTREQUESTERID,@ADOPTINFOID,@ADOPTREQDATETIME,NOW(),@ADOPTREQSTATUS);");
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQUESTERID", adoptRequestEntity.AccountEntity.AccountID);
-                oleDbCommand.Parameters.AddWithValue("@ADOPTINFOID", adoptRequestEntity.AdoptInfoEntity.AdoptInfoID);
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQDATETIME", adoptRequestEntity.AdoptReqDateTime);
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQSTATUS", Enums.GetDescription(SystemStatus.Confirmed));
-                int insertID = dao.createRecord(oleDbCommand);
-                if (insertID > 0)
-                {
-                    adoptRequestEntity.AdoptReqID = insertID.ToString();
-                    return adoptRequestEntity;
-                }
-                else
-                {
-                    return null;
-                }
-            }
-        }
-        // Retrieve Total AdoptRequest 
-        public List<AdoptRequestEntity> getAllAdoptRequestEntities(string adoptInfoID)
-        {
-            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM ADOPTREQUEST WHERE ADOPTINFOID = @ADOPTINFOID");
-                oleDbCommand.Parameters.AddWithValue("@ADOPTINFOID", string.Concat(adoptInfoID));
-                dataSet = dao.getRecord(oleDbCommand);
-                adoptReqEntities = new List<AdoptRequestEntity>();
-                foreach (DataRow row in dataSet.Tables[0].Rows)
-                {
-                    AdoptRequestEntity adoptReqEntity = new AdoptRequestEntity(
-                        row[0].ToString(),
-                        row[1] as AccountEntity,
-                        row[2] as AdoptInfoEntity,
-                        DateTime.Parse(row[3].ToString()),
-                        DateTime.Parse(row[4].ToString()),
-                        row[5].ToString());
-                    adoptReqEntities.Add(adoptReqEntity);
-                }
-                return adoptReqEntities;
-            }
-        }
-        // Retrieve user AdoptRequest 
-        public AdoptRequestEntity getUserAdoptRequestEntity(string adoptRequesterID, string adoptInfoID)
-        {
-            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM ADOPTREQUEST WHERE ADOPTREQUESTERID = @ADOPTREQUESTERID AND ADOPTINFOID = @ADOPTINFOID");
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQUESTERID", string.Concat(adoptRequesterID));
-                oleDbCommand.Parameters.AddWithValue("@ADOPTINFOID", string.Concat(adoptInfoID));
-                dataSetAdoptRequest = dao.getRecord(oleDbCommand);
-                if (dataSetAdoptRequest != null)
-                {
-                    return new AdoptRequestEntity(
-                       dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTREQID"].ToString(),
-                       AccountController.getInstance().getAccount(dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTREQUESTERID"].ToString()),
-                       getAdoptInfo(dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTINFOID"].ToString()),
-                       DateTime.Parse(dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTREQDATETIME"].ToString()),
-                       DateTime.Parse(dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTREQDATECREATED"].ToString()),
-                       dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTREQSTATUS"].ToString()
-                       );
-                }
-                else return null;
-            }
-        }
-        // Retrieve all user AdoptRequest 
-        public List<AdoptRequestEntity> getUserAdoptRequestEntities(string adoptRequesterID)
-        {
-            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM ADOPTREQUEST WHERE ADOPTREQUESTERID = @ADOPTREQUESTERID");
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQUESTERID", string.Concat(adoptRequesterID));
-                dataSetAdoptRequest = dao.getRecord(oleDbCommand);
-                adoptReqEntities = new List<AdoptRequestEntity>();
-                foreach (DataRow row in dataSet.Tables[0].Rows)
-                {
-                    AdoptRequestEntity adoptReqEntity = new AdoptRequestEntity(
-                        dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTREQID"].ToString(),
-                        AccountController.getInstance().getAccount(dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTREQUESTERID"].ToString()),
-                        getAdoptInfo(dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTINFOID"].ToString()),
-                        DateTime.Parse(dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTREQDATETIME"].ToString()),
-                        DateTime.Parse(dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTREQDATECREATED"].ToString()),
-                        dataSetAdoptRequest.Tables[0].Rows[0]["ADOPTREQSTATUS"].ToString()
-                        );
-                    adoptReqEntities.Add(adoptReqEntity);
-                }
-                return adoptReqEntities;
-            }
-        }
-        // Update AdoptRequest
-        public AdoptRequestEntity updateAdoptInfo(AdoptRequestEntity adoptRequestEntity)
-        {
-            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("UPDATE ADOPTREQUEST SET ",
-                    "ADOPTREQUESTERID = @ADOPTREQUESTERID , ADOPTINFOID = @ADOPTINFOID, ",
-                    "ADOPTREQDATETIME = @ADOPTREQDATETIME, ADOPTREQDATECREATED = @ADOPTREQDATECREATED, ADOPTREQSTATUS = @ADOPTREQSTATUS",
-                    " WHERE(ADOPTREQID = @ADOPTREQID)");
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQUESTERID", adoptRequestEntity.AccountEntity.AccountID);
-                oleDbCommand.Parameters.AddWithValue("@ADOPTINFOID", adoptRequestEntity.AdoptInfoEntity.AdoptInfoID);
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQDATETIME", adoptRequestEntity.AdoptReqDateTime);
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQDATECREATED", adoptRequestEntity.AdoptReqDateCreated);
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQSTATUS", adoptRequestEntity.AdoptReqStatus);
-                oleDbCommand.Parameters.AddWithValue("@ADOPTREQID", adoptRequestEntity.AdoptReqID);
-                int insertID = dao.updateRecord(oleDbCommand);
-                if (insertID > 0)
-                {
-                    return adoptRequestEntity;
-                }
-                else
-                {
-                    return null;
-                }
-            }
-        }
-        #endregion
+        
     }
 }

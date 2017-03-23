@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.UI.WebControls;
 namespace TheLittleOnesLibrary.EnumFolder
 {
     public class Enums
@@ -37,6 +32,13 @@ namespace TheLittleOnesLibrary.EnumFolder
         WebShelterGroup,
         [Description("Web User")]
         WebUser
+    }
+    public enum AppointmentType
+    {
+        [Description("Adoption")]
+        Adoption,
+        [Description("Clinic")]
+        Clinic,
     }
     public enum ShopType
     {

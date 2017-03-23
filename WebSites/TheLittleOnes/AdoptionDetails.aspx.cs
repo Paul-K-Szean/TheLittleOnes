@@ -23,7 +23,6 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     private static string daySelected;
     private static string dateSelected;
     private static string timeSelected;
-
     protected void Page_Load(object sender, EventArgs e)
     {
         TLOAccountEntity = accountCtrler.getLoggedInAccount();
@@ -76,11 +75,11 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
             MessageHandler.ClearMessage(TBLoginEmail);
             MessageHandler.ClearMessage(TBLoginPassword);
             MessageHandler.ClearMessage(LBLErrorMsg);
-            if (TLOAdoptRequestEntity != null && TLOAccountEntity != null)
+            if (TLOAppointmentEntity != null && TLOAccountEntity != null)
             {
-                TLOAdoptRequestEntity.AccountEntity = TLOAccountEntity;
-                TLOAdoptRequestEntity = adoptInfoCtrler.createAdoptRequest(TLOAdoptRequestEntity);
-                if (!string.IsNullOrEmpty(TLOAdoptRequestEntity.AdoptReqID))
+                TLOAppointmentEntity.AccountEntity = TLOAccountEntity;
+                TLOAppointmentEntity = appointmentCrtler.createAppointment(TLOAppointmentEntity);
+                if (!string.IsNullOrEmpty(TLOAppointmentEntity.AppmtID))
                 {
                     MessageHandler.SuccessMessage(LBLErrorMsg, "Request created");
                     Response.Redirect(string.Concat(getCurrentWebPage(), "?adoptinfoid=", adoptInfoID));
@@ -100,7 +99,9 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         // to get date selected from bootstrap datepicker 
-        loadOperatingHours();
+        // loadOperatingHours();
+        loadOperatingHours(dateSelected, daySelected, INPUTAppmtDate,
+                           shopInfoCtrler.getShopTime(HDFShopInfoID.Value), DDLAppmtTime, LBLAppmtDate, LBLAppmtTime, null, adoptInfoID);
         // save temp appointment data if user selected any date/time
         saveTempAppointment();
     }
@@ -110,7 +111,7 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         Label LBLTotalRequest = e.Item.FindControl("LBLTotalRequest") as Label;
-        LBLTotalRequest.Text = string.Concat("Total Request: ", adoptInfoCtrler.getAllAdoptRequestEntities(adoptInfoID).Count.ToString());
+        LBLTotalRequest.Text = string.Concat("Total Request: ", appointmentCrtler.getAllAppointmentEntities(adoptInfoID).Count.ToString());
         checkAdoptionDetails();
     }
     protected void DLMorePet_ItemDataBound(object sender, DataListItemEventArgs e)
@@ -142,56 +143,89 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
         HDFShopInfoID.Value = viewAdoptinfoEntity.ShopInfoEntity.ShopInfoID;
     }
     // Load operating hours based on different days
-    protected void loadOperatingHours()
-    {
-        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        dateSelected = INPUTAppmtDate.Value; // get dateSelected
-        if (!string.IsNullOrEmpty(dateSelected))
-        {
-            daySelected = (DateTime.Parse(dateSelected)).DayOfWeek.ToString();
-            // to get which day is operating
-            bool isOperating = false;
-            ShopTimeEntity shopTimeEntitySelected = null;
-            foreach (ShopTimeEntity shopTimeEntity in viewAdoptinfoEntity.ShopInfoEntity.ShopTimeEntities)
-            {
-                if (shopTimeEntity.DayOfWeek.ToLower().Contains(daySelected.ToLower()))
-                {
-                    isOperating = true;
-                    shopTimeEntitySelected = shopTimeEntity;
-                    break;
-                }
-            }
-            // Enale drop down list to select time
-            DDLAppmtTime.Enabled = isOperating;
-            if (isOperating)
-            {
-                MessageHandler.DefaultMessage(LBLAppmtTime, "Appointment Time");
-                MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ")"));
-                // display operation hours of a particular day
-                var firstItem = DDLAppmtTime.Items[0];
-                DDLAppmtTime.Items.Clear();
-                DDLAppmtTime.Items.Add(firstItem);
-                DDLAppmtTime.DataSource = Utility.getTimeInterval(shopTimeEntitySelected.OpenTime, shopTimeEntitySelected.CloseTime);
-                DDLAppmtTime.DataBind();
-                List<AdoptRequestEntity> adoptRequestEntities = adoptInfoCtrler.getAllAdoptRequestEntities(adoptInfoID);
-                foreach (AdoptRequestEntity adopRequestEntity in adoptRequestEntities)
-                {
-                    ListItem item;
-                    if (daySelected.ToLower().Equals(adopRequestEntity.AdoptReqDateTime.DayOfWeek.ToString().ToLower()))
-                    {
-                        item = DDLAppmtTime.Items.FindByValue(adopRequestEntity.AdoptReqDateTime.ToString("HH:mm tt"));
-                        if (item != null) { DDLAppmtTime.Items.Remove(item); }
-                    }
-                }
-            }
-            else
-            {
-                Thread.Sleep(1000);
-                MessageHandler.ErrorMessage(LBLAppmtTime, "Appointment Time - Not open on selected date");
-                MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date"));
-            }
-        }
-    }
+    //protected void loadOperatingHours()
+    //{
+    //    LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+    //    dateSelected = INPUTAppmtDate.Value; // get dateSelected
+    //    if (!string.IsNullOrEmpty(dateSelected))
+    //    {
+    //        daySelected = (DateTime.Parse(dateSelected)).DayOfWeek.ToString();
+    //        // to get which day is operating
+    //        bool isOperating = false;
+    //        ShopTimeEntity shopTimeEntitySelected = null;
+    //        foreach (ShopTimeEntity shopTimeEntity in viewAdoptinfoEntity.ShopInfoEntity.ShopTimeEntities)
+    //        {
+    //            if (shopTimeEntity.DayOfWeek.ToLower().Contains(daySelected.ToLower()))
+    //            {
+    //                isOperating = true;
+    //                shopTimeEntitySelected = shopTimeEntity;
+    //                break;
+    //            }
+    //        }
+    //        // Enale drop down list to select time
+    //        DDLAppmtTime.Enabled = isOperating;
+    //        if (isOperating)
+    //        {
+    //            MessageHandler.DefaultMessage(LBLAppmtTime, "Appointment Time");
+    //            MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ")"));
+    //            // display operation hours of a particular day
+    //            var firstItem = DDLAppmtTime.Items[0];
+    //            DDLAppmtTime.Items.Clear();
+    //            DDLAppmtTime.Items.Add(firstItem);
+    //            DDLAppmtTime.DataSource = Utility.getTimeInterval(shopTimeEntitySelected.OpenTime, shopTimeEntitySelected.CloseTime);
+    //            DDLAppmtTime.DataBind();
+    //            List<AppointmentEntity> adoptRequestEntities = appointmentCrtler.getAllAppointmentEntities(adoptInfoID);
+    //            foreach (AppointmentEntity appointmentEntity in adoptRequestEntities)
+    //            {
+    //                ListItem item;
+    //                if (daySelected.ToLower().Equals(appointmentEntity.AppmtDateTime.DayOfWeek.ToString().ToLower()))
+    //                {
+    //                    // remove time slot that aleady been booked
+    //                    item = DDLAppmtTime.Items.FindByValue(appointmentEntity.AppmtDateTime.ToString("HH:mm tt"));
+    //                    if (item != null) { DDLAppmtTime.Items.Remove(item); }
+    //                }
+    //            } 
+    //            // remove time selection after operating hours on current day
+    //            if (dateSelected.Equals(DateTime.Now.ToString("dd-MMMM-yyyy")))
+    //            {
+    //                if ((DateTime.Parse(shopTimeEntitySelected.CloseTime).TimeOfDay < DateTime.Now.TimeOfDay))
+    //                {
+    //                    MessageHandler.ErrorMessage(LBLAppmtDate, string.Concat("Appointment Date (Close Now)"));
+    //                    DDLAppmtTime.Enabled = false;
+    //                }
+    //                else
+    //                {
+    //                    MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ")"));
+    //                    DDLAppmtTime.Enabled = true;
+    //                    // still in operation, but need to remove time slot that is past current time
+    //                    List<string> operationTimes = new List<string>();
+    //                    foreach (ListItem item in DDLAppmtTime.Items)
+    //                    {
+    //                        operationTimes.Add(item.Value);
+    //                    }
+    //                    ListItem itemTime = new ListItem();
+    //                    foreach (string time in operationTimes)
+    //                    {
+    //                        if (!string.IsNullOrEmpty(time))
+    //                        {
+    //                            itemTime = DDLAppmtTime.Items.FindByValue(time);
+    //                            if (DateTime.Parse(time).TimeOfDay < DateTime.Now.TimeOfDay)
+    //                            {
+    //                                DDLAppmtTime.Items.Remove(itemTime);
+    //                            }
+    //                        }
+    //                    }
+    //                }
+    //            }
+    //        }
+    //        else
+    //        {
+    //            Thread.Sleep(1000);
+    //            MessageHandler.ErrorMessage(LBLAppmtTime, "Appointment Time - Not open on selected date");
+    //            MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date"));
+    //        }
+    //    }
+    //}
     // Save current selected appointment date/time
     protected void saveTempAppointment()
     {
@@ -201,12 +235,12 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
         if (!string.IsNullOrEmpty(dateSelected) && !string.IsNullOrEmpty(timeSelected))
         {
             dateTimeSelected = DateTime.Parse(dateSelected + " " + timeSelected);
-            TLOAdoptRequestEntity = new AdoptRequestEntity(TLOAccountEntity, viewAdoptinfoEntity, dateTimeSelected, DateTime.Now, SystemStatus.Pending.ToString());
+            TLOAppointmentEntity = new AppointmentEntity(TLOAccountEntity, viewAdoptinfoEntity.AdoptInfoID, dateTimeSelected, DateTime.Now, SystemStatus.Pending.ToString(), Enums.GetDescription(AppointmentType.Adoption));
         }
         else if (!string.IsNullOrEmpty(dateSelected))
         {
             dateTimeSelected = DateTime.Parse(dateSelected + " 00:00 AM");
-            TLOAdoptRequestEntity = new AdoptRequestEntity(TLOAccountEntity, viewAdoptinfoEntity, dateTimeSelected, DateTime.Now, SystemStatus.Pending.ToString());
+            TLOAppointmentEntity = new AppointmentEntity(TLOAccountEntity, viewAdoptinfoEntity.AdoptInfoID, dateTimeSelected, DateTime.Now, SystemStatus.Pending.ToString(), Enums.GetDescription(AppointmentType.Adoption));
         }
     }
     // Check if adoption already being requested
@@ -216,34 +250,35 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
         if (TLOAccountEntity != null)
         {
             // user logged in, 
-            if (adoptInfoCtrler.checkAdoptRequestExist(TLOAccountEntity.AccountID, adoptInfoID))
+            if (appointmentCrtler.checkAppointmentExist(TLOAccountEntity.AccountID, adoptInfoID))
             {
                 // already requested
                 PNLAdoptReqExist.Visible = true;
-                TLOAdoptRequestEntity = adoptInfoCtrler.getUserAdoptRequestEntity(TLOAccountEntity.AccountID, adoptInfoID);
-                LBLAppmtDateTimeExistDetails.Text = TLOAdoptRequestEntity.AdoptReqDateTime.ToString("dd-MMMM-yyy @ HH:mm tt");
+                TLOAppointmentEntity = appointmentCrtler.getUserAppointmentEntity(TLOAccountEntity.AccountID, adoptInfoID);
+                LBLAppmtDateTimeExistDetails.Text = TLOAppointmentEntity.AppmtDateTime.ToString("dd-MMMM-yyy @ HH:mm tt");
                 // display request status
-                if (TLOAdoptRequestEntity.AdoptReqStatus.Equals(Enums.GetDescription(SystemStatus.Confirmed)))
-                    MessageHandler.SuccessMessage(LBLAppmtDateTimeStatusDetails, TLOAdoptRequestEntity.AdoptReqStatus);
-                if (TLOAdoptRequestEntity.AdoptReqStatus.Equals(Enums.GetDescription(SystemStatus.Cancelled)))
-                    MessageHandler.WarningMessage(LBLAppmtDateTimeStatusDetails, TLOAdoptRequestEntity.AdoptReqStatus);
+                if (TLOAppointmentEntity.AppmtStatus.Equals(Enums.GetDescription(SystemStatus.Confirmed)))
+                    MessageHandler.SuccessMessage(LBLAppmtDateTimeStatusDetails, TLOAppointmentEntity.AppmtStatus);
+                if (TLOAppointmentEntity.AppmtStatus.Equals(Enums.GetDescription(SystemStatus.Cancelled)))
+                    MessageHandler.WarningMessage(LBLAppmtDateTimeStatusDetails, TLOAppointmentEntity.AppmtStatus);
             }
             else
             {
                 // new requested
                 PNLAdoptReq.Visible = true;
-                if (TLOAdoptRequestEntity != null)
+                if (TLOAppointmentEntity != null)
                 {
-                    if (TLOAdoptRequestEntity.AdoptInfoEntity.AdoptInfoID.Equals(adoptInfoID))
+                    if (TLOAppointmentEntity.AppmtToID.Equals(adoptInfoID))
                     {
-                        dateSelected = INPUTAppmtDate.Value = TLOAdoptRequestEntity.AdoptReqDateTime.ToString("dd-MMMM-yyyy");
-                        loadOperatingHours();
-                        timeSelected = DDLAppmtTime.SelectedValue = TLOAdoptRequestEntity.AdoptReqDateTime.ToString("HH:mm tt");
+                        dateSelected = INPUTAppmtDate.Value = TLOAppointmentEntity.AppmtDateTime.ToString("dd-MMMM-yyyy");
+                        loadOperatingHours(dateSelected, daySelected, INPUTAppmtDate,
+                           shopInfoCtrler.getShopTime(HDFShopInfoID.Value), DDLAppmtTime, LBLAppmtDate, LBLAppmtTime, null, adoptInfoID);
+                        timeSelected = DDLAppmtTime.SelectedValue = TLOAppointmentEntity.AppmtDateTime.ToString("HH:mm tt");
                     }
                 }
                 else
                 {
-                    TLOAdoptRequestEntity = null;
+                    TLOAppointmentEntity = null;
                 }
             }
         }

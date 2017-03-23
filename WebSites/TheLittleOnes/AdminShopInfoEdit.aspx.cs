@@ -15,9 +15,9 @@ public partial class AdminShopInfoEdit : BasePage
     private TextBox UICtrlTextbox;
     private CheckBox UICtrlCheckbox;
     private DropDownList UICtrlDropdownlist;
+    private static DataTable dTableShopInfo;
     private static int GVRowID;
     private static int gvPageSize = 5; // default
-    private static DataTable dTableShopInfo;
     private string shopID;
     private string shopName;
     private string shopContact;
