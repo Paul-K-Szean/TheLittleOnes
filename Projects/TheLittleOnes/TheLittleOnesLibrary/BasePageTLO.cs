@@ -76,7 +76,7 @@ namespace TheLittleOnesLibrary
                 {
                     if (currentPage.ToLower().Contains("appointmentdetails"))
                     {
-                        HttpContext.Current.Response.Redirect("Home.aspx");
+                        HttpContext.Current.Response.Redirect("Forbidden.aspx");
                     }
                 }
             }
@@ -260,8 +260,12 @@ namespace TheLittleOnesLibrary
                     else
                         chars.Add(c);
                 }
+                return new string(chars.ToArray());
             }
-            return new string(chars.ToArray());
+            else
+            {
+                return inputString;
+            }
         }
         private static bool isAlreadyCamelCase(string inputString)
         {
@@ -286,7 +290,7 @@ namespace TheLittleOnesLibrary
                 ShopTimeEntity shopTimeEntitySelected = null;
                 foreach (ShopTimeEntity shopTimeEntity in shopTimeEntities)
                 {
-                    if (shopTimeEntity.DayOfWeek.ToLower().Contains(daySelected.ToLower()))
+                    if (shopTimeEntity.ShopDayOfWeek.ToLower().Contains(daySelected.ToLower()))
                     {
                         isOperating = true;
                         shopTimeEntitySelected = shopTimeEntity;
@@ -298,12 +302,12 @@ namespace TheLittleOnesLibrary
                 if (isOperating)
                 {
                     MessageHandler.DefaultMessage(LBLAppmtTime, "Appointment Time");
-                    MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ")"));
+                    MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.ShopDayOfWeek, ")"));
                     // display operation hours of a particular day
                     var firstItem = DDLAppmtTime.Items[0];
                     DDLAppmtTime.Items.Clear();
                     DDLAppmtTime.Items.Add(firstItem);
-                    DDLAppmtTime.DataSource = Utility.getTimeInterval(shopTimeEntitySelected.OpenTime, shopTimeEntitySelected.CloseTime);
+                    DDLAppmtTime.DataSource = Utility.getTimeInterval(shopTimeEntitySelected.ShopOpenTime, shopTimeEntitySelected.ShopCloseTime);
                     DDLAppmtTime.DataBind();
                     List<AppointmentEntity> adoptRequestEntities = appointmentCrtler.getAllAppointmentEntities(AppmtToID);
                     foreach (AppointmentEntity appointmentEntity in adoptRequestEntities)
@@ -326,7 +330,7 @@ namespace TheLittleOnesLibrary
                     // remove time selection after operating hours on current day
                     if (dateSelected.Equals(DateTime.Now.ToString("dd-MMMM-yyyy")))
                     {
-                        if ((DateTime.Parse(shopTimeEntitySelected.CloseTime).TimeOfDay < DateTime.Now.TimeOfDay))
+                        if ((DateTime.Parse(shopTimeEntitySelected.ShopCloseTime).TimeOfDay < DateTime.Now.TimeOfDay))
                         {
                             MessageHandler.ErrorMessage(LBLAppmtDate, string.Concat("Appointment Date (Close Now)"));
                             DDLAppmtTime.Enabled = false;
@@ -355,11 +359,11 @@ namespace TheLittleOnesLibrary
                             // additional information of operation status
                             if (DDLAppmtTime.Items.Count <= 2)
                             {
-                                MessageHandler.WarningMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ") Closing soon"));
+                                MessageHandler.WarningMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.ShopDayOfWeek, ") Closing soon"));
                             }
                             else
                             {
-                                MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ")"));
+                                MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.ShopDayOfWeek, ")"));
                             }
                         }
                     }

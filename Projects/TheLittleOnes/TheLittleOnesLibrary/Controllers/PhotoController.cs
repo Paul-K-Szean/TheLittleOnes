@@ -167,6 +167,7 @@ namespace TheLittleOnesLibrary.Controllers
         // Retrieve photoEntites
         public List<PhotoEntity> getPhotoEntities(string photoOwnerID, string photoPurpose)
         {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
             {
                 oleDbCommand.CommandType = CommandType.Text;

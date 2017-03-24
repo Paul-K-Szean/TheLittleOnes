@@ -85,12 +85,12 @@ namespace TheLittleOnesLibrary.Controllers
                 using (oleDbCommand = new OleDbCommand())
                 {
                     oleDbCommand.CommandType = CommandType.Text;
-                    oleDbCommand.CommandText = string.Concat("INSERT INTO SHOPTIME (SHOPINFOID,SHOPDAY,SHOPOPENTIME,SHOPCLOSETIME)",
-                                                             "VALUES (@SHOPINFOID,@SHOPDAY,@SHOPOPENTIME,@SHOPCLOSETIME);");
+                    oleDbCommand.CommandText = string.Concat("INSERT INTO SHOPTIME (SHOPINFOID,SHOPDAYOFWEEK,SHOPOPENTIME,SHOPCLOSETIME)",
+                                                             "VALUES (@SHOPINFOID,@SHOPDAYOFWEEK,@SHOPOPENTIME,@SHOPCLOSETIME);");
                     oleDbCommand.Parameters.AddWithValue("@SHOPINFOID", shopInfoEntity.ShopInfoID);
-                    oleDbCommand.Parameters.AddWithValue("@SHOPDAY", shopTimeEntity.DayOfWeek);
-                    oleDbCommand.Parameters.AddWithValue("@SHOPOPENTIME", Convert.ToDateTime(shopTimeEntity.OpenTime).ToString("HH:mm tt"));
-                    oleDbCommand.Parameters.AddWithValue("@SHOPCLOSETIME", Convert.ToDateTime(shopTimeEntity.CloseTime).ToString("HH:mm tt"));
+                    oleDbCommand.Parameters.AddWithValue("@SHOPDAYOFWEEK", shopTimeEntity.ShopDayOfWeek);
+                    oleDbCommand.Parameters.AddWithValue("@SHOPOPENTIME", Convert.ToDateTime(shopTimeEntity.ShopOpenTime).ToString("HH:mm tt"));
+                    oleDbCommand.Parameters.AddWithValue("@SHOPCLOSETIME", Convert.ToDateTime(shopTimeEntity.ShopCloseTime).ToString("HH:mm tt"));
                     int insertID = dao.createRecord(oleDbCommand);
                     if (insertID > 0)
                     {

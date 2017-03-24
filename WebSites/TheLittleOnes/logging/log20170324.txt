@@ -1,0 +1,465 @@
+20170324@15:01:30 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@15:01:30 [System] getLoggedInAccount 
+20170324@15:01:30 [System] No account logged in 
+20170324@15:01:31 [System] getLoggedInAccount 
+20170324@15:01:59 [System] Page loaded: http://localhost:65063/home.aspx 
+20170324@15:01:59 [System] getLoggedInAccount 
+20170324@15:01:59 [System] No account logged in 
+20170324@15:01:59 [System] getLoggedInAccount 
+20170324@15:01:59 [System] getLoggedInAccount 
+20170324@15:02:54 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170324@15:02:54 [System] signOut 
+20170324@15:03:44 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170324@15:03:44 [System] signOut 
+20170324@15:03:44 [System] signIn 
+20170324@15:03:44 [System] getShopInfo 
+20170324@15:03:44 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170324@15:03:44 [System] getLoggedInAccount 
+20170324@15:03:45 [System] GVPetInfoOverview_DataBound 
+20170324@15:03:45 [System] GVShopInfoOverview_DataBound 
+20170324@15:04:10 [System] Page loaded: http://localhost:65063/home.aspx 
+20170324@15:04:10 [System] getLoggedInAccount 
+20170324@15:04:10 [System] getLoggedInAccount 
+20170324@15:04:10 [System] getLoggedInAccount 
+20170324@15:04:10 [System] BTNLogin_Click 
+20170324@15:04:10 [System] signIn 
+20170324@15:04:10 [System] getShopInfo 
+20170324@15:04:10 [System] Page loaded: http://localhost:65063/home.aspx 
+20170324@15:04:10 [System] getLoggedInAccount 
+20170324@15:04:10 [System] getLoggedInAccount 
+20170324@15:04:10 [System] getLoggedInAccount 
+20170324@15:05:13 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@15:05:13 [System] getLoggedInAccount 
+20170324@15:05:13 [System] getLoggedInAccount 
+20170324@15:05:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170324@15:05:17 [System] getLoggedInAccount 
+20170324@15:05:18 [System] getLoggedInAccount 
+20170324@15:05:18 [System] loadAdoptionInfo 
+20170324@15:05:18 [System] getAdoptInfo 
+20170324@15:05:18 [System] getShopInfo 
+20170324@15:05:18 [System] getShopTime 
+20170324@15:05:19 [System] getLoggedInAccount 
+20170324@15:05:19 [System] DLAdoptInfo_ItemDataBound 
+20170324@15:05:19 [System] getAllAppointmentEntities 
+20170324@15:05:19 [System] checkAdoptionDetails 
+20170324@15:05:19 [System] checkAppointmentExist 
+20170324@15:05:19 [System] getValue() : Index was outside the bounds of the array. 
+20170324@15:05:19 [System] getUserAppointmentEntity 
+20170324@15:05:19 [System] getAccount 
+20170324@15:05:19 [System] getShopInfo 
+20170324@15:05:19 [System] DLMorePet_ItemDataBound 
+20170324@15:05:19 [System] DLMorePet_ItemDataBound 
+20170324@15:05:25 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@15:05:25 [System] getLoggedInAccount 
+20170324@15:05:26 [System] getLoggedInAccount 
+20170324@15:05:39 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@15:05:39 [System] getLoggedInAccount 
+20170324@15:05:39 [System] getLoggedInAccount 
+20170324@15:07:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
+20170324@15:07:39 [System] getLoggedInAccount 
+20170324@15:07:39 [System] getLoggedInAccount 
+20170324@15:07:39 [System] loadAdoptionInfo 
+20170324@15:07:39 [System] getAdoptInfo 
+20170324@15:07:39 [System] getShopInfo 
+20170324@15:07:39 [System] getShopTime 
+20170324@15:07:39 [System] getLoggedInAccount 
+20170324@15:07:39 [System] DLAdoptInfo_ItemDataBound 
+20170324@15:07:40 [System] getAllAppointmentEntities 
+20170324@15:07:40 [System] checkAdoptionDetails 
+20170324@15:07:40 [System] checkAppointmentExist 
+20170324@15:07:40 [System] No data found in getValue() 
+20170324@15:07:40 [System] DLMorePet_ItemDataBound 
+20170324@15:10:28 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@15:10:28 [System] getLoggedInAccount 
+20170324@15:10:28 [System] getLoggedInAccount 
+20170324@15:26:04 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170324@15:26:04 [System] signOut 
+20170324@15:26:11 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170324@15:26:11 [System] signOut 
+20170324@15:26:11 [System] signIn 
+20170324@15:26:11 [System] getShopInfo 
+20170324@15:26:11 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170324@15:26:11 [System] getLoggedInAccount 
+20170324@15:26:11 [System] GVPetInfoOverview_DataBound 
+20170324@15:26:11 [System] GVShopInfoOverview_DataBound 
+20170324@15:26:18 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170324@15:26:18 [System] getLoggedInAccount 
+20170324@15:26:18 [System] GVPetInfoOverview_SelectedIndexChanging 
+20170324@15:26:18 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170324@15:26:18 [System] loadPieChartPetInfo 
+20170324@15:27:33 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170324@15:27:33 [System] getLoggedInAccount 
+20170324@15:27:33 [System] loadPieChartPetInfo 
+20170324@15:27:33 [System] filterShopInfoData 
+20170324@15:27:33 [System] GVShopInfoOverview_DataBound 
+20170324@15:27:34 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170324@15:27:34 [System] getLoggedInAccount 
+20170324@15:27:34 [System] loadPieChartPetInfo 
+20170324@15:27:34 [System] filterShopInfoData 
+20170324@15:27:34 [System] GVShopInfoOverview_DataBound 
+20170324@15:27:36 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170324@15:27:36 [System] getLoggedInAccount 
+20170324@15:27:36 [System] loadPieChartPetInfo 
+20170324@15:27:36 [System] filterShopInfoData 
+20170324@15:27:36 [System] GVShopInfoOverview_DataBound 
+20170324@15:40:27 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170324@15:40:27 [System] getLoggedInAccount 
+20170324@15:40:29 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170324@15:40:29 [System] getLoggedInAccount 
+20170324@15:49:34 [System] Page loaded: http://localhost:65063/home.aspx 
+20170324@15:49:34 [System] getLoggedInAccount 
+20170324@15:49:34 [System] getLoggedInAccount 
+20170324@15:49:34 [System] getLoggedInAccount 
+20170324@15:49:45 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170324@15:49:45 [System] getLoggedInAccount 
+20170324@15:49:45 [System] getLoggedInAccount 
+20170324@15:49:45 [System] getLoggedInAccount 
+20170324@15:49:45 [System] GVAppointment_DataBound 
+20170324@15:49:53 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170324@15:49:53 [System] getLoggedInAccount 
+20170324@15:49:53 [System] getLoggedInAccount 
+20170324@15:49:53 [System] getLoggedInAccount 
+20170324@15:49:53 [System] LKBTNSignOut_Click 
+20170324@15:49:53 [System] signOut 
+20170324@15:49:53 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170324@15:49:53 [System] getLoggedInAccount 
+20170324@15:49:53 [System] No account logged in 
+20170324@15:49:53 [System] Page loaded: http://localhost:65063/home.aspx 
+20170324@15:49:53 [System] getLoggedInAccount 
+20170324@15:49:53 [System] No account logged in 
+20170324@15:49:53 [System] getLoggedInAccount 
+20170324@15:49:53 [System] getLoggedInAccount 
+20170324@15:49:58 [System] Page loaded: http://localhost:65063/home.aspx 
+20170324@15:49:58 [System] getLoggedInAccount 
+20170324@15:49:58 [System] No account logged in 
+20170324@15:49:58 [System] getLoggedInAccount 
+20170324@15:49:58 [System] getLoggedInAccount 
+20170324@15:49:58 [System] BTNLogin_Click 
+20170324@15:49:58 [System] signIn 
+20170324@15:49:59 [System] getShopInfo 
+20170324@15:49:59 [System] Page loaded: http://localhost:65063/home.aspx 
+20170324@15:49:59 [System] getLoggedInAccount 
+20170324@15:49:59 [System] getLoggedInAccount 
+20170324@15:49:59 [System] getLoggedInAccount 
+20170324@15:50:01 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170324@15:50:01 [System] getLoggedInAccount 
+20170324@15:50:01 [System] getLoggedInAccount 
+20170324@15:50:01 [System] getLoggedInAccount 
+20170324@15:50:02 [System] getAdoptInfo 
+20170324@15:50:02 [System] getShopInfo 
+20170324@15:50:02 [System] getShopTime 
+20170324@15:50:02 [System] getAdoptInfo 
+20170324@15:50:02 [System] getShopInfo 
+20170324@15:50:02 [System] getShopTime 
+20170324@15:50:02 [System] getAdoptInfo 
+20170324@15:50:02 [System] getShopInfo 
+20170324@15:50:02 [System] getShopTime 
+20170324@15:50:03 [System] getAdoptInfo 
+20170324@15:50:03 [System] getShopInfo 
+20170324@15:50:03 [System] getShopTime 
+20170324@15:50:03 [System] getAdoptInfo 
+20170324@15:50:03 [System] getShopInfo 
+20170324@15:50:03 [System] getShopTime 
+20170324@15:50:03 [System] getAdoptInfo 
+20170324@15:50:03 [System] getShopInfo 
+20170324@15:50:03 [System] getShopTime 
+20170324@15:50:03 [System] getAdoptInfo 
+20170324@15:50:03 [System] getShopInfo 
+20170324@15:50:04 [System] getShopTime 
+20170324@15:50:04 [System] getAdoptInfo 
+20170324@15:50:04 [System] getShopInfo 
+20170324@15:50:04 [System] getShopTime 
+20170324@15:50:04 [System] GVAppointment_DataBound 
+20170324@15:51:14 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170324@15:51:14 [System] getLoggedInAccount 
+20170324@15:51:14 [System] getLoggedInAccount 
+20170324@15:51:14 [System] getLoggedInAccount 
+20170324@15:51:14 [System] LKBTNSignOut_Click 
+20170324@15:51:14 [System] signOut 
+20170324@15:51:14 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170324@15:51:14 [System] getLoggedInAccount 
+20170324@15:51:14 [System] No account logged in 
+20170324@15:51:14 [System] Page loaded: http://localhost:65063/home.aspx 
+20170324@15:51:14 [System] getLoggedInAccount 
+20170324@15:51:14 [System] No account logged in 
+20170324@15:51:14 [System] getLoggedInAccount 
+20170324@15:51:14 [System] getLoggedInAccount 
+20170324@15:51:17 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170324@15:51:17 [System] signOut 
+20170324@15:51:22 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170324@15:51:22 [System] signOut 
+20170324@15:51:22 [System] signIn 
+20170324@15:51:22 [System] getShopInfo 
+20170324@15:51:22 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170324@15:51:22 [System] getLoggedInAccount 
+20170324@15:51:22 [System] GVPetInfoOverview_DataBound 
+20170324@15:51:22 [System] GVShopInfoOverview_DataBound 
+20170324@15:51:27 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170324@15:51:27 [System] getLoggedInAccount 
+20170324@15:54:07 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170324@15:54:07 [System] getLoggedInAccount 
+20170324@15:54:08 [System] GVPetInfoOverview_DataBound 
+20170324@15:54:08 [System] GVShopInfoOverview_DataBound 
+20170324@15:54:34 [System] Page loaded: http://localhost:65063/adminsystemaccountedit.aspx 
+20170324@15:54:34 [System] getLoggedInAccount 
+20170324@15:54:34 [System] GVSystemAccountOverview_DataBound 
+20170324@15:54:39 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170324@15:54:39 [System] getLoggedInAccount 
+20170324@15:54:39 [System] GVPetInfoOverview_DataBound 
+20170324@15:54:39 [System] GVShopInfoOverview_DataBound 
+20170324@15:54:50 [System] Page loaded: http://localhost:65063/adminsystemaccountedit.aspx 
+20170324@15:54:50 [System] getLoggedInAccount 
+20170324@15:54:50 [System] GVSystemAccountOverview_DataBound 
+20170324@15:54:56 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170324@15:54:56 [System] getLoggedInAccount 
+20170324@15:54:56 [System] GVPetInfoOverview_DataBound 
+20170324@15:55:01 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170324@15:55:01 [System] getLoggedInAccount 
+20170324@15:55:01 [System] GVShopInfoOverview_DataBound 
+20170324@15:55:08 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170324@15:55:08 [System] getLoggedInAccount 
+20170324@15:55:08 [System] GVAdoptInfoOverview_DataBound 
+20170324@15:55:17 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170324@15:55:17 [System] getLoggedInAccount 
+20170324@15:55:17 [System] signOut 
+20170324@15:55:17 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170324@15:55:17 [System] signOut 
+20170324@15:55:22 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@15:55:22 [System] getLoggedInAccount 
+20170324@15:55:22 [System] No account logged in 
+20170324@15:55:23 [System] getLoggedInAccount 
+20170324@15:55:27 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@15:55:27 [System] getLoggedInAccount 
+20170324@15:55:27 [System] No account logged in 
+20170324@15:55:27 [System] getLoggedInAccount 
+20170324@15:59:23 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@15:59:23 [System] getLoggedInAccount 
+20170324@15:59:23 [System] No account logged in 
+20170324@15:59:23 [System] getLoggedInAccount 
+20170324@15:59:28 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@15:59:28 [System] getLoggedInAccount 
+20170324@15:59:28 [System] No account logged in 
+20170324@15:59:28 [System] getLoggedInAccount 
+20170324@15:59:28 [System] BTNLogin_Click 
+20170324@15:59:28 [System] signIn 
+20170324@15:59:28 [System] getShopInfo 
+20170324@15:59:28 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@15:59:28 [System] getLoggedInAccount 
+20170324@15:59:28 [System] getLoggedInAccount 
+20170324@15:59:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170324@15:59:32 [System] getLoggedInAccount 
+20170324@15:59:32 [System] getLoggedInAccount 
+20170324@15:59:32 [System] loadAdoptionInfo 
+20170324@15:59:32 [System] getAdoptInfo 
+20170324@15:59:32 [System] getShopInfo 
+20170324@15:59:33 [System] getShopTime 
+20170324@15:59:33 [System] getLoggedInAccount 
+20170324@15:59:33 [System] DLAdoptInfo_ItemDataBound 
+20170324@15:59:33 [System] getAllAppointmentEntities 
+20170324@15:59:33 [System] checkAdoptionDetails 
+20170324@15:59:33 [System] checkAppointmentExist 
+20170324@15:59:33 [System] getValue() : Index was outside the bounds of the array. 
+20170324@15:59:33 [System] getUserAppointmentEntity 
+20170324@15:59:33 [System] getAccount 
+20170324@15:59:33 [System] getShopInfo 
+20170324@15:59:33 [System] DLMorePet_ItemDataBound 
+20170324@15:59:33 [System] DLMorePet_ItemDataBound 
+20170324@15:59:42 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@15:59:42 [System] getLoggedInAccount 
+20170324@15:59:42 [System] getLoggedInAccount 
+20170324@15:59:57 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170324@15:59:57 [System] getLoggedInAccount 
+20170324@15:59:57 [System] getLoggedInAccount 
+20170324@15:59:57 [System] getLoggedInAccount 
+20170324@15:59:57 [System] getAdoptInfo 
+20170324@15:59:57 [System] getShopInfo 
+20170324@15:59:57 [System] getShopTime 
+20170324@15:59:57 [System] getAdoptInfo 
+20170324@15:59:58 [System] getShopInfo 
+20170324@15:59:58 [System] getShopTime 
+20170324@15:59:58 [System] getAdoptInfo 
+20170324@15:59:58 [System] getShopInfo 
+20170324@15:59:58 [System] getShopTime 
+20170324@15:59:58 [System] getAdoptInfo 
+20170324@15:59:58 [System] getShopInfo 
+20170324@15:59:58 [System] getShopTime 
+20170324@15:59:58 [System] getAdoptInfo 
+20170324@15:59:58 [System] getShopInfo 
+20170324@15:59:58 [System] getShopTime 
+20170324@15:59:59 [System] getAdoptInfo 
+20170324@15:59:59 [System] getShopInfo 
+20170324@15:59:59 [System] getShopTime 
+20170324@15:59:59 [System] getAdoptInfo 
+20170324@15:59:59 [System] getShopInfo 
+20170324@15:59:59 [System] getShopTime 
+20170324@15:59:59 [System] getAdoptInfo 
+20170324@15:59:59 [System] getShopInfo 
+20170324@15:59:59 [System] getShopTime 
+20170324@15:59:59 [System] GVAppointment_DataBound 
+20170324@16:00:09 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170324@16:00:09 [System] getLoggedInAccount 
+20170324@16:00:09 [System] getLoggedInAccount 
+20170324@16:00:09 [System] getLoggedInAccount 
+20170324@16:00:09 [System] GVAppointment_SelectedIndexChanging 
+20170324@16:00:09 [System] getUserAppointmentEntity 
+20170324@16:00:09 [System] getAccount 
+20170324@16:00:09 [System] getShopInfo 
+20170324@16:00:09 [System] getAdoptInfo 
+20170324@16:00:09 [System] getShopInfo 
+20170324@16:00:09 [System] getShopTime 
+20170324@16:00:10 [System] getShopTime 
+20170324@16:00:10 [System] loadOperatingHours 
+20170324@16:00:10 [System] MessageHandler : Appointment Time 
+20170324@16:00:10 [System] MessageHandler : Appointment Date (Sunday) 
+20170324@16:00:10 [System] getAllAppointmentEntities 
+20170324@16:00:10 [System] GVAppointment_SelectedIndexChanged 
+20170324@16:01:16 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@16:01:16 [System] getLoggedInAccount 
+20170324@16:01:16 [System] getLoggedInAccount 
+20170324@16:01:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170324@16:01:18 [System] getLoggedInAccount 
+20170324@16:01:18 [System] getLoggedInAccount 
+20170324@16:01:18 [System] loadAdoptionInfo 
+20170324@16:01:18 [System] getAdoptInfo 
+20170324@16:01:18 [System] getShopInfo 
+20170324@16:01:18 [System] getShopTime 
+20170324@16:01:18 [System] getLoggedInAccount 
+20170324@16:01:19 [System] DLAdoptInfo_ItemDataBound 
+20170324@16:01:19 [System] getAllAppointmentEntities 
+20170324@16:01:19 [System] checkAdoptionDetails 
+20170324@16:01:19 [System] checkAppointmentExist 
+20170324@16:01:19 [System] getValue() : Index was outside the bounds of the array. 
+20170324@16:01:19 [System] getUserAppointmentEntity 
+20170324@16:01:19 [System] getAccount 
+20170324@16:01:19 [System] getShopInfo 
+20170324@16:01:19 [System] DLMorePet_ItemDataBound 
+20170324@16:01:19 [System] DLMorePet_ItemDataBound 
+20170324@16:01:23 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@16:01:23 [System] getLoggedInAccount 
+20170324@16:01:23 [System] getLoggedInAccount 
+20170324@16:02:09 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170324@16:02:09 [System] signOut 
+20170324@16:02:14 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170324@16:02:14 [System] signOut 
+20170324@16:02:14 [System] signIn 
+20170324@16:02:14 [System] getShopInfo 
+20170324@16:02:14 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170324@16:02:14 [System] getLoggedInAccount 
+20170324@16:02:14 [System] GVPetInfoOverview_DataBound 
+20170324@16:02:14 [System] GVShopInfoOverview_DataBound 
+20170324@21:28:03 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@21:28:03 [System] getLoggedInAccount 
+20170324@21:28:03 [System] getLoggedInAccount 
+20170324@21:31:57 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@21:31:57 [System] getLoggedInAccount 
+20170324@21:31:57 [System] No account logged in 
+20170324@21:31:57 [System] getLoggedInAccount 
+20170324@21:32:02 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@21:32:02 [System] getLoggedInAccount 
+20170324@21:32:02 [System] No account logged in 
+20170324@21:32:03 [System] getLoggedInAccount 
+20170324@21:33:35 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@21:33:35 [System] getLoggedInAccount 
+20170324@21:33:35 [System] No account logged in 
+20170324@21:33:35 [System] getLoggedInAccount 
+20170324@21:33:53 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@21:33:53 [System] getLoggedInAccount 
+20170324@21:33:53 [System] No account logged in 
+20170324@21:33:53 [System] getLoggedInAccount 
+20170324@21:34:58 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@21:34:58 [System] getLoggedInAccount 
+20170324@21:34:58 [System] No account logged in 
+20170324@21:34:58 [System] getLoggedInAccount 
+20170324@21:35:17 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@21:35:17 [System] getLoggedInAccount 
+20170324@21:35:17 [System] No account logged in 
+20170324@21:35:17 [System] getLoggedInAccount 
+20170324@21:36:14 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@21:36:14 [System] getLoggedInAccount 
+20170324@21:36:14 [System] No account logged in 
+20170324@21:36:14 [System] getLoggedInAccount 
+20170324@21:38:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@21:38:44 [System] getLoggedInAccount 
+20170324@21:38:44 [System] No account logged in 
+20170324@21:38:44 [System] getLoggedInAccount 
+20170324@21:39:11 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@21:39:11 [System] getLoggedInAccount 
+20170324@21:39:11 [System] No account logged in 
+20170324@21:39:11 [System] getLoggedInAccount 
+20170324@21:40:30 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@21:40:30 [System] getLoggedInAccount 
+20170324@21:40:30 [System] No account logged in 
+20170324@21:40:30 [System] getLoggedInAccount 
+20170324@21:40:58 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170324@21:40:58 [System] getLoggedInAccount 
+20170324@21:40:58 [System] No account logged in 
+20170324@21:40:58 [System] getLoggedInAccount 
+20170324@21:41:04 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=48 
+20170324@21:41:05 [System] getLoggedInAccount 
+20170324@21:41:05 [System] No account logged in 
+20170324@21:41:05 [System] getLoggedInAccount 
+20170324@22:20:06 [System] getLoggedInAccount 
+20170324@22:23:30 [System] getLoggedInAccount 
+20170324@22:36:57 [System] getLoggedInAccount 
+20170324@22:58:35 [System] getLoggedInAccount 
+20170324@22:58:37 [System] getLoggedInAccount 
+20170324@22:58:39 [System] getLoggedInAccount 
+20170324@22:58:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@22:58:44 [System] getLoggedInAccount 
+20170324@22:58:44 [System] No account logged in 
+20170324@22:58:44 [System] getLoggedInAccount 
+20170324@22:58:48 [System] getLoggedInAccount 
+20170324@22:59:24 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@22:59:24 [System] getLoggedInAccount 
+20170324@22:59:24 [System] No account logged in 
+20170324@22:59:24 [System] getLoggedInAccount 
+20170324@22:59:27 [System] getLoggedInAccount 
+20170324@23:00:15 [System] getLoggedInAccount 
+20170324@23:22:46 [System] getLoggedInAccount 
+20170324@23:23:21 [System] getLoggedInAccount 
+20170324@23:23:27 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@23:23:27 [System] getLoggedInAccount 
+20170324@23:23:27 [System] No account logged in 
+20170324@23:23:27 [System] getLoggedInAccount 
+20170324@23:24:30 [System] getLoggedInAccount 
+20170324@23:27:44 [System] getLoggedInAccount 
+20170324@23:29:36 [System] getLoggedInAccount 
+20170324@23:31:12 [System] getLoggedInAccount 
+20170324@23:31:19 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@23:31:19 [System] getLoggedInAccount 
+20170324@23:31:19 [System] No account logged in 
+20170324@23:31:19 [System] getLoggedInAccount 
+20170324@23:31:27 [System] getLoggedInAccount 
+20170324@23:32:08 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170324@23:32:08 [System] getLoggedInAccount 
+20170324@23:32:08 [System] No account logged in 
+20170324@23:32:08 [System] getLoggedInAccount 
+20170324@23:32:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170324@23:32:11 [System] getLoggedInAccount 
+20170324@23:32:11 [System] No account logged in 
+20170324@23:32:11 [System] getLoggedInAccount 
+20170324@23:32:11 [System] loadAdoptionInfo 
+20170324@23:32:11 [System] getAdoptInfo 
+20170324@23:32:11 [System] getShopInfo 
+20170324@23:32:12 [System] getShopTime 
+20170324@23:32:12 [System] getLoggedInAccount 
+20170324@23:32:12 [System] DLAdoptInfo_ItemDataBound 
+20170324@23:32:12 [System] getAllAppointmentEntities 
+20170324@23:32:12 [System] checkAdoptionDetails 
+20170324@23:32:12 [System] MessageHandler : Please log in first  
+20170324@23:32:12 [System] DLMorePet_ItemDataBound 
+20170324@23:32:12 [System] DLMorePet_ItemDataBound 
+20170324@23:33:10 [System] getLoggedInAccount 
+20170324@23:37:14 [System] getLoggedInAccount 
+20170324@23:37:58 [System] getLoggedInAccount 
+20170324@23:38:40 [System] getLoggedInAccount 
+20170324@23:39:17 [System] getLoggedInAccount 
+20170324@23:39:41 [System] getLoggedInAccount 
+20170324@23:40:27 [System] getLoggedInAccount 
+20170324@23:44:56 [System] getLoggedInAccount 
+20170324@23:56:46 [System] getLoggedInAccount 
+20170324@23:57:05 [System] getLoggedInAccount 
+20170324@23:57:08 [System] getLoggedInAccount 
+20170324@23:57:35 [System] getLoggedInAccount 
+20170324@23:57:50 [System] getLoggedInAccount 
+20170324@23:58:31 [System] getLoggedInAccount 

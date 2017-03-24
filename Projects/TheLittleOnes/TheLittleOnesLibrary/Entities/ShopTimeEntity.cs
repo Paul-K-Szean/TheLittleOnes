@@ -3,23 +3,23 @@
     public class ShopTimeEntity
     {
         private string shopTimeID;
-        private string dayOfWeek;
-        private string openTime;
-        private string closeTime;
+        private string shopDayOfWeek;
+        private string shopOpenTime;
+        private string shopCloseTime;
         // Create record
-        public ShopTimeEntity(string dayOfWeek, string openTime, string closeTime)
+        public ShopTimeEntity(string shopDayOfWeek, string shopOpenTime, string shopCloseTime)
         {
-            this.dayOfWeek = dayOfWeek;
-            this.openTime = openTime;
-            this.closeTime = closeTime;
+            this.shopDayOfWeek = shopDayOfWeek;
+            this.shopOpenTime = shopOpenTime;
+            this.shopCloseTime = shopCloseTime;
         }
         // Retrieve/Update record
-        public ShopTimeEntity(string shopTimeID, string dayOfWeek, string openTime, string closeTime)
+        public ShopTimeEntity(string shopTimeID, string shopDayOfWeek, string shopOpenTime, string shopCloseTime)
         {
             this.shopTimeID = shopTimeID;
-            this.dayOfWeek = dayOfWeek;
-            this.openTime = openTime;
-            this.closeTime = closeTime;
+            this.shopDayOfWeek = shopDayOfWeek;
+            this.shopOpenTime = shopOpenTime;
+            this.shopCloseTime = shopCloseTime;
         }
         public string ShopTimeID
         {
@@ -32,37 +32,37 @@
                 shopTimeID = value;
             }
         }
-        public string DayOfWeek
+        public string ShopDayOfWeek
         {
             get
             {
-                return dayOfWeek;
+                return shopDayOfWeek;
             }
             set
             {
-                dayOfWeek = value;
+                shopDayOfWeek = value;
             }
         }
-        public string OpenTime
+        public string ShopOpenTime
         {
             get
             {
-                return openTime;
+                return shopOpenTime;
             }
             set
             {
-                openTime = value;
+                shopOpenTime = value;
             }
         }
-        public string CloseTime
+        public string ShopCloseTime
         {
             get
             {
-                return closeTime;
+                return shopCloseTime;
             }
             set
             {
-                closeTime = value;
+                shopCloseTime = value;
             }
         }
     }

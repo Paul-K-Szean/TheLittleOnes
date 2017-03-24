@@ -219,14 +219,14 @@ public partial class AdminDashboard : BasePage
         LBLShopInfoContact.Text = shopInfoEntity.ShopInfoContact;
         LBLShopInfoAddress.Text = shopInfoEntity.ShopInfoAddress;
         LBLShopInfoDesc.Text = shopInfoEntity.ShopInfoDesc;
-        List<string> dayOfWeek = new List<string> { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+        List<string> shopDayOfWeek = new List<string> { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
         // operating hours
         foreach (ShopTimeEntity shopTimeEntity in shopInfoEntity.ShopTimeEntities)
         {
-            if (DateTime.Now.DayOfWeek.ToString().Equals(shopTimeEntity.DayOfWeek.ToString()))
+            if (DateTime.Now.DayOfWeek.ToString().Equals(shopTimeEntity.ShopDayOfWeek.ToString()))
             {
-                if (DateTime.Now.TimeOfDay > (DateTime.Parse(shopTimeEntity.OpenTime)).TimeOfDay &&
-                    DateTime.Now.TimeOfDay < (DateTime.Parse(shopTimeEntity.CloseTime)).TimeOfDay)
+                if (DateTime.Now.TimeOfDay > (DateTime.Parse(shopTimeEntity.ShopOpenTime)).TimeOfDay &&
+                    DateTime.Now.TimeOfDay < (DateTime.Parse(shopTimeEntity.ShopCloseTime)).TimeOfDay)
                 {
                     MessageHandler.SuccessMessage(LBLShopTimeStatus, "Open now");
                 }

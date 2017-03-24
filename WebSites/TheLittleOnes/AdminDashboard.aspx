@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterAdmin.master" AutoEventWireup="true" CodeFile="AdminDashboard.aspx.cs" Inherits="AdminDashboard" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHHeaderMasterAdmin" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHBodyMasterAdmin" runat="Server">
@@ -438,7 +439,7 @@
                                                                                 <div class="overflow-auto scrollbarHorizontal">
                                                                                     <asp:DataList ID="DLPhotoUploaded" runat="server" DataSourceID="SDSPhotoShopInfo" RepeatDirection="Horizontal" Width="100%">
                                                                                         <ItemTemplate>
-                                                                                            <img src="<%# "uploadedFiles/database/shopinfo/" + Eval("shopInfoName").ToString().ToLower().Replace(" ", "") + "_"+Eval("shopInfoContact").ToString().ToLower().Replace(" ", "") + "/" + Eval("photoName")  %>"
+                                                                                            <img src="<%# "uploadedFiles/database/shopinfo/" + Eval("shopInfoID").ToString()+ "/" + Eval("photoName")  %>"
                                                                                                 style="max-height: 200px; margin: 0px 4px">
                                                                                         </ItemTemplate>
                                                                                     </asp:DataList>
@@ -460,7 +461,7 @@
                                                                             <ItemTemplate>
                                                                                 <div class=" row">
                                                                                     <div class="col-sm-6 text-right">
-                                                                                        <asp:Label ID="shopDayLabel" runat="server" Text='<%# Eval("shopDay") + " @ "  %>' />
+                                                                                        <asp:Label ID="shopDayOfWeekLabel" runat="server" Text='<%# Eval("shopDayOfWeek") + " @ "  %>' />
                                                                                     </div>
                                                                                     <div class="col-sm-6 text-left">
                                                                                         <asp:Label ID="shopOpenTimeLabel" runat="server" Text='<%# Eval("shopOpenTime","{0:HH:mm}") + " to " %>' />
@@ -564,23 +565,23 @@
                     var $box = $(this).closest('.infobox');
                     var barColor = !$box.hasClass('infobox-dark') ? $box.css('color') : '#FFF';
                     $(this).sparkline('html',
-                                     {
-                                         tagValuesAttribute: 'data-values',
-                                         type: 'bar',
-                                         barColor: barColor,
-                                         chartRangeMin: $(this).data('min') || 0
-                                     });
+                        {
+                            tagValuesAttribute: 'data-values',
+                            type: 'bar',
+                            barColor: barColor,
+                            chartRangeMin: $(this).data('min') || 0
+                        });
                 });
                 //flot chart resize plugin, somehow manipulates default browser resize event to optimize it!
                 //but sometimes it brings up errors with normal resize event handlers
                 $.resize.throttleWindow = false;
                 var placeholder = $('#piechart-placeholder').css({ 'width': '90%', 'min-height': '150px' });
                 var data = [
-                  { label: "social networks", data: 38.7, color: "#68BC31" },
-                  { label: "search engines", data: 24.5, color: "#2091CF" },
-                  { label: "ad campaigns", data: 8.2, color: "#AF4E96" },
-                  { label: "direct traffic", data: 18.6, color: "#DA5430" },
-                  { label: "other", data: 10, color: "#FEE074" }
+                    { label: "social networks", data: 38.7, color: "#68BC31" },
+                    { label: "search engines", data: 24.5, color: "#2091CF" },
+                    { label: "ad campaigns", data: 8.2, color: "#AF4E96" },
+                    { label: "direct traffic", data: 18.6, color: "#DA5430" },
+                    { label: "other", data: 10, color: "#FEE074" }
                 ]
                 function drawPieChart(placeholder, data, position) {
                     $.plot(placeholder, data, {
@@ -604,7 +605,7 @@
                             labelBoxBorderColor: null,
                             margin: [-30, 15]
                         }
-                      ,
+                        ,
                         grid: {
                             hoverable: true,
                             clickable: true
@@ -656,27 +657,27 @@
                     { label: "Hosting", data: d2 },
                     { label: "Services", data: d3 }
                 ], {
-                    hoverable: true,
-                    shadowSize: 0,
-                    series: {
-                        lines: { show: true },
-                        points: { show: true }
-                    },
-                    xaxis: {
-                        tickLength: 0
-                    },
-                    yaxis: {
-                        ticks: 10,
-                        min: -2,
-                        max: 2,
-                        tickDecimals: 3
-                    },
-                    grid: {
-                        backgroundColor: { colors: ["#fff", "#fff"] },
-                        borderWidth: 1,
-                        borderColor: '#555'
-                    }
-                });
+                        hoverable: true,
+                        shadowSize: 0,
+                        series: {
+                            lines: { show: true },
+                            points: { show: true }
+                        },
+                        xaxis: {
+                            tickLength: 0
+                        },
+                        yaxis: {
+                            ticks: 10,
+                            min: -2,
+                            max: 2,
+                            tickDecimals: 3
+                        },
+                        grid: {
+                            backgroundColor: { colors: ["#fff", "#fff"] },
+                            borderWidth: 1,
+                            borderColor: '#555'
+                        }
+                    });
                 $('#recent-box [data-rel="tooltip"]').tooltip({ placement: tooltip_placement });
                 function tooltip_placement(context, source) {
                     var $source = $(source);

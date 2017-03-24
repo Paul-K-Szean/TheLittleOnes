@@ -170,7 +170,7 @@
                                                         <asp:DataList ID="DLPShopTime" runat="server" DataKeyField="shopTimeID" DataSourceID="SDSShopTime" Width="100%">
                                                             <ItemTemplate>
                                                                 <div class="text-right col-xs-4">
-                                                                    <asp:Label ID="shopDayLabel" runat="server" Text='<%# Eval("shopDay")   %>' />
+                                                                    <asp:Label ID="shopDayOfWeekLabel" runat="server" Text='<%# Eval("shopDayOfWeek")   %>' />
                                                                 </div>
                                                                 <div class="text-left col-sm-8">
                                                                     <asp:Label ID="shopOpenTimeLabel" runat="server" Text='<%#  "@ " + Eval("shopOpenTime","{0:HH:mm}") + " to " %>' />

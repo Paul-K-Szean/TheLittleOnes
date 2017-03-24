@@ -1,0 +1,2679 @@
+20170325@00:01:14 [System] getLoggedInAccount 
+20170325@00:02:48 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:02:48 [System] getLoggedInAccount 
+20170325@00:02:48 [System] No account logged in 
+20170325@00:02:49 [System] getShopTime 
+20170325@00:03:10 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:03:10 [System] getLoggedInAccount 
+20170325@00:03:10 [System] No account logged in 
+20170325@00:03:10 [System] getShopTime 
+20170325@00:03:23 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:03:23 [System] getLoggedInAccount 
+20170325@00:03:23 [System] No account logged in 
+20170325@00:03:23 [System] getShopTime 
+20170325@00:05:28 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:05:28 [System] getLoggedInAccount 
+20170325@00:05:29 [System] No account logged in 
+20170325@00:05:29 [System] getLoggedInAccount 
+20170325@00:05:42 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:05:42 [System] getLoggedInAccount 
+20170325@00:05:42 [System] No account logged in 
+20170325@00:05:42 [System] getLoggedInAccount 
+20170325@00:06:03 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:06:03 [System] getLoggedInAccount 
+20170325@00:06:03 [System] No account logged in 
+20170325@00:06:03 [System] getLoggedInAccount 
+20170325@00:07:12 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:07:12 [System] getLoggedInAccount 
+20170325@00:07:12 [System] No account logged in 
+20170325@00:07:13 [System] getLoggedInAccount 
+20170325@00:08:31 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:08:31 [System] getLoggedInAccount 
+20170325@00:08:31 [System] No account logged in 
+20170325@00:08:31 [System] getShopTime 
+20170325@00:08:39 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:08:39 [System] getLoggedInAccount 
+20170325@00:08:39 [System] No account logged in 
+20170325@00:08:39 [System] getLoggedInAccount 
+20170325@00:09:56 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:09:56 [System] getLoggedInAccount 
+20170325@00:09:56 [System] No account logged in 
+20170325@00:09:56 [System] getShopTime 
+20170325@00:09:56 [System] getShopTime 
+20170325@00:10:02 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:10:02 [System] getLoggedInAccount 
+20170325@00:10:02 [System] No account logged in 
+20170325@00:10:02 [System] getShopTime 
+20170325@00:10:02 [System] getShopTime 
+20170325@00:10:02 [System] getShopTime 
+20170325@00:10:02 [System] getLoggedInAccount 
+20170325@00:12:15 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:12:15 [System] getLoggedInAccount 
+20170325@00:12:15 [System] No account logged in 
+20170325@00:12:16 [System] getShopTime 
+20170325@00:12:16 [System] getShopTime 
+20170325@00:12:16 [System] getShopTime 
+20170325@00:12:16 [System] getLoggedInAccount 
+20170325@00:12:35 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:12:35 [System] getLoggedInAccount 
+20170325@00:12:35 [System] No account logged in 
+20170325@00:12:35 [System] getShopTime 
+20170325@00:14:33 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:14:33 [System] getLoggedInAccount 
+20170325@00:14:33 [System] No account logged in 
+20170325@00:14:33 [System] getShopTime 
+20170325@00:14:33 [System] getShopTime 
+20170325@00:14:33 [System] getShopTime 
+20170325@00:14:33 [System] getLoggedInAccount 
+20170325@00:16:40 [System] Page loaded: http://localhost:65063/home.aspx 
+20170325@00:16:40 [System] getLoggedInAccount 
+20170325@00:16:40 [System] No account logged in 
+20170325@00:16:40 [System] getLoggedInAccount 
+20170325@00:16:40 [System] getLoggedInAccount 
+20170325@00:16:41 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:16:41 [System] getLoggedInAccount 
+20170325@00:16:41 [System] No account logged in 
+20170325@00:16:41 [System] getLoggedInAccount 
+20170325@00:16:41 [System] getShopInfo 
+20170325@00:16:41 [System] getShopTime 
+20170325@00:17:28 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:17:28 [System] getLoggedInAccount 
+20170325@00:17:28 [System] No account logged in 
+20170325@00:17:28 [System] getLoggedInAccount 
+20170325@00:17:28 [System] getShopInfo 
+20170325@00:17:28 [System] getShopTime 
+20170325@00:17:44 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:17:44 [System] getLoggedInAccount 
+20170325@00:17:44 [System] No account logged in 
+20170325@00:17:44 [System] getLoggedInAccount 
+20170325@00:17:44 [System] getShopInfo 
+20170325@00:17:44 [System] getShopTime 
+20170325@00:17:56 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:17:56 [System] getLoggedInAccount 
+20170325@00:17:56 [System] No account logged in 
+20170325@00:17:56 [System] getLoggedInAccount 
+20170325@00:20:42 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@00:20:42 [System] getLoggedInAccount 
+20170325@00:20:42 [System] No account logged in 
+20170325@00:20:43 [System] getLoggedInAccount 
+20170325@00:20:56 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:20:56 [System] getLoggedInAccount 
+20170325@00:20:56 [System] No account logged in 
+20170325@00:20:56 [System] getLoggedInAccount 
+20170325@00:20:56 [System] getShopInfo 
+20170325@00:20:56 [System] getShopTime 
+20170325@00:26:17 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@00:26:17 [System] getLoggedInAccount 
+20170325@00:26:17 [System] No account logged in 
+20170325@00:26:17 [System] getLoggedInAccount 
+20170325@00:26:53 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:26:53 [System] getLoggedInAccount 
+20170325@00:26:53 [System] No account logged in 
+20170325@00:26:53 [System] getLoggedInAccount 
+20170325@00:26:53 [System] getShopInfo 
+20170325@00:26:53 [System] getShopTime 
+20170325@00:27:47 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:27:47 [System] getLoggedInAccount 
+20170325@00:27:47 [System] No account logged in 
+20170325@00:27:47 [System] getLoggedInAccount 
+20170325@00:27:47 [System] getShopInfo 
+20170325@00:27:47 [System] getShopTime 
+20170325@00:27:58 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@00:27:58 [System] getLoggedInAccount 
+20170325@00:27:58 [System] No account logged in 
+20170325@00:27:58 [System] getLoggedInAccount 
+20170325@00:28:05 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:28:05 [System] getLoggedInAccount 
+20170325@00:28:05 [System] No account logged in 
+20170325@00:28:05 [System] getLoggedInAccount 
+20170325@00:28:05 [System] getShopInfo 
+20170325@00:28:05 [System] getShopTime 
+20170325@00:29:53 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:29:53 [System] getLoggedInAccount 
+20170325@00:29:53 [System] No account logged in 
+20170325@00:29:53 [System] getLoggedInAccount 
+20170325@00:29:53 [System] getShopInfo 
+20170325@00:29:53 [System] getShopTime 
+20170325@00:30:07 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:30:07 [System] getLoggedInAccount 
+20170325@00:30:07 [System] No account logged in 
+20170325@00:30:07 [System] getLoggedInAccount 
+20170325@00:30:07 [System] getShopInfo 
+20170325@00:30:07 [System] getShopTime 
+20170325@00:30:42 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:30:42 [System] getLoggedInAccount 
+20170325@00:30:42 [System] No account logged in 
+20170325@00:30:42 [System] getLoggedInAccount 
+20170325@00:30:42 [System] getShopInfo 
+20170325@00:30:42 [System] getShopTime 
+20170325@00:31:29 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:31:29 [System] getLoggedInAccount 
+20170325@00:31:29 [System] No account logged in 
+20170325@00:31:29 [System] getLoggedInAccount 
+20170325@00:31:29 [System] getShopInfo 
+20170325@00:31:29 [System] getShopTime 
+20170325@00:34:04 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:34:04 [System] getLoggedInAccount 
+20170325@00:34:04 [System] No account logged in 
+20170325@00:34:04 [System] getLoggedInAccount 
+20170325@00:34:04 [System] getShopInfo 
+20170325@00:34:04 [System] getShopTime 
+20170325@00:34:40 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:34:40 [System] getLoggedInAccount 
+20170325@00:34:40 [System] No account logged in 
+20170325@00:34:40 [System] getLoggedInAccount 
+20170325@00:34:40 [System] getShopInfo 
+20170325@00:34:40 [System] getShopTime 
+20170325@00:35:09 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:35:09 [System] getLoggedInAccount 
+20170325@00:35:09 [System] No account logged in 
+20170325@00:35:09 [System] getLoggedInAccount 
+20170325@00:35:09 [System] getShopInfo 
+20170325@00:35:09 [System] getShopTime 
+20170325@00:35:28 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:35:28 [System] getLoggedInAccount 
+20170325@00:35:28 [System] No account logged in 
+20170325@00:35:28 [System] getLoggedInAccount 
+20170325@00:35:28 [System] getShopInfo 
+20170325@00:35:28 [System] getShopTime 
+20170325@00:35:45 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:35:45 [System] getLoggedInAccount 
+20170325@00:35:45 [System] No account logged in 
+20170325@00:35:45 [System] getLoggedInAccount 
+20170325@00:35:46 [System] getShopInfo 
+20170325@00:35:46 [System] getShopTime 
+20170325@00:36:13 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:36:13 [System] getLoggedInAccount 
+20170325@00:36:13 [System] No account logged in 
+20170325@00:36:13 [System] getLoggedInAccount 
+20170325@00:36:13 [System] getShopInfo 
+20170325@00:36:13 [System] getShopTime 
+20170325@00:36:13 [System] getShopInfo 
+20170325@00:36:13 [System] getShopTime 
+20170325@00:36:13 [System] getShopInfo 
+20170325@00:36:13 [System] getShopTime 
+20170325@00:36:34 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:36:34 [System] getLoggedInAccount 
+20170325@00:36:34 [System] No account logged in 
+20170325@00:36:34 [System] getLoggedInAccount 
+20170325@00:36:34 [System] getShopInfo 
+20170325@00:36:34 [System] getShopTime 
+20170325@00:36:35 [System] getShopInfo 
+20170325@00:36:35 [System] getShopTime 
+20170325@00:36:35 [System] getShopInfo 
+20170325@00:36:35 [System] getShopTime 
+20170325@00:37:35 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:37:35 [System] getLoggedInAccount 
+20170325@00:37:35 [System] No account logged in 
+20170325@00:37:35 [System] getLoggedInAccount 
+20170325@00:38:19 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@00:38:19 [System] getLoggedInAccount 
+20170325@00:38:19 [System] No account logged in 
+20170325@00:38:19 [System] getLoggedInAccount 
+20170325@00:38:27 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:38:27 [System] getLoggedInAccount 
+20170325@00:38:27 [System] No account logged in 
+20170325@00:38:27 [System] getLoggedInAccount 
+20170325@00:39:43 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@00:39:43 [System] getLoggedInAccount 
+20170325@00:39:43 [System] No account logged in 
+20170325@00:39:44 [System] getLoggedInAccount 
+20170325@00:39:48 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:39:48 [System] getLoggedInAccount 
+20170325@00:39:48 [System] No account logged in 
+20170325@00:39:48 [System] getLoggedInAccount 
+20170325@00:42:22 [System] getShopInfo 
+20170325@00:42:22 [System] getShopTime 
+20170325@00:42:29 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:42:29 [System] getLoggedInAccount 
+20170325@00:42:29 [System] No account logged in 
+20170325@00:42:29 [System] getLoggedInAccount 
+20170325@00:42:29 [System] getShopInfo 
+20170325@00:42:29 [System] getShopTime 
+20170325@00:42:31 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:42:31 [System] getLoggedInAccount 
+20170325@00:42:31 [System] No account logged in 
+20170325@00:42:31 [System] getLoggedInAccount 
+20170325@00:42:31 [System] getShopInfo 
+20170325@00:42:31 [System] getShopTime 
+20170325@00:48:05 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@00:48:05 [System] getLoggedInAccount 
+20170325@00:48:05 [System] No account logged in 
+20170325@00:48:05 [System] getLoggedInAccount 
+20170325@00:48:09 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:48:09 [System] getLoggedInAccount 
+20170325@00:48:09 [System] No account logged in 
+20170325@00:48:09 [System] getLoggedInAccount 
+20170325@00:48:09 [System] getShopInfo 
+20170325@00:48:09 [System] getShopTime 
+20170325@00:48:10 [System] getShopInfo 
+20170325@00:48:10 [System] getShopTime 
+20170325@00:48:10 [System] getShopInfo 
+20170325@00:48:10 [System] getShopTime 
+20170325@00:52:29 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:52:29 [System] getLoggedInAccount 
+20170325@00:52:29 [System] No account logged in 
+20170325@00:52:29 [System] getLoggedInAccount 
+20170325@00:52:29 [System] getShopInfo 
+20170325@00:52:30 [System] getShopTime 
+20170325@00:52:30 [System] getShopInfo 
+20170325@00:52:30 [System] getShopTime 
+20170325@00:52:30 [System] getShopInfo 
+20170325@00:52:30 [System] getShopTime 
+20170325@00:52:48 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:52:48 [System] getLoggedInAccount 
+20170325@00:52:48 [System] No account logged in 
+20170325@00:52:48 [System] getLoggedInAccount 
+20170325@00:52:48 [System] getShopInfo 
+20170325@00:52:48 [System] getShopTime 
+20170325@00:52:48 [System] getShopInfo 
+20170325@00:52:48 [System] getShopTime 
+20170325@00:52:49 [System] getShopInfo 
+20170325@00:52:49 [System] getShopTime 
+20170325@00:53:08 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:53:08 [System] getLoggedInAccount 
+20170325@00:53:08 [System] No account logged in 
+20170325@00:53:09 [System] getLoggedInAccount 
+20170325@00:53:09 [System] getShopInfo 
+20170325@00:53:09 [System] getShopTime 
+20170325@00:53:09 [System] getShopInfo 
+20170325@00:53:09 [System] getShopTime 
+20170325@00:53:09 [System] getShopInfo 
+20170325@00:53:09 [System] getShopTime 
+20170325@00:53:21 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:53:21 [System] getLoggedInAccount 
+20170325@00:53:21 [System] No account logged in 
+20170325@00:53:21 [System] getLoggedInAccount 
+20170325@00:53:21 [System] getShopInfo 
+20170325@00:53:21 [System] getShopTime 
+20170325@00:53:21 [System] getShopInfo 
+20170325@00:53:21 [System] getShopTime 
+20170325@00:53:22 [System] getShopInfo 
+20170325@00:53:22 [System] getShopTime 
+20170325@00:53:25 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@00:53:25 [System] getLoggedInAccount 
+20170325@00:53:25 [System] No account logged in 
+20170325@00:53:25 [System] getLoggedInAccount 
+20170325@00:53:55 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@00:53:55 [System] getLoggedInAccount 
+20170325@00:53:55 [System] No account logged in 
+20170325@00:53:55 [System] getLoggedInAccount 
+20170325@00:54:36 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@00:54:36 [System] getLoggedInAccount 
+20170325@00:54:36 [System] No account logged in 
+20170325@00:54:36 [System] getLoggedInAccount 
+20170325@00:54:36 [System] BTNLogin_Click 
+20170325@00:54:36 [System] signIn 
+20170325@00:54:37 [System] getShopInfo 
+20170325@00:54:37 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@00:54:37 [System] getLoggedInAccount 
+20170325@00:54:37 [System] getLoggedInAccount 
+20170325@00:56:44 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@00:56:44 [System] getLoggedInAccount 
+20170325@00:56:44 [System] getLoggedInAccount 
+20170325@00:57:08 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@00:57:08 [System] getLoggedInAccount 
+20170325@00:57:08 [System] getLoggedInAccount 
+20170325@00:57:15 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:57:15 [System] getLoggedInAccount 
+20170325@00:57:15 [System] getLoggedInAccount 
+20170325@00:57:15 [System] getShopInfo 
+20170325@00:57:15 [System] getShopTime 
+20170325@00:57:15 [System] getShopInfo 
+20170325@00:57:15 [System] getShopTime 
+20170325@00:57:15 [System] getShopInfo 
+20170325@00:57:15 [System] getShopTime 
+20170325@00:58:20 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@00:58:20 [System] getLoggedInAccount 
+20170325@00:58:20 [System] No account logged in 
+20170325@00:58:20 [System] getLoggedInAccount 
+20170325@00:58:20 [System] getShopInfo 
+20170325@00:58:20 [System] getShopTime 
+20170325@00:58:21 [System] getShopInfo 
+20170325@00:58:21 [System] getShopTime 
+20170325@00:58:21 [System] getShopInfo 
+20170325@00:58:21 [System] getShopTime 
+20170325@00:58:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@00:58:26 [System] getLoggedInAccount 
+20170325@00:58:26 [System] No account logged in 
+20170325@00:58:26 [System] getLoggedInAccount 
+20170325@00:58:29 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@00:58:29 [System] getLoggedInAccount 
+20170325@00:58:29 [System] No account logged in 
+20170325@00:58:29 [System] getLoggedInAccount 
+20170325@01:00:11 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@01:00:11 [System] getLoggedInAccount 
+20170325@01:00:11 [System] No account logged in 
+20170325@01:00:11 [System] getLoggedInAccount 
+20170325@01:00:11 [System] getShopInfo 
+20170325@01:00:11 [System] getShopTime 
+20170325@01:00:12 [System] getShopInfo 
+20170325@01:00:12 [System] getShopTime 
+20170325@01:00:12 [System] getShopInfo 
+20170325@01:00:12 [System] getShopTime 
+20170325@01:00:33 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@01:00:33 [System] getLoggedInAccount 
+20170325@01:00:33 [System] No account logged in 
+20170325@01:00:33 [System] getLoggedInAccount 
+20170325@01:00:33 [System] getShopInfo 
+20170325@01:00:33 [System] getShopTime 
+20170325@01:00:33 [System] getShopInfo 
+20170325@01:00:33 [System] getShopTime 
+20170325@01:00:33 [System] getShopInfo 
+20170325@01:00:33 [System] getShopTime 
+20170325@01:00:49 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@01:00:49 [System] getLoggedInAccount 
+20170325@01:00:49 [System] No account logged in 
+20170325@01:00:49 [System] getLoggedInAccount 
+20170325@01:00:49 [System] getShopInfo 
+20170325@01:00:49 [System] getShopTime 
+20170325@01:00:49 [System] getShopInfo 
+20170325@01:00:49 [System] getShopTime 
+20170325@01:00:50 [System] getShopInfo 
+20170325@01:00:50 [System] getShopTime 
+20170325@01:02:30 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@01:02:30 [System] getLoggedInAccount 
+20170325@01:02:30 [System] No account logged in 
+20170325@01:02:30 [System] getLoggedInAccount 
+20170325@01:02:30 [System] getShopInfo 
+20170325@01:02:30 [System] getShopTime 
+20170325@01:02:30 [System] getShopInfo 
+20170325@01:02:30 [System] getShopTime 
+20170325@01:02:30 [System] getShopInfo 
+20170325@01:02:30 [System] getShopTime 
+20170325@01:03:20 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@01:03:20 [System] getLoggedInAccount 
+20170325@01:03:20 [System] No account logged in 
+20170325@01:03:20 [System] getLoggedInAccount 
+20170325@01:03:34 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@01:03:34 [System] getLoggedInAccount 
+20170325@01:03:34 [System] No account logged in 
+20170325@01:03:34 [System] getLoggedInAccount 
+20170325@01:03:42 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=62 
+20170325@01:03:42 [System] getLoggedInAccount 
+20170325@01:03:42 [System] No account logged in 
+20170325@01:03:42 [System] getLoggedInAccount 
+20170325@01:04:28 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=62 
+20170325@01:04:28 [System] getLoggedInAccount 
+20170325@01:04:28 [System] No account logged in 
+20170325@01:04:28 [System] getLoggedInAccount 
+20170325@01:05:24 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@01:05:24 [System] getLoggedInAccount 
+20170325@01:05:24 [System] No account logged in 
+20170325@01:05:24 [System] getLoggedInAccount 
+20170325@01:05:26 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@01:05:26 [System] getLoggedInAccount 
+20170325@01:05:26 [System] No account logged in 
+20170325@01:05:26 [System] getLoggedInAccount 
+20170325@01:05:30 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=64 
+20170325@01:05:30 [System] getLoggedInAccount 
+20170325@01:05:30 [System] No account logged in 
+20170325@01:05:31 [System] getLoggedInAccount 
+20170325@01:07:10 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=62 
+20170325@01:07:10 [System] getLoggedInAccount 
+20170325@01:07:10 [System] No account logged in 
+20170325@01:07:10 [System] getLoggedInAccount 
+20170325@01:07:24 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=62 
+20170325@01:07:24 [System] getLoggedInAccount 
+20170325@01:07:24 [System] No account logged in 
+20170325@01:07:25 [System] getLoggedInAccount 
+20170325@01:08:33 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=62 
+20170325@01:08:33 [System] getLoggedInAccount 
+20170325@01:08:33 [System] No account logged in 
+20170325@01:08:33 [System] getLoggedInAccount 
+20170325@01:11:00 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=62 
+20170325@01:11:00 [System] getLoggedInAccount 
+20170325@01:11:00 [System] No account logged in 
+20170325@01:11:00 [System] getLoggedInAccount 
+20170325@01:15:22 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@01:15:22 [System] getLoggedInAccount 
+20170325@01:15:22 [System] No account logged in 
+20170325@01:15:22 [System] getLoggedInAccount 
+20170325@01:15:25 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=62 
+20170325@01:15:25 [System] getLoggedInAccount 
+20170325@01:15:25 [System] No account logged in 
+20170325@01:15:25 [System] getLoggedInAccount 
+20170325@01:15:49 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@01:15:49 [System] getLoggedInAccount 
+20170325@01:15:49 [System] No account logged in 
+20170325@01:15:49 [System] getLoggedInAccount 
+20170325@01:15:57 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@01:15:57 [System] getLoggedInAccount 
+20170325@01:15:57 [System] No account logged in 
+20170325@01:15:57 [System] getLoggedInAccount 
+20170325@01:16:00 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170325@01:16:00 [System] getLoggedInAccount 
+20170325@01:16:00 [System] No account logged in 
+20170325@01:16:00 [System] getLoggedInAccount 
+20170325@01:19:28 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170325@01:19:28 [System] getLoggedInAccount 
+20170325@01:19:28 [System] No account logged in 
+20170325@01:19:29 [System] getLoggedInAccount 
+20170325@01:19:44 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@01:19:44 [System] getLoggedInAccount 
+20170325@01:19:44 [System] No account logged in 
+20170325@01:19:44 [System] Page loaded: http://localhost:65063/home.aspx 
+20170325@01:19:44 [System] getLoggedInAccount 
+20170325@01:19:44 [System] No account logged in 
+20170325@01:19:44 [System] getLoggedInAccount 
+20170325@01:19:44 [System] getLoggedInAccount 
+20170325@01:24:31 [System] Page loaded: http://localhost:65063/home.aspx 
+20170325@01:24:31 [System] getLoggedInAccount 
+20170325@01:24:31 [System] No account logged in 
+20170325@01:24:31 [System] getLoggedInAccount 
+20170325@01:24:31 [System] getLoggedInAccount 
+20170325@01:24:34 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@01:24:34 [System] getLoggedInAccount 
+20170325@01:24:34 [System] No account logged in 
+20170325@01:24:34 [System] Page loaded: http://localhost:65063/home.aspx 
+20170325@01:24:34 [System] getLoggedInAccount 
+20170325@01:24:34 [System] No account logged in 
+20170325@01:24:34 [System] getLoggedInAccount 
+20170325@01:24:34 [System] getLoggedInAccount 
+20170325@01:25:02 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@01:25:02 [System] getLoggedInAccount 
+20170325@01:25:02 [System] No account logged in 
+20170325@01:25:02 [System] getLoggedInAccount 
+20170325@01:25:11 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@01:25:11 [System] getLoggedInAccount 
+20170325@01:25:11 [System] No account logged in 
+20170325@01:25:12 [System] getLoggedInAccount 
+20170325@01:35:12 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@01:35:12 [System] getLoggedInAccount 
+20170325@01:35:12 [System] No account logged in 
+20170325@01:35:13 [System] getLoggedInAccount 
+20170325@01:35:18 [System] getLoggedInAccount 
+20170325@01:36:12 [System] getLoggedInAccount 
+20170325@01:36:28 [System] getLoggedInAccount 
+20170325@01:37:02 [System] getLoggedInAccount 
+20170325@01:37:13 [System] getLoggedInAccount 
+20170325@01:38:11 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@01:38:11 [System] getLoggedInAccount 
+20170325@01:38:11 [System] No account logged in 
+20170325@01:38:11 [System] getLoggedInAccount 
+20170325@01:40:07 [System] getLoggedInAccount 
+20170325@01:41:22 [System] getLoggedInAccount 
+20170325@01:41:41 [System] getLoggedInAccount 
+20170325@01:41:53 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@01:41:53 [System] getLoggedInAccount 
+20170325@01:41:53 [System] No account logged in 
+20170325@01:41:53 [System] getLoggedInAccount 
+20170325@01:42:13 [System] getLoggedInAccount 
+20170325@01:42:34 [System] getLoggedInAccount 
+20170325@01:43:20 [System] getLoggedInAccount 
+20170325@01:43:40 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@01:43:40 [System] getLoggedInAccount 
+20170325@01:43:40 [System] No account logged in 
+20170325@01:43:40 [System] getLoggedInAccount 
+20170325@01:43:41 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@01:43:41 [System] getLoggedInAccount 
+20170325@01:43:41 [System] No account logged in 
+20170325@01:43:42 [System] getLoggedInAccount 
+20170325@01:43:57 [System] getLoggedInAccount 
+20170325@01:44:27 [System] getLoggedInAccount 
+20170325@01:44:34 [System] getLoggedInAccount 
+20170325@01:44:37 [System] getLoggedInAccount 
+20170325@01:45:18 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@01:45:18 [System] getLoggedInAccount 
+20170325@01:45:18 [System] No account logged in 
+20170325@01:45:18 [System] getLoggedInAccount 
+20170325@01:45:23 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@01:45:23 [System] getLoggedInAccount 
+20170325@01:45:23 [System] No account logged in 
+20170325@01:45:23 [System] getLoggedInAccount 
+20170325@01:45:24 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@01:45:24 [System] getLoggedInAccount 
+20170325@01:45:24 [System] No account logged in 
+20170325@01:45:24 [System] getLoggedInAccount 
+20170325@01:45:42 [System] getLoggedInAccount 
+20170325@01:45:54 [System] getLoggedInAccount 
+20170325@01:46:31 [System] getLoggedInAccount 
+20170325@01:46:46 [System] getLoggedInAccount 
+20170325@01:46:54 [System] getLoggedInAccount 
+20170325@01:46:59 [System] getLoggedInAccount 
+20170325@01:47:07 [System] getLoggedInAccount 
+20170325@01:48:09 [System] getLoggedInAccount 
+20170325@01:48:18 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@01:48:18 [System] getLoggedInAccount 
+20170325@01:48:18 [System] No account logged in 
+20170325@01:48:18 [System] getLoggedInAccount 
+20170325@01:48:21 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@01:48:21 [System] getLoggedInAccount 
+20170325@01:48:21 [System] No account logged in 
+20170325@01:48:21 [System] getLoggedInAccount 
+20170325@01:48:24 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@01:48:24 [System] getLoggedInAccount 
+20170325@01:48:24 [System] No account logged in 
+20170325@01:48:24 [System] getLoggedInAccount 
+20170325@01:48:24 [System] getShopInfo 
+20170325@01:48:25 [System] getShopTime 
+20170325@01:48:25 [System] getShopInfo 
+20170325@01:48:25 [System] getShopTime 
+20170325@01:48:25 [System] getShopInfo 
+20170325@01:48:25 [System] getShopTime 
+20170325@01:51:49 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@01:51:49 [System] getLoggedInAccount 
+20170325@01:51:49 [System] No account logged in 
+20170325@01:51:49 [System] getLoggedInAccount 
+20170325@01:51:49 [System] getShopInfo 
+20170325@01:51:49 [System] getShopTime 
+20170325@01:51:49 [System] getShopInfo 
+20170325@01:51:49 [System] getShopTime 
+20170325@01:51:50 [System] getShopInfo 
+20170325@01:51:50 [System] getShopTime 
+20170325@01:52:38 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@01:52:38 [System] getLoggedInAccount 
+20170325@01:52:38 [System] No account logged in 
+20170325@01:52:38 [System] getLoggedInAccount 
+20170325@01:52:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=24 
+20170325@01:52:40 [System] getLoggedInAccount 
+20170325@01:52:40 [System] No account logged in 
+20170325@01:52:41 [System] getLoggedInAccount 
+20170325@01:52:41 [System] loadAdoptionInfo 
+20170325@01:52:41 [System] getAdoptInfo 
+20170325@01:52:41 [System] getShopInfo 
+20170325@01:52:41 [System] getShopTime 
+20170325@01:52:41 [System] getLoggedInAccount 
+20170325@01:52:41 [System] DLAdoptInfo_ItemDataBound 
+20170325@01:52:41 [System] getAllAppointmentEntities 
+20170325@01:52:41 [System] checkAdoptionDetails 
+20170325@01:52:41 [System] MessageHandler : Please log in first  
+20170325@01:52:41 [System] DLMorePet_ItemDataBound 
+20170325@01:52:41 [System] DLMorePet_ItemDataBound 
+20170325@01:52:46 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@01:52:46 [System] getLoggedInAccount 
+20170325@01:52:46 [System] No account logged in 
+20170325@01:52:46 [System] getLoggedInAccount 
+20170325@01:52:49 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=53 
+20170325@01:52:49 [System] getLoggedInAccount 
+20170325@01:52:49 [System] No account logged in 
+20170325@01:52:49 [System] getLoggedInAccount 
+20170325@01:56:03 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@01:56:03 [System] getLoggedInAccount 
+20170325@01:56:03 [System] No account logged in 
+20170325@01:56:03 [System] getLoggedInAccount 
+20170325@01:56:06 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@01:56:06 [System] getLoggedInAccount 
+20170325@01:56:06 [System] No account logged in 
+20170325@01:56:06 [System] getLoggedInAccount 
+20170325@01:56:09 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@01:56:10 [System] getLoggedInAccount 
+20170325@01:56:10 [System] No account logged in 
+20170325@01:56:10 [System] getLoggedInAccount 
+20170325@01:56:10 [System] getShopInfo 
+20170325@01:56:10 [System] getShopTime 
+20170325@01:56:10 [System] getShopInfo 
+20170325@01:56:10 [System] getShopTime 
+20170325@01:56:10 [System] getShopInfo 
+20170325@01:56:10 [System] getShopTime 
+20170325@01:56:37 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@01:56:37 [System] getLoggedInAccount 
+20170325@01:56:37 [System] No account logged in 
+20170325@01:56:37 [System] getLoggedInAccount 
+20170325@01:56:38 [System] getShopInfo 
+20170325@01:56:38 [System] getShopTime 
+20170325@01:56:38 [System] getShopInfo 
+20170325@01:56:38 [System] getShopTime 
+20170325@01:56:38 [System] getShopInfo 
+20170325@01:56:38 [System] getShopTime 
+20170325@01:56:58 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@01:56:58 [System] getLoggedInAccount 
+20170325@01:56:58 [System] No account logged in 
+20170325@01:56:58 [System] getLoggedInAccount 
+20170325@01:56:58 [System] getShopInfo 
+20170325@01:56:58 [System] getShopTime 
+20170325@01:56:58 [System] getShopInfo 
+20170325@01:56:58 [System] getShopTime 
+20170325@01:56:58 [System] getShopInfo 
+20170325@01:56:58 [System] getShopTime 
+20170325@01:57:15 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@01:57:15 [System] getLoggedInAccount 
+20170325@01:57:15 [System] No account logged in 
+20170325@01:57:15 [System] getLoggedInAccount 
+20170325@01:57:16 [System] getShopInfo 
+20170325@01:57:16 [System] getShopTime 
+20170325@01:57:16 [System] getShopInfo 
+20170325@01:57:16 [System] getShopTime 
+20170325@01:57:16 [System] getShopInfo 
+20170325@01:57:16 [System] getShopTime 
+20170325@02:01:55 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:01:55 [System] getLoggedInAccount 
+20170325@02:01:55 [System] No account logged in 
+20170325@02:01:55 [System] getLoggedInAccount 
+20170325@02:03:15 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:03:15 [System] getLoggedInAccount 
+20170325@02:03:15 [System] No account logged in 
+20170325@02:03:15 [System] getLoggedInAccount 
+20170325@02:03:17 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:03:17 [System] getLoggedInAccount 
+20170325@02:03:17 [System] No account logged in 
+20170325@02:03:17 [System] getLoggedInAccount 
+20170325@02:03:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@02:03:54 [System] getLoggedInAccount 
+20170325@02:03:54 [System] No account logged in 
+20170325@02:03:54 [System] getLoggedInAccount 
+20170325@02:04:19 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:04:19 [System] getLoggedInAccount 
+20170325@02:04:19 [System] No account logged in 
+20170325@02:04:19 [System] getLoggedInAccount 
+20170325@02:04:25 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@02:04:26 [System] getLoggedInAccount 
+20170325@02:04:26 [System] No account logged in 
+20170325@02:04:26 [System] getLoggedInAccount 
+20170325@02:04:31 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:04:31 [System] getLoggedInAccount 
+20170325@02:04:31 [System] No account logged in 
+20170325@02:04:31 [System] getLoggedInAccount 
+20170325@02:05:20 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:05:20 [System] getLoggedInAccount 
+20170325@02:05:20 [System] No account logged in 
+20170325@02:05:20 [System] getLoggedInAccount 
+20170325@02:05:28 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@02:05:28 [System] getLoggedInAccount 
+20170325@02:05:28 [System] No account logged in 
+20170325@02:05:28 [System] getLoggedInAccount 
+20170325@02:06:40 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:06:40 [System] getLoggedInAccount 
+20170325@02:06:40 [System] No account logged in 
+20170325@02:06:40 [System] getLoggedInAccount 
+20170325@02:06:40 [System] getShopInfo 
+20170325@02:06:41 [System] getShopTime 
+20170325@02:06:41 [System] getShopInfo 
+20170325@02:06:41 [System] getShopTime 
+20170325@02:06:41 [System] getShopInfo 
+20170325@02:06:41 [System] getShopTime 
+20170325@02:07:03 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:07:03 [System] getLoggedInAccount 
+20170325@02:07:03 [System] No account logged in 
+20170325@02:07:03 [System] getLoggedInAccount 
+20170325@02:07:03 [System] getShopInfo 
+20170325@02:07:03 [System] getShopTime 
+20170325@02:07:03 [System] getShopInfo 
+20170325@02:07:03 [System] getShopTime 
+20170325@02:07:04 [System] getShopInfo 
+20170325@02:07:04 [System] getShopTime 
+20170325@02:07:24 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:07:24 [System] getLoggedInAccount 
+20170325@02:07:24 [System] No account logged in 
+20170325@02:07:24 [System] getLoggedInAccount 
+20170325@02:07:24 [System] getShopInfo 
+20170325@02:07:24 [System] getShopTime 
+20170325@02:07:24 [System] getShopInfo 
+20170325@02:07:24 [System] getShopTime 
+20170325@02:07:25 [System] getShopInfo 
+20170325@02:07:25 [System] getShopTime 
+20170325@02:07:48 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:07:48 [System] getLoggedInAccount 
+20170325@02:07:48 [System] No account logged in 
+20170325@02:07:48 [System] getLoggedInAccount 
+20170325@02:07:49 [System] getShopInfo 
+20170325@02:07:49 [System] getShopTime 
+20170325@02:07:49 [System] getShopInfo 
+20170325@02:07:49 [System] getShopTime 
+20170325@02:07:49 [System] getShopInfo 
+20170325@02:07:49 [System] getShopTime 
+20170325@02:11:40 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:11:40 [System] getLoggedInAccount 
+20170325@02:11:40 [System] No account logged in 
+20170325@02:11:40 [System] getLoggedInAccount 
+20170325@02:11:40 [System] getShopInfo 
+20170325@02:11:40 [System] getShopTime 
+20170325@02:11:41 [System] getShopInfo 
+20170325@02:11:41 [System] getShopTime 
+20170325@02:11:41 [System] getShopInfo 
+20170325@02:11:41 [System] getShopTime 
+20170325@02:11:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@02:11:54 [System] getLoggedInAccount 
+20170325@02:11:54 [System] No account logged in 
+20170325@02:11:54 [System] getLoggedInAccount 
+20170325@02:12:07 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:12:07 [System] getLoggedInAccount 
+20170325@02:12:07 [System] No account logged in 
+20170325@02:12:07 [System] getLoggedInAccount 
+20170325@02:12:08 [System] getShopInfo 
+20170325@02:12:08 [System] getShopTime 
+20170325@02:12:36 [System] getShopInfo 
+20170325@02:12:36 [System] getShopTime 
+20170325@02:12:37 [System] getShopInfo 
+20170325@02:12:37 [System] getShopTime 
+20170325@02:13:02 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:13:02 [System] getLoggedInAccount 
+20170325@02:13:02 [System] No account logged in 
+20170325@02:13:02 [System] getLoggedInAccount 
+20170325@02:13:03 [System] getShopInfo 
+20170325@02:13:03 [System] getShopTime 
+20170325@02:13:03 [System] getShopInfo 
+20170325@02:13:03 [System] getShopTime 
+20170325@02:13:03 [System] getShopInfo 
+20170325@02:13:03 [System] getShopTime 
+20170325@02:15:35 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:15:35 [System] getLoggedInAccount 
+20170325@02:15:35 [System] No account logged in 
+20170325@02:15:35 [System] getLoggedInAccount 
+20170325@02:15:35 [System] getShopInfo 
+20170325@02:15:35 [System] getShopTime 
+20170325@02:15:35 [System] getShopInfo 
+20170325@02:15:35 [System] getShopTime 
+20170325@02:15:35 [System] getShopInfo 
+20170325@02:15:36 [System] getShopTime 
+20170325@02:16:05 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@02:16:05 [System] getLoggedInAccount 
+20170325@02:16:05 [System] No account logged in 
+20170325@02:16:05 [System] getLoggedInAccount 
+20170325@02:16:33 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:16:33 [System] getLoggedInAccount 
+20170325@02:16:33 [System] No account logged in 
+20170325@02:16:33 [System] getLoggedInAccount 
+20170325@02:16:33 [System] getShopInfo 
+20170325@02:16:34 [System] getShopTime 
+20170325@02:16:36 [System] getShopInfo 
+20170325@02:16:36 [System] getShopTime 
+20170325@02:16:39 [System] getShopInfo 
+20170325@02:16:39 [System] getShopTime 
+20170325@02:18:09 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@02:18:09 [System] getLoggedInAccount 
+20170325@02:18:09 [System] No account logged in 
+20170325@02:18:09 [System] getLoggedInAccount 
+20170325@02:18:14 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:18:14 [System] getLoggedInAccount 
+20170325@02:18:14 [System] No account logged in 
+20170325@02:18:14 [System] getLoggedInAccount 
+20170325@02:18:14 [System] getShopInfo 
+20170325@02:18:14 [System] getShopTime 
+20170325@02:18:14 [System] getShopInfo 
+20170325@02:18:14 [System] getShopTime 
+20170325@02:18:14 [System] getShopInfo 
+20170325@02:18:14 [System] getShopTime 
+20170325@02:19:39 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:19:39 [System] getLoggedInAccount 
+20170325@02:19:39 [System] No account logged in 
+20170325@02:19:39 [System] getLoggedInAccount 
+20170325@02:19:40 [System] getShopInfo 
+20170325@02:19:40 [System] getShopTime 
+20170325@02:19:40 [System] getShopInfo 
+20170325@02:19:40 [System] getShopTime 
+20170325@02:19:40 [System] getShopInfo 
+20170325@02:19:40 [System] getShopTime 
+20170325@02:23:04 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:23:04 [System] getLoggedInAccount 
+20170325@02:23:04 [System] No account logged in 
+20170325@02:23:04 [System] getLoggedInAccount 
+20170325@02:23:04 [System] getShopInfo 
+20170325@02:23:05 [System] getShopTime 
+20170325@02:23:05 [System] getShopInfo 
+20170325@02:23:05 [System] getShopTime 
+20170325@02:23:05 [System] getShopInfo 
+20170325@02:23:05 [System] getShopTime 
+20170325@02:24:02 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:24:02 [System] getLoggedInAccount 
+20170325@02:24:02 [System] No account logged in 
+20170325@02:24:02 [System] getLoggedInAccount 
+20170325@02:24:02 [System] getShopInfo 
+20170325@02:24:02 [System] getShopTime 
+20170325@02:24:02 [System] getShopInfo 
+20170325@02:24:02 [System] getShopTime 
+20170325@02:24:02 [System] getShopInfo 
+20170325@02:24:02 [System] getShopTime 
+20170325@02:24:24 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:24:24 [System] getLoggedInAccount 
+20170325@02:24:24 [System] No account logged in 
+20170325@02:24:24 [System] getLoggedInAccount 
+20170325@02:24:24 [System] getShopInfo 
+20170325@02:24:24 [System] getShopTime 
+20170325@02:24:25 [System] getShopInfo 
+20170325@02:24:25 [System] getShopTime 
+20170325@02:24:25 [System] getShopInfo 
+20170325@02:24:25 [System] getShopTime 
+20170325@02:26:24 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@02:26:24 [System] getLoggedInAccount 
+20170325@02:26:24 [System] No account logged in 
+20170325@02:26:24 [System] getLoggedInAccount 
+20170325@02:26:28 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:26:28 [System] getLoggedInAccount 
+20170325@02:26:28 [System] No account logged in 
+20170325@02:26:28 [System] getLoggedInAccount 
+20170325@02:26:28 [System] getShopInfo 
+20170325@02:26:28 [System] getShopTime 
+20170325@02:26:28 [System] getShopInfo 
+20170325@02:26:28 [System] getShopTime 
+20170325@02:26:29 [System] getShopInfo 
+20170325@02:26:29 [System] getShopTime 
+20170325@02:29:42 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:29:42 [System] getLoggedInAccount 
+20170325@02:29:42 [System] No account logged in 
+20170325@02:29:42 [System] getLoggedInAccount 
+20170325@02:30:42 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:30:42 [System] getLoggedInAccount 
+20170325@02:30:42 [System] No account logged in 
+20170325@02:30:42 [System] getLoggedInAccount 
+20170325@02:30:50 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:30:50 [System] getLoggedInAccount 
+20170325@02:30:50 [System] No account logged in 
+20170325@02:30:50 [System] getLoggedInAccount 
+20170325@02:30:55 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@02:30:55 [System] getLoggedInAccount 
+20170325@02:30:55 [System] No account logged in 
+20170325@02:30:55 [System] getLoggedInAccount 
+20170325@02:30:57 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:30:57 [System] getLoggedInAccount 
+20170325@02:30:57 [System] No account logged in 
+20170325@02:30:57 [System] getLoggedInAccount 
+20170325@02:31:59 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:31:59 [System] getLoggedInAccount 
+20170325@02:31:59 [System] No account logged in 
+20170325@02:31:59 [System] getLoggedInAccount 
+20170325@02:31:59 [System] getShopInfo 
+20170325@02:32:00 [System] getShopTime 
+20170325@02:32:00 [System] getShopInfo 
+20170325@02:32:00 [System] getShopTime 
+20170325@02:32:00 [System] getShopInfo 
+20170325@02:32:00 [System] getShopTime 
+20170325@02:32:22 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:32:22 [System] getLoggedInAccount 
+20170325@02:32:22 [System] No account logged in 
+20170325@02:32:22 [System] getLoggedInAccount 
+20170325@02:32:22 [System] getShopInfo 
+20170325@02:32:22 [System] getShopTime 
+20170325@02:32:22 [System] getShopInfo 
+20170325@02:32:22 [System] getShopTime 
+20170325@02:32:22 [System] getShopInfo 
+20170325@02:32:22 [System] getShopTime 
+20170325@02:33:13 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:33:13 [System] getLoggedInAccount 
+20170325@02:33:13 [System] No account logged in 
+20170325@02:33:13 [System] getLoggedInAccount 
+20170325@02:33:13 [System] getShopInfo 
+20170325@02:33:13 [System] getShopTime 
+20170325@02:33:13 [System] getShopInfo 
+20170325@02:33:13 [System] getShopTime 
+20170325@02:33:13 [System] getShopInfo 
+20170325@02:33:13 [System] getShopTime 
+20170325@02:33:36 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@02:33:36 [System] getLoggedInAccount 
+20170325@02:33:36 [System] No account logged in 
+20170325@02:33:36 [System] getLoggedInAccount 
+20170325@02:33:40 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:33:40 [System] getLoggedInAccount 
+20170325@02:33:40 [System] No account logged in 
+20170325@02:33:40 [System] getLoggedInAccount 
+20170325@02:35:21 [System] getShopInfo 
+20170325@02:35:21 [System] getShopTime 
+20170325@02:35:21 [System] getShopInfo 
+20170325@02:35:21 [System] getShopTime 
+20170325@02:35:21 [System] getShopInfo 
+20170325@02:35:21 [System] getShopTime 
+20170325@02:36:42 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:36:42 [System] getLoggedInAccount 
+20170325@02:36:42 [System] No account logged in 
+20170325@02:36:42 [System] getLoggedInAccount 
+20170325@02:36:42 [System] getShopInfo 
+20170325@02:36:43 [System] getShopTime 
+20170325@02:36:43 [System] getShopInfo 
+20170325@02:36:43 [System] getShopTime 
+20170325@02:36:43 [System] getShopInfo 
+20170325@02:36:43 [System] getShopTime 
+20170325@02:37:44 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:37:44 [System] getLoggedInAccount 
+20170325@02:37:44 [System] No account logged in 
+20170325@02:37:44 [System] getLoggedInAccount 
+20170325@02:37:44 [System] getShopInfo 
+20170325@02:37:44 [System] getShopTime 
+20170325@02:37:44 [System] getShopInfo 
+20170325@02:37:44 [System] getShopTime 
+20170325@02:37:44 [System] getShopInfo 
+20170325@02:37:44 [System] getShopTime 
+20170325@02:38:24 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:38:24 [System] getLoggedInAccount 
+20170325@02:38:24 [System] No account logged in 
+20170325@02:38:24 [System] getLoggedInAccount 
+20170325@02:38:24 [System] getShopInfo 
+20170325@02:38:24 [System] getShopTime 
+20170325@02:38:24 [System] getShopInfo 
+20170325@02:38:24 [System] getShopTime 
+20170325@02:38:24 [System] getShopInfo 
+20170325@02:38:24 [System] getShopTime 
+20170325@02:44:09 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:44:09 [System] getLoggedInAccount 
+20170325@02:44:09 [System] No account logged in 
+20170325@02:44:09 [System] getLoggedInAccount 
+20170325@02:44:10 [System] getShopInfo 
+20170325@02:44:10 [System] getShopTime 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : Close now 
+20170325@02:44:10 [System] getShopInfo 
+20170325@02:44:10 [System] getShopTime 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : Close now 
+20170325@02:44:10 [System] getShopInfo 
+20170325@02:44:10 [System] getShopTime 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:44:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:47 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:45:47 [System] getLoggedInAccount 
+20170325@02:45:47 [System] No account logged in 
+20170325@02:45:47 [System] getLoggedInAccount 
+20170325@02:45:48 [System] getShopInfo 
+20170325@02:45:48 [System] getShopTime 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : Close now 
+20170325@02:45:48 [System] getShopInfo 
+20170325@02:45:48 [System] getShopTime 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : Close now 
+20170325@02:45:48 [System] getShopInfo 
+20170325@02:45:48 [System] getShopTime 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:45:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:46:25 [System] getLoggedInAccount 
+20170325@02:46:25 [System] No account logged in 
+20170325@02:46:25 [System] getLoggedInAccount 
+20170325@02:46:25 [System] getShopInfo 
+20170325@02:46:25 [System] getShopTime 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : Close now 
+20170325@02:46:25 [System] getShopInfo 
+20170325@02:46:25 [System] getShopTime 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : Close now 
+20170325@02:46:25 [System] getShopInfo 
+20170325@02:46:25 [System] getShopTime 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:46:55 [System] getLoggedInAccount 
+20170325@02:46:55 [System] No account logged in 
+20170325@02:46:55 [System] getLoggedInAccount 
+20170325@02:46:55 [System] getShopInfo 
+20170325@02:46:55 [System] getShopTime 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : Close now 
+20170325@02:46:55 [System] getShopInfo 
+20170325@02:46:55 [System] getShopTime 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : Close now 
+20170325@02:46:55 [System] getShopInfo 
+20170325@02:46:55 [System] getShopTime 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:46:55 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:43 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:47:43 [System] getLoggedInAccount 
+20170325@02:47:43 [System] No account logged in 
+20170325@02:47:43 [System] getLoggedInAccount 
+20170325@02:47:44 [System] getShopInfo 
+20170325@02:47:44 [System] getShopTime 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : Close now 
+20170325@02:47:44 [System] getShopInfo 
+20170325@02:47:44 [System] getShopTime 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : Close now 
+20170325@02:47:44 [System] getShopInfo 
+20170325@02:47:44 [System] getShopTime 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:47:44 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:11 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:48:11 [System] getLoggedInAccount 
+20170325@02:48:11 [System] No account logged in 
+20170325@02:48:11 [System] getLoggedInAccount 
+20170325@02:48:11 [System] getShopInfo 
+20170325@02:48:11 [System] getShopTime 
+20170325@02:48:11 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:11 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:11 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:11 [System] MessageHandler : Close now 
+20170325@02:48:12 [System] getShopInfo 
+20170325@02:48:12 [System] getShopTime 
+20170325@02:48:12 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:12 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:12 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:12 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:12 [System] MessageHandler : Close now 
+20170325@02:48:12 [System] getShopInfo 
+20170325@02:48:12 [System] getShopTime 
+20170325@02:48:12 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:12 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:12 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:12 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:12 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:47 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:48:47 [System] getLoggedInAccount 
+20170325@02:48:47 [System] No account logged in 
+20170325@02:48:47 [System] getLoggedInAccount 
+20170325@02:48:47 [System] getShopInfo 
+20170325@02:48:47 [System] getShopTime 
+20170325@02:48:47 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:47 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:47 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:47 [System] MessageHandler : Close now 
+20170325@02:48:47 [System] getShopInfo 
+20170325@02:48:47 [System] getShopTime 
+20170325@02:48:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:48 [System] MessageHandler : Close now 
+20170325@02:48:48 [System] getShopInfo 
+20170325@02:48:48 [System] getShopTime 
+20170325@02:48:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:48:48 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:07 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:49:07 [System] getLoggedInAccount 
+20170325@02:49:07 [System] No account logged in 
+20170325@02:49:07 [System] getLoggedInAccount 
+20170325@02:49:07 [System] getShopInfo 
+20170325@02:49:07 [System] getShopTime 
+20170325@02:49:07 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:07 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:07 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:07 [System] MessageHandler : Close now 
+20170325@02:49:07 [System] getShopInfo 
+20170325@02:49:07 [System] getShopTime 
+20170325@02:49:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:08 [System] MessageHandler : Close now 
+20170325@02:49:08 [System] getShopInfo 
+20170325@02:49:08 [System] getShopTime 
+20170325@02:49:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:18 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:49:18 [System] getLoggedInAccount 
+20170325@02:49:18 [System] No account logged in 
+20170325@02:49:18 [System] getLoggedInAccount 
+20170325@02:49:18 [System] getShopInfo 
+20170325@02:49:19 [System] getShopTime 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : Close now 
+20170325@02:49:19 [System] getShopInfo 
+20170325@02:49:19 [System] getShopTime 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : Close now 
+20170325@02:49:19 [System] getShopInfo 
+20170325@02:49:19 [System] getShopTime 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:49:53 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@02:49:53 [System] getLoggedInAccount 
+20170325@02:49:53 [System] No account logged in 
+20170325@02:49:53 [System] getLoggedInAccount 
+20170325@02:50:03 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:50:03 [System] getLoggedInAccount 
+20170325@02:50:03 [System] No account logged in 
+20170325@02:50:03 [System] getLoggedInAccount 
+20170325@02:50:03 [System] getShopInfo 
+20170325@02:50:04 [System] getShopTime 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : Close now 
+20170325@02:50:04 [System] getShopInfo 
+20170325@02:50:04 [System] getShopTime 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : Close now 
+20170325@02:50:04 [System] getShopInfo 
+20170325@02:50:04 [System] getShopTime 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:04 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:18 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:50:18 [System] getLoggedInAccount 
+20170325@02:50:18 [System] No account logged in 
+20170325@02:50:18 [System] getLoggedInAccount 
+20170325@02:50:18 [System] getShopInfo 
+20170325@02:50:18 [System] getShopTime 
+20170325@02:50:18 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : Close now 
+20170325@02:50:19 [System] getShopInfo 
+20170325@02:50:19 [System] getShopTime 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : Close now 
+20170325@02:50:19 [System] getShopInfo 
+20170325@02:50:19 [System] getShopTime 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:19 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:27 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:50:27 [System] getLoggedInAccount 
+20170325@02:50:27 [System] No account logged in 
+20170325@02:50:27 [System] getLoggedInAccount 
+20170325@02:50:27 [System] getShopInfo 
+20170325@02:50:27 [System] getShopTime 
+20170325@02:50:27 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:27 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:27 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:27 [System] MessageHandler : Close now 
+20170325@02:50:27 [System] getShopInfo 
+20170325@02:50:27 [System] getShopTime 
+20170325@02:50:27 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:27 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:27 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:27 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:27 [System] MessageHandler : Close now 
+20170325@02:50:27 [System] getShopInfo 
+20170325@02:50:27 [System] getShopTime 
+20170325@02:50:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:41 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:50:41 [System] getLoggedInAccount 
+20170325@02:50:41 [System] No account logged in 
+20170325@02:50:41 [System] getLoggedInAccount 
+20170325@02:50:41 [System] getShopInfo 
+20170325@02:50:41 [System] getShopTime 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : Close now 
+20170325@02:50:42 [System] getShopInfo 
+20170325@02:50:42 [System] getShopTime 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : Close now 
+20170325@02:50:42 [System] getShopInfo 
+20170325@02:50:42 [System] getShopTime 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:50:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:08 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:51:08 [System] getLoggedInAccount 
+20170325@02:51:08 [System] No account logged in 
+20170325@02:51:08 [System] getLoggedInAccount 
+20170325@02:51:08 [System] getShopInfo 
+20170325@02:51:08 [System] getShopTime 
+20170325@02:51:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:08 [System] MessageHandler : Close now 
+20170325@02:51:08 [System] getShopInfo 
+20170325@02:51:08 [System] getShopTime 
+20170325@02:51:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:08 [System] MessageHandler : Close now 
+20170325@02:51:09 [System] getShopInfo 
+20170325@02:51:09 [System] getShopTime 
+20170325@02:51:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:51:55 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:51:55 [System] getLoggedInAccount 
+20170325@02:51:55 [System] No account logged in 
+20170325@02:51:55 [System] getLoggedInAccount 
+20170325@02:52:21 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:52:21 [System] getLoggedInAccount 
+20170325@02:52:21 [System] No account logged in 
+20170325@02:52:21 [System] getLoggedInAccount 
+20170325@02:52:21 [System] getShopInfo 
+20170325@02:52:21 [System] getShopTime 
+20170325@02:52:21 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:21 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:21 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:21 [System] MessageHandler : Close now 
+20170325@02:52:22 [System] getShopInfo 
+20170325@02:52:22 [System] getShopTime 
+20170325@02:52:22 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:22 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:22 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:22 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:22 [System] MessageHandler : Close now 
+20170325@02:52:22 [System] getShopInfo 
+20170325@02:52:22 [System] getShopTime 
+20170325@02:52:22 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:22 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:22 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:22 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:22 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:41 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:52:41 [System] getLoggedInAccount 
+20170325@02:52:41 [System] No account logged in 
+20170325@02:52:41 [System] getLoggedInAccount 
+20170325@02:52:41 [System] getShopInfo 
+20170325@02:52:41 [System] getShopTime 
+20170325@02:52:41 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:41 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:41 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:41 [System] MessageHandler : Close now 
+20170325@02:52:41 [System] getShopInfo 
+20170325@02:52:41 [System] getShopTime 
+20170325@02:52:41 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:41 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:41 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:41 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:41 [System] MessageHandler : Close now 
+20170325@02:52:41 [System] getShopInfo 
+20170325@02:52:41 [System] getShopTime 
+20170325@02:52:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:52:42 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:27 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:53:27 [System] getLoggedInAccount 
+20170325@02:53:27 [System] No account logged in 
+20170325@02:53:27 [System] getLoggedInAccount 
+20170325@02:53:27 [System] getShopInfo 
+20170325@02:53:27 [System] getShopTime 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : Close now 
+20170325@02:53:28 [System] getShopInfo 
+20170325@02:53:28 [System] getShopTime 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : Close now 
+20170325@02:53:28 [System] getShopInfo 
+20170325@02:53:28 [System] getShopTime 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:28 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:53:53 [System] getLoggedInAccount 
+20170325@02:53:53 [System] No account logged in 
+20170325@02:53:53 [System] getLoggedInAccount 
+20170325@02:53:53 [System] getShopInfo 
+20170325@02:53:53 [System] getShopTime 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : Close now 
+20170325@02:53:53 [System] getShopInfo 
+20170325@02:53:53 [System] getShopTime 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : Close now 
+20170325@02:53:53 [System] getShopInfo 
+20170325@02:53:53 [System] getShopTime 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:53:53 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:08 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:55:08 [System] getLoggedInAccount 
+20170325@02:55:08 [System] No account logged in 
+20170325@02:55:08 [System] getLoggedInAccount 
+20170325@02:55:08 [System] getShopInfo 
+20170325@02:55:08 [System] getShopTime 
+20170325@02:55:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:08 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:08 [System] MessageHandler : Close now 
+20170325@02:55:08 [System] getShopInfo 
+20170325@02:55:09 [System] getShopTime 
+20170325@02:55:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:09 [System] MessageHandler : Close now 
+20170325@02:55:09 [System] getShopInfo 
+20170325@02:55:09 [System] getShopTime 
+20170325@02:55:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:09 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:24 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:55:24 [System] getLoggedInAccount 
+20170325@02:55:24 [System] No account logged in 
+20170325@02:55:24 [System] getLoggedInAccount 
+20170325@02:55:24 [System] getShopInfo 
+20170325@02:55:25 [System] getShopTime 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : Close now 
+20170325@02:55:25 [System] getShopInfo 
+20170325@02:55:25 [System] getShopTime 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : Close now 
+20170325@02:55:25 [System] getShopInfo 
+20170325@02:55:25 [System] getShopTime 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:55:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@02:56:01 [System] getLoggedInAccount 
+20170325@02:56:01 [System] No account logged in 
+20170325@02:56:01 [System] getLoggedInAccount 
+20170325@02:56:01 [System] getShopInfo 
+20170325@02:56:01 [System] getShopTime 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : Close now 
+20170325@02:56:01 [System] getShopInfo 
+20170325@02:56:01 [System] getShopTime 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : Close now 
+20170325@02:56:01 [System] getShopInfo 
+20170325@02:56:01 [System] getShopTime 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:01 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:11 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170325@02:56:11 [System] signOut 
+20170325@02:56:16 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170325@02:56:16 [System] signOut 
+20170325@02:56:16 [System] signIn 
+20170325@02:56:16 [System] getShopInfo 
+20170325@02:56:16 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:56:16 [System] getLoggedInAccount 
+20170325@02:56:16 [System] GVPetInfoOverview_DataBound 
+20170325@02:56:16 [System] GVShopInfoOverview_DataBound 
+20170325@02:56:21 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:56:21 [System] getLoggedInAccount 
+20170325@02:56:21 [System] filterShopInfoData 
+20170325@02:56:21 [System] GVShopInfoOverview_DataBound 
+20170325@02:56:23 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:56:23 [System] getLoggedInAccount 
+20170325@02:56:23 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170325@02:56:23 [System] getShopInfo 
+20170325@02:56:23 [System] getShopTime 
+20170325@02:56:23 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:23 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:23 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:23 [System] MessageHandler : Close now 
+20170325@02:56:23 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170325@02:56:25 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:56:25 [System] getLoggedInAccount 
+20170325@02:56:25 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170325@02:56:25 [System] getShopInfo 
+20170325@02:56:25 [System] getShopTime 
+20170325@02:56:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:25 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:25 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170325@02:56:26 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:56:26 [System] getLoggedInAccount 
+20170325@02:56:26 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170325@02:56:26 [System] getShopInfo 
+20170325@02:56:26 [System] getShopTime 
+20170325@02:56:26 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:26 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:26 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:26 [System] MessageHandler : (Close on Saturday) 
+20170325@02:56:26 [System] MessageHandler : Close now 
+20170325@02:56:26 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170325@02:56:28 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:56:28 [System] getLoggedInAccount 
+20170325@02:56:28 [System] GVPetInfoOverview_SelectedIndexChanging 
+20170325@02:56:29 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170325@02:56:29 [System] loadPieChartPetInfo 
+20170325@02:57:15 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:57:15 [System] getLoggedInAccount 
+20170325@02:57:15 [System] loadPieChartPetInfo 
+20170325@02:57:15 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170325@02:57:15 [System] getShopInfo 
+20170325@02:57:15 [System] getShopTime 
+20170325@02:57:15 [System] MessageHandler : (Close on Saturday) 
+20170325@02:57:15 [System] MessageHandler : (Close on Saturday) 
+20170325@02:57:16 [System] MessageHandler : (Close on Saturday) 
+20170325@02:57:16 [System] MessageHandler : Close now 
+20170325@02:57:16 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170325@02:57:55 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:57:55 [System] getLoggedInAccount 
+20170325@02:57:55 [System] GVPetInfoOverview_DataBound 
+20170325@02:57:56 [System] GVShopInfoOverview_DataBound 
+20170325@02:57:59 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:57:59 [System] getLoggedInAccount 
+20170325@02:57:59 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170325@02:57:59 [System] getShopInfo 
+20170325@02:57:59 [System] getShopTime 
+20170325@02:57:59 [System] MessageHandler : (Close on Saturday) 
+20170325@02:57:59 [System] MessageHandler : (Close on Saturday) 
+20170325@02:57:59 [System] MessageHandler : Close now 
+20170325@02:57:59 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170325@02:58:04 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:58:04 [System] getLoggedInAccount 
+20170325@02:58:04 [System] filterShopInfoData 
+20170325@02:58:04 [System] GVShopInfoOverview_DataBound 
+20170325@02:58:06 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:58:06 [System] getLoggedInAccount 
+20170325@02:58:06 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170325@02:58:06 [System] getShopInfo 
+20170325@02:58:06 [System] getShopTime 
+20170325@02:58:06 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:06 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:06 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:06 [System] MessageHandler : Close now 
+20170325@02:58:06 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170325@02:58:07 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:58:07 [System] getLoggedInAccount 
+20170325@02:58:07 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170325@02:58:07 [System] getShopInfo 
+20170325@02:58:07 [System] getShopTime 
+20170325@02:58:07 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:07 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:07 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:07 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:07 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:07 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170325@02:58:10 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:58:10 [System] getLoggedInAccount 
+20170325@02:58:10 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170325@02:58:10 [System] getShopInfo 
+20170325@02:58:10 [System] getShopTime 
+20170325@02:58:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:10 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:10 [System] MessageHandler : Close now 
+20170325@02:58:10 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170325@02:58:11 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@02:58:11 [System] getLoggedInAccount 
+20170325@02:58:11 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170325@02:58:11 [System] getShopInfo 
+20170325@02:58:11 [System] getShopTime 
+20170325@02:58:11 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:11 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:11 [System] MessageHandler : (Close on Saturday) 
+20170325@02:58:11 [System] MessageHandler : Close now 
+20170325@02:58:11 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170325@03:01:42 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@03:01:43 [System] getLoggedInAccount 
+20170325@03:01:43 [System] No account logged in 
+20170325@03:01:43 [System] getLoggedInAccount 
+20170325@03:01:48 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:01:48 [System] getLoggedInAccount 
+20170325@03:01:48 [System] No account logged in 
+20170325@03:01:48 [System] getLoggedInAccount 
+20170325@03:01:48 [System] getShopInfo 
+20170325@03:01:48 [System] getShopTime 
+20170325@03:01:48 [System] getPhotoEntities 
+20170325@03:02:11 [System] MessageHandler : (Close on Saturday) 
+20170325@03:02:11 [System] MessageHandler : (Close on Saturday) 
+20170325@03:02:11 [System] MessageHandler : (Close on Saturday) 
+20170325@03:02:11 [System] MessageHandler : Close now 
+20170325@03:03:17 [System] getShopInfo 
+20170325@03:03:17 [System] getShopTime 
+20170325@03:03:17 [System] getPhotoEntities 
+20170325@03:04:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:04:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:04:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:04:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:04:13 [System] MessageHandler : Close now 
+20170325@03:04:13 [System] getShopInfo 
+20170325@03:04:13 [System] getShopTime 
+20170325@03:04:13 [System] getPhotoEntities 
+20170325@03:04:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:04:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:04:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:04:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:04:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:27 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:05:27 [System] getLoggedInAccount 
+20170325@03:05:27 [System] No account logged in 
+20170325@03:05:27 [System] getLoggedInAccount 
+20170325@03:05:27 [System] getShopInfo 
+20170325@03:05:27 [System] getShopTime 
+20170325@03:05:28 [System] getPhotoEntities 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : Close now 
+20170325@03:05:30 [System] getShopInfo 
+20170325@03:05:30 [System] getShopTime 
+20170325@03:05:30 [System] getPhotoEntities 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : Close now 
+20170325@03:05:30 [System] getShopInfo 
+20170325@03:05:30 [System] getShopTime 
+20170325@03:05:30 [System] getPhotoEntities 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:05:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:49 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:07:49 [System] getLoggedInAccount 
+20170325@03:07:49 [System] No account logged in 
+20170325@03:07:49 [System] getLoggedInAccount 
+20170325@03:07:49 [System] getShopInfo 
+20170325@03:07:49 [System] getShopTime 
+20170325@03:07:49 [System] getPhotoEntities 
+20170325@03:07:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:49 [System] MessageHandler : Close now 
+20170325@03:07:50 [System] getShopInfo 
+20170325@03:07:50 [System] getShopTime 
+20170325@03:07:50 [System] getPhotoEntities 
+20170325@03:07:50 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:50 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:50 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:50 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:50 [System] MessageHandler : Close now 
+20170325@03:07:50 [System] getShopInfo 
+20170325@03:07:50 [System] getShopTime 
+20170325@03:07:50 [System] getPhotoEntities 
+20170325@03:07:50 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:50 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:50 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:50 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:50 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:55 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:07:55 [System] getLoggedInAccount 
+20170325@03:07:55 [System] No account logged in 
+20170325@03:07:55 [System] getLoggedInAccount 
+20170325@03:07:55 [System] getShopInfo 
+20170325@03:07:55 [System] getShopTime 
+20170325@03:07:55 [System] getPhotoEntities 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : Close now 
+20170325@03:07:56 [System] getShopInfo 
+20170325@03:07:56 [System] getShopTime 
+20170325@03:07:56 [System] getPhotoEntities 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : Close now 
+20170325@03:07:56 [System] getShopInfo 
+20170325@03:07:56 [System] getShopTime 
+20170325@03:07:56 [System] getPhotoEntities 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:07:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:39 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:09:39 [System] getLoggedInAccount 
+20170325@03:09:39 [System] No account logged in 
+20170325@03:09:39 [System] getLoggedInAccount 
+20170325@03:09:39 [System] getShopInfo 
+20170325@03:09:39 [System] getShopTime 
+20170325@03:09:39 [System] getPhotoEntities 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : Close now 
+20170325@03:09:40 [System] getShopInfo 
+20170325@03:09:40 [System] getShopTime 
+20170325@03:09:40 [System] getPhotoEntities 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : Close now 
+20170325@03:09:40 [System] getShopInfo 
+20170325@03:09:40 [System] getShopTime 
+20170325@03:09:40 [System] getPhotoEntities 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:40 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:58 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:09:58 [System] getLoggedInAccount 
+20170325@03:09:58 [System] No account logged in 
+20170325@03:09:58 [System] getLoggedInAccount 
+20170325@03:09:58 [System] getShopInfo 
+20170325@03:09:58 [System] getShopTime 
+20170325@03:09:58 [System] getPhotoEntities 
+20170325@03:09:58 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:58 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:58 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:58 [System] MessageHandler : Close now 
+20170325@03:09:58 [System] getShopInfo 
+20170325@03:09:58 [System] getShopTime 
+20170325@03:09:58 [System] getPhotoEntities 
+20170325@03:09:58 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:58 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:58 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:58 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:58 [System] MessageHandler : Close now 
+20170325@03:09:58 [System] getShopInfo 
+20170325@03:09:58 [System] getShopTime 
+20170325@03:09:58 [System] getPhotoEntities 
+20170325@03:09:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:09:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:12:37 [System] getLoggedInAccount 
+20170325@03:12:37 [System] No account logged in 
+20170325@03:12:37 [System] getLoggedInAccount 
+20170325@03:12:37 [System] getShopInfo 
+20170325@03:12:37 [System] getShopTime 
+20170325@03:12:37 [System] getPhotoEntities 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : Close now 
+20170325@03:12:37 [System] getShopInfo 
+20170325@03:12:37 [System] getShopTime 
+20170325@03:12:37 [System] getPhotoEntities 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : Close now 
+20170325@03:12:37 [System] getShopInfo 
+20170325@03:12:37 [System] getShopTime 
+20170325@03:12:37 [System] getPhotoEntities 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:12:37 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:24 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:14:24 [System] getLoggedInAccount 
+20170325@03:14:24 [System] No account logged in 
+20170325@03:14:24 [System] getLoggedInAccount 
+20170325@03:14:24 [System] getShopInfo 
+20170325@03:14:25 [System] getShopTime 
+20170325@03:14:25 [System] getPhotoEntities 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : Close now 
+20170325@03:14:25 [System] getPhotoEntities 
+20170325@03:14:25 [System] getShopInfo 
+20170325@03:14:25 [System] getShopTime 
+20170325@03:14:25 [System] getPhotoEntities 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : Close now 
+20170325@03:14:25 [System] getPhotoEntities 
+20170325@03:14:25 [System] getShopInfo 
+20170325@03:14:25 [System] getShopTime 
+20170325@03:14:25 [System] getPhotoEntities 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:25 [System] getPhotoEntities 
+20170325@03:14:48 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:14:48 [System] getLoggedInAccount 
+20170325@03:14:48 [System] No account logged in 
+20170325@03:14:49 [System] getLoggedInAccount 
+20170325@03:14:49 [System] getShopInfo 
+20170325@03:14:49 [System] getShopTime 
+20170325@03:14:49 [System] getPhotoEntities 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : Close now 
+20170325@03:14:49 [System] getPhotoEntities 
+20170325@03:14:49 [System] getShopInfo 
+20170325@03:14:49 [System] getShopTime 
+20170325@03:14:49 [System] getPhotoEntities 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : Close now 
+20170325@03:14:49 [System] getPhotoEntities 
+20170325@03:14:49 [System] getShopInfo 
+20170325@03:14:49 [System] getShopTime 
+20170325@03:14:49 [System] getPhotoEntities 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:14:49 [System] getPhotoEntities 
+20170325@03:16:04 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:16:04 [System] getLoggedInAccount 
+20170325@03:16:04 [System] No account logged in 
+20170325@03:16:04 [System] getLoggedInAccount 
+20170325@03:16:04 [System] getShopInfo 
+20170325@03:16:05 [System] getShopTime 
+20170325@03:16:05 [System] getPhotoEntities 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : Close now 
+20170325@03:16:05 [System] getPhotoEntities 
+20170325@03:16:05 [System] getShopInfo 
+20170325@03:16:05 [System] getShopTime 
+20170325@03:16:05 [System] getPhotoEntities 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : Close now 
+20170325@03:16:05 [System] getPhotoEntities 
+20170325@03:16:05 [System] getShopInfo 
+20170325@03:16:05 [System] getShopTime 
+20170325@03:16:05 [System] getPhotoEntities 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] MessageHandler : (Not in operation on Saturday) 
+20170325@03:16:05 [System] getPhotoEntities 
+20170325@03:16:27 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:16:27 [System] getLoggedInAccount 
+20170325@03:16:27 [System] No account logged in 
+20170325@03:16:28 [System] getLoggedInAccount 
+20170325@03:16:28 [System] getShopInfo 
+20170325@03:16:28 [System] getShopTime 
+20170325@03:16:28 [System] getPhotoEntities 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : Close now 
+20170325@03:16:28 [System] getPhotoEntities 
+20170325@03:16:28 [System] getShopInfo 
+20170325@03:16:28 [System] getShopTime 
+20170325@03:16:28 [System] getPhotoEntities 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : Close now 
+20170325@03:16:28 [System] getPhotoEntities 
+20170325@03:16:28 [System] getShopInfo 
+20170325@03:16:28 [System] getShopTime 
+20170325@03:16:28 [System] getPhotoEntities 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:28 [System] getPhotoEntities 
+20170325@03:16:50 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:16:51 [System] getLoggedInAccount 
+20170325@03:16:51 [System] No account logged in 
+20170325@03:16:51 [System] getLoggedInAccount 
+20170325@03:16:51 [System] getShopInfo 
+20170325@03:16:51 [System] getShopTime 
+20170325@03:16:51 [System] getPhotoEntities 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : Close now 
+20170325@03:16:51 [System] getPhotoEntities 
+20170325@03:16:51 [System] getPhotoEntities 
+20170325@03:16:51 [System] getShopInfo 
+20170325@03:16:51 [System] getShopTime 
+20170325@03:16:51 [System] getPhotoEntities 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : Close now 
+20170325@03:16:51 [System] getPhotoEntities 
+20170325@03:16:51 [System] getPhotoEntities 
+20170325@03:16:51 [System] getShopInfo 
+20170325@03:16:51 [System] getShopTime 
+20170325@03:16:51 [System] getPhotoEntities 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:16:51 [System] getPhotoEntities 
+20170325@03:16:51 [System] getPhotoEntities 
+20170325@03:17:21 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:17:21 [System] getLoggedInAccount 
+20170325@03:17:21 [System] No account logged in 
+20170325@03:17:21 [System] getLoggedInAccount 
+20170325@03:17:21 [System] getShopInfo 
+20170325@03:17:21 [System] getShopTime 
+20170325@03:17:21 [System] getPhotoEntities 
+20170325@03:17:21 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:21 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:21 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:21 [System] MessageHandler : Close now 
+20170325@03:17:21 [System] getPhotoEntities 
+20170325@03:17:21 [System] getPhotoEntities 
+20170325@03:17:22 [System] getShopInfo 
+20170325@03:17:22 [System] getShopTime 
+20170325@03:17:22 [System] getPhotoEntities 
+20170325@03:17:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:22 [System] MessageHandler : Close now 
+20170325@03:17:22 [System] getPhotoEntities 
+20170325@03:17:22 [System] getPhotoEntities 
+20170325@03:17:22 [System] getShopInfo 
+20170325@03:17:22 [System] getShopTime 
+20170325@03:17:22 [System] getPhotoEntities 
+20170325@03:17:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:17:22 [System] getPhotoEntities 
+20170325@03:17:22 [System] getPhotoEntities 
+20170325@03:18:45 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:18:45 [System] getLoggedInAccount 
+20170325@03:18:45 [System] No account logged in 
+20170325@03:18:45 [System] getLoggedInAccount 
+20170325@03:18:45 [System] getShopInfo 
+20170325@03:18:45 [System] getShopTime 
+20170325@03:18:45 [System] getPhotoEntities 
+20170325@03:18:45 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:45 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:45 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:45 [System] MessageHandler : Close now 
+20170325@03:18:45 [System] getPhotoEntities 
+20170325@03:18:45 [System] getPhotoEntities 
+20170325@03:18:45 [System] getShopInfo 
+20170325@03:18:45 [System] getShopTime 
+20170325@03:18:45 [System] getPhotoEntities 
+20170325@03:18:45 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:45 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:45 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:45 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:45 [System] MessageHandler : Close now 
+20170325@03:18:45 [System] getPhotoEntities 
+20170325@03:18:45 [System] getPhotoEntities 
+20170325@03:18:45 [System] getShopInfo 
+20170325@03:18:46 [System] getShopTime 
+20170325@03:18:46 [System] getPhotoEntities 
+20170325@03:18:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:18:46 [System] getPhotoEntities 
+20170325@03:18:46 [System] getPhotoEntities 
+20170325@03:20:36 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:20:36 [System] getLoggedInAccount 
+20170325@03:20:36 [System] No account logged in 
+20170325@03:20:36 [System] getLoggedInAccount 
+20170325@03:20:36 [System] getShopInfo 
+20170325@03:20:36 [System] getShopTime 
+20170325@03:20:36 [System] getPhotoEntities 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : Close now 
+20170325@03:20:36 [System] getShopInfo 
+20170325@03:20:36 [System] getShopTime 
+20170325@03:20:36 [System] getPhotoEntities 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : Close now 
+20170325@03:20:36 [System] getShopInfo 
+20170325@03:20:36 [System] getShopTime 
+20170325@03:20:36 [System] getPhotoEntities 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:20:36 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:22:20 [System] getLoggedInAccount 
+20170325@03:22:20 [System] No account logged in 
+20170325@03:22:20 [System] getLoggedInAccount 
+20170325@03:22:20 [System] getShopInfo 
+20170325@03:22:20 [System] getShopTime 
+20170325@03:22:20 [System] getPhotoEntities 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : Close now 
+20170325@03:22:20 [System] getShopInfo 
+20170325@03:22:20 [System] getShopTime 
+20170325@03:22:20 [System] getPhotoEntities 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : Close now 
+20170325@03:22:20 [System] getShopInfo 
+20170325@03:22:20 [System] getShopTime 
+20170325@03:22:20 [System] getPhotoEntities 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:22:20 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:51 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@03:27:51 [System] getLoggedInAccount 
+20170325@03:27:51 [System] No account logged in 
+20170325@03:27:51 [System] getLoggedInAccount 
+20170325@03:27:56 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:27:56 [System] getLoggedInAccount 
+20170325@03:27:56 [System] No account logged in 
+20170325@03:27:56 [System] getLoggedInAccount 
+20170325@03:27:56 [System] getShopInfo 
+20170325@03:27:56 [System] getShopTime 
+20170325@03:27:56 [System] getPhotoEntities 
+20170325@03:27:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:56 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:56 [System] MessageHandler : Close now 
+20170325@03:27:56 [System] getShopInfo 
+20170325@03:27:56 [System] getShopTime 
+20170325@03:27:57 [System] getPhotoEntities 
+20170325@03:27:57 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:57 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:57 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:57 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:57 [System] MessageHandler : Close now 
+20170325@03:27:57 [System] getShopInfo 
+20170325@03:27:57 [System] getShopTime 
+20170325@03:27:57 [System] getPhotoEntities 
+20170325@03:27:57 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:57 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:57 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:57 [System] MessageHandler : (Close on Saturday) 
+20170325@03:27:57 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:27 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:28:27 [System] getLoggedInAccount 
+20170325@03:28:27 [System] No account logged in 
+20170325@03:28:27 [System] getLoggedInAccount 
+20170325@03:28:27 [System] getShopInfo 
+20170325@03:28:27 [System] getShopTime 
+20170325@03:28:28 [System] getPhotoEntities 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : Close now 
+20170325@03:28:28 [System] getShopInfo 
+20170325@03:28:28 [System] getShopTime 
+20170325@03:28:28 [System] getPhotoEntities 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : Close now 
+20170325@03:28:28 [System] getShopInfo 
+20170325@03:28:28 [System] getShopTime 
+20170325@03:28:28 [System] getPhotoEntities 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:28:28 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:31:32 [System] getLoggedInAccount 
+20170325@03:31:32 [System] No account logged in 
+20170325@03:31:32 [System] getLoggedInAccount 
+20170325@03:31:32 [System] getShopInfo 
+20170325@03:31:32 [System] getShopTime 
+20170325@03:31:32 [System] getPhotoEntities 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : Close now 
+20170325@03:31:32 [System] getShopInfo 
+20170325@03:31:32 [System] getShopTime 
+20170325@03:31:32 [System] getPhotoEntities 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : Close now 
+20170325@03:31:32 [System] getShopInfo 
+20170325@03:31:32 [System] getShopTime 
+20170325@03:31:32 [System] getPhotoEntities 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:32 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:52 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:31:52 [System] getLoggedInAccount 
+20170325@03:31:52 [System] No account logged in 
+20170325@03:31:52 [System] getLoggedInAccount 
+20170325@03:31:52 [System] getShopInfo 
+20170325@03:31:52 [System] getShopTime 
+20170325@03:31:52 [System] getPhotoEntities 
+20170325@03:31:52 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:52 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:52 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:52 [System] MessageHandler : Close now 
+20170325@03:31:52 [System] getShopInfo 
+20170325@03:31:52 [System] getShopTime 
+20170325@03:31:52 [System] getPhotoEntities 
+20170325@03:31:52 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:52 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:52 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:52 [System] MessageHandler : (Close on Saturday) 
+20170325@03:31:52 [System] MessageHandler : Close now 
+20170325@03:33:46 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:33:46 [System] getLoggedInAccount 
+20170325@03:33:46 [System] No account logged in 
+20170325@03:33:46 [System] getLoggedInAccount 
+20170325@03:33:46 [System] getShopInfo 
+20170325@03:33:46 [System] getShopTime 
+20170325@03:33:46 [System] getPhotoEntities 
+20170325@03:33:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:46 [System] MessageHandler : Close now 
+20170325@03:33:46 [System] getShopInfo 
+20170325@03:33:47 [System] getShopTime 
+20170325@03:33:47 [System] getPhotoEntities 
+20170325@03:33:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:47 [System] MessageHandler : Close now 
+20170325@03:33:47 [System] getShopInfo 
+20170325@03:33:47 [System] getShopTime 
+20170325@03:33:47 [System] getPhotoEntities 
+20170325@03:33:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:33:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:12 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:34:12 [System] getLoggedInAccount 
+20170325@03:34:12 [System] No account logged in 
+20170325@03:34:12 [System] getLoggedInAccount 
+20170325@03:34:12 [System] getShopInfo 
+20170325@03:34:12 [System] getShopTime 
+20170325@03:34:12 [System] getPhotoEntities 
+20170325@03:34:12 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:12 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:12 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:12 [System] MessageHandler : Close now 
+20170325@03:34:12 [System] getShopInfo 
+20170325@03:34:13 [System] getShopTime 
+20170325@03:34:13 [System] getPhotoEntities 
+20170325@03:34:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:13 [System] MessageHandler : Close now 
+20170325@03:34:13 [System] getShopInfo 
+20170325@03:34:13 [System] getShopTime 
+20170325@03:34:13 [System] getPhotoEntities 
+20170325@03:34:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:43 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:34:44 [System] getLoggedInAccount 
+20170325@03:34:44 [System] No account logged in 
+20170325@03:34:44 [System] getLoggedInAccount 
+20170325@03:34:44 [System] getShopInfo 
+20170325@03:34:44 [System] getShopTime 
+20170325@03:34:44 [System] getPhotoEntities 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : Close now 
+20170325@03:34:44 [System] getShopInfo 
+20170325@03:34:44 [System] getShopTime 
+20170325@03:34:44 [System] getPhotoEntities 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : Close now 
+20170325@03:34:44 [System] getShopInfo 
+20170325@03:34:44 [System] getShopTime 
+20170325@03:34:44 [System] getPhotoEntities 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:44 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:34:51 [System] getLoggedInAccount 
+20170325@03:34:51 [System] No account logged in 
+20170325@03:34:51 [System] getLoggedInAccount 
+20170325@03:34:51 [System] getShopInfo 
+20170325@03:34:51 [System] getShopTime 
+20170325@03:34:51 [System] getPhotoEntities 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : Close now 
+20170325@03:34:51 [System] getShopInfo 
+20170325@03:34:51 [System] getShopTime 
+20170325@03:34:51 [System] getPhotoEntities 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : Close now 
+20170325@03:34:51 [System] getShopInfo 
+20170325@03:34:51 [System] getShopTime 
+20170325@03:34:51 [System] getPhotoEntities 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:34:51 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] Page loaded: http://localhost:65063/clinic.aspx 
+20170325@03:36:13 [System] getLoggedInAccount 
+20170325@03:36:13 [System] No account logged in 
+20170325@03:36:13 [System] getLoggedInAccount 
+20170325@03:36:13 [System] getShopInfo 
+20170325@03:36:13 [System] getShopTime 
+20170325@03:36:13 [System] getPhotoEntities 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : Close now 
+20170325@03:36:13 [System] getShopInfo 
+20170325@03:36:13 [System] getShopTime 
+20170325@03:36:13 [System] getPhotoEntities 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : Close now 
+20170325@03:36:13 [System] getShopInfo 
+20170325@03:36:13 [System] getShopTime 
+20170325@03:36:13 [System] getPhotoEntities 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:36:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
+20170325@03:40:37 [System] getLoggedInAccount 
+20170325@03:40:37 [System] No account logged in 
+20170325@03:40:37 [System] getLoggedInAccount 
+20170325@03:40:37 [System] loadAdoptionInfo 
+20170325@03:40:37 [System] getAdoptInfo 
+20170325@03:40:37 [System] getShopInfo 
+20170325@03:40:37 [System] getShopTime 
+20170325@03:40:38 [System] getPhotoEntities 
+20170325@03:40:38 [System] getPhotoEntities 
+20170325@03:40:38 [System] getLoggedInAccount 
+20170325@03:40:38 [System] DLAdoptInfo_ItemDataBound 
+20170325@03:40:38 [System] getAllAppointmentEntities 
+20170325@03:40:38 [System] checkAdoptionDetails 
+20170325@03:40:38 [System] MessageHandler : Please log in first  
+20170325@03:40:38 [System] DLMorePet_ItemDataBound 
+20170325@03:40:38 [System] getPhotoEntities 
+20170325@03:40:38 [System] DLMorePet_ItemDataBound 
+20170325@03:40:38 [System] getPhotoEntities 
+20170325@03:40:38 [System] DLMorePet_ItemDataBound 
+20170325@03:40:38 [System] getPhotoEntities 
+20170325@03:40:38 [System] DLMorePet_ItemDataBound 
+20170325@03:40:38 [System] getPhotoEntities 
+20170325@03:40:40 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@03:40:40 [System] getLoggedInAccount 
+20170325@03:40:40 [System] No account logged in 
+20170325@03:40:40 [System] getLoggedInAccount 
+20170325@03:40:58 [System] Page loaded: http://localhost:65063/petclinic.aspx 
+20170325@03:40:58 [System] getLoggedInAccount 
+20170325@03:40:58 [System] No account logged in 
+20170325@03:40:58 [System] getLoggedInAccount 
+20170325@03:40:58 [System] getShopInfo 
+20170325@03:40:59 [System] getShopTime 
+20170325@03:40:59 [System] getPhotoEntities 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : Close now 
+20170325@03:40:59 [System] getShopInfo 
+20170325@03:40:59 [System] getShopTime 
+20170325@03:40:59 [System] getPhotoEntities 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : Close now 
+20170325@03:40:59 [System] getShopInfo 
+20170325@03:40:59 [System] getShopTime 
+20170325@03:40:59 [System] getPhotoEntities 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:40:59 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:00 [System] Page loaded: http://localhost:65063/petclinic.aspx 
+20170325@03:41:00 [System] getLoggedInAccount 
+20170325@03:41:00 [System] No account logged in 
+20170325@03:41:00 [System] getLoggedInAccount 
+20170325@03:41:00 [System] getShopInfo 
+20170325@03:41:00 [System] getShopTime 
+20170325@03:41:01 [System] getPhotoEntities 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : Close now 
+20170325@03:41:01 [System] getShopInfo 
+20170325@03:41:01 [System] getShopTime 
+20170325@03:41:01 [System] getPhotoEntities 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : Close now 
+20170325@03:41:01 [System] getShopInfo 
+20170325@03:41:01 [System] getShopTime 
+20170325@03:41:01 [System] getPhotoEntities 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:01 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:12 [System] Page loaded: http://localhost:65063/petclinic.aspx 
+20170325@03:41:12 [System] getLoggedInAccount 
+20170325@03:41:12 [System] No account logged in 
+20170325@03:41:12 [System] getLoggedInAccount 
+20170325@03:41:12 [System] getShopInfo 
+20170325@03:41:12 [System] getShopTime 
+20170325@03:41:13 [System] getPhotoEntities 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : Close now 
+20170325@03:41:13 [System] getShopInfo 
+20170325@03:41:13 [System] getShopTime 
+20170325@03:41:13 [System] getPhotoEntities 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : Close now 
+20170325@03:41:13 [System] getShopInfo 
+20170325@03:41:13 [System] getShopTime 
+20170325@03:41:13 [System] getPhotoEntities 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:13 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:21 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@03:41:21 [System] getLoggedInAccount 
+20170325@03:41:21 [System] No account logged in 
+20170325@03:41:23 [System] getLoggedInAccount 
+20170325@03:41:25 [System] Page loaded: http://localhost:65063/petshops.aspx 
+20170325@03:41:25 [System] getLoggedInAccount 
+20170325@03:41:25 [System] No account logged in 
+20170325@03:41:25 [System] getLoggedInAccount 
+20170325@03:41:25 [System] getShopInfo 
+20170325@03:41:25 [System] getShopTime 
+20170325@03:41:25 [System] getPhotoEntities 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] getShopInfo 
+20170325@03:41:25 [System] getShopTime 
+20170325@03:41:25 [System] getPhotoEntities 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] getShopInfo 
+20170325@03:41:25 [System] getShopTime 
+20170325@03:41:25 [System] getPhotoEntities 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:25 [System] MessageHandler : Close now 
+20170325@03:41:25 [System] getShopInfo 
+20170325@03:41:25 [System] getShopTime 
+20170325@03:41:26 [System] getPhotoEntities 
+20170325@03:41:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:26 [System] getShopInfo 
+20170325@03:41:26 [System] getShopTime 
+20170325@03:41:26 [System] getPhotoEntities 
+20170325@03:41:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:26 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:26 [System] MessageHandler : Close now 
+20170325@03:41:46 [System] Page loaded: http://localhost:65063/petshops.aspx 
+20170325@03:41:46 [System] getLoggedInAccount 
+20170325@03:41:46 [System] No account logged in 
+20170325@03:41:46 [System] getLoggedInAccount 
+20170325@03:41:46 [System] getShopInfo 
+20170325@03:41:46 [System] getShopTime 
+20170325@03:41:46 [System] getPhotoEntities 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] getShopInfo 
+20170325@03:41:46 [System] getShopTime 
+20170325@03:41:46 [System] getPhotoEntities 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] getShopInfo 
+20170325@03:41:46 [System] getShopTime 
+20170325@03:41:46 [System] getPhotoEntities 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : Close now 
+20170325@03:41:46 [System] getShopInfo 
+20170325@03:41:46 [System] getShopTime 
+20170325@03:41:46 [System] getPhotoEntities 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:46 [System] getShopInfo 
+20170325@03:41:46 [System] getShopTime 
+20170325@03:41:46 [System] getPhotoEntities 
+20170325@03:41:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:47 [System] MessageHandler : (Close on Saturday) 
+20170325@03:41:47 [System] MessageHandler : Close now 
+20170325@03:43:37 [System] Page loaded: http://localhost:65063/petshops.aspx 
+20170325@03:43:37 [System] getLoggedInAccount 
+20170325@03:43:37 [System] No account logged in 
+20170325@03:43:38 [System] getLoggedInAccount 
+20170325@03:43:38 [System] getShopInfo 
+20170325@03:43:38 [System] getShopTime 
+20170325@03:43:38 [System] getPhotoEntities 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] getShopInfo 
+20170325@03:43:38 [System] getShopTime 
+20170325@03:43:38 [System] getPhotoEntities 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] getShopInfo 
+20170325@03:43:38 [System] getShopTime 
+20170325@03:43:38 [System] getPhotoEntities 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : Close now 
+20170325@03:43:38 [System] getShopInfo 
+20170325@03:43:38 [System] getShopTime 
+20170325@03:43:38 [System] getPhotoEntities 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:38 [System] getShopInfo 
+20170325@03:43:39 [System] getShopTime 
+20170325@03:43:39 [System] getPhotoEntities 
+20170325@03:43:39 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:39 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:39 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:39 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:39 [System] MessageHandler : (Close on Saturday) 
+20170325@03:43:39 [System] MessageHandler : Close now 
+20170325@03:44:25 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170325@03:44:25 [System] getLoggedInAccount 
+20170325@03:44:25 [System] No account logged in 
+20170325@03:44:25 [System] getLoggedInAccount 
+20170325@03:44:29 [System] Page loaded: http://localhost:65063/petshops.aspx 
+20170325@03:44:29 [System] getLoggedInAccount 
+20170325@03:44:29 [System] No account logged in 
+20170325@03:44:29 [System] getLoggedInAccount 
+20170325@03:44:29 [System] getShopInfo 
+20170325@03:44:29 [System] getShopTime 
+20170325@03:44:29 [System] getPhotoEntities 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] getShopInfo 
+20170325@03:44:29 [System] getShopTime 
+20170325@03:44:29 [System] getPhotoEntities 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] getShopInfo 
+20170325@03:44:29 [System] getShopTime 
+20170325@03:44:29 [System] getPhotoEntities 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:29 [System] MessageHandler : Close now 
+20170325@03:44:29 [System] getShopInfo 
+20170325@03:44:29 [System] getShopTime 
+20170325@03:44:30 [System] getPhotoEntities 
+20170325@03:44:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:30 [System] getShopInfo 
+20170325@03:44:30 [System] getShopTime 
+20170325@03:44:30 [System] getPhotoEntities 
+20170325@03:44:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:30 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:30 [System] MessageHandler : Close now 
+20170325@03:44:48 [System] Page loaded: http://localhost:65063/petshops.aspx 
+20170325@03:44:48 [System] getLoggedInAccount 
+20170325@03:44:48 [System] No account logged in 
+20170325@03:44:48 [System] getLoggedInAccount 
+20170325@03:44:48 [System] getShopInfo 
+20170325@03:44:48 [System] getShopTime 
+20170325@03:44:48 [System] getPhotoEntities 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] getShopInfo 
+20170325@03:44:48 [System] getShopTime 
+20170325@03:44:48 [System] getPhotoEntities 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] getShopInfo 
+20170325@03:44:48 [System] getShopTime 
+20170325@03:44:48 [System] getPhotoEntities 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : Close now 
+20170325@03:44:48 [System] getShopInfo 
+20170325@03:44:48 [System] getShopTime 
+20170325@03:44:48 [System] getPhotoEntities 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:48 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:49 [System] getShopInfo 
+20170325@03:44:49 [System] getShopTime 
+20170325@03:44:49 [System] getPhotoEntities 
+20170325@03:44:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:49 [System] MessageHandler : (Close on Saturday) 
+20170325@03:44:49 [System] MessageHandler : Close now 
+20170325@03:45:21 [System] Page loaded: http://localhost:65063/petshelter.aspx 
+20170325@03:45:21 [System] getLoggedInAccount 
+20170325@03:45:21 [System] No account logged in 
+20170325@03:45:21 [System] getLoggedInAccount 
+20170325@03:45:21 [System] getShopInfo 
+20170325@03:45:22 [System] getShopTime 
+20170325@03:45:22 [System] getPhotoEntities 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : Close now 
+20170325@03:45:22 [System] getShopInfo 
+20170325@03:45:22 [System] getShopTime 
+20170325@03:45:22 [System] getPhotoEntities 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] getShopInfo 
+20170325@03:45:22 [System] getShopTime 
+20170325@03:45:22 [System] getPhotoEntities 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:22 [System] MessageHandler : Close now 
+20170325@03:45:41 [System] Page loaded: http://localhost:65063/petshops.aspx 
+20170325@03:45:41 [System] getLoggedInAccount 
+20170325@03:45:41 [System] No account logged in 
+20170325@03:45:41 [System] getLoggedInAccount 
+20170325@03:45:42 [System] getShopInfo 
+20170325@03:45:42 [System] getShopTime 
+20170325@03:45:42 [System] getPhotoEntities 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] getShopInfo 
+20170325@03:45:42 [System] getShopTime 
+20170325@03:45:42 [System] getPhotoEntities 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] getShopInfo 
+20170325@03:45:42 [System] getShopTime 
+20170325@03:45:42 [System] getPhotoEntities 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : Close now 
+20170325@03:45:42 [System] getShopInfo 
+20170325@03:45:42 [System] getShopTime 
+20170325@03:45:42 [System] getPhotoEntities 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:42 [System] getShopInfo 
+20170325@03:45:42 [System] getShopTime 
+20170325@03:45:42 [System] getPhotoEntities 
+20170325@03:45:43 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:43 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:43 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:43 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:43 [System] MessageHandler : (Close on Saturday) 
+20170325@03:45:43 [System] MessageHandler : Close now 

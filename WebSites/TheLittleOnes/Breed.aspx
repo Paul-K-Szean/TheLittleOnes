@@ -5,6 +5,9 @@
     <!-- gallery Cat-->
     <div class="gallery">
         <div class="container">
+            <div class="agileits-about-top-heading">
+                <h3>Breeds</h3>
+            </div>
             <h2>Cat </h2>
             <div class="gallery-grids">
                 <asp:DataList ID="DLPetInfoCat" runat="server" Width="100%" RepeatDirection="Horizontal" RepeatColumns="3"
@@ -22,13 +25,13 @@
                                         </div>
                                         <figcaption>
                                             <p>
-                                                <asp:Label ID="Label2" runat="server" Text='<%# splitCamelCase(Eval("petinfobreed").ToString()) %>'></asp:Label>
+                                                <asp:Label ID="Label2" runat="server" Text='<%# splitCamelCase( Eval("petinfobreed").ToString() )%>'></asp:Label>
                                             </p>
                                         </figcaption>
                                     </asp:HyperLink>
                                 </figure>
                             </div>
-                            <asp:HyperLink ID="HYPLKPetInfoDetails" runat="server" Text='<%# splitCamelCase(Eval("petinfobreed").ToString()) %>'
+                            <asp:HyperLink ID="HYPLKPetInfoDetails" runat="server" Text='<%# Eval("petInfoBreed") %>'
                                 NavigateUrl='<%# "~/BreedDetails.aspx?petinfoid=" + Eval("petinfoid") %>' Target="_blank"></asp:HyperLink>
                         </div>
                     </ItemTemplate>
@@ -64,7 +67,7 @@
                                     </asp:HyperLink>
                                 </figure>
                             </div>
-                            <asp:HyperLink ID="HYPLKPetInfoDetails" runat="server" Text='<%# splitCamelCase(Eval("petinfobreed").ToString()) %>'
+                            <asp:HyperLink ID="HYPLKPetInfoDetails" runat="server" Text='<%# Eval("petInfoBreed") %>'
                                 NavigateUrl='<%# "~/BreedDetails.aspx?petinfoid=" + Eval("petinfoid") %>' Target="_blank"></asp:HyperLink>
                         </div>
                     </ItemTemplate>

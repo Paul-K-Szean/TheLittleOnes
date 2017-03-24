@@ -317,49 +317,49 @@ public partial class AdminShopInfoEdit : BasePage
     {
         List<string> workDay = new List<string>();
         List<string> noWorkDay = new List<string>();
-        List<string> dayOfWeek = new List<string> { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+        List<string> shopDayOfWeek = new List<string> { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
         // get the work days
         foreach (ShopTimeEntity shopTimeEntity in shopInfoEntity.ShopTimeEntities)
         {
-            workDay.Add(shopTimeEntity.DayOfWeek);
-            if (shopTimeEntity.DayOfWeek.Equals("Monday"))
+            workDay.Add(shopTimeEntity.ShopDayOfWeek);
+            if (shopTimeEntity.ShopDayOfWeek.Equals("Monday"))
             {
-                DDLOpenTimeMonday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
-                DDLCloseTimeMonday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+                DDLOpenTimeMonday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopOpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeMonday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopCloseTime)).ToString("HH:mm tt");
             }
-            if (shopTimeEntity.DayOfWeek.Equals("Tuesday"))
+            if (shopTimeEntity.ShopDayOfWeek.Equals("Tuesday"))
             {
-                DDLOpenTimeTuesday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
-                DDLCloseTimeTuesday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+                DDLOpenTimeTuesday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopOpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeTuesday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopCloseTime)).ToString("HH:mm tt");
             }
-            if (shopTimeEntity.DayOfWeek.Equals("Wednesday"))
+            if (shopTimeEntity.ShopDayOfWeek.Equals("Wednesday"))
             {
-                DDLOpenTimeWednesday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
-                DDLCloseTimeWednesday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+                DDLOpenTimeWednesday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopOpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeWednesday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopCloseTime)).ToString("HH:mm tt");
             }
-            if (shopTimeEntity.DayOfWeek.Equals("Thursday"))
+            if (shopTimeEntity.ShopDayOfWeek.Equals("Thursday"))
             {
-                DDLOpenTimeThursday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
-                DDLCloseTimeThursday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+                DDLOpenTimeThursday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopOpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeThursday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopCloseTime)).ToString("HH:mm tt");
             }
-            if (shopTimeEntity.DayOfWeek.Equals("Friday"))
+            if (shopTimeEntity.ShopDayOfWeek.Equals("Friday"))
             {
-                DDLOpenTimeFriday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
-                DDLCloseTimeFriday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+                DDLOpenTimeFriday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopOpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeFriday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopCloseTime)).ToString("HH:mm tt");
             }
-            if (shopTimeEntity.DayOfWeek.Equals("Saturday"))
+            if (shopTimeEntity.ShopDayOfWeek.Equals("Saturday"))
             {
-                DDLOpenTimeSaturday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
-                DDLCloseTimeSaturday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+                DDLOpenTimeSaturday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopOpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeSaturday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopCloseTime)).ToString("HH:mm tt");
             }
-            if (shopTimeEntity.DayOfWeek.Equals("Sunday"))
+            if (shopTimeEntity.ShopDayOfWeek.Equals("Sunday"))
             {
-                DDLOpenTimeSunday.SelectedValue = (DateTime.Parse(shopTimeEntity.OpenTime)).ToString("HH:mm tt");
-                DDLCloseTimeSunday.SelectedValue = (DateTime.Parse(shopTimeEntity.CloseTime)).ToString("HH:mm tt");
+                DDLOpenTimeSunday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopOpenTime)).ToString("HH:mm tt");
+                DDLCloseTimeSunday.SelectedValue = (DateTime.Parse(shopTimeEntity.ShopCloseTime)).ToString("HH:mm tt");
             }
         }
         // get the non working days
-        foreach (string day in dayOfWeek)
+        foreach (string day in shopDayOfWeek)
         {
             if (Array.IndexOf(workDay.ToArray(), day) == -1)
             {

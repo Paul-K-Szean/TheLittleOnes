@@ -29,7 +29,8 @@
                     <div class="container">
                         <div class="agileits-about-top-heading">
                             <h3>
-                                <asp:Label ID="LBLPetInfoBreed" runat="server" Text='<%# splitCamelCase(Eval("petinfobreed").ToString()) %>'></asp:Label></h3>
+                                <asp:Label ID="LBLPetInfoBreed" runat="server" Text='<%# splitCamelCase(Eval("petInfoBreed").ToString()) %>' ForeColor="Black"></asp:Label>
+                            </h3>
                         </div>
                         <div class="agileinfo-top-grids">
                             <div class="col-sm-4 wthree-top-grid">
@@ -100,7 +101,7 @@
                     <div class="container">
                         <div class="agileits-about-top-heading agileits-w3layouts-choose-heading">
                             <h3>Why choose
-                                <asp:Label ID="Label6" runat="server" Text='<%# splitCamelCase(Eval("petinfobreed").ToString()) %>'></asp:Label>?</h3>
+                                <asp:Label ID="Label6" runat="server" Text='<%# splitCamelCase(Eval("petInfoBreed").ToString()) %>'></asp:Label>?</h3>
                         </div>
                         <div class="agile-choose-grids marginTop-0">
                             <div class="BGWhite">
@@ -227,83 +228,6 @@
                 </div>
             </div>
             <!-- //gallery -->
-            <!-- team -->
-            <div class="team">
-                <div class="container">
-                    <div class="agile_team_grids">
-                        <div class="col-md-3 agile_team_grid">
-                            <div class="agile_team_grid_main">
-                                <img src="images/t2.jpg" alt=" " class="img-responsive">
-                                <div class="p-mask">
-                                    <ul class="top-links two">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="agile_team_grid1">
-                                <h3>Riya John</h3>
-                                <p>Lorem ipsum</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 agile_team_grid">
-                            <div class="agile_team_grid_main">
-                                <img src="images/t1.jpg" alt=" " class="img-responsive">
-                                <div class="p-mask">
-                                    <ul class="top-links two">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="agile_team_grid1">
-                                <h3>Williamson </h3>
-                                <p>Consectetur </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 agile_team_grid three">
-                            <div class="agile_team_grid_main">
-                                <img src="images/t3.jpg" alt=" " class="img-responsive">
-                                <div class="p-mask">
-                                    <ul class="top-links two">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="agile_team_grid1">
-                                <h3>Rosy John</h3>
-                                <p>Suscipit</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 agile_team_grid four">
-                            <div class="agile_team_grid_main">
-                                <img src="images/t4.jpg" alt=" " class="img-responsive">
-                                <div class="p-mask">
-                                    <ul class="top-links two">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="agile_team_grid1">
-                                <h3>David Pal</h3>
-                                <p>Malesuada </p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- //team -->
         </ItemTemplate>
     </asp:DataList>
 </asp:Content>
