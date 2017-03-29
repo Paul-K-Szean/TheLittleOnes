@@ -78,7 +78,7 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.CommandText = string.Concat("INSERT INTO APPOINTMENT(APPMTFROMID,APPMTTOID,APPMTDATETIME,APPMTDATECREATED, APPMTSTATUS, APPMTTYPE) ",
                                                          "              VALUES (@APPMTFROMID,@APPMTTOID,@APPMTDATETIME,NOW(),@APPMTSTATUS,@APPMTTYPE);");
                 oleDbCommand.Parameters.AddWithValue("@APPMTID", appointmentEntity.AccountEntity.AccountID);
-                oleDbCommand.Parameters.AddWithValue("@APPMTTOID", appointmentEntity.AppmtToID);
+                oleDbCommand.Parameters.AddWithValue("@APPMTTOID", appointmentEntity.AppmtID);
                 oleDbCommand.Parameters.AddWithValue("@APPMTDATETIME", appointmentEntity.AppmtDateTime);
                 oleDbCommand.Parameters.AddWithValue("@APPMTSTATUS", Enums.GetDescription(SystemStatus.Confirmed));
                 oleDbCommand.Parameters.AddWithValue("@APPMTTYPE", appointmentEntity.AppmtType);
@@ -108,7 +108,7 @@ namespace TheLittleOnesLibrary.Controllers
                 appointmentEntities = new List<AppointmentEntity>();
                 foreach (DataRow row in dataSet.Tables[0].Rows)
                 {
-                    AppointmentEntity adoptReqEntity = new AppointmentEntity(
+                    AppointmentEntity appointmentEntity = new AppointmentEntity(
                         row[0].ToString(),
                         row[1] as AccountEntity,
                         row[2].ToString(),
@@ -116,7 +116,7 @@ namespace TheLittleOnesLibrary.Controllers
                         DateTime.Parse(row[4].ToString()),
                         row[5].ToString(),
                         row[6].ToString());
-                    appointmentEntities.Add(adoptReqEntity);
+                    appointmentEntities.Add(appointmentEntity);
                 }
                 return appointmentEntities;
             }

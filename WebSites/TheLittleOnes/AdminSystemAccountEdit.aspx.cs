@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Reflection;
@@ -10,7 +9,7 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-public partial class AdminSystemAccountEdit : BasePage
+public partial class AdminSystemAccountEdit : BasePageAdmin
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;

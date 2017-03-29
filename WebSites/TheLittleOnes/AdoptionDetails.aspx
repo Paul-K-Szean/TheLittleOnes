@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="AdoptionDetails.aspx.cs" Inherits="uploadedFiles_AdoptionDetails" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="AdoptionDetails.aspx.cs" Inherits="AdoptionDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBody" runat="Server">
@@ -82,7 +82,7 @@
                                                                         data-title='<%# Eval("petdesc") %>' NavigateUrl='<%# Eval("photopath")%>'>
                                                                         <div class="landscapeAdoption overflowHidden">
                                                                             <asp:Image ID="IMGPhoto" runat="server"
-                                                                                ImageUrl='<%# "uploadedFiles/database/pet/" + Eval("photoOwnerID") + "/" + Eval("photoName") %>' alt="" />
+                                                                                ImageUrl='<%# Eval("photoPath")%>' alt=""/>
                                                                         </div>
                                                                         <figcaption></figcaption>
                                                                     </asp:HyperLink>
@@ -179,7 +179,7 @@
                                                                         data-title='<%# Eval("shopinfodesc") %>' NavigateUrl='<%# Eval("photopath") %>'>
                                                                         <div class="landscapeAdoption overflowHidden">
                                                                             <asp:Image ID="IMGPhoto" runat="server"
-                                                                                ImageUrl='<%# "uploadedFiles/database/shopinfo/" + Eval("photoOwnerID") + "/" + Eval("photoName") %>' alt="" />
+                                                                                ImageUrl='<%# Eval("photoPath") %>' alt="" />
                                                                         </div>
                                                                         <figcaption></figcaption>
                                                                     </asp:HyperLink>
@@ -273,16 +273,16 @@
                             </div>
                             <%--Right panel--%>
                             <div class="col-md-4 ">
-                                <%--Appointment --%>
+                                <%--Event --%>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="hr hr-double2 "></div>
                                         <h4>
-                                            <asp:Label ID="Label2" runat="server" Text="Appointment Info" Font-Bold="true"></asp:Label>
+                                            <asp:Label ID="Label2" runat="server" Text="Event Info" Font-Bold="true"></asp:Label>
                                         </h4>
                                         <div class="hr hr-double2 "></div>
                                         <asp:Panel ID="PNLAdoptReq" runat="server" Visible="false">
-                                            <asp:Label ID="LBLAppmtDate" runat="server" Text="Appointment Date"></asp:Label>
+                                            <asp:Label ID="LBLAppmtDate" runat="server" Text="Event Date"></asp:Label>
                                             <div class="input-group">
                                                 <input id="INPUTAppmtDate" runat="server" class="form-control datepicker" type="text"
                                                     data-date-format="dd-MM-yyyy" placeholder="Select date" style="padding-left: 14px;">
@@ -291,7 +291,7 @@
                                                 </span>
                                                 <asp:Button ID="BTNAppmtDate" runat="server" Style="display: none;" OnClick="BTNAppmtDate_Click" />
                                             </div>
-                                            <asp:Label ID="LBLAppmtTime" runat="server" Text="Appointment Time"></asp:Label>
+                                            <asp:Label ID="LBLAppmtTime" runat="server" Text="Event Time"></asp:Label>
                                             <div class="input-group">
                                                 <asp:DropDownList ID="DDLAppmtTime" runat="server" CssClass="form-control"
                                                     AutoPostBack="true" Enabled="false" OnSelectedIndexChanged="DDLAppmtTime_SelectedIndexChanged"
@@ -310,12 +310,12 @@
                                             </div>
                                         </asp:Panel>
                                         <asp:Panel ID="PNLAdoptReqExist" runat="server" Visible="false">
-                                            <asp:Label ID="LBLAppmtDateTimeExist" runat="server" Text="Appointment Date/Time" Font-Bold="true"></asp:Label>
-                                            <asp:HyperLink ID="HYPLKEdit" runat="server" CssClass="pull-right" Text="Edit" NavigateUrl="~/AppointmentDetails.aspx"></asp:HyperLink>
+                                            <asp:Label ID="LBLAppmtDateTimeExist" runat="server" Text="Event Date/Time" Font-Bold="true"></asp:Label>
+                                            <asp:HyperLink ID="HYPLKEdit" runat="server" CssClass="pull-right" Text="Edit" NavigateUrl="~/EventDetails.aspx"></asp:HyperLink>
                                             <div class="input-group">
                                                 <asp:Label ID="LBLAppmtDateTimeExistDetails" runat="server" Text=""></asp:Label>
                                             </div>
-                                            <asp:Label ID="LBLAppmtDateTimeStatus" runat="server" Text="Appointment Status" Font-Bold="true"></asp:Label>
+                                            <asp:Label ID="LBLAppmtDateTimeStatus" runat="server" Text="Event Status" Font-Bold="true"></asp:Label>
                                             <div class="input-group">
                                                 <asp:Label ID="LBLAppmtDateTimeStatusDetails" runat="server" Text=""></asp:Label>
                                             </div>

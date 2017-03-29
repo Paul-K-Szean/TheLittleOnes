@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
-using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-public partial class AdminLogin : BasePage
+public partial class AdminLogin : BasePageAdmin
 {
+
     string inputEmail;
     string inputPassword;
     // page load
@@ -36,10 +31,13 @@ public partial class AdminLogin : BasePage
         }
         else
         {
+            inputEmail = TBLoginEmail.Text.Trim();
+            inputPassword = TBLoginPassword.Text.Trim();
             // login
             accountEntity = accountCtrler.signIn(inputEmail, inputPassword);
             if (accountEntity != null)
             {
+                BasePageAdmin.signInAccountProfileEntity(accountEntity);
                 if (!accountEntity.AccountType.Equals(AccountType.WebUser.ToString()))
                 {
                     Response.Redirect("AdminDashboard.aspx");

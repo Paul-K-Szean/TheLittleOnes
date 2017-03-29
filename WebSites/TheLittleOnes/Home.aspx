@@ -11,7 +11,7 @@
                         <ul class="rslides callbacks callbacks1" id="slider4">
                             <li>
                                 <div class="agileits-banner-info">
-                                    <h3>Lorem ipsum dolor sit amet <span>Nulla massa magna</span></h3>
+                                    <h3>Osteoporosis <span> Their bones can get brittle too!</span></h3>
                                     <div class="w3-button">
                                         <a href="single.html">More</a>
                                     </div>
@@ -19,9 +19,17 @@
                             </li>
                             <li>
                                 <div class="agileits-banner-info">
-                                    <h3>Donec posuere cursus nibh<span>Ut molestie lectus</span></h3>
+                                    <h3>Cataract <span> Their eye can get weaken too!</span></h3>
                                     <div class="w3-button">
                                         <a href="single.html">More</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="agileits-banner-info">
+                                    <h3>Allergies <span>Their skin can get weaken too!</span></h3>
+                                    <div class="w3-button">
+                                        <a href="#.html">More</a>
                                     </div>
                                 </div>
                             </li>
@@ -63,90 +71,14 @@
                     </div>
                 </div>
                 <div class="col-md-6 agileinfo-welcome-right">
-                    <h4>Donec posuere cursus nibh. Mauris a sollicitudin metus. Mauris porttitor, dui maximus viverra bibendum</h4>
-                    <p>Nulla massa magna, luctus at justo et, euismod convallis mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris rutrum fringilla fermentum.<span>Donec tincidunt, eros quis consectetur maximus, nibh justo pretium diam, id vehicula lacus nunc eu orci. Aliquam molestie, nibh vitae pharetra semper, nunc nisi laoreet diam, et placerat nulla quam non leo. </span></p>
+                    <h4>G5 Organisation</h4>
+                    <p>We are here to help, assist and guide novice pet owners. Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
     <!-- banner-bottom -->
-    <!-- services -->
-    <div class="services">
-        <div class="container">
-            <div class="w3ls-heading">
-                <h3>Services</h3>
-            </div>
-            <div class="wthree-services-grids">
-                <div class="col-md-6 w3ls-about-left">
-                    <div class="agileits-icon-grid">
-                        <div class="icon-left hvr-radial-out">
-                            <i class="fa fa-cog" aria-hidden="true"></i>
-                        </div>
-                        <div class="icon-right">
-                            <h5>Suspendisse consectetur dapibus volutpat.</h5>
-                            <p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="agileits-icon-grid">
-                        <div class="icon-left hvr-radial-out">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                        </div>
-                        <div class="icon-right">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="agileits-icon-grid">
-                        <div class="icon-left hvr-radial-out">
-                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                        </div>
-                        <div class="icon-right">
-                            <h5>Suspendisse consectetur dapibus volutpat.</h5>
-                            <p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 w3ls-about-left">
-                    <div class="agileits-icon-grid">
-                        <div class="icon-left hvr-radial-out">
-                            <i class="fa fa-user" aria-hidden="true"></i>
-                        </div>
-                        <div class="icon-right">
-                            <h5>Suspendisse consectetur dapibus volutpat.</h5>
-                            <p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="agileits-icon-grid">
-                        <div class="icon-left hvr-radial-out">
-                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                        </div>
-                        <div class="icon-right">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="agileits-icon-grid">
-                        <div class="icon-left hvr-radial-out">
-                            <i class="fa fa-bell" aria-hidden="true"></i>
-                        </div>
-                        <div class="icon-right">
-                            <h5>Suspendisse consectetur dapibus volutpat.</h5>
-                            <p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-    <!-- //services -->
     <!-- news -->
     <div class="news">
         <div class="container">
@@ -172,31 +104,30 @@
                         </div>
                     </div>
                     <div class="w3-agile-news-img">
-                        <a href="single.html">
+                        <a href="#">
                             <img src="assetsTheLittleOnes/images/4.jpg" alt="" /></a>
-                        <h4><a href="single.html">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</a></h4>
-                        <p>Donec justo ante, maximus et aliquam et, elementum ac purus. Nam eget ante ac velit laoreet sodales ut vel nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed quam nibh. In sed nisi enim. Duis eget nunc vitae elit dignissim feugiat. Morbi molestie fringilla ipsum, id molestie dolor sodales vel.</p>
+                        <h4><a href="single.html">Birthday Party for Luna</a></h4>
+                        <h5>Saturday, 02th April,2017</h5>
+                        <p>Come over to Paya Lebar Park to celebrate my dearest Luna's birthday! It is his 5th birthday celeration.</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
                 <div class="col-md-6 news-right">
                     <div class="news-right-grid">
-                        <a href="single.html">Nunc non neque ex. Aliquam neque massa</a>
-                        <h5>06th Nov,2016</h5>
-                        <p>Ut rutrum convallis erat at malesuada. Donec facilisis sem nisl, ut rhoncus ex ullamcorper ornare. Ut ac interdum velit. Cras nulla nibh, rutrum non venenatis sit amet, ullamcorper venenatis felis.</p>
+                        <a href="single.html">Birthday Party for Luna</a>
+                        <h5>Saturday, 02th April,2017</h5>
+                        <p>Come over to Paya Lebar Park to celebrate my dearest Luna's birthday! It is his 5th birthday celeration.</p>
                     </div>
                     <div class="news-right-grid">
-                        <a href="single.html">Phasellus sapien eros, condimentum quis</a>
-                        <h5>17th Nov,2016</h5>
-                        <p>Ut rutrum convallis erat at malesuada. Donec facilisis sem nisl, ut rhoncus ex ullamcorper ornare. Ut ac interdum velit. Cras nulla nibh, rutrum non venenatis sit amet, ullamcorper venenatis felis.</p>
+                        <a href="single.html">Pet Healthh Learning</a>
+                        <h5>Monday, 17th April,2017</h5>
+                        <p>There is a PetHealthLearning program held by G5 Shelter Group at Hillview Garden to educate pet owners the dos and donts in hanlding a pet. Do make yourself there and receive many wonderfull pet treates.</p>
                     </div>
                     <div class="news-right-grid">
-                        <a href="single.html">Donec justo ante, maximus et aliquam et</a>
-                        <h5>29th Nov,2016</h5>
+                        <a href="single.html">Monthly Adoption Drive</a>
+                        <h5>Saturday, 20th May,2017</h5>
                         <p>
-                            Ut rutrum convallis erat at malesuada.
-                                <wbr>
-                            Donec facilisis sem nisl, ut rhoncus ex ullamcorper ornare. Ut ac interdum velit. Cras nulla nibh, rutrum non venenatis sit amet, ullamcorper venenatis felis.
+                            The monthly adoption program is back! It will be held on saturday in the 3rd week of every month! Do show your support.
                         </p>
                     </div>
                 </div>

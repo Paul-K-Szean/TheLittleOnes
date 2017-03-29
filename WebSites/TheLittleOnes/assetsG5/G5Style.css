@@ -130,7 +130,7 @@ ul.dropdown-menu {
     padding: 4px 40px;
 }
 .landscape {
-    height: 270px;
+    max-height: 270px;
     min-width: 360px;
     background-color: white;
 }
@@ -141,9 +141,8 @@ ul.dropdown-menu {
     background-color: white;
 }
 .portraitAdoption {
-    min-height: 100px;
+    min-height: 150px;
     max-height: 150px;
-    max-width: 150px;
     background-color: white;
 }
 .overflowHidden {

@@ -8,7 +8,6 @@ namespace TheLittleOnesLibrary.Controllers
     public class ProfileController
     {
         private static ProfileController profileCtrl;
-        private static ProfileEntity loggedInProfile;
         public static ProfileController getInstance()
         {
             if (profileCtrl == null)
@@ -80,11 +79,6 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-        // Retrieve logged in profile
-        public ProfileEntity getLoggedInProfile()
-        {
-            return loggedInProfile;
-        }
         // Update profile
         public ProfileEntity updateProfile(ProfileEntity profileEntity)
         {
@@ -102,10 +96,10 @@ namespace TheLittleOnesLibrary.Controllers
                 if (insertID > 0)
                 {
                     // return edited profileEntity
-                    loggedInProfile = profileEntity;
+                    return profileEntity;
                 }
                 // return unedited profileEntity
-                return loggedInProfile;
+                return null;
             }
         }
         // Update profile
@@ -132,7 +126,7 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
         // Sign in profile
-        public ProfileEntity logInProfile(string accountID)
+        public ProfileEntity signInProfile(string accountID)
         {
             using (oleDbCommand = new OleDbCommand())
             {
@@ -143,7 +137,7 @@ namespace TheLittleOnesLibrary.Controllers
                 if (dataSet.Tables[0].Rows.Count > 0)
                 {
                     // instantial profile 
-                    loggedInProfile = new ProfileEntity(
+                    ProfileEntity loggedInProfile = new ProfileEntity(
                         dataSet.Tables[0].Rows[0]["profileID"].ToString(),
                         dataSet.Tables[0].Rows[0]["profileName"].ToString(),
                         dataSet.Tables[0].Rows[0]["profileContact"].ToString(),
@@ -157,12 +151,5 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-        // Sign out profile
-        public void SignOut()
-        {
-            loggedInProfile = null;
-            // signout profile
-        }
-      
     }
 }

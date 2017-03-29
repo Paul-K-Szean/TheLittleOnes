@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Reflection;
 using System.Threading;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
@@ -12,7 +9,7 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-public partial class AdminPetInfoAdd : BasePage
+public partial class AdminPetInfoAdd : BasePageAdmin
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;

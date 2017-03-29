@@ -29,7 +29,8 @@
                             <div class="center">
                                 <h1>
                                     <i class="ace-icon fa fa-leaf green"></i>
-                                    <span class="white" id="id-text2">TheLitte<span class="red">Ones</span></span>
+                                    <a href="Home.aspx"><span class="white" id="id-text2">TheLitte<span class="red">Ones</span></span>
+                                    </a>
                                 </h1>
                                 <h4 class="blue" id="id-company-text">&copy; G5</h4>
                             </div>

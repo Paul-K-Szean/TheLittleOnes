@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
-using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 public partial class Breed : BasePageTLO
 {
@@ -23,7 +18,7 @@ public partial class Breed : BasePageTLO
         if (dataRowView != null)
         {
             petinfoID = dataRowView.Row["petinfoid"].ToString();
-            TLOPhotoEntities = photoCtrler.getPhotoEntities(petinfoID, PhotoPurpose.PetInfo.ToString());
+            TLOPhotoEntities = photoCtrler.getPhotoEntities(petinfoID, Enums.GetDescription(PhotoPurpose.PetInfo));
             if (TLOPhotoEntities != null && TLOPhotoEntities.Count > 0)
             {
                 HYPLKPetInfo.NavigateUrl = image.ImageUrl = TLOPhotoEntities[0].PhotoPath;

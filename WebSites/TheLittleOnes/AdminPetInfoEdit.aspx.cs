@@ -1,20 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
-using System.Web.UI.DataVisualization.Charting;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
-using TheLittleOnesLibrary.Handler;
 using TheLittleOnesLibrary.EnumFolder;
-public partial class AdminPetInfoEdit : BasePage
+using TheLittleOnesLibrary.Handler;
+public partial class AdminPetInfoEdit : BasePageAdmin
 {
     private TextBox UICtrlTextbox;
     private DropDownList UICtrlDropdownlist;

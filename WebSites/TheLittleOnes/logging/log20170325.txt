@@ -575,7 +575,7 @@
 20170325@01:52:41 [System] getShopTime 
 20170325@01:52:41 [System] getLoggedInAccount 
 20170325@01:52:41 [System] DLAdoptInfo_ItemDataBound 
-20170325@01:52:41 [System] getAllAppointmentEntities 
+20170325@01:52:41 [System] getAllEventEntities 
 20170325@01:52:41 [System] checkAdoptionDetails 
 20170325@01:52:41 [System] MessageHandler : Please log in first  
 20170325@01:52:41 [System] DLMorePet_ItemDataBound 
@@ -2282,7 +2282,7 @@
 20170325@03:40:38 [System] getPhotoEntities 
 20170325@03:40:38 [System] getLoggedInAccount 
 20170325@03:40:38 [System] DLAdoptInfo_ItemDataBound 
-20170325@03:40:38 [System] getAllAppointmentEntities 
+20170325@03:40:38 [System] getAllEventEntities 
 20170325@03:40:38 [System] checkAdoptionDetails 
 20170325@03:40:38 [System] MessageHandler : Please log in first  
 20170325@03:40:38 [System] DLMorePet_ItemDataBound 
@@ -2677,3 +2677,92 @@
 20170325@03:45:43 [System] MessageHandler : (Close on Saturday) 
 20170325@03:45:43 [System] MessageHandler : (Close on Saturday) 
 20170325@03:45:43 [System] MessageHandler : Close now 
+20170325@15:31:58 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@15:31:58 [System] getLoggedInAccount 
+20170325@15:31:58 [System] No account logged in 
+20170325@15:32:01 [System] getLoggedInAccount 
+20170325@15:33:43 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@15:33:43 [System] getLoggedInAccount 
+20170325@15:33:43 [System] No account logged in 
+20170325@15:33:43 [System] getLoggedInAccount 
+20170325@15:33:43 [System] BTNLogin_Click 
+20170325@15:33:43 [System] signIn 
+20170325@15:33:44 [System] getPhotoEntities 
+20170325@15:33:44 [System] getShopInfo 
+20170325@15:33:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170325@15:33:44 [System] getLoggedInAccount 
+20170325@15:33:44 [System] getLoggedInAccount 
+20170325@15:33:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
+20170325@15:33:54 [System] getLoggedInAccount 
+20170325@15:33:54 [System] getLoggedInAccount 
+20170325@15:33:54 [System] loadAdoptionInfo 
+20170325@15:33:54 [System] getAdoptInfo 
+20170325@15:33:55 [System] getShopInfo 
+20170325@15:33:55 [System] getShopTime 
+20170325@15:33:55 [System] getPhotoEntities 
+20170325@15:33:55 [System] getPhotoEntities 
+20170325@15:33:55 [System] getLoggedInAccount 
+20170325@15:33:55 [System] DLAdoptInfo_ItemDataBound 
+20170325@15:33:55 [System] getAllEventEntities 
+20170325@15:33:55 [System] checkAdoptionDetails 
+20170325@15:33:55 [System] checkEventExist 
+20170325@15:33:55 [System] No data found in getValue() 
+20170325@15:33:56 [System] DLMorePet_ItemDataBound 
+20170325@15:33:56 [System] getPhotoEntities 
+20170325@15:33:56 [System] DLMorePet_ItemDataBound 
+20170325@15:33:56 [System] getPhotoEntities 
+20170325@15:33:56 [System] DLMorePet_ItemDataBound 
+20170325@15:33:56 [System] getPhotoEntities 
+20170325@15:33:56 [System] DLMorePet_ItemDataBound 
+20170325@15:33:56 [System] getPhotoEntities 
+20170325@15:34:00 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@15:34:00 [System] getLoggedInAccount 
+20170325@15:34:00 [System] getLoggedInAccount 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:01 [System] getPhotoEntities 
+20170325@15:34:02 [System] getPhotoEntities 
+20170325@15:34:06 [System] Page loaded: http://localhost:65063/breeddetails.aspx?petinfoid=56 
+20170325@15:34:06 [System] getLoggedInAccount 
+20170325@15:34:06 [System] getPhotoEntities 
+20170325@15:34:06 [System] getLoggedInAccount 
+20170325@15:36:06 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170325@15:36:06 [System] getLoggedInAccount 
+20170325@15:36:06 [System] getLoggedInAccount 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:06 [System] getPhotoEntities 
+20170325@15:36:07 [System] getPhotoEntities 
+20170325@15:36:07 [System] getPhotoEntities 
+20170325@15:36:07 [System] getPhotoEntities 
+20170325@15:36:07 [System] getPhotoEntities 
+20170325@15:47:22 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170325@15:47:22 [System] signOut 
+20170325@15:47:26 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170325@15:47:26 [System] signOut 
+20170325@15:47:26 [System] signIn 
+20170325@15:47:26 [System] getPhotoEntities 
+20170325@15:47:26 [System] getShopInfo 
+20170325@15:47:26 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170325@15:47:26 [System] getLoggedInAccount 
+20170325@15:47:27 [System] GVPetInfoOverview_DataBound 
+20170325@15:47:27 [System] GVShopInfoOverview_DataBound 

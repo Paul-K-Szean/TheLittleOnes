@@ -1,22 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-public partial class AdminSystemAccountAdd : BasePage
+public partial class AdminSystemAccountAdd : BasePageAdmin
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
     private DropDownList UICtrlDropdownlist;
     private string profileID;
-    
+
     protected void Page_Load(object sender, EventArgs e)
     {
         if (IsPostBack) { }
@@ -50,7 +47,7 @@ public partial class AdminSystemAccountAdd : BasePage
             string profileContact = TBProfileContact.Text.Trim();
             string profileAddress = TBProfileAddress.Text.Trim();
             // create entity
-            profileEntity = new ProfileEntity(profileName, profileContact, profileAddress, photoEntities);
+            ProfileEntity profileEntity = new ProfileEntity(profileName, profileContact, profileAddress, photoEntities);
             accountEntity = new AccountEntity(accountEmail, profileName.ToLower(), accountType, profileEntity, shopInfoEntity);
             if (accountCtrler.checkEmailAddressExist(accountEntity.AccountEmail))
             {

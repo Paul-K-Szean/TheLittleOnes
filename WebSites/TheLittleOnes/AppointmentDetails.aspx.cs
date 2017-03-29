@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using System.Reflection;
-using System.Threading;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
@@ -29,8 +25,6 @@ public partial class AppointmentDetails : BasePageTLO
     private static int gvPageSize = 5; // default
     protected void Page_Load(object sender, EventArgs e)
     {
-        // get account info
-        TLOAccountEntity = accountCtrler.getLoggedInAccount();
         if (IsPostBack)
         {
         }
@@ -81,6 +75,13 @@ public partial class AppointmentDetails : BasePageTLO
         saveTempAppointment();
     }
     #endregion
+    #region Checkbox Control
+    protected void CHKBXCancelAppointment_CheckedChanged(object sender, EventArgs e)
+    {
+        if (appointmentEntityEdit != null)
+            appointmentEntityEdit.AppmtStatus = Enums.GetDescription(SystemStatus.Cancelled);
+    }
+    #endregion
     #region Datalist Command
     #endregion
     #region Dropdownlist Controls
@@ -100,7 +101,7 @@ public partial class AppointmentDetails : BasePageTLO
         }
     }
     #endregion
-    #region Gridview Controls
+    #region Gridview Command
     protected void GVAppointment_DataBound(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -127,9 +128,9 @@ public partial class AppointmentDetails : BasePageTLO
             Label LBLPetName = (Label)e.Row.FindControl("LBLPetName");
             if (appointmentEntity.AppmtType.Equals(Enums.GetDescription(AppointmentType.Adoption)))
             {
-                string petName = adoptInfoCtrler.getAdoptInfo(appointmentEntity.AppmtToID).PetEntity.PetName;
+                string petName = adoptInfoCtrler.getAdoptInfoEntity(appointmentEntity.AppmtToID).PetEntity.PetName;
                 LBLPetName.Text = petName;
-                string shopInfoName = adoptInfoCtrler.getAdoptInfo(appointmentEntity.AppmtToID).ShopInfoEntity.ShopInfoName;
+                string shopInfoName = adoptInfoCtrler.getAdoptInfoEntity(appointmentEntity.AppmtToID).ShopInfoEntity.ShopInfoName;
                 LBLAppmtToID.Text = shopInfoName;
             }
             if (appointmentEntity.AppmtType.Equals(Enums.GetDescription(AppointmentType.Clinic)))
@@ -168,7 +169,7 @@ public partial class AppointmentDetails : BasePageTLO
         INPUTAppmtDate.Value = dateSelected = appointmentEntityEdit.AppmtDateTime.ToString("dd-MMMM-yyyy");
         if (appointmentEntityEdit.AppmtType.Equals(Enums.GetDescription(AppointmentType.Adoption)))
         {
-            TLOShopInfoEntity = adoptInfoCtrler.getAdoptInfo(appointmentEntityEdit.AppmtToID).ShopInfoEntity;
+            TLOShopInfoEntity = adoptInfoCtrler.getAdoptInfoEntity(appointmentEntityEdit.AppmtToID).ShopInfoEntity;
         }
         if (appointmentEntityEdit.AppmtType.Equals(Enums.GetDescription(AppointmentType.Clinic)))
         {
@@ -218,9 +219,5 @@ public partial class AppointmentDetails : BasePageTLO
         // filterShopInfo();
     }
     #endregion
-    protected void CHKBXCancelAppointment_CheckedChanged(object sender, EventArgs e)
-    {
-        if (appointmentEntityEdit != null)
-            appointmentEntityEdit.AppmtStatus = Enums.GetDescription(SystemStatus.Cancelled);
-    }
+    
 }

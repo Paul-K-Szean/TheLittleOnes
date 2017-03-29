@@ -6,13 +6,15 @@ using System.Reflection;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.EnumFolder;
+
 namespace TheLittleOnesLibrary.Controllers
 {
     public class AccountController
     {
         private static AccountController accountCtrl;
-        private static AccountEntity loggedInAccountEntity;
-        private static List<AccountEntity> loggedInAccountEntities;
+        // private static AccountEntity loggedInAccountEntity;
+        // private static List<AccountEntity> loggedInAccountEntities;
         public static AccountController getInstance()
         {
             if (accountCtrl == null)
@@ -92,15 +94,20 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-        // Return current logged in user
-        public AccountEntity getLoggedInAccount()
+
+        public AccountEntity getLoggedInAccountEntity(string siteType)
         {
-            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            if (loggedInAccountEntity != null)
-                return loggedInAccountEntity;
-            else
-                return null;
+            if (siteType.Equals(Enums.GetDescription(SiteType.BackEnd)))
+            {
+                return BasePageAdmin.getLoggedInAccounProfiletEntity();
+            }
+            if (siteType.Equals(Enums.GetDescription(SiteType.FrontEnd)))
+            {
+                return BasePageTLO.getLoggedInAccounProfiletEntity();
+            }
+            return null;
         }
+
         // Update account password
         public AccountEntity changePassword(AccountEntity accountEntity)
         {
@@ -115,12 +122,13 @@ namespace TheLittleOnesLibrary.Controllers
                 if (insertID > 0)
                 {
                     // return edited accountEntity
-                    var oldAcountEntity = loggedInAccountEntities.Find(AccountEntity => AccountEntity.AccountID == accountEntity.AccountID);
-                    oldAcountEntity = accountEntity;
+                    //var oldAcountEntity = loggedInAccountEntities.Find(AccountEntity => AccountEntity.AccountID == accountEntity.AccountID);
+                    //oldAcountEntity = accountEntity;
                     return accountEntity;
                 }
                 // return unedited accountEntity
-                return loggedInAccountEntities.Find(AccountEntity => AccountEntity.AccountID == accountEntity.AccountID);
+                // return loggedInAccountEntities.Find(AccountEntity => AccountEntity.AccountID == accountEntity.AccountID);
+                return null;
             }
         }
         // Update account info
@@ -148,12 +156,13 @@ namespace TheLittleOnesLibrary.Controllers
                 if (insertID > 0)
                 {
                     // return edited accountEntity
-                    var oldAcountEntity = loggedInAccountEntities.Find(AccountEntity => AccountEntity.AccountID == accountEntity.AccountID);
-                    oldAcountEntity = accountEntity;
+                    //var oldAcountEntity = loggedInAccountEntities.Find(AccountEntity => AccountEntity.AccountID == accountEntity.AccountID);
+                    //oldAcountEntity = accountEntity;
                     return accountEntity;
                 }
                 // return unedited accountEntity
-                return loggedInAccountEntities.Find(AccountEntity => AccountEntity.AccountID == accountEntity.AccountID);
+                // return loggedInAccountEntities.Find(AccountEntity => AccountEntity.AccountID == accountEntity.AccountID);
+                return null;
             }
         }
         // Update account info
@@ -240,21 +249,19 @@ namespace TheLittleOnesLibrary.Controllers
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTEMAIL", emailAddress);
                 oleDbCommand.Parameters.AddWithValue("@ACCOUNTPASSWORD", password);
                 dataSet = dao.getRecord(oleDbCommand);
-                if (loggedInAccountEntities == null)
-                    loggedInAccountEntities = new List<AccountEntity>();
                 if (dataSet != null && dataSet.Tables[0].Rows.Count > 0)
                 {
                     // logged in, instantiate account 
-                    loggedInAccountEntity = new AccountEntity(
+                    AccountEntity loggedInAccountEntity = new AccountEntity(
                         dataSet.Tables[0].Rows[0]["accountID"].ToString(),
                         dataSet.Tables[0].Rows[0]["accountEmail"].ToString(),
                         dataSet.Tables[0].Rows[0]["accountPassword"].ToString(),
                         dataSet.Tables[0].Rows[0]["accountType"].ToString(),
-                        ProfileController.getInstance().logInProfile(dataSet.Tables[0].Rows[0]["accountID"].ToString()),
+                        ProfileController.getInstance().signInProfile(dataSet.Tables[0].Rows[0]["accountID"].ToString()),
                         string.IsNullOrEmpty(dataSet.Tables[0].Rows[0]["shopInfoID"].ToString()) ? null :
                         ShopInfoController.getInstance().getShopInfo(dataSet.Tables[0].Rows[0]["shopInfoID"].ToString()),
                         DateTime.Parse(dataSet.Tables[0].Rows[0]["dateJoined"].ToString()));
-                    loggedInAccountEntities.Add(loggedInAccountEntity);
+                    //  loggedInAccountEntities.Add(loggedInAccountEntity);
                     return loggedInAccountEntity;
                 }
                 else
@@ -268,17 +275,8 @@ namespace TheLittleOnesLibrary.Controllers
         public void signOut()
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-            if (loggedInAccountEntities != null && loggedInAccountEntities.Count > 0)
-            {
-                for (int index = 0; index < loggedInAccountEntities.Count; index++)
-                {
-                    loggedInAccountEntities[index] = null;
-                }
-            }
-            if (loggedInAccountEntity != null)
-                loggedInAccountEntity = null;
-            ProfileController.getInstance().SignOut();
-            // signout account
+            // sign out front end logged in user
+            BasePageTLO.signOutAccountProfileEntity();
         }
         // Filter Data
         public DataTable filterAccountInfoData(string filterAccountType, string tbSearchValue, Label LBLSearchResultSystemAccount)

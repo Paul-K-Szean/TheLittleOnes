@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Reflection;
 using System.Web.UI;
@@ -9,7 +8,7 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-public partial class AdminAdoptionInfoEdit : BasePage
+public partial class AdminAdoptionInfoEdit : BasePageAdmin
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;
@@ -160,7 +159,7 @@ public partial class AdminAdoptionInfoEdit : BasePage
         MessageHandler.ClearMessage(LBLErrorMsg);
         GridViewRow row = GVAdoptInfoOverview.Rows[e.NewSelectedIndex];
         GVRowID = Convert.ToInt32(GVAdoptInfoOverview.DataKeys[row.RowIndex].Values[0]);
-        adoptInfoEntity = adoptInfoCtrler.getAdoptInfo(GVRowID.ToString());
+        adoptInfoEntity = adoptInfoCtrler.getAdoptInfoEntity(GVRowID.ToString());
         LogController.LogLine("GVRowID: " + GVRowID);
         initializeUIControlValues();
         loadAdoptInfo(adoptInfoEntity);

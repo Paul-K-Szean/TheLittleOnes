@@ -165,6 +165,27 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
         // Retrieve photoEntites
+        public PhotoEntity getPhotoEntity(string photoOwnerID, string photoPurpose)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("SELECT * FROM PHOTO WHERE PHOTOOWNERID = @PHOTOOWNERID AND PHOTOPURPOSE = @PHOTOPURPOSE");
+                oleDbCommand.Parameters.AddWithValue("@PHOTOOWNERID", string.Concat(photoOwnerID));
+                oleDbCommand.Parameters.AddWithValue("@PHOTOPURPOSE", string.Concat(photoPurpose));
+                dataSet = dao.getRecord(oleDbCommand);
+                if (dataSet.Tables[0].Rows.Count> 0)
+                    return new PhotoEntity(
+                               dataSet.Tables[0].Rows[0][0].ToString(),
+                               dataSet.Tables[0].Rows[0][1].ToString(),
+                               dataSet.Tables[0].Rows[0][2].ToString(),
+                               dataSet.Tables[0].Rows[0][3].ToString(),
+                               dataSet.Tables[0].Rows[0][4].ToString());
+                else return null;
+            }
+        }
+        // Retrieve photoEntites
         public List<PhotoEntity> getPhotoEntities(string photoOwnerID, string photoPurpose)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -183,7 +204,7 @@ namespace TheLittleOnesLibrary.Controllers
                         row[1].ToString(),
                         row[2].ToString(),
                         row[3].ToString(),
-                        row[3].ToString());
+                        row[4].ToString());
                     photoEntities.Add(photoEntity);
                 }
                 return photoEntities;

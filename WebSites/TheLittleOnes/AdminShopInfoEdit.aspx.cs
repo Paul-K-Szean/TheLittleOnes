@@ -9,7 +9,7 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-public partial class AdminShopInfoEdit : BasePage
+public partial class AdminShopInfoEdit : BasePageAdmin
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;

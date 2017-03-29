@@ -35,10 +35,29 @@ namespace TheLittleOnesLibrary.EnumFolder
     }
     public enum AppointmentType
     {
+        // for appointment making in pet adoption
         [Description("Adoption")]
         Adoption,
         [Description("Clinic")]
         Clinic,
+    }
+    public enum EventType
+    {
+        [Description("Adoption Drive")]
+        AdoptionDrive,
+        [Description("Birthday Party")]
+        BirthdayParty,
+        [Description("Pet Gathering")]
+        PetGathering,
+        [Description("Pet Learning")]
+        PetLearning
+    }
+    public enum SiteType
+    {
+        [Description("Back End")]
+        BackEnd,
+        [Description("Front End")]
+        FrontEnd,
     }
     public enum ShopType
     {

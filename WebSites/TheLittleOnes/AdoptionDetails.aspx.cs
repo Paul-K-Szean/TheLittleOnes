@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Threading;
 using System.Web;
 using System.Web.UI;
-using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-public partial class uploadedFiles_AdoptionDetails : BasePageTLO
+public partial class AdoptionDetails : BasePageTLO
 {
     private static string adoptInfoID;
     private static AdoptInfoEntity viewAdoptinfoEntity;
@@ -25,7 +20,6 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     private static string timeSelected;
     protected void Page_Load(object sender, EventArgs e)
     {
-        TLOAccountEntity = accountCtrler.getLoggedInAccount();
         if (IsPostBack)
         {
             if (string.IsNullOrEmpty(INPUTAppmtDate.Value) || string.IsNullOrEmpty(DDLAppmtTime.SelectedValue))
@@ -88,11 +82,11 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
                 {
                     MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Unable to make request.");
                 }
-            }// else just started, TODO: what to do 
+            }// else just started
         }
         else
         {
-            MessageHandler.ErrorMessage(LBLErrorMsg, "Appointment date or time cannot be empty");
+            MessageHandler.ErrorMessage(LBLErrorMsg, "Event date or time cannot be empty");
         }
     }
     protected void BTNAppmtDate_Click(object sender, EventArgs e)
@@ -103,7 +97,7 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
         loadOperatingHours(dateSelected, daySelected, INPUTAppmtDate,
                            shopInfoCtrler.getShopTime(HDFShopInfoID.Value), DDLAppmtTime, LBLAppmtDate, LBLAppmtTime, null, adoptInfoID);
         // save temp appointment data if user selected any date/time
-        saveTempAppointment();
+        saveTempEvent();
     }
     #endregion
     #region Datalist Command
@@ -137,7 +131,7 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     protected void loadAdoptionInfo()
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        viewAdoptinfoEntity = adoptInfoCtrler.getAdoptInfo(adoptInfoID);
+        viewAdoptinfoEntity = adoptInfoCtrler.getAdoptInfoEntity(adoptInfoID);
         HDFAdoptInfoID.Value = viewAdoptinfoEntity.AdoptInfoID;
         HDFPetID.Value = viewAdoptinfoEntity.PetEntity.PetID;
         HDFShopInfoID.Value = viewAdoptinfoEntity.ShopInfoEntity.ShopInfoID;
@@ -166,16 +160,16 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     //        DDLAppmtTime.Enabled = isOperating;
     //        if (isOperating)
     //        {
-    //            MessageHandler.DefaultMessage(LBLAppmtTime, "Appointment Time");
-    //            MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ")"));
+    //            MessageHandler.DefaultMessage(LBLAppmtTime, "Event Time");
+    //            MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Event Date (", shopTimeEntitySelected.DayOfWeek, ")"));
     //            // display operation hours of a particular day
     //            var firstItem = DDLAppmtTime.Items[0];
     //            DDLAppmtTime.Items.Clear();
     //            DDLAppmtTime.Items.Add(firstItem);
     //            DDLAppmtTime.DataSource = Utility.getTimeInterval(shopTimeEntitySelected.OpenTime, shopTimeEntitySelected.CloseTime);
     //            DDLAppmtTime.DataBind();
-    //            List<AppointmentEntity> adoptRequestEntities = appointmentCrtler.getAllAppointmentEntities(adoptInfoID);
-    //            foreach (AppointmentEntity appointmentEntity in adoptRequestEntities)
+    //            List<EventEntity> adoptRequestEntities = appointmentCrtler.getAllEventEntities(adoptInfoID);
+    //            foreach (EventEntity appointmentEntity in adoptRequestEntities)
     //            {
     //                ListItem item;
     //                if (daySelected.ToLower().Equals(appointmentEntity.AppmtDateTime.DayOfWeek.ToString().ToLower()))
@@ -190,12 +184,12 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     //            {
     //                if ((DateTime.Parse(shopTimeEntitySelected.CloseTime).TimeOfDay < DateTime.Now.TimeOfDay))
     //                {
-    //                    MessageHandler.ErrorMessage(LBLAppmtDate, string.Concat("Appointment Date (Close Now)"));
+    //                    MessageHandler.ErrorMessage(LBLAppmtDate, string.Concat("Event Date (Close Now)"));
     //                    DDLAppmtTime.Enabled = false;
     //                }
     //                else
     //                {
-    //                    MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date (", shopTimeEntitySelected.DayOfWeek, ")"));
+    //                    MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Event Date (", shopTimeEntitySelected.DayOfWeek, ")"));
     //                    DDLAppmtTime.Enabled = true;
     //                    // still in operation, but need to remove time slot that is past current time
     //                    List<string> operationTimes = new List<string>();
@@ -221,13 +215,13 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
     //        else
     //        {
     //            Thread.Sleep(1000);
-    //            MessageHandler.ErrorMessage(LBLAppmtTime, "Appointment Time - Not open on selected date");
-    //            MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Appointment Date"));
+    //            MessageHandler.ErrorMessage(LBLAppmtTime, "Event Time - Not open on selected date");
+    //            MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Event Date"));
     //        }
     //    }
     //}
     // Save current selected appointment date/time
-    protected void saveTempAppointment()
+    protected void saveTempEvent()
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         dateSelected = INPUTAppmtDate.Value;
@@ -298,7 +292,7 @@ public partial class uploadedFiles_AdoptionDetails : BasePageTLO
         else
         {
             BTNAdoptMe.Enabled = true;
-            saveTempAppointment();
+            saveTempEvent();
         }
     }
     #endregion

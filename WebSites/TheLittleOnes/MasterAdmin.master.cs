@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.EnumFolder;
+
 public partial class MasterAdmin : MasterPage
 {
     // Entities
@@ -34,11 +33,11 @@ public partial class MasterAdmin : MasterPage
         {
         }
         loadAccountInfo();
-        
+
     }
     private void loadAccountInfo()
     {
-        accountEntity = BasePage.AccountEntity;
+        accountEntity = accountCtrler.getLoggedInAccountEntity(Enums.GetDescription(SiteType.BackEnd));
         if (accountEntity != null)
         {
             LBLDisplayName.Text = accountEntity.ProfileEntity.ProfileName;

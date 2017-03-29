@@ -5,12 +5,10 @@ using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class PetShops : BasePageTLO
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
     }
     protected void DLShopInfo_ItemDataBound(object sender, DataListItemEventArgs e)
     {
@@ -40,7 +38,6 @@ public partial class PetShops : BasePageTLO
             }
         }
     }
-
     private void updateOperationHourStatus(List<ShopTimeEntity> shopTimeEntities, Label LBLShopTimeStatus)
     {
         foreach (ShopTimeEntity shopTimeEntity in shopTimeEntities)
@@ -64,7 +61,6 @@ public partial class PetShops : BasePageTLO
             }
         }
     }
-
     protected void DLPhoto_ItemDataBound(object sender, DataListItemEventArgs e)
     {
         Image image = e.Item.FindControl("Image1") as Image;

@@ -16,12 +16,10 @@ namespace TheLittleOnesLibrary.Controllers
                 AdoptInfoCtrl = new AdoptInfoController();
             return AdoptInfoCtrl;
         }
-        private static List<AppointmentEntity> adoptReqEntities;
         // Data Access Object
         private DAO dao;
         private OleDbCommand oleDbCommand;
         private DataSet dataSet;
-        private DataSet dataSetAppointment;
         // Default Constructor
         public AdoptInfoController()
         {
@@ -94,8 +92,8 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-        // Retrieve AdoptInfoInfo
-        public AdoptInfoEntity getAdoptInfo(string adoptInfoID)
+        // Retrieve AdoptInfoInfoEntity
+        public AdoptInfoEntity getAdoptInfoEntity(string adoptInfoID)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             using (oleDbCommand = new OleDbCommand())
@@ -113,6 +111,35 @@ namespace TheLittleOnesLibrary.Controllers
                         petCtrler.getPet(dataSet.Tables[0].Rows[0][1].ToString()),// petID
                         dataSet.Tables[0].Rows[0][2].ToString(),// adoptinfoID
                         dataSet.Tables[0].Rows[0][3].ToString());// Status
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
+        // Retrieve AdoptInfoInfoEntities
+        public List<AdoptInfoEntity> getAdoptInfoEntities()
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("SELECT * FROM ADOPTINFO WHERE ADOPTINFOSTATUS = 'AVAILABLE' ");
+                dataSet = dao.getRecord(oleDbCommand);
+                List<AdoptInfoEntity> adoptInfoEntities = new List<AdoptInfoEntity>();
+                if (dataSet != null)
+                {
+                    foreach (DataRow row in dataSet.Tables[0].Rows)
+                    {
+                        adoptInfoEntities.Add(
+                            new AdoptInfoEntity(
+                        ShopInfoController.getInstance().getShopInfo(row["shopInfoID"].ToString()), // shopInfoID
+                        PetController.getInstance().getPet(row["petID"].ToString()),// petID
+                        row["adoptInfoID"].ToString(),// adoptinfoID
+                        row["adoptInfoStatus"].ToString()));// Status
+                    }
+                    return adoptInfoEntities;
                 }
                 else
                 {
@@ -160,6 +187,5 @@ namespace TheLittleOnesLibrary.Controllers
                 return dataSet.Tables[0];
             }
         }
-        
     }
 }

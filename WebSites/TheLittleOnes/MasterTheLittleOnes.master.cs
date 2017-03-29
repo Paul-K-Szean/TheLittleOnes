@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Reflection;
 using System.Web;
-using System.Web.UI;
-using System.Web.UI.HtmlControls;
-using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
 public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
 {
@@ -42,15 +38,18 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
             accountEntity = accountCtrler.signIn(loginEmail, loginPassword);
             if (accountEntity != null)
             {
+                BasePageTLO.signInAccountProfileEntity(accountEntity);
+
                 string adoptInfoID = HttpContext.Current.Request.QueryString["adoptinfoid"];
                 string currentPage = Path.GetFileName(Request.Url.AbsolutePath).ToLower().Trim();
-                // TODO where should the system response after logging in 
+                // where should the system response after logging in 
                 if (currentPage.Contains("adoptiondetails"))
                     Response.Redirect("AdoptionDetails.aspx?adoptinfoid=" + adoptInfoID);
                 else
                     Response.Redirect(currentPage);
             }
-            else {
+            else
+            {
                 MessageHandler.ErrorMessage(LBLErrorMsg, "Either email or password is invalid");
             }
         }
@@ -89,7 +88,7 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
     }
     private void anyUserLoggedIn()
     {
-        accountEntity = accountCtrler.getLoggedInAccount();
+        accountEntity = accountCtrler.getLoggedInAccountEntity(Enums.GetDescription(SiteType.FrontEnd));
         if (accountEntity != null)
         {
             HYPLKAccountInfo.Text = accountEntity.ProfileEntity.ProfileName + "<span class=\"caret\"></span>";

@@ -2247,19 +2247,19 @@
 20170316@21:00:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:00:24 [System] getLoggedInAccount 
 20170316@21:00:24 [System] getLoggedInAccount 
-20170316@21:00:24 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:00:24 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:00:24 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:00:24 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:00:24 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:24 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:00:24 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:00:24 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:00:24 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:00:24 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:00:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:00:43 [System] getLoggedInAccount 
 20170316@21:00:43 [System] getLoggedInAccount 
-20170316@21:00:43 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:00:43 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:00:43 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:00:43 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:00:43 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:00:43 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:00:43 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:00:43 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:00:43 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:00:43 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:00:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:00:58 [System] getAdoptInfo 
 20170316@21:00:58 [System] getShopInfo 
@@ -2271,12 +2271,12 @@
 20170316@21:01:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:01:02 [System] getLoggedInAccount 
 20170316@21:01:02 [System] getLoggedInAccount 
-20170316@21:01:02 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:01:02 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:01:02 [System] MessageHandler : Appointment Time 
-20170316@21:01:02 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:01:02 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170316@21:01:02 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:01:02 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:01:02 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:01:02 [System] MessageHandler : Event Time 
+20170316@21:01:02 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:01:02 [System] MessageHandler : Event Time - Not open on selected date 
+20170316@21:01:02 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:02:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:02:46 [System] getAdoptInfo 
 20170316@21:02:46 [System] getShopInfo 
@@ -2313,11 +2313,11 @@
 20170316@21:04:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:04:55 [System] getLoggedInAccount 
 20170316@21:04:55 [System] getLoggedInAccount 
-20170316@21:04:55 [System] MessageHandler : Appointment Time 
+20170316@21:04:55 [System] MessageHandler : Event Time 
 20170316@21:05:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:05:14 [System] getLoggedInAccount 
 20170316@21:05:14 [System] getLoggedInAccount 
-20170316@21:05:14 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:05:14 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:05:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:05:27 [System] getLoggedInAccount 
 20170316@21:05:27 [System] getLoggedInAccount 
@@ -2341,7 +2341,7 @@
 20170316@21:05:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:06:00 [System] getLoggedInAccount 
 20170316@21:06:00 [System] getLoggedInAccount 
-20170316@21:06:00 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:06:00 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:12:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:12:37 [System] getAdoptInfo 
 20170316@21:12:37 [System] getShopInfo 
@@ -2369,11 +2369,11 @@
 20170316@21:13:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:13:35 [System] getLoggedInAccount 
 20170316@21:13:35 [System] getLoggedInAccount 
-20170316@21:13:35 [System] MessageHandler : Appointment Time 
+20170316@21:13:35 [System] MessageHandler : Event Time 
 20170316@21:13:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:13:40 [System] getLoggedInAccount 
 20170316@21:13:40 [System] getLoggedInAccount 
-20170316@21:13:40 [System] MessageHandler : Appointment Time 
+20170316@21:13:40 [System] MessageHandler : Event Time 
 20170316@21:13:46 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170316@21:13:46 [System] getLoggedInAccount 
 20170316@21:13:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
@@ -2387,7 +2387,7 @@
 20170316@21:13:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:13:53 [System] getLoggedInAccount 
 20170316@21:13:53 [System] getLoggedInAccount 
-20170316@21:13:53 [System] MessageHandler : Appointment Time 
+20170316@21:13:53 [System] MessageHandler : Event Time 
 20170316@21:14:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170316@21:14:07 [System] getLoggedInAccount 
 20170316@21:14:07 [System] getLoggedInAccount 
@@ -2407,7 +2407,7 @@
 20170316@21:14:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170316@21:14:20 [System] getLoggedInAccount 
 20170316@21:14:20 [System] getLoggedInAccount 
-20170316@21:14:20 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:14:20 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:14:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170316@21:14:33 [System] getLoggedInAccount 
 20170316@21:14:33 [System] getLoggedInAccount 
@@ -2422,11 +2422,11 @@
 20170316@21:14:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170316@21:14:46 [System] getLoggedInAccount 
 20170316@21:14:46 [System] getLoggedInAccount 
-20170316@21:14:46 [System] MessageHandler : Appointment Time 
+20170316@21:14:46 [System] MessageHandler : Event Time 
 20170316@21:14:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170316@21:14:53 [System] getLoggedInAccount 
 20170316@21:14:53 [System] getLoggedInAccount 
-20170316@21:14:53 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:14:53 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:15:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170316@21:15:03 [System] getAdoptInfo 
 20170316@21:15:03 [System] getShopInfo 
@@ -2438,19 +2438,19 @@
 20170316@21:15:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170316@21:15:11 [System] getLoggedInAccount 
 20170316@21:15:11 [System] getLoggedInAccount 
-20170316@21:15:11 [System] MessageHandler : Appointment Time 
+20170316@21:15:11 [System] MessageHandler : Event Time 
 20170316@21:15:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170316@21:15:15 [System] getLoggedInAccount 
 20170316@21:15:15 [System] getLoggedInAccount 
-20170316@21:15:15 [System] MessageHandler : Appointment Time 
+20170316@21:15:15 [System] MessageHandler : Event Time 
 20170316@21:15:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170316@21:15:17 [System] getLoggedInAccount 
 20170316@21:15:17 [System] getLoggedInAccount 
-20170316@21:15:17 [System] MessageHandler : Appointment Time 
+20170316@21:15:17 [System] MessageHandler : Event Time 
 20170316@21:15:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170316@21:15:20 [System] getLoggedInAccount 
 20170316@21:15:20 [System] getLoggedInAccount 
-20170316@21:15:20 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:15:20 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:25:34 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170316@21:25:34 [System] getLoggedInAccount 
 20170316@21:25:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
@@ -2464,7 +2464,7 @@
 20170316@21:25:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
 20170316@21:25:43 [System] getLoggedInAccount 
 20170316@21:25:43 [System] getLoggedInAccount 
-20170316@21:25:43 [System] MessageHandler : Appointment Time 
+20170316@21:25:43 [System] MessageHandler : Event Time 
 20170316@21:26:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
 20170316@21:26:25 [System] getAdoptInfo 
 20170316@21:26:25 [System] getShopInfo 
@@ -2476,7 +2476,7 @@
 20170316@21:26:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
 20170316@21:26:29 [System] getLoggedInAccount 
 20170316@21:26:29 [System] getLoggedInAccount 
-20170316@21:26:29 [System] MessageHandler : Appointment Time 
+20170316@21:26:29 [System] MessageHandler : Event Time 
 20170316@21:27:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
 20170316@21:28:00 [System] getAdoptInfo 
 20170316@21:28:00 [System] getShopInfo 
@@ -2488,7 +2488,7 @@
 20170316@21:28:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
 20170316@21:28:05 [System] getLoggedInAccount 
 20170316@21:28:05 [System] getLoggedInAccount 
-20170316@21:28:05 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:28:05 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:28:14 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170316@21:28:14 [System] getLoggedInAccount 
 20170316@21:28:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
@@ -2502,15 +2502,15 @@
 20170316@21:28:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170316@21:28:31 [System] getLoggedInAccount 
 20170316@21:28:31 [System] getLoggedInAccount 
-20170316@21:28:31 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:28:31 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:28:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170316@21:28:33 [System] getLoggedInAccount 
 20170316@21:28:33 [System] getLoggedInAccount 
-20170316@21:28:33 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:28:33 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:28:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170316@21:28:36 [System] getLoggedInAccount 
 20170316@21:28:36 [System] getLoggedInAccount 
-20170316@21:28:36 [System] MessageHandler : Appointment Time 
+20170316@21:28:36 [System] MessageHandler : Event Time 
 20170316@21:29:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170316@21:29:09 [System] getLoggedInAccount 
 20170316@21:29:09 [System] getLoggedInAccount 
@@ -2544,7 +2544,7 @@
 20170316@21:29:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:29:49 [System] getLoggedInAccount 
 20170316@21:29:49 [System] getLoggedInAccount 
-20170316@21:29:49 [System] MessageHandler : Appointment Time 
+20170316@21:29:49 [System] MessageHandler : Event Time 
 20170316@21:30:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:30:43 [System] getAdoptInfo 
 20170316@21:30:43 [System] getShopInfo 
@@ -2556,11 +2556,11 @@
 20170316@21:30:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:30:48 [System] getLoggedInAccount 
 20170316@21:30:48 [System] getLoggedInAccount 
-20170316@21:30:48 [System] MessageHandler : Appointment Time 
+20170316@21:30:48 [System] MessageHandler : Event Time 
 20170316@21:31:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:31:05 [System] getLoggedInAccount 
 20170316@21:31:05 [System] getLoggedInAccount 
-20170316@21:31:05 [System] MessageHandler : Appointment Time 
+20170316@21:31:05 [System] MessageHandler : Event Time 
 20170316@21:31:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:31:29 [System] getAdoptInfo 
 20170316@21:31:29 [System] getShopInfo 
@@ -2582,11 +2582,11 @@
 20170316@21:32:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:32:22 [System] getLoggedInAccount 
 20170316@21:32:22 [System] getLoggedInAccount 
-20170316@21:32:22 [System] MessageHandler : Appointment Time 
+20170316@21:32:22 [System] MessageHandler : Event Time 
 20170316@21:32:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:32:49 [System] getLoggedInAccount 
 20170316@21:32:49 [System] getLoggedInAccount 
-20170316@21:32:49 [System] MessageHandler : Appointment Time 
+20170316@21:32:49 [System] MessageHandler : Event Time 
 20170316@21:37:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:37:38 [System] getAdoptInfo 
 20170316@21:37:38 [System] getShopInfo 
@@ -2608,7 +2608,7 @@
 20170316@21:38:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:38:03 [System] getLoggedInAccount 
 20170316@21:38:03 [System] getLoggedInAccount 
-20170316@21:38:03 [System] MessageHandler : Appointment Time 
+20170316@21:38:03 [System] MessageHandler : Event Time 
 20170316@21:40:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:40:22 [System] getAdoptInfo 
 20170316@21:40:22 [System] getShopInfo 
@@ -2620,11 +2620,11 @@
 20170316@21:40:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:40:30 [System] getLoggedInAccount 
 20170316@21:40:30 [System] getLoggedInAccount 
-20170316@21:40:30 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@21:40:30 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@21:40:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:40:32 [System] getLoggedInAccount 
 20170316@21:40:32 [System] getLoggedInAccount 
-20170316@21:40:32 [System] MessageHandler : Appointment Time 
+20170316@21:40:32 [System] MessageHandler : Event Time 
 20170316@21:40:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:40:53 [System] getAdoptInfo 
 20170316@21:40:53 [System] getShopInfo 
@@ -2635,7 +2635,7 @@
 20170316@21:41:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:41:01 [System] getLoggedInAccount 
 20170316@21:41:01 [System] getLoggedInAccount 
-20170316@21:41:01 [System] MessageHandler : Appointment Time 
+20170316@21:41:01 [System] MessageHandler : Event Time 
 20170316@21:41:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:41:11 [System] getAdoptInfo 
 20170316@21:41:11 [System] getShopInfo 
@@ -2646,11 +2646,11 @@
 20170316@21:41:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:41:15 [System] getLoggedInAccount 
 20170316@21:41:15 [System] getLoggedInAccount 
-20170316@21:41:15 [System] MessageHandler : Appointment Time 
+20170316@21:41:15 [System] MessageHandler : Event Time 
 20170316@21:41:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:41:19 [System] getLoggedInAccount 
 20170316@21:41:19 [System] getLoggedInAccount 
-20170316@21:41:19 [System] MessageHandler : Appointment Time 
+20170316@21:41:19 [System] MessageHandler : Event Time 
 20170316@21:41:40 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170316@21:41:40 [System] getLoggedInAccount 
 20170316@21:41:41 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2663,7 +2663,7 @@
 20170316@21:41:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:41:45 [System] getLoggedInAccount 
 20170316@21:41:45 [System] getLoggedInAccount 
-20170316@21:41:45 [System] MessageHandler : Appointment Time 
+20170316@21:41:45 [System] MessageHandler : Event Time 
 20170316@21:41:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:41:57 [System] getAdoptInfo 
 20170316@21:41:57 [System] getShopInfo 
@@ -2674,7 +2674,7 @@
 20170316@21:42:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:42:02 [System] getLoggedInAccount 
 20170316@21:42:02 [System] getLoggedInAccount 
-20170316@21:42:02 [System] MessageHandler : Appointment Time 
+20170316@21:42:02 [System] MessageHandler : Event Time 
 20170316@21:42:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:42:17 [System] getAdoptInfo 
 20170316@21:42:17 [System] getShopInfo 
@@ -2692,7 +2692,7 @@
 20170316@21:42:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:42:24 [System] getLoggedInAccount 
 20170316@21:42:24 [System] getLoggedInAccount 
-20170316@21:42:24 [System] MessageHandler : Appointment Time 
+20170316@21:42:24 [System] MessageHandler : Event Time 
 20170316@21:42:50 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170316@21:42:50 [System] getLoggedInAccount 
 20170316@21:42:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2705,7 +2705,7 @@
 20170316@21:42:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:42:58 [System] getLoggedInAccount 
 20170316@21:42:58 [System] getLoggedInAccount 
-20170316@21:42:58 [System] MessageHandler : Appointment Time 
+20170316@21:42:58 [System] MessageHandler : Event Time 
 20170316@21:45:11 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170316@21:45:11 [System] getLoggedInAccount 
 20170316@21:45:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2718,11 +2718,11 @@
 20170316@21:45:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:45:31 [System] getLoggedInAccount 
 20170316@21:45:31 [System] getLoggedInAccount 
-20170316@21:45:31 [System] MessageHandler : Appointment Time 
+20170316@21:45:31 [System] MessageHandler : Event Time 
 20170316@21:45:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:45:38 [System] getLoggedInAccount 
 20170316@21:45:38 [System] getLoggedInAccount 
-20170316@21:45:38 [System] MessageHandler : Appointment Time 
+20170316@21:45:38 [System] MessageHandler : Event Time 
 20170316@21:45:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:45:59 [System] getAdoptInfo 
 20170316@21:45:59 [System] getShopInfo 
@@ -2742,7 +2742,7 @@
 20170316@21:46:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:46:19 [System] getLoggedInAccount 
 20170316@21:46:19 [System] getLoggedInAccount 
-20170316@21:46:19 [System] MessageHandler : Appointment Time 
+20170316@21:46:19 [System] MessageHandler : Event Time 
 20170316@21:46:41 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170316@21:46:41 [System] getLoggedInAccount 
 20170316@21:46:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2755,7 +2755,7 @@
 20170316@21:46:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:46:46 [System] getLoggedInAccount 
 20170316@21:46:46 [System] getLoggedInAccount 
-20170316@21:46:46 [System] MessageHandler : Appointment Time 
+20170316@21:46:46 [System] MessageHandler : Event Time 
 20170316@21:48:04 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170316@21:48:04 [System] getLoggedInAccount 
 20170316@21:48:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2768,11 +2768,11 @@
 20170316@21:48:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:48:11 [System] getLoggedInAccount 
 20170316@21:48:11 [System] getLoggedInAccount 
-20170316@21:48:11 [System] MessageHandler : Appointment Time 
+20170316@21:48:11 [System] MessageHandler : Event Time 
 20170316@21:49:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:49:02 [System] getLoggedInAccount 
 20170316@21:49:02 [System] getLoggedInAccount 
-20170316@21:49:02 [System] MessageHandler : Appointment Time 
+20170316@21:49:02 [System] MessageHandler : Event Time 
 20170316@21:50:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@21:50:10 [System] getLoggedInAccount 
 20170316@21:50:10 [System] getLoggedInAccount 
@@ -2921,7 +2921,7 @@
 20170316@22:04:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@22:04:03 [System] getLoggedInAccount 
 20170316@22:04:03 [System] getLoggedInAccount 
-20170316@22:04:03 [System] MessageHandler : Appointment Time 
+20170316@22:04:03 [System] MessageHandler : Event Time 
 20170316@22:04:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@22:04:05 [System] getLoggedInAccount 
 20170316@22:04:05 [System] getLoggedInAccount 
@@ -2939,11 +2939,11 @@
 20170316@22:04:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@22:04:37 [System] getLoggedInAccount 
 20170316@22:04:37 [System] getLoggedInAccount 
-20170316@22:04:37 [System] MessageHandler : Appointment Time 
+20170316@22:04:37 [System] MessageHandler : Event Time 
 20170316@22:04:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@22:04:40 [System] getLoggedInAccount 
 20170316@22:04:40 [System] getLoggedInAccount 
-20170316@22:04:40 [System] MessageHandler : Appointment Time - Not open on selected date 
+20170316@22:04:40 [System] MessageHandler : Event Time - Not open on selected date 
 20170316@22:06:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@22:06:05 [System] getAdoptInfo 
 20170316@22:06:05 [System] getShopInfo 
@@ -2954,13 +2954,13 @@
 20170316@22:06:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@22:06:08 [System] getLoggedInAccount 
 20170316@22:06:08 [System] getLoggedInAccount 
-20170316@22:06:08 [System] MessageHandler : Appointment Time 
-20170316@22:06:08 [System] MessageHandler : Appointment Date (Friday) 
+20170316@22:06:08 [System] MessageHandler : Event Time 
+20170316@22:06:08 [System] MessageHandler : Event Date (Friday) 
 20170316@22:06:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@22:06:11 [System] getLoggedInAccount 
 20170316@22:06:11 [System] getLoggedInAccount 
-20170316@22:06:11 [System] MessageHandler : Appointment Time 
-20170316@22:06:11 [System] MessageHandler : Appointment Date (Wednesday) 
+20170316@22:06:11 [System] MessageHandler : Event Time 
+20170316@22:06:11 [System] MessageHandler : Event Date (Wednesday) 
 20170316@22:06:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170316@22:06:33 [System] getLoggedInAccount 
 20170316@22:06:33 [System] getLoggedInAccount 

@@ -10,8 +10,8 @@
 20170317@14:18:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170317@14:18:34 [System] getLoggedInAccount 
 20170317@14:18:34 [System] getLoggedInAccount 
-20170317@14:18:34 [System] MessageHandler : Appointment Time 
-20170317@14:18:34 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@14:18:34 [System] MessageHandler : Event Time 
+20170317@14:18:34 [System] MessageHandler : Event Date (Wednesday) 
 20170317@14:18:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170317@14:18:37 [System] getLoggedInAccount 
 20170317@14:18:37 [System] getLoggedInAccount 
@@ -71,13 +71,13 @@
 20170317@14:37:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170317@14:37:20 [System] getLoggedInAccount 
 20170317@14:37:20 [System] getLoggedInAccount 
-20170317@14:37:20 [System] MessageHandler : Appointment Time 
-20170317@14:37:20 [System] MessageHandler : Appointment Date (Tuesday) 
+20170317@14:37:20 [System] MessageHandler : Event Time 
+20170317@14:37:20 [System] MessageHandler : Event Date (Tuesday) 
 20170317@14:37:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170317@14:37:25 [System] getLoggedInAccount 
 20170317@14:37:25 [System] getLoggedInAccount 
-20170317@14:37:25 [System] MessageHandler : Appointment Time 
-20170317@14:37:25 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@14:37:25 [System] MessageHandler : Event Time 
+20170317@14:37:25 [System] MessageHandler : Event Date (Wednesday) 
 20170317@14:45:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@14:45:27 [System] getLoggedInAccount 
 20170317@14:45:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
@@ -90,8 +90,8 @@
 20170317@14:45:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=33 
 20170317@14:45:43 [System] getLoggedInAccount 
 20170317@14:45:43 [System] getLoggedInAccount 
-20170317@14:45:44 [System] MessageHandler : Appointment Time 
-20170317@14:45:44 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@14:45:44 [System] MessageHandler : Event Time 
+20170317@14:45:44 [System] MessageHandler : Event Date (Wednesday) 
 20170317@14:47:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@14:47:26 [System] getLoggedInAccount 
 20170317@14:47:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -156,12 +156,12 @@
 20170317@14:54:36 [System] getLoggedInAccount 
 20170317@14:54:36 [System] getLoggedInAccount 
 20170317@14:54:36 [System] BTNAdoptMe_Click 
-20170317@14:54:36 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@14:54:36 [System] MessageHandler : Event date or time cannot be empty 
 20170317@14:54:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170317@14:54:42 [System] getLoggedInAccount 
 20170317@14:54:42 [System] getLoggedInAccount 
-20170317@14:54:42 [System] MessageHandler : Appointment Time 
-20170317@14:54:42 [System] MessageHandler : Appointment Date (Tuesday) 
+20170317@14:54:42 [System] MessageHandler : Event Time 
+20170317@14:54:42 [System] MessageHandler : Event Date (Tuesday) 
 20170317@14:54:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170317@14:54:43 [System] getLoggedInAccount 
 20170317@14:54:43 [System] getLoggedInAccount 
@@ -185,7 +185,7 @@
 20170317@14:55:00 [System] getLoggedInAccount 
 20170317@14:55:00 [System] getLoggedInAccount 
 20170317@14:55:00 [System] BTNAdoptMe_Click 
-20170317@14:55:00 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@14:55:00 [System] MessageHandler : Event date or time cannot be empty 
 20170317@14:56:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170317@14:56:47 [System] getAdoptInfo 
 20170317@14:56:47 [System] getShopInfo 
@@ -197,7 +197,7 @@
 20170317@14:56:50 [System] getLoggedInAccount 
 20170317@14:56:50 [System] getLoggedInAccount 
 20170317@14:56:50 [System] BTNAdoptMe_Click 
-20170317@14:56:50 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@14:56:50 [System] MessageHandler : Event date or time cannot be empty 
 20170317@15:00:18 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@15:00:18 [System] getLoggedInAccount 
 20170317@15:00:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
@@ -211,12 +211,12 @@
 20170317@15:00:25 [System] getLoggedInAccount 
 20170317@15:00:25 [System] getLoggedInAccount 
 20170317@15:00:25 [System] BTNAdoptMe_Click 
-20170317@15:00:25 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@15:00:25 [System] MessageHandler : Event date or time cannot be empty 
 20170317@15:00:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@15:00:28 [System] getLoggedInAccount 
 20170317@15:00:28 [System] getLoggedInAccount 
-20170317@15:00:28 [System] MessageHandler : Appointment Time 
-20170317@15:00:28 [System] MessageHandler : Appointment Date (Monday) 
+20170317@15:00:28 [System] MessageHandler : Event Time 
+20170317@15:00:28 [System] MessageHandler : Event Date (Monday) 
 20170317@15:00:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@15:00:30 [System] getLoggedInAccount 
 20170317@15:00:30 [System] getLoggedInAccount 
@@ -242,22 +242,22 @@
 20170317@16:01:11 [System] getLoggedInAccount 
 20170317@16:01:11 [System] getLoggedInAccount 
 20170317@16:01:11 [System] BTNAdoptMe_Click 
-20170317@16:01:11 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:01:11 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:01:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:01:16 [System] getLoggedInAccount 
 20170317@16:01:16 [System] getLoggedInAccount 
 20170317@16:01:16 [System] BTNAdoptMe_Click 
-20170317@16:01:16 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:01:16 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:01:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:01:18 [System] getLoggedInAccount 
 20170317@16:01:18 [System] getLoggedInAccount 
 20170317@16:01:18 [System] BTNAdoptMe_Click 
-20170317@16:01:18 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:01:18 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:01:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:01:20 [System] getLoggedInAccount 
 20170317@16:01:20 [System] getLoggedInAccount 
-20170317@16:01:20 [System] MessageHandler : Appointment Time 
-20170317@16:01:20 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:01:20 [System] MessageHandler : Event Time 
+20170317@16:01:20 [System] MessageHandler : Event Date (Wednesday) 
 20170317@16:01:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:01:22 [System] getLoggedInAccount 
 20170317@16:01:22 [System] getLoggedInAccount 
@@ -303,12 +303,12 @@
 20170317@16:05:18 [System] getLoggedInAccount 
 20170317@16:05:18 [System] getLoggedInAccount 
 20170317@16:05:18 [System] BTNAdoptMe_Click 
-20170317@16:05:18 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:05:18 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:05:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
 20170317@16:05:31 [System] getLoggedInAccount 
 20170317@16:05:31 [System] getLoggedInAccount 
 20170317@16:05:31 [System] BTNAdoptMe_Click 
-20170317@16:05:31 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:05:31 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:05:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
 20170317@16:05:34 [System] getLoggedInAccount 
 20170317@16:05:34 [System] getLoggedInAccount 
@@ -325,12 +325,12 @@
 20170317@16:06:15 [System] getLoggedInAccount 
 20170317@16:06:15 [System] getLoggedInAccount 
 20170317@16:06:15 [System] BTNAdoptMe_Click 
-20170317@16:06:15 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:06:15 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:06:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:06:17 [System] getLoggedInAccount 
 20170317@16:06:17 [System] getLoggedInAccount 
-20170317@16:06:17 [System] MessageHandler : Appointment Time 
-20170317@16:06:17 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:06:17 [System] MessageHandler : Event Time 
+20170317@16:06:17 [System] MessageHandler : Event Date (Wednesday) 
 20170317@16:06:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:06:19 [System] getLoggedInAccount 
 20170317@16:06:19 [System] getLoggedInAccount 
@@ -348,12 +348,12 @@
 20170317@16:09:37 [System] getLoggedInAccount 
 20170317@16:09:37 [System] getLoggedInAccount 
 20170317@16:09:37 [System] BTNAdoptMe_Click 
-20170317@16:09:37 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:09:37 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:09:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:09:47 [System] getLoggedInAccount 
 20170317@16:09:47 [System] getLoggedInAccount 
-20170317@16:09:47 [System] MessageHandler : Appointment Time 
-20170317@16:09:47 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@16:09:47 [System] MessageHandler : Event Time 
+20170317@16:09:47 [System] MessageHandler : Event Date (Thursday) 
 20170317@16:10:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:10:01 [System] getLoggedInAccount 
 20170317@16:10:01 [System] getLoggedInAccount 
@@ -371,7 +371,7 @@
 20170317@16:14:08 [System] getLoggedInAccount 
 20170317@16:14:08 [System] getLoggedInAccount 
 20170317@16:14:08 [System] BTNAdoptMe_Click 
-20170317@16:14:08 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:14:08 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:14:25 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@16:14:25 [System] getLoggedInAccount 
 20170317@16:14:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -385,7 +385,7 @@
 20170317@16:14:55 [System] getLoggedInAccount 
 20170317@16:15:02 [System] getLoggedInAccount 
 20170317@16:15:02 [System] BTNAdoptMe_Click 
-20170317@16:15:02 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:15:02 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:15:24 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@16:15:24 [System] getLoggedInAccount 
 20170317@16:15:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -406,7 +406,7 @@
 20170317@16:15:35 [System] getLoggedInAccount 
 20170317@16:15:35 [System] getLoggedInAccount 
 20170317@16:15:35 [System] BTNAdoptMe_Click 
-20170317@16:15:35 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:15:35 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:15:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:15:54 [System] getAdoptInfo 
 20170317@16:15:54 [System] getShopInfo 
@@ -418,12 +418,12 @@
 20170317@16:15:58 [System] getLoggedInAccount 
 20170317@16:15:58 [System] getLoggedInAccount 
 20170317@16:15:58 [System] BTNAdoptMe_Click 
-20170317@16:15:58 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:15:58 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:16:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:16:01 [System] getLoggedInAccount 
 20170317@16:16:01 [System] getLoggedInAccount 
-20170317@16:16:01 [System] MessageHandler : Appointment Time 
-20170317@16:16:01 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:16:01 [System] MessageHandler : Event Time 
+20170317@16:16:01 [System] MessageHandler : Event Date (Wednesday) 
 20170317@16:16:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:16:03 [System] getLoggedInAccount 
 20170317@16:16:03 [System] getLoggedInAccount 
@@ -434,8 +434,8 @@
 20170317@16:16:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:16:15 [System] getLoggedInAccount 
 20170317@16:16:15 [System] getLoggedInAccount 
-20170317@16:16:15 [System] MessageHandler : Appointment Time 
-20170317@16:16:15 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@16:16:15 [System] MessageHandler : Event Time 
+20170317@16:16:15 [System] MessageHandler : Event Date (Thursday) 
 20170317@16:16:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:16:18 [System] getLoggedInAccount 
 20170317@16:16:18 [System] getLoggedInAccount 
@@ -450,8 +450,8 @@
 20170317@16:17:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:17:02 [System] getLoggedInAccount 
 20170317@16:17:02 [System] getLoggedInAccount 
-20170317@16:17:02 [System] MessageHandler : Appointment Time 
-20170317@16:17:02 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:17:02 [System] MessageHandler : Event Time 
+20170317@16:17:02 [System] MessageHandler : Event Date (Wednesday) 
 20170317@16:17:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:17:04 [System] getLoggedInAccount 
 20170317@16:17:04 [System] getLoggedInAccount 
@@ -470,8 +470,8 @@
 20170317@16:19:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:19:25 [System] getLoggedInAccount 
 20170317@16:19:25 [System] getLoggedInAccount 
-20170317@16:19:25 [System] MessageHandler : Appointment Time 
-20170317@16:19:25 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@16:19:25 [System] MessageHandler : Event Time 
+20170317@16:19:25 [System] MessageHandler : Event Date (Thursday) 
 20170317@16:19:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:19:27 [System] getLoggedInAccount 
 20170317@16:19:27 [System] getLoggedInAccount 
@@ -494,52 +494,52 @@
 20170317@16:20:46 [System] getLoggedInAccount 
 20170317@16:20:46 [System] getLoggedInAccount 
 20170317@16:20:46 [System] BTNAdoptMe_Click 
-20170317@16:20:46 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:20:46 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:20:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:20:49 [System] getLoggedInAccount 
 20170317@16:20:49 [System] getLoggedInAccount 
-20170317@16:20:49 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170317@16:20:49 [System] MessageHandler : Appointment Date 
+20170317@16:20:49 [System] MessageHandler : Event Time - Not open on selected date 
+20170317@16:20:49 [System] MessageHandler : Event Date 
 20170317@16:20:57 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:20:57 [System] getLoggedInAccount 
 20170317@16:20:57 [System] getLoggedInAccount 
-20170317@16:20:57 [System] MessageHandler : Appointment Time 
-20170317@16:20:57 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:20:57 [System] MessageHandler : Event Time 
+20170317@16:20:57 [System] MessageHandler : Event Date (Wednesday) 
 20170317@16:20:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:20:59 [System] getLoggedInAccount 
 20170317@16:20:59 [System] getLoggedInAccount 
 20170317@16:20:59 [System] BTNAdoptMe_Click 
-20170317@16:20:59 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:20:59 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:21:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:21:01 [System] getLoggedInAccount 
 20170317@16:21:01 [System] getLoggedInAccount 
 20170317@16:21:01 [System] BTNAdoptMe_Click 
-20170317@16:21:01 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:01 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:21:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:21:01 [System] getLoggedInAccount 
 20170317@16:21:01 [System] getLoggedInAccount 
 20170317@16:21:01 [System] BTNAdoptMe_Click 
-20170317@16:21:01 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:01 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:21:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:21:01 [System] getLoggedInAccount 
 20170317@16:21:01 [System] getLoggedInAccount 
 20170317@16:21:01 [System] BTNAdoptMe_Click 
-20170317@16:21:01 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:01 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:21:01 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:21:01 [System] getLoggedInAccount 
 20170317@16:21:01 [System] getLoggedInAccount 
 20170317@16:21:01 [System] BTNAdoptMe_Click 
-20170317@16:21:01 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:01 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:21:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:21:02 [System] getLoggedInAccount 
 20170317@16:21:02 [System] getLoggedInAccount 
 20170317@16:21:02 [System] BTNAdoptMe_Click 
-20170317@16:21:02 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:02 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:21:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:21:03 [System] getLoggedInAccount 
 20170317@16:21:03 [System] getLoggedInAccount 
 20170317@16:21:03 [System] BTNAdoptMe_Click 
-20170317@16:21:03 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:03 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:21:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:21:17 [System] getAdoptInfo 
 20170317@16:21:17 [System] getShopInfo 
@@ -550,13 +550,13 @@
 20170317@16:21:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:21:21 [System] getLoggedInAccount 
 20170317@16:21:21 [System] getLoggedInAccount 
-20170317@16:21:21 [System] MessageHandler : Appointment Time 
-20170317@16:21:21 [System] MessageHandler : Appointment Date (Friday) 
+20170317@16:21:21 [System] MessageHandler : Event Time 
+20170317@16:21:21 [System] MessageHandler : Event Date (Friday) 
 20170317@16:21:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:21:22 [System] getLoggedInAccount 
 20170317@16:21:22 [System] getLoggedInAccount 
 20170317@16:21:22 [System] BTNAdoptMe_Click 
-20170317@16:21:22 [System] MessageHandler : Appointment date or time cannot be empty 
+20170317@16:21:22 [System] MessageHandler : Event date or time cannot be empty 
 20170317@16:21:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:21:25 [System] getLoggedInAccount 
 20170317@16:21:25 [System] getLoggedInAccount 
@@ -591,8 +591,8 @@
 20170317@16:22:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:22:51 [System] getLoggedInAccount 
 20170317@16:22:51 [System] getLoggedInAccount 
-20170317@16:22:51 [System] MessageHandler : Appointment Time 
-20170317@16:22:51 [System] MessageHandler : Appointment Date (Sunday) 
+20170317@16:22:51 [System] MessageHandler : Event Time 
+20170317@16:22:51 [System] MessageHandler : Event Date (Sunday) 
 20170317@16:23:13 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@16:23:13 [System] getLoggedInAccount 
 20170317@16:23:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -605,8 +605,8 @@
 20170317@16:23:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:23:29 [System] getLoggedInAccount 
 20170317@16:23:29 [System] getLoggedInAccount 
-20170317@16:23:29 [System] MessageHandler : Appointment Time 
-20170317@16:23:29 [System] MessageHandler : Appointment Date (Friday) 
+20170317@16:23:29 [System] MessageHandler : Event Time 
+20170317@16:23:29 [System] MessageHandler : Event Date (Friday) 
 20170317@16:24:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:24:02 [System] getAdoptInfo 
 20170317@16:24:02 [System] getShopInfo 
@@ -617,8 +617,8 @@
 20170317@16:24:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:24:07 [System] getLoggedInAccount 
 20170317@16:24:07 [System] getLoggedInAccount 
-20170317@16:24:07 [System] MessageHandler : Appointment Time 
-20170317@16:24:07 [System] MessageHandler : Appointment Date (Monday) 
+20170317@16:24:07 [System] MessageHandler : Event Time 
+20170317@16:24:07 [System] MessageHandler : Event Date (Monday) 
 20170317@16:25:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:25:16 [System] getLoggedInAccount 
 20170317@16:25:16 [System] getAdoptInfo 
@@ -643,8 +643,8 @@
 20170317@16:28:36 [System] getLoggedInAccount 
 20170317@16:28:36 [System] BTNAppmtDate_Click 
 20170317@16:28:36 [System] checkOperatingHours 
-20170317@16:28:36 [System] MessageHandler : Appointment Time 
-20170317@16:28:36 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:28:36 [System] MessageHandler : Event Time 
+20170317@16:28:36 [System] MessageHandler : Event Date (Wednesday) 
 20170317@16:29:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:29:59 [System] getLoggedInAccount 
 20170317@16:29:59 [System] loadAdoptionInfo 
@@ -662,8 +662,8 @@
 20170317@16:30:04 [System] getLoggedInAccount 
 20170317@16:30:04 [System] BTNAppmtDate_Click 
 20170317@16:30:04 [System] checkOperatingHours 
-20170317@16:30:05 [System] MessageHandler : Appointment Time 
-20170317@16:30:05 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:30:05 [System] MessageHandler : Event Time 
+20170317@16:30:05 [System] MessageHandler : Event Date (Wednesday) 
 20170317@16:30:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:30:16 [System] getLoggedInAccount 
 20170317@16:30:16 [System] getLoggedInAccount 
@@ -696,8 +696,8 @@
 20170317@16:30:34 [System] getLoggedInAccount 
 20170317@16:30:34 [System] BTNAppmtDate_Click 
 20170317@16:30:34 [System] checkOperatingHours 
-20170317@16:30:34 [System] MessageHandler : Appointment Time 
-20170317@16:30:34 [System] MessageHandler : Appointment Date (Monday) 
+20170317@16:30:34 [System] MessageHandler : Event Time 
+20170317@16:30:34 [System] MessageHandler : Event Date (Monday) 
 20170317@16:30:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:30:36 [System] getLoggedInAccount 
 20170317@16:30:36 [System] getLoggedInAccount 
@@ -744,8 +744,8 @@
 20170317@16:33:48 [System] getLoggedInAccount 
 20170317@16:33:48 [System] BTNAppmtDate_Click 
 20170317@16:33:48 [System] checkOperatingHours 
-20170317@16:33:48 [System] MessageHandler : Appointment Time 
-20170317@16:33:48 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:33:48 [System] MessageHandler : Event Time 
+20170317@16:33:48 [System] MessageHandler : Event Date (Wednesday) 
 20170317@16:34:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:34:06 [System] getLoggedInAccount 
 20170317@16:34:06 [System] getLoggedInAccount 
@@ -771,15 +771,15 @@
 20170317@16:37:28 [System] getLoggedInAccount 
 20170317@16:37:28 [System] BTNAppmtDate_Click 
 20170317@16:37:28 [System] loadOperatingHours 
-20170317@16:37:28 [System] MessageHandler : Appointment Time 
-20170317@16:37:28 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@16:37:28 [System] MessageHandler : Event Time 
+20170317@16:37:28 [System] MessageHandler : Event Date (Thursday) 
 20170317@16:37:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:37:31 [System] getLoggedInAccount 
 20170317@16:37:31 [System] getLoggedInAccount 
 20170317@16:37:31 [System] DDLAppmtTime_SelectedIndexChanged 
 20170317@16:51:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:51:52 [System] getLoggedInAccount 
-20170317@16:51:52 [System] saveTempAppointment 
+20170317@16:51:52 [System] saveTempEvent 
 20170317@16:51:52 [System] getLoggedInAccount 
 20170317@16:51:52 [System] BTNAppmtDate_Click 
 20170317@16:51:52 [System] loadOperatingHours 
@@ -797,10 +797,10 @@
 20170317@16:52:10 [System] DLMorePet_ItemDataBound 
 20170317@16:52:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:52:14 [System] getLoggedInAccount 
-20170317@16:52:14 [System] saveTempAppointment 
+20170317@16:52:14 [System] saveTempEvent 
 20170317@16:52:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:52:18 [System] getLoggedInAccount 
-20170317@16:52:18 [System] saveTempAppointment 
+20170317@16:52:18 [System] saveTempEvent 
 20170317@16:52:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:52:20 [System] getLoggedInAccount 
 20170317@16:52:20 [System] loadAdoptionInfo 
@@ -831,7 +831,7 @@
 20170317@16:55:25 [System] DLMorePet_ItemDataBound 
 20170317@16:55:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:55:27 [System] getLoggedInAccount 
-20170317@16:55:27 [System] saveTempAppointment 
+20170317@16:55:27 [System] saveTempEvent 
 20170317@16:55:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:55:58 [System] getLoggedInAccount 
 20170317@16:55:58 [System] loadAdoptionInfo 
@@ -870,12 +870,12 @@
 20170317@16:56:23 [System] DLMorePet_ItemDataBound 
 20170317@16:56:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:56:29 [System] getLoggedInAccount 
-20170317@16:56:29 [System] saveTempAppointment 
+20170317@16:56:29 [System] saveTempEvent 
 20170317@16:56:29 [System] getLoggedInAccount 
 20170317@16:56:29 [System] BTNAppmtDate_Click 
 20170317@16:56:29 [System] loadOperatingHours 
-20170317@16:56:29 [System] MessageHandler : Appointment Time 
-20170317@16:56:29 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@16:56:29 [System] MessageHandler : Event Time 
+20170317@16:56:29 [System] MessageHandler : Event Date (Wednesday) 
 20170317@16:57:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:57:08 [System] getLoggedInAccount 
 20170317@16:57:08 [System] loadAdoptionInfo 
@@ -893,9 +893,9 @@
 20170317@16:57:13 [System] getLoggedInAccount 
 20170317@16:57:13 [System] BTNAppmtDate_Click 
 20170317@16:57:13 [System] loadOperatingHours 
-20170317@16:57:13 [System] MessageHandler : Appointment Time 
-20170317@16:57:13 [System] MessageHandler : Appointment Date (Friday) 
-20170317@16:57:13 [System] saveTempAppointment 
+20170317@16:57:13 [System] MessageHandler : Event Time 
+20170317@16:57:13 [System] MessageHandler : Event Date (Friday) 
+20170317@16:57:13 [System] saveTempEvent 
 20170317@16:57:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@16:57:47 [System] getLoggedInAccount 
 20170317@16:57:47 [System] getLoggedInAccount 
@@ -918,9 +918,9 @@
 20170317@16:57:53 [System] getLoggedInAccount 
 20170317@16:57:53 [System] BTNAppmtDate_Click 
 20170317@16:57:53 [System] loadOperatingHours 
-20170317@16:57:53 [System] MessageHandler : Appointment Time 
-20170317@16:57:53 [System] MessageHandler : Appointment Date (Friday) 
-20170317@16:57:53 [System] saveTempAppointment 
+20170317@16:57:53 [System] MessageHandler : Event Time 
+20170317@16:57:53 [System] MessageHandler : Event Date (Friday) 
+20170317@16:57:53 [System] saveTempEvent 
 20170317@17:00:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:00:04 [System] getLoggedInAccount 
 20170317@17:00:04 [System] loadAdoptionInfo 
@@ -950,9 +950,9 @@
 20170317@17:00:22 [System] getLoggedInAccount 
 20170317@17:00:22 [System] BTNAppmtDate_Click 
 20170317@17:00:22 [System] loadOperatingHours 
-20170317@17:00:22 [System] MessageHandler : Appointment Time 
-20170317@17:00:22 [System] MessageHandler : Appointment Date (Sunday) 
-20170317@17:00:22 [System] saveTempAppointment 
+20170317@17:00:22 [System] MessageHandler : Event Time 
+20170317@17:00:22 [System] MessageHandler : Event Date (Sunday) 
+20170317@17:00:22 [System] saveTempEvent 
 20170317@17:00:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:00:56 [System] getLoggedInAccount 
 20170317@17:00:56 [System] loadAdoptionInfo 
@@ -970,14 +970,14 @@
 20170317@17:01:02 [System] getLoggedInAccount 
 20170317@17:01:02 [System] BTNAppmtDate_Click 
 20170317@17:01:02 [System] loadOperatingHours 
-20170317@17:01:02 [System] MessageHandler : Appointment Time 
-20170317@17:01:02 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:01:02 [System] saveTempAppointment 
+20170317@17:01:02 [System] MessageHandler : Event Time 
+20170317@17:01:02 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:01:02 [System] saveTempEvent 
 20170317@17:01:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:01:06 [System] getLoggedInAccount 
 20170317@17:01:06 [System] getLoggedInAccount 
 20170317@17:01:06 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:01:06 [System] saveTempAppointment 
+20170317@17:01:06 [System] saveTempEvent 
 20170317@17:01:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:01:31 [System] getLoggedInAccount 
 20170317@17:01:31 [System] loadAdoptionInfo 
@@ -995,22 +995,22 @@
 20170317@17:01:37 [System] getLoggedInAccount 
 20170317@17:01:37 [System] BTNAppmtDate_Click 
 20170317@17:01:37 [System] loadOperatingHours 
-20170317@17:01:37 [System] MessageHandler : Appointment Time 
-20170317@17:01:37 [System] MessageHandler : Appointment Date (Monday) 
-20170317@17:01:37 [System] saveTempAppointment 
+20170317@17:01:37 [System] MessageHandler : Event Time 
+20170317@17:01:37 [System] MessageHandler : Event Date (Monday) 
+20170317@17:01:37 [System] saveTempEvent 
 20170317@17:01:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:01:39 [System] getLoggedInAccount 
 20170317@17:01:39 [System] getLoggedInAccount 
 20170317@17:01:39 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:01:39 [System] saveTempAppointment 
+20170317@17:01:39 [System] saveTempEvent 
 20170317@17:01:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:01:44 [System] getLoggedInAccount 
 20170317@17:01:44 [System] getLoggedInAccount 
 20170317@17:01:44 [System] BTNAppmtDate_Click 
 20170317@17:01:44 [System] loadOperatingHours 
-20170317@17:01:44 [System] MessageHandler : Appointment Time 
-20170317@17:01:44 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:01:44 [System] saveTempAppointment 
+20170317@17:01:44 [System] MessageHandler : Event Time 
+20170317@17:01:44 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:01:44 [System] saveTempEvent 
 20170317@17:02:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:02:43 [System] getLoggedInAccount 
 20170317@17:02:43 [System] loadAdoptionInfo 
@@ -1028,27 +1028,27 @@
 20170317@17:02:47 [System] getLoggedInAccount 
 20170317@17:02:47 [System] BTNAppmtDate_Click 
 20170317@17:02:47 [System] loadOperatingHours 
-20170317@17:02:47 [System] MessageHandler : Appointment Time 
-20170317@17:02:47 [System] MessageHandler : Appointment Date (Monday) 
-20170317@17:02:47 [System] saveTempAppointment 
+20170317@17:02:47 [System] MessageHandler : Event Time 
+20170317@17:02:47 [System] MessageHandler : Event Date (Monday) 
+20170317@17:02:47 [System] saveTempEvent 
 20170317@17:02:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:02:51 [System] getLoggedInAccount 
 20170317@17:02:51 [System] getLoggedInAccount 
 20170317@17:02:51 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:02:51 [System] saveTempAppointment 
+20170317@17:02:51 [System] saveTempEvent 
 20170317@17:02:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:02:54 [System] getLoggedInAccount 
 20170317@17:02:54 [System] getLoggedInAccount 
 20170317@17:02:54 [System] BTNAppmtDate_Click 
 20170317@17:02:54 [System] loadOperatingHours 
-20170317@17:02:54 [System] MessageHandler : Appointment Time 
-20170317@17:02:54 [System] MessageHandler : Appointment Date (Saturday) 
-20170317@17:02:54 [System] saveTempAppointment 
+20170317@17:02:54 [System] MessageHandler : Event Time 
+20170317@17:02:54 [System] MessageHandler : Event Date (Saturday) 
+20170317@17:02:54 [System] saveTempEvent 
 20170317@17:03:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:03:00 [System] getLoggedInAccount 
 20170317@17:03:00 [System] getLoggedInAccount 
 20170317@17:03:00 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:03:00 [System] saveTempAppointment 
+20170317@17:03:00 [System] saveTempEvent 
 20170317@17:03:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:03:38 [System] getLoggedInAccount 
 20170317@17:03:38 [System] getLoggedInAccount 
@@ -1072,9 +1072,9 @@
 20170317@17:03:42 [System] getLoggedInAccount 
 20170317@17:03:42 [System] BTNAppmtDate_Click 
 20170317@17:03:42 [System] loadOperatingHours 
-20170317@17:03:42 [System] MessageHandler : Appointment Time 
-20170317@17:03:42 [System] MessageHandler : Appointment Date (Saturday) 
-20170317@17:03:42 [System] saveTempAppointment 
+20170317@17:03:42 [System] MessageHandler : Event Time 
+20170317@17:03:42 [System] MessageHandler : Event Date (Saturday) 
+20170317@17:03:42 [System] saveTempEvent 
 20170317@17:03:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:03:50 [System] getLoggedInAccount 
 20170317@17:03:50 [System] loadAdoptionInfo 
@@ -1092,9 +1092,9 @@
 20170317@17:03:55 [System] getLoggedInAccount 
 20170317@17:03:55 [System] BTNAppmtDate_Click 
 20170317@17:03:55 [System] loadOperatingHours 
-20170317@17:03:55 [System] MessageHandler : Appointment Time 
-20170317@17:03:55 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:03:55 [System] saveTempAppointment 
+20170317@17:03:55 [System] MessageHandler : Event Time 
+20170317@17:03:55 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:03:55 [System] saveTempEvent 
 20170317@17:04:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:04:04 [System] getLoggedInAccount 
 20170317@17:04:04 [System] loadAdoptionInfo 
@@ -1112,14 +1112,14 @@
 20170317@17:04:22 [System] getLoggedInAccount 
 20170317@17:04:22 [System] BTNAppmtDate_Click 
 20170317@17:04:22 [System] loadOperatingHours 
-20170317@17:04:22 [System] MessageHandler : Appointment Time 
-20170317@17:04:22 [System] MessageHandler : Appointment Date (Wednesday) 
-20170317@17:04:22 [System] saveTempAppointment 
+20170317@17:04:22 [System] MessageHandler : Event Time 
+20170317@17:04:22 [System] MessageHandler : Event Date (Wednesday) 
+20170317@17:04:22 [System] saveTempEvent 
 20170317@17:04:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:04:25 [System] getLoggedInAccount 
 20170317@17:04:25 [System] getLoggedInAccount 
 20170317@17:04:25 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:04:25 [System] saveTempAppointment 
+20170317@17:04:25 [System] saveTempEvent 
 20170317@17:08:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:08:28 [System] getLoggedInAccount 
 20170317@17:08:28 [System] loadAdoptionInfo 
@@ -1143,18 +1143,18 @@
 20170317@17:09:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:09:32 [System] getLoggedInAccount 
 20170317@17:09:32 [System] loadOperatingHours 
-20170317@17:09:32 [System] MessageHandler : Appointment Time 
-20170317@17:09:32 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:09:32 [System] MessageHandler : Event Time 
+20170317@17:09:32 [System] MessageHandler : Event Date (Thursday) 
 20170317@17:09:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:09:35 [System] getLoggedInAccount 
 20170317@17:09:35 [System] loadOperatingHours 
-20170317@17:09:35 [System] MessageHandler : Appointment Time 
-20170317@17:09:35 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:09:35 [System] MessageHandler : Event Time 
+20170317@17:09:35 [System] MessageHandler : Event Date (Wednesday) 
 20170317@17:09:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:09:37 [System] getLoggedInAccount 
 20170317@17:09:37 [System] loadOperatingHours 
-20170317@17:09:37 [System] MessageHandler : Appointment Time 
-20170317@17:09:37 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:09:37 [System] MessageHandler : Event Time 
+20170317@17:09:37 [System] MessageHandler : Event Date (Thursday) 
 20170317@17:09:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:09:59 [System] getLoggedInAccount 
 20170317@17:09:59 [System] loadAdoptionInfo 
@@ -1200,39 +1200,39 @@
 20170317@17:10:27 [System] getLoggedInAccount 
 20170317@17:10:27 [System] BTNAppmtDate_Click 
 20170317@17:10:27 [System] loadOperatingHours 
-20170317@17:10:27 [System] MessageHandler : Appointment Time 
-20170317@17:10:27 [System] MessageHandler : Appointment Date (Wednesday) 
-20170317@17:10:27 [System] saveTempAppointment 
+20170317@17:10:27 [System] MessageHandler : Event Time 
+20170317@17:10:27 [System] MessageHandler : Event Date (Wednesday) 
+20170317@17:10:27 [System] saveTempEvent 
 20170317@17:10:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:10:31 [System] getLoggedInAccount 
 20170317@17:10:31 [System] loadOperatingHours 
-20170317@17:10:31 [System] MessageHandler : Appointment Time 
-20170317@17:10:31 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:31 [System] MessageHandler : Event Time 
+20170317@17:10:31 [System] MessageHandler : Event Date (Wednesday) 
 20170317@17:10:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:10:35 [System] getLoggedInAccount 
 20170317@17:10:35 [System] loadOperatingHours 
-20170317@17:10:35 [System] MessageHandler : Appointment Time 
-20170317@17:10:35 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:35 [System] MessageHandler : Event Time 
+20170317@17:10:35 [System] MessageHandler : Event Date (Wednesday) 
 20170317@17:10:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:10:38 [System] getLoggedInAccount 
 20170317@17:10:38 [System] loadOperatingHours 
-20170317@17:10:38 [System] MessageHandler : Appointment Time 
-20170317@17:10:38 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:38 [System] MessageHandler : Event Time 
+20170317@17:10:38 [System] MessageHandler : Event Date (Wednesday) 
 20170317@17:10:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:10:39 [System] getLoggedInAccount 
 20170317@17:10:39 [System] loadOperatingHours 
-20170317@17:10:39 [System] MessageHandler : Appointment Time 
-20170317@17:10:39 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:39 [System] MessageHandler : Event Time 
+20170317@17:10:39 [System] MessageHandler : Event Date (Wednesday) 
 20170317@17:10:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:10:40 [System] getLoggedInAccount 
 20170317@17:10:40 [System] loadOperatingHours 
-20170317@17:10:40 [System] MessageHandler : Appointment Time 
-20170317@17:10:40 [System] MessageHandler : Appointment Date (Wednesday) 
+20170317@17:10:40 [System] MessageHandler : Event Time 
+20170317@17:10:40 [System] MessageHandler : Event Date (Wednesday) 
 20170317@17:10:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:10:44 [System] getLoggedInAccount 
 20170317@17:10:44 [System] loadOperatingHours 
-20170317@17:10:44 [System] MessageHandler : Appointment Time 
-20170317@17:10:45 [System] MessageHandler : Appointment Date (Friday) 
+20170317@17:10:44 [System] MessageHandler : Event Time 
+20170317@17:10:45 [System] MessageHandler : Event Date (Friday) 
 20170317@17:11:29 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:11:29 [System] getLoggedInAccount 
 20170317@17:11:29 [System] loadAdoptionInfo 
@@ -1248,19 +1248,19 @@
 20170317@17:11:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:11:33 [System] getLoggedInAccount 
 20170317@17:11:33 [System] loadOperatingHours 
-20170317@17:11:33 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170317@17:11:33 [System] MessageHandler : Appointment Date 
+20170317@17:11:33 [System] MessageHandler : Event Time - Not open on selected date 
+20170317@17:11:33 [System] MessageHandler : Event Date 
 20170317@17:11:33 [System] getLoggedInAccount 
 20170317@17:11:33 [System] BTNAppmtDate_Click 
 20170317@17:11:33 [System] loadOperatingHours 
-20170317@17:11:33 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170317@17:11:33 [System] MessageHandler : Appointment Date 
-20170317@17:11:33 [System] saveTempAppointment 
+20170317@17:11:33 [System] MessageHandler : Event Time - Not open on selected date 
+20170317@17:11:33 [System] MessageHandler : Event Date 
+20170317@17:11:33 [System] saveTempEvent 
 20170317@17:11:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:11:36 [System] getLoggedInAccount 
 20170317@17:11:36 [System] loadOperatingHours 
-20170317@17:11:36 [System] MessageHandler : Appointment Time 
-20170317@17:11:36 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@17:11:36 [System] MessageHandler : Event Time 
+20170317@17:11:36 [System] MessageHandler : Event Date (Thursday) 
 20170317@17:11:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:11:59 [System] getLoggedInAccount 
 20170317@17:12:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -1280,9 +1280,9 @@
 20170317@17:12:04 [System] getLoggedInAccount 
 20170317@17:12:04 [System] BTNAppmtDate_Click 
 20170317@17:12:04 [System] loadOperatingHours 
-20170317@17:12:05 [System] MessageHandler : Appointment Time 
-20170317@17:12:05 [System] MessageHandler : Appointment Date (Wednesday) 
-20170317@17:12:05 [System] saveTempAppointment 
+20170317@17:12:05 [System] MessageHandler : Event Time 
+20170317@17:12:05 [System] MessageHandler : Event Date (Wednesday) 
+20170317@17:12:05 [System] saveTempEvent 
 20170317@17:12:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:12:07 [System] getLoggedInAccount 
 20170317@17:12:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -1328,30 +1328,30 @@
 20170317@17:14:31 [System] getLoggedInAccount 
 20170317@17:14:31 [System] BTNAppmtDate_Click 
 20170317@17:14:31 [System] loadOperatingHours 
-20170317@17:14:31 [System] MessageHandler : Appointment Time 
-20170317@17:14:31 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:14:31 [System] saveTempAppointment 
+20170317@17:14:31 [System] MessageHandler : Event Time 
+20170317@17:14:31 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:14:31 [System] saveTempEvent 
 20170317@17:14:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:14:38 [System] getLoggedInAccount 
 20170317@17:14:38 [System] getLoggedInAccount 
 20170317@17:14:38 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:14:38 [System] saveTempAppointment 
+20170317@17:14:38 [System] saveTempEvent 
 20170317@17:15:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:15:21 [System] getLoggedInAccount 
 20170317@17:15:21 [System] getLoggedInAccount 
 20170317@17:15:21 [System] BTNAppmtDate_Click 
 20170317@17:15:21 [System] loadOperatingHours 
-20170317@17:15:21 [System] MessageHandler : Appointment Time 
-20170317@17:15:21 [System] MessageHandler : Appointment Date (Wednesday) 
-20170317@17:15:21 [System] saveTempAppointment 
+20170317@17:15:21 [System] MessageHandler : Event Time 
+20170317@17:15:21 [System] MessageHandler : Event Date (Wednesday) 
+20170317@17:15:21 [System] saveTempEvent 
 20170317@17:15:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:15:31 [System] getLoggedInAccount 
 20170317@17:15:31 [System] getLoggedInAccount 
 20170317@17:15:31 [System] BTNAppmtDate_Click 
 20170317@17:15:31 [System] loadOperatingHours 
-20170317@17:15:31 [System] MessageHandler : Appointment Time 
-20170317@17:15:31 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:15:31 [System] saveTempAppointment 
+20170317@17:15:31 [System] MessageHandler : Event Time 
+20170317@17:15:31 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:15:31 [System] saveTempEvent 
 20170317@17:15:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:15:46 [System] getLoggedInAccount 
 20170317@17:15:46 [System] loadAdoptionInfo 
@@ -1369,22 +1369,22 @@
 20170317@17:15:52 [System] getLoggedInAccount 
 20170317@17:15:52 [System] BTNAppmtDate_Click 
 20170317@17:15:52 [System] loadOperatingHours 
-20170317@17:15:52 [System] MessageHandler : Appointment Time 
-20170317@17:15:52 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:15:52 [System] saveTempAppointment 
+20170317@17:15:52 [System] MessageHandler : Event Time 
+20170317@17:15:52 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:15:52 [System] saveTempEvent 
 20170317@17:15:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:15:59 [System] getLoggedInAccount 
 20170317@17:15:59 [System] getLoggedInAccount 
 20170317@17:15:59 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:15:59 [System] saveTempAppointment 
+20170317@17:15:59 [System] saveTempEvent 
 20170317@17:16:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:16:03 [System] getLoggedInAccount 
 20170317@17:16:03 [System] getLoggedInAccount 
 20170317@17:16:03 [System] BTNAppmtDate_Click 
 20170317@17:16:03 [System] loadOperatingHours 
-20170317@17:16:03 [System] MessageHandler : Appointment Time 
-20170317@17:16:03 [System] MessageHandler : Appointment Date (Saturday) 
-20170317@17:16:03 [System] saveTempAppointment 
+20170317@17:16:03 [System] MessageHandler : Event Time 
+20170317@17:16:03 [System] MessageHandler : Event Date (Saturday) 
+20170317@17:16:03 [System] saveTempEvent 
 20170317@17:17:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:17:59 [System] getLoggedInAccount 
 20170317@17:17:59 [System] loadAdoptionInfo 
@@ -1416,22 +1416,22 @@
 20170317@17:18:14 [System] getLoggedInAccount 
 20170317@17:18:14 [System] BTNAppmtDate_Click 
 20170317@17:18:14 [System] loadOperatingHours 
-20170317@17:18:14 [System] MessageHandler : Appointment Time 
-20170317@17:18:14 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:18:14 [System] saveTempAppointment 
+20170317@17:18:14 [System] MessageHandler : Event Time 
+20170317@17:18:14 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:18:14 [System] saveTempEvent 
 20170317@17:18:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:18:18 [System] getLoggedInAccount 
 20170317@17:18:18 [System] getLoggedInAccount 
 20170317@17:18:18 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:18:19 [System] saveTempAppointment 
+20170317@17:18:19 [System] saveTempEvent 
 20170317@17:18:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:18:24 [System] getLoggedInAccount 
 20170317@17:18:24 [System] getLoggedInAccount 
 20170317@17:18:24 [System] BTNAppmtDate_Click 
 20170317@17:18:24 [System] loadOperatingHours 
-20170317@17:18:24 [System] MessageHandler : Appointment Time 
-20170317@17:18:24 [System] MessageHandler : Appointment Date (Saturday) 
-20170317@17:18:24 [System] saveTempAppointment 
+20170317@17:18:24 [System] MessageHandler : Event Time 
+20170317@17:18:24 [System] MessageHandler : Event Date (Saturday) 
+20170317@17:18:24 [System] saveTempEvent 
 20170317@17:22:07 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@17:22:07 [System] getLoggedInAccount 
 20170317@17:22:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -1451,22 +1451,22 @@
 20170317@17:22:21 [System] getLoggedInAccount 
 20170317@17:22:21 [System] BTNAppmtDate_Click 
 20170317@17:22:21 [System] loadOperatingHours 
-20170317@17:22:21 [System] MessageHandler : Appointment Time 
-20170317@17:22:21 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:22:37 [System] saveTempAppointment 
+20170317@17:22:21 [System] MessageHandler : Event Time 
+20170317@17:22:21 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:22:37 [System] saveTempEvent 
 20170317@17:22:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:22:42 [System] getLoggedInAccount 
 20170317@17:22:42 [System] getLoggedInAccount 
 20170317@17:22:42 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:22:42 [System] saveTempAppointment 
+20170317@17:22:42 [System] saveTempEvent 
 20170317@17:22:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:22:46 [System] getLoggedInAccount 
 20170317@17:22:46 [System] getLoggedInAccount 
 20170317@17:22:46 [System] BTNAppmtDate_Click 
 20170317@17:22:46 [System] loadOperatingHours 
-20170317@17:22:46 [System] MessageHandler : Appointment Time 
-20170317@17:22:46 [System] MessageHandler : Appointment Date (Monday) 
-20170317@17:23:07 [System] saveTempAppointment 
+20170317@17:22:46 [System] MessageHandler : Event Time 
+20170317@17:22:46 [System] MessageHandler : Event Date (Monday) 
+20170317@17:23:07 [System] saveTempEvent 
 20170317@17:23:53 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:23:53 [System] getLoggedInAccount 
 20170317@17:23:53 [System] loadAdoptionInfo 
@@ -1484,25 +1484,25 @@
 20170317@17:23:57 [System] getLoggedInAccount 
 20170317@17:23:58 [System] BTNAppmtDate_Click 
 20170317@17:23:58 [System] loadOperatingHours 
-20170317@17:23:58 [System] MessageHandler : Appointment Time 
-20170317@17:23:58 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:23:58 [System] saveTempAppointment 
+20170317@17:23:58 [System] MessageHandler : Event Time 
+20170317@17:23:58 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:23:58 [System] saveTempEvent 
 20170317@17:24:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:24:02 [System] getLoggedInAccount 
 20170317@17:24:02 [System] getLoggedInAccount 
 20170317@17:24:02 [System] BTNAppmtDate_Click 
 20170317@17:24:02 [System] loadOperatingHours 
-20170317@17:24:02 [System] MessageHandler : Appointment Time 
-20170317@17:24:02 [System] MessageHandler : Appointment Date (Saturday) 
-20170317@17:24:02 [System] saveTempAppointment 
+20170317@17:24:02 [System] MessageHandler : Event Time 
+20170317@17:24:02 [System] MessageHandler : Event Date (Saturday) 
+20170317@17:24:02 [System] saveTempEvent 
 20170317@17:24:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:24:25 [System] getLoggedInAccount 
 20170317@17:24:25 [System] getLoggedInAccount 
 20170317@17:24:25 [System] BTNAppmtDate_Click 
 20170317@17:24:25 [System] loadOperatingHours 
-20170317@17:24:25 [System] MessageHandler : Appointment Time 
-20170317@17:24:26 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:24:26 [System] saveTempAppointment 
+20170317@17:24:25 [System] MessageHandler : Event Time 
+20170317@17:24:26 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:24:26 [System] saveTempEvent 
 20170317@17:24:42 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:24:42 [System] getLoggedInAccount 
 20170317@17:24:42 [System] loadAdoptionInfo 
@@ -1520,25 +1520,25 @@
 20170317@17:24:47 [System] getLoggedInAccount 
 20170317@17:24:47 [System] BTNAppmtDate_Click 
 20170317@17:24:47 [System] loadOperatingHours 
-20170317@17:24:47 [System] MessageHandler : Appointment Time 
-20170317@17:24:47 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:24:47 [System] saveTempAppointment 
+20170317@17:24:47 [System] MessageHandler : Event Time 
+20170317@17:24:47 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:24:47 [System] saveTempEvent 
 20170317@17:25:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:25:00 [System] getLoggedInAccount 
 20170317@17:25:00 [System] getLoggedInAccount 
 20170317@17:25:00 [System] BTNAppmtDate_Click 
 20170317@17:25:00 [System] loadOperatingHours 
-20170317@17:25:00 [System] MessageHandler : Appointment Time 
-20170317@17:25:00 [System] MessageHandler : Appointment Date (Saturday) 
-20170317@17:25:00 [System] saveTempAppointment 
+20170317@17:25:00 [System] MessageHandler : Event Time 
+20170317@17:25:00 [System] MessageHandler : Event Date (Saturday) 
+20170317@17:25:00 [System] saveTempEvent 
 20170317@17:25:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:25:03 [System] getLoggedInAccount 
 20170317@17:25:03 [System] getLoggedInAccount 
 20170317@17:25:03 [System] BTNAppmtDate_Click 
 20170317@17:25:03 [System] loadOperatingHours 
-20170317@17:25:03 [System] MessageHandler : Appointment Time 
-20170317@17:25:03 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:25:03 [System] saveTempAppointment 
+20170317@17:25:03 [System] MessageHandler : Event Time 
+20170317@17:25:03 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:25:03 [System] saveTempEvent 
 20170317@17:25:20 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:25:20 [System] getLoggedInAccount 
 20170317@17:25:20 [System] loadAdoptionInfo 
@@ -1568,17 +1568,17 @@
 20170317@17:32:51 [System] getLoggedInAccount 
 20170317@17:32:51 [System] BTNAppmtDate_Click 
 20170317@17:32:51 [System] loadOperatingHours 
-20170317@17:32:51 [System] MessageHandler : Appointment Time 
-20170317@17:32:51 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:32:51 [System] saveTempAppointment 
+20170317@17:32:51 [System] MessageHandler : Event Time 
+20170317@17:32:51 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:32:51 [System] saveTempEvent 
 20170317@17:33:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:33:07 [System] getLoggedInAccount 
 20170317@17:33:07 [System] getLoggedInAccount 
 20170317@17:33:07 [System] BTNAppmtDate_Click 
 20170317@17:33:07 [System] loadOperatingHours 
-20170317@17:33:07 [System] MessageHandler : Appointment Time 
-20170317@17:33:07 [System] MessageHandler : Appointment Date (Saturday) 
-20170317@17:33:07 [System] saveTempAppointment 
+20170317@17:33:07 [System] MessageHandler : Event Time 
+20170317@17:33:07 [System] MessageHandler : Event Date (Saturday) 
+20170317@17:33:07 [System] saveTempEvent 
 20170317@17:33:47 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:33:47 [System] getLoggedInAccount 
 20170317@17:33:47 [System] loadAdoptionInfo 
@@ -1596,17 +1596,17 @@
 20170317@17:33:52 [System] getLoggedInAccount 
 20170317@17:33:52 [System] BTNAppmtDate_Click 
 20170317@17:33:52 [System] loadOperatingHours 
-20170317@17:33:52 [System] MessageHandler : Appointment Time 
-20170317@17:33:52 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:33:52 [System] saveTempAppointment 
+20170317@17:33:52 [System] MessageHandler : Event Time 
+20170317@17:33:52 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:33:52 [System] saveTempEvent 
 20170317@17:33:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:33:56 [System] getLoggedInAccount 
 20170317@17:33:56 [System] getLoggedInAccount 
 20170317@17:33:56 [System] BTNAppmtDate_Click 
 20170317@17:33:56 [System] loadOperatingHours 
-20170317@17:33:56 [System] MessageHandler : Appointment Time 
-20170317@17:33:56 [System] MessageHandler : Appointment Date (Saturday) 
-20170317@17:33:56 [System] saveTempAppointment 
+20170317@17:33:56 [System] MessageHandler : Event Time 
+20170317@17:33:56 [System] MessageHandler : Event Date (Saturday) 
+20170317@17:33:56 [System] saveTempEvent 
 20170317@17:34:16 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:34:16 [System] getLoggedInAccount 
 20170317@17:34:16 [System] loadAdoptionInfo 
@@ -1624,17 +1624,17 @@
 20170317@17:34:21 [System] getLoggedInAccount 
 20170317@17:34:21 [System] BTNAppmtDate_Click 
 20170317@17:34:21 [System] loadOperatingHours 
-20170317@17:34:21 [System] MessageHandler : Appointment Time 
-20170317@17:34:21 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:34:21 [System] saveTempAppointment 
+20170317@17:34:21 [System] MessageHandler : Event Time 
+20170317@17:34:21 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:34:21 [System] saveTempEvent 
 20170317@17:34:24 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:34:24 [System] getLoggedInAccount 
 20170317@17:34:24 [System] getLoggedInAccount 
 20170317@17:34:24 [System] BTNAppmtDate_Click 
 20170317@17:34:24 [System] loadOperatingHours 
-20170317@17:34:24 [System] MessageHandler : Appointment Time 
-20170317@17:34:24 [System] MessageHandler : Appointment Date (Saturday) 
-20170317@17:34:24 [System] saveTempAppointment 
+20170317@17:34:24 [System] MessageHandler : Event Time 
+20170317@17:34:24 [System] MessageHandler : Event Date (Saturday) 
+20170317@17:34:24 [System] saveTempEvent 
 20170317@17:36:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:36:03 [System] getLoggedInAccount 
 20170317@17:36:03 [System] loadAdoptionInfo 
@@ -1652,14 +1652,14 @@
 20170317@17:36:08 [System] getLoggedInAccount 
 20170317@17:36:08 [System] BTNAppmtDate_Click 
 20170317@17:36:08 [System] loadOperatingHours 
-20170317@17:36:08 [System] MessageHandler : Appointment Time 
-20170317@17:36:08 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:36:08 [System] saveTempAppointment 
+20170317@17:36:08 [System] MessageHandler : Event Time 
+20170317@17:36:08 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:36:08 [System] saveTempEvent 
 20170317@17:36:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:36:11 [System] getLoggedInAccount 
 20170317@17:36:11 [System] getLoggedInAccount 
 20170317@17:36:11 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:36:11 [System] saveTempAppointment 
+20170317@17:36:11 [System] saveTempEvent 
 20170317@17:36:12 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:36:12 [System] getLoggedInAccount 
 20170317@17:36:12 [System] getLoggedInAccount 
@@ -1712,9 +1712,9 @@
 20170317@17:37:58 [System] getLoggedInAccount 
 20170317@17:37:58 [System] BTNAppmtDate_Click 
 20170317@17:37:58 [System] loadOperatingHours 
-20170317@17:37:58 [System] MessageHandler : Appointment Time 
-20170317@17:37:58 [System] MessageHandler : Appointment Date (Friday) 
-20170317@17:37:58 [System] saveTempAppointment 
+20170317@17:37:58 [System] MessageHandler : Event Time 
+20170317@17:37:58 [System] MessageHandler : Event Date (Friday) 
+20170317@17:37:58 [System] saveTempEvent 
 20170317@17:38:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=32 
 20170317@17:38:21 [System] getLoggedInAccount 
 20170317@17:38:21 [System] loadAdoptionInfo 
@@ -1777,14 +1777,14 @@
 20170317@17:41:30 [System] getLoggedInAccount 
 20170317@17:41:30 [System] BTNAppmtDate_Click 
 20170317@17:41:30 [System] loadOperatingHours 
-20170317@17:41:30 [System] MessageHandler : Appointment Time 
-20170317@17:41:30 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:41:30 [System] saveTempAppointment 
+20170317@17:41:30 [System] MessageHandler : Event Time 
+20170317@17:41:30 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:41:30 [System] saveTempEvent 
 20170317@17:41:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:41:32 [System] getLoggedInAccount 
 20170317@17:41:32 [System] getLoggedInAccount 
 20170317@17:41:32 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:41:32 [System] saveTempAppointment 
+20170317@17:41:32 [System] saveTempEvent 
 20170317@17:41:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@17:41:36 [System] getLoggedInAccount 
 20170317@17:41:36 [System] getLoggedInAccount 
@@ -1884,14 +1884,14 @@
 20170317@17:52:40 [System] getLoggedInAccount 
 20170317@17:52:40 [System] BTNAppmtDate_Click 
 20170317@17:52:40 [System] loadOperatingHours 
-20170317@17:52:40 [System] MessageHandler : Appointment Time 
-20170317@17:52:40 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@17:52:41 [System] saveTempAppointment 
+20170317@17:52:40 [System] MessageHandler : Event Time 
+20170317@17:52:40 [System] MessageHandler : Event Date (Thursday) 
+20170317@17:52:41 [System] saveTempEvent 
 20170317@17:54:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=27 
 20170317@17:54:52 [System] getLoggedInAccount 
 20170317@17:54:52 [System] getLoggedInAccount 
 20170317@17:54:52 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@17:54:52 [System] saveTempAppointment 
+20170317@17:54:52 [System] saveTempEvent 
 20170317@17:57:31 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@17:57:31 [System] getLoggedInAccount 
 20170317@17:57:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
@@ -1918,7 +1918,7 @@
 20170317@17:58:09 [System] getLoggedInAccount 
 20170317@17:58:09 [System] BTNAppmtDate_Click 
 20170317@17:58:09 [System] loadOperatingHours 
-20170317@17:58:09 [System] saveTempAppointment 
+20170317@17:58:09 [System] saveTempEvent 
 20170317@17:59:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170317@17:59:10 [System] getLoggedInAccount 
 20170317@17:59:10 [System] loadAdoptionInfo 
@@ -1933,7 +1933,7 @@
 20170317@18:05:58 [System] getLoggedInAccount 
 20170317@18:05:58 [System] BTNAppmtDate_Click 
 20170317@18:05:58 [System] loadOperatingHours 
-20170317@18:05:58 [System] saveTempAppointment 
+20170317@18:05:58 [System] saveTempEvent 
 20170317@18:06:09 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:06:09 [System] getLoggedInAccount 
 20170317@18:06:11 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -1953,7 +1953,7 @@
 20170317@18:06:17 [System] getLoggedInAccount 
 20170317@18:06:17 [System] BTNAppmtDate_Click 
 20170317@18:06:17 [System] loadOperatingHours 
-20170317@18:06:17 [System] saveTempAppointment 
+20170317@18:06:17 [System] saveTempEvent 
 20170317@18:07:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170317@18:07:27 [System] getLoggedInAccount 
 20170317@18:07:27 [System] loadAdoptionInfo 
@@ -1968,7 +1968,7 @@
 20170317@18:07:37 [System] getLoggedInAccount 
 20170317@18:07:37 [System] BTNAppmtDate_Click 
 20170317@18:07:37 [System] loadOperatingHours 
-20170317@18:07:37 [System] saveTempAppointment 
+20170317@18:07:37 [System] saveTempEvent 
 20170317@18:07:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170317@18:07:39 [System] getLoggedInAccount 
 20170317@18:07:39 [System] loadAdoptionInfo 
@@ -1983,7 +1983,7 @@
 20170317@18:07:43 [System] getLoggedInAccount 
 20170317@18:07:43 [System] BTNAppmtDate_Click 
 20170317@18:07:43 [System] loadOperatingHours 
-20170317@18:07:43 [System] saveTempAppointment 
+20170317@18:07:43 [System] saveTempEvent 
 20170317@18:07:49 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:07:49 [System] getLoggedInAccount 
 20170317@18:07:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2003,7 +2003,7 @@
 20170317@18:08:02 [System] getLoggedInAccount 
 20170317@18:08:02 [System] BTNAppmtDate_Click 
 20170317@18:08:02 [System] loadOperatingHours 
-20170317@18:08:02 [System] saveTempAppointment 
+20170317@18:08:02 [System] saveTempEvent 
 20170317@18:08:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:08:07 [System] getLoggedInAccount 
 20170317@18:08:07 [System] loadAdoptionInfo 
@@ -2033,12 +2033,12 @@
 20170317@18:10:30 [System] getLoggedInAccount 
 20170317@18:10:30 [System] BTNAppmtDate_Click 
 20170317@18:10:30 [System] loadOperatingHours 
-20170317@18:10:30 [System] saveTempAppointment 
+20170317@18:10:30 [System] saveTempEvent 
 20170317@18:10:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:10:32 [System] getLoggedInAccount 
 20170317@18:10:32 [System] loadOperatingHours 
-20170317@18:10:32 [System] MessageHandler : Appointment Time 
-20170317@18:10:32 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:10:32 [System] MessageHandler : Event Time 
+20170317@18:10:32 [System] MessageHandler : Event Date (Thursday) 
 20170317@18:10:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:10:55 [System] getLoggedInAccount 
 20170317@18:10:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2058,12 +2058,12 @@
 20170317@18:11:04 [System] getLoggedInAccount 
 20170317@18:11:04 [System] BTNAppmtDate_Click 
 20170317@18:11:04 [System] loadOperatingHours 
-20170317@18:11:04 [System] saveTempAppointment 
+20170317@18:11:04 [System] saveTempEvent 
 20170317@18:11:10 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:11:10 [System] getLoggedInAccount 
 20170317@18:11:10 [System] loadOperatingHours 
-20170317@18:11:10 [System] MessageHandler : Appointment Time 
-20170317@18:11:10 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:11:10 [System] MessageHandler : Event Time 
+20170317@18:11:10 [System] MessageHandler : Event Date (Thursday) 
 20170317@18:11:40 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:11:40 [System] getLoggedInAccount 
 20170317@18:11:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2083,12 +2083,12 @@
 20170317@18:11:48 [System] getLoggedInAccount 
 20170317@18:11:48 [System] BTNAppmtDate_Click 
 20170317@18:11:48 [System] loadOperatingHours 
-20170317@18:11:48 [System] saveTempAppointment 
+20170317@18:11:48 [System] saveTempEvent 
 20170317@18:12:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:12:31 [System] getLoggedInAccount 
 20170317@18:12:31 [System] loadOperatingHours 
-20170317@18:12:31 [System] MessageHandler : Appointment Time 
-20170317@18:12:32 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:12:31 [System] MessageHandler : Event Time 
+20170317@18:12:32 [System] MessageHandler : Event Date (Thursday) 
 20170317@18:13:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:13:08 [System] getLoggedInAccount 
 20170317@18:13:08 [System] loadAdoptionInfo 
@@ -2106,21 +2106,21 @@
 20170317@18:13:17 [System] getLoggedInAccount 
 20170317@18:13:17 [System] BTNAppmtDate_Click 
 20170317@18:13:17 [System] loadOperatingHours 
-20170317@18:13:17 [System] MessageHandler : Appointment Time 
-20170317@18:13:17 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:13:17 [System] saveTempAppointment 
+20170317@18:13:17 [System] MessageHandler : Event Time 
+20170317@18:13:17 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:13:17 [System] saveTempEvent 
 20170317@18:13:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:13:30 [System] getLoggedInAccount 
 20170317@18:13:30 [System] loadOperatingHours 
-20170317@18:13:30 [System] MessageHandler : Appointment Time 
-20170317@18:13:30 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:13:30 [System] MessageHandler : Event Time 
+20170317@18:13:30 [System] MessageHandler : Event Date (Thursday) 
 20170317@18:13:30 [System] getLoggedInAccount 
 20170317@18:13:30 [System] DDLAppmtTime_SelectedIndexChanged 
 20170317@18:13:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:13:36 [System] getLoggedInAccount 
 20170317@18:13:36 [System] loadOperatingHours 
-20170317@18:13:36 [System] MessageHandler : Appointment Time 
-20170317@18:13:36 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:13:36 [System] MessageHandler : Event Time 
+20170317@18:13:36 [System] MessageHandler : Event Date (Thursday) 
 20170317@18:13:36 [System] getLoggedInAccount 
 20170317@18:13:36 [System] DDLAppmtTime_SelectedIndexChanged 
 20170317@18:14:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2140,14 +2140,14 @@
 20170317@18:14:42 [System] getLoggedInAccount 
 20170317@18:14:42 [System] BTNAppmtDate_Click 
 20170317@18:14:42 [System] loadOperatingHours 
-20170317@18:14:42 [System] MessageHandler : Appointment Time 
-20170317@18:14:42 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:14:42 [System] saveTempAppointment 
+20170317@18:14:42 [System] MessageHandler : Event Time 
+20170317@18:14:42 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:14:42 [System] saveTempEvent 
 20170317@18:14:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:14:45 [System] getLoggedInAccount 
 20170317@18:14:45 [System] loadOperatingHours 
-20170317@18:14:45 [System] MessageHandler : Appointment Time 
-20170317@18:14:45 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@18:14:45 [System] MessageHandler : Event Time 
+20170317@18:14:45 [System] MessageHandler : Event Date (Thursday) 
 20170317@18:14:45 [System] getLoggedInAccount 
 20170317@18:14:45 [System] DDLAppmtTime_SelectedIndexChanged 
 20170317@18:16:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2167,14 +2167,14 @@
 20170317@18:16:43 [System] getLoggedInAccount 
 20170317@18:16:43 [System] BTNAppmtDate_Click 
 20170317@18:16:43 [System] loadOperatingHours 
-20170317@18:16:43 [System] MessageHandler : Appointment Time 
-20170317@18:16:43 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:16:43 [System] saveTempAppointment 
+20170317@18:16:43 [System] MessageHandler : Event Time 
+20170317@18:16:43 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:16:43 [System] saveTempEvent 
 20170317@18:16:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:16:46 [System] getLoggedInAccount 
 20170317@18:16:46 [System] getLoggedInAccount 
 20170317@18:16:46 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:16:46 [System] saveTempAppointment 
+20170317@18:16:46 [System] saveTempEvent 
 20170317@18:17:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:17:26 [System] getLoggedInAccount 
 20170317@18:17:26 [System] loadAdoptionInfo 
@@ -2193,14 +2193,14 @@
 20170317@18:17:36 [System] getLoggedInAccount 
 20170317@18:17:36 [System] BTNAppmtDate_Click 
 20170317@18:17:36 [System] loadOperatingHours 
-20170317@18:17:36 [System] MessageHandler : Appointment Time 
-20170317@18:17:36 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:17:36 [System] saveTempAppointment 
+20170317@18:17:36 [System] MessageHandler : Event Time 
+20170317@18:17:36 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:17:36 [System] saveTempEvent 
 20170317@18:17:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:17:39 [System] getLoggedInAccount 
 20170317@18:17:39 [System] getLoggedInAccount 
 20170317@18:17:39 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:17:39 [System] saveTempAppointment 
+20170317@18:17:39 [System] saveTempEvent 
 20170317@18:18:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:18:40 [System] getLoggedInAccount 
 20170317@18:18:40 [System] loadAdoptionInfo 
@@ -2232,14 +2232,14 @@
 20170317@18:19:35 [System] getLoggedInAccount 
 20170317@18:19:35 [System] BTNAppmtDate_Click 
 20170317@18:19:35 [System] loadOperatingHours 
-20170317@18:19:35 [System] MessageHandler : Appointment Time 
-20170317@18:19:35 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:19:35 [System] saveTempAppointment 
+20170317@18:19:35 [System] MessageHandler : Event Time 
+20170317@18:19:35 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:19:35 [System] saveTempEvent 
 20170317@18:19:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:19:38 [System] getLoggedInAccount 
 20170317@18:19:38 [System] getLoggedInAccount 
 20170317@18:19:38 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:19:38 [System] saveTempAppointment 
+20170317@18:19:38 [System] saveTempEvent 
 20170317@18:19:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:19:48 [System] getLoggedInAccount 
 20170317@18:19:48 [System] getLoggedInAccount 
@@ -2334,9 +2334,9 @@
 20170317@18:25:58 [System] getLoggedInAccount 
 20170317@18:25:58 [System] BTNAppmtDate_Click 
 20170317@18:25:58 [System] loadOperatingHours 
-20170317@18:25:58 [System] MessageHandler : Appointment Time 
-20170317@18:25:58 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:25:58 [System] saveTempAppointment 
+20170317@18:25:58 [System] MessageHandler : Event Time 
+20170317@18:25:58 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:25:58 [System] saveTempEvent 
 20170317@18:26:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:26:48 [System] getLoggedInAccount 
 20170317@18:26:48 [System] loadAdoptionInfo 
@@ -2366,14 +2366,14 @@
 20170317@18:28:08 [System] getLoggedInAccount 
 20170317@18:28:08 [System] BTNAppmtDate_Click 
 20170317@18:28:08 [System] loadOperatingHours 
-20170317@18:28:08 [System] MessageHandler : Appointment Time 
-20170317@18:28:08 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:28:08 [System] saveTempAppointment 
+20170317@18:28:08 [System] MessageHandler : Event Time 
+20170317@18:28:08 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:28:08 [System] saveTempEvent 
 20170317@18:28:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:28:13 [System] getLoggedInAccount 
 20170317@18:28:13 [System] getLoggedInAccount 
 20170317@18:28:13 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:28:13 [System] saveTempAppointment 
+20170317@18:28:13 [System] saveTempEvent 
 20170317@18:30:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:30:52 [System] getLoggedInAccount 
 20170317@18:30:52 [System] loadAdoptionInfo 
@@ -2391,14 +2391,14 @@
 20170317@18:30:59 [System] getLoggedInAccount 
 20170317@18:30:59 [System] BTNAppmtDate_Click 
 20170317@18:30:59 [System] loadOperatingHours 
-20170317@18:30:59 [System] MessageHandler : Appointment Time 
-20170317@18:30:59 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:30:59 [System] saveTempAppointment 
+20170317@18:30:59 [System] MessageHandler : Event Time 
+20170317@18:30:59 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:30:59 [System] saveTempEvent 
 20170317@18:31:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:31:03 [System] getLoggedInAccount 
 20170317@18:31:03 [System] getLoggedInAccount 
 20170317@18:31:03 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:31:03 [System] saveTempAppointment 
+20170317@18:31:03 [System] saveTempEvent 
 20170317@18:31:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:31:19 [System] getLoggedInAccount 
 20170317@18:31:19 [System] getLoggedInAccount 
@@ -2440,25 +2440,25 @@
 20170317@18:33:44 [System] getLoggedInAccount 
 20170317@18:33:44 [System] BTNAppmtDate_Click 
 20170317@18:33:44 [System] loadOperatingHours 
-20170317@18:33:44 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170317@18:33:44 [System] MessageHandler : Appointment Date 
-20170317@18:33:44 [System] saveTempAppointment 
+20170317@18:33:44 [System] MessageHandler : Event Time - Not open on selected date 
+20170317@18:33:44 [System] MessageHandler : Event Date 
+20170317@18:33:44 [System] saveTempEvent 
 20170317@18:33:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170317@18:33:52 [System] getLoggedInAccount 
 20170317@18:33:52 [System] getLoggedInAccount 
 20170317@18:33:52 [System] BTNAppmtDate_Click 
 20170317@18:33:52 [System] loadOperatingHours 
-20170317@18:33:52 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170317@18:33:52 [System] MessageHandler : Appointment Date 
-20170317@18:33:52 [System] saveTempAppointment 
+20170317@18:33:52 [System] MessageHandler : Event Time - Not open on selected date 
+20170317@18:33:52 [System] MessageHandler : Event Date 
+20170317@18:33:52 [System] saveTempEvent 
 20170317@18:33:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170317@18:33:56 [System] getLoggedInAccount 
 20170317@18:33:56 [System] getLoggedInAccount 
 20170317@18:33:56 [System] BTNAppmtDate_Click 
 20170317@18:33:56 [System] loadOperatingHours 
-20170317@18:33:56 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170317@18:33:56 [System] MessageHandler : Appointment Date 
-20170317@18:33:56 [System] saveTempAppointment 
+20170317@18:33:56 [System] MessageHandler : Event Time - Not open on selected date 
+20170317@18:33:56 [System] MessageHandler : Event Date 
+20170317@18:33:56 [System] saveTempEvent 
 20170317@18:34:01 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:34:01 [System] getLoggedInAccount 
 20170317@18:34:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2478,14 +2478,14 @@
 20170317@18:34:09 [System] getLoggedInAccount 
 20170317@18:34:09 [System] BTNAppmtDate_Click 
 20170317@18:34:09 [System] loadOperatingHours 
-20170317@18:34:09 [System] MessageHandler : Appointment Time 
-20170317@18:34:09 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:34:09 [System] saveTempAppointment 
+20170317@18:34:09 [System] MessageHandler : Event Time 
+20170317@18:34:09 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:34:09 [System] saveTempEvent 
 20170317@18:34:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:34:15 [System] getLoggedInAccount 
 20170317@18:34:15 [System] getLoggedInAccount 
 20170317@18:34:15 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:34:15 [System] saveTempAppointment 
+20170317@18:34:15 [System] saveTempEvent 
 20170317@18:34:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:34:45 [System] getLoggedInAccount 
 20170317@18:34:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2505,14 +2505,14 @@
 20170317@18:34:54 [System] getLoggedInAccount 
 20170317@18:34:54 [System] BTNAppmtDate_Click 
 20170317@18:34:54 [System] loadOperatingHours 
-20170317@18:34:54 [System] MessageHandler : Appointment Time 
-20170317@18:34:54 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:34:54 [System] saveTempAppointment 
+20170317@18:34:54 [System] MessageHandler : Event Time 
+20170317@18:34:54 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:34:54 [System] saveTempEvent 
 20170317@18:35:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:35:14 [System] getLoggedInAccount 
 20170317@18:35:14 [System] getLoggedInAccount 
 20170317@18:35:14 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:35:14 [System] saveTempAppointment 
+20170317@18:35:14 [System] saveTempEvent 
 20170317@18:36:30 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:36:30 [System] getLoggedInAccount 
 20170317@18:36:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2532,17 +2532,17 @@
 20170317@18:36:39 [System] getLoggedInAccount 
 20170317@18:36:39 [System] BTNAppmtDate_Click 
 20170317@18:36:39 [System] loadOperatingHours 
-20170317@18:36:39 [System] MessageHandler : Appointment Time 
-20170317@18:36:39 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:36:39 [System] saveTempAppointment 
+20170317@18:36:39 [System] MessageHandler : Event Time 
+20170317@18:36:39 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:36:39 [System] saveTempEvent 
 20170317@18:36:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:36:52 [System] getLoggedInAccount 
 20170317@18:36:52 [System] getLoggedInAccount 
 20170317@18:36:52 [System] BTNAppmtDate_Click 
 20170317@18:36:52 [System] loadOperatingHours 
-20170317@18:36:52 [System] MessageHandler : Appointment Time 
-20170317@18:36:52 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:36:52 [System] saveTempAppointment 
+20170317@18:36:52 [System] MessageHandler : Event Time 
+20170317@18:36:52 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:36:52 [System] saveTempEvent 
 20170317@18:37:32 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:37:32 [System] getLoggedInAccount 
 20170317@18:37:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2562,9 +2562,9 @@
 20170317@18:37:43 [System] getLoggedInAccount 
 20170317@18:37:43 [System] BTNAppmtDate_Click 
 20170317@18:37:43 [System] loadOperatingHours 
-20170317@18:37:43 [System] MessageHandler : Appointment Time 
-20170317@18:37:43 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:37:43 [System] saveTempAppointment 
+20170317@18:37:43 [System] MessageHandler : Event Time 
+20170317@18:37:43 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:37:43 [System] saveTempEvent 
 20170317@18:38:41 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:38:41 [System] getLoggedInAccount 
 20170317@18:38:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2584,14 +2584,14 @@
 20170317@18:38:51 [System] getLoggedInAccount 
 20170317@18:38:51 [System] BTNAppmtDate_Click 
 20170317@18:38:51 [System] loadOperatingHours 
-20170317@18:38:51 [System] MessageHandler : Appointment Time 
-20170317@18:38:51 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:38:51 [System] saveTempAppointment 
+20170317@18:38:51 [System] MessageHandler : Event Time 
+20170317@18:38:51 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:38:51 [System] saveTempEvent 
 20170317@18:39:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:39:31 [System] getLoggedInAccount 
 20170317@18:39:31 [System] getLoggedInAccount 
 20170317@18:39:31 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:39:31 [System] saveTempAppointment 
+20170317@18:39:31 [System] saveTempEvent 
 20170317@18:40:33 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:40:33 [System] getLoggedInAccount 
 20170317@18:40:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2611,9 +2611,9 @@
 20170317@18:40:44 [System] getLoggedInAccount 
 20170317@18:40:44 [System] BTNAppmtDate_Click 
 20170317@18:40:44 [System] loadOperatingHours 
-20170317@18:40:44 [System] MessageHandler : Appointment Time 
-20170317@18:40:44 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:40:44 [System] saveTempAppointment 
+20170317@18:40:44 [System] MessageHandler : Event Time 
+20170317@18:40:44 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:40:44 [System] saveTempEvent 
 20170317@18:42:48 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:42:48 [System] getLoggedInAccount 
 20170317@18:42:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2633,9 +2633,9 @@
 20170317@18:42:58 [System] getLoggedInAccount 
 20170317@18:42:58 [System] BTNAppmtDate_Click 
 20170317@18:42:58 [System] loadOperatingHours 
-20170317@18:42:58 [System] MessageHandler : Appointment Time 
-20170317@18:42:58 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:42:58 [System] saveTempAppointment 
+20170317@18:42:58 [System] MessageHandler : Event Time 
+20170317@18:42:58 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:42:58 [System] saveTempEvent 
 20170317@18:43:31 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:43:31 [System] getLoggedInAccount 
 20170317@18:43:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2655,14 +2655,14 @@
 20170317@18:43:43 [System] getLoggedInAccount 
 20170317@18:43:43 [System] BTNAppmtDate_Click 
 20170317@18:43:43 [System] loadOperatingHours 
-20170317@18:43:43 [System] MessageHandler : Appointment Time 
-20170317@18:43:43 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:43:43 [System] saveTempAppointment 
+20170317@18:43:43 [System] MessageHandler : Event Time 
+20170317@18:43:43 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:43:43 [System] saveTempEvent 
 20170317@18:43:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:43:56 [System] getLoggedInAccount 
 20170317@18:43:56 [System] getLoggedInAccount 
 20170317@18:43:56 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:43:56 [System] saveTempAppointment 
+20170317@18:43:56 [System] saveTempEvent 
 20170317@18:45:10 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:45:10 [System] getLoggedInAccount 
 20170317@18:45:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2682,14 +2682,14 @@
 20170317@18:46:27 [System] getLoggedInAccount 
 20170317@18:46:27 [System] BTNAppmtDate_Click 
 20170317@18:46:27 [System] loadOperatingHours 
-20170317@18:46:27 [System] MessageHandler : Appointment Time 
-20170317@18:46:27 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:46:27 [System] saveTempAppointment 
+20170317@18:46:27 [System] MessageHandler : Event Time 
+20170317@18:46:27 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:46:27 [System] saveTempEvent 
 20170317@18:46:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:46:40 [System] getLoggedInAccount 
 20170317@18:46:40 [System] getLoggedInAccount 
 20170317@18:46:40 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:46:40 [System] saveTempAppointment 
+20170317@18:46:40 [System] saveTempEvent 
 20170317@18:47:47 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:47:47 [System] getLoggedInAccount 
 20170317@18:47:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2709,14 +2709,14 @@
 20170317@18:47:57 [System] getLoggedInAccount 
 20170317@18:47:57 [System] BTNAppmtDate_Click 
 20170317@18:47:57 [System] loadOperatingHours 
-20170317@18:47:57 [System] MessageHandler : Appointment Time 
-20170317@18:47:57 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:47:57 [System] saveTempAppointment 
+20170317@18:47:57 [System] MessageHandler : Event Time 
+20170317@18:47:57 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:47:57 [System] saveTempEvent 
 20170317@18:48:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:48:46 [System] getLoggedInAccount 
 20170317@18:48:46 [System] getLoggedInAccount 
 20170317@18:48:46 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:48:46 [System] saveTempAppointment 
+20170317@18:48:46 [System] saveTempEvent 
 20170317@18:49:52 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:49:52 [System] getLoggedInAccount 
 20170317@18:50:00 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2736,9 +2736,9 @@
 20170317@18:50:08 [System] getLoggedInAccount 
 20170317@18:50:08 [System] BTNAppmtDate_Click 
 20170317@18:50:08 [System] loadOperatingHours 
-20170317@18:50:08 [System] MessageHandler : Appointment Time 
-20170317@18:50:08 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:50:08 [System] saveTempAppointment 
+20170317@18:50:08 [System] MessageHandler : Event Time 
+20170317@18:50:08 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:50:08 [System] saveTempEvent 
 20170317@18:51:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:51:26 [System] getLoggedInAccount 
 20170317@18:51:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2758,14 +2758,14 @@
 20170317@18:51:36 [System] getLoggedInAccount 
 20170317@18:51:36 [System] BTNAppmtDate_Click 
 20170317@18:51:36 [System] loadOperatingHours 
-20170317@18:51:36 [System] MessageHandler : Appointment Time 
-20170317@18:51:36 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:51:36 [System] saveTempAppointment 
+20170317@18:51:36 [System] MessageHandler : Event Time 
+20170317@18:51:36 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:51:36 [System] saveTempEvent 
 20170317@18:51:48 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:51:48 [System] getLoggedInAccount 
 20170317@18:51:48 [System] getLoggedInAccount 
 20170317@18:51:48 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:51:48 [System] saveTempAppointment 
+20170317@18:51:48 [System] saveTempEvent 
 20170317@18:53:20 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@18:53:20 [System] getLoggedInAccount 
 20170317@18:53:26 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -2786,14 +2786,14 @@
 20170317@18:53:30 [System] getLoggedInAccount 
 20170317@18:53:30 [System] BTNAppmtDate_Click 
 20170317@18:53:30 [System] loadOperatingHours 
-20170317@18:53:30 [System] MessageHandler : Appointment Time 
-20170317@18:53:30 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@18:53:30 [System] saveTempAppointment 
+20170317@18:53:30 [System] MessageHandler : Event Time 
+20170317@18:53:30 [System] MessageHandler : Event Date (Thursday) 
+20170317@18:53:30 [System] saveTempEvent 
 20170317@18:53:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:53:32 [System] getLoggedInAccount 
 20170317@18:53:32 [System] getLoggedInAccount 
 20170317@18:53:32 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@18:53:32 [System] saveTempAppointment 
+20170317@18:53:32 [System] saveTempEvent 
 20170317@18:53:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@18:53:34 [System] getLoggedInAccount 
 20170317@18:53:34 [System] getLoggedInAccount 
@@ -2837,14 +2837,14 @@
 20170317@22:35:36 [System] getLoggedInAccount 
 20170317@22:35:36 [System] BTNAppmtDate_Click 
 20170317@22:35:36 [System] loadOperatingHours 
-20170317@22:35:36 [System] MessageHandler : Appointment Time 
-20170317@22:35:36 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@22:35:36 [System] saveTempAppointment 
+20170317@22:35:36 [System] MessageHandler : Event Time 
+20170317@22:35:36 [System] MessageHandler : Event Date (Thursday) 
+20170317@22:35:36 [System] saveTempEvent 
 20170317@22:35:39 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@22:35:39 [System] getLoggedInAccount 
 20170317@22:35:39 [System] getLoggedInAccount 
 20170317@22:35:39 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@22:35:39 [System] saveTempAppointment 
+20170317@22:35:39 [System] saveTempEvent 
 20170317@22:35:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@22:35:58 [System] getLoggedInAccount 
 20170317@22:35:58 [System] getLoggedInAccount 
@@ -2924,8 +2924,8 @@
 20170317@22:38:56 [System] getShopInfo 
 20170317@22:38:56 [System] getShopTime 
 20170317@22:39:26 [System] loadOperatingHours 
-20170317@22:39:37 [System] MessageHandler : Appointment Time 
-20170317@22:39:37 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@22:39:37 [System] MessageHandler : Event Time 
+20170317@22:39:37 [System] MessageHandler : Event Date (Thursday) 
 20170317@22:39:44 [System] getLoggedInAccount 
 20170317@22:39:46 [System] DLAdoptInfo_ItemDataBound 
 20170317@22:39:46 [System] DLMorePet_ItemDataBound 
@@ -2951,14 +2951,14 @@
 20170317@22:44:29 [System] getLoggedInAccount 
 20170317@22:44:29 [System] BTNAppmtDate_Click 
 20170317@22:44:29 [System] loadOperatingHours 
-20170317@22:44:29 [System] MessageHandler : Appointment Time 
-20170317@22:44:29 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@22:44:29 [System] saveTempAppointment 
+20170317@22:44:29 [System] MessageHandler : Event Time 
+20170317@22:44:29 [System] MessageHandler : Event Date (Thursday) 
+20170317@22:44:29 [System] saveTempEvent 
 20170317@22:44:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@22:44:31 [System] getLoggedInAccount 
 20170317@22:44:31 [System] getLoggedInAccount 
 20170317@22:44:31 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@22:44:31 [System] saveTempAppointment 
+20170317@22:44:31 [System] saveTempEvent 
 20170317@22:44:32 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@22:44:32 [System] getLoggedInAccount 
 20170317@22:44:32 [System] getLoggedInAccount 
@@ -3018,14 +3018,14 @@
 20170317@22:48:32 [System] getLoggedInAccount 
 20170317@22:48:32 [System] BTNAppmtDate_Click 
 20170317@22:48:32 [System] loadOperatingHours 
-20170317@22:48:32 [System] MessageHandler : Appointment Time 
-20170317@22:48:32 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@22:48:32 [System] saveTempAppointment 
+20170317@22:48:32 [System] MessageHandler : Event Time 
+20170317@22:48:32 [System] MessageHandler : Event Date (Thursday) 
+20170317@22:48:32 [System] saveTempEvent 
 20170317@22:48:34 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@22:48:34 [System] getLoggedInAccount 
 20170317@22:48:34 [System] getLoggedInAccount 
 20170317@22:48:34 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@22:48:34 [System] saveTempAppointment 
+20170317@22:48:34 [System] saveTempEvent 
 20170317@22:48:35 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@22:48:35 [System] getLoggedInAccount 
 20170317@22:48:35 [System] getLoggedInAccount 
@@ -3044,8 +3044,8 @@
 20170317@22:48:39 [System] getShopInfo 
 20170317@22:48:40 [System] getShopTime 
 20170317@22:48:40 [System] loadOperatingHours 
-20170317@22:48:40 [System] MessageHandler : Appointment Time 
-20170317@22:48:40 [System] MessageHandler : Appointment Date (Thursday) 
+20170317@22:48:40 [System] MessageHandler : Event Time 
+20170317@22:48:40 [System] MessageHandler : Event Date (Thursday) 
 20170317@22:48:40 [System] getLoggedInAccount 
 20170317@22:48:40 [System] DLAdoptInfo_ItemDataBound 
 20170317@22:48:40 [System] DLMorePet_ItemDataBound 
@@ -3090,14 +3090,14 @@
 20170317@23:31:08 [System] getLoggedInAccount 
 20170317@23:31:08 [System] BTNAppmtDate_Click 
 20170317@23:31:09 [System] loadOperatingHours 
-20170317@23:31:09 [System] MessageHandler : Appointment Time 
-20170317@23:31:09 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@23:31:09 [System] saveTempAppointment 
+20170317@23:31:09 [System] MessageHandler : Event Time 
+20170317@23:31:09 [System] MessageHandler : Event Date (Thursday) 
+20170317@23:31:09 [System] saveTempEvent 
 20170317@23:31:14 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@23:31:14 [System] getLoggedInAccount 
 20170317@23:31:14 [System] getLoggedInAccount 
 20170317@23:31:14 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@23:31:14 [System] saveTempAppointment 
+20170317@23:31:14 [System] saveTempEvent 
 20170317@23:32:31 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170317@23:32:31 [System] getLoggedInAccount 
 20170317@23:32:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -3143,14 +3143,14 @@
 20170317@23:32:48 [System] getLoggedInAccount 
 20170317@23:32:48 [System] BTNAppmtDate_Click 
 20170317@23:32:48 [System] loadOperatingHours 
-20170317@23:32:48 [System] MessageHandler : Appointment Time 
-20170317@23:32:48 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@23:32:48 [System] saveTempAppointment 
+20170317@23:32:48 [System] MessageHandler : Event Time 
+20170317@23:32:48 [System] MessageHandler : Event Date (Thursday) 
+20170317@23:32:48 [System] saveTempEvent 
 20170317@23:32:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@23:32:50 [System] getLoggedInAccount 
 20170317@23:32:50 [System] getLoggedInAccount 
 20170317@23:32:50 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@23:32:50 [System] saveTempAppointment 
+20170317@23:32:50 [System] saveTempEvent 
 20170317@23:32:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@23:32:54 [System] getLoggedInAccount 
 20170317@23:32:54 [System] getLoggedInAccount 
@@ -3174,14 +3174,14 @@
 20170317@23:40:25 [System] getLoggedInAccount 
 20170317@23:40:25 [System] BTNAppmtDate_Click 
 20170317@23:40:25 [System] loadOperatingHours 
-20170317@23:40:25 [System] MessageHandler : Appointment Time 
-20170317@23:40:25 [System] MessageHandler : Appointment Date (Thursday) 
-20170317@23:40:25 [System] saveTempAppointment 
+20170317@23:40:25 [System] MessageHandler : Event Time 
+20170317@23:40:25 [System] MessageHandler : Event Date (Thursday) 
+20170317@23:40:25 [System] saveTempEvent 
 20170317@23:40:27 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@23:40:27 [System] getLoggedInAccount 
 20170317@23:40:27 [System] getLoggedInAccount 
 20170317@23:40:27 [System] DDLAppmtTime_SelectedIndexChanged 
-20170317@23:40:27 [System] saveTempAppointment 
+20170317@23:40:27 [System] saveTempEvent 
 20170317@23:40:28 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170317@23:40:28 [System] getLoggedInAccount 
 20170317@23:40:28 [System] getLoggedInAccount 

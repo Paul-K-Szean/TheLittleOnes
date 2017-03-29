@@ -40,11 +40,11 @@
 20170324@15:05:18 [System] getShopTime 
 20170324@15:05:19 [System] getLoggedInAccount 
 20170324@15:05:19 [System] DLAdoptInfo_ItemDataBound 
-20170324@15:05:19 [System] getAllAppointmentEntities 
+20170324@15:05:19 [System] getAllEventEntities 
 20170324@15:05:19 [System] checkAdoptionDetails 
-20170324@15:05:19 [System] checkAppointmentExist 
+20170324@15:05:19 [System] checkEventExist 
 20170324@15:05:19 [System] getValue() : Index was outside the bounds of the array. 
-20170324@15:05:19 [System] getUserAppointmentEntity 
+20170324@15:05:19 [System] getUserEventEntity 
 20170324@15:05:19 [System] getAccount 
 20170324@15:05:19 [System] getShopInfo 
 20170324@15:05:19 [System] DLMorePet_ItemDataBound 
@@ -64,9 +64,9 @@
 20170324@15:07:39 [System] getShopTime 
 20170324@15:07:39 [System] getLoggedInAccount 
 20170324@15:07:39 [System] DLAdoptInfo_ItemDataBound 
-20170324@15:07:40 [System] getAllAppointmentEntities 
+20170324@15:07:40 [System] getAllEventEntities 
 20170324@15:07:40 [System] checkAdoptionDetails 
-20170324@15:07:40 [System] checkAppointmentExist 
+20170324@15:07:40 [System] checkEventExist 
 20170324@15:07:40 [System] No data found in getValue() 
 20170324@15:07:40 [System] DLMorePet_ItemDataBound 
 20170324@15:10:28 [System] Page loaded: http://localhost:65063/breed.aspx 
@@ -114,7 +114,7 @@
 20170324@15:49:45 [System] getLoggedInAccount 
 20170324@15:49:45 [System] getLoggedInAccount 
 20170324@15:49:45 [System] getLoggedInAccount 
-20170324@15:49:45 [System] GVAppointment_DataBound 
+20170324@15:49:45 [System] GVEvent_DataBound 
 20170324@15:49:53 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
 20170324@15:49:53 [System] getLoggedInAccount 
 20170324@15:49:53 [System] getLoggedInAccount 
@@ -169,7 +169,7 @@
 20170324@15:50:04 [System] getAdoptInfo 
 20170324@15:50:04 [System] getShopInfo 
 20170324@15:50:04 [System] getShopTime 
-20170324@15:50:04 [System] GVAppointment_DataBound 
+20170324@15:50:04 [System] GVEvent_DataBound 
 20170324@15:51:14 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
 20170324@15:51:14 [System] getLoggedInAccount 
 20170324@15:51:14 [System] getLoggedInAccount 
@@ -255,11 +255,11 @@
 20170324@15:59:33 [System] getShopTime 
 20170324@15:59:33 [System] getLoggedInAccount 
 20170324@15:59:33 [System] DLAdoptInfo_ItemDataBound 
-20170324@15:59:33 [System] getAllAppointmentEntities 
+20170324@15:59:33 [System] getAllEventEntities 
 20170324@15:59:33 [System] checkAdoptionDetails 
-20170324@15:59:33 [System] checkAppointmentExist 
+20170324@15:59:33 [System] checkEventExist 
 20170324@15:59:33 [System] getValue() : Index was outside the bounds of the array. 
-20170324@15:59:33 [System] getUserAppointmentEntity 
+20170324@15:59:33 [System] getUserEventEntity 
 20170324@15:59:33 [System] getAccount 
 20170324@15:59:33 [System] getShopInfo 
 20170324@15:59:33 [System] DLMorePet_ItemDataBound 
@@ -295,13 +295,13 @@
 20170324@15:59:59 [System] getAdoptInfo 
 20170324@15:59:59 [System] getShopInfo 
 20170324@15:59:59 [System] getShopTime 
-20170324@15:59:59 [System] GVAppointment_DataBound 
+20170324@15:59:59 [System] GVEvent_DataBound 
 20170324@16:00:09 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
 20170324@16:00:09 [System] getLoggedInAccount 
 20170324@16:00:09 [System] getLoggedInAccount 
 20170324@16:00:09 [System] getLoggedInAccount 
-20170324@16:00:09 [System] GVAppointment_SelectedIndexChanging 
-20170324@16:00:09 [System] getUserAppointmentEntity 
+20170324@16:00:09 [System] GVEvent_SelectedIndexChanging 
+20170324@16:00:09 [System] getUserEventEntity 
 20170324@16:00:09 [System] getAccount 
 20170324@16:00:09 [System] getShopInfo 
 20170324@16:00:09 [System] getAdoptInfo 
@@ -309,10 +309,10 @@
 20170324@16:00:09 [System] getShopTime 
 20170324@16:00:10 [System] getShopTime 
 20170324@16:00:10 [System] loadOperatingHours 
-20170324@16:00:10 [System] MessageHandler : Appointment Time 
-20170324@16:00:10 [System] MessageHandler : Appointment Date (Sunday) 
-20170324@16:00:10 [System] getAllAppointmentEntities 
-20170324@16:00:10 [System] GVAppointment_SelectedIndexChanged 
+20170324@16:00:10 [System] MessageHandler : Event Time 
+20170324@16:00:10 [System] MessageHandler : Event Date (Sunday) 
+20170324@16:00:10 [System] getAllEventEntities 
+20170324@16:00:10 [System] GVEvent_SelectedIndexChanged 
 20170324@16:01:16 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170324@16:01:16 [System] getLoggedInAccount 
 20170324@16:01:16 [System] getLoggedInAccount 
@@ -325,11 +325,11 @@
 20170324@16:01:18 [System] getShopTime 
 20170324@16:01:18 [System] getLoggedInAccount 
 20170324@16:01:19 [System] DLAdoptInfo_ItemDataBound 
-20170324@16:01:19 [System] getAllAppointmentEntities 
+20170324@16:01:19 [System] getAllEventEntities 
 20170324@16:01:19 [System] checkAdoptionDetails 
-20170324@16:01:19 [System] checkAppointmentExist 
+20170324@16:01:19 [System] checkEventExist 
 20170324@16:01:19 [System] getValue() : Index was outside the bounds of the array. 
-20170324@16:01:19 [System] getUserAppointmentEntity 
+20170324@16:01:19 [System] getUserEventEntity 
 20170324@16:01:19 [System] getAccount 
 20170324@16:01:19 [System] getShopInfo 
 20170324@16:01:19 [System] DLMorePet_ItemDataBound 
@@ -444,7 +444,7 @@
 20170324@23:32:12 [System] getShopTime 
 20170324@23:32:12 [System] getLoggedInAccount 
 20170324@23:32:12 [System] DLAdoptInfo_ItemDataBound 
-20170324@23:32:12 [System] getAllAppointmentEntities 
+20170324@23:32:12 [System] getAllEventEntities 
 20170324@23:32:12 [System] checkAdoptionDetails 
 20170324@23:32:12 [System] MessageHandler : Please log in first  
 20170324@23:32:12 [System] DLMorePet_ItemDataBound 

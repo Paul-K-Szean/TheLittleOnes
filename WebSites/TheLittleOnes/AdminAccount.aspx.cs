@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
-public partial class AdminAccount : BasePage
+public partial class AdminAccount : BasePageAdmin
 {
     string passwordOld;
     string passwordNew;

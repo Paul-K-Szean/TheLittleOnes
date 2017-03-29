@@ -16,7 +16,7 @@
         ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
         SelectCommand="SELECT * FROM [Photo] INNER JOIN PetInfo ON photo.photoownerid=petinfo.petinfoid WHERE (([photoPurpose] = ?) AND ([photoOwnerID] = ?))">
         <SelectParameters>
-            <asp:Parameter DefaultValue="PetInfo" Name="photoPurpose" Type="String" />
+            <asp:Parameter DefaultValue="Pet Info" Name="photoPurpose" Type="String" />
             <asp:ControlParameter ControlID="HDFPetInfoID" Name="photoOwnerID" PropertyName="Value" Type="Int32" />
         </SelectParameters>
     </asp:SqlDataSource>
@@ -218,8 +218,6 @@
                                             </asp:HyperLink>
                                         </figure>
                                     </div>
-                                    <%--   <asp:LinkButton ID="LKBTNPetInfo" runat="server" Text='<%# splitCamelCase( Eval("petinfobreed").ToString() )%>'
-                                        CommandName="petinfoid" CommandArgument='<%# Eval("petinfoid")%>' OnCommand="LKBTNPetInfo_Command"></asp:LinkButton>--%>
                                 </div>
                             </ItemTemplate>
                         </asp:DataList>

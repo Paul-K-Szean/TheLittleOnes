@@ -1,117 +1,34 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using System.Web;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Web.UI;
+using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.Controllers;
-using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
+using TheLittleOnesLibrary.Handler;
+
 namespace TheLittleOnesLibrary
 {
     public class BasePage : Page
     {
-        // Entities for current logged in user
-        protected static AccountEntity accountEntity;
-        protected static ProfileEntity profileEntity;
-        protected static PetInfoEntity petInfoEntity;
-        protected static PetCharEntity petCharEntity;
-        protected static PetEntity petEntity;
-        protected static ShopInfoEntity shopInfoEntity;
-        protected static ShopTimeEntity shopTimeEntity;
-        protected static List<ShopTimeEntity> shopTimeEntities;
-        protected static AdoptInfoEntity adoptInfoEntity;
-        protected static List<AdoptInfoEntity> adoptInfoEntites;
-        protected static PhotoEntity photoEntity;
-        protected static List<PhotoEntity> photoEntities;
-        // Entities for system account editing
-        protected static AccountEntity editAccountEntity;
-        protected static ProfileEntity editProfileEntity;
-        protected static List<PhotoEntity> editPhotoEntities;
-        protected static ShopInfoEntity editShopInfoEntity;
-        protected static List<ShopTimeEntity> editShopTimeEntities;
         // Controllers
-        protected AccountController accountCtrler;
-        protected ProfileController profileCtrler;
-        protected PetInfoController petInfoCtrler;
-        protected ShopInfoController shopInfoCtrler;
-        protected PhotoController photoCtrler;
-        protected AdoptInfoController adoptInfoCtrler;
-        protected PetController petCtrler;
-        // Data Access Object
-        protected DAO dao;
-        public static AccountEntity AccountEntity { get => accountEntity; set => accountEntity = value; }
-        // Default Contsructor
-        public BasePage()
-        {
-            // initialize controllers
-            initializeControllers();
-            // initialize folders
-            initializeFolders();
-            // capture page control
-            postBackControl();
-        }
-        // Manage page control
-        protected void postBackControl()
-        {
-            string currentPage = HttpContext.Current.Request.Url.AbsoluteUri.ToLower();
-            if (IsPostBack)
-            {
-                LogController.LogLine("Page posted back: " + currentPage);
-            }
-            else
-            {
-                LogController.LogLine("Page loaded: " + currentPage);
-            }
-            // redirect to login page, except for login page
-            if (currentPage.Contains("adminlogin"))
-            {
-                accountCtrler.signOut();
-            }
-            else
-            {
-                AccountEntity = accountCtrler.getLoggedInAccount();
-                if (AccountEntity == null)
-                {
-                    LogController.LogLine("No account logged in");
-                    if (!currentPage.Contains("adminlogin"))
-                        HttpContext.Current.Response.Redirect("AdminLogin.aspx");
-                }
-                else
-                {
-                    accountAccessControl(AccountEntity, currentPage);
-                }
-            }
-        }
-        // Validate access control for logged in user
-        protected void accountAccessControl(AccountEntity accountEntity, string currentPage)
-        {
-            // pages that are not allowed for different account
-            switch (accountEntity.AccountType.ToLower().Trim())
-            {
-                case "websheltergroup":
-                    if (currentPage.Contains("adminpetinfoadd") ||
-                        currentPage.Contains("adminpetinfoedit") ||
-                        currentPage.Contains("adminshopinfoadd") ||
-                        currentPage.Contains("adminshopinfoedit") ||
-                        currentPage.Contains("adminsystemaccountadd") ||
-                        currentPage.Contains("adminsystemaccountedit"))
-                    {
-                        HttpContext.Current.Response.Redirect("AdminDashboard.aspx");
-                    }
-                    break;
-                case "websponsorgroup":
-                    if (
-                        currentPage.Contains("adminadoptioninfoadd") ||
-                        currentPage.Contains("adminadoptioninfoedit") ||
-                        currentPage.Contains("adminsystemaccountadd") ||
-                        currentPage.Contains("adminsystemaccountedit"))
-                    {
-                        HttpContext.Current.Response.Redirect("AdminDashboard.aspx");
-                    }
-                    break;
-            }
-        }
+        protected static AccountController accountCtrler;
+        protected static ProfileController profileCtrler;
+        protected static PetInfoController petInfoCtrler;
+        protected static ShopInfoController shopInfoCtrler;
+        protected static PhotoController photoCtrler;
+        protected static AdoptInfoController adoptInfoCtrler;
+        protected static AppointmentController appointmentCrtler;
+        protected static PetController petCtrler;
+        protected static EventController eventCrtler;
+        #region system setup
         // Initialize folders
         protected void initializeFolders()
         {
@@ -164,7 +81,17 @@ namespace TheLittleOnesLibrary
             {
                 petCtrler = PetController.getInstance();
             }
+            if (appointmentCrtler == null)
+            {
+                appointmentCrtler = AppointmentController.getInstance();
+            }
+            if (eventCrtler == null)
+            {
+                eventCrtler = EventController.getInstance();
+            }
         }
+        #endregion
+        #region GUI Logics
         // Highlight select row for gridview
         protected void highlightSelectedRow(GridView gridview)
         {
@@ -234,5 +161,146 @@ namespace TheLittleOnesLibrary
                 }
             }
         }
+        // Return current web page
+        protected string getCurrentWebPage()
+        {
+            return Path.GetFileName(Request.Url.AbsolutePath);
+        }
+        // Split  Camel Case
+        protected static string splitCamelCase(string inputString)
+        {
+            List<char> chars = new List<char>();
+            if (!isAlreadyCamelCase(inputString))
+            {
+                // Author Reed Copsey
+                // Source : http://stackoverflow.com/questions/17093423/how-do-i-programmatically-change-camelcase-names-to-displayable-names
+                chars.Add(inputString[0]);
+                foreach (char c in inputString.Skip(1))
+                {
+                    if (char.IsUpper(c))
+                    {
+                        chars.Add(' ');
+                        chars.Add(Char.ToUpper(c));
+                    }
+                    else
+                        chars.Add(c);
+                }
+                return new string(chars.ToArray());
+            }
+            else
+            {
+                return inputString;
+            }
+        }
+        private static bool isAlreadyCamelCase(string inputString)
+        {
+            string[] splitString = inputString.Split(' ');
+            foreach (string word in splitString)
+            {
+                Char.ToUpper(word[0]);
+            }
+            return true;
+        }
+        // Load operation hours
+        protected void loadOperatingHours(string dateSelected, string daySelected, HtmlInputText INPUTAppmtDate,
+            List<ShopTimeEntity> shopTimeEntities, DropDownList DDLAppmtTime, Label LBLAppmtDate, Label LBLAppmtTime, string AppmtFromID, string AppmtToID)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            dateSelected = INPUTAppmtDate.Value; // get dateSelected
+            if (!string.IsNullOrEmpty(dateSelected))
+            {
+                daySelected = (DateTime.Parse(dateSelected)).DayOfWeek.ToString();
+                // to get which day is operating
+                bool isOperating = false;
+                ShopTimeEntity shopTimeEntitySelected = null;
+                foreach (ShopTimeEntity shopTimeEntity in shopTimeEntities)
+                {
+                    if (shopTimeEntity.ShopDayOfWeek.ToLower().Contains(daySelected.ToLower()))
+                    {
+                        isOperating = true;
+                        shopTimeEntitySelected = shopTimeEntity;
+                        break;
+                    }
+                }
+                // Enale drop down list to select time
+                DDLAppmtTime.Enabled = isOperating;
+                if (isOperating)
+                {
+                    MessageHandler.DefaultMessage(LBLAppmtTime, "Event Time");
+                    MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Event Date (", shopTimeEntitySelected.ShopDayOfWeek, ")"));
+                    // display operation hours of a particular day
+                    var firstItem = DDLAppmtTime.Items[0];
+                    DDLAppmtTime.Items.Clear();
+                    DDLAppmtTime.Items.Add(firstItem);
+                    DDLAppmtTime.DataSource = Utility.getTimeInterval(shopTimeEntitySelected.ShopOpenTime, shopTimeEntitySelected.ShopCloseTime);
+                    DDLAppmtTime.DataBind();
+                    List<AppointmentEntity> adoptRequestEntities = appointmentCrtler.getAllAppointmentEntities(AppmtToID);
+                    foreach (AppointmentEntity appointmentEntity in adoptRequestEntities)
+                    {
+                        ListItem item;
+                        if (daySelected.ToLower().Equals(appointmentEntity.AppmtDateTime.DayOfWeek.ToString().ToLower()))
+                        {
+                            // remove time slot that aleady been booked
+                            item = DDLAppmtTime.Items.FindByValue(appointmentEntity.AppmtDateTime.ToString("HH:mm tt"));
+                            if (item != null)
+                            {
+                                // except the user booked time
+                                if (string.IsNullOrEmpty(AppmtFromID))
+                                    DDLAppmtTime.Items.Remove(item);
+                                if (!appointmentEntity.AppmtID.Equals(AppmtFromID))
+                                    DDLAppmtTime.Items.Remove(item);
+                            }
+                        }
+                    }
+                    // remove time selection after operating hours on current day
+                    if (dateSelected.Equals(DateTime.Now.ToString("dd-MMMM-yyyy")))
+                    {
+                        if ((DateTime.Parse(shopTimeEntitySelected.ShopCloseTime).TimeOfDay < DateTime.Now.TimeOfDay))
+                        {
+                            MessageHandler.ErrorMessage(LBLAppmtDate, string.Concat("Event Date (Close Now)"));
+                            DDLAppmtTime.Enabled = false;
+                        }
+                        else
+                        {
+                            DDLAppmtTime.Enabled = true;
+                            // still in operation, but need to remove time slot that is past current time
+                            List<string> operationTimes = new List<string>();
+                            foreach (ListItem item in DDLAppmtTime.Items)
+                            {
+                                operationTimes.Add(item.Value);
+                            }
+                            ListItem itemTime = new ListItem();
+                            foreach (string time in operationTimes)
+                            {
+                                if (!string.IsNullOrEmpty(time))
+                                {
+                                    itemTime = DDLAppmtTime.Items.FindByValue(time);
+                                    if (DateTime.Parse(time).TimeOfDay < DateTime.Now.TimeOfDay)
+                                    {
+                                        DDLAppmtTime.Items.Remove(itemTime);
+                                    }
+                                }
+                            }
+                            // additional information of operation status
+                            if (DDLAppmtTime.Items.Count <= 2)
+                            {
+                                MessageHandler.WarningMessage(LBLAppmtDate, string.Concat("Event Date (", shopTimeEntitySelected.ShopDayOfWeek, ") Closing soon"));
+                            }
+                            else
+                            {
+                                MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Event Date (", shopTimeEntitySelected.ShopDayOfWeek, ")"));
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    Thread.Sleep(1000);
+                    MessageHandler.ErrorMessage(LBLAppmtTime, "Event Time - Not open on selected date");
+                    MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Event Date"));
+                }
+            }
+        }
+        #endregion
     }
 }

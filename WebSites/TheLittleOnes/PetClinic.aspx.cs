@@ -5,14 +5,11 @@ using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class PetClinic : BasePageTLO
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
     }
-
     protected void DLShopInfo_ItemDataBound(object sender, DataListItemEventArgs e)
     {
         if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
@@ -41,7 +38,6 @@ public partial class PetClinic : BasePageTLO
             }
         }
     }
-
     private void updateOperationHourStatus(List<ShopTimeEntity> shopTimeEntities, Label LBLShopTimeStatus)
     {
         foreach (ShopTimeEntity shopTimeEntity in shopTimeEntities)
@@ -65,7 +61,6 @@ public partial class PetClinic : BasePageTLO
             }
         }
     }
-
     protected void DLPhoto_ItemDataBound(object sender, DataListItemEventArgs e)
     {
         Image image = e.Item.FindControl("Image1") as Image;

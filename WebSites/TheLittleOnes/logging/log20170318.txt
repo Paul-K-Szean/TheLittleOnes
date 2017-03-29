@@ -3,14 +3,14 @@
 20170318@00:29:17 [System] getLoggedInAccount 
 20170318@00:29:17 [System] BTNAppmtDate_Click 
 20170318@00:29:17 [System] loadOperatingHours 
-20170318@00:29:17 [System] MessageHandler : Appointment Time 
-20170318@00:29:17 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@00:29:17 [System] saveTempAppointment 
+20170318@00:29:17 [System] MessageHandler : Event Time 
+20170318@00:29:17 [System] MessageHandler : Event Date (Thursday) 
+20170318@00:29:17 [System] saveTempEvent 
 20170318@00:29:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@00:29:21 [System] getLoggedInAccount 
 20170318@00:29:21 [System] getLoggedInAccount 
 20170318@00:29:21 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@00:29:21 [System] saveTempAppointment 
+20170318@00:29:21 [System] saveTempEvent 
 20170318@00:29:22 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@00:29:22 [System] getLoggedInAccount 
 20170318@00:29:22 [System] getLoggedInAccount 
@@ -41,14 +41,14 @@
 20170318@00:30:05 [System] getLoggedInAccount 
 20170318@00:30:05 [System] BTNAppmtDate_Click 
 20170318@00:30:05 [System] loadOperatingHours 
-20170318@00:30:05 [System] MessageHandler : Appointment Time 
-20170318@00:30:05 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@00:30:05 [System] saveTempAppointment 
+20170318@00:30:05 [System] MessageHandler : Event Time 
+20170318@00:30:05 [System] MessageHandler : Event Date (Thursday) 
+20170318@00:30:05 [System] saveTempEvent 
 20170318@00:30:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@00:30:06 [System] getLoggedInAccount 
 20170318@00:30:06 [System] getLoggedInAccount 
 20170318@00:30:07 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@00:30:07 [System] saveTempAppointment 
+20170318@00:30:07 [System] saveTempEvent 
 20170318@00:30:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@00:30:08 [System] getLoggedInAccount 
 20170318@00:30:08 [System] getLoggedInAccount 
@@ -81,14 +81,14 @@
 20170318@01:18:52 [System] getLoggedInAccount 
 20170318@01:18:52 [System] BTNAppmtDate_Click 
 20170318@01:18:52 [System] loadOperatingHours 
-20170318@01:18:52 [System] MessageHandler : Appointment Time 
-20170318@01:18:52 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@01:18:52 [System] saveTempAppointment 
+20170318@01:18:52 [System] MessageHandler : Event Time 
+20170318@01:18:52 [System] MessageHandler : Event Date (Thursday) 
+20170318@01:18:52 [System] saveTempEvent 
 20170318@01:18:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@01:18:54 [System] getLoggedInAccount 
 20170318@01:18:54 [System] getLoggedInAccount 
 20170318@01:18:54 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@01:18:54 [System] saveTempAppointment 
+20170318@01:18:54 [System] saveTempEvent 
 20170318@01:18:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@01:18:55 [System] getLoggedInAccount 
 20170318@01:18:55 [System] getLoggedInAccount 
@@ -115,14 +115,14 @@
 20170318@01:19:04 [System] getLoggedInAccount 
 20170318@01:19:04 [System] BTNAppmtDate_Click 
 20170318@01:19:04 [System] loadOperatingHours 
-20170318@01:19:04 [System] MessageHandler : Appointment Time 
-20170318@01:19:04 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@01:19:04 [System] saveTempAppointment 
+20170318@01:19:04 [System] MessageHandler : Event Time 
+20170318@01:19:04 [System] MessageHandler : Event Date (Thursday) 
+20170318@01:19:04 [System] saveTempEvent 
 20170318@01:19:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@01:19:05 [System] getLoggedInAccount 
 20170318@01:19:05 [System] getLoggedInAccount 
 20170318@01:19:05 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@01:19:05 [System] saveTempAppointment 
+20170318@01:19:05 [System] saveTempEvent 
 20170318@01:19:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@01:19:06 [System] getLoggedInAccount 
 20170318@01:19:06 [System] getLoggedInAccount 
@@ -153,14 +153,14 @@
 20170318@01:22:48 [System] getLoggedInAccount 
 20170318@01:22:48 [System] BTNAppmtDate_Click 
 20170318@01:22:48 [System] loadOperatingHours 
-20170318@01:22:48 [System] MessageHandler : Appointment Time 
-20170318@01:22:48 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@01:22:48 [System] saveTempAppointment 
+20170318@01:22:48 [System] MessageHandler : Event Time 
+20170318@01:22:48 [System] MessageHandler : Event Date (Thursday) 
+20170318@01:22:48 [System] saveTempEvent 
 20170318@01:22:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@01:22:49 [System] getLoggedInAccount 
 20170318@01:22:49 [System] getLoggedInAccount 
 20170318@01:22:49 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@01:22:49 [System] saveTempAppointment 
+20170318@01:22:49 [System] saveTempEvent 
 20170318@01:22:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@01:22:50 [System] getLoggedInAccount 
 20170318@01:22:50 [System] getLoggedInAccount 
@@ -220,14 +220,14 @@
 20170318@02:31:35 [System] getLoggedInAccount 
 20170318@02:31:35 [System] BTNAppmtDate_Click 
 20170318@02:31:35 [System] loadOperatingHours 
-20170318@02:31:35 [System] MessageHandler : Appointment Time 
-20170318@02:31:35 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@02:31:35 [System] saveTempAppointment 
+20170318@02:31:35 [System] MessageHandler : Event Time 
+20170318@02:31:35 [System] MessageHandler : Event Date (Thursday) 
+20170318@02:31:35 [System] saveTempEvent 
 20170318@02:31:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@02:31:36 [System] getLoggedInAccount 
 20170318@02:31:36 [System] getLoggedInAccount 
 20170318@02:31:36 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@02:31:36 [System] saveTempAppointment 
+20170318@02:31:36 [System] saveTempEvent 
 20170318@02:31:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@02:31:37 [System] getLoggedInAccount 
 20170318@02:31:37 [System] getLoggedInAccount 
@@ -254,14 +254,14 @@
 20170318@02:31:44 [System] getLoggedInAccount 
 20170318@02:31:44 [System] BTNAppmtDate_Click 
 20170318@02:31:44 [System] loadOperatingHours 
-20170318@02:31:44 [System] MessageHandler : Appointment Time 
-20170318@02:31:44 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@02:31:44 [System] saveTempAppointment 
+20170318@02:31:44 [System] MessageHandler : Event Time 
+20170318@02:31:44 [System] MessageHandler : Event Date (Thursday) 
+20170318@02:31:44 [System] saveTempEvent 
 20170318@02:31:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@02:31:45 [System] getLoggedInAccount 
 20170318@02:31:45 [System] getLoggedInAccount 
 20170318@02:31:45 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@02:31:45 [System] saveTempAppointment 
+20170318@02:31:45 [System] saveTempEvent 
 20170318@02:31:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@02:31:45 [System] getLoggedInAccount 
 20170318@02:31:45 [System] getLoggedInAccount 
@@ -316,14 +316,14 @@
 20170318@02:35:00 [System] getLoggedInAccount 
 20170318@02:35:00 [System] BTNAppmtDate_Click 
 20170318@02:35:00 [System] loadOperatingHours 
-20170318@02:35:00 [System] MessageHandler : Appointment Time 
-20170318@02:35:00 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@02:35:00 [System] saveTempAppointment 
+20170318@02:35:00 [System] MessageHandler : Event Time 
+20170318@02:35:00 [System] MessageHandler : Event Date (Thursday) 
+20170318@02:35:00 [System] saveTempEvent 
 20170318@02:35:02 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@02:35:02 [System] getLoggedInAccount 
 20170318@02:35:02 [System] getLoggedInAccount 
 20170318@02:35:02 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@02:35:02 [System] saveTempAppointment 
+20170318@02:35:02 [System] saveTempEvent 
 20170318@02:35:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@02:35:03 [System] getLoggedInAccount 
 20170318@02:35:03 [System] getLoggedInAccount 
@@ -363,14 +363,14 @@
 20170318@02:58:47 [System] getLoggedInAccount 
 20170318@02:58:48 [System] BTNAppmtDate_Click 
 20170318@02:58:48 [System] loadOperatingHours 
-20170318@02:58:48 [System] MessageHandler : Appointment Time 
-20170318@02:58:48 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@02:58:48 [System] saveTempAppointment 
+20170318@02:58:48 [System] MessageHandler : Event Time 
+20170318@02:58:48 [System] MessageHandler : Event Date (Thursday) 
+20170318@02:58:48 [System] saveTempEvent 
 20170318@02:58:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@02:58:50 [System] getLoggedInAccount 
 20170318@02:58:50 [System] getLoggedInAccount 
 20170318@02:58:50 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@02:58:50 [System] saveTempAppointment 
+20170318@02:58:50 [System] saveTempEvent 
 20170318@02:58:51 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@02:58:51 [System] getLoggedInAccount 
 20170318@02:58:51 [System] getLoggedInAccount 
@@ -397,14 +397,14 @@
 20170318@02:59:05 [System] getLoggedInAccount 
 20170318@02:59:05 [System] BTNAppmtDate_Click 
 20170318@02:59:05 [System] loadOperatingHours 
-20170318@02:59:05 [System] MessageHandler : Appointment Time 
-20170318@02:59:05 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@02:59:05 [System] saveTempAppointment 
+20170318@02:59:05 [System] MessageHandler : Event Time 
+20170318@02:59:05 [System] MessageHandler : Event Date (Thursday) 
+20170318@02:59:05 [System] saveTempEvent 
 20170318@02:59:06 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@02:59:06 [System] getLoggedInAccount 
 20170318@02:59:06 [System] getLoggedInAccount 
 20170318@02:59:06 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@02:59:06 [System] saveTempAppointment 
+20170318@02:59:06 [System] saveTempEvent 
 20170318@02:59:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@02:59:07 [System] getLoggedInAccount 
 20170318@02:59:07 [System] getLoggedInAccount 
@@ -422,8 +422,8 @@
 20170318@02:59:12 [System] getShopInfo 
 20170318@02:59:12 [System] getShopTime 
 20170318@02:59:12 [System] loadOperatingHours 
-20170318@02:59:12 [System] MessageHandler : Appointment Time 
-20170318@02:59:12 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@02:59:12 [System] MessageHandler : Event Time 
+20170318@02:59:12 [System] MessageHandler : Event Date (Thursday) 
 20170318@02:59:12 [System] getLoggedInAccount 
 20170318@02:59:13 [System] DLAdoptInfo_ItemDataBound 
 20170318@02:59:13 [System] DLMorePet_ItemDataBound 
@@ -437,8 +437,8 @@
 20170318@03:01:37 [System] getShopInfo 
 20170318@03:01:37 [System] getShopTime 
 20170318@03:01:37 [System] loadOperatingHours 
-20170318@03:01:37 [System] MessageHandler : Appointment Time 
-20170318@03:01:37 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@03:01:37 [System] MessageHandler : Event Time 
+20170318@03:01:37 [System] MessageHandler : Event Date (Thursday) 
 20170318@03:01:37 [System] getLoggedInAccount 
 20170318@03:01:38 [System] DLAdoptInfo_ItemDataBound 
 20170318@03:01:38 [System] DLMorePet_ItemDataBound 
@@ -481,14 +481,14 @@
 20170318@12:00:54 [System] getLoggedInAccount 
 20170318@12:00:54 [System] BTNAppmtDate_Click 
 20170318@12:00:54 [System] loadOperatingHours 
-20170318@12:00:54 [System] MessageHandler : Appointment Time 
-20170318@12:00:54 [System] MessageHandler : Appointment Date (Wednesday) 
-20170318@12:00:54 [System] saveTempAppointment 
+20170318@12:00:54 [System] MessageHandler : Event Time 
+20170318@12:00:54 [System] MessageHandler : Event Date (Wednesday) 
+20170318@12:00:54 [System] saveTempEvent 
 20170318@12:00:56 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@12:00:56 [System] getLoggedInAccount 
 20170318@12:00:56 [System] getLoggedInAccount 
 20170318@12:00:56 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@12:00:56 [System] saveTempAppointment 
+20170318@12:00:56 [System] saveTempEvent 
 20170318@12:00:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@12:00:58 [System] getLoggedInAccount 
 20170318@12:00:58 [System] getLoggedInAccount 
@@ -506,8 +506,8 @@
 20170318@12:01:03 [System] getShopInfo 
 20170318@12:01:03 [System] getShopTime 
 20170318@12:01:03 [System] loadOperatingHours 
-20170318@12:01:03 [System] MessageHandler : Appointment Time 
-20170318@12:01:03 [System] MessageHandler : Appointment Date (Wednesday) 
+20170318@12:01:03 [System] MessageHandler : Event Time 
+20170318@12:01:03 [System] MessageHandler : Event Date (Wednesday) 
 20170318@12:01:03 [System] getLoggedInAccount 
 20170318@12:01:03 [System] DLAdoptInfo_ItemDataBound 
 20170318@12:01:03 [System] DLMorePet_ItemDataBound 
@@ -541,14 +541,14 @@
 20170318@13:53:35 [System] getLoggedInAccount 
 20170318@13:53:35 [System] BTNAppmtDate_Click 
 20170318@13:53:35 [System] loadOperatingHours 
-20170318@13:53:35 [System] MessageHandler : Appointment Time 
-20170318@13:53:35 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@13:53:35 [System] saveTempAppointment 
+20170318@13:53:35 [System] MessageHandler : Event Time 
+20170318@13:53:35 [System] MessageHandler : Event Date (Thursday) 
+20170318@13:53:35 [System] saveTempEvent 
 20170318@13:53:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@13:53:36 [System] getLoggedInAccount 
 20170318@13:53:36 [System] getLoggedInAccount 
 20170318@13:53:36 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@13:53:36 [System] saveTempAppointment 
+20170318@13:53:36 [System] saveTempEvent 
 20170318@13:53:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@13:53:37 [System] getLoggedInAccount 
 20170318@13:53:37 [System] getLoggedInAccount 
@@ -567,8 +567,8 @@
 20170318@13:53:41 [System] getShopInfo 
 20170318@13:53:41 [System] getShopTime 
 20170318@13:53:41 [System] loadOperatingHours 
-20170318@13:53:41 [System] MessageHandler : Appointment Time 
-20170318@13:53:41 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@13:53:41 [System] MessageHandler : Event Time 
+20170318@13:53:41 [System] MessageHandler : Event Date (Thursday) 
 20170318@13:53:41 [System] getLoggedInAccount 
 20170318@13:53:41 [System] DLAdoptInfo_ItemDataBound 
 20170318@13:53:41 [System] DLMorePet_ItemDataBound 
@@ -599,14 +599,14 @@
 20170318@13:55:06 [System] getLoggedInAccount 
 20170318@13:55:06 [System] BTNAppmtDate_Click 
 20170318@13:55:06 [System] loadOperatingHours 
-20170318@13:55:06 [System] MessageHandler : Appointment Time 
-20170318@13:55:06 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@13:55:06 [System] saveTempAppointment 
+20170318@13:55:06 [System] MessageHandler : Event Time 
+20170318@13:55:06 [System] MessageHandler : Event Date (Thursday) 
+20170318@13:55:06 [System] saveTempEvent 
 20170318@13:55:07 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@13:55:07 [System] getLoggedInAccount 
 20170318@13:55:07 [System] getLoggedInAccount 
 20170318@13:55:07 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@13:55:07 [System] saveTempAppointment 
+20170318@13:55:07 [System] saveTempEvent 
 20170318@13:55:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@13:55:08 [System] getLoggedInAccount 
 20170318@13:55:08 [System] getLoggedInAccount 
@@ -625,8 +625,8 @@
 20170318@13:55:22 [System] getShopInfo 
 20170318@13:55:22 [System] getShopTime 
 20170318@13:55:22 [System] loadOperatingHours 
-20170318@13:55:22 [System] MessageHandler : Appointment Time 
-20170318@13:55:22 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@13:55:22 [System] MessageHandler : Event Time 
+20170318@13:55:22 [System] MessageHandler : Event Date (Thursday) 
 20170318@13:55:22 [System] getLoggedInAccount 
 20170318@13:55:22 [System] DLAdoptInfo_ItemDataBound 
 20170318@13:55:23 [System] DLMorePet_ItemDataBound 
@@ -657,14 +657,14 @@
 20170318@13:57:42 [System] getLoggedInAccount 
 20170318@13:57:42 [System] BTNAppmtDate_Click 
 20170318@13:57:42 [System] loadOperatingHours 
-20170318@13:57:42 [System] MessageHandler : Appointment Time 
-20170318@13:57:42 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@13:57:42 [System] saveTempAppointment 
+20170318@13:57:42 [System] MessageHandler : Event Time 
+20170318@13:57:42 [System] MessageHandler : Event Date (Thursday) 
+20170318@13:57:42 [System] saveTempEvent 
 20170318@13:57:43 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@13:57:43 [System] getLoggedInAccount 
 20170318@13:57:43 [System] getLoggedInAccount 
 20170318@13:57:43 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@13:57:43 [System] saveTempAppointment 
+20170318@13:57:43 [System] saveTempEvent 
 20170318@13:57:44 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@13:57:44 [System] getLoggedInAccount 
 20170318@13:57:44 [System] getLoggedInAccount 
@@ -683,8 +683,8 @@
 20170318@13:57:48 [System] getShopInfo 
 20170318@13:57:48 [System] getShopTime 
 20170318@13:57:48 [System] loadOperatingHours 
-20170318@13:57:48 [System] MessageHandler : Appointment Time 
-20170318@13:57:48 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@13:57:48 [System] MessageHandler : Event Time 
+20170318@13:57:48 [System] MessageHandler : Event Date (Thursday) 
 20170318@13:57:48 [System] getLoggedInAccount 
 20170318@13:57:48 [System] DLAdoptInfo_ItemDataBound 
 20170318@13:57:48 [System] DLMorePet_ItemDataBound 
@@ -716,9 +716,9 @@
 20170318@13:58:44 [System] getLoggedInAccount 
 20170318@13:58:44 [System] BTNAppmtDate_Click 
 20170318@13:58:44 [System] loadOperatingHours 
-20170318@13:58:44 [System] MessageHandler : Appointment Time 
-20170318@13:58:44 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@13:58:44 [System] saveTempAppointment 
+20170318@13:58:44 [System] MessageHandler : Event Time 
+20170318@13:58:44 [System] MessageHandler : Event Date (Thursday) 
+20170318@13:58:44 [System] saveTempEvent 
 20170318@13:59:11 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170318@13:59:11 [System] getLoggedInAccount 
 20170318@13:59:21 [System] Page loaded: http://localhost:65063/adoption.aspx 
@@ -744,14 +744,14 @@
 20170318@13:59:36 [System] getLoggedInAccount 
 20170318@13:59:36 [System] BTNAppmtDate_Click 
 20170318@13:59:36 [System] loadOperatingHours 
-20170318@13:59:36 [System] MessageHandler : Appointment Time 
-20170318@13:59:36 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@13:59:36 [System] saveTempAppointment 
+20170318@13:59:36 [System] MessageHandler : Event Time 
+20170318@13:59:36 [System] MessageHandler : Event Date (Thursday) 
+20170318@13:59:36 [System] saveTempEvent 
 20170318@13:59:36 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@13:59:37 [System] getLoggedInAccount 
 20170318@13:59:37 [System] getLoggedInAccount 
 20170318@13:59:37 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@13:59:37 [System] saveTempAppointment 
+20170318@13:59:37 [System] saveTempEvent 
 20170318@13:59:37 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@13:59:37 [System] getLoggedInAccount 
 20170318@13:59:37 [System] getLoggedInAccount 
@@ -777,14 +777,14 @@
 20170318@14:02:17 [System] getLoggedInAccount 
 20170318@14:02:17 [System] BTNAppmtDate_Click 
 20170318@14:02:17 [System] loadOperatingHours 
-20170318@14:02:17 [System] MessageHandler : Appointment Time 
-20170318@14:02:17 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@14:02:17 [System] saveTempAppointment 
+20170318@14:02:17 [System] MessageHandler : Event Time 
+20170318@14:02:17 [System] MessageHandler : Event Date (Thursday) 
+20170318@14:02:17 [System] saveTempEvent 
 20170318@14:02:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@14:02:18 [System] getLoggedInAccount 
 20170318@14:02:18 [System] getLoggedInAccount 
 20170318@14:02:18 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@14:02:18 [System] saveTempAppointment 
+20170318@14:02:18 [System] saveTempEvent 
 20170318@14:02:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@14:02:19 [System] getLoggedInAccount 
 20170318@14:02:19 [System] getLoggedInAccount 
@@ -803,8 +803,8 @@
 20170318@14:02:23 [System] getShopInfo 
 20170318@14:02:23 [System] getShopTime 
 20170318@14:02:23 [System] loadOperatingHours 
-20170318@14:02:23 [System] MessageHandler : Appointment Time 
-20170318@14:02:23 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@14:02:23 [System] MessageHandler : Event Time 
+20170318@14:02:23 [System] MessageHandler : Event Date (Thursday) 
 20170318@14:02:23 [System] getLoggedInAccount 
 20170318@14:02:24 [System] DLAdoptInfo_ItemDataBound 
 20170318@14:02:24 [System] DLMorePet_ItemDataBound 
@@ -1366,14 +1366,14 @@
 20170318@15:56:18 [System] getLoggedInAccount 
 20170318@15:56:18 [System] BTNAppmtDate_Click 
 20170318@15:56:18 [System] loadOperatingHours 
-20170318@15:56:18 [System] MessageHandler : Appointment Time 
-20170318@15:56:18 [System] MessageHandler : Appointment Date (Thursday) 
-20170318@15:56:18 [System] saveTempAppointment 
+20170318@15:56:18 [System] MessageHandler : Event Time 
+20170318@15:56:18 [System] MessageHandler : Event Date (Thursday) 
+20170318@15:56:18 [System] saveTempEvent 
 20170318@15:56:19 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@15:56:19 [System] getLoggedInAccount 
 20170318@15:56:19 [System] getLoggedInAccount 
 20170318@15:56:19 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@15:56:19 [System] saveTempAppointment 
+20170318@15:56:19 [System] saveTempEvent 
 20170318@15:56:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@15:56:21 [System] getLoggedInAccount 
 20170318@15:56:21 [System] getLoggedInAccount 
@@ -1397,8 +1397,8 @@
 20170318@15:56:46 [System] getShopInfo 
 20170318@15:56:46 [System] getShopTime 
 20170318@15:56:46 [System] loadOperatingHours 
-20170318@15:56:46 [System] MessageHandler : Appointment Time 
-20170318@15:56:46 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@15:56:46 [System] MessageHandler : Event Time 
+20170318@15:56:46 [System] MessageHandler : Event Date (Thursday) 
 20170318@15:56:46 [System] getLoggedInAccount 
 20170318@15:56:46 [System] DLAdoptInfo_ItemDataBound 
 20170318@15:56:47 [System] getTotalRequestEntities 
@@ -1420,8 +1420,8 @@
 20170318@16:00:56 [System] getShopInfo 
 20170318@16:00:56 [System] getShopTime 
 20170318@16:00:57 [System] loadOperatingHours 
-20170318@16:00:57 [System] MessageHandler : Appointment Time 
-20170318@16:00:57 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@16:00:57 [System] MessageHandler : Event Time 
+20170318@16:00:57 [System] MessageHandler : Event Date (Thursday) 
 20170318@16:00:57 [System] getLoggedInAccount 
 20170318@16:00:57 [System] DLAdoptInfo_ItemDataBound 
 20170318@16:00:57 [System] getTotalRequestEntities 
@@ -1436,8 +1436,8 @@
 20170318@16:06:50 [System] getShopInfo 
 20170318@16:06:50 [System] getShopTime 
 20170318@16:06:50 [System] loadOperatingHours 
-20170318@16:06:50 [System] MessageHandler : Appointment Time 
-20170318@16:06:50 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@16:06:50 [System] MessageHandler : Event Time 
+20170318@16:06:50 [System] MessageHandler : Event Date (Thursday) 
 20170318@16:06:50 [System] getLoggedInAccount 
 20170318@16:06:51 [System] DLAdoptInfo_ItemDataBound 
 20170318@16:06:51 [System] getTotalRequestEntities 
@@ -2030,8 +2030,8 @@
 20170318@16:54:33 [System] getShopInfo 
 20170318@16:54:34 [System] getShopTime 
 20170318@16:54:34 [System] loadOperatingHours 
-20170318@16:54:34 [System] MessageHandler : Appointment Time 
-20170318@16:54:34 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@16:54:34 [System] MessageHandler : Event Time 
+20170318@16:54:34 [System] MessageHandler : Event Date (Thursday) 
 20170318@16:54:34 [System] getLoggedInAccount 
 20170318@16:54:34 [System] DLAdoptInfo_ItemDataBound 
 20170318@16:54:34 [System] getTotalRequestEntities 
@@ -2122,14 +2122,14 @@
 20170318@18:15:20 [System] getLoggedInAccount 
 20170318@18:15:20 [System] BTNAppmtDate_Click 
 20170318@18:15:20 [System] loadOperatingHours 
-20170318@18:15:20 [System] MessageHandler : Appointment Time 
-20170318@18:15:20 [System] MessageHandler : Appointment Date (Wednesday) 
-20170318@18:15:20 [System] saveTempAppointment 
+20170318@18:15:20 [System] MessageHandler : Event Time 
+20170318@18:15:20 [System] MessageHandler : Event Date (Wednesday) 
+20170318@18:15:20 [System] saveTempEvent 
 20170318@18:15:23 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170318@18:15:23 [System] getLoggedInAccount 
 20170318@18:15:23 [System] getLoggedInAccount 
 20170318@18:15:23 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@18:15:23 [System] saveTempAppointment 
+20170318@18:15:23 [System] saveTempEvent 
 20170318@18:15:25 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170318@18:15:25 [System] getLoggedInAccount 
 20170318@18:15:25 [System] getLoggedInAccount 
@@ -2157,8 +2157,8 @@
 20170318@18:16:28 [System] getShopInfo 
 20170318@18:16:28 [System] getShopTime 
 20170318@18:16:28 [System] loadOperatingHours 
-20170318@18:16:28 [System] MessageHandler : Appointment Time 
-20170318@18:16:28 [System] MessageHandler : Appointment Date (Wednesday) 
+20170318@18:16:28 [System] MessageHandler : Event Time 
+20170318@18:16:28 [System] MessageHandler : Event Date (Wednesday) 
 20170318@18:16:28 [System] getLoggedInAccount 
 20170318@18:16:28 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:16:28 [System] getTotalAdoptRequestEntities 
@@ -2210,22 +2210,22 @@
 20170318@18:16:52 [System] getLoggedInAccount 
 20170318@18:16:52 [System] BTNAppmtDate_Click 
 20170318@18:16:52 [System] loadOperatingHours 
-20170318@18:16:52 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170318@18:16:52 [System] MessageHandler : Appointment Date 
-20170318@18:16:52 [System] saveTempAppointment 
+20170318@18:16:52 [System] MessageHandler : Event Time - Not open on selected date 
+20170318@18:16:52 [System] MessageHandler : Event Date 
+20170318@18:16:52 [System] saveTempEvent 
 20170318@18:16:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170318@18:16:55 [System] getLoggedInAccount 
 20170318@18:16:55 [System] getLoggedInAccount 
 20170318@18:16:56 [System] BTNAppmtDate_Click 
 20170318@18:16:56 [System] loadOperatingHours 
-20170318@18:16:56 [System] MessageHandler : Appointment Time 
-20170318@18:16:56 [System] MessageHandler : Appointment Date (Friday) 
-20170318@18:16:56 [System] saveTempAppointment 
+20170318@18:16:56 [System] MessageHandler : Event Time 
+20170318@18:16:56 [System] MessageHandler : Event Date (Friday) 
+20170318@18:16:56 [System] saveTempEvent 
 20170318@18:17:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170318@18:17:03 [System] getLoggedInAccount 
 20170318@18:17:03 [System] getLoggedInAccount 
 20170318@18:17:03 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@18:17:03 [System] saveTempAppointment 
+20170318@18:17:03 [System] saveTempEvent 
 20170318@18:17:09 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=25 
 20170318@18:17:09 [System] getLoggedInAccount 
 20170318@18:17:09 [System] getLoggedInAccount 
@@ -2241,8 +2241,8 @@
 20170318@18:17:09 [System] getShopInfo 
 20170318@18:17:09 [System] getShopTime 
 20170318@18:17:09 [System] loadOperatingHours 
-20170318@18:17:09 [System] MessageHandler : Appointment Time 
-20170318@18:17:09 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:17:09 [System] MessageHandler : Event Time 
+20170318@18:17:09 [System] MessageHandler : Event Date (Friday) 
 20170318@18:17:09 [System] getLoggedInAccount 
 20170318@18:17:10 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:17:10 [System] getTotalAdoptRequestEntities 
@@ -2264,8 +2264,8 @@
 20170318@18:18:14 [System] getShopInfo 
 20170318@18:18:15 [System] getShopTime 
 20170318@18:18:15 [System] loadOperatingHours 
-20170318@18:18:15 [System] MessageHandler : Appointment Time 
-20170318@18:18:15 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:15 [System] MessageHandler : Event Time 
+20170318@18:18:15 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:15 [System] getLoggedInAccount 
 20170318@18:18:15 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:15 [System] getTotalAdoptRequestEntities 
@@ -2280,8 +2280,8 @@
 20170318@18:18:15 [System] getShopInfo 
 20170318@18:18:15 [System] getShopTime 
 20170318@18:18:16 [System] loadOperatingHours 
-20170318@18:18:16 [System] MessageHandler : Appointment Time 
-20170318@18:18:16 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:16 [System] MessageHandler : Event Time 
+20170318@18:18:16 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:16 [System] getLoggedInAccount 
 20170318@18:18:16 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:16 [System] getTotalAdoptRequestEntities 
@@ -2296,8 +2296,8 @@
 20170318@18:18:16 [System] getShopInfo 
 20170318@18:18:16 [System] getShopTime 
 20170318@18:18:16 [System] loadOperatingHours 
-20170318@18:18:16 [System] MessageHandler : Appointment Time 
-20170318@18:18:16 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:16 [System] MessageHandler : Event Time 
+20170318@18:18:16 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:17 [System] getLoggedInAccount 
 20170318@18:18:17 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:17 [System] getTotalAdoptRequestEntities 
@@ -2312,8 +2312,8 @@
 20170318@18:18:17 [System] getShopInfo 
 20170318@18:18:17 [System] getShopTime 
 20170318@18:18:17 [System] loadOperatingHours 
-20170318@18:18:17 [System] MessageHandler : Appointment Time 
-20170318@18:18:17 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:17 [System] MessageHandler : Event Time 
+20170318@18:18:17 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:17 [System] getLoggedInAccount 
 20170318@18:18:18 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:18 [System] getTotalAdoptRequestEntities 
@@ -2328,8 +2328,8 @@
 20170318@18:18:18 [System] getShopInfo 
 20170318@18:18:18 [System] getShopTime 
 20170318@18:18:18 [System] loadOperatingHours 
-20170318@18:18:18 [System] MessageHandler : Appointment Time 
-20170318@18:18:18 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:18 [System] MessageHandler : Event Time 
+20170318@18:18:18 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:18 [System] getLoggedInAccount 
 20170318@18:18:18 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:18 [System] getTotalAdoptRequestEntities 
@@ -2344,8 +2344,8 @@
 20170318@18:18:19 [System] getShopInfo 
 20170318@18:18:19 [System] getShopTime 
 20170318@18:18:19 [System] loadOperatingHours 
-20170318@18:18:19 [System] MessageHandler : Appointment Time 
-20170318@18:18:19 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:19 [System] MessageHandler : Event Time 
+20170318@18:18:19 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:19 [System] getLoggedInAccount 
 20170318@18:18:19 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:19 [System] getTotalAdoptRequestEntities 
@@ -2360,8 +2360,8 @@
 20170318@18:18:20 [System] getShopInfo 
 20170318@18:18:20 [System] getShopTime 
 20170318@18:18:20 [System] loadOperatingHours 
-20170318@18:18:20 [System] MessageHandler : Appointment Time 
-20170318@18:18:20 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:20 [System] MessageHandler : Event Time 
+20170318@18:18:20 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:20 [System] getLoggedInAccount 
 20170318@18:18:20 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:20 [System] getTotalAdoptRequestEntities 
@@ -2376,8 +2376,8 @@
 20170318@18:18:20 [System] getShopInfo 
 20170318@18:18:20 [System] getShopTime 
 20170318@18:18:21 [System] loadOperatingHours 
-20170318@18:18:21 [System] MessageHandler : Appointment Time 
-20170318@18:18:21 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:21 [System] MessageHandler : Event Time 
+20170318@18:18:21 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:21 [System] getLoggedInAccount 
 20170318@18:18:21 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:21 [System] getTotalAdoptRequestEntities 
@@ -2392,8 +2392,8 @@
 20170318@18:18:21 [System] getShopInfo 
 20170318@18:18:21 [System] getShopTime 
 20170318@18:18:21 [System] loadOperatingHours 
-20170318@18:18:21 [System] MessageHandler : Appointment Time 
-20170318@18:18:21 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:21 [System] MessageHandler : Event Time 
+20170318@18:18:21 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:21 [System] getLoggedInAccount 
 20170318@18:18:21 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:21 [System] getTotalAdoptRequestEntities 
@@ -2408,8 +2408,8 @@
 20170318@18:18:22 [System] getShopInfo 
 20170318@18:18:22 [System] getShopTime 
 20170318@18:18:22 [System] loadOperatingHours 
-20170318@18:18:22 [System] MessageHandler : Appointment Time 
-20170318@18:18:22 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:22 [System] MessageHandler : Event Time 
+20170318@18:18:22 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:22 [System] getLoggedInAccount 
 20170318@18:18:22 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:22 [System] getTotalAdoptRequestEntities 
@@ -2424,8 +2424,8 @@
 20170318@18:18:22 [System] getShopInfo 
 20170318@18:18:23 [System] getShopTime 
 20170318@18:18:23 [System] loadOperatingHours 
-20170318@18:18:23 [System] MessageHandler : Appointment Time 
-20170318@18:18:23 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:23 [System] MessageHandler : Event Time 
+20170318@18:18:23 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:23 [System] getLoggedInAccount 
 20170318@18:18:23 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:23 [System] getTotalAdoptRequestEntities 
@@ -2440,8 +2440,8 @@
 20170318@18:18:23 [System] getShopInfo 
 20170318@18:18:24 [System] getShopTime 
 20170318@18:18:24 [System] loadOperatingHours 
-20170318@18:18:24 [System] MessageHandler : Appointment Time 
-20170318@18:18:24 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:24 [System] MessageHandler : Event Time 
+20170318@18:18:24 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:24 [System] getLoggedInAccount 
 20170318@18:18:24 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:24 [System] getTotalAdoptRequestEntities 
@@ -2456,8 +2456,8 @@
 20170318@18:18:24 [System] getShopInfo 
 20170318@18:18:24 [System] getShopTime 
 20170318@18:18:25 [System] loadOperatingHours 
-20170318@18:18:25 [System] MessageHandler : Appointment Time 
-20170318@18:18:25 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:25 [System] MessageHandler : Event Time 
+20170318@18:18:25 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:25 [System] getLoggedInAccount 
 20170318@18:18:25 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:25 [System] getTotalAdoptRequestEntities 
@@ -2472,8 +2472,8 @@
 20170318@18:18:25 [System] getShopInfo 
 20170318@18:18:25 [System] getShopTime 
 20170318@18:18:25 [System] loadOperatingHours 
-20170318@18:18:25 [System] MessageHandler : Appointment Time 
-20170318@18:18:25 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:25 [System] MessageHandler : Event Time 
+20170318@18:18:25 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:25 [System] getLoggedInAccount 
 20170318@18:18:26 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:26 [System] getTotalAdoptRequestEntities 
@@ -2488,8 +2488,8 @@
 20170318@18:18:26 [System] getShopInfo 
 20170318@18:18:26 [System] getShopTime 
 20170318@18:18:26 [System] loadOperatingHours 
-20170318@18:18:26 [System] MessageHandler : Appointment Time 
-20170318@18:18:26 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:26 [System] MessageHandler : Event Time 
+20170318@18:18:26 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:26 [System] getLoggedInAccount 
 20170318@18:18:27 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:27 [System] getTotalAdoptRequestEntities 
@@ -2504,8 +2504,8 @@
 20170318@18:18:27 [System] getShopInfo 
 20170318@18:18:27 [System] getShopTime 
 20170318@18:18:27 [System] loadOperatingHours 
-20170318@18:18:27 [System] MessageHandler : Appointment Time 
-20170318@18:18:27 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:27 [System] MessageHandler : Event Time 
+20170318@18:18:27 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:27 [System] getLoggedInAccount 
 20170318@18:18:27 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:27 [System] getTotalAdoptRequestEntities 
@@ -2520,8 +2520,8 @@
 20170318@18:18:28 [System] getShopInfo 
 20170318@18:18:28 [System] getShopTime 
 20170318@18:18:29 [System] loadOperatingHours 
-20170318@18:18:29 [System] MessageHandler : Appointment Time 
-20170318@18:18:29 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:29 [System] MessageHandler : Event Time 
+20170318@18:18:29 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:29 [System] getLoggedInAccount 
 20170318@18:18:29 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:29 [System] getTotalAdoptRequestEntities 
@@ -2536,8 +2536,8 @@
 20170318@18:18:29 [System] getShopInfo 
 20170318@18:18:29 [System] getShopTime 
 20170318@18:18:29 [System] loadOperatingHours 
-20170318@18:18:29 [System] MessageHandler : Appointment Time 
-20170318@18:18:29 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:29 [System] MessageHandler : Event Time 
+20170318@18:18:29 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:29 [System] getLoggedInAccount 
 20170318@18:18:30 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:30 [System] getTotalAdoptRequestEntities 
@@ -2552,8 +2552,8 @@
 20170318@18:18:30 [System] getShopInfo 
 20170318@18:18:30 [System] getShopTime 
 20170318@18:18:30 [System] loadOperatingHours 
-20170318@18:18:30 [System] MessageHandler : Appointment Time 
-20170318@18:18:30 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:30 [System] MessageHandler : Event Time 
+20170318@18:18:30 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:30 [System] getLoggedInAccount 
 20170318@18:18:30 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:30 [System] getTotalAdoptRequestEntities 
@@ -2568,8 +2568,8 @@
 20170318@18:18:31 [System] getShopInfo 
 20170318@18:18:31 [System] getShopTime 
 20170318@18:18:31 [System] loadOperatingHours 
-20170318@18:18:31 [System] MessageHandler : Appointment Time 
-20170318@18:18:31 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:31 [System] MessageHandler : Event Time 
+20170318@18:18:31 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:31 [System] getLoggedInAccount 
 20170318@18:18:31 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:31 [System] getTotalAdoptRequestEntities 
@@ -2584,8 +2584,8 @@
 20170318@18:18:32 [System] getShopInfo 
 20170318@18:18:32 [System] getShopTime 
 20170318@18:18:32 [System] loadOperatingHours 
-20170318@18:18:32 [System] MessageHandler : Appointment Time 
-20170318@18:18:32 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:32 [System] MessageHandler : Event Time 
+20170318@18:18:32 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:32 [System] getLoggedInAccount 
 20170318@18:18:32 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:32 [System] getTotalAdoptRequestEntities 
@@ -2600,8 +2600,8 @@
 20170318@18:18:33 [System] getShopInfo 
 20170318@18:18:33 [System] getShopTime 
 20170318@18:18:33 [System] loadOperatingHours 
-20170318@18:18:33 [System] MessageHandler : Appointment Time 
-20170318@18:18:33 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:33 [System] MessageHandler : Event Time 
+20170318@18:18:33 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:33 [System] getLoggedInAccount 
 20170318@18:18:33 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:33 [System] getTotalAdoptRequestEntities 
@@ -2616,8 +2616,8 @@
 20170318@18:18:34 [System] getShopInfo 
 20170318@18:18:34 [System] getShopTime 
 20170318@18:18:34 [System] loadOperatingHours 
-20170318@18:18:34 [System] MessageHandler : Appointment Time 
-20170318@18:18:34 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:34 [System] MessageHandler : Event Time 
+20170318@18:18:34 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:34 [System] getLoggedInAccount 
 20170318@18:18:34 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:34 [System] getTotalAdoptRequestEntities 
@@ -2632,8 +2632,8 @@
 20170318@18:18:35 [System] getShopInfo 
 20170318@18:18:35 [System] getShopTime 
 20170318@18:18:35 [System] loadOperatingHours 
-20170318@18:18:35 [System] MessageHandler : Appointment Time 
-20170318@18:18:35 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:35 [System] MessageHandler : Event Time 
+20170318@18:18:35 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:35 [System] getLoggedInAccount 
 20170318@18:18:35 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:35 [System] getTotalAdoptRequestEntities 
@@ -2648,8 +2648,8 @@
 20170318@18:18:36 [System] getShopInfo 
 20170318@18:18:36 [System] getShopTime 
 20170318@18:18:36 [System] loadOperatingHours 
-20170318@18:18:36 [System] MessageHandler : Appointment Time 
-20170318@18:18:36 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:36 [System] MessageHandler : Event Time 
+20170318@18:18:36 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:36 [System] getLoggedInAccount 
 20170318@18:18:36 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:36 [System] getTotalAdoptRequestEntities 
@@ -2664,8 +2664,8 @@
 20170318@18:18:36 [System] getShopInfo 
 20170318@18:18:36 [System] getShopTime 
 20170318@18:18:37 [System] loadOperatingHours 
-20170318@18:18:37 [System] MessageHandler : Appointment Time 
-20170318@18:18:37 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:37 [System] MessageHandler : Event Time 
+20170318@18:18:37 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:37 [System] getLoggedInAccount 
 20170318@18:18:37 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:37 [System] getTotalAdoptRequestEntities 
@@ -2680,8 +2680,8 @@
 20170318@18:18:37 [System] getShopInfo 
 20170318@18:18:37 [System] getShopTime 
 20170318@18:18:37 [System] loadOperatingHours 
-20170318@18:18:38 [System] MessageHandler : Appointment Time 
-20170318@18:18:38 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:38 [System] MessageHandler : Event Time 
+20170318@18:18:38 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:38 [System] getLoggedInAccount 
 20170318@18:18:38 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:38 [System] getTotalAdoptRequestEntities 
@@ -2696,8 +2696,8 @@
 20170318@18:18:39 [System] getShopInfo 
 20170318@18:18:39 [System] getShopTime 
 20170318@18:18:40 [System] loadOperatingHours 
-20170318@18:18:40 [System] MessageHandler : Appointment Time 
-20170318@18:18:40 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:40 [System] MessageHandler : Event Time 
+20170318@18:18:40 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:40 [System] getLoggedInAccount 
 20170318@18:18:40 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:40 [System] getTotalAdoptRequestEntities 
@@ -2712,8 +2712,8 @@
 20170318@18:18:41 [System] getShopInfo 
 20170318@18:18:41 [System] getShopTime 
 20170318@18:18:41 [System] loadOperatingHours 
-20170318@18:18:41 [System] MessageHandler : Appointment Time 
-20170318@18:18:41 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:41 [System] MessageHandler : Event Time 
+20170318@18:18:41 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:41 [System] getLoggedInAccount 
 20170318@18:18:41 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:41 [System] getTotalAdoptRequestEntities 
@@ -2728,8 +2728,8 @@
 20170318@18:18:41 [System] getShopInfo 
 20170318@18:18:42 [System] getShopTime 
 20170318@18:18:42 [System] loadOperatingHours 
-20170318@18:18:42 [System] MessageHandler : Appointment Time 
-20170318@18:18:42 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:42 [System] MessageHandler : Event Time 
+20170318@18:18:42 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:42 [System] getLoggedInAccount 
 20170318@18:18:42 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:42 [System] getTotalAdoptRequestEntities 
@@ -2744,8 +2744,8 @@
 20170318@18:18:42 [System] getShopInfo 
 20170318@18:18:42 [System] getShopTime 
 20170318@18:18:43 [System] loadOperatingHours 
-20170318@18:18:43 [System] MessageHandler : Appointment Time 
-20170318@18:18:43 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:43 [System] MessageHandler : Event Time 
+20170318@18:18:43 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:43 [System] getLoggedInAccount 
 20170318@18:18:43 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:43 [System] getTotalAdoptRequestEntities 
@@ -2760,8 +2760,8 @@
 20170318@18:18:43 [System] getShopInfo 
 20170318@18:18:44 [System] getShopTime 
 20170318@18:18:44 [System] loadOperatingHours 
-20170318@18:18:44 [System] MessageHandler : Appointment Time 
-20170318@18:18:44 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:44 [System] MessageHandler : Event Time 
+20170318@18:18:44 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:44 [System] getLoggedInAccount 
 20170318@18:18:44 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:44 [System] getTotalAdoptRequestEntities 
@@ -2776,8 +2776,8 @@
 20170318@18:18:44 [System] getShopInfo 
 20170318@18:18:44 [System] getShopTime 
 20170318@18:18:44 [System] loadOperatingHours 
-20170318@18:18:44 [System] MessageHandler : Appointment Time 
-20170318@18:18:44 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:44 [System] MessageHandler : Event Time 
+20170318@18:18:44 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:45 [System] getLoggedInAccount 
 20170318@18:18:45 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:45 [System] getTotalAdoptRequestEntities 
@@ -2792,8 +2792,8 @@
 20170318@18:18:45 [System] getShopInfo 
 20170318@18:18:45 [System] getShopTime 
 20170318@18:18:45 [System] loadOperatingHours 
-20170318@18:18:45 [System] MessageHandler : Appointment Time 
-20170318@18:18:45 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:45 [System] MessageHandler : Event Time 
+20170318@18:18:45 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:45 [System] getLoggedInAccount 
 20170318@18:18:46 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:46 [System] getTotalAdoptRequestEntities 
@@ -2808,8 +2808,8 @@
 20170318@18:18:46 [System] getShopInfo 
 20170318@18:18:46 [System] getShopTime 
 20170318@18:18:46 [System] loadOperatingHours 
-20170318@18:18:46 [System] MessageHandler : Appointment Time 
-20170318@18:18:46 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:46 [System] MessageHandler : Event Time 
+20170318@18:18:46 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:46 [System] getLoggedInAccount 
 20170318@18:18:47 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:47 [System] getTotalAdoptRequestEntities 
@@ -2824,8 +2824,8 @@
 20170318@18:18:49 [System] getShopInfo 
 20170318@18:18:49 [System] getShopTime 
 20170318@18:18:49 [System] loadOperatingHours 
-20170318@18:18:49 [System] MessageHandler : Appointment Time 
-20170318@18:18:49 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:49 [System] MessageHandler : Event Time 
+20170318@18:18:49 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:49 [System] getLoggedInAccount 
 20170318@18:18:50 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:50 [System] getTotalAdoptRequestEntities 
@@ -2840,8 +2840,8 @@
 20170318@18:18:50 [System] getShopInfo 
 20170318@18:18:50 [System] getShopTime 
 20170318@18:18:50 [System] loadOperatingHours 
-20170318@18:18:50 [System] MessageHandler : Appointment Time 
-20170318@18:18:50 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:18:50 [System] MessageHandler : Event Time 
+20170318@18:18:50 [System] MessageHandler : Event Date (Friday) 
 20170318@18:18:50 [System] getLoggedInAccount 
 20170318@18:18:51 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:18:51 [System] getTotalAdoptRequestEntities 
@@ -2906,8 +2906,8 @@
 20170318@18:19:37 [System] getShopInfo 
 20170318@18:19:37 [System] getShopTime 
 20170318@18:19:37 [System] loadOperatingHours 
-20170318@18:19:37 [System] MessageHandler : Appointment Time 
-20170318@18:19:37 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:19:37 [System] MessageHandler : Event Time 
+20170318@18:19:37 [System] MessageHandler : Event Date (Friday) 
 20170318@18:19:37 [System] getLoggedInAccount 
 20170318@18:19:37 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:19:37 [System] getTotalAdoptRequestEntities 
@@ -2927,8 +2927,8 @@
 20170318@18:20:41 [System] getShopInfo 
 20170318@18:20:42 [System] getShopTime 
 20170318@18:20:42 [System] loadOperatingHours 
-20170318@18:20:42 [System] MessageHandler : Appointment Time 
-20170318@18:20:42 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:20:42 [System] MessageHandler : Event Time 
+20170318@18:20:42 [System] MessageHandler : Event Date (Friday) 
 20170318@18:20:42 [System] getLoggedInAccount 
 20170318@18:20:42 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:20:42 [System] getTotalAdoptRequestEntities 
@@ -2946,14 +2946,14 @@
 20170318@18:47:48 [System] getLoggedInAccount 
 20170318@18:47:48 [System] BTNAppmtDate_Click 
 20170318@18:47:48 [System] loadOperatingHours 
-20170318@18:47:48 [System] MessageHandler : Appointment Time 
-20170318@18:47:48 [System] MessageHandler : Appointment Date (Wednesday) 
-20170318@18:47:48 [System] saveTempAppointment 
+20170318@18:47:48 [System] MessageHandler : Event Time 
+20170318@18:47:48 [System] MessageHandler : Event Date (Wednesday) 
+20170318@18:47:48 [System] saveTempEvent 
 20170318@18:47:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170318@18:47:50 [System] getLoggedInAccount 
 20170318@18:47:50 [System] getLoggedInAccount 
 20170318@18:47:50 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@18:47:50 [System] saveTempAppointment 
+20170318@18:47:50 [System] saveTempEvent 
 20170318@18:47:50 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=26 
 20170318@18:47:50 [System] getLoggedInAccount 
 20170318@18:47:50 [System] getLoggedInAccount 
@@ -2973,8 +2973,8 @@
 20170318@18:51:21 [System] getShopInfo 
 20170318@18:51:21 [System] getShopTime 
 20170318@18:51:21 [System] loadOperatingHours 
-20170318@18:51:21 [System] MessageHandler : Appointment Time 
-20170318@18:51:21 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:21 [System] MessageHandler : Event Time 
+20170318@18:51:21 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:22 [System] getLoggedInAccount 
 20170318@18:51:22 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:22 [System] getTotalAdoptRequestEntities 
@@ -2989,8 +2989,8 @@
 20170318@18:51:23 [System] getShopInfo 
 20170318@18:51:23 [System] getShopTime 
 20170318@18:51:23 [System] loadOperatingHours 
-20170318@18:51:23 [System] MessageHandler : Appointment Time 
-20170318@18:51:23 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:23 [System] MessageHandler : Event Time 
+20170318@18:51:23 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:23 [System] getLoggedInAccount 
 20170318@18:51:23 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:23 [System] getTotalAdoptRequestEntities 
@@ -3005,8 +3005,8 @@
 20170318@18:51:24 [System] getShopInfo 
 20170318@18:51:24 [System] getShopTime 
 20170318@18:51:24 [System] loadOperatingHours 
-20170318@18:51:24 [System] MessageHandler : Appointment Time 
-20170318@18:51:24 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:24 [System] MessageHandler : Event Time 
+20170318@18:51:24 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:25 [System] getLoggedInAccount 
 20170318@18:51:25 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:25 [System] getTotalAdoptRequestEntities 
@@ -3021,8 +3021,8 @@
 20170318@18:51:25 [System] getShopInfo 
 20170318@18:51:25 [System] getShopTime 
 20170318@18:51:26 [System] loadOperatingHours 
-20170318@18:51:26 [System] MessageHandler : Appointment Time 
-20170318@18:51:26 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:26 [System] MessageHandler : Event Time 
+20170318@18:51:26 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:26 [System] getLoggedInAccount 
 20170318@18:51:26 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:26 [System] getTotalAdoptRequestEntities 
@@ -3037,8 +3037,8 @@
 20170318@18:51:27 [System] getShopInfo 
 20170318@18:51:27 [System] getShopTime 
 20170318@18:51:27 [System] loadOperatingHours 
-20170318@18:51:27 [System] MessageHandler : Appointment Time 
-20170318@18:51:27 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:27 [System] MessageHandler : Event Time 
+20170318@18:51:27 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:27 [System] getLoggedInAccount 
 20170318@18:51:28 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:28 [System] getTotalAdoptRequestEntities 
@@ -3053,8 +3053,8 @@
 20170318@18:51:29 [System] getShopInfo 
 20170318@18:51:29 [System] getShopTime 
 20170318@18:51:29 [System] loadOperatingHours 
-20170318@18:51:29 [System] MessageHandler : Appointment Time 
-20170318@18:51:29 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:29 [System] MessageHandler : Event Time 
+20170318@18:51:29 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:29 [System] getLoggedInAccount 
 20170318@18:51:30 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:30 [System] getTotalAdoptRequestEntities 
@@ -3069,8 +3069,8 @@
 20170318@18:51:30 [System] getShopInfo 
 20170318@18:51:31 [System] getShopTime 
 20170318@18:51:31 [System] loadOperatingHours 
-20170318@18:51:31 [System] MessageHandler : Appointment Time 
-20170318@18:51:31 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:31 [System] MessageHandler : Event Time 
+20170318@18:51:31 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:31 [System] getLoggedInAccount 
 20170318@18:51:31 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:32 [System] getTotalAdoptRequestEntities 
@@ -3085,8 +3085,8 @@
 20170318@18:51:32 [System] getShopInfo 
 20170318@18:51:33 [System] getShopTime 
 20170318@18:51:33 [System] loadOperatingHours 
-20170318@18:51:33 [System] MessageHandler : Appointment Time 
-20170318@18:51:33 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:33 [System] MessageHandler : Event Time 
+20170318@18:51:33 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:33 [System] getLoggedInAccount 
 20170318@18:51:34 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:34 [System] getTotalAdoptRequestEntities 
@@ -3101,8 +3101,8 @@
 20170318@18:51:35 [System] getShopInfo 
 20170318@18:51:35 [System] getShopTime 
 20170318@18:51:35 [System] loadOperatingHours 
-20170318@18:51:36 [System] MessageHandler : Appointment Time 
-20170318@18:51:36 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:36 [System] MessageHandler : Event Time 
+20170318@18:51:36 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:36 [System] getLoggedInAccount 
 20170318@18:51:36 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:36 [System] getTotalAdoptRequestEntities 
@@ -3117,8 +3117,8 @@
 20170318@18:51:38 [System] getShopInfo 
 20170318@18:51:38 [System] getShopTime 
 20170318@18:51:38 [System] loadOperatingHours 
-20170318@18:51:38 [System] MessageHandler : Appointment Time 
-20170318@18:51:38 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:38 [System] MessageHandler : Event Time 
+20170318@18:51:38 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:39 [System] getLoggedInAccount 
 20170318@18:51:39 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:39 [System] getTotalAdoptRequestEntities 
@@ -3133,8 +3133,8 @@
 20170318@18:51:41 [System] getShopInfo 
 20170318@18:51:41 [System] getShopTime 
 20170318@18:51:41 [System] loadOperatingHours 
-20170318@18:51:42 [System] MessageHandler : Appointment Time 
-20170318@18:51:42 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:42 [System] MessageHandler : Event Time 
+20170318@18:51:42 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:42 [System] getLoggedInAccount 
 20170318@18:51:42 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:42 [System] getTotalAdoptRequestEntities 
@@ -3149,8 +3149,8 @@
 20170318@18:51:43 [System] getShopInfo 
 20170318@18:51:44 [System] getShopTime 
 20170318@18:51:44 [System] loadOperatingHours 
-20170318@18:51:44 [System] MessageHandler : Appointment Time 
-20170318@18:51:45 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:44 [System] MessageHandler : Event Time 
+20170318@18:51:45 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:45 [System] getLoggedInAccount 
 20170318@18:51:45 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:46 [System] getTotalAdoptRequestEntities 
@@ -3165,8 +3165,8 @@
 20170318@18:51:47 [System] getShopInfo 
 20170318@18:51:48 [System] getShopTime 
 20170318@18:51:48 [System] loadOperatingHours 
-20170318@18:51:48 [System] MessageHandler : Appointment Time 
-20170318@18:51:48 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:48 [System] MessageHandler : Event Time 
+20170318@18:51:48 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:48 [System] getLoggedInAccount 
 20170318@18:51:49 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:49 [System] getTotalAdoptRequestEntities 
@@ -3181,8 +3181,8 @@
 20170318@18:51:50 [System] getShopInfo 
 20170318@18:51:51 [System] getShopTime 
 20170318@18:51:51 [System] loadOperatingHours 
-20170318@18:51:51 [System] MessageHandler : Appointment Time 
-20170318@18:51:51 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:51 [System] MessageHandler : Event Time 
+20170318@18:51:51 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:51 [System] getLoggedInAccount 
 20170318@18:51:52 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:52 [System] getTotalAdoptRequestEntities 
@@ -3197,8 +3197,8 @@
 20170318@18:51:53 [System] getShopInfo 
 20170318@18:51:53 [System] getShopTime 
 20170318@18:51:54 [System] loadOperatingHours 
-20170318@18:51:54 [System] MessageHandler : Appointment Time 
-20170318@18:51:54 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:54 [System] MessageHandler : Event Time 
+20170318@18:51:54 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:54 [System] getLoggedInAccount 
 20170318@18:51:54 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:55 [System] getTotalAdoptRequestEntities 
@@ -3213,8 +3213,8 @@
 20170318@18:51:56 [System] getShopInfo 
 20170318@18:51:56 [System] getShopTime 
 20170318@18:51:56 [System] loadOperatingHours 
-20170318@18:51:56 [System] MessageHandler : Appointment Time 
-20170318@18:51:56 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:56 [System] MessageHandler : Event Time 
+20170318@18:51:56 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:56 [System] getLoggedInAccount 
 20170318@18:51:57 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:51:57 [System] getTotalAdoptRequestEntities 
@@ -3229,8 +3229,8 @@
 20170318@18:51:58 [System] getShopInfo 
 20170318@18:51:58 [System] getShopTime 
 20170318@18:51:59 [System] loadOperatingHours 
-20170318@18:51:59 [System] MessageHandler : Appointment Time 
-20170318@18:51:59 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:51:59 [System] MessageHandler : Event Time 
+20170318@18:51:59 [System] MessageHandler : Event Date (Friday) 
 20170318@18:51:59 [System] getLoggedInAccount 
 20170318@18:52:00 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:00 [System] getTotalAdoptRequestEntities 
@@ -3245,8 +3245,8 @@
 20170318@18:52:02 [System] getShopInfo 
 20170318@18:52:02 [System] getShopTime 
 20170318@18:52:02 [System] loadOperatingHours 
-20170318@18:52:03 [System] MessageHandler : Appointment Time 
-20170318@18:52:03 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:03 [System] MessageHandler : Event Time 
+20170318@18:52:03 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:03 [System] getLoggedInAccount 
 20170318@18:52:03 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:03 [System] getTotalAdoptRequestEntities 
@@ -3261,8 +3261,8 @@
 20170318@18:52:04 [System] getShopInfo 
 20170318@18:52:04 [System] getShopTime 
 20170318@18:52:05 [System] loadOperatingHours 
-20170318@18:52:05 [System] MessageHandler : Appointment Time 
-20170318@18:52:05 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:05 [System] MessageHandler : Event Time 
+20170318@18:52:05 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:05 [System] getLoggedInAccount 
 20170318@18:52:06 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:06 [System] getTotalAdoptRequestEntities 
@@ -3277,8 +3277,8 @@
 20170318@18:52:08 [System] getShopInfo 
 20170318@18:52:08 [System] getShopTime 
 20170318@18:52:08 [System] loadOperatingHours 
-20170318@18:52:08 [System] MessageHandler : Appointment Time 
-20170318@18:52:08 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:08 [System] MessageHandler : Event Time 
+20170318@18:52:08 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:08 [System] getLoggedInAccount 
 20170318@18:52:09 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:09 [System] getTotalAdoptRequestEntities 
@@ -3293,8 +3293,8 @@
 20170318@18:52:09 [System] getShopInfo 
 20170318@18:52:10 [System] getShopTime 
 20170318@18:52:10 [System] loadOperatingHours 
-20170318@18:52:10 [System] MessageHandler : Appointment Time 
-20170318@18:52:10 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:10 [System] MessageHandler : Event Time 
+20170318@18:52:10 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:10 [System] getLoggedInAccount 
 20170318@18:52:10 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:11 [System] getTotalAdoptRequestEntities 
@@ -3309,8 +3309,8 @@
 20170318@18:52:19 [System] getShopInfo 
 20170318@18:52:19 [System] getShopTime 
 20170318@18:52:20 [System] loadOperatingHours 
-20170318@18:52:20 [System] MessageHandler : Appointment Time 
-20170318@18:52:20 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:20 [System] MessageHandler : Event Time 
+20170318@18:52:20 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:20 [System] getLoggedInAccount 
 20170318@18:52:21 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:21 [System] getTotalAdoptRequestEntities 
@@ -3325,8 +3325,8 @@
 20170318@18:52:24 [System] getShopInfo 
 20170318@18:52:24 [System] getShopTime 
 20170318@18:52:24 [System] loadOperatingHours 
-20170318@18:52:24 [System] MessageHandler : Appointment Time 
-20170318@18:52:24 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:24 [System] MessageHandler : Event Time 
+20170318@18:52:24 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:26 [System] getLoggedInAccount 
 20170318@18:52:26 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:27 [System] getTotalAdoptRequestEntities 
@@ -3341,8 +3341,8 @@
 20170318@18:52:34 [System] getShopInfo 
 20170318@18:52:34 [System] getShopTime 
 20170318@18:52:35 [System] loadOperatingHours 
-20170318@18:52:35 [System] MessageHandler : Appointment Time 
-20170318@18:52:35 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:35 [System] MessageHandler : Event Time 
+20170318@18:52:35 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:36 [System] getLoggedInAccount 
 20170318@18:52:36 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:36 [System] getTotalAdoptRequestEntities 
@@ -3357,8 +3357,8 @@
 20170318@18:52:37 [System] getShopInfo 
 20170318@18:52:37 [System] getShopTime 
 20170318@18:52:38 [System] loadOperatingHours 
-20170318@18:52:38 [System] MessageHandler : Appointment Time 
-20170318@18:52:38 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:38 [System] MessageHandler : Event Time 
+20170318@18:52:38 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:38 [System] getLoggedInAccount 
 20170318@18:52:38 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:38 [System] getTotalAdoptRequestEntities 
@@ -3373,8 +3373,8 @@
 20170318@18:52:39 [System] getShopInfo 
 20170318@18:52:39 [System] getShopTime 
 20170318@18:52:40 [System] loadOperatingHours 
-20170318@18:52:40 [System] MessageHandler : Appointment Time 
-20170318@18:52:40 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:40 [System] MessageHandler : Event Time 
+20170318@18:52:40 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:40 [System] getLoggedInAccount 
 20170318@18:52:40 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:40 [System] getTotalAdoptRequestEntities 
@@ -3389,8 +3389,8 @@
 20170318@18:52:41 [System] getShopInfo 
 20170318@18:52:41 [System] getShopTime 
 20170318@18:52:41 [System] loadOperatingHours 
-20170318@18:52:42 [System] MessageHandler : Appointment Time 
-20170318@18:52:42 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:42 [System] MessageHandler : Event Time 
+20170318@18:52:42 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:42 [System] getLoggedInAccount 
 20170318@18:52:42 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:42 [System] getTotalAdoptRequestEntities 
@@ -3405,8 +3405,8 @@
 20170318@18:52:43 [System] getShopInfo 
 20170318@18:52:43 [System] getShopTime 
 20170318@18:52:44 [System] loadOperatingHours 
-20170318@18:52:44 [System] MessageHandler : Appointment Time 
-20170318@18:52:44 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:44 [System] MessageHandler : Event Time 
+20170318@18:52:44 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:44 [System] getLoggedInAccount 
 20170318@18:52:44 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:45 [System] getTotalAdoptRequestEntities 
@@ -3421,8 +3421,8 @@
 20170318@18:52:46 [System] getShopInfo 
 20170318@18:52:46 [System] getShopTime 
 20170318@18:52:46 [System] loadOperatingHours 
-20170318@18:52:46 [System] MessageHandler : Appointment Time 
-20170318@18:52:47 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:46 [System] MessageHandler : Event Time 
+20170318@18:52:47 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:47 [System] getLoggedInAccount 
 20170318@18:52:48 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:48 [System] getTotalAdoptRequestEntities 
@@ -3437,8 +3437,8 @@
 20170318@18:52:49 [System] getShopInfo 
 20170318@18:52:49 [System] getShopTime 
 20170318@18:52:50 [System] loadOperatingHours 
-20170318@18:52:50 [System] MessageHandler : Appointment Time 
-20170318@18:52:50 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:50 [System] MessageHandler : Event Time 
+20170318@18:52:50 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:50 [System] getLoggedInAccount 
 20170318@18:52:51 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:51 [System] getTotalAdoptRequestEntities 
@@ -3453,8 +3453,8 @@
 20170318@18:52:52 [System] getShopInfo 
 20170318@18:52:52 [System] getShopTime 
 20170318@18:52:52 [System] loadOperatingHours 
-20170318@18:52:52 [System] MessageHandler : Appointment Time 
-20170318@18:52:52 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:52 [System] MessageHandler : Event Time 
+20170318@18:52:52 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:52 [System] getLoggedInAccount 
 20170318@18:52:54 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:54 [System] getTotalAdoptRequestEntities 
@@ -3469,8 +3469,8 @@
 20170318@18:52:56 [System] getShopInfo 
 20170318@18:52:56 [System] getShopTime 
 20170318@18:52:56 [System] loadOperatingHours 
-20170318@18:52:56 [System] MessageHandler : Appointment Time 
-20170318@18:52:56 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:52:56 [System] MessageHandler : Event Time 
+20170318@18:52:56 [System] MessageHandler : Event Date (Friday) 
 20170318@18:52:57 [System] getLoggedInAccount 
 20170318@18:52:57 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:52:58 [System] getTotalAdoptRequestEntities 
@@ -3485,8 +3485,8 @@
 20170318@18:52:59 [System] getShopInfo 
 20170318@18:52:59 [System] getShopTime 
 20170318@18:53:00 [System] loadOperatingHours 
-20170318@18:53:00 [System] MessageHandler : Appointment Time 
-20170318@18:53:00 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:00 [System] MessageHandler : Event Time 
+20170318@18:53:00 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:00 [System] getLoggedInAccount 
 20170318@18:53:01 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:01 [System] getTotalAdoptRequestEntities 
@@ -3501,8 +3501,8 @@
 20170318@18:53:02 [System] getShopInfo 
 20170318@18:53:02 [System] getShopTime 
 20170318@18:53:03 [System] loadOperatingHours 
-20170318@18:53:03 [System] MessageHandler : Appointment Time 
-20170318@18:53:03 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:03 [System] MessageHandler : Event Time 
+20170318@18:53:03 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:03 [System] getLoggedInAccount 
 20170318@18:53:03 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:04 [System] getTotalAdoptRequestEntities 
@@ -3517,8 +3517,8 @@
 20170318@18:53:05 [System] getShopInfo 
 20170318@18:53:05 [System] getShopTime 
 20170318@18:53:06 [System] loadOperatingHours 
-20170318@18:53:06 [System] MessageHandler : Appointment Time 
-20170318@18:53:06 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:06 [System] MessageHandler : Event Time 
+20170318@18:53:06 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:06 [System] getLoggedInAccount 
 20170318@18:53:06 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:06 [System] getTotalAdoptRequestEntities 
@@ -3533,8 +3533,8 @@
 20170318@18:53:07 [System] getShopInfo 
 20170318@18:53:08 [System] getShopTime 
 20170318@18:53:08 [System] loadOperatingHours 
-20170318@18:53:08 [System] MessageHandler : Appointment Time 
-20170318@18:53:08 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:08 [System] MessageHandler : Event Time 
+20170318@18:53:08 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:08 [System] getLoggedInAccount 
 20170318@18:53:08 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:09 [System] getTotalAdoptRequestEntities 
@@ -3549,8 +3549,8 @@
 20170318@18:53:10 [System] getShopInfo 
 20170318@18:53:10 [System] getShopTime 
 20170318@18:53:10 [System] loadOperatingHours 
-20170318@18:53:10 [System] MessageHandler : Appointment Time 
-20170318@18:53:10 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:10 [System] MessageHandler : Event Time 
+20170318@18:53:10 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:10 [System] getLoggedInAccount 
 20170318@18:53:11 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:11 [System] getTotalAdoptRequestEntities 
@@ -3565,8 +3565,8 @@
 20170318@18:53:12 [System] getShopInfo 
 20170318@18:53:12 [System] getShopTime 
 20170318@18:53:12 [System] loadOperatingHours 
-20170318@18:53:12 [System] MessageHandler : Appointment Time 
-20170318@18:53:12 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:12 [System] MessageHandler : Event Time 
+20170318@18:53:12 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:13 [System] getLoggedInAccount 
 20170318@18:53:13 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:13 [System] getTotalAdoptRequestEntities 
@@ -3581,8 +3581,8 @@
 20170318@18:53:14 [System] getShopInfo 
 20170318@18:53:14 [System] getShopTime 
 20170318@18:53:14 [System] loadOperatingHours 
-20170318@18:53:14 [System] MessageHandler : Appointment Time 
-20170318@18:53:14 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:14 [System] MessageHandler : Event Time 
+20170318@18:53:14 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:14 [System] getLoggedInAccount 
 20170318@18:53:15 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:15 [System] getTotalAdoptRequestEntities 
@@ -3597,8 +3597,8 @@
 20170318@18:53:16 [System] getShopInfo 
 20170318@18:53:16 [System] getShopTime 
 20170318@18:53:17 [System] loadOperatingHours 
-20170318@18:53:17 [System] MessageHandler : Appointment Time 
-20170318@18:53:17 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:17 [System] MessageHandler : Event Time 
+20170318@18:53:17 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:17 [System] getLoggedInAccount 
 20170318@18:53:17 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:17 [System] getTotalAdoptRequestEntities 
@@ -3613,8 +3613,8 @@
 20170318@18:53:18 [System] getShopInfo 
 20170318@18:53:18 [System] getShopTime 
 20170318@18:53:19 [System] loadOperatingHours 
-20170318@18:53:19 [System] MessageHandler : Appointment Time 
-20170318@18:53:19 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:19 [System] MessageHandler : Event Time 
+20170318@18:53:19 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:19 [System] getLoggedInAccount 
 20170318@18:53:19 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:19 [System] getTotalAdoptRequestEntities 
@@ -3629,8 +3629,8 @@
 20170318@18:53:20 [System] getShopInfo 
 20170318@18:53:21 [System] getShopTime 
 20170318@18:53:21 [System] loadOperatingHours 
-20170318@18:53:21 [System] MessageHandler : Appointment Time 
-20170318@18:53:21 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:21 [System] MessageHandler : Event Time 
+20170318@18:53:21 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:21 [System] getLoggedInAccount 
 20170318@18:53:21 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:22 [System] getTotalAdoptRequestEntities 
@@ -3645,8 +3645,8 @@
 20170318@18:53:23 [System] getShopInfo 
 20170318@18:53:23 [System] getShopTime 
 20170318@18:53:23 [System] loadOperatingHours 
-20170318@18:53:23 [System] MessageHandler : Appointment Time 
-20170318@18:53:23 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:23 [System] MessageHandler : Event Time 
+20170318@18:53:23 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:23 [System] getLoggedInAccount 
 20170318@18:53:24 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:24 [System] getTotalAdoptRequestEntities 
@@ -3661,8 +3661,8 @@
 20170318@18:53:25 [System] getShopInfo 
 20170318@18:53:25 [System] getShopTime 
 20170318@18:53:26 [System] loadOperatingHours 
-20170318@18:53:26 [System] MessageHandler : Appointment Time 
-20170318@18:53:26 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:26 [System] MessageHandler : Event Time 
+20170318@18:53:26 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:26 [System] getLoggedInAccount 
 20170318@18:53:26 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:26 [System] getTotalAdoptRequestEntities 
@@ -3677,8 +3677,8 @@
 20170318@18:53:28 [System] getShopInfo 
 20170318@18:53:28 [System] getShopTime 
 20170318@18:53:29 [System] loadOperatingHours 
-20170318@18:53:29 [System] MessageHandler : Appointment Time 
-20170318@18:53:29 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:29 [System] MessageHandler : Event Time 
+20170318@18:53:29 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:29 [System] getLoggedInAccount 
 20170318@18:53:30 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:30 [System] getTotalAdoptRequestEntities 
@@ -3693,8 +3693,8 @@
 20170318@18:53:31 [System] getShopInfo 
 20170318@18:53:31 [System] getShopTime 
 20170318@18:53:31 [System] loadOperatingHours 
-20170318@18:53:31 [System] MessageHandler : Appointment Time 
-20170318@18:53:31 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:31 [System] MessageHandler : Event Time 
+20170318@18:53:31 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:31 [System] getLoggedInAccount 
 20170318@18:53:32 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:32 [System] getTotalAdoptRequestEntities 
@@ -3709,8 +3709,8 @@
 20170318@18:53:32 [System] getShopInfo 
 20170318@18:53:33 [System] getShopTime 
 20170318@18:53:33 [System] loadOperatingHours 
-20170318@18:53:33 [System] MessageHandler : Appointment Time 
-20170318@18:53:33 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:33 [System] MessageHandler : Event Time 
+20170318@18:53:33 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:33 [System] getLoggedInAccount 
 20170318@18:53:33 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:33 [System] getTotalAdoptRequestEntities 
@@ -3725,8 +3725,8 @@
 20170318@18:53:34 [System] getShopInfo 
 20170318@18:53:35 [System] getShopTime 
 20170318@18:53:36 [System] loadOperatingHours 
-20170318@18:53:36 [System] MessageHandler : Appointment Time 
-20170318@18:53:36 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:36 [System] MessageHandler : Event Time 
+20170318@18:53:36 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:36 [System] getLoggedInAccount 
 20170318@18:53:37 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:37 [System] getTotalAdoptRequestEntities 
@@ -3741,8 +3741,8 @@
 20170318@18:53:40 [System] getShopInfo 
 20170318@18:53:40 [System] getShopTime 
 20170318@18:53:40 [System] loadOperatingHours 
-20170318@18:53:40 [System] MessageHandler : Appointment Time 
-20170318@18:53:40 [System] MessageHandler : Appointment Date (Friday) 
+20170318@18:53:40 [System] MessageHandler : Event Time 
+20170318@18:53:40 [System] MessageHandler : Event Date (Friday) 
 20170318@18:53:40 [System] getLoggedInAccount 
 20170318@18:53:41 [System] DLAdoptInfo_ItemDataBound 
 20170318@18:53:41 [System] getTotalAdoptRequestEntities 
@@ -3784,8 +3784,8 @@
 20170318@20:12:57 [System] getShopInfo 
 20170318@20:12:57 [System] getShopTime 
 20170318@20:12:58 [System] loadOperatingHours 
-20170318@20:12:58 [System] MessageHandler : Appointment Time 
-20170318@20:12:58 [System] MessageHandler : Appointment Date (Friday) 
+20170318@20:12:58 [System] MessageHandler : Event Time 
+20170318@20:12:58 [System] MessageHandler : Event Date (Friday) 
 20170318@20:12:58 [System] getLoggedInAccount 
 20170318@20:12:58 [System] DLAdoptInfo_ItemDataBound 
 20170318@20:12:58 [System] getTotalAdoptRequestEntities 
@@ -3805,8 +3805,8 @@
 20170318@20:14:06 [System] getShopInfo 
 20170318@20:14:06 [System] getShopTime 
 20170318@20:14:06 [System] loadOperatingHours 
-20170318@20:14:06 [System] MessageHandler : Appointment Time 
-20170318@20:14:06 [System] MessageHandler : Appointment Date (Friday) 
+20170318@20:14:06 [System] MessageHandler : Event Time 
+20170318@20:14:06 [System] MessageHandler : Event Date (Friday) 
 20170318@20:14:06 [System] getLoggedInAccount 
 20170318@20:14:06 [System] DLAdoptInfo_ItemDataBound 
 20170318@20:14:06 [System] getTotalAdoptRequestEntities 
@@ -3826,8 +3826,8 @@
 20170318@20:17:12 [System] getShopInfo 
 20170318@20:17:12 [System] getShopTime 
 20170318@20:17:12 [System] loadOperatingHours 
-20170318@20:17:12 [System] MessageHandler : Appointment Time 
-20170318@20:17:12 [System] MessageHandler : Appointment Date (Friday) 
+20170318@20:17:12 [System] MessageHandler : Event Time 
+20170318@20:17:12 [System] MessageHandler : Event Date (Friday) 
 20170318@20:17:12 [System] getLoggedInAccount 
 20170318@20:17:12 [System] DLAdoptInfo_ItemDataBound 
 20170318@20:17:12 [System] getTotalAdoptRequestEntities 
@@ -3847,8 +3847,8 @@
 20170318@20:17:22 [System] getShopInfo 
 20170318@20:17:22 [System] getShopTime 
 20170318@20:17:22 [System] loadOperatingHours 
-20170318@20:17:23 [System] MessageHandler : Appointment Time 
-20170318@20:17:23 [System] MessageHandler : Appointment Date (Friday) 
+20170318@20:17:23 [System] MessageHandler : Event Time 
+20170318@20:17:23 [System] MessageHandler : Event Date (Friday) 
 20170318@20:17:23 [System] getLoggedInAccount 
 20170318@20:17:23 [System] DLAdoptInfo_ItemDataBound 
 20170318@20:17:23 [System] getTotalAdoptRequestEntities 
@@ -3878,14 +3878,14 @@
 20170318@20:18:51 [System] getLoggedInAccount 
 20170318@20:18:51 [System] BTNAppmtDate_Click 
 20170318@20:18:51 [System] loadOperatingHours 
-20170318@20:18:51 [System] MessageHandler : Appointment Time 
-20170318@20:18:51 [System] MessageHandler : Appointment Date (Monday) 
-20170318@20:18:51 [System] saveTempAppointment 
+20170318@20:18:51 [System] MessageHandler : Event Time 
+20170318@20:18:51 [System] MessageHandler : Event Date (Monday) 
+20170318@20:18:51 [System] saveTempEvent 
 20170318@20:18:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@20:18:52 [System] getLoggedInAccount 
 20170318@20:18:52 [System] getLoggedInAccount 
 20170318@20:18:52 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@20:18:52 [System] saveTempAppointment 
+20170318@20:18:52 [System] saveTempEvent 
 20170318@20:18:54 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@20:18:54 [System] getLoggedInAccount 
 20170318@20:18:54 [System] getLoggedInAccount 
@@ -3911,14 +3911,14 @@
 20170318@20:24:16 [System] getLoggedInAccount 
 20170318@20:24:16 [System] BTNAppmtDate_Click 
 20170318@20:24:16 [System] loadOperatingHours 
-20170318@20:24:16 [System] MessageHandler : Appointment Time 
-20170318@20:24:16 [System] MessageHandler : Appointment Date (Friday) 
-20170318@20:24:16 [System] saveTempAppointment 
+20170318@20:24:16 [System] MessageHandler : Event Time 
+20170318@20:24:16 [System] MessageHandler : Event Date (Friday) 
+20170318@20:24:16 [System] saveTempEvent 
 20170318@20:24:17 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@20:24:17 [System] getLoggedInAccount 
 20170318@20:24:17 [System] getLoggedInAccount 
 20170318@20:24:17 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@20:24:17 [System] saveTempAppointment 
+20170318@20:24:17 [System] saveTempEvent 
 20170318@20:24:18 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@20:24:18 [System] getLoggedInAccount 
 20170318@20:24:18 [System] getLoggedInAccount 
@@ -3998,9 +3998,9 @@
 20170318@20:27:11 [System] getLoggedInAccount 
 20170318@20:27:11 [System] BTNAppmtDate_Click 
 20170318@20:27:11 [System] loadOperatingHours 
-20170318@20:27:11 [System] MessageHandler : Appointment Time 
-20170318@20:27:11 [System] MessageHandler : Appointment Date (Friday) 
-20170318@20:27:11 [System] saveTempAppointment 
+20170318@20:27:11 [System] MessageHandler : Event Time 
+20170318@20:27:11 [System] MessageHandler : Event Date (Friday) 
+20170318@20:27:11 [System] saveTempEvent 
 20170318@20:35:05 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170318@20:35:05 [System] getLoggedInAccount 
 20170318@20:35:13 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -4033,10 +4033,10 @@
 20170318@20:37:34 [System] getLoggedInAccount 
 20170318@20:37:34 [System] BTNAppmtDate_Click 
 20170318@20:37:34 [System] loadOperatingHours 
-20170318@20:37:34 [System] MessageHandler : Appointment Time 
-20170318@20:37:34 [System] MessageHandler : Appointment Date (Monday) 
+20170318@20:37:34 [System] MessageHandler : Event Time 
+20170318@20:37:34 [System] MessageHandler : Event Date (Monday) 
 20170318@20:37:34 [System] getAllAdoptRequestEntities 
-20170318@20:37:34 [System] saveTempAppointment 
+20170318@20:37:34 [System] saveTempEvent 
 20170318@20:39:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@20:39:55 [System] getLoggedInAccount 
 20170318@20:39:55 [System] loadAdoptionInfo 
@@ -4053,8 +4053,8 @@
 20170318@20:40:06 [System] getLoggedInAccount 
 20170318@20:40:06 [System] BTNAppmtDate_Click 
 20170318@20:40:06 [System] loadOperatingHours 
-20170318@20:40:06 [System] MessageHandler : Appointment Time 
-20170318@20:40:06 [System] MessageHandler : Appointment Date (Monday) 
+20170318@20:40:06 [System] MessageHandler : Event Time 
+20170318@20:40:06 [System] MessageHandler : Event Date (Monday) 
 20170318@20:40:06 [System] getAllAdoptRequestEntities 
 20170318@20:41:13 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170318@20:41:13 [System] getLoggedInAccount 
@@ -4077,8 +4077,8 @@
 20170318@20:41:22 [System] getLoggedInAccount 
 20170318@20:41:22 [System] BTNAppmtDate_Click 
 20170318@20:41:22 [System] loadOperatingHours 
-20170318@20:41:23 [System] MessageHandler : Appointment Time 
-20170318@20:41:23 [System] MessageHandler : Appointment Date (Monday) 
+20170318@20:41:23 [System] MessageHandler : Event Time 
+20170318@20:41:23 [System] MessageHandler : Event Date (Monday) 
 20170318@20:41:23 [System] getAllAdoptRequestEntities 
 20170318@20:41:48 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170318@20:41:48 [System] getLoggedInAccount 
@@ -4130,10 +4130,10 @@
 20170318@20:42:21 [System] getLoggedInAccount 
 20170318@20:42:21 [System] BTNAppmtDate_Click 
 20170318@20:42:21 [System] loadOperatingHours 
-20170318@20:42:21 [System] MessageHandler : Appointment Time 
-20170318@20:42:21 [System] MessageHandler : Appointment Date (Monday) 
+20170318@20:42:21 [System] MessageHandler : Event Time 
+20170318@20:42:21 [System] MessageHandler : Event Date (Monday) 
 20170318@20:42:21 [System] getAllAdoptRequestEntities 
-20170318@20:42:21 [System] saveTempAppointment 
+20170318@20:42:21 [System] saveTempEvent 
 20170318@20:43:01 [System] Page loaded: http://localhost:65063/adoption.aspx 
 20170318@20:43:01 [System] getLoggedInAccount 
 20170318@20:43:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
@@ -4155,15 +4155,15 @@
 20170318@20:43:19 [System] getLoggedInAccount 
 20170318@20:43:19 [System] BTNAppmtDate_Click 
 20170318@20:43:19 [System] loadOperatingHours 
-20170318@20:43:19 [System] MessageHandler : Appointment Time 
-20170318@20:43:19 [System] MessageHandler : Appointment Date (Monday) 
+20170318@20:43:19 [System] MessageHandler : Event Time 
+20170318@20:43:19 [System] MessageHandler : Event Date (Monday) 
 20170318@20:43:19 [System] getAllAdoptRequestEntities 
-20170318@20:43:19 [System] saveTempAppointment 
+20170318@20:43:19 [System] saveTempEvent 
 20170318@20:43:38 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@20:43:38 [System] getLoggedInAccount 
 20170318@20:43:38 [System] getLoggedInAccount 
 20170318@20:43:38 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@20:43:38 [System] saveTempAppointment 
+20170318@20:43:38 [System] saveTempEvent 
 20170318@20:43:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@20:43:40 [System] getLoggedInAccount 
 20170318@20:43:40 [System] getLoggedInAccount 
@@ -4203,15 +4203,15 @@
 20170318@20:47:38 [System] getLoggedInAccount 
 20170318@20:47:38 [System] BTNAppmtDate_Click 
 20170318@20:47:38 [System] loadOperatingHours 
-20170318@20:47:38 [System] MessageHandler : Appointment Time 
-20170318@20:47:38 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@20:47:38 [System] MessageHandler : Event Time 
+20170318@20:47:38 [System] MessageHandler : Event Date (Thursday) 
 20170318@20:47:38 [System] getAllAdoptRequestEntities 
-20170318@20:47:38 [System] saveTempAppointment 
+20170318@20:47:38 [System] saveTempEvent 
 20170318@20:47:40 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@20:47:40 [System] getLoggedInAccount 
 20170318@20:47:40 [System] getLoggedInAccount 
 20170318@20:47:40 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@20:47:40 [System] saveTempAppointment 
+20170318@20:47:40 [System] saveTempEvent 
 20170318@20:47:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=29 
 20170318@20:47:46 [System] getLoggedInAccount 
 20170318@20:47:46 [System] getLoggedInAccount 
@@ -4301,8 +4301,8 @@
 20170318@20:55:39 [System] checkAdoptRequestExist 
 20170318@20:55:39 [System] No data found in getValue() 
 20170318@20:55:39 [System] loadOperatingHours 
-20170318@20:55:39 [System] MessageHandler : Appointment Time 
-20170318@20:55:39 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@20:55:39 [System] MessageHandler : Event Time 
+20170318@20:55:39 [System] MessageHandler : Event Date (Thursday) 
 20170318@20:55:39 [System] getAllAdoptRequestEntities 
 20170318@20:55:39 [System] DLMorePet_ItemDataBound 
 20170318@20:55:39 [System] DLMorePet_ItemDataBound 
@@ -4345,8 +4345,8 @@
 20170318@20:56:02 [System] checkAdoptRequestExist 
 20170318@20:56:02 [System] No data found in getValue() 
 20170318@20:56:02 [System] loadOperatingHours 
-20170318@20:56:02 [System] MessageHandler : Appointment Time 
-20170318@20:56:02 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@20:56:02 [System] MessageHandler : Event Time 
+20170318@20:56:02 [System] MessageHandler : Event Date (Thursday) 
 20170318@20:56:02 [System] getAllAdoptRequestEntities 
 20170318@20:56:02 [System] DLMorePet_ItemDataBound 
 20170318@20:56:02 [System] DLMorePet_ItemDataBound 
@@ -4383,19 +4383,19 @@
 20170318@21:04:45 [System] getLoggedInAccount 
 20170318@21:04:45 [System] BTNAppmtDate_Click 
 20170318@21:04:45 [System] loadOperatingHours 
-20170318@21:04:45 [System] MessageHandler : Appointment Time 
-20170318@21:04:45 [System] MessageHandler : Appointment Date (Sunday) 
+20170318@21:04:45 [System] MessageHandler : Event Time 
+20170318@21:04:45 [System] MessageHandler : Event Date (Sunday) 
 20170318@21:04:45 [System] getAllAdoptRequestEntities 
-20170318@21:04:46 [System] saveTempAppointment 
+20170318@21:04:46 [System] saveTempEvent 
 20170318@21:05:03 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:05:03 [System] getLoggedInAccount 
 20170318@21:05:03 [System] getLoggedInAccount 
 20170318@21:05:03 [System] BTNAppmtDate_Click 
 20170318@21:05:03 [System] loadOperatingHours 
-20170318@21:05:03 [System] MessageHandler : Appointment Time 
-20170318@21:05:03 [System] MessageHandler : Appointment Date (Monday) 
+20170318@21:05:03 [System] MessageHandler : Event Time 
+20170318@21:05:03 [System] MessageHandler : Event Date (Monday) 
 20170318@21:05:03 [System] getAllAdoptRequestEntities 
-20170318@21:05:03 [System] saveTempAppointment 
+20170318@21:05:03 [System] saveTempEvent 
 20170318@21:08:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:08:15 [System] getLoggedInAccount 
 20170318@21:08:15 [System] loadAdoptionInfo 
@@ -4432,35 +4432,35 @@
 20170318@21:08:54 [System] getLoggedInAccount 
 20170318@21:08:54 [System] BTNAppmtDate_Click 
 20170318@21:08:54 [System] loadOperatingHours 
-20170318@21:08:54 [System] MessageHandler : Appointment Time 
-20170318@21:08:54 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@21:08:54 [System] MessageHandler : Event Time 
+20170318@21:08:54 [System] MessageHandler : Event Date (Thursday) 
 20170318@21:08:54 [System] getAllAdoptRequestEntities 
-20170318@21:08:54 [System] saveTempAppointment 
+20170318@21:08:54 [System] saveTempEvent 
 20170318@21:08:59 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:08:59 [System] getLoggedInAccount 
 20170318@21:08:59 [System] getLoggedInAccount 
 20170318@21:08:59 [System] BTNAppmtDate_Click 
 20170318@21:08:59 [System] loadOperatingHours 
-20170318@21:08:59 [System] MessageHandler : Appointment Time 
-20170318@21:08:59 [System] MessageHandler : Appointment Date (Monday) 
+20170318@21:08:59 [System] MessageHandler : Event Time 
+20170318@21:08:59 [System] MessageHandler : Event Date (Monday) 
 20170318@21:08:59 [System] getAllAdoptRequestEntities 
-20170318@21:08:59 [System] saveTempAppointment 
+20170318@21:08:59 [System] saveTempEvent 
 20170318@21:09:04 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:09:04 [System] getLoggedInAccount 
 20170318@21:09:04 [System] getLoggedInAccount 
 20170318@21:09:04 [System] BTNAppmtDate_Click 
 20170318@21:09:04 [System] loadOperatingHours 
-20170318@21:09:04 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170318@21:09:04 [System] MessageHandler : Appointment Date 
-20170318@21:09:04 [System] saveTempAppointment 
+20170318@21:09:04 [System] MessageHandler : Event Time - Not open on selected date 
+20170318@21:09:04 [System] MessageHandler : Event Date 
+20170318@21:09:04 [System] saveTempEvent 
 20170318@21:09:08 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:09:08 [System] getLoggedInAccount 
 20170318@21:09:08 [System] getLoggedInAccount 
 20170318@21:09:08 [System] BTNAppmtDate_Click 
 20170318@21:09:08 [System] loadOperatingHours 
-20170318@21:09:08 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170318@21:09:08 [System] MessageHandler : Appointment Date 
-20170318@21:09:08 [System] saveTempAppointment 
+20170318@21:09:08 [System] MessageHandler : Event Time - Not open on selected date 
+20170318@21:09:08 [System] MessageHandler : Event Date 
+20170318@21:09:08 [System] saveTempEvent 
 20170318@21:10:15 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:10:15 [System] getLoggedInAccount 
 20170318@21:10:15 [System] getLoggedInAccount 
@@ -4484,61 +4484,61 @@
 20170318@21:10:30 [System] checkAdoptRequestExist 
 20170318@21:10:30 [System] No data found in getValue() 
 20170318@21:10:30 [System] loadOperatingHours 
-20170318@21:10:31 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170318@21:10:31 [System] MessageHandler : Appointment Date 
+20170318@21:10:31 [System] MessageHandler : Event Time - Not open on selected date 
+20170318@21:10:31 [System] MessageHandler : Event Date 
 20170318@21:10:31 [System] DLMorePet_ItemDataBound 
 20170318@21:10:46 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:10:46 [System] getLoggedInAccount 
 20170318@21:10:46 [System] getLoggedInAccount 
 20170318@21:10:46 [System] BTNAppmtDate_Click 
 20170318@21:10:46 [System] loadOperatingHours 
-20170318@21:10:47 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170318@21:10:47 [System] MessageHandler : Appointment Date 
-20170318@21:10:47 [System] saveTempAppointment 
+20170318@21:10:47 [System] MessageHandler : Event Time - Not open on selected date 
+20170318@21:10:47 [System] MessageHandler : Event Date 
+20170318@21:10:47 [System] saveTempEvent 
 20170318@21:10:49 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:10:49 [System] getLoggedInAccount 
 20170318@21:10:49 [System] getLoggedInAccount 
 20170318@21:10:49 [System] BTNAppmtDate_Click 
 20170318@21:10:49 [System] loadOperatingHours 
-20170318@21:10:49 [System] MessageHandler : Appointment Time 
-20170318@21:10:49 [System] MessageHandler : Appointment Date (Thursday) 
+20170318@21:10:49 [System] MessageHandler : Event Time 
+20170318@21:10:49 [System] MessageHandler : Event Date (Thursday) 
 20170318@21:10:49 [System] getAllAdoptRequestEntities 
-20170318@21:10:50 [System] saveTempAppointment 
+20170318@21:10:50 [System] saveTempEvent 
 20170318@21:10:52 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:10:52 [System] getLoggedInAccount 
 20170318@21:10:52 [System] getLoggedInAccount 
 20170318@21:10:52 [System] BTNAppmtDate_Click 
 20170318@21:10:52 [System] loadOperatingHours 
-20170318@21:10:52 [System] MessageHandler : Appointment Time 
-20170318@21:10:52 [System] MessageHandler : Appointment Date (Monday) 
+20170318@21:10:52 [System] MessageHandler : Event Time 
+20170318@21:10:52 [System] MessageHandler : Event Date (Monday) 
 20170318@21:10:52 [System] getAllAdoptRequestEntities 
-20170318@21:10:52 [System] saveTempAppointment 
+20170318@21:10:52 [System] saveTempEvent 
 20170318@21:10:55 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:10:55 [System] getLoggedInAccount 
 20170318@21:10:55 [System] getLoggedInAccount 
 20170318@21:10:55 [System] BTNAppmtDate_Click 
 20170318@21:10:55 [System] loadOperatingHours 
-20170318@21:10:55 [System] MessageHandler : Appointment Time 
-20170318@21:10:55 [System] MessageHandler : Appointment Date (Friday) 
+20170318@21:10:55 [System] MessageHandler : Event Time 
+20170318@21:10:55 [System] MessageHandler : Event Date (Friday) 
 20170318@21:10:55 [System] getAllAdoptRequestEntities 
-20170318@21:10:55 [System] saveTempAppointment 
+20170318@21:10:55 [System] saveTempEvent 
 20170318@21:10:58 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:10:58 [System] getLoggedInAccount 
 20170318@21:10:58 [System] getLoggedInAccount 
 20170318@21:10:58 [System] BTNAppmtDate_Click 
 20170318@21:10:58 [System] loadOperatingHours 
-20170318@21:10:59 [System] MessageHandler : Appointment Time - Not open on selected date 
-20170318@21:10:59 [System] MessageHandler : Appointment Date 
-20170318@21:10:59 [System] saveTempAppointment 
+20170318@21:10:59 [System] MessageHandler : Event Time - Not open on selected date 
+20170318@21:10:59 [System] MessageHandler : Event Date 
+20170318@21:10:59 [System] saveTempEvent 
 20170318@21:11:05 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:11:05 [System] getLoggedInAccount 
 20170318@21:11:05 [System] getLoggedInAccount 
 20170318@21:11:05 [System] BTNAppmtDate_Click 
 20170318@21:11:05 [System] loadOperatingHours 
-20170318@21:11:05 [System] MessageHandler : Appointment Time 
-20170318@21:11:05 [System] MessageHandler : Appointment Date (Monday) 
+20170318@21:11:05 [System] MessageHandler : Event Time 
+20170318@21:11:05 [System] MessageHandler : Event Date (Monday) 
 20170318@21:11:05 [System] getAllAdoptRequestEntities 
-20170318@21:11:05 [System] saveTempAppointment 
+20170318@21:11:05 [System] saveTempEvent 
 20170318@21:12:21 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:12:21 [System] getLoggedInAccount 
 20170318@21:12:21 [System] getLoggedInAccount 
@@ -4557,15 +4557,15 @@
 20170318@21:12:24 [System] checkAdoptRequestExist 
 20170318@21:12:24 [System] No data found in getValue() 
 20170318@21:12:24 [System] loadOperatingHours 
-20170318@21:12:24 [System] MessageHandler : Appointment Time 
-20170318@21:12:24 [System] MessageHandler : Appointment Date (Monday) 
+20170318@21:12:24 [System] MessageHandler : Event Time 
+20170318@21:12:24 [System] MessageHandler : Event Date (Monday) 
 20170318@21:12:24 [System] getAllAdoptRequestEntities 
 20170318@21:12:24 [System] DLMorePet_ItemDataBound 
 20170318@21:12:30 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:12:30 [System] getLoggedInAccount 
 20170318@21:12:30 [System] getLoggedInAccount 
 20170318@21:12:30 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@21:12:30 [System] saveTempAppointment 
+20170318@21:12:30 [System] saveTempEvent 
 20170318@21:12:33 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:12:33 [System] getLoggedInAccount 
 20170318@21:12:34 [System] getLoggedInAccount 
@@ -4574,7 +4574,7 @@
 20170318@21:12:39 [System] getLoggedInAccount 
 20170318@21:12:39 [System] getLoggedInAccount 
 20170318@21:12:39 [System] DDLAppmtTime_SelectedIndexChanged 
-20170318@21:12:39 [System] saveTempAppointment 
+20170318@21:12:39 [System] saveTempEvent 
 20170318@21:12:45 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=28 
 20170318@21:12:45 [System] getLoggedInAccount 
 20170318@21:12:45 [System] getLoggedInAccount 

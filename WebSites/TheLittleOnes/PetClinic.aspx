@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="PetClinic.aspx.cs" Inherits="PetClinic" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBody" runat="Server">
@@ -20,13 +19,20 @@
                 <div class="agileinfo-top-grids">
                     <div class="col-sm-3 wthree-top-grid">
                         <h4>Filter</h4>
-                        <p>Dropdownlist</p>
+                        <div class="input-group col-lg-12">
+                            <asp:DropDownList ID="DropDownList1" runat="server" CssClass=" form-control">
+                                <asp:ListItem Value="">Filter Location</asp:ListItem>
+                                <asp:ListItem> Jurong </asp:ListItem>
+                                <asp:ListItem> Marsiling </asp:ListItem>
+                                <asp:ListItem> Pasir Ris </asp:ListItem>
+                                <asp:ListItem> Woodlands </asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
                     </div>
                     <div class="col-sm-9 wthree-top-grid">
                         <div class="gallery-grids">
                             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                                 <ContentTemplate>
-
                                     <asp:DataList ID="DLShopInfo" runat="server" Width="100%" DataKeyField="shopInfoID" DataSourceID="SDSPetClinic"
                                         OnItemDataBound="DLShopInfo_ItemDataBound">
                                         <ItemTemplate>
@@ -98,7 +104,6 @@
                                                             </div>
                                                         </div>
                                                         <hr>
-
                                                         <p>
                                                             <span class="btn btn-sm" data-rel="tooltip" title="" data-original-title="Default">Default</span>
                                                             <span class="btn btn-warning btn-sm tooltip-warning" data-rel="tooltip" data-placement="left" title="" data-original-title="Left Warning">Left</span>

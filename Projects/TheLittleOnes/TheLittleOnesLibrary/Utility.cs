@@ -342,7 +342,7 @@ namespace TheLittleOnesLibrary
             //populate the list with the interval values
             for (DateTime i = start; i <= end; i = i.AddMinutes(interval))
             {
-                // TODO remove user select timing for lunch
+                // remove user select timing for lunch
                 if (i.ToString("HH:mm").Contains("11:00") ||
                     i.ToString("HH:mm").Contains("11:30") ||
                     i.ToString("HH:mm").Contains("12:00") ||

@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-public partial class AdminProfile : BasePage
+public partial class AdminProfile : BasePageAdmin
 {
     private string profileID;
     private static string name;
@@ -58,7 +55,7 @@ public partial class AdminProfile : BasePage
             profileEntityTemp.ProfileName = name;
             profileEntityTemp.ProfileContact = contact;
             profileEntityTemp.ProfileAddress = address;
-            profileEntity = profileCtrler.updateProfile(profileEntityTemp);
+            ProfileEntity profileEntity = profileCtrler.updateProfile(profileEntityTemp);
             if (photoEntities != null)
             {
                 // change photo path to database instead of using temp
