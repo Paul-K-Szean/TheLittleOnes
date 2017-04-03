@@ -12,7 +12,7 @@ using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
 
-public partial class EventDetails : BasePageTLO
+public partial class EventEdit : BasePageTLO
 {
     private Label UICtrlLabel;
     private TextBox UICtrlTextbox;

@@ -1,7 +1,11 @@
 ﻿using System;
-public partial class Forbidden : System.Web.UI.Page
+using System.Web;
+using TheLittleOnesLibrary;
+
+public partial class Forbidden : BasePageTLO
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+    
     }
 }

@@ -1,8 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="Forbidden.aspx.cs" Inherits="Forbidden" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBody" runat="Server">
-    <div class=" text-center" style="margin:104.6px auto">
+    <div class=" text-center" style="margin: 104.6px auto">
         <div class="error-container">
             <div class="well">
                 <h1 class="grey lighter smaller">
@@ -15,6 +17,7 @@
                 <hr>
                 <h3 class="lighter smaller">You do not have the permission to view this directory/page or resource.
                 </h3>
+                
                 <div class="space"></div>
                 <hr>
                 <div class=" space-18"></div>
@@ -35,5 +38,6 @@
             </div>
         </div>
     </div>
+ 
 </asp:Content>
 

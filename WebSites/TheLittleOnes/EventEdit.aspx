@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnesUser.master" AutoEventWireup="true" CodeFile="EventDetails.aspx.cs" Inherits="EventDetails" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnesUser.master" AutoEventWireup="true" CodeFile="EventEdit.aspx.cs" Inherits="EventEdit" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHeadUser" runat="Server">
 </asp:Content>
@@ -9,7 +9,7 @@
         ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
         SelectCommand="SELECT * FROM [Event] WHERE ([accountID] = ?)">
         <SelectParameters>
-            <asp:ControlParameter ControlID="HDFAccountID" Name="accountID" PropertyName="Value" Type="Int32" />
+            <asp:ControlParameter ControlID="HDFAccountID" Name="accountID" PropertyName="Value" Type="Int32" DefaultValue="0" />
         </SelectParameters>
     </asp:SqlDataSource>
     <div class="blog-left-right">

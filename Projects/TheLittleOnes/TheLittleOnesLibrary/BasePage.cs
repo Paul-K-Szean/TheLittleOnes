@@ -201,7 +201,7 @@ namespace TheLittleOnesLibrary
             }
             return true;
         }
-        // Load operation hours
+        // Load operation hours with time restrictions
         protected void loadOperatingHours(string dateSelected, string daySelected, HtmlInputText INPUTAppmtDate,
             List<ShopTimeEntity> shopTimeEntities, DropDownList DDLAppmtTime, Label LBLAppmtDate, Label LBLAppmtTime, string AppmtFromID, string AppmtToID)
         {
@@ -300,6 +300,10 @@ namespace TheLittleOnesLibrary
                     MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Event Date"));
                 }
             }
+        }
+        // Load all time slots
+        protected List<string> loadDDLTimeSlots() {
+            return Utility.getTimeInterval();
         }
         #endregion
     }

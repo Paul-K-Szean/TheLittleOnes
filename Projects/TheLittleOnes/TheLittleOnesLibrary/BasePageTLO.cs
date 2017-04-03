@@ -69,12 +69,22 @@ namespace TheLittleOnesLibrary
             if (TLOAccountEntity == null)
             {
                 LogController.LogLine("No account logged in");
-                if (!currentPage.Contains("home"))
+                if (!currentPage.ToLower().Contains("home"))
                 {
                     if (currentPage.ToLower().Contains("appointmentdetails"))
                     {
                         HttpContext.Current.Response.Redirect("Forbidden.aspx");
                     }
+                    if (currentPage.ToLower().Contains("eventadd") || currentPage.ToLower().Contains("eventedit"))
+                    {
+                        HttpContext.Current.Response.Redirect("Forbidden.aspx");
+                    }
+                }
+            }
+            else {
+                // if current page is forbidden page, change to account page.
+                if (currentPage.ToLower().Contains("forbidden")) {
+                    HttpContext.Current.Response.Redirect("Home.aspx");
                 }
             }
         }

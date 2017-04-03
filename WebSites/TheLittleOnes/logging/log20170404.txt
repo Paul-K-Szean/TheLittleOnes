@@ -1,0 +1,731 @@
+20170404@00:48:33 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@00:48:33 [System] No account logged in 
+20170404@00:48:35 [System] GVEvent_DataBound 
+20170404@00:55:33 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@00:55:33 [System] No account logged in 
+20170404@00:55:33 [System] GVEvent_DataBound 
+20170404@00:55:52 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@00:55:52 [System] No account logged in 
+20170404@00:55:52 [System] GVEvent_DataBound 
+20170404@00:57:37 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@00:57:37 [System] No account logged in 
+20170404@00:57:37 [System] GVEvent_DataBound 
+20170404@00:58:53 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@00:58:53 [System] No account logged in 
+20170404@00:58:53 [System] GVEvent_DataBound 
+20170404@00:59:43 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@00:59:43 [System] No account logged in 
+20170404@01:10:27 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@01:10:27 [System] No account logged in 
+20170404@01:12:19 [System] Page loaded: http://localhost:65063/home.aspx 
+20170404@01:12:19 [System] No account logged in 
+20170404@01:12:22 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@01:12:22 [System] No account logged in 
+20170404@01:16:51 [System] Page loaded: http://localhost:65063/home.aspx 
+20170404@01:16:51 [System] No account logged in 
+20170404@01:16:53 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@01:16:53 [System] No account logged in 
+20170404@01:18:33 [System] BTNLogin_Click 
+20170404@01:18:33 [System] signIn 
+20170404@01:18:33 [System] getPhotoEntities 
+20170404@01:18:33 [System] getShopInfo 
+20170404@01:18:39 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@01:18:40 [System] GVEvent_DataBound 
+20170404@01:20:40 [System] Page loaded: http://localhost:65063/home.aspx 
+20170404@01:20:40 [System] No account logged in 
+20170404@01:20:49 [System] Page loaded: http://localhost:65063/home.aspx 
+20170404@01:20:49 [System] No account logged in 
+20170404@01:20:49 [System] BTNLogin_Click 
+20170404@01:20:49 [System] signIn 
+20170404@01:20:49 [System] getPhotoEntities 
+20170404@01:20:49 [System] getShopInfo 
+20170404@01:20:49 [System] Page loaded: http://localhost:65063/home.aspx 
+20170404@01:20:56 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@01:20:56 [System] GVEvent_DataBound 
+20170404@01:21:02 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170404@01:21:02 [System] getAdoptInfoEntity 
+20170404@01:21:02 [System] getShopInfo 
+20170404@01:21:02 [System] getShopTime 
+20170404@01:21:02 [System] getPhotoEntities 
+20170404@01:21:02 [System] getPhotoEntities 
+20170404@01:21:02 [System] getAdoptInfoEntity 
+20170404@01:21:02 [System] getShopInfo 
+20170404@01:21:02 [System] getShopTime 
+20170404@01:21:02 [System] getPhotoEntities 
+20170404@01:21:02 [System] getPhotoEntities 
+20170404@01:21:02 [System] getAdoptInfoEntity 
+20170404@01:21:02 [System] getShopInfo 
+20170404@01:21:02 [System] getShopTime 
+20170404@01:21:02 [System] getPhotoEntities 
+20170404@01:21:03 [System] getPhotoEntities 
+20170404@01:21:03 [System] getAdoptInfoEntity 
+20170404@01:21:03 [System] getShopInfo 
+20170404@01:21:03 [System] getShopTime 
+20170404@01:21:03 [System] getPhotoEntities 
+20170404@01:21:03 [System] getPhotoEntities 
+20170404@01:21:03 [System] getAdoptInfoEntity 
+20170404@01:21:03 [System] getShopInfo 
+20170404@01:21:03 [System] getShopTime 
+20170404@01:21:03 [System] getPhotoEntities 
+20170404@01:21:03 [System] getPhotoEntities 
+20170404@01:21:03 [System] getAdoptInfoEntity 
+20170404@01:21:03 [System] getShopInfo 
+20170404@01:21:04 [System] getShopTime 
+20170404@01:21:04 [System] getPhotoEntities 
+20170404@01:21:04 [System] getPhotoEntities 
+20170404@01:21:04 [System] getAdoptInfoEntity 
+20170404@01:21:04 [System] getShopInfo 
+20170404@01:21:04 [System] getShopTime 
+20170404@01:21:04 [System] getPhotoEntities 
+20170404@01:21:04 [System] getPhotoEntities 
+20170404@01:21:04 [System] getAdoptInfoEntity 
+20170404@01:21:04 [System] getShopInfo 
+20170404@01:21:04 [System] getShopTime 
+20170404@01:21:04 [System] getPhotoEntities 
+20170404@01:21:04 [System] getPhotoEntities 
+20170404@01:21:04 [System] GVAppointment_DataBound 
+20170404@01:21:36 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170404@01:21:36 [System] getAdoptInfoEntity 
+20170404@01:21:36 [System] getShopInfo 
+20170404@01:21:36 [System] getShopTime 
+20170404@01:21:36 [System] getPhotoEntities 
+20170404@01:21:36 [System] getPhotoEntities 
+20170404@01:21:36 [System] getAdoptInfoEntity 
+20170404@01:21:36 [System] getShopInfo 
+20170404@01:21:37 [System] getShopTime 
+20170404@01:21:37 [System] getPhotoEntities 
+20170404@01:21:37 [System] getPhotoEntities 
+20170404@01:21:37 [System] getAdoptInfoEntity 
+20170404@01:21:37 [System] getShopInfo 
+20170404@01:21:37 [System] getShopTime 
+20170404@01:21:37 [System] getPhotoEntities 
+20170404@01:21:37 [System] getPhotoEntities 
+20170404@01:21:37 [System] getAdoptInfoEntity 
+20170404@01:21:37 [System] getShopInfo 
+20170404@01:21:37 [System] getShopTime 
+20170404@01:21:37 [System] getPhotoEntities 
+20170404@01:21:37 [System] getPhotoEntities 
+20170404@01:21:37 [System] getAdoptInfoEntity 
+20170404@01:21:37 [System] getShopInfo 
+20170404@01:21:37 [System] getShopTime 
+20170404@01:21:37 [System] getPhotoEntities 
+20170404@01:21:37 [System] getPhotoEntities 
+20170404@01:21:37 [System] getAdoptInfoEntity 
+20170404@01:21:38 [System] getShopInfo 
+20170404@01:21:38 [System] getShopTime 
+20170404@01:21:38 [System] getPhotoEntities 
+20170404@01:21:38 [System] getPhotoEntities 
+20170404@01:21:38 [System] getAdoptInfoEntity 
+20170404@01:21:38 [System] getShopInfo 
+20170404@01:21:38 [System] getShopTime 
+20170404@01:21:38 [System] getPhotoEntities 
+20170404@01:21:38 [System] getPhotoEntities 
+20170404@01:21:38 [System] getAdoptInfoEntity 
+20170404@01:21:38 [System] getShopInfo 
+20170404@01:21:38 [System] getShopTime 
+20170404@01:21:38 [System] getPhotoEntities 
+20170404@01:21:38 [System] getPhotoEntities 
+20170404@01:21:38 [System] GVAppointment_DataBound 
+20170404@01:21:47 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170404@01:21:47 [System] getAdoptInfoEntity 
+20170404@01:21:47 [System] getShopInfo 
+20170404@01:21:47 [System] getShopTime 
+20170404@01:21:47 [System] getPhotoEntities 
+20170404@01:21:47 [System] getPhotoEntities 
+20170404@01:21:47 [System] getAdoptInfoEntity 
+20170404@01:21:47 [System] getShopInfo 
+20170404@01:21:48 [System] getShopTime 
+20170404@01:21:48 [System] getPhotoEntities 
+20170404@01:21:48 [System] getPhotoEntities 
+20170404@01:21:48 [System] getAdoptInfoEntity 
+20170404@01:21:48 [System] getShopInfo 
+20170404@01:21:48 [System] getShopTime 
+20170404@01:21:48 [System] getPhotoEntities 
+20170404@01:21:48 [System] getPhotoEntities 
+20170404@01:21:48 [System] getAdoptInfoEntity 
+20170404@01:21:48 [System] getShopInfo 
+20170404@01:21:48 [System] getShopTime 
+20170404@01:21:48 [System] getPhotoEntities 
+20170404@01:21:48 [System] getPhotoEntities 
+20170404@01:21:48 [System] getAdoptInfoEntity 
+20170404@01:21:48 [System] getShopInfo 
+20170404@01:21:48 [System] getShopTime 
+20170404@01:21:48 [System] getPhotoEntities 
+20170404@01:21:48 [System] getPhotoEntities 
+20170404@01:21:49 [System] getAdoptInfoEntity 
+20170404@01:21:49 [System] getShopInfo 
+20170404@01:21:49 [System] getShopTime 
+20170404@01:21:49 [System] getPhotoEntities 
+20170404@01:21:49 [System] getPhotoEntities 
+20170404@01:21:49 [System] getAdoptInfoEntity 
+20170404@01:21:49 [System] getShopInfo 
+20170404@01:21:49 [System] getShopTime 
+20170404@01:21:49 [System] getPhotoEntities 
+20170404@01:21:49 [System] getPhotoEntities 
+20170404@01:21:49 [System] getAdoptInfoEntity 
+20170404@01:21:49 [System] getShopInfo 
+20170404@01:21:49 [System] getShopTime 
+20170404@01:21:49 [System] getPhotoEntities 
+20170404@01:21:49 [System] getPhotoEntities 
+20170404@01:21:49 [System] GVAppointment_DataBound 
+20170404@01:21:51 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170404@01:21:52 [System] getAdoptInfoEntity 
+20170404@01:21:52 [System] getShopInfo 
+20170404@01:21:52 [System] getShopTime 
+20170404@01:21:52 [System] getPhotoEntities 
+20170404@01:21:52 [System] getPhotoEntities 
+20170404@01:21:52 [System] getAdoptInfoEntity 
+20170404@01:21:52 [System] getShopInfo 
+20170404@01:21:52 [System] getShopTime 
+20170404@01:21:52 [System] getPhotoEntities 
+20170404@01:21:52 [System] getPhotoEntities 
+20170404@01:21:52 [System] getAdoptInfoEntity 
+20170404@01:21:52 [System] getShopInfo 
+20170404@01:21:52 [System] getShopTime 
+20170404@01:21:52 [System] getPhotoEntities 
+20170404@01:21:52 [System] getPhotoEntities 
+20170404@01:21:52 [System] getAdoptInfoEntity 
+20170404@01:21:53 [System] getShopInfo 
+20170404@01:21:53 [System] getShopTime 
+20170404@01:21:53 [System] getPhotoEntities 
+20170404@01:21:53 [System] getPhotoEntities 
+20170404@01:21:53 [System] getAdoptInfoEntity 
+20170404@01:21:53 [System] getShopInfo 
+20170404@01:21:53 [System] getShopTime 
+20170404@01:21:53 [System] getPhotoEntities 
+20170404@01:21:53 [System] getPhotoEntities 
+20170404@01:21:53 [System] getAdoptInfoEntity 
+20170404@01:21:53 [System] getShopInfo 
+20170404@01:21:53 [System] getShopTime 
+20170404@01:21:53 [System] getPhotoEntities 
+20170404@01:21:53 [System] getPhotoEntities 
+20170404@01:21:53 [System] getAdoptInfoEntity 
+20170404@01:21:53 [System] getShopInfo 
+20170404@01:21:53 [System] getShopTime 
+20170404@01:21:53 [System] getPhotoEntities 
+20170404@01:21:54 [System] getPhotoEntities 
+20170404@01:21:54 [System] getAdoptInfoEntity 
+20170404@01:21:54 [System] getShopInfo 
+20170404@01:21:54 [System] getShopTime 
+20170404@01:21:54 [System] getPhotoEntities 
+20170404@01:21:54 [System] getPhotoEntities 
+20170404@01:21:54 [System] GVAppointment_DataBound 
+20170404@01:21:57 [System] Page loaded: http://localhost:65063/eventdetails.aspx 
+20170404@01:21:58 [System] GVEvent_DataBound 
+20170404@01:26:48 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:27:28 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:27:35 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:28:45 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:28:53 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:30:13 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:30:31 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:32:29 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:32:39 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:34:27 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:35:24 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:35:26 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170404@01:35:26 [System] getAdoptInfoEntities 
+20170404@01:35:27 [System] getShopInfo 
+20170404@01:35:27 [System] getShopTime 
+20170404@01:35:27 [System] getPhotoEntities 
+20170404@01:35:27 [System] getPhotoEntities 
+20170404@01:35:27 [System] getShopInfo 
+20170404@01:35:27 [System] getShopTime 
+20170404@01:35:27 [System] getPhotoEntities 
+20170404@01:35:27 [System] getPhotoEntities 
+20170404@01:35:27 [System] getShopInfo 
+20170404@01:35:27 [System] getShopTime 
+20170404@01:35:27 [System] getPhotoEntities 
+20170404@01:35:27 [System] getPhotoEntities 
+20170404@01:35:27 [System] getShopInfo 
+20170404@01:35:27 [System] getShopTime 
+20170404@01:35:27 [System] getPhotoEntities 
+20170404@01:35:27 [System] getPhotoEntities 
+20170404@01:35:28 [System] getShopInfo 
+20170404@01:35:28 [System] getShopTime 
+20170404@01:35:28 [System] getPhotoEntities 
+20170404@01:35:28 [System] getPhotoEntities 
+20170404@01:35:28 [System] getShopInfo 
+20170404@01:35:28 [System] getShopTime 
+20170404@01:35:28 [System] getPhotoEntities 
+20170404@01:35:28 [System] getPhotoEntities 
+20170404@01:35:28 [System] getShopInfo 
+20170404@01:35:28 [System] getShopTime 
+20170404@01:35:28 [System] getPhotoEntities 
+20170404@01:35:28 [System] getPhotoEntities 
+20170404@01:35:28 [System] getShopInfo 
+20170404@01:35:28 [System] getShopTime 
+20170404@01:35:28 [System] getPhotoEntities 
+20170404@01:35:28 [System] getPhotoEntities 
+20170404@01:35:28 [System] getShopInfo 
+20170404@01:35:28 [System] getShopTime 
+20170404@01:35:29 [System] getPhotoEntities 
+20170404@01:35:29 [System] getPhotoEntities 
+20170404@01:35:29 [System] getShopInfo 
+20170404@01:35:29 [System] getShopTime 
+20170404@01:35:29 [System] getPhotoEntities 
+20170404@01:35:29 [System] getPhotoEntities 
+20170404@01:35:29 [System] getPhotoEntity 
+20170404@01:35:29 [System] getPhotoEntity 
+20170404@01:35:29 [System] getPhotoEntity 
+20170404@01:35:29 [System] getPhotoEntity 
+20170404@01:35:29 [System] getPhotoEntity 
+20170404@01:35:29 [System] getPhotoEntity 
+20170404@01:35:29 [System] getPhotoEntity 
+20170404@01:35:29 [System] getPhotoEntity 
+20170404@01:35:29 [System] getPhotoEntity 
+20170404@01:35:29 [System] getPhotoEntity 
+20170404@01:35:31 [System] Page loaded: http://localhost:65063/adoptiondetails.aspx?adoptinfoid=34 
+20170404@01:35:31 [System] loadAdoptionInfo 
+20170404@01:35:31 [System] getAdoptInfoEntity 
+20170404@01:35:31 [System] getShopInfo 
+20170404@01:35:31 [System] getShopTime 
+20170404@01:35:31 [System] getPhotoEntities 
+20170404@01:35:31 [System] getPhotoEntities 
+20170404@01:35:31 [System] DLAdoptInfo_ItemDataBound 
+20170404@01:35:31 [System] getAllAppointmentEntities 
+20170404@01:35:31 [System] checkAdoptionDetails 
+20170404@01:35:31 [System] checkAppointmentExist 
+20170404@01:35:32 [System] No data found in getValue() 
+20170404@01:35:32 [System] DLMorePet_ItemDataBound 
+20170404@01:35:32 [System] getPhotoEntities 
+20170404@01:35:32 [System] DLMorePet_ItemDataBound 
+20170404@01:35:32 [System] getPhotoEntities 
+20170404@01:36:10 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:37:46 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:37:46 [System] No account logged in 
+20170404@01:37:49 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:37:49 [System] No account logged in 
+20170404@01:37:49 [System] BTNAppmtDate_Click 
+20170404@01:40:53 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:40:53 [System] No account logged in 
+20170404@01:40:55 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:40:55 [System] No account logged in 
+20170404@01:40:56 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:40:56 [System] No account logged in 
+20170404@01:41:03 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:41:03 [System] No account logged in 
+20170404@01:41:03 [System] BTNAppmtDate_Click 
+20170404@01:43:21 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:43:21 [System] No account logged in 
+20170404@01:43:27 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:43:27 [System] No account logged in 
+20170404@01:44:39 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:44:39 [System] No account logged in 
+20170404@01:44:42 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:44:42 [System] No account logged in 
+20170404@01:44:42 [System] BTNAppmtDate_Click 
+20170404@01:44:45 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:44:45 [System] No account logged in 
+20170404@01:44:45 [System] BTNAppmtDate_Click 
+20170404@01:45:01 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:45:01 [System] No account logged in 
+20170404@01:45:03 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:45:03 [System] No account logged in 
+20170404@01:45:03 [System] BTNAppmtDate_Click 
+20170404@01:48:36 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:48:36 [System] No account logged in 
+20170404@01:49:17 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:49:17 [System] No account logged in 
+20170404@01:49:36 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:49:36 [System] No account logged in 
+20170404@01:49:41 [System] BTNLogin_Click 
+20170404@01:49:41 [System] signIn 
+20170404@01:49:41 [System] getPhotoEntities 
+20170404@01:49:41 [System] getShopInfo 
+20170404@01:51:09 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170404@01:51:09 [System] Page loaded: http://localhost:65063/home.aspx 
+20170404@01:51:43 [System] Page loaded: http://localhost:65063/home.aspx 
+20170404@01:51:45 [System] Page loaded: http://localhost:65063/home.aspx 
+20170404@01:51:48 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170404@01:51:49 [System] GVEvent_DataBound 
+20170404@01:51:50 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:52:21 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:52:25 [System] Page loaded: http://localhost:65063/appointmentdetails.aspx 
+20170404@01:52:26 [System] getAdoptInfoEntity 
+20170404@01:52:26 [System] getShopInfo 
+20170404@01:52:26 [System] getShopTime 
+20170404@01:52:26 [System] getPhotoEntities 
+20170404@01:52:26 [System] getPhotoEntities 
+20170404@01:52:26 [System] getAdoptInfoEntity 
+20170404@01:52:26 [System] getShopInfo 
+20170404@01:52:26 [System] getShopTime 
+20170404@01:52:26 [System] getPhotoEntities 
+20170404@01:52:26 [System] getPhotoEntities 
+20170404@01:52:26 [System] getAdoptInfoEntity 
+20170404@01:52:26 [System] getShopInfo 
+20170404@01:52:26 [System] getShopTime 
+20170404@01:52:26 [System] getPhotoEntities 
+20170404@01:52:26 [System] getPhotoEntities 
+20170404@01:52:26 [System] getAdoptInfoEntity 
+20170404@01:52:27 [System] getShopInfo 
+20170404@01:52:27 [System] getShopTime 
+20170404@01:52:27 [System] getPhotoEntities 
+20170404@01:52:27 [System] getPhotoEntities 
+20170404@01:52:27 [System] getAdoptInfoEntity 
+20170404@01:52:27 [System] getShopInfo 
+20170404@01:52:27 [System] getShopTime 
+20170404@01:52:27 [System] getPhotoEntities 
+20170404@01:52:27 [System] getPhotoEntities 
+20170404@01:52:27 [System] getAdoptInfoEntity 
+20170404@01:52:27 [System] getShopInfo 
+20170404@01:52:27 [System] getShopTime 
+20170404@01:52:27 [System] getPhotoEntities 
+20170404@01:52:27 [System] getPhotoEntities 
+20170404@01:52:27 [System] getAdoptInfoEntity 
+20170404@01:52:27 [System] getShopInfo 
+20170404@01:52:27 [System] getShopTime 
+20170404@01:52:27 [System] getPhotoEntities 
+20170404@01:52:28 [System] getPhotoEntities 
+20170404@01:52:28 [System] getAdoptInfoEntity 
+20170404@01:52:28 [System] getShopInfo 
+20170404@01:52:28 [System] getShopTime 
+20170404@01:52:28 [System] getPhotoEntities 
+20170404@01:52:28 [System] getPhotoEntities 
+20170404@01:52:28 [System] GVAppointment_DataBound 
+20170404@01:52:29 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:52:32 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:52:32 [System] BTNAppmtDate_Click 
+20170404@01:52:36 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:52:36 [System] DDLAppmtTime_SelectedIndexChanged 
+20170404@01:53:33 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:34 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:34 [System] BTNGenerate_Click 
+20170404@01:53:35 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:35 [System] BTNGenerate_Click 
+20170404@01:53:35 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:35 [System] BTNGenerate_Click 
+20170404@01:53:35 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:36 [System] BTNGenerate_Click 
+20170404@01:53:37 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:37 [System] BTNGenerate_Click 
+20170404@01:53:49 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:49 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:49 [System] BTNGenerate_Click 
+20170404@01:53:50 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:50 [System] BTNGenerate_Click 
+20170404@01:53:50 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:50 [System] BTNGenerate_Click 
+20170404@01:53:50 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:50 [System] BTNGenerate_Click 
+20170404@01:53:50 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:50 [System] BTNGenerate_Click 
+20170404@01:53:51 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:51 [System] BTNGenerate_Click 
+20170404@01:53:51 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:51 [System] BTNGenerate_Click 
+20170404@01:53:51 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:51 [System] BTNGenerate_Click 
+20170404@01:53:51 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:53:51 [System] BTNGenerate_Click 
+20170404@01:54:58 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:54:59 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:54:59 [System] BTNGenerate_Click 
+20170404@01:54:59 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:54:59 [System] BTNGenerate_Click 
+20170404@01:55:00 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:00 [System] BTNGenerate_Click 
+20170404@01:55:00 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:00 [System] BTNGenerate_Click 
+20170404@01:55:00 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:00 [System] BTNGenerate_Click 
+20170404@01:55:00 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:00 [System] BTNGenerate_Click 
+20170404@01:55:00 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:00 [System] BTNGenerate_Click 
+20170404@01:55:00 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:00 [System] BTNGenerate_Click 
+20170404@01:55:01 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:01 [System] BTNGenerate_Click 
+20170404@01:55:01 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:01 [System] BTNGenerate_Click 
+20170404@01:55:01 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:01 [System] BTNGenerate_Click 
+20170404@01:55:01 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:01 [System] BTNGenerate_Click 
+20170404@01:55:01 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:01 [System] BTNGenerate_Click 
+20170404@01:55:02 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:02 [System] BTNGenerate_Click 
+20170404@01:55:02 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:02 [System] BTNGenerate_Click 
+20170404@01:55:21 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:22 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:22 [System] BTNGenerate_Click 
+20170404@01:55:22 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:22 [System] BTNGenerate_Click 
+20170404@01:55:23 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:23 [System] BTNGenerate_Click 
+20170404@01:55:23 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:23 [System] BTNGenerate_Click 
+20170404@01:55:23 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:23 [System] BTNGenerate_Click 
+20170404@01:55:23 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:23 [System] BTNGenerate_Click 
+20170404@01:55:24 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:24 [System] BTNGenerate_Click 
+20170404@01:55:24 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:24 [System] BTNGenerate_Click 
+20170404@01:55:24 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:55:24 [System] BTNGenerate_Click 
+20170404@01:56:04 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:05 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:05 [System] BTNGenerate_Click 
+20170404@01:56:05 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:05 [System] BTNGenerate_Click 
+20170404@01:56:05 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:05 [System] BTNGenerate_Click 
+20170404@01:56:06 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:06 [System] BTNGenerate_Click 
+20170404@01:56:06 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:06 [System] BTNGenerate_Click 
+20170404@01:56:06 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:06 [System] BTNGenerate_Click 
+20170404@01:56:06 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:06 [System] BTNGenerate_Click 
+20170404@01:56:06 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:06 [System] BTNGenerate_Click 
+20170404@01:56:06 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:06 [System] BTNGenerate_Click 
+20170404@01:56:07 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:07 [System] BTNGenerate_Click 
+20170404@01:56:07 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:07 [System] BTNGenerate_Click 
+20170404@01:56:07 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:07 [System] BTNGenerate_Click 
+20170404@01:56:07 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:07 [System] BTNGenerate_Click 
+20170404@01:56:07 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:07 [System] BTNGenerate_Click 
+20170404@01:56:08 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:08 [System] BTNGenerate_Click 
+20170404@01:56:08 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:08 [System] BTNGenerate_Click 
+20170404@01:56:08 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:08 [System] BTNGenerate_Click 
+20170404@01:56:08 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:08 [System] BTNGenerate_Click 
+20170404@01:56:25 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:25 [System] BTNPreview_Click 
+20170404@01:56:25 [System] saveToTempFolder 
+20170404@01:56:25 [System] Check directory: ~/uploadedFiles/temp/profileinfo/ID000/ Result: False 
+20170404@01:56:25 [System] Total files posted: 1 
+20170404@01:56:25 [System] previewPhotos 
+20170404@01:56:26 [System] ~/uploadedFiles/temp/profileinfo/ID000//parent_oftracepart04.png 
+20170404@01:56:43 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:56:43 [System] BTNPreview_Click 
+20170404@01:56:43 [System] saveToTempFolder 
+20170404@01:56:43 [System] Check directory: ~/uploadedFiles/temp/profileinfo/ID000/ Result: True 
+20170404@01:56:43 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/ID000/ 
+20170404@01:56:43 [System] Total files posted: 3 
+20170404@01:56:43 [System] previewPhotos 
+20170404@01:56:43 [System] ~/uploadedFiles/temp/profileinfo/ID000//parent_oftracepart02.png 
+20170404@01:56:43 [System] ~/uploadedFiles/temp/profileinfo/ID000//parent_oftracepart03.png 
+20170404@01:56:43 [System] ~/uploadedFiles/temp/profileinfo/ID000//parent_oftracepart04.png 
+20170404@01:58:40 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:58:40 [System] No account logged in 
+20170404@01:58:40 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170404@01:58:40 [System] No account logged in 
+20170404@01:58:46 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170404@01:58:46 [System] No account logged in 
+20170404@01:58:46 [System] BTNLogin_Click 
+20170404@01:58:46 [System] signIn 
+20170404@01:58:46 [System] getPhotoEntities 
+20170404@01:58:47 [System] getShopInfo 
+20170404@01:58:47 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170404@01:58:47 [System] Page loaded: http://localhost:65063/home.aspx 
+20170404@01:58:51 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170404@01:58:52 [System] GVEvent_DataBound 
+20170404@01:58:53 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:01 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:01 [System] BTNPreview_Click 
+20170404@01:59:01 [System] saveToTempFolder 
+20170404@01:59:01 [System] Check directory: ~/uploadedFiles/temp/profileinfo/ID000/ Result: True 
+20170404@01:59:01 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/ID000/ 
+20170404@01:59:01 [System] Total files posted: 5 
+20170404@01:59:01 [System] previewPhotos 
+20170404@01:59:01 [System] ~/uploadedFiles/temp/profileinfo/ID000//spouseresult.png 
+20170404@01:59:01 [System] ~/uploadedFiles/temp/profileinfo/ID000//spouseresultreordered.png 
+20170404@01:59:01 [System] ~/uploadedFiles/temp/profileinfo/ID000//spousetracereordered.png 
+20170404@01:59:01 [System] ~/uploadedFiles/temp/profileinfo/ID000//uncletrace.png 
+20170404@01:59:01 [System] ~/uploadedFiles/temp/profileinfo/ID000//uncletracereordered.png 
+20170404@01:59:29 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:29 [System] BTNGenerate_Click 
+20170404@01:59:38 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:38 [System] BTNGenerate_Click 
+20170404@01:59:39 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:39 [System] BTNGenerate_Click 
+20170404@01:59:39 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:39 [System] BTNGenerate_Click 
+20170404@01:59:40 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:40 [System] BTNGenerate_Click 
+20170404@01:59:40 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:40 [System] BTNGenerate_Click 
+20170404@01:59:40 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:40 [System] BTNGenerate_Click 
+20170404@01:59:40 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:40 [System] BTNGenerate_Click 
+20170404@01:59:40 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@01:59:40 [System] BTNGenerate_Click 
+20170404@02:07:57 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:10:06 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:10:06 [System] No account logged in 
+20170404@02:10:06 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170404@02:10:06 [System] No account logged in 
+20170404@02:10:12 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170404@02:10:12 [System] No account logged in 
+20170404@02:10:12 [System] BTNLogin_Click 
+20170404@02:10:12 [System] signIn 
+20170404@02:10:12 [System] getPhotoEntities 
+20170404@02:10:12 [System] getShopInfo 
+20170404@02:10:12 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170404@02:10:12 [System] Page loaded: http://localhost:65063/home.aspx 
+20170404@02:10:14 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170404@02:10:14 [System] GVEvent_DataBound 
+20170404@02:10:16 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:10:18 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:10:18 [System] BTNAdd_Click 
+20170404@02:10:18 [System] MessageHandler : Please select a event type 
+20170404@02:10:18 [System] MessageHandler : Please select a event type 
+20170404@02:12:12 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:12:12 [System] BTNAdd_Click 
+20170404@02:12:12 [System] MessageHandler : Please select a event type 
+20170404@02:12:12 [System] MessageHandler : Please select a event date 
+20170404@02:12:12 [System] MessageHandler : Please select a event time 
+20170404@02:12:12 [System] MessageHandler : Please enter a event location 
+20170404@02:12:12 [System] MessageHandler : Please enter a event title 
+20170404@02:12:12 [System] MessageHandler : Please enter a event description 
+20170404@02:12:14 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:12:14 [System] BTNAdd_Click 
+20170404@02:12:14 [System] MessageHandler : Please select a event type 
+20170404@02:12:14 [System] MessageHandler : Please select a event date 
+20170404@02:12:14 [System] MessageHandler : Please select a event time 
+20170404@02:12:14 [System] MessageHandler : Please enter a event location 
+20170404@02:12:14 [System] MessageHandler : Please enter a event title 
+20170404@02:12:14 [System] MessageHandler : Please enter a event description 
+20170404@02:12:51 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:12:51 [System] BTNAdd_Click 
+20170404@02:12:51 [System] MessageHandler : Please select a event type 
+20170404@02:12:51 [System] MessageHandler : Please select a event date 
+20170404@02:12:51 [System] MessageHandler : Please select a event time 
+20170404@02:12:51 [System] MessageHandler : Please enter a event location 
+20170404@02:12:51 [System] MessageHandler : Please enter a event title 
+20170404@02:12:51 [System] MessageHandler : Please enter a event description 
+20170404@02:13:05 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:13:07 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:13:07 [System] BTNAdd_Click 
+20170404@02:13:07 [System] MessageHandler : Please select a event type 
+20170404@02:13:07 [System] MessageHandler : Please select a event date 
+20170404@02:13:07 [System] MessageHandler : Please select a event time 
+20170404@02:13:07 [System] MessageHandler : Please enter a event location 
+20170404@02:13:07 [System] MessageHandler : Please enter a event title 
+20170404@02:13:07 [System] MessageHandler : Please enter a event description 
+20170404@02:15:12 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:15:18 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:15:18 [System] BTNAdd_Click 
+20170404@02:15:18 [System] MessageHandler : Please select a event type 
+20170404@02:15:18 [System] MessageHandler : Please select a event date 
+20170404@02:15:18 [System] MessageHandler : Please select a event time 
+20170404@02:15:18 [System] MessageHandler : Please enter a event location 
+20170404@02:15:18 [System] MessageHandler : Please enter a event title 
+20170404@02:15:18 [System] MessageHandler : Please enter a event description 
+20170404@02:15:21 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:15:21 [System] BTNGenerate_Click 
+20170404@02:15:21 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:15:21 [System] BTNGenerate_Click 
+20170404@02:15:38 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:15:38 [System] BTNGenerate_Click 
+20170404@02:15:40 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:15:40 [System] BTNAdd_Click 
+20170404@02:15:40 [System] MessageHandler : Event Type 
+20170404@02:15:40 [System] MessageHandler : Please select a event date 
+20170404@02:15:40 [System] MessageHandler : Please select a event time 
+20170404@02:15:40 [System] MessageHandler : Please enter a event location 
+20170404@02:15:40 [System] MessageHandler : Event Title 
+20170404@02:15:40 [System] MessageHandler : Event Description 
+20170404@02:15:41 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:15:41 [System] BTNGenerate_Click 
+20170404@02:15:42 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:15:42 [System] BTNAppmtDate_Click 
+20170404@02:15:44 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:15:44 [System] DDLAppmtTime_SelectedIndexChanged 
+20170404@02:15:46 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:15:46 [System] BTNAdd_Click 
+20170404@02:15:46 [System] MessageHandler : Event Type 
+20170404@02:15:46 [System] MessageHandler : Event Date 
+20170404@02:15:46 [System] MessageHandler : Event Time 
+20170404@02:15:46 [System] MessageHandler : Please enter a event location 
+20170404@02:15:46 [System] MessageHandler : Event Title 
+20170404@02:15:46 [System] MessageHandler : Event Description 
+20170404@02:16:17 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:17 [System] BTNGenerate_Click 
+20170404@02:16:18 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:18 [System] BTNAdd_Click 
+20170404@02:16:18 [System] MessageHandler : Event Type 
+20170404@02:16:18 [System] MessageHandler : Event Date 
+20170404@02:16:18 [System] MessageHandler : Event Time 
+20170404@02:16:18 [System] MessageHandler : Event Location 
+20170404@02:16:18 [System] MessageHandler : Event Title 
+20170404@02:16:18 [System] MessageHandler : Event Description 
+20170404@02:16:19 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:19 [System] BTNAdd_Click 
+20170404@02:16:19 [System] MessageHandler : Event Type 
+20170404@02:16:19 [System] MessageHandler : Event Date 
+20170404@02:16:19 [System] MessageHandler : Event Time 
+20170404@02:16:19 [System] MessageHandler : Event Location 
+20170404@02:16:19 [System] MessageHandler : Event Title 
+20170404@02:16:19 [System] MessageHandler : Event Description 
+20170404@02:16:19 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:19 [System] BTNAdd_Click 
+20170404@02:16:19 [System] MessageHandler : Event Type 
+20170404@02:16:19 [System] MessageHandler : Event Date 
+20170404@02:16:19 [System] MessageHandler : Event Time 
+20170404@02:16:19 [System] MessageHandler : Event Location 
+20170404@02:16:19 [System] MessageHandler : Event Title 
+20170404@02:16:19 [System] MessageHandler : Event Description 
+20170404@02:16:19 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:19 [System] BTNAdd_Click 
+20170404@02:16:19 [System] MessageHandler : Event Type 
+20170404@02:16:19 [System] MessageHandler : Event Date 
+20170404@02:16:19 [System] MessageHandler : Event Time 
+20170404@02:16:19 [System] MessageHandler : Event Location 
+20170404@02:16:19 [System] MessageHandler : Event Title 
+20170404@02:16:19 [System] MessageHandler : Event Description 
+20170404@02:16:19 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:19 [System] BTNGenerate_Click 
+20170404@02:16:20 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:20 [System] BTNGenerate_Click 
+20170404@02:16:20 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:20 [System] BTNGenerate_Click 
+20170404@02:16:20 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:20 [System] BTNAdd_Click 
+20170404@02:16:20 [System] MessageHandler : Event Type 
+20170404@02:16:20 [System] MessageHandler : Event Date 
+20170404@02:16:20 [System] MessageHandler : Event Time 
+20170404@02:16:20 [System] MessageHandler : Event Location 
+20170404@02:16:20 [System] MessageHandler : Event Title 
+20170404@02:16:20 [System] MessageHandler : Event Description 
+20170404@02:16:21 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:21 [System] BTNGenerate_Click 
+20170404@02:16:21 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:21 [System] BTNGenerate_Click 
+20170404@02:16:21 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:21 [System] BTNGenerate_Click 
+20170404@02:16:22 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:22 [System] BTNGenerate_Click 
+20170404@02:16:22 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:22 [System] BTNAdd_Click 
+20170404@02:16:22 [System] MessageHandler : Event Type 
+20170404@02:16:22 [System] MessageHandler : Event Date 
+20170404@02:16:22 [System] MessageHandler : Event Time 
+20170404@02:16:22 [System] MessageHandler : Event Location 
+20170404@02:16:22 [System] MessageHandler : Event Title 
+20170404@02:16:22 [System] MessageHandler : Event Description 
+20170404@02:16:23 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170404@02:16:23 [System] BTNAdd_Click 
+20170404@02:16:23 [System] MessageHandler : Event Type 
+20170404@02:16:23 [System] MessageHandler : Event Date 
+20170404@02:16:23 [System] MessageHandler : Event Time 
+20170404@02:16:23 [System] MessageHandler : Event Location 
+20170404@02:16:23 [System] MessageHandler : Event Title 
+20170404@02:16:23 [System] MessageHandler : Event Description 

@@ -126,6 +126,18 @@ public partial class AdoptionDetails : BasePageTLO
             IMGPhoto.ImageUrl = "assetsG5/images/default.png";
     }
     #endregion
+    #region Dropdownlist Controls
+    protected void DDLAppmtTime_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        if (DDLAppmtTime.SelectedIndex == 0) BTNAdoptMe.Enabled = false;
+        else
+        {
+            BTNAdoptMe.Enabled = true;
+            saveTempEvent();
+        }
+    }
+    #endregion
     #region Logical Methods
     // Load adoption info
     protected void loadAdoptionInfo()
@@ -136,90 +148,6 @@ public partial class AdoptionDetails : BasePageTLO
         HDFPetID.Value = viewAdoptinfoEntity.PetEntity.PetID;
         HDFShopInfoID.Value = viewAdoptinfoEntity.ShopInfoEntity.ShopInfoID;
     }
-    // Load operating hours based on different days
-    //protected void loadOperatingHours()
-    //{
-    //    LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-    //    dateSelected = INPUTAppmtDate.Value; // get dateSelected
-    //    if (!string.IsNullOrEmpty(dateSelected))
-    //    {
-    //        daySelected = (DateTime.Parse(dateSelected)).DayOfWeek.ToString();
-    //        // to get which day is operating
-    //        bool isOperating = false;
-    //        ShopTimeEntity shopTimeEntitySelected = null;
-    //        foreach (ShopTimeEntity shopTimeEntity in viewAdoptinfoEntity.ShopInfoEntity.ShopTimeEntities)
-    //        {
-    //            if (shopTimeEntity.DayOfWeek.ToLower().Contains(daySelected.ToLower()))
-    //            {
-    //                isOperating = true;
-    //                shopTimeEntitySelected = shopTimeEntity;
-    //                break;
-    //            }
-    //        }
-    //        // Enale drop down list to select time
-    //        DDLAppmtTime.Enabled = isOperating;
-    //        if (isOperating)
-    //        {
-    //            MessageHandler.DefaultMessage(LBLAppmtTime, "Event Time");
-    //            MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Event Date (", shopTimeEntitySelected.DayOfWeek, ")"));
-    //            // display operation hours of a particular day
-    //            var firstItem = DDLAppmtTime.Items[0];
-    //            DDLAppmtTime.Items.Clear();
-    //            DDLAppmtTime.Items.Add(firstItem);
-    //            DDLAppmtTime.DataSource = Utility.getTimeInterval(shopTimeEntitySelected.OpenTime, shopTimeEntitySelected.CloseTime);
-    //            DDLAppmtTime.DataBind();
-    //            List<EventEntity> adoptRequestEntities = appointmentCrtler.getAllEventEntities(adoptInfoID);
-    //            foreach (EventEntity appointmentEntity in adoptRequestEntities)
-    //            {
-    //                ListItem item;
-    //                if (daySelected.ToLower().Equals(appointmentEntity.AppmtDateTime.DayOfWeek.ToString().ToLower()))
-    //                {
-    //                    // remove time slot that aleady been booked
-    //                    item = DDLAppmtTime.Items.FindByValue(appointmentEntity.AppmtDateTime.ToString("HH:mm tt"));
-    //                    if (item != null) { DDLAppmtTime.Items.Remove(item); }
-    //                }
-    //            } 
-    //            // remove time selection after operating hours on current day
-    //            if (dateSelected.Equals(DateTime.Now.ToString("dd-MMMM-yyyy")))
-    //            {
-    //                if ((DateTime.Parse(shopTimeEntitySelected.CloseTime).TimeOfDay < DateTime.Now.TimeOfDay))
-    //                {
-    //                    MessageHandler.ErrorMessage(LBLAppmtDate, string.Concat("Event Date (Close Now)"));
-    //                    DDLAppmtTime.Enabled = false;
-    //                }
-    //                else
-    //                {
-    //                    MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Event Date (", shopTimeEntitySelected.DayOfWeek, ")"));
-    //                    DDLAppmtTime.Enabled = true;
-    //                    // still in operation, but need to remove time slot that is past current time
-    //                    List<string> operationTimes = new List<string>();
-    //                    foreach (ListItem item in DDLAppmtTime.Items)
-    //                    {
-    //                        operationTimes.Add(item.Value);
-    //                    }
-    //                    ListItem itemTime = new ListItem();
-    //                    foreach (string time in operationTimes)
-    //                    {
-    //                        if (!string.IsNullOrEmpty(time))
-    //                        {
-    //                            itemTime = DDLAppmtTime.Items.FindByValue(time);
-    //                            if (DateTime.Parse(time).TimeOfDay < DateTime.Now.TimeOfDay)
-    //                            {
-    //                                DDLAppmtTime.Items.Remove(itemTime);
-    //                            }
-    //                        }
-    //                    }
-    //                }
-    //            }
-    //        }
-    //        else
-    //        {
-    //            Thread.Sleep(1000);
-    //            MessageHandler.ErrorMessage(LBLAppmtTime, "Event Time - Not open on selected date");
-    //            MessageHandler.DefaultMessage(LBLAppmtDate, string.Concat("Event Date"));
-    //        }
-    //    }
-    //}
     // Save current selected appointment date/time
     protected void saveTempEvent()
     {
@@ -281,18 +209,6 @@ public partial class AdoptionDetails : BasePageTLO
             PNLAdoptReq.Visible = true;
             INPUTAppmtDate.Attributes["disabled"] = "disabled";
             MessageHandler.ErrorMessage(LBLErrorMsg, "Please log in first ");
-        }
-    }
-    #endregion
-    #region Dropdownlist Controls
-    protected void DDLAppmtTime_SelectedIndexChanged(object sender, EventArgs e)
-    {
-        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        if (DDLAppmtTime.SelectedIndex == 0) BTNAdoptMe.Enabled = false;
-        else
-        {
-            BTNAdoptMe.Enabled = true;
-            saveTempEvent();
         }
     }
     #endregion

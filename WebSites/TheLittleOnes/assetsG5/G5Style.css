@@ -4,7 +4,7 @@
     width: 100%;
     opacity: 0.6;
     background-color: #666;
-    z-index: 1;
+    z-index: 99;
 }
     .overlay-progress img {
         margin: 20% 47%;
@@ -37,7 +37,11 @@
     margin-top: 100px;
 }
 .marginBtm-100 {
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
+}
+.scrollbarVertical {
+    overflow-x: hidden; /*for horizontal scroll bar */
+    overflow-y: auto; /*for hiding vertical scroll bar */
 }
 .scrollbarHorizontal {
     overflow-x: auto; /*for horizontal scroll bar */

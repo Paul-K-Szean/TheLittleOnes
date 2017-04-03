@@ -85,7 +85,9 @@ namespace TheLittleOnesLibrary.EnumFolder
         [Description("Shop Info")]
         ShopInfo,
         [Description("Profile Info")]
-        ProfileInfo
+        ProfileInfo,
+        [Description("Event Info")]
+        EventInfo
     }
     public enum PetCategory
     {

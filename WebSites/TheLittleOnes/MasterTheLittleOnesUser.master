@@ -25,12 +25,8 @@
                         <ul>
                             <li><a href="#">Account Settings</a></li>
                             <li><a href="AppointmentDetails.aspx">Appointment</a></li>
-                            <li><a href="#">Event</a>
-                                <ul>
-                                    <li><a href="EventAdd.aspx">Create Event</a></li>
-                                    <li><a href="EventDetails.aspx">Edit Event</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="EventAdd.aspx">Create Event</a></li>
+                            <li><a href="EventEdit.aspx">Edit Event</a></li>
                         </ul>
                     </div>
                 </div>

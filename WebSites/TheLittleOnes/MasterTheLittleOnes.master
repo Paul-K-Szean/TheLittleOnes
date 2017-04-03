@@ -162,7 +162,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                         <ul class="dropdown-menu">
                                             <li><a class="hvr-bounce-to-bottom" href="icons.html">Account Settings</a></li>
                                             <li><a class="hvr-bounce-to-bottom" href="AppointmentDetails.aspx">Appointment</a></li>
-                                            <li><a class="hvr-bounce-to-bottom" href="EventDetails.aspx">Event</a></li>
+                                            <li><a class="hvr-bounce-to-bottom" href="EventEdit.aspx">Event</a></li>
                                             <li>
                                                 <asp:LinkButton ID="LKBTNSignOut" runat="server" CssClass="hvr-bounce-to-bottom" OnClick="LKBTNSignOut_Click" Text="Sign Out"></asp:LinkButton>
                                             </li>
