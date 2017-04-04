@@ -1,13 +1,17 @@
 Must follow all steps to run the project.
 
-1. (Important) Install the Visual Studio 2015 and AccessDatabaseEngine2007 (in the Setup Files folder)
+1. (Important) Install the Visual Studio XXXX and AccessDatabaseEngine2007 (in the Setup Files folder)
 
 2. Start the project
 	-	Nagivate to Projects -> TheLittleOnes -> TheLittleOnes.sln
 
-3. (Important) In the solution explorer, right-click the TheLittleOnes (Website) as the start up project
+3. (Important) In the solution explorer, right-click the TheLittleOnes (Website) as the start up project to view front end 
+username = webuser00@hotmail.com
+password = webuser00
 
-4. (Important) In the solution explorer, right-click the AdminLogin.aspx (Webpage) as the start up page 
+4. (Important) In the solution explorer, right-click the AdminLogin.aspx (Webpage) as the start up page to view back end
+username = webadmin00@hotmail.com
+password = webadmin00
 
 5. Press Ctrl+F5 to run without debugging mode
 	-	you may change the type of browser to run
@@ -20,3 +24,4 @@ Must follow all steps to run the project.
 *********************************************** 
 
 1. Please install microsoft office (Access Database 2015) in order to edit the database tables.
+2. Database tables can be found in WebSites/TheLittleOnes/App_Data/TheLittleOnes.accdb
