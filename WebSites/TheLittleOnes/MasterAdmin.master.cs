@@ -5,7 +5,6 @@ using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
-
 public partial class MasterAdmin : MasterPage
 {
     // Entities
@@ -33,7 +32,6 @@ public partial class MasterAdmin : MasterPage
         {
         }
         loadAccountInfo();
-
     }
     private void loadAccountInfo()
     {

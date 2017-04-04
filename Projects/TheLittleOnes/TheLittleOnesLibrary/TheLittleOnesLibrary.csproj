@@ -80,7 +80,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdoptionInfoController.cs" />
     <Compile Include="Controllers\AppointmentController.cs" />
-    <Compile Include="Controllers\EventController.cs" />
+    <Compile Include="Controllers\EventInfoController.cs" />
     <Compile Include="Controllers\PetController.cs" />
     <Compile Include="Controllers\PetInfoController.cs" />
     <Compile Include="Controllers\PhotoController.cs" />
@@ -89,7 +89,7 @@
     <Compile Include="DataAccessObject\DAO.cs" />
     <Compile Include="Entities\AdoptionEntity.cs" />
     <Compile Include="Entities\AppointmentEntity.cs" />
-    <Compile Include="Entities\EventEntity.cs" />
+    <Compile Include="Entities\EventInfoEntity.cs" />
     <Compile Include="Entities\PetEntity.cs" />
     <Compile Include="Entities\ShopInfoEntity.cs" />
     <Compile Include="Entities\ShopTimeEntity.cs" />

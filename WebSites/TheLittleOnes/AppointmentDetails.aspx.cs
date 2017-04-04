@@ -200,6 +200,7 @@ public partial class AppointmentDetails : BasePageTLO
             appointmentEntityEdit = new AppointmentEntity(appointmentEntityEdit.AppmtID, TLOAccountEntity, appointmentEntityEdit.AppmtToID, dateTimeSelected, DateTime.Now, Enums.GetDescription(SystemStatus.Confirmed), Enums.GetDescription(AppointmentType.Adoption));
         }
     }
+    // For GUI display word instead of bool
     protected Boolean isCancelled(string appmtStatus)
     {
         if (!string.IsNullOrEmpty(appmtStatus))

@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnes.master" AutoEventWireup="true" CodeFile="Forbidden.aspx.cs" Inherits="Forbidden" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHead" runat="Server">
     
 </asp:Content>

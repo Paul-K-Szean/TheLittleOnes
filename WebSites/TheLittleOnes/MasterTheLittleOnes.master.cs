@@ -39,7 +39,6 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
             if (accountEntity != null)
             {
                 BasePageTLO.signInAccountProfileEntity(accountEntity);
-
                 string adoptInfoID = HttpContext.Current.Request.QueryString["adoptinfoid"];
                 string currentPage = Path.GetFileName(Request.Url.AbsolutePath).ToLower().Trim();
                 // where should the system response after logging in 

@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnesUser.master" AutoEventWireup="true" CodeFile="EventAdd.aspx.cs" Inherits="EventAdd" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHeadUser" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBodyUser" runat="Server">
@@ -45,16 +44,16 @@
                                                 <br /> 
                                                 <asp:Label ID="LBLEventDate" runat="server" Text="Event Date" Font-Bold="True"></asp:Label>
                                                 <div class="input-group">
-                                                    <input id="INPUTAppmtDate" runat="server" class="form-control datepicker" type="text"
+                                                    <input id="INPUTEventDate" runat="server" class="form-control datepicker" type="text"
                                                         data-date-format="dd-MM-yyyy" placeholder="Select date" style="padding-left: 14px;" autocomplete="off">
                                                     <span class="input-group-addon">
                                                         <i class="fa fa-calendar"></i>
                                                     </span>
                                                     <asp:Button ID="BTNAppmtDate" runat="server" Style="display: none;" OnClick="BTNAppmtDate_Click" />
                                                 </div>
-                                                <asp:Label ID="LBLEventTime" runat="server" Text="Event Date" Font-Bold="True"></asp:Label>
+                                                <asp:Label ID="LBLEventTime" runat="server" Text="Event Time" Font-Bold="True"></asp:Label>
                                                 <div class="input-group">
-                                                    <asp:DropDownList ID="DDLAppmtTime" runat="server" CssClass="form-control"
+                                                    <asp:DropDownList ID="DDLEventTime" runat="server" CssClass="form-control"
                                                         AutoPostBack="true" Enabled="false" OnSelectedIndexChanged="DDLAppmtTime_SelectedIndexChanged"
                                                         AppendDataBoundItems="true">
                                                         <asp:ListItem Value="">Select Time</asp:ListItem>
@@ -75,7 +74,7 @@
                                                 <br />
                                                 <div>
                                                     <asp:Label ID="LBLEventDesc" runat="server" Text="Description" Font-Bold="True"></asp:Label>
-                                                    <asp:TextBox ID="TBEventDesc" runat="server" CssClass="form-control" placeholder="EG: Yay Nay Hay Day"></asp:TextBox>
+                                                    <asp:TextBox ID="TBEventDesc" runat="server" CssClass="form-control" placeholder="EG: Yay Nay Hay Day" TextMode="MultiLine" Rows="10"></asp:TextBox>
                                                 </div>
                                                 <br />
                                             </div>
@@ -137,6 +136,5 @@
         }
     </script>
     <!--datepicker Slider ends Here-->
-
 </asp:Content>
 

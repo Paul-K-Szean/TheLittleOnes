@@ -15,4 +15,3 @@ C:\Users\szean\Documents\GitHub\TheLittleOnes\Projects\TheLittleOnes\TheLittleOn
 C:\Users\szean\Documents\GitHub\TheLittleOnes\Projects\TheLittleOnes\TheLittleOnesLibrary\bin\Debug\Artem.Google.xml
 C:\Users\szean\Documents\GitHub\TheLittleOnes\Projects\TheLittleOnes\TheLittleOnesLibrary\obj\Debug\TheLittleOnesLibrary.dll
 C:\Users\szean\Documents\GitHub\TheLittleOnes\Projects\TheLittleOnes\TheLittleOnesLibrary\obj\Debug\TheLittleOnesLibrary.pdb
-C:\Users\szean\Documents\GitHub\TheLittleOnes\Projects\TheLittleOnes\TheLittleOnesLibrary\obj\Debug\TheLittleOnesLibrary.csprojResolveAssemblyReference.cache

@@ -1,0 +1,1959 @@
+20170405@00:01:25 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:01:26 [System] GVEvent_DataBound 
+20170405@00:01:28 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:01:28 [System] GVEvent_SelectedIndexChanging 
+20170405@00:01:28 [System] loadEvent 
+20170405@00:01:28 [System] getEventInfoEntity 
+20170405@00:01:28 [System] getAccount 
+20170405@00:01:28 [System] getPhotoEntities 
+20170405@00:01:28 [System] getShopInfo 
+20170405@00:01:28 [System] loadEventTimeSlots 
+20170405@00:01:56 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:01:57 [System] GVEvent_SelectedIndexChanging 
+20170405@00:01:57 [System] loadEvent 
+20170405@00:01:57 [System] getEventInfoEntity 
+20170405@00:01:57 [System] getAccount 
+20170405@00:01:57 [System] getPhotoEntities 
+20170405@00:01:57 [System] getShopInfo 
+20170405@00:01:57 [System] loadEventTimeSlots 
+20170405@00:01:57 [System] GVEvent_SelectedIndexChanged 
+20170405@00:02:41 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:02:41 [System] GVEvent_SelectedIndexChanging 
+20170405@00:02:41 [System] loadEvent 
+20170405@00:02:41 [System] getEventInfoEntity 
+20170405@00:02:41 [System] getAccount 
+20170405@00:02:41 [System] getPhotoEntities 
+20170405@00:02:41 [System] getShopInfo 
+20170405@00:02:41 [System] loadEventTimeSlots 
+20170405@00:02:41 [System] GVEvent_SelectedIndexChanged 
+20170405@00:03:00 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:00 [System] GVEvent_SelectedIndexChanging 
+20170405@00:03:00 [System] loadEvent 
+20170405@00:03:00 [System] getEventInfoEntity 
+20170405@00:03:00 [System] getAccount 
+20170405@00:03:00 [System] getPhotoEntities 
+20170405@00:03:00 [System] getShopInfo 
+20170405@00:03:00 [System] loadEventTimeSlots 
+20170405@00:03:00 [System] GVEvent_SelectedIndexChanged 
+20170405@00:03:03 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:03 [System] GVEvent_SelectedIndexChanging 
+20170405@00:03:03 [System] loadEvent 
+20170405@00:03:03 [System] getEventInfoEntity 
+20170405@00:03:03 [System] getAccount 
+20170405@00:03:04 [System] getPhotoEntities 
+20170405@00:03:04 [System] getShopInfo 
+20170405@00:03:04 [System] loadEventTimeSlots 
+20170405@00:03:04 [System] GVEvent_SelectedIndexChanged 
+20170405@00:03:05 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:05 [System] GVEvent_SelectedIndexChanging 
+20170405@00:03:05 [System] loadEvent 
+20170405@00:03:05 [System] getEventInfoEntity 
+20170405@00:03:05 [System] getAccount 
+20170405@00:03:05 [System] getPhotoEntities 
+20170405@00:03:05 [System] getShopInfo 
+20170405@00:03:05 [System] loadEventTimeSlots 
+20170405@00:03:05 [System] GVEvent_SelectedIndexChanged 
+20170405@00:03:21 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:21 [System] GVEvent_SelectedIndexChanging 
+20170405@00:03:21 [System] loadEvent 
+20170405@00:03:21 [System] getEventInfoEntity 
+20170405@00:03:21 [System] getAccount 
+20170405@00:03:21 [System] getPhotoEntities 
+20170405@00:03:21 [System] getShopInfo 
+20170405@00:03:21 [System] loadEventTimeSlots 
+20170405@00:03:21 [System] GVEvent_SelectedIndexChanged 
+20170405@00:03:24 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:24 [System] GVEvent_SelectedIndexChanging 
+20170405@00:03:24 [System] loadEvent 
+20170405@00:03:24 [System] getEventInfoEntity 
+20170405@00:03:24 [System] getAccount 
+20170405@00:03:24 [System] getPhotoEntities 
+20170405@00:03:25 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:25 [System] GVEvent_SelectedIndexChanging 
+20170405@00:03:25 [System] loadEvent 
+20170405@00:03:25 [System] getEventInfoEntity 
+20170405@00:03:25 [System] getAccount 
+20170405@00:03:25 [System] getPhotoEntities 
+20170405@00:03:25 [System] getShopInfo 
+20170405@00:03:25 [System] loadEventTimeSlots 
+20170405@00:03:25 [System] GVEvent_SelectedIndexChanged 
+20170405@00:03:26 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:26 [System] GVEvent_SelectedIndexChanging 
+20170405@00:03:26 [System] loadEvent 
+20170405@00:03:26 [System] getEventInfoEntity 
+20170405@00:03:26 [System] getAccount 
+20170405@00:03:26 [System] getPhotoEntities 
+20170405@00:03:26 [System] getShopInfo 
+20170405@00:03:26 [System] loadEventTimeSlots 
+20170405@00:03:26 [System] GVEvent_SelectedIndexChanged 
+20170405@00:03:29 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:29 [System] GVEvent_DataBound 
+20170405@00:03:31 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:31 [System] GVEvent_SelectedIndexChanging 
+20170405@00:03:31 [System] loadEvent 
+20170405@00:03:31 [System] getEventInfoEntity 
+20170405@00:03:32 [System] getAccount 
+20170405@00:03:32 [System] getPhotoEntities 
+20170405@00:03:32 [System] getShopInfo 
+20170405@00:03:32 [System] loadEventTimeSlots 
+20170405@00:03:45 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:45 [System] loadEventTimeSlots 
+20170405@00:03:45 [System] GVEvent_DataBound 
+20170405@00:03:47 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:03:47 [System] GVEvent_SelectedIndexChanging 
+20170405@00:03:47 [System] loadEvent 
+20170405@00:03:47 [System] getEventInfoEntity 
+20170405@00:03:47 [System] getAccount 
+20170405@00:03:48 [System] getPhotoEntities 
+20170405@00:03:48 [System] getShopInfo 
+20170405@00:04:16 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:04:16 [System] GVEvent_SelectedIndexChanging 
+20170405@00:04:16 [System] loadEvent 
+20170405@00:04:16 [System] getEventInfoEntity 
+20170405@00:04:17 [System] getAccount 
+20170405@00:04:17 [System] getPhotoEntities 
+20170405@00:04:17 [System] getShopInfo 
+20170405@00:04:17 [System] loadEventTimeSlots 
+20170405@00:04:51 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:04:51 [System] GVEvent_SelectedIndexChanging 
+20170405@00:04:51 [System] loadEvent 
+20170405@00:04:51 [System] getEventInfoEntity 
+20170405@00:04:51 [System] getAccount 
+20170405@00:04:51 [System] getPhotoEntities 
+20170405@00:04:51 [System] getShopInfo 
+20170405@00:04:51 [System] loadEventTimeSlots 
+20170405@00:04:52 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:04:52 [System] GVEvent_DataBound 
+20170405@00:04:54 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:04:54 [System] GVEvent_SelectedIndexChanging 
+20170405@00:04:54 [System] loadEvent 
+20170405@00:04:54 [System] getEventInfoEntity 
+20170405@00:04:54 [System] getAccount 
+20170405@00:04:54 [System] getPhotoEntities 
+20170405@00:04:54 [System] getShopInfo 
+20170405@00:04:54 [System] loadEventTimeSlots 
+20170405@00:05:15 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:05:15 [System] No account logged in 
+20170405@00:05:15 [System] getAdoptInfoEntities 
+20170405@00:05:15 [System] getShopInfo 
+20170405@00:05:15 [System] getShopTime 
+20170405@00:05:16 [System] getPhotoEntities 
+20170405@00:05:16 [System] getPhotoEntities 
+20170405@00:05:16 [System] getShopInfo 
+20170405@00:05:16 [System] getShopTime 
+20170405@00:05:16 [System] getPhotoEntities 
+20170405@00:05:16 [System] getPhotoEntities 
+20170405@00:05:16 [System] getShopInfo 
+20170405@00:05:16 [System] getShopTime 
+20170405@00:05:16 [System] getPhotoEntities 
+20170405@00:05:16 [System] getPhotoEntities 
+20170405@00:05:16 [System] getShopInfo 
+20170405@00:05:16 [System] getShopTime 
+20170405@00:05:16 [System] getPhotoEntities 
+20170405@00:05:16 [System] getPhotoEntities 
+20170405@00:05:16 [System] getShopInfo 
+20170405@00:05:16 [System] getShopTime 
+20170405@00:05:17 [System] getPhotoEntities 
+20170405@00:05:17 [System] getPhotoEntities 
+20170405@00:05:17 [System] getShopInfo 
+20170405@00:05:17 [System] getShopTime 
+20170405@00:05:17 [System] getPhotoEntities 
+20170405@00:05:17 [System] getPhotoEntities 
+20170405@00:05:17 [System] getShopInfo 
+20170405@00:05:17 [System] getShopTime 
+20170405@00:05:17 [System] getPhotoEntities 
+20170405@00:05:17 [System] getPhotoEntities 
+20170405@00:05:17 [System] getShopInfo 
+20170405@00:05:17 [System] getShopTime 
+20170405@00:05:17 [System] getPhotoEntities 
+20170405@00:05:17 [System] getPhotoEntities 
+20170405@00:05:17 [System] getShopInfo 
+20170405@00:05:17 [System] getShopTime 
+20170405@00:05:18 [System] getPhotoEntities 
+20170405@00:05:18 [System] getPhotoEntities 
+20170405@00:05:18 [System] getShopInfo 
+20170405@00:05:18 [System] getShopTime 
+20170405@00:05:18 [System] getPhotoEntities 
+20170405@00:05:18 [System] getPhotoEntities 
+20170405@00:05:18 [System] getShopInfo 
+20170405@00:05:18 [System] getShopTime 
+20170405@00:05:18 [System] getPhotoEntities 
+20170405@00:05:18 [System] getPhotoEntities 
+20170405@00:05:18 [System] getPhotoEntity 
+20170405@00:05:18 [System] getPhotoEntity 
+20170405@00:05:18 [System] getPhotoEntity 
+20170405@00:05:18 [System] getPhotoEntity 
+20170405@00:05:18 [System] getPhotoEntity 
+20170405@00:05:18 [System] getPhotoEntity 
+20170405@00:05:18 [System] getPhotoEntity 
+20170405@00:05:18 [System] getPhotoEntity 
+20170405@00:05:18 [System] getPhotoEntity 
+20170405@00:05:19 [System] getPhotoEntity 
+20170405@00:05:19 [System] getPhotoEntity 
+20170405@00:05:30 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:05:30 [System] No account logged in 
+20170405@00:05:30 [System] getAdoptInfoEntities 
+20170405@00:05:30 [System] getShopInfo 
+20170405@00:05:30 [System] getShopTime 
+20170405@00:05:30 [System] getPhotoEntities 
+20170405@00:05:30 [System] getPhotoEntities 
+20170405@00:05:30 [System] getShopInfo 
+20170405@00:05:30 [System] getShopTime 
+20170405@00:05:30 [System] getPhotoEntities 
+20170405@00:05:30 [System] getPhotoEntities 
+20170405@00:05:30 [System] getShopInfo 
+20170405@00:05:30 [System] getShopTime 
+20170405@00:05:30 [System] getPhotoEntities 
+20170405@00:05:30 [System] getPhotoEntities 
+20170405@00:05:30 [System] getShopInfo 
+20170405@00:05:31 [System] getShopTime 
+20170405@00:05:31 [System] getPhotoEntities 
+20170405@00:05:31 [System] getPhotoEntities 
+20170405@00:05:31 [System] getShopInfo 
+20170405@00:05:31 [System] getShopTime 
+20170405@00:05:31 [System] getPhotoEntities 
+20170405@00:05:31 [System] getPhotoEntities 
+20170405@00:05:31 [System] getShopInfo 
+20170405@00:05:31 [System] getShopTime 
+20170405@00:05:31 [System] getPhotoEntities 
+20170405@00:05:31 [System] getPhotoEntities 
+20170405@00:05:31 [System] getShopInfo 
+20170405@00:05:31 [System] getShopTime 
+20170405@00:05:31 [System] getPhotoEntities 
+20170405@00:05:31 [System] getPhotoEntities 
+20170405@00:05:31 [System] getShopInfo 
+20170405@00:05:31 [System] getShopTime 
+20170405@00:05:32 [System] getPhotoEntities 
+20170405@00:05:32 [System] getPhotoEntities 
+20170405@00:05:32 [System] getShopInfo 
+20170405@00:05:32 [System] getShopTime 
+20170405@00:05:32 [System] getPhotoEntities 
+20170405@00:05:32 [System] getPhotoEntities 
+20170405@00:05:32 [System] getShopInfo 
+20170405@00:05:32 [System] getShopTime 
+20170405@00:05:32 [System] getPhotoEntities 
+20170405@00:05:32 [System] getPhotoEntities 
+20170405@00:05:32 [System] getShopInfo 
+20170405@00:05:32 [System] getShopTime 
+20170405@00:05:32 [System] getPhotoEntities 
+20170405@00:05:32 [System] getPhotoEntities 
+20170405@00:05:32 [System] getPhotoEntity 
+20170405@00:05:32 [System] getPhotoEntity 
+20170405@00:05:32 [System] getPhotoEntity 
+20170405@00:05:32 [System] getPhotoEntity 
+20170405@00:05:32 [System] getPhotoEntity 
+20170405@00:05:33 [System] getPhotoEntity 
+20170405@00:05:33 [System] getPhotoEntity 
+20170405@00:05:33 [System] getPhotoEntity 
+20170405@00:05:33 [System] getPhotoEntity 
+20170405@00:05:33 [System] getPhotoEntity 
+20170405@00:05:33 [System] getPhotoEntity 
+20170405@00:05:33 [System] BTNLogin_Click 
+20170405@00:05:33 [System] signIn 
+20170405@00:05:33 [System] getPhotoEntities 
+20170405@00:05:33 [System] getShopInfo 
+20170405@00:05:33 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:05:33 [System] getAdoptInfoEntities 
+20170405@00:05:33 [System] getShopInfo 
+20170405@00:05:33 [System] getShopTime 
+20170405@00:05:33 [System] getPhotoEntities 
+20170405@00:05:33 [System] getPhotoEntities 
+20170405@00:05:33 [System] getShopInfo 
+20170405@00:05:33 [System] getShopTime 
+20170405@00:05:33 [System] getPhotoEntities 
+20170405@00:05:33 [System] getPhotoEntities 
+20170405@00:05:33 [System] getShopInfo 
+20170405@00:05:34 [System] getShopTime 
+20170405@00:05:34 [System] getPhotoEntities 
+20170405@00:05:34 [System] getPhotoEntities 
+20170405@00:05:34 [System] getShopInfo 
+20170405@00:05:34 [System] getShopTime 
+20170405@00:05:34 [System] getPhotoEntities 
+20170405@00:05:34 [System] getPhotoEntities 
+20170405@00:05:34 [System] getShopInfo 
+20170405@00:05:34 [System] getShopTime 
+20170405@00:05:34 [System] getPhotoEntities 
+20170405@00:05:34 [System] getPhotoEntities 
+20170405@00:05:34 [System] getShopInfo 
+20170405@00:05:34 [System] getShopTime 
+20170405@00:05:34 [System] getPhotoEntities 
+20170405@00:05:34 [System] getPhotoEntities 
+20170405@00:05:34 [System] getShopInfo 
+20170405@00:05:34 [System] getShopTime 
+20170405@00:05:35 [System] getPhotoEntities 
+20170405@00:05:35 [System] getPhotoEntities 
+20170405@00:05:35 [System] getShopInfo 
+20170405@00:05:35 [System] getShopTime 
+20170405@00:05:35 [System] getPhotoEntities 
+20170405@00:05:35 [System] getPhotoEntities 
+20170405@00:05:35 [System] getShopInfo 
+20170405@00:05:35 [System] getShopTime 
+20170405@00:05:35 [System] getPhotoEntities 
+20170405@00:05:35 [System] getPhotoEntities 
+20170405@00:05:35 [System] getShopInfo 
+20170405@00:05:35 [System] getShopTime 
+20170405@00:05:35 [System] getPhotoEntities 
+20170405@00:05:35 [System] getPhotoEntities 
+20170405@00:05:35 [System] getShopInfo 
+20170405@00:05:35 [System] getShopTime 
+20170405@00:05:35 [System] getPhotoEntities 
+20170405@00:05:36 [System] getPhotoEntities 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:36 [System] getPhotoEntity 
+20170405@00:05:39 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:05:39 [System] GVEvent_DataBound 
+20170405@00:05:41 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:05:41 [System] GVEvent_SelectedIndexChanging 
+20170405@00:05:41 [System] loadEvent 
+20170405@00:05:41 [System] getEventInfoEntity 
+20170405@00:05:41 [System] getAccount 
+20170405@00:05:41 [System] getPhotoEntities 
+20170405@00:05:41 [System] getShopInfo 
+20170405@00:05:41 [System] loadEventTimeSlots 
+20170405@00:05:44 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:05:44 [System] getAdoptInfoEntities 
+20170405@00:05:44 [System] getShopInfo 
+20170405@00:05:44 [System] getShopTime 
+20170405@00:05:44 [System] getPhotoEntities 
+20170405@00:05:44 [System] getPhotoEntities 
+20170405@00:05:44 [System] getShopInfo 
+20170405@00:05:45 [System] getShopTime 
+20170405@00:05:45 [System] getPhotoEntities 
+20170405@00:05:45 [System] getPhotoEntities 
+20170405@00:05:45 [System] getShopInfo 
+20170405@00:05:45 [System] getShopTime 
+20170405@00:05:45 [System] getPhotoEntities 
+20170405@00:05:45 [System] getPhotoEntities 
+20170405@00:05:45 [System] getShopInfo 
+20170405@00:05:45 [System] getShopTime 
+20170405@00:05:45 [System] getPhotoEntities 
+20170405@00:05:45 [System] getPhotoEntities 
+20170405@00:05:45 [System] getShopInfo 
+20170405@00:05:45 [System] getShopTime 
+20170405@00:05:45 [System] getPhotoEntities 
+20170405@00:05:45 [System] getPhotoEntities 
+20170405@00:05:45 [System] getShopInfo 
+20170405@00:05:45 [System] getShopTime 
+20170405@00:05:46 [System] getPhotoEntities 
+20170405@00:05:46 [System] getPhotoEntities 
+20170405@00:05:46 [System] getShopInfo 
+20170405@00:05:46 [System] getShopTime 
+20170405@00:05:46 [System] getPhotoEntities 
+20170405@00:05:46 [System] getPhotoEntities 
+20170405@00:05:46 [System] getShopInfo 
+20170405@00:05:46 [System] getShopTime 
+20170405@00:05:46 [System] getPhotoEntities 
+20170405@00:05:46 [System] getPhotoEntities 
+20170405@00:05:46 [System] getShopInfo 
+20170405@00:05:46 [System] getShopTime 
+20170405@00:05:46 [System] getPhotoEntities 
+20170405@00:05:46 [System] getPhotoEntities 
+20170405@00:05:46 [System] getShopInfo 
+20170405@00:05:47 [System] getShopTime 
+20170405@00:05:47 [System] getPhotoEntities 
+20170405@00:05:47 [System] getPhotoEntities 
+20170405@00:05:47 [System] getShopInfo 
+20170405@00:05:47 [System] getShopTime 
+20170405@00:05:47 [System] getPhotoEntities 
+20170405@00:05:47 [System] getPhotoEntities 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:05:47 [System] getPhotoEntity 
+20170405@00:06:09 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:06:09 [System] No account logged in 
+20170405@00:06:09 [System] getAdoptInfoEntities 
+20170405@00:06:09 [System] getShopInfo 
+20170405@00:06:09 [System] getShopTime 
+20170405@00:06:09 [System] getPhotoEntities 
+20170405@00:06:09 [System] getPhotoEntities 
+20170405@00:06:09 [System] getShopInfo 
+20170405@00:06:09 [System] getShopTime 
+20170405@00:06:09 [System] getPhotoEntities 
+20170405@00:06:09 [System] getPhotoEntities 
+20170405@00:06:09 [System] getShopInfo 
+20170405@00:06:09 [System] getShopTime 
+20170405@00:06:09 [System] getPhotoEntities 
+20170405@00:06:09 [System] getPhotoEntities 
+20170405@00:06:09 [System] getShopInfo 
+20170405@00:06:09 [System] getShopTime 
+20170405@00:06:09 [System] getPhotoEntities 
+20170405@00:06:10 [System] getPhotoEntities 
+20170405@00:06:10 [System] getShopInfo 
+20170405@00:06:10 [System] getShopTime 
+20170405@00:06:10 [System] getPhotoEntities 
+20170405@00:06:10 [System] getPhotoEntities 
+20170405@00:06:10 [System] getShopInfo 
+20170405@00:06:10 [System] getShopTime 
+20170405@00:06:10 [System] getPhotoEntities 
+20170405@00:06:10 [System] getPhotoEntities 
+20170405@00:06:10 [System] getShopInfo 
+20170405@00:06:10 [System] getShopTime 
+20170405@00:06:10 [System] getPhotoEntities 
+20170405@00:06:10 [System] getPhotoEntities 
+20170405@00:06:10 [System] getShopInfo 
+20170405@00:06:10 [System] getShopTime 
+20170405@00:06:10 [System] getPhotoEntities 
+20170405@00:06:10 [System] getPhotoEntities 
+20170405@00:06:11 [System] getShopInfo 
+20170405@00:06:11 [System] getShopTime 
+20170405@00:06:11 [System] getPhotoEntities 
+20170405@00:06:11 [System] getPhotoEntities 
+20170405@00:06:11 [System] getShopInfo 
+20170405@00:06:11 [System] getShopTime 
+20170405@00:06:11 [System] getPhotoEntities 
+20170405@00:06:11 [System] getPhotoEntities 
+20170405@00:06:11 [System] getShopInfo 
+20170405@00:06:11 [System] getShopTime 
+20170405@00:06:11 [System] getPhotoEntities 
+20170405@00:06:11 [System] getPhotoEntities 
+20170405@00:06:11 [System] getPhotoEntity 
+20170405@00:06:11 [System] getPhotoEntity 
+20170405@00:06:11 [System] getPhotoEntity 
+20170405@00:06:11 [System] getPhotoEntity 
+20170405@00:06:11 [System] getPhotoEntity 
+20170405@00:06:11 [System] getPhotoEntity 
+20170405@00:06:11 [System] getPhotoEntity 
+20170405@00:06:11 [System] getPhotoEntity 
+20170405@00:06:12 [System] getPhotoEntity 
+20170405@00:06:12 [System] getPhotoEntity 
+20170405@00:06:12 [System] getPhotoEntity 
+20170405@00:06:18 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:06:18 [System] No account logged in 
+20170405@00:06:18 [System] getAdoptInfoEntities 
+20170405@00:06:18 [System] getShopInfo 
+20170405@00:06:18 [System] getShopTime 
+20170405@00:06:18 [System] getPhotoEntities 
+20170405@00:06:18 [System] getPhotoEntities 
+20170405@00:06:18 [System] getShopInfo 
+20170405@00:06:18 [System] getShopTime 
+20170405@00:06:18 [System] getPhotoEntities 
+20170405@00:06:18 [System] getPhotoEntities 
+20170405@00:06:18 [System] getShopInfo 
+20170405@00:06:18 [System] getShopTime 
+20170405@00:06:18 [System] getPhotoEntities 
+20170405@00:06:18 [System] getPhotoEntities 
+20170405@00:06:18 [System] getShopInfo 
+20170405@00:06:18 [System] getShopTime 
+20170405@00:06:18 [System] getPhotoEntities 
+20170405@00:06:19 [System] getPhotoEntities 
+20170405@00:06:19 [System] getShopInfo 
+20170405@00:06:19 [System] getShopTime 
+20170405@00:06:19 [System] getPhotoEntities 
+20170405@00:06:19 [System] getPhotoEntities 
+20170405@00:06:19 [System] getShopInfo 
+20170405@00:06:19 [System] getShopTime 
+20170405@00:06:19 [System] getPhotoEntities 
+20170405@00:06:19 [System] getPhotoEntities 
+20170405@00:06:19 [System] getShopInfo 
+20170405@00:06:19 [System] getShopTime 
+20170405@00:06:19 [System] getPhotoEntities 
+20170405@00:06:19 [System] getPhotoEntities 
+20170405@00:06:19 [System] getShopInfo 
+20170405@00:06:19 [System] getShopTime 
+20170405@00:06:19 [System] getPhotoEntities 
+20170405@00:06:19 [System] getPhotoEntities 
+20170405@00:06:19 [System] getShopInfo 
+20170405@00:06:20 [System] getShopTime 
+20170405@00:06:20 [System] getPhotoEntities 
+20170405@00:06:20 [System] getPhotoEntities 
+20170405@00:06:20 [System] getShopInfo 
+20170405@00:06:20 [System] getShopTime 
+20170405@00:06:20 [System] getPhotoEntities 
+20170405@00:06:20 [System] getPhotoEntities 
+20170405@00:06:20 [System] getShopInfo 
+20170405@00:06:20 [System] getShopTime 
+20170405@00:06:20 [System] getPhotoEntities 
+20170405@00:06:20 [System] getPhotoEntities 
+20170405@00:06:20 [System] getPhotoEntity 
+20170405@00:06:20 [System] getPhotoEntity 
+20170405@00:06:20 [System] getPhotoEntity 
+20170405@00:06:20 [System] getPhotoEntity 
+20170405@00:06:20 [System] getPhotoEntity 
+20170405@00:06:20 [System] getPhotoEntity 
+20170405@00:06:20 [System] getPhotoEntity 
+20170405@00:06:20 [System] getPhotoEntity 
+20170405@00:06:21 [System] getPhotoEntity 
+20170405@00:06:21 [System] getPhotoEntity 
+20170405@00:06:21 [System] getPhotoEntity 
+20170405@00:06:21 [System] BTNLogin_Click 
+20170405@00:06:21 [System] signIn 
+20170405@00:06:21 [System] getPhotoEntities 
+20170405@00:06:21 [System] getShopInfo 
+20170405@00:06:21 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:06:21 [System] getAdoptInfoEntities 
+20170405@00:06:21 [System] getShopInfo 
+20170405@00:06:21 [System] getShopTime 
+20170405@00:06:21 [System] getPhotoEntities 
+20170405@00:06:21 [System] getPhotoEntities 
+20170405@00:06:21 [System] getShopInfo 
+20170405@00:06:21 [System] getShopTime 
+20170405@00:06:21 [System] getPhotoEntities 
+20170405@00:06:21 [System] getPhotoEntities 
+20170405@00:06:21 [System] getShopInfo 
+20170405@00:06:21 [System] getShopTime 
+20170405@00:06:21 [System] getPhotoEntities 
+20170405@00:06:22 [System] getPhotoEntities 
+20170405@00:06:22 [System] getShopInfo 
+20170405@00:06:22 [System] getShopTime 
+20170405@00:06:22 [System] getPhotoEntities 
+20170405@00:06:22 [System] getPhotoEntities 
+20170405@00:06:22 [System] getShopInfo 
+20170405@00:06:22 [System] getShopTime 
+20170405@00:06:22 [System] getPhotoEntities 
+20170405@00:06:22 [System] getPhotoEntities 
+20170405@00:06:22 [System] getShopInfo 
+20170405@00:06:22 [System] getShopTime 
+20170405@00:06:22 [System] getPhotoEntities 
+20170405@00:06:22 [System] getPhotoEntities 
+20170405@00:06:22 [System] getShopInfo 
+20170405@00:06:22 [System] getShopTime 
+20170405@00:06:22 [System] getPhotoEntities 
+20170405@00:06:22 [System] getPhotoEntities 
+20170405@00:06:22 [System] getShopInfo 
+20170405@00:06:23 [System] getShopTime 
+20170405@00:06:23 [System] getPhotoEntities 
+20170405@00:06:23 [System] getPhotoEntities 
+20170405@00:06:23 [System] getShopInfo 
+20170405@00:06:23 [System] getShopTime 
+20170405@00:06:23 [System] getPhotoEntities 
+20170405@00:06:23 [System] getPhotoEntities 
+20170405@00:06:23 [System] getShopInfo 
+20170405@00:06:23 [System] getShopTime 
+20170405@00:06:23 [System] getPhotoEntities 
+20170405@00:06:23 [System] getPhotoEntities 
+20170405@00:06:23 [System] getShopInfo 
+20170405@00:06:23 [System] getShopTime 
+20170405@00:06:23 [System] getPhotoEntities 
+20170405@00:06:23 [System] getPhotoEntities 
+20170405@00:06:23 [System] getPhotoEntity 
+20170405@00:06:23 [System] getPhotoEntity 
+20170405@00:06:24 [System] getPhotoEntity 
+20170405@00:06:24 [System] getPhotoEntity 
+20170405@00:06:24 [System] getPhotoEntity 
+20170405@00:06:24 [System] getPhotoEntity 
+20170405@00:06:24 [System] getPhotoEntity 
+20170405@00:06:24 [System] getPhotoEntity 
+20170405@00:06:24 [System] getPhotoEntity 
+20170405@00:06:24 [System] getPhotoEntity 
+20170405@00:06:24 [System] getPhotoEntity 
+20170405@00:06:28 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:06:28 [System] GVEvent_DataBound 
+20170405@00:06:31 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:06:31 [System] GVEvent_DataBound 
+20170405@00:06:33 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:06:33 [System] GVEvent_SelectedIndexChanging 
+20170405@00:06:33 [System] loadEvent 
+20170405@00:06:33 [System] getEventInfoEntity 
+20170405@00:06:33 [System] getAccount 
+20170405@00:06:33 [System] getPhotoEntities 
+20170405@00:06:33 [System] getShopInfo 
+20170405@00:06:33 [System] loadEventTimeSlots 
+20170405@00:06:45 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:06:45 [System] GVEvent_SelectedIndexChanging 
+20170405@00:06:45 [System] loadEvent 
+20170405@00:06:45 [System] getEventInfoEntity 
+20170405@00:06:45 [System] getAccount 
+20170405@00:06:45 [System] getPhotoEntities 
+20170405@00:06:45 [System] getShopInfo 
+20170405@00:06:45 [System] loadEventTimeSlots 
+20170405@00:06:55 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:06:55 [System] GVEvent_SelectedIndexChanging 
+20170405@00:06:55 [System] loadEvent 
+20170405@00:06:55 [System] getEventInfoEntity 
+20170405@00:06:55 [System] getAccount 
+20170405@00:06:55 [System] getPhotoEntities 
+20170405@00:06:55 [System] getShopInfo 
+20170405@00:06:55 [System] loadEventTimeSlots 
+20170405@00:08:12 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:08:12 [System] GVEvent_SelectedIndexChanging 
+20170405@00:08:12 [System] loadEvent 
+20170405@00:08:12 [System] getEventInfoEntity 
+20170405@00:08:12 [System] getAccount 
+20170405@00:08:12 [System] getPhotoEntities 
+20170405@00:08:12 [System] getShopInfo 
+20170405@00:08:12 [System] loadEventTimeSlots 
+20170405@00:08:14 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:08:14 [System] GVEvent_DataBound 
+20170405@00:08:17 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:08:17 [System] GVEvent_SelectedIndexChanging 
+20170405@00:08:17 [System] loadEvent 
+20170405@00:08:17 [System] getEventInfoEntity 
+20170405@00:08:17 [System] getAccount 
+20170405@00:08:18 [System] getPhotoEntities 
+20170405@00:08:18 [System] getShopInfo 
+20170405@00:08:18 [System] loadEventTimeSlots 
+20170405@00:08:25 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:08:25 [System] GVEvent_DataBound 
+20170405@00:08:27 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:08:27 [System] GVEvent_SelectedIndexChanging 
+20170405@00:08:27 [System] loadEvent 
+20170405@00:08:27 [System] getEventInfoEntity 
+20170405@00:08:27 [System] getAccount 
+20170405@00:08:27 [System] getPhotoEntities 
+20170405@00:08:27 [System] getShopInfo 
+20170405@00:08:27 [System] loadEventTimeSlots 
+20170405@00:08:27 [System] GVEvent_SelectedIndexChanged 
+20170405@00:08:31 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:08:31 [System] GVEvent_SelectedIndexChanging 
+20170405@00:08:31 [System] loadEvent 
+20170405@00:08:31 [System] getEventInfoEntity 
+20170405@00:08:31 [System] getAccount 
+20170405@00:08:31 [System] getPhotoEntities 
+20170405@00:08:32 [System] getShopInfo 
+20170405@00:08:32 [System] loadEventTimeSlots 
+20170405@00:08:32 [System] GVEvent_SelectedIndexChanged 
+20170405@00:08:45 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:08:45 [System] GVEvent_DataBound 
+20170405@00:08:47 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:08:47 [System] GVEvent_SelectedIndexChanging 
+20170405@00:08:47 [System] loadEvent 
+20170405@00:08:47 [System] getEventInfoEntity 
+20170405@00:08:48 [System] getAccount 
+20170405@00:08:48 [System] getPhotoEntities 
+20170405@00:08:48 [System] getShopInfo 
+20170405@00:08:48 [System] loadEventTimeSlots 
+20170405@00:09:10 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:09:10 [System] GVEvent_DataBound 
+20170405@00:09:12 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:09:12 [System] GVEvent_SelectedIndexChanging 
+20170405@00:09:12 [System] loadEvent 
+20170405@00:09:12 [System] getEventInfoEntity 
+20170405@00:09:12 [System] getAccount 
+20170405@00:09:12 [System] getPhotoEntities 
+20170405@00:09:12 [System] getShopInfo 
+20170405@00:09:12 [System] loadEventTimeSlots 
+20170405@00:09:15 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:09:15 [System] GVEvent_SelectedIndexChanging 
+20170405@00:09:15 [System] loadEvent 
+20170405@00:09:15 [System] getEventInfoEntity 
+20170405@00:09:15 [System] getAccount 
+20170405@00:09:15 [System] getPhotoEntities 
+20170405@00:09:15 [System] getShopInfo 
+20170405@00:09:15 [System] loadEventTimeSlots 
+20170405@00:09:26 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:09:26 [System] GVEvent_SelectedIndexChanging 
+20170405@00:09:26 [System] loadEvent 
+20170405@00:09:26 [System] getEventInfoEntity 
+20170405@00:09:26 [System] getAccount 
+20170405@00:09:26 [System] getPhotoEntities 
+20170405@00:09:26 [System] getShopInfo 
+20170405@00:09:27 [System] loadEventTimeSlots 
+20170405@00:09:27 [System] GVEvent_SelectedIndexChanged 
+20170405@00:09:29 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:09:30 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:10:04 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:10:04 [System] GVEvent_SelectedIndexChanging 
+20170405@00:10:04 [System] loadEvent 
+20170405@00:10:04 [System] getEventInfoEntity 
+20170405@00:10:04 [System] getAccount 
+20170405@00:10:04 [System] getPhotoEntities 
+20170405@00:10:04 [System] getShopInfo 
+20170405@00:10:04 [System] loadEventTimeSlots 
+20170405@00:10:04 [System] GVEvent_SelectedIndexChanged 
+20170405@00:10:07 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:10:07 [System] GVEvent_SelectedIndexChanging 
+20170405@00:10:07 [System] loadEvent 
+20170405@00:10:07 [System] getEventInfoEntity 
+20170405@00:10:07 [System] getAccount 
+20170405@00:10:07 [System] getPhotoEntities 
+20170405@00:10:07 [System] getShopInfo 
+20170405@00:10:07 [System] loadEventTimeSlots 
+20170405@00:10:07 [System] GVEvent_SelectedIndexChanged 
+20170405@00:10:46 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:10:46 [System] GVEvent_DataBound 
+20170405@00:10:47 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:10:47 [System] GVEvent_SelectedIndexChanging 
+20170405@00:10:47 [System] loadEvent 
+20170405@00:10:47 [System] getEventInfoEntity 
+20170405@00:10:47 [System] getAccount 
+20170405@00:10:47 [System] getPhotoEntities 
+20170405@00:10:47 [System] getShopInfo 
+20170405@00:10:47 [System] loadEventTimeSlots 
+20170405@00:10:47 [System] GVEvent_SelectedIndexChanged 
+20170405@00:12:19 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:12:19 [System] BTNUpdate_Click 
+20170405@00:12:19 [System] MessageHandler : Event Type 
+20170405@00:12:19 [System] MessageHandler : Event Date 
+20170405@00:12:19 [System] MessageHandler : Event Time 
+20170405@00:12:19 [System] MessageHandler : Please enter a event location 
+20170405@00:12:19 [System] MessageHandler : Event Title 
+20170405@00:12:19 [System] MessageHandler : Event Description 
+20170405@00:23:13 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:23:14 [System] BTNUpdate_Click 
+20170405@00:23:14 [System] MessageHandler : Event Type 
+20170405@00:23:14 [System] MessageHandler : Event Date 
+20170405@00:23:14 [System] MessageHandler : Event Time 
+20170405@00:23:14 [System] MessageHandler : Event Location 
+20170405@00:23:14 [System] MessageHandler : Event Title 
+20170405@00:23:14 [System] MessageHandler : Event Description 
+20170405@00:23:14 [System] updateEvent 
+20170405@00:26:31 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:26:31 [System] GVEvent_DataBound 
+20170405@00:26:33 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:26:33 [System] GVEvent_SelectedIndexChanging 
+20170405@00:26:33 [System] loadEvent 
+20170405@00:26:33 [System] getEventInfoEntity 
+20170405@00:26:33 [System] getAccount 
+20170405@00:26:34 [System] getPhotoEntities 
+20170405@00:26:34 [System] getShopInfo 
+20170405@00:26:34 [System] loadEventTimeSlots 
+20170405@00:26:34 [System] GVEvent_SelectedIndexChanged 
+20170405@00:26:39 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:26:39 [System] BTNUpdate_Click 
+20170405@00:26:39 [System] MessageHandler : Event Type 
+20170405@00:26:39 [System] MessageHandler : Event Date 
+20170405@00:26:39 [System] MessageHandler : Event Time 
+20170405@00:26:39 [System] MessageHandler : Event Location 
+20170405@00:26:39 [System] MessageHandler : Event Title 
+20170405@00:26:39 [System] MessageHandler : Event Description 
+20170405@00:26:39 [System] updateEvent 
+20170405@00:26:39 [System] Record updated! 
+20170405@00:27:02 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:27:02 [System] BTNUpdate_Click 
+20170405@00:27:02 [System] MessageHandler : Event Type 
+20170405@00:27:02 [System] MessageHandler : Event Date 
+20170405@00:27:02 [System] MessageHandler : Event Time 
+20170405@00:27:02 [System] MessageHandler : Event Location 
+20170405@00:27:02 [System] MessageHandler : Event Title 
+20170405@00:27:02 [System] MessageHandler : Event Description 
+20170405@00:27:02 [System] updateEvent 
+20170405@00:27:02 [System] MessageHandler : Event information was not updated successfully 
+20170405@00:27:02 [System] GVEvent_DataBound 
+20170405@00:27:07 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:27:07 [System] BTNUpdate_Click 
+20170405@00:27:07 [System] MessageHandler : Event Type 
+20170405@00:27:07 [System] MessageHandler : Event Date 
+20170405@00:27:07 [System] MessageHandler : Event Time 
+20170405@00:27:07 [System] MessageHandler : Event Location 
+20170405@00:27:07 [System] MessageHandler : Event Title 
+20170405@00:27:07 [System] MessageHandler : Event Description 
+20170405@00:27:07 [System] updateEvent 
+20170405@00:27:08 [System] MessageHandler : Event information was not updated successfully 
+20170405@00:27:08 [System] GVEvent_DataBound 
+20170405@00:27:19 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:27:19 [System] getAdoptInfoEntities 
+20170405@00:27:19 [System] getShopInfo 
+20170405@00:27:19 [System] getShopTime 
+20170405@00:27:19 [System] getPhotoEntities 
+20170405@00:27:19 [System] getPhotoEntities 
+20170405@00:27:19 [System] getShopInfo 
+20170405@00:27:20 [System] getShopTime 
+20170405@00:27:20 [System] getPhotoEntities 
+20170405@00:27:20 [System] getPhotoEntities 
+20170405@00:27:20 [System] getShopInfo 
+20170405@00:27:20 [System] getShopTime 
+20170405@00:27:20 [System] getPhotoEntities 
+20170405@00:27:20 [System] getPhotoEntities 
+20170405@00:27:20 [System] getShopInfo 
+20170405@00:27:20 [System] getShopTime 
+20170405@00:27:20 [System] getPhotoEntities 
+20170405@00:27:20 [System] getPhotoEntities 
+20170405@00:27:20 [System] getShopInfo 
+20170405@00:27:20 [System] getShopTime 
+20170405@00:27:20 [System] getPhotoEntities 
+20170405@00:27:21 [System] getPhotoEntities 
+20170405@00:27:21 [System] getShopInfo 
+20170405@00:27:21 [System] getShopTime 
+20170405@00:27:21 [System] getPhotoEntities 
+20170405@00:27:21 [System] getPhotoEntities 
+20170405@00:27:21 [System] getShopInfo 
+20170405@00:27:21 [System] getShopTime 
+20170405@00:27:21 [System] getPhotoEntities 
+20170405@00:27:21 [System] getPhotoEntities 
+20170405@00:27:21 [System] getShopInfo 
+20170405@00:27:21 [System] getShopTime 
+20170405@00:27:22 [System] getPhotoEntities 
+20170405@00:27:22 [System] getPhotoEntities 
+20170405@00:27:22 [System] getShopInfo 
+20170405@00:27:22 [System] getShopTime 
+20170405@00:27:22 [System] getPhotoEntities 
+20170405@00:27:22 [System] getPhotoEntities 
+20170405@00:27:22 [System] getShopInfo 
+20170405@00:27:22 [System] getShopTime 
+20170405@00:27:22 [System] getPhotoEntities 
+20170405@00:27:23 [System] getPhotoEntities 
+20170405@00:27:23 [System] getShopInfo 
+20170405@00:27:23 [System] getShopTime 
+20170405@00:27:23 [System] getPhotoEntities 
+20170405@00:27:23 [System] getPhotoEntities 
+20170405@00:27:23 [System] getPhotoEntity 
+20170405@00:27:23 [System] getPhotoEntity 
+20170405@00:27:23 [System] getPhotoEntity 
+20170405@00:27:23 [System] getPhotoEntity 
+20170405@00:27:23 [System] getPhotoEntity 
+20170405@00:27:23 [System] getPhotoEntity 
+20170405@00:27:24 [System] getPhotoEntity 
+20170405@00:27:24 [System] getPhotoEntity 
+20170405@00:27:24 [System] getPhotoEntity 
+20170405@00:27:24 [System] getPhotoEntity 
+20170405@00:27:24 [System] getPhotoEntity 
+20170405@00:27:31 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:27:31 [System] GVEvent_DataBound 
+20170405@00:27:52 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:27:52 [System] GVEvent_SelectedIndexChanging 
+20170405@00:27:52 [System] loadEvent 
+20170405@00:27:52 [System] getEventInfoEntity 
+20170405@00:27:52 [System] getAccount 
+20170405@00:27:52 [System] getPhotoEntities 
+20170405@00:27:52 [System] getShopInfo 
+20170405@00:27:52 [System] loadEventTimeSlots 
+20170405@00:27:52 [System] GVEvent_SelectedIndexChanged 
+20170405@00:27:56 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:27:56 [System] BTNUpdate_Click 
+20170405@00:27:56 [System] MessageHandler : Event Type 
+20170405@00:27:56 [System] MessageHandler : Event Date 
+20170405@00:27:56 [System] MessageHandler : Event Time 
+20170405@00:27:56 [System] MessageHandler : Event Location 
+20170405@00:27:56 [System] MessageHandler : Event Title 
+20170405@00:27:56 [System] MessageHandler : Event Description 
+20170405@00:27:56 [System] updateEvent 
+20170405@00:27:56 [System] Record updated! 
+20170405@00:27:56 [System] GVEvent_DataBound 
+20170405@00:36:35 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:36:35 [System] No account logged in 
+20170405@00:36:35 [System] getAdoptInfoEntities 
+20170405@00:36:35 [System] getShopInfo 
+20170405@00:36:35 [System] getShopTime 
+20170405@00:36:35 [System] getPhotoEntities 
+20170405@00:36:35 [System] getPhotoEntities 
+20170405@00:36:35 [System] getShopInfo 
+20170405@00:36:35 [System] getShopTime 
+20170405@00:36:35 [System] getPhotoEntities 
+20170405@00:36:35 [System] getPhotoEntities 
+20170405@00:36:35 [System] getShopInfo 
+20170405@00:36:35 [System] getShopTime 
+20170405@00:36:36 [System] getPhotoEntities 
+20170405@00:36:36 [System] getPhotoEntities 
+20170405@00:36:36 [System] getShopInfo 
+20170405@00:36:36 [System] getShopTime 
+20170405@00:36:36 [System] getPhotoEntities 
+20170405@00:36:36 [System] getPhotoEntities 
+20170405@00:36:36 [System] getShopInfo 
+20170405@00:36:36 [System] getShopTime 
+20170405@00:36:36 [System] getPhotoEntities 
+20170405@00:36:36 [System] getPhotoEntities 
+20170405@00:36:36 [System] getShopInfo 
+20170405@00:36:36 [System] getShopTime 
+20170405@00:36:36 [System] getPhotoEntities 
+20170405@00:36:36 [System] getPhotoEntities 
+20170405@00:36:36 [System] getShopInfo 
+20170405@00:36:36 [System] getShopTime 
+20170405@00:36:36 [System] getPhotoEntities 
+20170405@00:36:37 [System] getPhotoEntities 
+20170405@00:36:37 [System] getShopInfo 
+20170405@00:36:37 [System] getShopTime 
+20170405@00:36:37 [System] getPhotoEntities 
+20170405@00:36:37 [System] getPhotoEntities 
+20170405@00:36:37 [System] getShopInfo 
+20170405@00:36:37 [System] getShopTime 
+20170405@00:36:37 [System] getPhotoEntities 
+20170405@00:36:37 [System] getPhotoEntities 
+20170405@00:36:37 [System] getShopInfo 
+20170405@00:36:37 [System] getShopTime 
+20170405@00:36:37 [System] getPhotoEntities 
+20170405@00:36:37 [System] getPhotoEntities 
+20170405@00:36:37 [System] getShopInfo 
+20170405@00:36:37 [System] getShopTime 
+20170405@00:36:37 [System] getPhotoEntities 
+20170405@00:36:38 [System] getPhotoEntities 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:38 [System] getPhotoEntity 
+20170405@00:36:43 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:36:43 [System] No account logged in 
+20170405@00:36:43 [System] getAdoptInfoEntities 
+20170405@00:36:43 [System] getShopInfo 
+20170405@00:36:43 [System] getShopTime 
+20170405@00:36:43 [System] getPhotoEntities 
+20170405@00:36:43 [System] getPhotoEntities 
+20170405@00:36:44 [System] getShopInfo 
+20170405@00:36:44 [System] getShopTime 
+20170405@00:36:44 [System] getPhotoEntities 
+20170405@00:36:44 [System] getPhotoEntities 
+20170405@00:36:44 [System] getShopInfo 
+20170405@00:36:44 [System] getShopTime 
+20170405@00:36:44 [System] getPhotoEntities 
+20170405@00:36:44 [System] getPhotoEntities 
+20170405@00:36:44 [System] getShopInfo 
+20170405@00:36:44 [System] getShopTime 
+20170405@00:36:44 [System] getPhotoEntities 
+20170405@00:36:44 [System] getPhotoEntities 
+20170405@00:36:44 [System] getShopInfo 
+20170405@00:36:44 [System] getShopTime 
+20170405@00:36:44 [System] getPhotoEntities 
+20170405@00:36:45 [System] getPhotoEntities 
+20170405@00:36:45 [System] getShopInfo 
+20170405@00:36:45 [System] getShopTime 
+20170405@00:36:45 [System] getPhotoEntities 
+20170405@00:36:45 [System] getPhotoEntities 
+20170405@00:36:45 [System] getShopInfo 
+20170405@00:36:45 [System] getShopTime 
+20170405@00:36:45 [System] getPhotoEntities 
+20170405@00:36:45 [System] getPhotoEntities 
+20170405@00:36:45 [System] getShopInfo 
+20170405@00:36:45 [System] getShopTime 
+20170405@00:36:45 [System] getPhotoEntities 
+20170405@00:36:45 [System] getPhotoEntities 
+20170405@00:36:45 [System] getShopInfo 
+20170405@00:36:45 [System] getShopTime 
+20170405@00:36:45 [System] getPhotoEntities 
+20170405@00:36:46 [System] getPhotoEntities 
+20170405@00:36:46 [System] getShopInfo 
+20170405@00:36:46 [System] getShopTime 
+20170405@00:36:46 [System] getPhotoEntities 
+20170405@00:36:46 [System] getPhotoEntities 
+20170405@00:36:46 [System] getShopInfo 
+20170405@00:36:46 [System] getShopTime 
+20170405@00:36:46 [System] getPhotoEntities 
+20170405@00:36:46 [System] getPhotoEntities 
+20170405@00:36:46 [System] getPhotoEntity 
+20170405@00:36:46 [System] getPhotoEntity 
+20170405@00:36:46 [System] getPhotoEntity 
+20170405@00:36:46 [System] getPhotoEntity 
+20170405@00:36:46 [System] getPhotoEntity 
+20170405@00:36:46 [System] getPhotoEntity 
+20170405@00:36:46 [System] getPhotoEntity 
+20170405@00:36:46 [System] getPhotoEntity 
+20170405@00:36:47 [System] getPhotoEntity 
+20170405@00:36:47 [System] getPhotoEntity 
+20170405@00:36:47 [System] getPhotoEntity 
+20170405@00:36:52 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:36:52 [System] No account logged in 
+20170405@00:36:52 [System] getAdoptInfoEntities 
+20170405@00:36:52 [System] getShopInfo 
+20170405@00:36:52 [System] getShopTime 
+20170405@00:36:52 [System] getPhotoEntities 
+20170405@00:36:52 [System] getPhotoEntities 
+20170405@00:36:52 [System] getShopInfo 
+20170405@00:36:52 [System] getShopTime 
+20170405@00:36:52 [System] getPhotoEntities 
+20170405@00:36:52 [System] getPhotoEntities 
+20170405@00:36:52 [System] getShopInfo 
+20170405@00:36:52 [System] getShopTime 
+20170405@00:36:52 [System] getPhotoEntities 
+20170405@00:36:53 [System] getPhotoEntities 
+20170405@00:36:53 [System] getShopInfo 
+20170405@00:36:53 [System] getShopTime 
+20170405@00:36:53 [System] getPhotoEntities 
+20170405@00:36:53 [System] getPhotoEntities 
+20170405@00:36:53 [System] getShopInfo 
+20170405@00:36:53 [System] getShopTime 
+20170405@00:36:53 [System] getPhotoEntities 
+20170405@00:36:53 [System] getPhotoEntities 
+20170405@00:36:53 [System] getShopInfo 
+20170405@00:36:53 [System] getShopTime 
+20170405@00:36:53 [System] getPhotoEntities 
+20170405@00:36:53 [System] getPhotoEntities 
+20170405@00:36:53 [System] getShopInfo 
+20170405@00:36:53 [System] getShopTime 
+20170405@00:36:53 [System] getPhotoEntities 
+20170405@00:36:54 [System] getPhotoEntities 
+20170405@00:36:54 [System] getShopInfo 
+20170405@00:36:54 [System] getShopTime 
+20170405@00:36:54 [System] getPhotoEntities 
+20170405@00:36:54 [System] getPhotoEntities 
+20170405@00:36:54 [System] getShopInfo 
+20170405@00:36:54 [System] getShopTime 
+20170405@00:36:54 [System] getPhotoEntities 
+20170405@00:36:54 [System] getPhotoEntities 
+20170405@00:36:54 [System] getShopInfo 
+20170405@00:36:54 [System] getShopTime 
+20170405@00:36:54 [System] getPhotoEntities 
+20170405@00:36:54 [System] getPhotoEntities 
+20170405@00:36:54 [System] getShopInfo 
+20170405@00:36:54 [System] getShopTime 
+20170405@00:36:54 [System] getPhotoEntities 
+20170405@00:36:54 [System] getPhotoEntities 
+20170405@00:36:54 [System] getPhotoEntity 
+20170405@00:36:55 [System] getPhotoEntity 
+20170405@00:36:55 [System] getPhotoEntity 
+20170405@00:36:55 [System] getPhotoEntity 
+20170405@00:36:55 [System] getPhotoEntity 
+20170405@00:36:55 [System] getPhotoEntity 
+20170405@00:36:55 [System] getPhotoEntity 
+20170405@00:36:55 [System] getPhotoEntity 
+20170405@00:36:55 [System] getPhotoEntity 
+20170405@00:36:55 [System] getPhotoEntity 
+20170405@00:36:55 [System] getPhotoEntity 
+20170405@00:36:55 [System] BTNLogin_Click 
+20170405@00:36:55 [System] signIn 
+20170405@00:36:55 [System] getPhotoEntities 
+20170405@00:36:55 [System] getShopInfo 
+20170405@00:36:55 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:36:55 [System] getAdoptInfoEntities 
+20170405@00:36:55 [System] getShopInfo 
+20170405@00:36:55 [System] getShopTime 
+20170405@00:36:55 [System] getPhotoEntities 
+20170405@00:36:55 [System] getPhotoEntities 
+20170405@00:36:55 [System] getShopInfo 
+20170405@00:36:55 [System] getShopTime 
+20170405@00:36:56 [System] getPhotoEntities 
+20170405@00:36:56 [System] getPhotoEntities 
+20170405@00:36:56 [System] getShopInfo 
+20170405@00:36:56 [System] getShopTime 
+20170405@00:36:56 [System] getPhotoEntities 
+20170405@00:36:56 [System] getPhotoEntities 
+20170405@00:36:56 [System] getShopInfo 
+20170405@00:36:56 [System] getShopTime 
+20170405@00:36:56 [System] getPhotoEntities 
+20170405@00:36:56 [System] getPhotoEntities 
+20170405@00:36:56 [System] getShopInfo 
+20170405@00:36:56 [System] getShopTime 
+20170405@00:36:56 [System] getPhotoEntities 
+20170405@00:36:56 [System] getPhotoEntities 
+20170405@00:36:56 [System] getShopInfo 
+20170405@00:36:56 [System] getShopTime 
+20170405@00:36:56 [System] getPhotoEntities 
+20170405@00:36:57 [System] getPhotoEntities 
+20170405@00:36:57 [System] getShopInfo 
+20170405@00:36:57 [System] getShopTime 
+20170405@00:36:57 [System] getPhotoEntities 
+20170405@00:36:57 [System] getPhotoEntities 
+20170405@00:36:57 [System] getShopInfo 
+20170405@00:36:57 [System] getShopTime 
+20170405@00:36:57 [System] getPhotoEntities 
+20170405@00:36:57 [System] getPhotoEntities 
+20170405@00:36:57 [System] getShopInfo 
+20170405@00:36:57 [System] getShopTime 
+20170405@00:36:57 [System] getPhotoEntities 
+20170405@00:36:57 [System] getPhotoEntities 
+20170405@00:36:57 [System] getShopInfo 
+20170405@00:36:57 [System] getShopTime 
+20170405@00:36:57 [System] getPhotoEntities 
+20170405@00:36:58 [System] getPhotoEntities 
+20170405@00:36:58 [System] getShopInfo 
+20170405@00:36:58 [System] getShopTime 
+20170405@00:36:58 [System] getPhotoEntities 
+20170405@00:36:58 [System] getPhotoEntities 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:36:58 [System] getPhotoEntity 
+20170405@00:37:01 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:37:01 [System] GVEvent_DataBound 
+20170405@00:37:03 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:37:03 [System] GVEvent_DataBound 
+20170405@00:37:05 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:37:05 [System] GVEvent_SelectedIndexChanging 
+20170405@00:37:05 [System] loadEvent 
+20170405@00:37:05 [System] getEventInfoEntity 
+20170405@00:37:05 [System] getAccount 
+20170405@00:37:06 [System] getPhotoEntities 
+20170405@00:37:06 [System] getShopInfo 
+20170405@00:37:06 [System] loadEventTimeSlots 
+20170405@00:37:06 [System] GVEvent_SelectedIndexChanged 
+20170405@00:37:09 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:37:09 [System] GVEvent_SelectedIndexChanging 
+20170405@00:37:09 [System] loadEvent 
+20170405@00:37:09 [System] getEventInfoEntity 
+20170405@00:37:09 [System] getAccount 
+20170405@00:37:09 [System] getPhotoEntities 
+20170405@00:37:09 [System] getShopInfo 
+20170405@00:37:09 [System] loadEventTimeSlots 
+20170405@00:37:09 [System] GVEvent_SelectedIndexChanged 
+20170405@00:37:11 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:37:11 [System] BTNUpdate_Click 
+20170405@00:37:11 [System] MessageHandler : Event Type 
+20170405@00:37:11 [System] MessageHandler : Event Date 
+20170405@00:37:11 [System] MessageHandler : Event Time 
+20170405@00:37:11 [System] MessageHandler : Event Location 
+20170405@00:37:11 [System] MessageHandler : Event Title 
+20170405@00:37:11 [System] MessageHandler : Event Description 
+20170405@00:37:11 [System] updateEvent 
+20170405@00:37:11 [System] Record updated! 
+20170405@00:37:11 [System] GVEvent_DataBound 
+20170405@00:37:18 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:37:18 [System] BTNClose_Click 
+20170405@00:37:55 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:37:55 [System] BTNUpdate_Click 
+20170405@00:37:55 [System] MessageHandler : Event Type 
+20170405@00:37:55 [System] MessageHandler : Event Date 
+20170405@00:37:55 [System] MessageHandler : Event Time 
+20170405@00:37:55 [System] MessageHandler : Event Location 
+20170405@00:37:55 [System] MessageHandler : Event Title 
+20170405@00:37:55 [System] MessageHandler : Event Description 
+20170405@00:38:00 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:38:00 [System] GVEvent_SelectedIndexChanging 
+20170405@00:38:00 [System] loadEvent 
+20170405@00:38:00 [System] getEventInfoEntity 
+20170405@00:38:00 [System] getAccount 
+20170405@00:38:01 [System] getPhotoEntities 
+20170405@00:38:01 [System] getShopInfo 
+20170405@00:38:01 [System] loadEventTimeSlots 
+20170405@00:38:01 [System] GVEvent_SelectedIndexChanged 
+20170405@00:38:08 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:38:08 [System] BTNUpdate_Click 
+20170405@00:38:08 [System] MessageHandler : Event Type 
+20170405@00:38:08 [System] MessageHandler : Event Date 
+20170405@00:38:08 [System] MessageHandler : Event Time 
+20170405@00:38:08 [System] MessageHandler : Event Location 
+20170405@00:38:08 [System] MessageHandler : Event Title 
+20170405@00:38:08 [System] MessageHandler : Event Description 
+20170405@00:38:08 [System] updateEvent 
+20170405@00:38:08 [System] Record updated! 
+20170405@00:38:08 [System] GVEvent_DataBound 
+20170405@00:38:17 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:38:19 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:38:19 [System] BTNUpdate_Click 
+20170405@00:38:19 [System] MessageHandler : Event Type 
+20170405@00:38:19 [System] MessageHandler : Event Date 
+20170405@00:38:19 [System] MessageHandler : Event Time 
+20170405@00:38:19 [System] MessageHandler : Event Location 
+20170405@00:38:19 [System] MessageHandler : Event Title 
+20170405@00:38:19 [System] MessageHandler : Event Description 
+20170405@00:38:19 [System] updateEvent 
+20170405@00:38:19 [System] Record updated! 
+20170405@00:38:20 [System] GVEvent_DataBound 
+20170405@00:38:22 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:38:22 [System] BTNUpdate_Click 
+20170405@00:38:22 [System] MessageHandler : Event Type 
+20170405@00:38:22 [System] MessageHandler : Event Date 
+20170405@00:38:22 [System] MessageHandler : Event Time 
+20170405@00:38:22 [System] MessageHandler : Event Location 
+20170405@00:38:22 [System] MessageHandler : Event Title 
+20170405@00:38:22 [System] MessageHandler : Event Description 
+20170405@00:38:22 [System] updateEvent 
+20170405@00:38:22 [System] Record updated! 
+20170405@00:38:22 [System] GVEvent_DataBound 
+20170405@00:38:30 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:38:31 [System] GVEvent_SelectedIndexChanging 
+20170405@00:38:31 [System] loadEvent 
+20170405@00:38:31 [System] getEventInfoEntity 
+20170405@00:38:31 [System] getAccount 
+20170405@00:38:31 [System] getPhotoEntities 
+20170405@00:38:31 [System] getShopInfo 
+20170405@00:38:31 [System] loadEventTimeSlots 
+20170405@00:38:31 [System] GVEvent_SelectedIndexChanged 
+20170405@00:38:32 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:38:32 [System] GVEvent_SelectedIndexChanging 
+20170405@00:38:32 [System] loadEvent 
+20170405@00:38:32 [System] getEventInfoEntity 
+20170405@00:38:32 [System] getAccount 
+20170405@00:38:32 [System] getPhotoEntities 
+20170405@00:38:33 [System] getShopInfo 
+20170405@00:38:33 [System] loadEventTimeSlots 
+20170405@00:38:33 [System] GVEvent_SelectedIndexChanged 
+20170405@00:38:33 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:39:44 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:39:44 [System] GVEvent_SelectedIndexChanging 
+20170405@00:39:44 [System] loadEvent 
+20170405@00:39:44 [System] getEventInfoEntity 
+20170405@00:39:44 [System] getAccount 
+20170405@00:39:44 [System] getPhotoEntities 
+20170405@00:39:44 [System] getShopInfo 
+20170405@00:39:44 [System] loadEventTimeSlots 
+20170405@00:39:44 [System] GVEvent_SelectedIndexChanged 
+20170405@00:39:45 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:39:45 [System] GVEvent_SelectedIndexChanging 
+20170405@00:39:45 [System] loadEvent 
+20170405@00:39:45 [System] getEventInfoEntity 
+20170405@00:39:45 [System] getAccount 
+20170405@00:39:45 [System] getPhotoEntities 
+20170405@00:39:45 [System] getShopInfo 
+20170405@00:39:45 [System] loadEventTimeSlots 
+20170405@00:39:45 [System] GVEvent_SelectedIndexChanged 
+20170405@00:39:47 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:39:47 [System] GVEvent_SelectedIndexChanging 
+20170405@00:39:47 [System] loadEvent 
+20170405@00:39:47 [System] getEventInfoEntity 
+20170405@00:39:47 [System] getAccount 
+20170405@00:39:47 [System] getPhotoEntities 
+20170405@00:39:47 [System] getShopInfo 
+20170405@00:39:47 [System] loadEventTimeSlots 
+20170405@00:39:47 [System] GVEvent_SelectedIndexChanged 
+20170405@00:40:28 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:41:15 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:41:15 [System] GVEvent_DataBound 
+20170405@00:49:08 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:49:08 [System] No account logged in 
+20170405@00:49:08 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170405@00:49:08 [System] No account logged in 
+20170405@00:49:22 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170405@00:49:22 [System] No account logged in 
+20170405@00:49:22 [System] BTNLogin_Click 
+20170405@00:49:22 [System] signIn 
+20170405@00:49:22 [System] getPhotoEntities 
+20170405@00:49:22 [System] getShopInfo 
+20170405@00:49:22 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170405@00:49:22 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@00:49:25 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:49:25 [System] GVEvent_DataBound 
+20170405@00:49:26 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@00:49:27 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:49:27 [System] GVEvent_DataBound 
+20170405@00:49:30 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:49:30 [System] GVEvent_SelectedIndexChanging 
+20170405@00:49:30 [System] loadEvent 
+20170405@00:49:30 [System] getEventInfoEntity 
+20170405@00:49:30 [System] getAccount 
+20170405@00:49:30 [System] getPhotoEntities 
+20170405@00:49:30 [System] getShopInfo 
+20170405@00:49:30 [System] loadEventTimeSlots 
+20170405@00:49:30 [System] GVEvent_SelectedIndexChanged 
+20170405@00:49:37 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:49:37 [System] GVEvent_DataBound 
+20170405@00:49:37 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:49:43 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:49:44 [System] GVEvent_DataBound 
+20170405@00:49:44 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:49:46 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:49:46 [System] GVEvent_DataBound 
+20170405@00:49:46 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:51:50 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:51:50 [System] GVEvent_DataBound 
+20170405@00:53:23 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:53:23 [System] GVEvent_DataBound 
+20170405@00:53:25 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:53:27 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:53:33 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:54:03 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:54:03 [System] getAdoptInfoEntities 
+20170405@00:54:03 [System] getShopInfo 
+20170405@00:54:03 [System] getShopTime 
+20170405@00:54:03 [System] getPhotoEntities 
+20170405@00:54:03 [System] getPhotoEntities 
+20170405@00:54:03 [System] getShopInfo 
+20170405@00:54:03 [System] getShopTime 
+20170405@00:54:03 [System] getPhotoEntities 
+20170405@00:54:04 [System] getPhotoEntities 
+20170405@00:54:04 [System] getShopInfo 
+20170405@00:54:04 [System] getShopTime 
+20170405@00:54:04 [System] getPhotoEntities 
+20170405@00:54:04 [System] getPhotoEntities 
+20170405@00:54:04 [System] getShopInfo 
+20170405@00:54:04 [System] getShopTime 
+20170405@00:54:04 [System] getPhotoEntities 
+20170405@00:54:04 [System] getPhotoEntities 
+20170405@00:54:04 [System] getShopInfo 
+20170405@00:54:04 [System] getShopTime 
+20170405@00:54:04 [System] getPhotoEntities 
+20170405@00:54:04 [System] getPhotoEntities 
+20170405@00:54:04 [System] getShopInfo 
+20170405@00:54:04 [System] getShopTime 
+20170405@00:54:04 [System] getPhotoEntities 
+20170405@00:54:05 [System] getPhotoEntities 
+20170405@00:54:05 [System] getShopInfo 
+20170405@00:54:05 [System] getShopTime 
+20170405@00:54:05 [System] getPhotoEntities 
+20170405@00:54:05 [System] getPhotoEntities 
+20170405@00:54:05 [System] getShopInfo 
+20170405@00:54:05 [System] getShopTime 
+20170405@00:54:05 [System] getPhotoEntities 
+20170405@00:54:05 [System] getPhotoEntities 
+20170405@00:54:05 [System] getShopInfo 
+20170405@00:54:05 [System] getShopTime 
+20170405@00:54:05 [System] getPhotoEntities 
+20170405@00:54:05 [System] getPhotoEntities 
+20170405@00:54:05 [System] getShopInfo 
+20170405@00:54:05 [System] getShopTime 
+20170405@00:54:05 [System] getPhotoEntities 
+20170405@00:54:06 [System] getPhotoEntities 
+20170405@00:54:06 [System] getShopInfo 
+20170405@00:54:06 [System] getShopTime 
+20170405@00:54:06 [System] getPhotoEntities 
+20170405@00:54:06 [System] getPhotoEntities 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:06 [System] getPhotoEntity 
+20170405@00:54:24 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:54:24 [System] No account logged in 
+20170405@00:54:24 [System] getAdoptInfoEntities 
+20170405@00:54:24 [System] getShopInfo 
+20170405@00:54:24 [System] getShopTime 
+20170405@00:54:24 [System] getPhotoEntities 
+20170405@00:54:24 [System] getPhotoEntities 
+20170405@00:54:24 [System] getShopInfo 
+20170405@00:54:24 [System] getShopTime 
+20170405@00:54:24 [System] getPhotoEntities 
+20170405@00:54:24 [System] getPhotoEntities 
+20170405@00:54:24 [System] getShopInfo 
+20170405@00:54:24 [System] getShopTime 
+20170405@00:54:24 [System] getPhotoEntities 
+20170405@00:54:24 [System] getPhotoEntities 
+20170405@00:54:24 [System] getShopInfo 
+20170405@00:54:24 [System] getShopTime 
+20170405@00:54:25 [System] getPhotoEntities 
+20170405@00:54:25 [System] getPhotoEntities 
+20170405@00:54:25 [System] getShopInfo 
+20170405@00:54:25 [System] getShopTime 
+20170405@00:54:25 [System] getPhotoEntities 
+20170405@00:54:25 [System] getPhotoEntities 
+20170405@00:54:25 [System] getShopInfo 
+20170405@00:54:25 [System] getShopTime 
+20170405@00:54:25 [System] getPhotoEntities 
+20170405@00:54:25 [System] getPhotoEntities 
+20170405@00:54:25 [System] getShopInfo 
+20170405@00:54:25 [System] getShopTime 
+20170405@00:54:25 [System] getPhotoEntities 
+20170405@00:54:25 [System] getPhotoEntities 
+20170405@00:54:25 [System] getShopInfo 
+20170405@00:54:25 [System] getShopTime 
+20170405@00:54:25 [System] getPhotoEntities 
+20170405@00:54:26 [System] getPhotoEntities 
+20170405@00:54:26 [System] getShopInfo 
+20170405@00:54:26 [System] getShopTime 
+20170405@00:54:26 [System] getPhotoEntities 
+20170405@00:54:26 [System] getPhotoEntities 
+20170405@00:54:26 [System] getShopInfo 
+20170405@00:54:26 [System] getShopTime 
+20170405@00:54:26 [System] getPhotoEntities 
+20170405@00:54:26 [System] getPhotoEntities 
+20170405@00:54:26 [System] getShopInfo 
+20170405@00:54:26 [System] getShopTime 
+20170405@00:54:26 [System] getPhotoEntities 
+20170405@00:54:26 [System] getPhotoEntities 
+20170405@00:54:26 [System] getPhotoEntity 
+20170405@00:54:26 [System] getPhotoEntity 
+20170405@00:54:26 [System] getPhotoEntity 
+20170405@00:54:26 [System] getPhotoEntity 
+20170405@00:54:26 [System] getPhotoEntity 
+20170405@00:54:27 [System] getPhotoEntity 
+20170405@00:54:27 [System] getPhotoEntity 
+20170405@00:54:27 [System] getPhotoEntity 
+20170405@00:54:27 [System] getPhotoEntity 
+20170405@00:54:27 [System] getPhotoEntity 
+20170405@00:54:27 [System] getPhotoEntity 
+20170405@00:54:34 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:54:34 [System] No account logged in 
+20170405@00:54:34 [System] getAdoptInfoEntities 
+20170405@00:54:34 [System] getShopInfo 
+20170405@00:54:34 [System] getShopTime 
+20170405@00:54:34 [System] getPhotoEntities 
+20170405@00:54:34 [System] getPhotoEntities 
+20170405@00:54:34 [System] getShopInfo 
+20170405@00:54:34 [System] getShopTime 
+20170405@00:54:34 [System] getPhotoEntities 
+20170405@00:54:34 [System] getPhotoEntities 
+20170405@00:54:34 [System] getShopInfo 
+20170405@00:54:34 [System] getShopTime 
+20170405@00:54:35 [System] getPhotoEntities 
+20170405@00:54:35 [System] getPhotoEntities 
+20170405@00:54:35 [System] getShopInfo 
+20170405@00:54:35 [System] getShopTime 
+20170405@00:54:35 [System] getPhotoEntities 
+20170405@00:54:35 [System] getPhotoEntities 
+20170405@00:54:35 [System] getShopInfo 
+20170405@00:54:35 [System] getShopTime 
+20170405@00:54:35 [System] getPhotoEntities 
+20170405@00:54:35 [System] getPhotoEntities 
+20170405@00:54:35 [System] getShopInfo 
+20170405@00:54:35 [System] getShopTime 
+20170405@00:54:35 [System] getPhotoEntities 
+20170405@00:54:35 [System] getPhotoEntities 
+20170405@00:54:35 [System] getShopInfo 
+20170405@00:54:35 [System] getShopTime 
+20170405@00:54:35 [System] getPhotoEntities 
+20170405@00:54:36 [System] getPhotoEntities 
+20170405@00:54:36 [System] getShopInfo 
+20170405@00:54:36 [System] getShopTime 
+20170405@00:54:36 [System] getPhotoEntities 
+20170405@00:54:36 [System] getPhotoEntities 
+20170405@00:54:36 [System] getShopInfo 
+20170405@00:54:36 [System] getShopTime 
+20170405@00:54:36 [System] getPhotoEntities 
+20170405@00:54:36 [System] getPhotoEntities 
+20170405@00:54:36 [System] getShopInfo 
+20170405@00:54:36 [System] getShopTime 
+20170405@00:54:36 [System] getPhotoEntities 
+20170405@00:54:36 [System] getPhotoEntities 
+20170405@00:54:36 [System] getShopInfo 
+20170405@00:54:36 [System] getShopTime 
+20170405@00:54:36 [System] getPhotoEntities 
+20170405@00:54:36 [System] getPhotoEntities 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] getPhotoEntity 
+20170405@00:54:37 [System] BTNLogin_Click 
+20170405@00:54:37 [System] signIn 
+20170405@00:54:37 [System] getPhotoEntities 
+20170405@00:54:37 [System] getShopInfo 
+20170405@00:54:37 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:54:37 [System] getAdoptInfoEntities 
+20170405@00:54:37 [System] getShopInfo 
+20170405@00:54:37 [System] getShopTime 
+20170405@00:54:37 [System] getPhotoEntities 
+20170405@00:54:38 [System] getPhotoEntities 
+20170405@00:54:38 [System] getShopInfo 
+20170405@00:54:38 [System] getShopTime 
+20170405@00:54:38 [System] getPhotoEntities 
+20170405@00:54:38 [System] getPhotoEntities 
+20170405@00:54:38 [System] getShopInfo 
+20170405@00:54:38 [System] getShopTime 
+20170405@00:54:38 [System] getPhotoEntities 
+20170405@00:54:38 [System] getPhotoEntities 
+20170405@00:54:38 [System] getShopInfo 
+20170405@00:54:38 [System] getShopTime 
+20170405@00:54:38 [System] getPhotoEntities 
+20170405@00:54:38 [System] getPhotoEntities 
+20170405@00:54:38 [System] getShopInfo 
+20170405@00:54:39 [System] getShopTime 
+20170405@00:54:39 [System] getPhotoEntities 
+20170405@00:54:39 [System] getPhotoEntities 
+20170405@00:54:39 [System] getShopInfo 
+20170405@00:54:39 [System] getShopTime 
+20170405@00:54:39 [System] getPhotoEntities 
+20170405@00:54:39 [System] getPhotoEntities 
+20170405@00:54:39 [System] getShopInfo 
+20170405@00:54:39 [System] getShopTime 
+20170405@00:54:39 [System] getPhotoEntities 
+20170405@00:54:39 [System] getPhotoEntities 
+20170405@00:54:39 [System] getShopInfo 
+20170405@00:54:39 [System] getShopTime 
+20170405@00:54:39 [System] getPhotoEntities 
+20170405@00:54:39 [System] getPhotoEntities 
+20170405@00:54:40 [System] getShopInfo 
+20170405@00:54:40 [System] getShopTime 
+20170405@00:54:40 [System] getPhotoEntities 
+20170405@00:54:40 [System] getPhotoEntities 
+20170405@00:54:40 [System] getShopInfo 
+20170405@00:54:40 [System] getShopTime 
+20170405@00:54:40 [System] getPhotoEntities 
+20170405@00:54:40 [System] getPhotoEntities 
+20170405@00:54:40 [System] getShopInfo 
+20170405@00:54:40 [System] getShopTime 
+20170405@00:54:40 [System] getPhotoEntities 
+20170405@00:54:40 [System] getPhotoEntities 
+20170405@00:54:40 [System] getPhotoEntity 
+20170405@00:54:40 [System] getPhotoEntity 
+20170405@00:54:40 [System] getPhotoEntity 
+20170405@00:54:41 [System] getPhotoEntity 
+20170405@00:54:41 [System] getPhotoEntity 
+20170405@00:54:41 [System] getPhotoEntity 
+20170405@00:54:41 [System] getPhotoEntity 
+20170405@00:54:41 [System] getPhotoEntity 
+20170405@00:54:41 [System] getPhotoEntity 
+20170405@00:54:41 [System] getPhotoEntity 
+20170405@00:54:41 [System] getPhotoEntity 
+20170405@00:54:44 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:54:44 [System] GVEvent_DataBound 
+20170405@00:54:45 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:54:45 [System] GVEvent_DataBound 
+20170405@00:54:50 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:55:25 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@00:55:25 [System] getAdoptInfoEntities 
+20170405@00:55:25 [System] getShopInfo 
+20170405@00:55:25 [System] getShopTime 
+20170405@00:55:26 [System] getPhotoEntities 
+20170405@00:55:26 [System] getPhotoEntities 
+20170405@00:55:26 [System] getShopInfo 
+20170405@00:55:26 [System] getShopTime 
+20170405@00:55:26 [System] getPhotoEntities 
+20170405@00:55:26 [System] getPhotoEntities 
+20170405@00:55:26 [System] getShopInfo 
+20170405@00:55:26 [System] getShopTime 
+20170405@00:55:26 [System] getPhotoEntities 
+20170405@00:55:26 [System] getPhotoEntities 
+20170405@00:55:26 [System] getShopInfo 
+20170405@00:55:26 [System] getShopTime 
+20170405@00:55:26 [System] getPhotoEntities 
+20170405@00:55:27 [System] getPhotoEntities 
+20170405@00:55:27 [System] getShopInfo 
+20170405@00:55:27 [System] getShopTime 
+20170405@00:55:27 [System] getPhotoEntities 
+20170405@00:55:27 [System] getPhotoEntities 
+20170405@00:55:27 [System] getShopInfo 
+20170405@00:55:27 [System] getShopTime 
+20170405@00:55:27 [System] getPhotoEntities 
+20170405@00:55:27 [System] getPhotoEntities 
+20170405@00:55:27 [System] getShopInfo 
+20170405@00:55:28 [System] getShopTime 
+20170405@00:55:28 [System] getPhotoEntities 
+20170405@00:55:28 [System] getPhotoEntities 
+20170405@00:55:28 [System] getShopInfo 
+20170405@00:55:28 [System] getShopTime 
+20170405@00:55:28 [System] getPhotoEntities 
+20170405@00:55:28 [System] getPhotoEntities 
+20170405@00:55:28 [System] getShopInfo 
+20170405@00:55:28 [System] getShopTime 
+20170405@00:55:28 [System] getPhotoEntities 
+20170405@00:55:28 [System] getPhotoEntities 
+20170405@00:55:28 [System] getShopInfo 
+20170405@00:55:28 [System] getShopTime 
+20170405@00:55:28 [System] getPhotoEntities 
+20170405@00:55:29 [System] getPhotoEntities 
+20170405@00:55:29 [System] getShopInfo 
+20170405@00:55:29 [System] getShopTime 
+20170405@00:55:29 [System] getPhotoEntities 
+20170405@00:55:29 [System] getPhotoEntities 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:29 [System] getPhotoEntity 
+20170405@00:55:32 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:55:32 [System] GVEvent_DataBound 
+20170405@00:55:36 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:56:16 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:56:26 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:56:26 [System] GVEvent_DataBound 
+20170405@00:56:40 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:56:40 [System] GVEvent_DataBound 
+20170405@00:56:56 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:56:56 [System] GVEvent_DataBound 
+20170405@00:57:00 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:57:00 [System] GVEvent_DataBound 
+20170405@00:57:04 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:57:09 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:57:09 [System] GVEvent_DataBound 
+20170405@00:57:09 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:57:13 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:57:15 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:57:15 [System] GVEvent_DataBound 
+20170405@00:57:17 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:57:17 [System] GVEvent_DataBound 
+20170405@00:57:35 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:57:35 [System] GVEvent_DataBound 
+20170405@00:57:54 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:57:54 [System] No account logged in 
+20170405@00:57:54 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170405@00:57:54 [System] No account logged in 
+20170405@00:57:59 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170405@00:57:59 [System] No account logged in 
+20170405@00:57:59 [System] BTNLogin_Click 
+20170405@00:58:00 [System] signIn 
+20170405@00:58:00 [System] getPhotoEntities 
+20170405@00:58:00 [System] getShopInfo 
+20170405@00:58:00 [System] Page loaded: http://localhost:65063/forbidden.aspx 
+20170405@00:58:00 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@00:58:02 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:58:02 [System] GVEvent_DataBound 
+20170405@00:58:05 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:58:05 [System] GVEvent_DataBound 
+20170405@00:58:08 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:58:11 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:58:11 [System] GVEvent_DataBound 
+20170405@00:58:14 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:58:17 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:58:22 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:58:23 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:58:24 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:59:54 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:59:54 [System] GVEvent_DataBound 
+20170405@00:59:57 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@00:59:57 [System] GVEvent_DataBound 
+20170405@01:00:01 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:01 [System] GVEvent_DataBound 
+20170405@01:00:03 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:03 [System] GVEvent_DataBound 
+20170405@01:00:05 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:05 [System] GVEvent_DataBound 
+20170405@01:00:15 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:15 [System] GVEvent_DataBound 
+20170405@01:00:19 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:20 [System] GVEvent_DataBound 
+20170405@01:00:21 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:21 [System] GVEvent_DataBound 
+20170405@01:00:22 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:22 [System] GVEvent_DataBound 
+20170405@01:00:28 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:28 [System] GVEvent_DataBound 
+20170405@01:00:30 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:30 [System] GVEvent_DataBound 
+20170405@01:00:32 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:32 [System] GVEvent_DataBound 
+20170405@01:00:34 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:34 [System] GVEvent_SelectedIndexChanging 
+20170405@01:00:34 [System] loadEvent 
+20170405@01:00:34 [System] getEventInfoEntity 
+20170405@01:00:34 [System] getAccount 
+20170405@01:00:34 [System] getPhotoEntities 
+20170405@01:00:34 [System] getShopInfo 
+20170405@01:00:34 [System] loadEventTimeSlots 
+20170405@01:00:34 [System] GVEvent_SelectedIndexChanged 
+20170405@01:00:39 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:39 [System] GVEvent_DataBound 
+20170405@01:00:42 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:42 [System] GVEvent_DataBound 
+20170405@01:00:44 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:44 [System] GVEvent_DataBound 
+20170405@01:00:45 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:45 [System] GVEvent_DataBound 
+20170405@01:00:46 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:46 [System] BTNClose_Click 
+20170405@01:00:47 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:47 [System] GVEvent_SelectedIndexChanging 
+20170405@01:00:47 [System] loadEvent 
+20170405@01:00:47 [System] getEventInfoEntity 
+20170405@01:00:47 [System] getAccount 
+20170405@01:00:47 [System] getPhotoEntities 
+20170405@01:00:47 [System] getShopInfo 
+20170405@01:00:47 [System] loadEventTimeSlots 
+20170405@01:00:47 [System] GVEvent_SelectedIndexChanged 
+20170405@01:00:48 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:48 [System] BTNClose_Click 
+20170405@01:00:55 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:00:55 [System] GVEvent_SelectedIndexChanging 
+20170405@01:00:55 [System] loadEvent 
+20170405@01:00:55 [System] getEventInfoEntity 
+20170405@01:00:55 [System] getAccount 
+20170405@01:00:56 [System] getPhotoEntities 
+20170405@01:00:56 [System] getShopInfo 
+20170405@01:00:56 [System] loadEventTimeSlots 
+20170405@01:00:56 [System] GVEvent_SelectedIndexChanged 
+20170405@01:01:44 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:05:42 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:07:18 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:07:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:07:36 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:07:44 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:08:02 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:08:26 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:08:32 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:08:32 [System] LKBTNSignOut_Click 
+20170405@01:08:32 [System] signOut 
+20170405@01:08:32 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:08:32 [System] No account logged in 
+20170405@01:08:37 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:08:37 [System] No account logged in 
+20170405@01:08:37 [System] BTNLogin_Click 
+20170405@01:08:37 [System] signIn 
+20170405@01:08:37 [System] getPhotoEntities 
+20170405@01:08:37 [System] getShopInfo 
+20170405@01:08:37 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:08:39 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:08:39 [System] GVEvent_DataBound 
+20170405@01:08:41 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:08:41 [System] GVEvent_DataBound 
+20170405@01:08:42 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:08:44 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:08:44 [System] BTNGenerate_Click 
+20170405@01:08:48 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:08:48 [System] BTNPreview_Click 
+20170405@01:08:48 [System] saveToTempFolder 
+20170405@01:08:48 [System] Check directory: ~/uploadedFiles/temp/eventinfo/ID000/ Result: True 
+20170405@01:08:48 [System] Removing old files: ~/uploadedFiles/temp/eventinfo/ID000/ 
+20170405@01:08:48 [System] Total files posted: 1 
+20170405@01:08:48 [System] previewPhotos 
+20170405@01:08:48 [System] ~/uploadedFiles/temp/eventinfo/ID000//vintage_wallpaper_hd_image_desktop7.jpg 
+20170405@01:08:51 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:08:51 [System] BTNAppmtDate_Click 
+20170405@01:08:52 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:08:52 [System] DDLAppmtTime_SelectedIndexChanged 
+20170405@01:08:57 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:08:57 [System] BTNAdd_Click 
+20170405@01:08:57 [System] MessageHandler : Event Type 
+20170405@01:08:57 [System] MessageHandler : Event Date 
+20170405@01:08:57 [System] MessageHandler : Event Time 
+20170405@01:08:57 [System] MessageHandler : Event Location 
+20170405@01:08:57 [System] MessageHandler : Event Title 
+20170405@01:08:57 [System] MessageHandler : Event Description 
+20170405@01:08:57 [System] MessageHandler : Event Type 
+20170405@01:08:57 [System] MessageHandler : Event Date 
+20170405@01:08:57 [System] MessageHandler : Event Time 
+20170405@01:08:57 [System] MessageHandler : Event Location 
+20170405@01:08:57 [System] MessageHandler : Event Title 
+20170405@01:08:57 [System] MessageHandler : Event Description 
+20170405@01:08:57 [System] createEvent 
+20170405@01:08:57 [System] Record created! 
+20170405@01:08:57 [System] changePhotoPathToDatabaseFolder 
+20170405@01:08:57 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\eventinfo\ID000\ 
+20170405@01:08:57 [System] ~/uploadedFiles/database/eventinfo/13/vintage_wallpaper_hd_image_desktop7.jpg 
+20170405@01:08:57 [System] createPhoto 
+20170405@01:08:58 [System] Record created! 
+20170405@01:09:00 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:09:00 [System] BTNGenerate_Click 
+20170405@01:09:00 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:09:00 [System] BTNGenerate_Click 
+20170405@01:09:00 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:09:00 [System] BTNGenerate_Click 
+20170405@01:09:01 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:09:01 [System] BTNGenerate_Click 
+20170405@01:09:04 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:09:04 [System] BTNAppmtDate_Click 
+20170405@01:09:06 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:09:06 [System] DDLAppmtTime_SelectedIndexChanged 
+20170405@01:09:08 [System] Page loaded: http://localhost:65063/eventadd.aspx 
+20170405@01:09:08 [System] BTNAdd_Click 
+20170405@01:09:08 [System] MessageHandler : Event Type 
+20170405@01:09:08 [System] MessageHandler : Event Date 
+20170405@01:09:08 [System] MessageHandler : Event Time 
+20170405@01:09:08 [System] MessageHandler : Event Location 
+20170405@01:09:08 [System] MessageHandler : Event Title 
+20170405@01:09:08 [System] MessageHandler : Event Description 
+20170405@01:09:08 [System] MessageHandler : Event Type 
+20170405@01:09:08 [System] MessageHandler : Event Date 
+20170405@01:09:08 [System] MessageHandler : Event Time 
+20170405@01:09:08 [System] MessageHandler : Event Location 
+20170405@01:09:08 [System] MessageHandler : Event Title 
+20170405@01:09:08 [System] MessageHandler : Event Description 
+20170405@01:09:08 [System] createEvent 
+20170405@01:09:08 [System] Record created! 
+20170405@01:09:08 [System] changePhotoPathToDatabaseFolder 
+20170405@01:09:08 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\eventinfo\ID000\ 
+20170405@01:09:08 [System] ~/uploadedFiles/database/eventinfo/13/vintage_wallpaper_hd_image_desktop7.jpg 
+20170405@01:09:08 [System] createPhoto 
+20170405@01:09:08 [System] Record created! 
+20170405@01:09:10 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:09:10 [System] GVEvent_DataBound 
+20170405@01:09:26 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:10:45 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:10:45 [System] No account logged in 
+20170405@01:12:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:12:29 [System] No account logged in 
+20170405@01:12:38 [System] Page loaded: http://localhost:65063/petshelter.aspx 
+20170405@01:12:38 [System] No account logged in 
+20170405@01:12:38 [System] getShopInfo 
+20170405@01:12:38 [System] getShopTime 
+20170405@01:12:38 [System] getPhotoEntities 
+20170405@01:12:38 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:12:38 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:12:38 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:12:38 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:12:38 [System] getShopInfo 
+20170405@01:12:38 [System] getShopTime 
+20170405@01:12:38 [System] getPhotoEntities 
+20170405@01:12:38 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:12:38 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:12:38 [System] MessageHandler : Close now 
+20170405@01:12:38 [System] getShopInfo 
+20170405@01:12:38 [System] getShopTime 
+20170405@01:12:39 [System] getPhotoEntities 
+20170405@01:12:39 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:12:39 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:12:39 [System] MessageHandler : Close now 
+20170405@01:13:18 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170405@01:13:18 [System] No account logged in 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:19 [System] getPhotoEntities 
+20170405@01:13:21 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:13:21 [System] No account logged in 
+20170405@01:13:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:13:28 [System] No account logged in 
+20170405@01:15:54 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170405@01:15:54 [System] No account logged in 
+20170405@01:15:54 [System] getAdoptInfoEntities 
+20170405@01:15:54 [System] getShopInfo 
+20170405@01:15:54 [System] getShopTime 
+20170405@01:15:54 [System] getPhotoEntities 
+20170405@01:15:54 [System] getPhotoEntities 
+20170405@01:15:54 [System] getShopInfo 
+20170405@01:15:54 [System] getShopTime 
+20170405@01:15:54 [System] getPhotoEntities 
+20170405@01:15:54 [System] getPhotoEntities 
+20170405@01:15:54 [System] getShopInfo 
+20170405@01:15:54 [System] getShopTime 
+20170405@01:15:54 [System] getPhotoEntities 
+20170405@01:15:55 [System] getPhotoEntities 
+20170405@01:15:55 [System] getShopInfo 
+20170405@01:15:55 [System] getShopTime 
+20170405@01:15:55 [System] getPhotoEntities 
+20170405@01:15:55 [System] getPhotoEntities 
+20170405@01:15:55 [System] getShopInfo 
+20170405@01:15:55 [System] getShopTime 
+20170405@01:15:55 [System] getPhotoEntities 
+20170405@01:15:55 [System] getPhotoEntities 
+20170405@01:15:55 [System] getShopInfo 
+20170405@01:15:55 [System] getShopTime 
+20170405@01:15:55 [System] getPhotoEntities 
+20170405@01:15:55 [System] getPhotoEntities 
+20170405@01:15:55 [System] getShopInfo 
+20170405@01:15:55 [System] getShopTime 
+20170405@01:15:55 [System] getPhotoEntities 
+20170405@01:15:56 [System] getPhotoEntities 
+20170405@01:15:56 [System] getShopInfo 
+20170405@01:15:56 [System] getShopTime 
+20170405@01:15:56 [System] getPhotoEntities 
+20170405@01:15:56 [System] getPhotoEntities 
+20170405@01:15:56 [System] getShopInfo 
+20170405@01:15:56 [System] getShopTime 
+20170405@01:15:56 [System] getPhotoEntities 
+20170405@01:15:56 [System] getPhotoEntities 
+20170405@01:15:56 [System] getShopInfo 
+20170405@01:15:56 [System] getShopTime 
+20170405@01:15:56 [System] getPhotoEntities 
+20170405@01:15:56 [System] getPhotoEntities 
+20170405@01:15:56 [System] getShopInfo 
+20170405@01:15:56 [System] getShopTime 
+20170405@01:15:56 [System] getPhotoEntities 
+20170405@01:15:56 [System] getPhotoEntities 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:15:57 [System] getPhotoEntity 
+20170405@01:16:00 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:16:00 [System] No account logged in 
+20170405@01:17:10 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:17:10 [System] No account logged in 
+20170405@01:18:10 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:18:10 [System] No account logged in 
+20170405@01:18:10 [System] BTNLogin_Click 
+20170405@01:18:10 [System] signIn 
+20170405@01:18:10 [System] getPhotoEntities 
+20170405@01:18:10 [System] getShopInfo 
+20170405@01:18:10 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:18:14 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:18:14 [System] GVEvent_DataBound 
+20170405@01:18:17 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:18:17 [System] GVEvent_SelectedIndexChanging 
+20170405@01:18:17 [System] loadEvent 
+20170405@01:18:17 [System] getEventInfoEntity 
+20170405@01:18:17 [System] getAccount 
+20170405@01:18:17 [System] getPhotoEntities 
+20170405@01:18:17 [System] getShopInfo 
+20170405@01:18:17 [System] loadEventTimeSlots 
+20170405@01:18:17 [System] GVEvent_SelectedIndexChanged 
+20170405@01:18:24 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:18:24 [System] GVEvent_SelectedIndexChanging 
+20170405@01:18:24 [System] loadEvent 
+20170405@01:18:24 [System] getEventInfoEntity 
+20170405@01:18:24 [System] getAccount 
+20170405@01:18:24 [System] getPhotoEntities 
+20170405@01:18:24 [System] getShopInfo 
+20170405@01:18:24 [System] loadEventTimeSlots 
+20170405@01:18:24 [System] GVEvent_SelectedIndexChanged 
+20170405@01:18:26 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:18:26 [System] BTNEventDate_Click 
+20170405@01:18:36 [System] Page loaded: http://localhost:65063/eventedit.aspx 
+20170405@01:18:36 [System] BTNUpdate_Click 
+20170405@01:18:36 [System] MessageHandler : Event Type 
+20170405@01:18:36 [System] MessageHandler : Event Date 
+20170405@01:18:36 [System] MessageHandler : Event Time 
+20170405@01:18:36 [System] MessageHandler : Event Location 
+20170405@01:18:36 [System] MessageHandler : Event Title 
+20170405@01:18:36 [System] MessageHandler : Event Description 
+20170405@01:18:36 [System] updateEvent 
+20170405@01:18:36 [System] Record updated! 
+20170405@01:18:36 [System] changePhotoPathToDatabaseFolder 
+20170405@01:18:36 [System] deletePhoto 
+20170405@01:18:36 [System] Record deleted! 
+20170405@01:18:36 [System] createPhoto 
+20170405@01:18:36 [System] Record created! 
+20170405@01:18:36 [System] GVEvent_DataBound 
+20170405@01:19:24 [System] Page loaded: http://localhost:65063/petshelter.aspx 
+20170405@01:19:24 [System] getShopInfo 
+20170405@01:19:24 [System] getShopTime 
+20170405@01:19:24 [System] getPhotoEntities 
+20170405@01:19:24 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:24 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:24 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:24 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:24 [System] getShopInfo 
+20170405@01:19:24 [System] getShopTime 
+20170405@01:19:24 [System] getPhotoEntities 
+20170405@01:19:24 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:24 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:24 [System] MessageHandler : Close now 
+20170405@01:19:24 [System] getShopInfo 
+20170405@01:19:24 [System] getShopTime 
+20170405@01:19:24 [System] getPhotoEntities 
+20170405@01:19:24 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:24 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:24 [System] MessageHandler : Close now 
+20170405@01:19:28 [System] Page loaded: http://localhost:65063/petclinic.aspx 
+20170405@01:19:28 [System] getShopInfo 
+20170405@01:19:28 [System] getShopTime 
+20170405@01:19:28 [System] getPhotoEntities 
+20170405@01:19:28 [System] MessageHandler : Close now 
+20170405@01:19:28 [System] getShopInfo 
+20170405@01:19:28 [System] getShopTime 
+20170405@01:19:28 [System] getPhotoEntities 
+20170405@01:19:28 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:28 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:28 [System] MessageHandler : Close now 
+20170405@01:19:29 [System] getShopInfo 
+20170405@01:19:29 [System] getShopTime 
+20170405@01:19:29 [System] getPhotoEntities 
+20170405@01:19:29 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:29 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:29 [System] MessageHandler : Close now 
+20170405@01:19:29 [System] getShopInfo 
+20170405@01:19:29 [System] getShopTime 
+20170405@01:19:29 [System] getPhotoEntities 
+20170405@01:19:29 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:29 [System] MessageHandler : (Close on Wednesday) 
+20170405@01:19:29 [System] MessageHandler : Close now 
+20170405@01:19:31 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:19:32 [System] Page loaded: http://localhost:65063/breed.aspx 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:32 [System] getPhotoEntities 
+20170405@01:19:33 [System] getPhotoEntities 
+20170405@01:19:33 [System] getPhotoEntities 
+20170405@01:19:33 [System] getPhotoEntities 
+20170405@01:24:28 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:24:28 [System] No account logged in 
+20170405@01:26:01 [System] Page loaded: http://localhost:65063/home.aspx 
+20170405@01:26:01 [System] No account logged in 

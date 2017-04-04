@@ -7,7 +7,6 @@ using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.DataAccessObject;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
-
 namespace TheLittleOnesLibrary.Controllers
 {
     public class AccountController
@@ -94,7 +93,6 @@ namespace TheLittleOnesLibrary.Controllers
                 }
             }
         }
-
         public AccountEntity getLoggedInAccountEntity(string siteType)
         {
             if (siteType.Equals(Enums.GetDescription(SiteType.BackEnd)))
@@ -107,7 +105,6 @@ namespace TheLittleOnesLibrary.Controllers
             }
             return null;
         }
-
         // Update account password
         public AccountEntity changePassword(AccountEntity accountEntity)
         {

@@ -36,7 +36,6 @@ namespace TheLittleOnesLibrary
         protected static List<PhotoEntity> TLOEditPhotoEntities;
         protected static ShopInfoEntity TLOEditShopInfoEntity;
         protected static List<ShopTimeEntity> TLOEditShopTimeEntities;
-
         // Default Contsructor
         public BasePageTLO()
         {
@@ -60,7 +59,6 @@ namespace TheLittleOnesLibrary
                 LogController.LogLine("Page loaded: " + currentPage);
             }
             checkForAccessControl(TLOAccountEntity, currentPage);
-
         }
         // Validate access control for logged in user
         protected void checkForAccessControl(AccountEntity TLOAccountEntity, string currentPage)
@@ -106,6 +104,5 @@ namespace TheLittleOnesLibrary
             else return null;
         }
         #endregion
-
     }
 }

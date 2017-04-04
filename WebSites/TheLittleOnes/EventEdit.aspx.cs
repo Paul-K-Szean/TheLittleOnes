@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using System.Reflection;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TheLittleOnesLibrary;
@@ -11,7 +8,6 @@ using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class EventEdit : BasePageTLO
 {
     private Label UICtrlLabel;
@@ -20,8 +16,7 @@ public partial class EventEdit : BasePageTLO
     private DropDownList UICtrlDropdownlist;
     private static DataTable dTableEvent;
     private static DateTime dateTimeSelected;
-    private static EventEntity eventEntityEdit;
-    private static ShopInfoEntity TLOShopInfoEntity;
+    private static EventInfoEntity TLOEventInfoEntityEdit;
     private static string daySelected;
     private static string dateSelected;
     private static string timeSelected;
@@ -38,28 +33,67 @@ public partial class EventEdit : BasePageTLO
             {
                 HDFAccountID.Value = TLOAccountEntity.AccountID;
             }
+            if (DDLFilterEventType.Items.Count <= 1)
+            {
+                DDLFilterEventType.Items.Add(new ListItem(Enums.GetDescription(EventType.AdoptionDrive), Enums.GetDescription(EventType.AdoptionDrive)));
+                DDLFilterEventType.Items.Add(new ListItem(Enums.GetDescription(EventType.BirthdayParty), Enums.GetDescription(EventType.BirthdayParty)));
+                DDLFilterEventType.Items.Add(new ListItem(Enums.GetDescription(EventType.PetGathering), Enums.GetDescription(EventType.PetGathering)));
+                DDLFilterEventType.Items.Add(new ListItem(Enums.GetDescription(EventType.PetLearning), Enums.GetDescription(EventType.PetLearning)));
+            }
         }
     }
     #region Button Control
     protected void BTNUpdate_Click(object sender, EventArgs e)
     {
-
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        if (checkRequiredFields())
+        {
+            // create entity
+            TLOEventInfoEntityEdit.EventID = HDFEventInfoID.Value.Trim();
+            TLOEventInfoEntityEdit.EventTitle = TBEventInfoTitle.Text.Trim();
+            TLOEventInfoEntityEdit.EventDesc = TBEventInfoDesc.Text.Trim();
+            TLOEventInfoEntityEdit.EventLocation = TBEventInfoLocation.Text.Trim();
+            TLOEventInfoEntityEdit.EventType = DDLEventType.SelectedValue.Trim();
+            TLOEventInfoEntityEdit.EventDateTime = DateTime.Parse(string.Concat(INPUTEventDate.Value, " ", DDLEventInfoTime.SelectedValue));
+            TLOEventInfoEntityEdit.EventStatus = CHKBXCancelEvent.Checked ? Enums.GetDescription(SystemStatus.Cancelled) : LBLEventInfoStatus.Text;
+            // update into database
+            TLOEventInfoEntityEdit = eventInfoCrtler.updateEvent(TLOEventInfoEntityEdit);
+            // update photo
+            if (TLOPhotoEntities != null)
+            {
+                // change photo path to database instead of using temp
+                photoCtrler.changePhotoPathToDatabaseFolder(TLOPhotoEntities, TLOAccountEntity.AccountID);
+                // remove old photos from database
+                photoCtrler.deletePhoto(TLOAccountEntity.AccountID, PhotoPurpose.EventInfo.ToString());
+                // create new photos into database
+                photoCtrler.createPhoto(TLOPhotoEntities, TLOAccountEntity.AccountID);
+            }
+            if (TLOEventInfoEntityEdit != null)
+            {
+                MessageHandler.SuccessMessage(LBLErrorMsg, "Event information was updated successfully");
+            }
+            else
+            {
+                MessageHandler.ErrorMessage(LBLErrorMsg, "Event information was not updated successfully");
+            }
+            GVEvent.DataBind();
+        }
     }
     protected void BTNClose_Click(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        PNLEventInfoEdit.Visible = false;
     }
     protected void BTNEventDate_Click(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-        // save temp appointment data if user selected any date/time
-        saveTempEvent();
     }
     #endregion
     #region Checkbox Control
     protected void CHKBXCancelEvent_CheckedChanged(object sender, EventArgs e)
     {
-        if (eventEntityEdit != null)
-            eventEntityEdit.EventStatus = Enums.GetDescription(SystemStatus.Cancelled);
+        if (TLOEventInfoEntityEdit != null)
+            TLOEventInfoEntityEdit.EventStatus = Enums.GetDescription(SystemStatus.Cancelled);
     }
     #endregion
     #region Dropdownlist Controls
@@ -67,16 +101,11 @@ public partial class EventEdit : BasePageTLO
     {
         gvPageSize = int.Parse(DDLDisplayRecordCountEvent.SelectedValue);
         GVEvent.PageSize = gvPageSize;
-        // filterShopInfo();
+        filterEventInfo();
     }
-    protected void DDLEventTime_SelectedIndexChanged(object sender, EventArgs e)
-    {
-        if (DDLEventTime.SelectedIndex == 0) BTNUpdate.Enabled = false;
-        else
-        {
-            BTNUpdate.Enabled = true;
-            saveTempEvent();
-        }
+    protected void DDLFilterEventType_SelectedIndexChanged(object sender, EventArgs e)
+    {  
+        filterEventInfo();
     }
     #endregion
     #region Gridview Command
@@ -112,38 +141,140 @@ public partial class EventEdit : BasePageTLO
     protected void GVEvent_PageIndexChanging(object sender, GridViewPageEventArgs e)
     {
         GVEvent.PageIndex = e.NewPageIndex;
-        // filterShopInfo();
+        // filterEventInfo();
     }
     #endregion
-    #region Logical Methods
-    private void loadEvent(string appmtID)
+    #region Logical Methods  
+    // Check required fields
+    private bool checkRequiredFields()
     {
-
+        if (DDLEventType.SelectedIndex == 0)
+        {
+            MessageHandler.ErrorMessage(LBLEventType, "Please select an event type");
+        }
+        else
+        {
+            MessageHandler.DefaultMessage(LBLEventType, "Event Type");
+        }
+        if (string.IsNullOrEmpty(INPUTEventDate.Value))
+        {
+            MessageHandler.ErrorMessage(LBLEventDate, "Please select an event date");
+        }
+        else
+        {
+            MessageHandler.DefaultMessage(LBLEventDate, "Event Date");
+        }
+        if (DDLEventInfoTime.SelectedIndex == 0)
+        {
+            MessageHandler.ErrorMessage(LBLEventTime, "Please select an event time");
+        }
+        else
+        {
+            MessageHandler.DefaultMessage(LBLEventTime, "Event Time");
+        }
+        if (string.IsNullOrEmpty(TBEventInfoLocation.Text))
+        {
+            MessageHandler.ErrorMessage(LBLEventInfoLocation, "Please enter an event location");
+        }
+        else
+        {
+            MessageHandler.DefaultMessage(LBLEventInfoLocation, "Event Location");
+        }
+        if (string.IsNullOrEmpty(TBEventInfoTitle.Text))
+        {
+            MessageHandler.ErrorMessage(LBLEventInfoTitle, "Please enter an event title");
+        }
+        else
+        {
+            MessageHandler.DefaultMessage(LBLEventInfoTitle, "Event Title");
+        }
+        if (string.IsNullOrEmpty(TBEventInfoDesc.Text))
+        {
+            MessageHandler.ErrorMessage(LBLEventInfoDesc, "Please enter an event description");
+        }
+        else
+        {
+            MessageHandler.DefaultMessage(LBLEventInfoDesc, "Event Description");
+        }
+        if (DDLEventType.SelectedIndex > 0 && !string.IsNullOrEmpty(INPUTEventDate.Value) && DDLEventInfoTime.SelectedIndex > 0 &&
+                !string.IsNullOrEmpty(TBEventInfoTitle.Text) && !string.IsNullOrEmpty(TBEventInfoDesc.Text) && !string.IsNullOrEmpty(TBEventInfoLocation.Text))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
-    protected void saveTempEvent()
+    private void loadEvent(string eventID)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
-
-    }
-    protected Boolean isCancelled(string eventStatus)
-    {
-        if (!string.IsNullOrEmpty(eventStatus))
+        TLOEventInfoEntityEdit = eventInfoCrtler.getEventInfoEntity(GVRowID.ToString());
+        if (TLOEventInfoEntityEdit != null)
         {
-            if (eventStatus.Equals(Enums.GetDescription(SystemStatus.Cancelled)))
-            {
-                return true;
-            }
+            PNLEventInfoEdit.Visible = true;
+            // load time slot
+            loadEventType();
+            loadEventTimeSlots();
+            HDFEventInfoID.Value = TLOEventInfoEntityEdit.EventID;
+            DDLEventType.SelectedValue = TLOEventInfoEntityEdit.EventType;
+            TBEventInfoTitle.Text = TLOEventInfoEntityEdit.EventTitle;
+            TBEventInfoDesc.Text = TLOEventInfoEntityEdit.EventDesc;
+            TBEventInfoLocation.Text = TLOEventInfoEntityEdit.EventLocation;
+            LBLEventInfoStatus.Text = TLOEventInfoEntityEdit.EventStatus;
+            INPUTEventDate.Value = TLOEventInfoEntityEdit.EventDateTime.ToString("dd-MMM-yyyy");
+            DDLEventInfoTime.SelectedValue = TLOEventInfoEntityEdit.EventDateTime.ToString("HH:mm tt");
+            LBLEventInfoDateCreated.Text = TLOEventInfoEntityEdit.EventDateCreated.ToString("dd-MMM-yyyy @ HH:mm tt");
+            CHKBXCancelEvent.Checked = (TLOEventInfoEntityEdit.EventStatus.Equals(Enums.GetDescription(SystemStatus.Cancelled))) ? true : false;
         }
-        return false;
+        else
+        {
+            PNLEventInfoEdit.Visible = false;
+            DDLEventType.SelectedIndex = 0;
+            TBEventInfoTitle.Text = string.Empty;
+            TBEventInfoDesc.Text = string.Empty;
+            TBEventInfoLocation.Text = string.Empty;
+            LBLEventInfoStatus.Text = string.Empty;
+            INPUTEventDate.Value = string.Empty;
+            DDLEventInfoTime.SelectedIndex = 0;
+            LBLEventInfoDateCreated.Text = string.Empty;
+        }
+    }
+    private void loadEventTimeSlots()
+    {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+        DDLEventInfoTime.Enabled = true;
+        DDLEventInfoTime.DataSource = loadDDLTimeSlots();
+        DDLEventInfoTime.DataBind();
+    }
+    private void loadEventType()
+    {
+        ListItem firstItem = DDLEventType.Items[0];
+        DDLEventType.Items.Clear();
+        DDLEventType.Items.Add(firstItem);
+        DDLEventType.Items.Add(new ListItem(Enums.GetDescription(EventType.AdoptionDrive), Enums.GetDescription(EventType.AdoptionDrive)));
+        DDLEventType.Items.Add(new ListItem(Enums.GetDescription(EventType.BirthdayParty), Enums.GetDescription(EventType.BirthdayParty)));
+        DDLEventType.Items.Add(new ListItem(Enums.GetDescription(EventType.PetGathering), Enums.GetDescription(EventType.PetGathering)));
+        DDLEventType.Items.Add(new ListItem(Enums.GetDescription(EventType.PetLearning), Enums.GetDescription(EventType.PetLearning)));
+    }
+    // Filter data
+    public void filterEventInfo()
+    {
+        string filterEventType = DDLFilterEventType.SelectedValue.Trim();
+        string tbSearchValue = TBSearchEvent.Text.Trim();
+        dTableEvent = eventInfoCrtler.filterEventInfoData(filterEventType, tbSearchValue, LBLSearchResultEvent);
+        GVEvent.DataSourceID = null;
+        GVEvent.DataSource = null;
+        GVEvent.DataSource = dTableEvent;
+        GVEvent.DataBind();
     }
     #endregion
     #region Textbox Control
     protected void TBSearchEvent_TextChanged(object sender, EventArgs e)
     {
         //filter data
-        // filterShopInfo();
+        filterEventInfo();
     }
     #endregion
-
-
+    
 }

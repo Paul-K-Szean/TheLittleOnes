@@ -106,8 +106,8 @@ public partial class AdminShopInfoAdd : BasePageAdmin
                 // change photo path to database instead of using temp
                 if (photoEntities != null)
                 {
-                    shopInfoEntity = shopInfoCtrler.createPhoto(shopInfoEntity);
                     shopInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, shopInfoEntity.ShopInfoID);
+                    shopInfoEntity = shopInfoCtrler.createPhoto(shopInfoEntity);
                 }
                 if (shopInfoEntity != null)
                 {

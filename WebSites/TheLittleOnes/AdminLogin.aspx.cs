@@ -4,7 +4,6 @@ using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
 public partial class AdminLogin : BasePageAdmin
 {
-
     string inputEmail;
     string inputPassword;
     // page load

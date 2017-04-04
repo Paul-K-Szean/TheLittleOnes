@@ -144,6 +144,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                 <ul class="nav navbar-nav">
                                     <li><a href="Adoption.aspx">Adoption</a></li>
                                     <li><a href="Breed.aspx">Breeds</a></li>
+                                    <li><a href="Home.aspx#newsevent">Events</a></li>
                                     <li class="">
                                         <asp:HyperLink ID="HYPLKOthers" runat="server" CssClass="dropdown-toggle hvr-bounce-to-bottom "
                                             data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Others
@@ -212,6 +213,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                     <li><a class="active" href="Home.aspx">Home</a></li>
                                     <li><a href="Adoption.aspx">Adoption</a></li>
                                     <li><a href="Breed.aspx">Breed</a></li>
+                                    <li><a href="Home.aspx#newsevent">Events</a></li>
                                     <li><a class="dropdown-toggle hvr-bounce-to-bottom " data-toggle="modal" role="button" aria-haspopup="true" aria-expanded="false" data-target="#login">Sign in</a></li>
                                 </ul>
                             </div>

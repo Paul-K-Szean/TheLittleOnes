@@ -13,7 +13,6 @@ public partial class AdminSystemAccountAdd : BasePageAdmin
     private TextBox UICtrlTextbox;
     private DropDownList UICtrlDropdownlist;
     private string profileID;
-
     protected void Page_Load(object sender, EventArgs e)
     {
         if (IsPostBack) { }

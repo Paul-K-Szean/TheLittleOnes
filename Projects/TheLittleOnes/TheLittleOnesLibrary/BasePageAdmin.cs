@@ -29,7 +29,6 @@ namespace TheLittleOnesLibrary
         protected static List<PhotoEntity> editPhotoEntities;
         protected static ShopInfoEntity editShopInfoEntity;
         protected static List<ShopTimeEntity> editShopTimeEntities;
-
         // Default Contsructor
         public BasePageAdmin()
         {
@@ -118,6 +117,5 @@ namespace TheLittleOnesLibrary
             else return null;
         }
         #endregion
-
     }
 }

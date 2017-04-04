@@ -13,7 +13,6 @@ using System.Web.UI.WebControls;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
-
 namespace TheLittleOnesLibrary
 {
     public class BasePage : Page
@@ -27,7 +26,7 @@ namespace TheLittleOnesLibrary
         protected static AdoptInfoController adoptInfoCtrler;
         protected static AppointmentController appointmentCrtler;
         protected static PetController petCtrler;
-        protected static EventController eventCrtler;
+        protected static EventInfoController eventInfoCrtler;
         #region system setup
         // Initialize folders
         protected void initializeFolders()
@@ -85,9 +84,9 @@ namespace TheLittleOnesLibrary
             {
                 appointmentCrtler = AppointmentController.getInstance();
             }
-            if (eventCrtler == null)
+            if (eventInfoCrtler == null)
             {
-                eventCrtler = EventController.getInstance();
+                eventInfoCrtler = EventInfoController.getInstance();
             }
         }
         #endregion

@@ -80,7 +80,7 @@
     </div>
     <!-- banner-bottom -->
     <!-- news -->
-    <div class="news">
+    <div id="newsevent"class="news">
         <div class="container">
             <div class="w3ls-heading">
                 <h3>News & Events</h3>
@@ -113,23 +113,27 @@
                     <div class="clearfix"></div>
                 </div>
                 <div class="col-md-6 news-right">
-                    <div class="news-right-grid">
-                        <a href="single.html">Birthday Party for Luna</a>
-                        <h5>Saturday, 02th April,2017</h5>
-                        <p>Come over to Paya Lebar Park to celebrate my dearest Luna's birthday! It is his 5th birthday celeration.</p>
-                    </div>
-                    <div class="news-right-grid">
-                        <a href="single.html">Pet Healthh Learning</a>
-                        <h5>Monday, 17th April,2017</h5>
-                        <p>There is a PetHealthLearning program held by G5 Shelter Group at Hillview Garden to educate pet owners the dos and donts in hanlding a pet. Do make yourself there and receive many wonderfull pet treates.</p>
-                    </div>
-                    <div class="news-right-grid">
-                        <a href="single.html">Monthly Adoption Drive</a>
-                        <h5>Saturday, 20th May,2017</h5>
-                        <p>
-                            The monthly adoption program is back! It will be held on saturday in the 3rd week of every month! Do show your support.
-                        </p>
-                    </div>
+                    <asp:SqlDataSource ID="SDSEvents" runat="server" 
+                        ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>" 
+                        ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>" 
+                        SelectCommand="SELECT * FROM [Eventt] WHERE ([eventStatus] = ?) ORDER BY eventDateTime">
+                        <SelectParameters>
+                            <asp:Parameter DefaultValue="Confirmed" Name="eventStatus" Type="String" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+                    <asp:DataList ID="DLEvents" runat="server" DataKeyField="eventID" DataSourceID="SDSEvents" Width="100%">
+                        <ItemTemplate>
+
+                            <div class="news-right-grid">
+                                <a href="single.html">
+                                    <asp:Label ID="Label1" runat="server" Text='<%# Eval("eventTitle") %>' /></a>
+                                <h5>
+                                    <asp:Label ID="eventDateTimeLabel" runat="server" Text='<%# DateTime.Parse(Eval("eventDateTime").ToString()).ToString("dddd, dd MMMM yyyy, HH:mm tt") %>' /></h5>
+                                <p>
+                                    <asp:Label ID="Label2" runat="server" Text='<%# Eval("eventDesc") %>' /></p>
+                            </div>
+                        </ItemTemplate>
+                    </asp:DataList>
                 </div>
                 <div class="clearfix"></div>
             </div>
