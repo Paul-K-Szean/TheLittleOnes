@@ -1,0 +1,22 @@
+20170406@23:52:46 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170406@23:52:46 [System] signOut 
+20170406@23:52:58 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170406@23:52:58 [System] signOut 
+20170406@23:52:59 [System] signIn 
+20170406@23:53:01 [System] getPhotoEntities 
+20170406@23:53:01 [System] getShopInfo 
+20170406@23:53:01 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170406@23:53:02 [System] GVPetInfoOverview_DataBound 
+20170406@23:53:02 [System] GVShopInfoOverview_DataBound 
+20170406@23:53:06 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170406@23:53:06 [System] signOut 
+20170406@23:54:13 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170406@23:54:13 [System] signOut 
+20170406@23:54:13 [System] signIn 
+20170406@23:54:13 [System] getPhotoEntities 
+20170406@23:54:13 [System] getShopInfo 
+20170406@23:54:13 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170406@23:54:13 [System] GVPetInfoOverview_DataBound 
+20170406@23:54:13 [System] GVShopInfoOverview_DataBound 
+20170406@23:56:03 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170406@23:58:13 [System] Page loaded: http://localhost:65063/adminprofile.aspx 

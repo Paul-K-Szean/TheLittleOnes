@@ -102,7 +102,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                                 <div class="space-10"></div>
                                                 <div class="col-xs-12">
                                                     You can register an account
-                                                    <asp:HyperLink ID="HYPLKRegister" runat="server" NavigateUrl="#" Text="here"></asp:HyperLink>
+                                                    <asp:HyperLink ID="HYPLKRegister" runat="server" NavigateUrl="Register.aspx" Text="here"></asp:HyperLink>
                                                 </div>
                                                 <div class="col-xs-12">
                                                     <asp:Label ID="LBLErrorMsg" runat="server" Text=""></asp:Label>

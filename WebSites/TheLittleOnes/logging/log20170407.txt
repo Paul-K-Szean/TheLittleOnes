@@ -1,0 +1,339 @@
+20170407@12:12:55 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170407@12:12:55 [System] signOut 
+20170407@12:13:13 [System] Page loaded: http://localhost:65063/home.aspx 
+20170407@12:13:13 [System] No account logged in 
+20170407@12:13:28 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170407@12:13:28 [System] signOut 
+20170407@12:17:13 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170407@12:17:13 [System] No account logged in 
+20170407@12:17:14 [System] getAdoptInfoEntities 
+20170407@12:17:14 [System] getShopInfo 
+20170407@12:17:14 [System] getShopTime 
+20170407@12:17:14 [System] getPhotoEntities 
+20170407@12:17:14 [System] getPhotoEntities 
+20170407@12:17:14 [System] getShopInfo 
+20170407@12:17:14 [System] getShopTime 
+20170407@12:17:14 [System] getPhotoEntities 
+20170407@12:17:14 [System] getPhotoEntities 
+20170407@12:17:14 [System] getShopInfo 
+20170407@12:17:15 [System] getShopTime 
+20170407@12:17:15 [System] getPhotoEntities 
+20170407@12:17:15 [System] getPhotoEntities 
+20170407@12:17:15 [System] getShopInfo 
+20170407@12:17:15 [System] getShopTime 
+20170407@12:17:15 [System] getPhotoEntities 
+20170407@12:17:15 [System] getPhotoEntities 
+20170407@12:17:15 [System] getShopInfo 
+20170407@12:17:15 [System] getShopTime 
+20170407@12:17:15 [System] getPhotoEntities 
+20170407@12:17:15 [System] getPhotoEntities 
+20170407@12:17:15 [System] getShopInfo 
+20170407@12:17:15 [System] getShopTime 
+20170407@12:17:16 [System] getPhotoEntities 
+20170407@12:17:16 [System] getPhotoEntities 
+20170407@12:17:16 [System] getShopInfo 
+20170407@12:17:16 [System] getShopTime 
+20170407@12:17:16 [System] getPhotoEntities 
+20170407@12:17:16 [System] getPhotoEntities 
+20170407@12:17:16 [System] getShopInfo 
+20170407@12:17:16 [System] getShopTime 
+20170407@12:17:16 [System] getPhotoEntities 
+20170407@12:17:16 [System] getPhotoEntities 
+20170407@12:17:16 [System] getShopInfo 
+20170407@12:17:16 [System] getShopTime 
+20170407@12:17:16 [System] getPhotoEntities 
+20170407@12:17:16 [System] getPhotoEntities 
+20170407@12:17:16 [System] getShopInfo 
+20170407@12:17:16 [System] getShopTime 
+20170407@12:17:17 [System] getPhotoEntities 
+20170407@12:17:17 [System] getPhotoEntities 
+20170407@12:17:17 [System] getShopInfo 
+20170407@12:17:17 [System] getShopTime 
+20170407@12:17:17 [System] getPhotoEntities 
+20170407@12:17:17 [System] getPhotoEntities 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:17:17 [System] getPhotoEntity 
+20170407@12:40:41 [System] Page loaded: http://localhost:65063/home.aspx 
+20170407@12:40:41 [System] No account logged in 
+20170407@12:41:13 [System] Page loaded: http://localhost:65063/home.aspx 
+20170407@12:41:13 [System] No account logged in 
+20170407@13:01:24 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:01:39 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:39 [System] MessageHandler : Password and Confirm Password does not match 
+20170407@13:01:39 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:39 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:01:44 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:44 [System] MessageHandler : Password and Confirm Password does not match 
+20170407@13:01:44 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:44 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:01:44 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:44 [System] MessageHandler : Password and Confirm Password does not match 
+20170407@13:01:44 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:44 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:01:45 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:45 [System] MessageHandler : Password and Confirm Password does not match 
+20170407@13:01:45 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:45 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:01:45 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:45 [System] MessageHandler : Password and Confirm Password does not match 
+20170407@13:01:45 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:45 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:01:45 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:45 [System] MessageHandler : Password and Confirm Password does not match 
+20170407@13:01:45 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:45 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:01:48 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:48 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:48 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:48 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:49 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:01:49 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:43 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:43 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:43 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:02:45 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:45 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:45 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:02:49 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:02:53 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:53 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:53 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:02:55 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:55 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:55 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:02:55 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:55 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:55 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:02:56 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:56 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:56 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:02:56 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:56 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:02:56 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:04:57 [System] MessageHandler : Email (LoginID) 
+20170407@13:04:57 [System] MessageHandler : Name 
+20170407@13:04:57 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:04:59 [System] MessageHandler : Email (LoginID) 
+20170407@13:04:59 [System] MessageHandler : Name 
+20170407@13:04:59 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:04:59 [System] MessageHandler : Email (LoginID) 
+20170407@13:04:59 [System] MessageHandler : Name 
+20170407@13:04:59 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:04:59 [System] MessageHandler : Email (LoginID) 
+20170407@13:04:59 [System] MessageHandler : Name 
+20170407@13:04:59 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:05:27 [System] MessageHandler : Email (LoginID) 
+20170407@13:05:27 [System] MessageHandler : Password must have at least a digit 
+20170407@13:05:27 [System] MessageHandler : Name 
+20170407@13:05:31 [System] MessageHandler : Email (LoginID) 
+20170407@13:05:31 [System] MessageHandler : Password must have at least a digit 
+20170407@13:05:31 [System] MessageHandler : Name 
+20170407@13:05:34 [System] MessageHandler : Email (LoginID) 
+20170407@13:05:34 [System] MessageHandler : Confirm Password 
+20170407@13:05:34 [System] MessageHandler : Password 
+20170407@13:05:34 [System] MessageHandler : Name 
+20170407@13:05:36 [System] MessageHandler : Email (LoginID) 
+20170407@13:05:36 [System] MessageHandler : Password and Confirm Password does not match 
+20170407@13:05:36 [System] MessageHandler : Password 
+20170407@13:05:36 [System] MessageHandler : Name 
+20170407@13:05:36 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:05:42 [System] MessageHandler : Email (LoginID) 
+20170407@13:05:42 [System] MessageHandler : Confirm Password 
+20170407@13:05:42 [System] MessageHandler : Password 
+20170407@13:05:42 [System] MessageHandler : Name 
+20170407@13:06:10 [System] MessageHandler : Email (LoginID) 
+20170407@13:06:10 [System] MessageHandler : Confirm Password 
+20170407@13:06:10 [System] MessageHandler : Password 
+20170407@13:06:10 [System] MessageHandler : Name 
+20170407@13:06:10 [System] MessageHandler : Email (LoginID) 
+20170407@13:06:10 [System] MessageHandler : Confirm Password 
+20170407@13:06:10 [System] MessageHandler : Password 
+20170407@13:06:10 [System] MessageHandler : Name 
+20170407@13:06:11 [System] MessageHandler : Email (LoginID) 
+20170407@13:06:11 [System] MessageHandler : Confirm Password 
+20170407@13:06:11 [System] MessageHandler : Password 
+20170407@13:06:11 [System] MessageHandler : Name 
+20170407@13:06:11 [System] MessageHandler : Email (LoginID) 
+20170407@13:06:11 [System] MessageHandler : Confirm Password 
+20170407@13:06:11 [System] MessageHandler : Password 
+20170407@13:06:11 [System] MessageHandler : Name 
+20170407@13:06:37 [System] MessageHandler : Email (LoginID) 
+20170407@13:06:37 [System] MessageHandler : Confirm Password 
+20170407@13:06:37 [System] MessageHandler : Password 
+20170407@13:06:37 [System] MessageHandler : Name 
+20170407@13:06:38 [System] MessageHandler : Email (LoginID) 
+20170407@13:06:38 [System] MessageHandler : Confirm Password 
+20170407@13:06:38 [System] MessageHandler : Password 
+20170407@13:06:38 [System] MessageHandler : Name 
+20170407@13:06:43 [System] MessageHandler : Email (LoginID) 
+20170407@13:06:43 [System] MessageHandler : Confirm Password 
+20170407@13:06:43 [System] MessageHandler : Password 
+20170407@13:06:43 [System] MessageHandler : Name 
+20170407@13:07:06 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:07:06 [System] MessageHandler : Name - Cannot be empty! 
+20170407@13:07:06 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:07:07 [System] MessageHandler : Email (LoginID) 
+20170407@13:07:07 [System] MessageHandler : Confirm Password 
+20170407@13:07:07 [System] MessageHandler : Password 
+20170407@13:07:07 [System] MessageHandler : Name 
+20170407@13:07:08 [System] MessageHandler : Email (LoginID) 
+20170407@13:07:08 [System] MessageHandler : Confirm Password 
+20170407@13:07:08 [System] MessageHandler : Password 
+20170407@13:07:08 [System] MessageHandler : Name 
+20170407@13:07:08 [System] MessageHandler : Email (LoginID) 
+20170407@13:07:08 [System] MessageHandler : Confirm Password 
+20170407@13:07:08 [System] MessageHandler : Password 
+20170407@13:07:08 [System] MessageHandler : Name 
+20170407@13:07:08 [System] MessageHandler : Email (LoginID) 
+20170407@13:07:08 [System] MessageHandler : Confirm Password 
+20170407@13:07:08 [System] MessageHandler : Password 
+20170407@13:07:08 [System] MessageHandler : Name 
+20170407@13:07:09 [System] MessageHandler : Email (LoginID) 
+20170407@13:07:09 [System] MessageHandler : Confirm Password 
+20170407@13:07:09 [System] MessageHandler : Password 
+20170407@13:07:09 [System] MessageHandler : Name 
+20170407@13:07:35 [System] MessageHandler : Email (LoginID) 
+20170407@13:07:35 [System] MessageHandler : Password must have at least a digit 
+20170407@13:07:35 [System] MessageHandler : Name 
+20170407@13:09:15 [System] MessageHandler : Email (LoginID) 
+20170407@13:09:15 [System] MessageHandler : Confirm Password 
+20170407@13:09:15 [System] MessageHandler : Password 
+20170407@13:09:15 [System] MessageHandler : Name 
+20170407@13:09:18 [System] MessageHandler : Email (LoginID) 
+20170407@13:09:18 [System] MessageHandler : Confirm Password 
+20170407@13:09:18 [System] MessageHandler : Password 
+20170407@13:09:18 [System] MessageHandler : Name 
+20170407@13:09:41 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:09:41 [System] MessageHandler : Name - Cannot be empty! 
+20170407@13:09:41 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:10:27 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:10:27 [System] MessageHandler : Password - Cannot be empty! 
+20170407@13:10:27 [System] MessageHandler : Name - Cannot be empty! 
+20170407@13:10:27 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:10:28 [System] MessageHandler : Email - Cannot be empty! 
+20170407@13:10:28 [System] MessageHandler : Password - Cannot be empty! 
+20170407@13:10:28 [System] MessageHandler : Name - Cannot be empty! 
+20170407@13:10:28 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170407@13:10:29 [System] MessageHandler : Email (LoginID) 
+20170407@13:10:29 [System] MessageHandler : Confirm Password 
+20170407@13:10:29 [System] MessageHandler : Password 
+20170407@13:10:29 [System] MessageHandler : Name 
+20170407@13:10:31 [System] MessageHandler : Email (LoginID) 
+20170407@13:10:31 [System] MessageHandler : Confirm Password 
+20170407@13:10:31 [System] MessageHandler : Password 
+20170407@13:10:31 [System] MessageHandler : Name 
+20170407@13:10:32 [System] MessageHandler : Email (LoginID) 
+20170407@13:10:32 [System] MessageHandler : Confirm Password 
+20170407@13:10:32 [System] MessageHandler : Password 
+20170407@13:10:32 [System] MessageHandler : Name 
+20170407@13:10:32 [System] MessageHandler : Email (LoginID) 
+20170407@13:10:32 [System] MessageHandler : Confirm Password 
+20170407@13:10:32 [System] MessageHandler : Password 
+20170407@13:10:32 [System] MessageHandler : Name 
+20170407@13:10:32 [System] MessageHandler : Email (LoginID) 
+20170407@13:10:32 [System] MessageHandler : Confirm Password 
+20170407@13:10:32 [System] MessageHandler : Password 
+20170407@13:10:32 [System] MessageHandler : Name 
+20170407@13:17:12 [System] Page loaded: http://localhost:65063/register.aspx 
+20170407@13:17:12 [System] No account logged in 
+20170407@13:17:15 [System] Page loaded: http://localhost:65063/register.aspx 
+20170407@13:17:15 [System] No account logged in 
+20170407@13:17:15 [System] MessageHandler : Email (LoginID) 
+20170407@13:17:15 [System] MessageHandler : Confirm Password 
+20170407@13:17:15 [System] MessageHandler : Password 
+20170407@13:17:15 [System] MessageHandler : Name 
+20170407@13:17:15 [System] checkEmailAddressExist 
+20170407@13:17:15 [System] No data found in getValue() 
+20170407@13:17:15 [System] createAccount 
+20170407@13:17:15 [System] Record created! 
+20170407@13:17:15 [System] Record created! 
+20170407@13:17:40 [System] Page loaded: http://localhost:65063/register.aspx 
+20170407@13:17:40 [System] No account logged in 
+20170407@13:17:40 [System] MessageHandler : Email (LoginID) 
+20170407@13:17:40 [System] MessageHandler : Confirm Password 
+20170407@13:17:40 [System] MessageHandler : Password 
+20170407@13:17:40 [System] MessageHandler : Name 
+20170407@13:17:40 [System] checkEmailAddressExist 
+20170407@13:17:40 [System] getValue() is 44 
+20170407@13:17:40 [System] MessageHandler : Email already in used. 
+20170407@13:17:43 [System] Page loaded: http://localhost:65063/register.aspx 
+20170407@13:17:43 [System] No account logged in 
+20170407@13:17:43 [System] MessageHandler : Email (LoginID) 
+20170407@13:17:43 [System] MessageHandler : Confirm Password 
+20170407@13:17:43 [System] MessageHandler : Password 
+20170407@13:17:43 [System] MessageHandler : Name 
+20170407@13:17:43 [System] checkEmailAddressExist 
+20170407@13:17:43 [System] getValue() is 44 
+20170407@13:17:43 [System] MessageHandler : Email already in used. 
+20170407@13:17:43 [System] Page loaded: http://localhost:65063/register.aspx 
+20170407@13:17:43 [System] No account logged in 
+20170407@13:17:43 [System] MessageHandler : Email (LoginID) 
+20170407@13:17:43 [System] MessageHandler : Confirm Password 
+20170407@13:17:43 [System] MessageHandler : Password 
+20170407@13:17:43 [System] MessageHandler : Name 
+20170407@13:17:43 [System] checkEmailAddressExist 
+20170407@13:17:43 [System] getValue() is 44 
+20170407@13:17:43 [System] MessageHandler : Email already in used. 
+20170407@13:18:54 [System] Page loaded: http://localhost:65063/home.aspx 
+20170407@13:18:54 [System] No account logged in 
+20170407@13:18:56 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170407@13:18:56 [System] signOut 
+20170407@13:19:02 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170407@13:19:02 [System] signOut 
+20170407@13:19:02 [System] signIn 
+20170407@13:19:02 [System] getPhotoEntities 
+20170407@13:19:02 [System] getShopInfo 
+20170407@13:19:02 [System] getShopTime 
+20170407@13:19:03 [System] getPhotoEntities 
+20170407@13:19:03 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170407@13:19:03 [System] GVPetInfoOverview_DataBound 
+20170407@13:19:03 [System] GVShopInfoOverview_DataBound 
+20170407@13:20:14 [System] Page loaded: http://localhost:65063/adminsystemaccountedit.aspx 
+20170407@13:20:14 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170407@13:20:14 [System] GVPetInfoOverview_DataBound 
+20170407@13:20:14 [System] GVShopInfoOverview_DataBound 
+20170407@13:20:24 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170407@13:20:24 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170407@13:20:25 [System] GVPetInfoOverview_DataBound 
+20170407@13:20:25 [System] GVShopInfoOverview_DataBound 
+20170407@13:20:27 [System] Page loaded: http://localhost:65063/adminsystemaccountedit.aspx 
+20170407@13:20:27 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170407@13:20:27 [System] GVPetInfoOverview_DataBound 
+20170407@13:20:27 [System] GVShopInfoOverview_DataBound 
+20170407@13:20:39 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170407@13:22:17 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170407@13:22:18 [System] GVPetInfoOverview_DataBound 
+20170407@13:22:18 [System] GVShopInfoOverview_DataBound 
+20170407@13:22:39 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170407@13:22:39 [System] No account logged in 
+20170407@13:22:39 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170407@13:22:39 [System] signOut 
+20170407@13:22:44 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170407@13:22:44 [System] signOut 
+20170407@13:22:44 [System] signIn 
+20170407@13:22:44 [System] getPhotoEntities 
+20170407@13:22:44 [System] getShopInfo 
+20170407@13:22:44 [System] getShopTime 
+20170407@13:22:44 [System] getPhotoEntities 
+20170407@13:22:44 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170407@13:22:45 [System] GVPetInfoOverview_DataBound 
+20170407@13:22:45 [System] GVShopInfoOverview_DataBound 
+20170407@13:22:47 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170407@13:25:23 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170407@13:25:31 [System] Page loaded: http://localhost:65063/adminsystemaccountedit.aspx 
+20170407@13:25:34 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170407@13:25:35 [System] GVPetInfoOverview_DataBound 
+20170407@13:25:35 [System] GVShopInfoOverview_DataBound 
+20170407@13:25:38 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170407@13:25:45 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170407@13:25:45 [System] GVPetInfoOverview_DataBound 
+20170407@13:25:48 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 

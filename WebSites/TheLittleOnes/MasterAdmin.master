@@ -443,14 +443,14 @@
                             <li class="">
                                 <asp:HyperLink ID="HYPLKAdoptInfoAdd" runat="server" NavigateUrl="AdminAdoptionInfoAdd.aspx">
                                        <i class="menu-icon fa fa-caret-right"></i>
-                                    Add Adopt Info 
+                                    Add Adoption Info 
                                 </asp:HyperLink>
                                 <b class="arrow"></b>
                             </li>
                             <li class="">
                                 <asp:HyperLink ID="HYPLKAdoptInfoEdit" runat="server" NavigateUrl="AdminAdoptionInfoEdit.aspx">
                                        <i class="menu-icon fa fa-caret-right"></i>
-                                    Edit Adopt Info 
+                                    Edit Adoption Info 
                                 </asp:HyperLink>
                                 <b class="arrow"></b>
                             </li>

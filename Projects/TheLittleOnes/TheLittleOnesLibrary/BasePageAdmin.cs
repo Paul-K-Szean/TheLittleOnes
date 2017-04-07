@@ -84,7 +84,7 @@ namespace TheLittleOnesLibrary
                         currentPage.Contains("adminsystemaccountadd") ||
                         currentPage.Contains("adminsystemaccountedit"))
                     {
-                        HttpContext.Current.Response.Redirect("AdminDashboard.aspx");
+                        HttpContext.Current.Response.Redirect("AdminForbidden.aspx");
                     }
                     break;
                 case "websponsorgroup":
@@ -94,7 +94,7 @@ namespace TheLittleOnesLibrary
                         currentPage.Contains("adminsystemaccountadd") ||
                         currentPage.Contains("adminsystemaccountedit"))
                     {
-                        HttpContext.Current.Response.Redirect("AdminDashboard.aspx");
+                        HttpContext.Current.Response.Redirect("AdminForbidden.aspx");
                     }
                     break;
             }
