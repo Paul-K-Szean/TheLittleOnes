@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
+using System.Reflection;
 using TheLittleOnesLibrary;
+using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
 public partial class AdminAccount : BasePageAdmin
@@ -17,6 +19,7 @@ public partial class AdminAccount : BasePageAdmin
     }
     private void loadShopInfo()
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         if (accountEntity.ShopInfoEntity != null)
         {
             TBShopInfoID.Text = accountEntity.ShopInfoEntity.ShopInfoID;
@@ -27,6 +30,7 @@ public partial class AdminAccount : BasePageAdmin
     }
     void loadAccountInfo()
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         TBAccountID.Text = accountEntity.AccountID;
         TBEmail.Text = accountEntity.AccountEmail;
         TBAccountType.Text = accountEntity.AccountType;
@@ -34,6 +38,7 @@ public partial class AdminAccount : BasePageAdmin
     #region Button Clicks
     protected void BTNSave_Click(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         passwordOld = TBPasswordOld.Text.Trim();
         passwordNew = TBPasswordNew.Text.Trim();
         if (checkRequiredField(passwordOld, passwordNew))
@@ -66,6 +71,7 @@ public partial class AdminAccount : BasePageAdmin
     #region Logical Methods
     private bool checkRequiredField(string passwordOld, string passwordNew)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         bool isRequiredFieldsValid = true;
         if (string.IsNullOrEmpty(passwordOld) && string.IsNullOrEmpty(passwordNew))
         {

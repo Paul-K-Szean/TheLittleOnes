@@ -29,7 +29,7 @@ namespace TheLittleOnesLibrary.Controllers
         {
             dao = DAO.getInstance();
         }
-        // Create account
+        // Create account info
         public AccountEntity createAccount(AccountEntity accountEntity)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -128,7 +128,28 @@ namespace TheLittleOnesLibrary.Controllers
                 return null;
             }
         }
-        // Update account info
+        // Retrieve account password for password recovery
+        public string getPassword(string accountEmail)
+        {
+            LogController.LogLine(MethodBase.GetCurrentMethod().Name);
+            using (oleDbCommand = new OleDbCommand())
+            {
+                oleDbCommand.CommandType = CommandType.Text;
+                oleDbCommand.CommandText = string.Concat("SELECT ACCOUNTPASSWORD FROM ACCOUNT WHERE ACCOUNTEMAIL = @ACCOUNTEMAIL");
+                oleDbCommand.Parameters.AddWithValue("@ACCOUNTEMAIL", accountEmail);
+                dataSet = dao.getRecord(oleDbCommand);
+                if (dataSet != null && dataSet.Tables[0].Rows.Count > 0)
+                {
+                    return dataSet.Tables[0].Rows[0]["accountPassword"].ToString();
+                }
+                else
+                {
+                    // cant find, return null object
+                    return null;
+                }
+            }
+        }
+        // Update system account info
         public AccountEntity updateAccount(AccountEntity accountEntity)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);

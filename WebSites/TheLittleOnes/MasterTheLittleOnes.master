@@ -105,6 +105,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                                     <asp:HyperLink ID="HYPLKRegister" runat="server" NavigateUrl="Register.aspx" Text="here"></asp:HyperLink>
                                                 </div>
                                                 <div class="col-xs-12">
+                                                    Forgot Password?
+                                                    <asp:HyperLink ID="HYPLKPasswordRecovery" runat="server" NavigateUrl="~/PasswordRecovery.aspx" Text="here"></asp:HyperLink>
+                                                </div>
+                                                <div class="col-xs-12">
                                                     <asp:Label ID="LBLErrorMsg" runat="server" Text=""></asp:Label>
                                                 </div>
                                                 <div class="clearfix"></div>
@@ -161,7 +165,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                             data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         </asp:HyperLink>
                                         <ul class="dropdown-menu">
-                                            <li><a class="hvr-bounce-to-bottom" href="icons.html">Account Settings</a></li>
+                                            <li><a class="hvr-bounce-to-bottom" href="UserDetails.aspx">User Dashboard</a></li>
                                             <li><a class="hvr-bounce-to-bottom" href="AppointmentDetails.aspx">Appointment</a></li>
                                             <li><a class="hvr-bounce-to-bottom" href="EventEdit.aspx">Event</a></li>
                                             <li>

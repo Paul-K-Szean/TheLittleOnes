@@ -77,6 +77,10 @@ namespace TheLittleOnesLibrary
                     {
                         HttpContext.Current.Response.Redirect("Forbidden.aspx");
                     }
+                    if (currentPage.ToLower().Contains("userdetails"))
+                    {
+                        HttpContext.Current.Response.Redirect("Forbidden.aspx");
+                    }
                 }
             }
             else {

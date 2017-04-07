@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterAdmin.master" AutoEventWireup="true" CodeFile="AdminAccount.aspx.cs" Inherits="AdminAccount" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHHeaderMasterAdmin" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHBodyMasterAdmin" runat="Server">
@@ -86,7 +87,7 @@
             <!-- /.ace-settings-box -->
         </div>
         <!-- /.ace-settings-container -->
-        <asp:updatepanel id="UpdatePanel1" runat="server">
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
             <ContentTemplate>
                 <div class="page-header">
                     <h1>Settings
@@ -177,7 +178,7 @@
                                                     <asp:TextBox ID="TBShopInfoAddress" runat="server" CssClass="form-control" placeholder="Address" disabled="disabled"></asp:TextBox>
                                                 </div>
                                                 <br />
-                                               
+
                                             </div>
                                         </div>
                                     </div>
@@ -190,7 +191,7 @@
                 </div>
                 <!-- /.row -->
             </ContentTemplate>
-        </asp:updatepanel>
+        </asp:UpdatePanel>
     </div>
     <!-- /.page-content -->
 </asp:Content>

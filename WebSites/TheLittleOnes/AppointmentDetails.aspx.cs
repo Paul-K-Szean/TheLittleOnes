@@ -44,6 +44,7 @@ public partial class AppointmentDetails : BasePageTLO
     #region Button Control
     protected void BTNUpdate_Click(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         if (appointmentEntityEdit != null)
         {
             LBLErrorMsg.Text = appointmentEntityEdit.AppmtID.ToString() + " "
@@ -64,6 +65,7 @@ public partial class AppointmentDetails : BasePageTLO
     }
     protected void BTNClose_Click(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
     }
     protected void BTNAppmtDate_Click(object sender, EventArgs e)
     {
@@ -78,6 +80,7 @@ public partial class AppointmentDetails : BasePageTLO
     #region Checkbox Control
     protected void CHKBXCancelAppointment_CheckedChanged(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         if (appointmentEntityEdit != null)
             appointmentEntityEdit.AppmtStatus = Enums.GetDescription(SystemStatus.Cancelled);
     }
@@ -87,12 +90,14 @@ public partial class AppointmentDetails : BasePageTLO
     #region Dropdownlist Controls
     protected void DDLDisplayRecordCountAppointment_SelectedIndexChanged(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         gvPageSize = int.Parse(DDLDisplayRecordCountAppointment.SelectedValue);
         GVAppointment.PageSize = gvPageSize;
         // filterShopInfo();
     }
     protected void DDLAppmtTime_SelectedIndexChanged(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         if (DDLAppmtTime.SelectedIndex == 0) BTNUpdate.Enabled = false;
         else
         {
@@ -164,6 +169,7 @@ public partial class AppointmentDetails : BasePageTLO
     #region Logical Methods
     private void loadAppointment(string appmtID)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         appointmentEntityEdit = appointmentCrtler.getUserAppointmentEntity(appmtID);
         PNLAppointmentEdit.Visible = true;
         INPUTAppmtDate.Value = dateSelected = appointmentEntityEdit.AppmtDateTime.ToString("dd-MMMM-yyyy");
@@ -203,6 +209,7 @@ public partial class AppointmentDetails : BasePageTLO
     // For GUI display word instead of bool
     protected Boolean isCancelled(string appmtStatus)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         if (!string.IsNullOrEmpty(appmtStatus))
         {
             if (appmtStatus.Equals(Enums.GetDescription(SystemStatus.Cancelled)))
@@ -216,6 +223,7 @@ public partial class AppointmentDetails : BasePageTLO
     #region Textbox Control
     protected void TBSearchAppointment_TextChanged(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         //filter data
         // filterShopInfo();
     }

@@ -23,7 +23,7 @@
                     <div class="Categories">
                         <h3>Categories</h3>
                         <ul>
-                            <li><a href="#">Account Settings</a></li>
+                            <li><a href="UserDetails.aspx">User Dashboard</a></li>
                             <li><a href="AppointmentDetails.aspx">Appointment</a></li>
                             <li><a href="EventAdd.aspx">Create Event</a></li>
                             <li><a href="EventEdit.aspx">Edit Event</a></li>

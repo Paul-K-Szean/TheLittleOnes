@@ -213,6 +213,7 @@ public partial class AdminSystemAccountEdit : BasePageAdmin
     // Check Required Fields
     private bool checkRequiredFields()
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         bool isAccountTypeValid = true;
         bool isAccountEmailValid = true;
         bool isProfileNameValid = true;
@@ -262,6 +263,7 @@ public partial class AdminSystemAccountEdit : BasePageAdmin
     // Load Account info
     private void loadAccountInfo(AccountEntity editAccountEntity)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         if (editAccountEntity != null)
         {
             PNLSystemAccountEdit.Visible = true;
@@ -307,6 +309,7 @@ public partial class AdminSystemAccountEdit : BasePageAdmin
     // Shop Info
     private void loadShopInfo(ShopInfoEntity editShopInfoEntity)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         // shop info
         DDLShopInfo.SelectedValue = editShopInfoEntity.ShopInfoID;
         LBLShopName.Text = editShopInfoEntity.ShopInfoName;
@@ -317,6 +320,7 @@ public partial class AdminSystemAccountEdit : BasePageAdmin
     // Filter data
     public void filterAccountInfo()
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         string filterAccountType = DDLFilterAccountType.SelectedValue.Trim();
         string tbSearchValue = TBSearchSystemAccount.Text.Trim();
         dTableAccountInfo = accountCtrler.filterAccountInfoData(filterAccountType, tbSearchValue, LBLSearchResultSystemAccount);
@@ -329,6 +333,7 @@ public partial class AdminSystemAccountEdit : BasePageAdmin
     // Clear temp data
     private void clearStaticData()
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         GVRowID = 0;
         dTableAccountInfo = null;
         editPhotoEntities = null;
@@ -338,6 +343,7 @@ public partial class AdminSystemAccountEdit : BasePageAdmin
     #region Textbox Control
     protected void TBSearchSystemAccount_TextChanged(object sender, EventArgs e)
     {
+        LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         filterAccountInfo();
     }
     #endregion
