@@ -97,7 +97,7 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
         }
         else
         {
-            HYPLKAccountInfo.Text = "Sign In";
+            HYPLKAccountInfo.Text = "Login";
             HYPLKAccountInfo.Attributes["data-target"] = "#login";
             HYPLKAccountInfo.Attributes["data-toggle"] = "modal";
         }

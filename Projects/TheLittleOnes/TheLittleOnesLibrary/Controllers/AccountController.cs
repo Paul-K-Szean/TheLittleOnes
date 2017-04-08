@@ -275,7 +275,7 @@ namespace TheLittleOnesLibrary.Controllers
                         dataSet.Tables[0].Rows[0]["accountEmail"].ToString(),
                         dataSet.Tables[0].Rows[0]["accountPassword"].ToString(),
                         dataSet.Tables[0].Rows[0]["accountType"].ToString(),
-                        ProfileController.getInstance().signInProfile(dataSet.Tables[0].Rows[0]["accountID"].ToString()),
+                        ProfileController.getInstance().getProfile(dataSet.Tables[0].Rows[0]["accountID"].ToString()),
                         string.IsNullOrEmpty(dataSet.Tables[0].Rows[0]["shopInfoID"].ToString()) ? null :
                         ShopInfoController.getInstance().getShopInfo(dataSet.Tables[0].Rows[0]["shopInfoID"].ToString()),
                         DateTime.Parse(dataSet.Tables[0].Rows[0]["dateJoined"].ToString()));

@@ -125,31 +125,5 @@ namespace TheLittleOnesLibrary.Controllers
                 return null;
             }
         }
-        // Sign in profile
-        public ProfileEntity signInProfile(string accountID)
-        {
-            using (oleDbCommand = new OleDbCommand())
-            {
-                oleDbCommand.CommandType = CommandType.Text;
-                oleDbCommand.CommandText = string.Concat("SELECT * FROM PROFILE WHERE ACCOUNTID LIKE @ACCOUNTID");
-                oleDbCommand.Parameters.AddWithValue("@ACCOUNTID", string.Concat(accountID));
-                dataSet = dao.getRecord(oleDbCommand);
-                if (dataSet.Tables[0].Rows.Count > 0)
-                {
-                    // instantial profile 
-                    ProfileEntity loggedInProfile = new ProfileEntity(
-                        dataSet.Tables[0].Rows[0]["profileID"].ToString(),
-                        dataSet.Tables[0].Rows[0]["profileName"].ToString(),
-                        dataSet.Tables[0].Rows[0]["profileContact"].ToString(),
-                        dataSet.Tables[0].Rows[0]["profileAddress"].ToString(),
-                        PhotoController.getInstance().getPhotoEntities(dataSet.Tables[0].Rows[0]["profileID"].ToString(), Enums.GetDescription(PhotoPurpose.ProfileInfo)));
-                    return loggedInProfile;
-                }
-                else
-                {
-                    return null;
-                }
-            }
-        }
     }
 }

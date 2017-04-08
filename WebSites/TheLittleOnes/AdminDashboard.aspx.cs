@@ -257,7 +257,7 @@ public partial class AdminDashboard : BasePageAdmin
         bool chkbxPetClinic = CHKBXFilterPetClinic.Checked;
         bool chkbxGrooming = CHKBXFilterGrooming.Checked;
         string tbSearchValue = TBSearchShopInfo.Text.Trim();
-        dTableShopInfo = shopInfoCtrler.filterShopInfoData(chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
+        dTableShopInfo = shopInfoCtrler.filterShopInfoData( null, chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
         GVShopInfoOverview.DataSourceID = null;
         GVShopInfoOverview.DataSource = null;
         GVShopInfoOverview.DataSource = dTableShopInfo;

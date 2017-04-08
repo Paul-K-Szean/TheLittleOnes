@@ -68,7 +68,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                     </div>
                     <div class="modal-body padtrbl">
                         <div class="login-box-body">
-                            <p class="login-box-msg">Sign in to start your session</p>
+                            <p class="login-box-msg">Log in to start your session</p>
                             <div class="form-group">
                                 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                                     <ContentTemplate>
@@ -97,7 +97,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                                     </div>
                                                 </div>
                                                 <div class="col-xs-12">
-                                                    <asp:Button ID="BTNLogin" runat="server" CssClass="btn btn-success btn-block btn-flat" Text="Sign In" OnClick="BTNLogin_Click" />
+                                                    <asp:Button ID="BTNLogin" runat="server" CssClass="btn btn-success btn-block btn-flat" Text="Login" OnClick="BTNLogin_Click" />
                                                 </div>
                                                 <div class="space-10"></div>
                                                 <div class="col-xs-12">
@@ -169,7 +169,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                             <li><a class="hvr-bounce-to-bottom" href="AppointmentDetails.aspx">Appointment</a></li>
                                             <li><a class="hvr-bounce-to-bottom" href="EventEdit.aspx">Event</a></li>
                                             <li>
-                                                <asp:LinkButton ID="LKBTNSignOut" runat="server" CssClass="hvr-bounce-to-bottom" OnClick="LKBTNSignOut_Click" Text="Sign Out"></asp:LinkButton>
+                                                <asp:LinkButton ID="LKBTNSignOut" runat="server" CssClass="hvr-bounce-to-bottom" OnClick="LKBTNSignOut_Click" Text="Logout"></asp:LinkButton>
                                             </li>
                                         </ul>
                                     </li>
@@ -218,7 +218,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                     <li><a href="Adoption.aspx">Adoption</a></li>
                                     <li><a href="Breed.aspx">Breed</a></li>
                                     <li><a href="Home.aspx#newsevent">Events</a></li>
-                                    <li><a class="dropdown-toggle hvr-bounce-to-bottom " data-toggle="modal" role="button" aria-haspopup="true" aria-expanded="false" data-target="#login">Sign in</a></li>
+                                    <li><a class="dropdown-toggle hvr-bounce-to-bottom " data-toggle="modal" role="button" aria-haspopup="true" aria-expanded="false" data-target="#login">Log In</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-6 footer-grid-left">

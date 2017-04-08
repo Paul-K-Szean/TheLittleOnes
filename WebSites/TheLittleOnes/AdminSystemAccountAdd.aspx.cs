@@ -46,24 +46,24 @@ public partial class AdminSystemAccountAdd : BasePageAdmin
             string profileContact = TBProfileContact.Text.Trim();
             string profileAddress = TBProfileAddress.Text.Trim();
             // create entity
-            ProfileEntity profileEntity = new ProfileEntity(profileName, profileContact, profileAddress, photoEntities);
-            accountEntity = new AccountEntity(accountEmail, profileName.ToLower(), accountType, profileEntity, shopInfoEntity);
-            if (accountCtrler.checkEmailAddressExist(accountEntity.AccountEmail))
+            ProfileEntity newProfileEntity = new ProfileEntity(profileName, profileContact, profileAddress, photoEntities);
+            AccountEntity newAccountEntity = new AccountEntity(accountEmail, profileName.ToLower(), accountType, newProfileEntity, shopInfoEntity);
+            if (accountCtrler.checkEmailAddressExist(newAccountEntity.AccountEmail))
             {
                 MessageHandler.ErrorMessage(LBLErrorMsg, "Email already exists");
             }
             else
             {
                 // add into database
-                accountEntity = accountCtrler.createAccount(accountEntity);
+                newAccountEntity = accountCtrler.createAccount(newAccountEntity);
                 // change photo path to database instead of using temp
                 if (photoEntities != null)
                 {
-                    profileEntity = profileCtrler.createPhoto(profileEntity);
-                    profileEntity.PhotoEntities =
-                        photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, accountEntity.ProfileEntity.ProfileID);
+                    newProfileEntity = profileCtrler.createPhoto(newProfileEntity);
+                    newProfileEntity.PhotoEntities =
+                        photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, newAccountEntity.ProfileEntity.ProfileID);
                 }
-                if (accountEntity != null)
+                if (newAccountEntity != null)
                 {
                     MessageHandler.SuccessMessage(LBLErrorMsg, "Account info successfully added");
                 }

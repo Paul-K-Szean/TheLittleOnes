@@ -148,7 +148,7 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
         // Filter Data
-        public DataTable filterAdoptionInfoData(string filterGender, string filterSize, string filterStatus, string tbSearchValue, Label LBLSearchResultAdoptInfo)
+        public DataTable filterAdoptionInfoData(string userShopID, string filterGender, string filterSize, string filterStatus, string tbSearchValue, Label LBLSearchResultAdoptInfo)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             LBLSearchResultAdoptInfo.ForeColor = Utility.getColorWhite();
@@ -180,6 +180,11 @@ namespace TheLittleOnesLibrary.Controllers
                 {
                     LBLSearchResultAdoptInfo.Text += string.Concat("\"", filterStatus, "\" ");
                     sqlQuery += string.Concat(" AND (ADOPTINFOSTATUS = '", filterStatus, "') ");
+                }
+                if (!string.IsNullOrEmpty(userShopID))
+                {
+                    LBLSearchResultAdoptInfo.Text += string.Concat("\"", userShopID, "\" ");
+                    sqlQuery += string.Concat(" AND (ADOPTINFO.SHOPINFOID  = ", userShopID, ") ");
                 }
                 oleDbCommand.CommandText = string.Concat(sqlQuery, " ORDER BY AdoptInfo.adoptInfoID DESC ");
                 oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));

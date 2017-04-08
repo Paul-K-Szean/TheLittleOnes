@@ -1460,3 +1460,8 @@ span.input-icon {
 .widget-container-col {
     min-height: 10px;
 }
+
+
+select:disabled{
+    opacity:0.5;
+}

@@ -210,7 +210,7 @@ namespace TheLittleOnesLibrary.Controllers
             }
         }
         // Filter Shop Info Data
-        public DataTable filterShopInfoData(bool chkbxPetShop, bool chkbxPetClinic, bool chkbxGrooming, string tbSearchValue, Label searchResult)
+        public DataTable filterShopInfoData(string userShopID, bool chkbxPetShop, bool chkbxPetClinic, bool chkbxGrooming, string tbSearchValue, Label searchResult)
         {
             LogController.LogLine(MethodBase.GetCurrentMethod().Name);
             searchResult.ForeColor = Utility.getColorWhite();
@@ -239,6 +239,10 @@ namespace TheLittleOnesLibrary.Controllers
                     searchResult.Text += string.Concat("\"", "Grooming", "\" ");
                     sqlQuery += string.Concat(" AND (SHOPINFOGROOMING = TRUE) ");
                 }
+
+                if (!string.IsNullOrEmpty(userShopID))
+                    sqlQuery += string.Concat(" AND (SHOPINFOID = ", userShopID, ") ");
+
                 oleDbCommand.CommandText = string.Concat(sqlQuery, " ORDER BY [SHOPINFOID] DESC, [SHOPINFONAME] ");
                 oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));
                 dataSet = dao.getRecord(oleDbCommand);

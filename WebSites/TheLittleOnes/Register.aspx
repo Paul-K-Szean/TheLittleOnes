@@ -120,7 +120,7 @@
                     <div class="col-xs-12">
                         <div class="form-inline text-center">
                             <asp:Button ID="BTNCreate" runat="server" CssClass="btn btn-primary btn-md" Text="Create" OnClick="BTNCreate_Click" />
-                            <asp:Button ID="BTNGenerate" runat="server" CssClass="btn btn-primary btn-md" Text="Generate" OnClick="BTNGenerate_Click" />
+                            <asp:Button ID="BTNGenerate" runat="server" CssClass="btn btn-primary btn-md" Text="Generate" OnClick="BTNGenerate_Click" Visible="false" />
                         </div>
                         <br />
                         <div class="form-inline text-center">

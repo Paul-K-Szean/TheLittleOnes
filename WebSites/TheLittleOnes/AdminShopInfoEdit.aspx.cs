@@ -26,7 +26,7 @@ public partial class AdminShopInfoEdit : BasePageAdmin
     private string shopType;
     private string shopDesc;
     private bool shopCloseOnPublicHoliday;
-    
+
     protected void Page_Load(object sender, EventArgs e)
     {
         Page.Form.Attributes.Add("enctype", "multipart/form-data");
@@ -37,8 +37,18 @@ public partial class AdminShopInfoEdit : BasePageAdmin
         }
         else
         {
+
             // clear static data
             clearStaticData();
+            if (accountEntity.ShopInfoEntity != null)
+            {
+                HDFShopID.Value = accountEntity.ShopInfoEntity.ShopInfoID;
+            }
+            else {
+                SDSShopInfo.SelectCommand = "SELECT * FROM [ShopInfo] ORDER BY [shopInfoID] DESC,[shopInfoName]";
+                SDSShopInfo.DataBind();
+            }
+            
         }
     }
     #region Initialize UI Control Values
@@ -123,6 +133,7 @@ public partial class AdminShopInfoEdit : BasePageAdmin
             {
                 MessageHandler.ErrorMessageAdmin(LBLErrorMsg, "Shop info was not successfully updated");
             }
+            
             GVShopInfoOverview.DataBind();
             DLPhotoUploaded.DataBind();
             filterShopInfo();
@@ -175,6 +186,98 @@ public partial class AdminShopInfoEdit : BasePageAdmin
         gvPageSize = int.Parse(DDLDisplayRecordCountShopInfo.SelectedValue);
         GVShopInfoOverview.PageSize = gvPageSize;
         filterShopInfo();
+    }
+    // disable selection of time if the day is close
+    protected void CHKBXCloseMonday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseMonday.Checked)
+        {
+            DDLCloseTimeMonday.Enabled = false;
+            DDLOpenTimeMonday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeMonday.Enabled = true;
+            DDLOpenTimeMonday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseTuesday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseTuesday.Checked)
+        {
+            DDLCloseTimeTuesday.Enabled = false;
+            DDLOpenTimeTuesday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeTuesday.Enabled = true;
+            DDLOpenTimeTuesday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseWednesday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseWednesday.Checked)
+        {
+            DDLCloseTimeWednesday.Enabled = false;
+            DDLOpenTimeWednesday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeWednesday.Enabled = true;
+            DDLOpenTimeWednesday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseThursday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseThursday.Checked)
+        {
+            DDLCloseTimeThursday.Enabled = false;
+            DDLOpenTimeThursday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeThursday.Enabled = true;
+            DDLOpenTimeThursday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseFriday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseFriday.Checked)
+        {
+            DDLCloseTimeFriday.Enabled = false;
+            DDLOpenTimeFriday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeFriday.Enabled = true;
+            DDLOpenTimeFriday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseSaturday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseSaturday.Checked)
+        {
+            DDLCloseTimeSaturday.Enabled = false;
+            DDLOpenTimeSaturday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeSaturday.Enabled = true;
+            DDLOpenTimeSaturday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseSunday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseSunday.Checked)
+        {
+            DDLCloseTimeSunday.Enabled = false;
+            DDLOpenTimeSunday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeSunday.Enabled = true;
+            DDLOpenTimeSunday.Enabled = true;
+        }
     }
     #endregion
     #region Gridview Controls
@@ -373,24 +476,38 @@ public partial class AdminShopInfoEdit : BasePageAdmin
             {
                 case "MONDAY":
                     CHKBXCloseMonday.Checked = false;
+                    DDLCloseTimeMonday.Enabled = true;
+                    DDLOpenTimeMonday.Enabled = true;
                     break;
                 case "TUESDAY":
                     CHKBXCloseTuesday.Checked = false;
+                    DDLCloseTimeTuesday.Enabled = true;
+                    DDLOpenTimeTuesday.Enabled = true;
                     break;
                 case "WEDNESDAY":
                     CHKBXCloseWednesday.Checked = false;
+                    DDLCloseTimeWednesday.Enabled = true;
+                    DDLOpenTimeWednesday.Enabled = true;
                     break;
                 case "THURSDAY":
                     CHKBXCloseThursday.Checked = false;
+                    DDLCloseTimeThursday.Enabled = true;
+                    DDLOpenTimeThursday.Enabled = true;
                     break;
                 case "FRIDAY":
                     CHKBXCloseFriday.Checked = false;
+                    DDLCloseTimeFriday.Enabled = true;
+                    DDLOpenTimeFriday.Enabled = true;
                     break;
                 case "SATURDAY":
                     CHKBXCloseSaturday.Checked = false;
+                    DDLCloseTimeSaturday.Enabled = true;
+                    DDLOpenTimeSaturday.Enabled = true;
                     break;
                 case "SUNDAY":
                     CHKBXCloseSunday.Checked = false;
+                    DDLCloseTimeSunday.Enabled = true;
+                    DDLOpenTimeSunday.Enabled = true;
                     break;
             }
         }
@@ -401,24 +518,38 @@ public partial class AdminShopInfoEdit : BasePageAdmin
             {
                 case "MONDAY":
                     CHKBXCloseMonday.Checked = true;
+                    DDLCloseTimeMonday.Enabled = false;
+                    DDLOpenTimeMonday.Enabled = false;
                     break;
                 case "TUESDAY":
                     CHKBXCloseTuesday.Checked = true;
+                    DDLCloseTimeTuesday.Enabled = false;
+                    DDLOpenTimeTuesday.Enabled = false;
                     break;
                 case "WEDNESDAY":
                     CHKBXCloseWednesday.Checked = true;
+                    DDLCloseTimeWednesday.Enabled = false;
+                    DDLOpenTimeWednesday.Enabled = false;
                     break;
                 case "THURSDAY":
                     CHKBXCloseThursday.Checked = true;
+                    DDLCloseTimeThursday.Enabled = false;
+                    DDLOpenTimeThursday.Enabled = false;
                     break;
                 case "FRIDAY":
                     CHKBXCloseFriday.Checked = true;
+                    DDLCloseTimeFriday.Enabled = false;
+                    DDLOpenTimeFriday.Enabled = false;
                     break;
                 case "SATURDAY":
                     CHKBXCloseSaturday.Checked = true;
+                    DDLCloseTimeSaturday.Enabled = false;
+                    DDLOpenTimeSaturday.Enabled = false;
                     break;
                 case "SUNDAY":
                     CHKBXCloseSunday.Checked = true;
+                    DDLCloseTimeSunday.Enabled = false;
+                    DDLOpenTimeSunday.Enabled = false;
                     break;
             }
         }
@@ -430,7 +561,7 @@ public partial class AdminShopInfoEdit : BasePageAdmin
         bool chkbxPetClinic = CHKBXFilterPetClinic.Checked;
         bool chkbxGrooming = CHKBXFilterGrooming.Checked;
         string tbSearchValue = TBSearchShopInfo.Text;
-        dTableShopInfo = shopInfoCtrler.filterShopInfoData(chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
+        dTableShopInfo = shopInfoCtrler.filterShopInfoData(HDFShopID.Value, chkbxPetShop, chkbxPetClinic, chkbxGrooming, tbSearchValue, LBLSearchResultShopInfo);
         GVShopInfoOverview.DataSourceID = null;
         GVShopInfoOverview.DataSource = null;
         GVShopInfoOverview.DataSource = dTableShopInfo;
@@ -454,4 +585,5 @@ public partial class AdminShopInfoEdit : BasePageAdmin
         filterShopInfo();
     }
     #endregion
+
 }

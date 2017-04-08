@@ -1,0 +1,1260 @@
+20170408@16:22:11 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:22:11 [System] No account logged in 
+20170408@16:22:11 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:22:11 [System] signOut 
+20170408@16:22:29 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:22:29 [System] signOut 
+20170408@16:22:29 [System] signIn 
+20170408@16:22:31 [System] getPhotoEntities 
+20170408@16:22:31 [System] getShopInfo 
+20170408@16:22:31 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@16:22:31 [System] GVPetInfoOverview_DataBound 
+20170408@16:22:31 [System] GVShopInfoOverview_DataBound 
+20170408@16:23:29 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@16:23:29 [System] signOut 
+20170408@16:23:29 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:23:29 [System] signOut 
+20170408@16:23:40 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:23:40 [System] signOut 
+20170408@16:23:40 [System] signIn 
+20170408@16:23:40 [System] MessageHandler : Invalid email or password 
+20170408@16:23:42 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:23:42 [System] signOut 
+20170408@16:23:42 [System] signIn 
+20170408@16:23:42 [System] MessageHandler : Invalid email or password 
+20170408@16:23:44 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:23:44 [System] signOut 
+20170408@16:23:44 [System] signIn 
+20170408@16:23:44 [System] MessageHandler : Invalid email or password 
+20170408@16:24:18 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:24:18 [System] signOut 
+20170408@16:24:18 [System] signIn 
+20170408@16:24:18 [System] getPhotoEntities 
+20170408@16:24:18 [System] getShopInfo 
+20170408@16:24:18 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:24:19 [System] signOut 
+20170408@16:24:19 [System] signIn 
+20170408@16:24:19 [System] getPhotoEntities 
+20170408@16:24:19 [System] getShopInfo 
+20170408@16:24:19 [System] getShopTime 
+20170408@16:24:19 [System] getPhotoEntities 
+20170408@16:24:19 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@16:24:19 [System] GVPetInfoOverview_DataBound 
+20170408@16:24:19 [System] GVShopInfoOverview_DataBound 
+20170408@16:24:24 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:24:30 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:24:30 [System] GVShopInfoOverview_DataBound 
+20170408@16:24:33 [System] Page loaded: http://localhost:65063/adminshopinfoadd.aspx 
+20170408@16:24:33 [System] initializeUIControlValues 
+20170408@16:24:36 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:24:36 [System] GVShopInfoOverview_DataBound 
+20170408@16:24:38 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:24:38 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@16:24:38 [System] initializeUIControlValues 
+20170408@16:24:38 [System] getShopInfo 
+20170408@16:24:38 [System] getShopTime 
+20170408@16:24:38 [System] getPhotoEntities 
+20170408@16:24:38 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@16:24:39 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:24:39 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@16:24:39 [System] initializeUIControlValues 
+20170408@16:24:39 [System] getShopInfo 
+20170408@16:24:39 [System] getShopTime 
+20170408@16:24:39 [System] getPhotoEntities 
+20170408@16:24:39 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@16:24:50 [System] Page loaded: http://localhost:65063/adminadoptioninfoadd.aspx 
+20170408@16:24:52 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:24:55 [System] signOut 
+20170408@16:24:55 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:24:55 [System] signOut 
+20170408@16:25:01 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:25:01 [System] signOut 
+20170408@16:25:01 [System] signIn 
+20170408@16:25:01 [System] getPhotoEntities 
+20170408@16:25:01 [System] getShopInfo 
+20170408@16:25:02 [System] getShopTime 
+20170408@16:25:02 [System] getPhotoEntities 
+20170408@16:25:02 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@16:25:02 [System] GVPetInfoOverview_DataBound 
+20170408@16:25:02 [System] GVShopInfoOverview_DataBound 
+20170408@16:25:04 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:25:04 [System] GVAdoptInfoOverview_DataBound 
+20170408@16:25:06 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:25:06 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170408@16:25:06 [System] getAdoptInfoEntity 
+20170408@16:25:07 [System] getShopInfo 
+20170408@16:25:07 [System] getShopTime 
+20170408@16:25:07 [System] getPhotoEntities 
+20170408@16:25:07 [System] getPhotoEntities 
+20170408@16:25:07 [System] GVRowID: 35 
+20170408@16:25:07 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170408@16:27:50 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:27:50 [System] filterAdoptionInfoData 
+20170408@16:27:50 [System] GVAdoptInfoOverview_DataBound 
+20170408@16:27:51 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:27:57 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170408@16:27:57 [System] loadAccountInfo 
+20170408@16:27:57 [System] loadShopInfo 
+20170408@16:28:03 [System] Page loaded: http://localhost:65063/adminshopinfoadd.aspx 
+20170408@16:28:05 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:28:05 [System] GVAdoptInfoOverview_DataBound 
+20170408@16:28:07 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:28:07 [System] filterAdoptionInfoData 
+20170408@16:28:07 [System] GVAdoptInfoOverview_DataBound 
+20170408@16:36:05 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:36:05 [System] No account logged in 
+20170408@16:36:05 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:36:06 [System] signOut 
+20170408@16:36:10 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:36:10 [System] signOut 
+20170408@16:36:10 [System] signIn 
+20170408@16:36:10 [System] getPhotoEntities 
+20170408@16:36:10 [System] getShopInfo 
+20170408@16:36:11 [System] getShopTime 
+20170408@16:36:11 [System] getPhotoEntities 
+20170408@16:36:11 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@16:36:11 [System] GVPetInfoOverview_DataBound 
+20170408@16:36:11 [System] GVShopInfoOverview_DataBound 
+20170408@16:36:13 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:36:14 [System] GVAdoptInfoOverview_DataBound 
+20170408@16:36:19 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:36:19 [System] signOut 
+20170408@16:36:19 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:36:20 [System] signOut 
+20170408@16:36:30 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:36:30 [System] signOut 
+20170408@16:36:30 [System] signIn 
+20170408@16:36:30 [System] MessageHandler : Invalid email or password 
+20170408@16:36:35 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:36:35 [System] signOut 
+20170408@16:36:35 [System] signIn 
+20170408@16:36:35 [System] MessageHandler : Invalid email or password 
+20170408@16:36:50 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:36:50 [System] signOut 
+20170408@16:36:50 [System] signIn 
+20170408@16:36:50 [System] getPhotoEntities 
+20170408@16:36:50 [System] getShopInfo 
+20170408@16:36:50 [System] getShopTime 
+20170408@16:36:50 [System] getPhotoEntities 
+20170408@16:36:51 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@16:36:51 [System] GVPetInfoOverview_DataBound 
+20170408@16:36:51 [System] GVShopInfoOverview_DataBound 
+20170408@16:36:53 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:36:53 [System] GVAdoptInfoOverview_DataBound 
+20170408@16:37:06 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:37:06 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170408@16:37:06 [System] getAdoptInfoEntity 
+20170408@16:37:06 [System] getShopInfo 
+20170408@16:37:06 [System] getShopTime 
+20170408@16:37:06 [System] getPhotoEntities 
+20170408@16:37:06 [System] getPhotoEntities 
+20170408@16:37:06 [System] GVRowID: 36 
+20170408@16:37:06 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170408@16:39:30 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:39:31 [System] GVAdoptInfoOverview_DataBound 
+20170408@16:39:33 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@16:39:33 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170408@16:39:33 [System] getAdoptInfoEntity 
+20170408@16:39:33 [System] getShopInfo 
+20170408@16:39:33 [System] getShopTime 
+20170408@16:39:33 [System] getPhotoEntities 
+20170408@16:39:34 [System] getPhotoEntities 
+20170408@16:39:34 [System] GVRowID: 37 
+20170408@16:39:34 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170408@16:41:42 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:41:46 [System] signOut 
+20170408@16:41:46 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:41:46 [System] signOut 
+20170408@16:41:50 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:41:50 [System] signOut 
+20170408@16:41:50 [System] signIn 
+20170408@16:41:50 [System] getPhotoEntities 
+20170408@16:41:50 [System] getShopInfo 
+20170408@16:41:50 [System] getShopTime 
+20170408@16:41:50 [System] getPhotoEntities 
+20170408@16:41:52 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@16:41:52 [System] GVPetInfoOverview_DataBound 
+20170408@16:41:52 [System] GVShopInfoOverview_DataBound 
+20170408@16:41:57 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:41:57 [System] GVShopInfoOverview_DataBound 
+20170408@16:42:11 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:42:11 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@16:42:11 [System] initializeUIControlValues 
+20170408@16:42:11 [System] getShopInfo 
+20170408@16:42:11 [System] getShopTime 
+20170408@16:42:11 [System] getPhotoEntities 
+20170408@16:42:11 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@16:47:42 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:47:42 [System] GVShopInfoOverview_DataBound 
+20170408@16:47:45 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:47:45 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@16:47:45 [System] initializeUIControlValues 
+20170408@16:47:45 [System] getShopInfo 
+20170408@16:47:46 [System] getShopTime 
+20170408@16:47:46 [System] getPhotoEntities 
+20170408@16:47:46 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@16:49:31 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:49:31 [System] signOut 
+20170408@16:49:31 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:49:31 [System] signOut 
+20170408@16:49:45 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:49:45 [System] signOut 
+20170408@16:49:45 [System] signIn 
+20170408@16:49:45 [System] getPhotoEntities 
+20170408@16:49:45 [System] getShopInfo 
+20170408@16:49:45 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@16:49:46 [System] GVPetInfoOverview_DataBound 
+20170408@16:49:46 [System] GVShopInfoOverview_DataBound 
+20170408@16:49:48 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:49:50 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:49:50 [System] BTNGenerate_Click 
+20170408@16:49:50 [System] getShopInfo 
+20170408@16:49:50 [System] getShopTime 
+20170408@16:49:50 [System] getPhotoEntities 
+20170408@16:49:51 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:49:51 [System] BTNGenerate_Click 
+20170408@16:49:51 [System] getShopInfo 
+20170408@16:49:51 [System] getShopTime 
+20170408@16:49:51 [System] getPhotoEntities 
+20170408@16:49:52 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:49:52 [System] BTNGenerate_Click 
+20170408@16:49:52 [System] getShopInfo 
+20170408@16:49:52 [System] getShopTime 
+20170408@16:49:52 [System] getPhotoEntities 
+20170408@16:49:52 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:49:57 [System] BTNGenerate_Click 
+20170408@16:49:58 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:49:58 [System] BTNGenerate_Click 
+20170408@16:49:58 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:49:58 [System] BTNGenerate_Click 
+20170408@16:49:59 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:49:59 [System] BTNGenerate_Click 
+20170408@16:49:59 [System] getShopInfo 
+20170408@16:49:59 [System] getShopTime 
+20170408@16:49:59 [System] getPhotoEntities 
+20170408@16:50:00 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:50:00 [System] BTNGenerate_Click 
+20170408@16:50:00 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:50:00 [System] BTNGenerate_Click 
+20170408@16:50:01 [System] getShopInfo 
+20170408@16:50:01 [System] getShopTime 
+20170408@16:50:01 [System] getPhotoEntities 
+20170408@16:50:14 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:50:14 [System] BTNPreview_Click 
+20170408@16:50:14 [System] saveToTempFolder 
+20170408@16:50:17 [System] Check directory: ~/uploadedFiles/temp/profileinfo/ID000/ Result: True 
+20170408@16:50:17 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/ID000/ 
+20170408@16:50:17 [System] Total files posted: 1 
+20170408@16:50:17 [System] previewPhotos 
+20170408@16:50:17 [System] ~/uploadedFiles/temp/profileinfo/ID000//ff02307f22061f6b6fcea9344a14ee4f.jpg 
+20170408@16:50:19 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:50:19 [System] MessageHandler : Contact 
+20170408@16:50:19 [System] checkEmailAddressExist 
+20170408@16:50:19 [System] No data found in getValue() 
+20170408@16:50:19 [System] createAccount 
+20170408@16:50:19 [System] Record created! 
+20170408@16:50:19 [System] Record created! 
+20170408@16:50:19 [System] createPhoto 
+20170408@16:50:19 [System] Record created! 
+20170408@16:50:19 [System] changePhotoPathToDatabaseFolder 
+20170408@16:50:19 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\profileinfo\ID000\ 
+20170408@16:50:19 [System] ~/uploadedFiles/database/profileinfo/21/ff02307f22061f6b6fcea9344a14ee4f.jpg 
+20170408@16:50:23 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:50:23 [System] GVShopInfoOverview_DataBound 
+20170408@16:52:02 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:52:02 [System] signOut 
+20170408@16:52:02 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:52:02 [System] signOut 
+20170408@16:52:06 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:52:06 [System] signOut 
+20170408@16:52:06 [System] signIn 
+20170408@16:52:06 [System] getPhotoEntities 
+20170408@16:52:06 [System] getShopInfo 
+20170408@16:52:06 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@16:52:06 [System] GVPetInfoOverview_DataBound 
+20170408@16:52:06 [System] GVShopInfoOverview_DataBound 
+20170408@16:52:11 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:52:35 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:52:35 [System] BTNGenerate_Click 
+20170408@16:52:35 [System] getShopInfo 
+20170408@16:52:35 [System] getShopTime 
+20170408@16:52:35 [System] getPhotoEntities 
+20170408@16:52:40 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:52:40 [System] BTNPreview_Click 
+20170408@16:52:40 [System] saveToTempFolder 
+20170408@16:52:40 [System] Check directory: ~/uploadedFiles/temp/profileinfo/ID000/ Result: True 
+20170408@16:52:40 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/ID000/ 
+20170408@16:52:40 [System] Total files posted: 1 
+20170408@16:52:40 [System] previewPhotos 
+20170408@16:52:40 [System] ~/uploadedFiles/temp/profileinfo/ID000//vintage-road-hd-wallpaper.jpg 
+20170408@16:52:44 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:52:44 [System] BTNGenerate_Click 
+20170408@16:52:46 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:52:46 [System] BTNGenerate_Click 
+20170408@16:52:46 [System] getShopInfo 
+20170408@16:52:46 [System] getShopTime 
+20170408@16:52:46 [System] getPhotoEntities 
+20170408@16:52:51 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:52:51 [System] BTNPreview_Click 
+20170408@16:52:51 [System] saveToTempFolder 
+20170408@16:52:51 [System] Check directory: ~/uploadedFiles/temp/profileinfo/ID000/ Result: True 
+20170408@16:52:51 [System] Removing old files: ~/uploadedFiles/temp/profileinfo/ID000/ 
+20170408@16:52:51 [System] Total files posted: 1 
+20170408@16:52:51 [System] previewPhotos 
+20170408@16:52:51 [System] ~/uploadedFiles/temp/profileinfo/ID000//vintage-road-hd-wallpaper.jpg 
+20170408@16:52:54 [System] Page loaded: http://localhost:65063/adminsystemaccountadd.aspx 
+20170408@16:52:54 [System] MessageHandler : Contact 
+20170408@16:52:54 [System] checkEmailAddressExist 
+20170408@16:52:54 [System] No data found in getValue() 
+20170408@16:52:54 [System] createAccount 
+20170408@16:52:54 [System] Record created! 
+20170408@16:52:54 [System] Record created! 
+20170408@16:52:54 [System] createPhoto 
+20170408@16:52:54 [System] Record created! 
+20170408@16:52:54 [System] changePhotoPathToDatabaseFolder 
+20170408@16:52:54 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\profileinfo\ID000\ 
+20170408@16:52:54 [System] ~/uploadedFiles/database/profileinfo/22/Vintage-Road-HD-Wallpaper.jpg 
+20170408@16:52:57 [System] Page loaded: http://localhost:65063/adminsystemaccountedit.aspx 
+20170408@16:52:57 [System] clearStaticData 
+20170408@16:52:57 [System] GVSystemAccountOverview_DataBound 
+20170408@16:53:12 [System] Page loaded: http://localhost:65063/adminsystemaccountedit.aspx 
+20170408@16:53:12 [System] signOut 
+20170408@16:53:12 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:53:12 [System] signOut 
+20170408@16:53:17 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@16:53:17 [System] signOut 
+20170408@16:53:17 [System] signIn 
+20170408@16:53:17 [System] getPhotoEntities 
+20170408@16:53:17 [System] getShopInfo 
+20170408@16:53:17 [System] getShopTime 
+20170408@16:53:17 [System] getPhotoEntities 
+20170408@16:53:17 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@16:53:17 [System] GVPetInfoOverview_DataBound 
+20170408@16:53:17 [System] GVShopInfoOverview_DataBound 
+20170408@16:53:21 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170408@16:53:21 [System] loadAccountInfo 
+20170408@16:53:21 [System] loadShopInfo 
+20170408@16:53:24 [System] Page loaded: http://localhost:65063/adminprofile.aspx 
+20170408@16:53:31 [System] Page loaded: http://localhost:65063/adminshopinfoadd.aspx 
+20170408@16:53:32 [System] initializeUIControlValues 
+20170408@16:53:36 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:53:36 [System] GVShopInfoOverview_DataBound 
+20170408@16:54:05 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:54:05 [System] GVShopInfoOverview_DataBound 
+20170408@16:54:07 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:54:07 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@16:54:07 [System] initializeUIControlValues 
+20170408@16:54:07 [System] getShopInfo 
+20170408@16:54:07 [System] getShopTime 
+20170408@16:54:07 [System] getPhotoEntities 
+20170408@16:54:07 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@16:59:56 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:59:56 [System] GVShopInfoOverview_DataBound 
+20170408@16:59:58 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@16:59:58 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@16:59:58 [System] initializeUIControlValues 
+20170408@16:59:58 [System] getShopInfo 
+20170408@16:59:58 [System] getShopTime 
+20170408@16:59:58 [System] getPhotoEntities 
+20170408@16:59:58 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@16:59:59 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:00 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:00 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:01 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:01 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:02 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:07 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:10 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:10 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:10 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:11 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:11 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:11 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:11 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:12 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:12 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:12 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:14 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:14 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:15 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:15 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:15 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:17 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:17 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:54 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:00:54 [System] No account logged in 
+20170408@17:00:54 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:00:54 [System] signOut 
+20170408@17:01:03 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:01:03 [System] signOut 
+20170408@17:01:03 [System] signIn 
+20170408@17:01:03 [System] getPhotoEntities 
+20170408@17:01:03 [System] getShopInfo 
+20170408@17:01:03 [System] getShopTime 
+20170408@17:01:04 [System] getPhotoEntities 
+20170408@17:01:04 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:01:04 [System] GVPetInfoOverview_DataBound 
+20170408@17:01:04 [System] GVShopInfoOverview_DataBound 
+20170408@17:01:07 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:01:07 [System] GVShopInfoOverview_DataBound 
+20170408@17:01:09 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:01:09 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:01:09 [System] initializeUIControlValues 
+20170408@17:01:09 [System] getShopInfo 
+20170408@17:01:09 [System] getShopTime 
+20170408@17:01:09 [System] getPhotoEntities 
+20170408@17:01:09 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:01:10 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:01:24 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:01:28 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:01:28 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:01:29 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:01:30 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:01:31 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:01:33 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:01:34 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:02:59 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:02:59 [System] GVShopInfoOverview_DataBound 
+20170408@17:03:03 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:03:03 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:03:03 [System] initializeUIControlValues 
+20170408@17:03:03 [System] getShopInfo 
+20170408@17:03:03 [System] getShopTime 
+20170408@17:03:03 [System] getPhotoEntities 
+20170408@17:03:03 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:03:04 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:03:12 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:03:13 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:07:03 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:07:03 [System] GVShopInfoOverview_DataBound 
+20170408@17:07:06 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:07:06 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:07:06 [System] initializeUIControlValues 
+20170408@17:07:06 [System] getShopInfo 
+20170408@17:07:06 [System] getShopTime 
+20170408@17:07:06 [System] getPhotoEntities 
+20170408@17:07:06 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:10:17 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:10:17 [System] GVShopInfoOverview_DataBound 
+20170408@17:10:19 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:10:19 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:10:19 [System] initializeUIControlValues 
+20170408@17:10:19 [System] getShopInfo 
+20170408@17:10:19 [System] getShopTime 
+20170408@17:10:19 [System] getPhotoEntities 
+20170408@17:10:20 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:10:59 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:11:52 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:11:52 [System] GVShopInfoOverview_DataBound 
+20170408@17:11:56 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:11:56 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:11:56 [System] initializeUIControlValues 
+20170408@17:11:56 [System] getShopInfo 
+20170408@17:11:56 [System] getShopTime 
+20170408@17:11:56 [System] getPhotoEntities 
+20170408@17:11:56 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:12:02 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:12:49 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:12:52 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:12:54 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:12:59 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:13:00 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:13:00 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:13:01 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:13:02 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:14:13 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:14:13 [System] BTNPreview_Click 
+20170408@17:14:13 [System] saveToTempFolder 
+20170408@17:14:13 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170408@17:14:13 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170408@17:14:13 [System] Total files posted: 1 
+20170408@17:14:13 [System] previewPhotos 
+20170408@17:14:13 [System] ~/uploadedFiles/temp/shopinfo/ID000//vintage-road-hd-wallpaper.jpg 
+20170408@17:14:14 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:14:14 [System] updateShopInfo 
+20170408@17:14:15 [System] Record updated! 
+20170408@17:14:15 [System] deleteShopTime 
+20170408@17:14:15 [System] Record deleted! 
+20170408@17:14:15 [System] createShopTime 
+20170408@17:14:15 [System] Record created! 
+20170408@17:14:15 [System] Record created! 
+20170408@17:14:15 [System] Record created! 
+20170408@17:14:15 [System] Record created! 
+20170408@17:14:15 [System] changePhotoPathToDatabaseFolder 
+20170408@17:14:15 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170408@17:14:15 [System] ~/uploadedFiles/database/shopinfo/32/Vintage-Road-HD-Wallpaper.jpg 
+20170408@17:14:15 [System] deletePhoto 
+20170408@17:14:15 [System] Record not deleted! Please check through given parameter values 
+20170408@17:14:15 [System] createPhoto 
+20170408@17:14:15 [System] Record created! 
+20170408@17:14:15 [System] GVShopInfoOverview_DataBound 
+20170408@17:14:15 [System] filterShopInfoData 
+20170408@17:14:15 [System] GVShopInfoOverview_DataBound 
+20170408@17:14:36 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:14:36 [System] filterShopInfoData 
+20170408@17:14:36 [System] GVShopInfoOverview_DataBound 
+20170408@17:14:38 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:14:38 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:14:38 [System] initializeUIControlValues 
+20170408@17:14:38 [System] getShopInfo 
+20170408@17:14:38 [System] getShopTime 
+20170408@17:14:38 [System] getPhotoEntities 
+20170408@17:14:38 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:14:39 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:14:39 [System] filterShopInfoData 
+20170408@17:14:40 [System] GVShopInfoOverview_DataBound 
+20170408@17:14:44 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:14:44 [System] filterShopInfoData 
+20170408@17:14:44 [System] GVShopInfoOverview_DataBound 
+20170408@17:14:46 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:14:46 [System] filterShopInfoData 
+20170408@17:14:46 [System] GVShopInfoOverview_DataBound 
+20170408@17:15:58 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:15:58 [System] signOut 
+20170408@17:15:58 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:15:58 [System] signOut 
+20170408@17:16:02 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:16:02 [System] signOut 
+20170408@17:16:02 [System] signIn 
+20170408@17:16:02 [System] getPhotoEntities 
+20170408@17:16:03 [System] getShopInfo 
+20170408@17:16:03 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:16:03 [System] GVPetInfoOverview_DataBound 
+20170408@17:16:03 [System] GVShopInfoOverview_DataBound 
+20170408@17:16:07 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:16:47 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:17:03 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:17:05 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:17:05 [System] GVPetInfoOverview_DataBound 
+20170408@17:17:05 [System] GVShopInfoOverview_DataBound 
+20170408@17:17:08 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:17:44 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:17:44 [System] GVShopInfoOverview_DataBound 
+20170408@17:18:14 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:18:15 [System] GVShopInfoOverview_DataBound 
+20170408@17:19:38 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:19:44 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:19:44 [System] GVShopInfoOverview_DataBound 
+20170408@17:19:51 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:19:51 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:19:51 [System] initializeUIControlValues 
+20170408@17:19:51 [System] getShopInfo 
+20170408@17:19:51 [System] getShopTime 
+20170408@17:19:51 [System] getPhotoEntities 
+20170408@17:19:51 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:19:55 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:19:55 [System] BTNPreview_Click 
+20170408@17:19:55 [System] saveToTempFolder 
+20170408@17:19:55 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170408@17:19:55 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170408@17:19:55 [System] Total files posted: 1 
+20170408@17:19:55 [System] previewPhotos 
+20170408@17:19:55 [System] ~/uploadedFiles/temp/shopinfo/ID000//vintage-road-hd-wallpaper.jpg 
+20170408@17:19:58 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:19:58 [System] updateShopInfo 
+20170408@17:19:58 [System] Record updated! 
+20170408@17:19:58 [System] deleteShopTime 
+20170408@17:19:58 [System] Record deleted! 
+20170408@17:19:58 [System] createShopTime 
+20170408@17:19:58 [System] Record created! 
+20170408@17:19:58 [System] Record created! 
+20170408@17:19:59 [System] Record created! 
+20170408@17:19:59 [System] Record created! 
+20170408@17:19:59 [System] changePhotoPathToDatabaseFolder 
+20170408@17:19:59 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170408@17:19:59 [System] ~/uploadedFiles/database/shopinfo/40/Vintage-Road-HD-Wallpaper.jpg 
+20170408@17:19:59 [System] deletePhoto 
+20170408@17:19:59 [System] Record not deleted! Please check through given parameter values 
+20170408@17:19:59 [System] createPhoto 
+20170408@17:19:59 [System] Record created! 
+20170408@17:19:59 [System] GVShopInfoOverview_DataBound 
+20170408@17:19:59 [System] filterShopInfoData 
+20170408@17:19:59 [System] GVShopInfoOverview_DataBound 
+20170408@17:20:06 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:20:06 [System] signOut 
+20170408@17:20:06 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:20:06 [System] signOut 
+20170408@17:20:12 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:20:12 [System] signOut 
+20170408@17:20:12 [System] signIn 
+20170408@17:20:12 [System] MessageHandler : Invalid email or password 
+20170408@17:20:16 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:20:16 [System] signOut 
+20170408@17:20:16 [System] signIn 
+20170408@17:20:17 [System] getPhotoEntities 
+20170408@17:20:17 [System] getShopInfo 
+20170408@17:20:17 [System] getShopTime 
+20170408@17:20:17 [System] getPhotoEntities 
+20170408@17:20:17 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:20:17 [System] GVPetInfoOverview_DataBound 
+20170408@17:20:17 [System] GVShopInfoOverview_DataBound 
+20170408@17:20:19 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:20:22 [System] signOut 
+20170408@17:20:22 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:20:22 [System] signOut 
+20170408@17:20:28 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:20:28 [System] signOut 
+20170408@17:20:28 [System] signIn 
+20170408@17:20:28 [System] getPhotoEntities 
+20170408@17:20:28 [System] getShopInfo 
+20170408@17:20:28 [System] getShopTime 
+20170408@17:20:28 [System] getPhotoEntities 
+20170408@17:20:28 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:20:28 [System] GVPetInfoOverview_DataBound 
+20170408@17:20:28 [System] GVShopInfoOverview_DataBound 
+20170408@17:20:31 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:20:31 [System] GVShopInfoOverview_DataBound 
+20170408@17:20:33 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:20:33 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:20:33 [System] initializeUIControlValues 
+20170408@17:20:33 [System] getShopInfo 
+20170408@17:20:33 [System] getShopTime 
+20170408@17:20:33 [System] getPhotoEntities 
+20170408@17:20:33 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:20:38 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:20:38 [System] BTNPreview_Click 
+20170408@17:20:38 [System] saveToTempFolder 
+20170408@17:20:38 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170408@17:20:38 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170408@17:20:38 [System] Total files posted: 1 
+20170408@17:20:38 [System] previewPhotos 
+20170408@17:20:38 [System] ~/uploadedFiles/temp/shopinfo/ID000//vintage-flower-hd-wallpaper.jpg 
+20170408@17:20:40 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:20:40 [System] updateShopInfo 
+20170408@17:20:40 [System] Record updated! 
+20170408@17:20:40 [System] deleteShopTime 
+20170408@17:20:40 [System] Record deleted! 
+20170408@17:20:40 [System] createShopTime 
+20170408@17:20:40 [System] Record created! 
+20170408@17:20:40 [System] Record created! 
+20170408@17:20:40 [System] Record created! 
+20170408@17:20:40 [System] Record created! 
+20170408@17:20:40 [System] changePhotoPathToDatabaseFolder 
+20170408@17:20:40 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170408@17:20:40 [System] ~/uploadedFiles/database/shopinfo/32/Vintage-Flower-HD-Wallpaper.jpg 
+20170408@17:20:40 [System] deletePhoto 
+20170408@17:20:40 [System] Record deleted! 
+20170408@17:20:40 [System] createPhoto 
+20170408@17:20:40 [System] Record created! 
+20170408@17:20:40 [System] GVShopInfoOverview_DataBound 
+20170408@17:20:41 [System] filterShopInfoData 
+20170408@17:20:41 [System] GVShopInfoOverview_DataBound 
+20170408@17:23:42 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:23:42 [System] GVShopInfoOverview_DataBound 
+20170408@17:23:44 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:23:44 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:23:44 [System] initializeUIControlValues 
+20170408@17:23:44 [System] getShopInfo 
+20170408@17:23:44 [System] getShopTime 
+20170408@17:23:44 [System] getPhotoEntities 
+20170408@17:23:44 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:23:48 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:23:48 [System] BTNPreview_Click 
+20170408@17:23:48 [System] saveToTempFolder 
+20170408@17:23:48 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170408@17:23:48 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170408@17:23:48 [System] Total files posted: 1 
+20170408@17:23:48 [System] previewPhotos 
+20170408@17:23:48 [System] ~/uploadedFiles/temp/shopinfo/ID000//vintage-road-hd-wallpaper.jpg 
+20170408@17:23:50 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:23:50 [System] updateShopInfo 
+20170408@17:23:50 [System] Record updated! 
+20170408@17:23:50 [System] deleteShopTime 
+20170408@17:23:50 [System] Record deleted! 
+20170408@17:23:50 [System] createShopTime 
+20170408@17:23:50 [System] Record created! 
+20170408@17:23:50 [System] Record created! 
+20170408@17:23:50 [System] Record created! 
+20170408@17:23:50 [System] Record created! 
+20170408@17:23:50 [System] changePhotoPathToDatabaseFolder 
+20170408@17:23:50 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170408@17:23:50 [System] ~/uploadedFiles/database/shopinfo/32/Vintage-Road-HD-Wallpaper.jpg 
+20170408@17:23:50 [System] deletePhoto 
+20170408@17:23:50 [System] Record deleted! 
+20170408@17:23:50 [System] createPhoto 
+20170408@17:23:50 [System] Record created! 
+20170408@17:23:50 [System] filterShopInfoData 
+20170408@17:23:50 [System] GVShopInfoOverview_DataBound 
+20170408@17:24:37 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:24:37 [System] GVShopInfoOverview_DataBound 
+20170408@17:24:39 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:24:39 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:24:39 [System] initializeUIControlValues 
+20170408@17:24:39 [System] getShopInfo 
+20170408@17:24:39 [System] getShopTime 
+20170408@17:24:40 [System] getPhotoEntities 
+20170408@17:24:40 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:24:44 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:24:44 [System] BTNPreview_Click 
+20170408@17:24:44 [System] saveToTempFolder 
+20170408@17:24:44 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170408@17:24:44 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170408@17:24:44 [System] Total files posted: 1 
+20170408@17:24:44 [System] previewPhotos 
+20170408@17:24:44 [System] ~/uploadedFiles/temp/shopinfo/ID000//vintage-flower-hd-wallpaper.jpg 
+20170408@17:24:45 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:24:45 [System] updateShopInfo 
+20170408@17:24:45 [System] Record updated! 
+20170408@17:24:45 [System] deleteShopTime 
+20170408@17:24:45 [System] Record deleted! 
+20170408@17:24:46 [System] createShopTime 
+20170408@17:24:46 [System] Record created! 
+20170408@17:24:46 [System] Record created! 
+20170408@17:24:46 [System] Record created! 
+20170408@17:24:46 [System] Record created! 
+20170408@17:24:46 [System] changePhotoPathToDatabaseFolder 
+20170408@17:24:46 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170408@17:24:46 [System] ~/uploadedFiles/database/shopinfo/32/Vintage-Flower-HD-Wallpaper.jpg 
+20170408@17:24:46 [System] deletePhoto 
+20170408@17:24:46 [System] Record deleted! 
+20170408@17:24:46 [System] createPhoto 
+20170408@17:24:46 [System] Record created! 
+20170408@17:24:46 [System] filterShopInfoData 
+20170408@17:24:46 [System] GVShopInfoOverview_DataBound 
+20170408@17:26:09 [System] Page loaded: http://localhost:65063/adoption.aspx 
+20170408@17:26:09 [System] No account logged in 
+20170408@17:26:09 [System] getAdoptInfoEntities 
+20170408@17:26:11 [System] getShopInfo 
+20170408@17:26:11 [System] getShopTime 
+20170408@17:26:11 [System] getPhotoEntities 
+20170408@17:26:11 [System] getPhotoEntities 
+20170408@17:26:11 [System] getShopInfo 
+20170408@17:26:11 [System] getShopTime 
+20170408@17:26:11 [System] getPhotoEntities 
+20170408@17:26:11 [System] getPhotoEntities 
+20170408@17:26:12 [System] getShopInfo 
+20170408@17:26:12 [System] getShopTime 
+20170408@17:26:12 [System] getPhotoEntities 
+20170408@17:26:12 [System] getPhotoEntities 
+20170408@17:26:12 [System] getShopInfo 
+20170408@17:26:12 [System] getShopTime 
+20170408@17:26:12 [System] getPhotoEntities 
+20170408@17:26:12 [System] getPhotoEntities 
+20170408@17:26:13 [System] getShopInfo 
+20170408@17:26:13 [System] getShopTime 
+20170408@17:26:13 [System] getPhotoEntities 
+20170408@17:26:13 [System] getPhotoEntities 
+20170408@17:26:13 [System] getShopInfo 
+20170408@17:26:13 [System] getShopTime 
+20170408@17:26:13 [System] getPhotoEntities 
+20170408@17:26:13 [System] getPhotoEntities 
+20170408@17:26:13 [System] getShopInfo 
+20170408@17:26:13 [System] getShopTime 
+20170408@17:26:13 [System] getPhotoEntities 
+20170408@17:26:13 [System] getPhotoEntities 
+20170408@17:26:13 [System] getShopInfo 
+20170408@17:26:13 [System] getShopTime 
+20170408@17:26:14 [System] getPhotoEntities 
+20170408@17:26:14 [System] getPhotoEntities 
+20170408@17:26:14 [System] getShopInfo 
+20170408@17:26:14 [System] getShopTime 
+20170408@17:26:14 [System] getPhotoEntities 
+20170408@17:26:14 [System] getPhotoEntities 
+20170408@17:26:14 [System] getShopInfo 
+20170408@17:26:14 [System] getShopTime 
+20170408@17:26:14 [System] getPhotoEntities 
+20170408@17:26:14 [System] getPhotoEntities 
+20170408@17:26:14 [System] getShopInfo 
+20170408@17:26:14 [System] getShopTime 
+20170408@17:26:14 [System] getPhotoEntities 
+20170408@17:26:14 [System] getPhotoEntities 
+20170408@17:26:14 [System] getPhotoEntity 
+20170408@17:26:14 [System] getPhotoEntity 
+20170408@17:26:15 [System] getPhotoEntity 
+20170408@17:26:15 [System] getPhotoEntity 
+20170408@17:26:15 [System] getPhotoEntity 
+20170408@17:26:15 [System] getPhotoEntity 
+20170408@17:26:15 [System] getPhotoEntity 
+20170408@17:26:15 [System] getPhotoEntity 
+20170408@17:26:15 [System] getPhotoEntity 
+20170408@17:26:15 [System] getPhotoEntity 
+20170408@17:26:15 [System] getPhotoEntity 
+20170408@17:26:20 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:26:20 [System] signOut 
+20170408@17:26:32 [System] Page loaded: http://localhost:65063/adminaccount.aspx 
+20170408@17:26:32 [System] No account logged in 
+20170408@17:26:32 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:26:32 [System] signOut 
+20170408@17:26:40 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:26:40 [System] signOut 
+20170408@17:26:40 [System] signIn 
+20170408@17:26:40 [System] getPhotoEntities 
+20170408@17:26:40 [System] getShopInfo 
+20170408@17:26:40 [System] getShopTime 
+20170408@17:26:40 [System] getPhotoEntities 
+20170408@17:26:40 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:26:41 [System] GVPetInfoOverview_DataBound 
+20170408@17:26:41 [System] GVShopInfoOverview_DataBound 
+20170408@17:26:46 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:26:46 [System] GVShopInfoOverview_DataBound 
+20170408@17:26:48 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:26:48 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:26:48 [System] initializeUIControlValues 
+20170408@17:26:48 [System] getShopInfo 
+20170408@17:26:49 [System] getShopTime 
+20170408@17:26:49 [System] getPhotoEntities 
+20170408@17:26:49 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:26:52 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:26:52 [System] BTNPreview_Click 
+20170408@17:26:52 [System] saveToTempFolder 
+20170408@17:26:52 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170408@17:26:52 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170408@17:26:52 [System] Total files posted: 1 
+20170408@17:26:52 [System] previewPhotos 
+20170408@17:26:52 [System] ~/uploadedFiles/temp/shopinfo/ID000//vintage-road-hd-wallpaper.jpg 
+20170408@17:26:56 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:26:56 [System] updateShopInfo 
+20170408@17:26:56 [System] Record updated! 
+20170408@17:26:56 [System] deleteShopTime 
+20170408@17:26:56 [System] Record deleted! 
+20170408@17:26:56 [System] createShopTime 
+20170408@17:26:56 [System] Record created! 
+20170408@17:26:56 [System] Record created! 
+20170408@17:26:56 [System] Record created! 
+20170408@17:26:56 [System] Record created! 
+20170408@17:26:56 [System] changePhotoPathToDatabaseFolder 
+20170408@17:26:56 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170408@17:26:56 [System] ~/uploadedFiles/database/shopinfo/32/Vintage-Road-HD-Wallpaper.jpg 
+20170408@17:26:56 [System] deletePhoto 
+20170408@17:26:56 [System] Record deleted! 
+20170408@17:26:56 [System] createPhoto 
+20170408@17:26:56 [System] Record created! 
+20170408@17:27:22 [System] filterShopInfoData 
+20170408@17:27:22 [System] GVShopInfoOverview_DataBound 
+20170408@17:32:57 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:32:57 [System] signOut 
+20170408@17:36:30 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:36:30 [System] signOut 
+20170408@17:36:30 [System] signIn 
+20170408@17:36:31 [System] getPhotoEntities 
+20170408@17:36:31 [System] getShopInfo 
+20170408@17:36:31 [System] getShopTime 
+20170408@17:36:31 [System] getPhotoEntities 
+20170408@17:36:31 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:36:31 [System] GVPetInfoOverview_DataBound 
+20170408@17:36:31 [System] GVShopInfoOverview_DataBound 
+20170408@17:36:35 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:36:35 [System] GVShopInfoOverview_DataBound 
+20170408@17:37:20 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:37:20 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:37:20 [System] initializeUIControlValues 
+20170408@17:37:20 [System] getShopInfo 
+20170408@17:37:20 [System] getShopTime 
+20170408@17:37:20 [System] getPhotoEntities 
+20170408@17:37:20 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:37:28 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:37:28 [System] BTNPreview_Click 
+20170408@17:37:28 [System] saveToTempFolder 
+20170408@17:37:28 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170408@17:37:28 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170408@17:37:28 [System] Total files posted: 1 
+20170408@17:37:28 [System] previewPhotos 
+20170408@17:37:28 [System] ~/uploadedFiles/temp/shopinfo/ID000//vintage-flower-hd-wallpaper.jpg 
+20170408@17:37:32 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:37:32 [System] updateShopInfo 
+20170408@17:37:32 [System] Record updated! 
+20170408@17:37:32 [System] deleteShopTime 
+20170408@17:37:32 [System] Record deleted! 
+20170408@17:37:32 [System] createShopTime 
+20170408@17:37:32 [System] Record created! 
+20170408@17:37:32 [System] Record created! 
+20170408@17:37:32 [System] Record created! 
+20170408@17:37:32 [System] Record created! 
+20170408@17:37:33 [System] changePhotoPathToDatabaseFolder 
+20170408@17:37:33 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170408@17:37:33 [System] ~/uploadedFiles/database/shopinfo/32/Vintage-Flower-HD-Wallpaper.jpg 
+20170408@17:37:33 [System] deletePhoto 
+20170408@17:37:33 [System] Record deleted! 
+20170408@17:37:33 [System] createPhoto 
+20170408@17:37:33 [System] Record created! 
+20170408@17:37:33 [System] GVShopInfoOverview_DataBound 
+20170408@17:37:33 [System] filterShopInfoData 
+20170408@17:37:33 [System] GVShopInfoOverview_DataBound 
+20170408@17:37:43 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:37:43 [System] GVPetInfoOverview_DataBound 
+20170408@17:37:43 [System] GVShopInfoOverview_DataBound 
+20170408@17:37:52 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:37:59 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:37:59 [System] filterShopInfoData 
+20170408@17:37:59 [System] GVShopInfoOverview_DataBound 
+20170408@17:37:59 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:38:04 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:38:04 [System] filterShopInfoData 
+20170408@17:38:04 [System] GVShopInfoOverview_DataBound 
+20170408@17:38:04 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:40:08 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:40:08 [System] GVPetInfoOverview_DataBound 
+20170408@17:40:08 [System] GVShopInfoOverview_DataBound 
+20170408@17:40:10 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:40:10 [System] filterShopInfoData 
+20170408@17:40:10 [System] GVShopInfoOverview_DataBound 
+20170408@17:40:13 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:40:13 [System] filterShopInfoData 
+20170408@17:40:13 [System] GVShopInfoOverview_DataBound 
+20170408@17:41:25 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:41:25 [System] GVPetInfoOverview_DataBound 
+20170408@17:41:25 [System] GVShopInfoOverview_DataBound 
+20170408@17:42:13 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:42:13 [System] filterShopInfoData 
+20170408@17:42:13 [System] GVShopInfoOverview_DataBound 
+20170408@17:42:16 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:42:16 [System] filterShopInfoData 
+20170408@17:42:16 [System] GVShopInfoOverview_DataBound 
+20170408@17:42:17 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:42:17 [System] filterShopInfoData 
+20170408@17:42:17 [System] GVShopInfoOverview_DataBound 
+20170408@17:42:21 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:42:21 [System] filterShopInfoData 
+20170408@17:42:21 [System] GVShopInfoOverview_DataBound 
+20170408@17:42:23 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:42:23 [System] filterShopInfoData 
+20170408@17:42:24 [System] GVShopInfoOverview_DataBound 
+20170408@17:42:25 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:42:25 [System] filterShopInfoData 
+20170408@17:42:25 [System] GVShopInfoOverview_DataBound 
+20170408@17:42:26 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:42:26 [System] filterShopInfoData 
+20170408@17:42:26 [System] GVShopInfoOverview_DataBound 
+20170408@17:42:56 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:42:56 [System] GVPetInfoOverview_DataBound 
+20170408@17:42:56 [System] GVShopInfoOverview_DataBound 
+20170408@17:42:58 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:42:58 [System] filterShopInfoData 
+20170408@17:42:58 [System] GVShopInfoOverview_DataBound 
+20170408@17:42:59 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:42:59 [System] filterShopInfoData 
+20170408@17:42:59 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:00 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:43:00 [System] filterShopInfoData 
+20170408@17:43:00 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:01 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:43:01 [System] filterShopInfoData 
+20170408@17:43:01 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:01 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:43:01 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:43:01 [System] getShopInfo 
+20170408@17:43:01 [System] getShopTime 
+20170408@17:43:02 [System] getPhotoEntities 
+20170408@17:43:02 [System] MessageHandler : (Close on Saturday) 
+20170408@17:43:02 [System] MessageHandler : (Close on Saturday) 
+20170408@17:43:02 [System] MessageHandler : (Close on Saturday) 
+20170408@17:43:02 [System] MessageHandler : (Close on Saturday) 
+20170408@17:43:02 [System] MessageHandler : (Close on Saturday) 
+20170408@17:43:02 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:43:05 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:05 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:08 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:08 [System] signOut 
+20170408@17:43:08 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:43:08 [System] signOut 
+20170408@17:43:12 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:43:12 [System] signOut 
+20170408@17:43:12 [System] signIn 
+20170408@17:43:12 [System] getPhotoEntities 
+20170408@17:43:12 [System] getShopInfo 
+20170408@17:43:12 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:43:13 [System] GVPetInfoOverview_DataBound 
+20170408@17:43:13 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:16 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:16 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:18 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:18 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:43:18 [System] initializeUIControlValues 
+20170408@17:43:18 [System] getShopInfo 
+20170408@17:43:18 [System] getShopTime 
+20170408@17:43:18 [System] getPhotoEntities 
+20170408@17:43:18 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:43:24 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:24 [System] BTNPreview_Click 
+20170408@17:43:24 [System] saveToTempFolder 
+20170408@17:43:24 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170408@17:43:24 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170408@17:43:24 [System] Total files posted: 1 
+20170408@17:43:24 [System] previewPhotos 
+20170408@17:43:24 [System] ~/uploadedFiles/temp/shopinfo/ID000//vintage-road-hd-wallpaper.jpg 
+20170408@17:43:26 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:26 [System] updateShopInfo 
+20170408@17:43:26 [System] Record updated! 
+20170408@17:43:26 [System] deleteShopTime 
+20170408@17:43:26 [System] Record deleted! 
+20170408@17:43:26 [System] createShopTime 
+20170408@17:43:26 [System] Record created! 
+20170408@17:43:26 [System] Record created! 
+20170408@17:43:26 [System] Record created! 
+20170408@17:43:26 [System] Record created! 
+20170408@17:43:26 [System] Record created! 
+20170408@17:43:26 [System] changePhotoPathToDatabaseFolder 
+20170408@17:43:26 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170408@17:43:26 [System] ~/uploadedFiles/database/shopinfo/38/Vintage-Road-HD-Wallpaper.jpg 
+20170408@17:43:26 [System] deletePhoto 
+20170408@17:43:26 [System] Record not deleted! Please check through given parameter values 
+20170408@17:43:26 [System] createPhoto 
+20170408@17:43:26 [System] Record created! 
+20170408@17:43:26 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:27 [System] filterShopInfoData 
+20170408@17:43:27 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:32 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:32 [System] signOut 
+20170408@17:43:32 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:43:32 [System] signOut 
+20170408@17:43:41 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:43:41 [System] signOut 
+20170408@17:43:41 [System] signIn 
+20170408@17:43:41 [System] getPhotoEntities 
+20170408@17:43:41 [System] getShopInfo 
+20170408@17:43:41 [System] getShopTime 
+20170408@17:43:41 [System] getPhotoEntities 
+20170408@17:43:41 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:43:41 [System] GVPetInfoOverview_DataBound 
+20170408@17:43:41 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:44 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:44 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:47 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:47 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170408@17:43:47 [System] initializeUIControlValues 
+20170408@17:43:47 [System] getShopInfo 
+20170408@17:43:47 [System] getShopTime 
+20170408@17:43:47 [System] getPhotoEntities 
+20170408@17:43:47 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170408@17:43:54 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:54 [System] updateShopInfo 
+20170408@17:43:54 [System] Record updated! 
+20170408@17:43:54 [System] deleteShopTime 
+20170408@17:43:54 [System] Record deleted! 
+20170408@17:43:54 [System] createShopTime 
+20170408@17:43:54 [System] Record created! 
+20170408@17:43:54 [System] Record created! 
+20170408@17:43:54 [System] Record created! 
+20170408@17:43:54 [System] Record created! 
+20170408@17:43:54 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:55 [System] filterShopInfoData 
+20170408@17:43:55 [System] GVShopInfoOverview_DataBound 
+20170408@17:43:58 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:43:58 [System] BTNPreview_Click 
+20170408@17:43:58 [System] saveToTempFolder 
+20170408@17:43:58 [System] Check directory: ~/uploadedFiles/temp/shopinfo/ID000/ Result: True 
+20170408@17:43:58 [System] Removing old files: ~/uploadedFiles/temp/shopinfo/ID000/ 
+20170408@17:43:58 [System] Total files posted: 1 
+20170408@17:43:58 [System] previewPhotos 
+20170408@17:43:58 [System] ~/uploadedFiles/temp/shopinfo/ID000//vintage-road-hd-wallpaper.jpg 
+20170408@17:44:00 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:44:00 [System] updateShopInfo 
+20170408@17:44:00 [System] Record updated! 
+20170408@17:44:00 [System] deleteShopTime 
+20170408@17:44:00 [System] Record deleted! 
+20170408@17:44:00 [System] createShopTime 
+20170408@17:44:00 [System] Record created! 
+20170408@17:44:00 [System] Record created! 
+20170408@17:44:00 [System] Record created! 
+20170408@17:44:00 [System] Record created! 
+20170408@17:44:00 [System] changePhotoPathToDatabaseFolder 
+20170408@17:44:00 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\shopinfo\ID000\ 
+20170408@17:44:01 [System] ~/uploadedFiles/database/shopinfo/32/Vintage-Road-HD-Wallpaper.jpg 
+20170408@17:44:01 [System] deletePhoto 
+20170408@17:44:01 [System] Record deleted! 
+20170408@17:44:01 [System] createPhoto 
+20170408@17:44:01 [System] Record created! 
+20170408@17:44:01 [System] GVShopInfoOverview_DataBound 
+20170408@17:44:01 [System] filterShopInfoData 
+20170408@17:44:01 [System] GVShopInfoOverview_DataBound 
+20170408@17:44:19 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170408@17:44:19 [System] signOut 
+20170408@17:44:19 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:44:19 [System] signOut 
+20170408@17:44:24 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:44:24 [System] signOut 
+20170408@17:44:24 [System] signIn 
+20170408@17:44:24 [System] getPhotoEntities 
+20170408@17:44:24 [System] getShopInfo 
+20170408@17:44:25 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:44:25 [System] GVPetInfoOverview_DataBound 
+20170408@17:44:25 [System] GVShopInfoOverview_DataBound 
+20170408@17:44:28 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:45:16 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:46:04 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:46:04 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:46:41 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:46:41 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:47:12 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:47:12 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:48:17 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:48:34 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:48:35 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:48:38 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:48:38 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170408@17:48:38 [System] getAdoptInfoEntity 
+20170408@17:48:38 [System] getShopInfo 
+20170408@17:48:38 [System] getShopTime 
+20170408@17:48:38 [System] getPhotoEntities 
+20170408@17:48:38 [System] getPhotoEntities 
+20170408@17:48:38 [System] GVRowID: 37 
+20170408@17:48:38 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170408@17:49:56 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:49:56 [System] BTNPreview_Click 
+20170408@17:49:56 [System] saveToTempFolder 
+20170408@17:49:56 [System] Check directory: ~/uploadedFiles/temp/pet/ID000/ Result: True 
+20170408@17:49:56 [System] Removing old files: ~/uploadedFiles/temp/pet/ID000/ 
+20170408@17:49:56 [System] Total files posted: 1 
+20170408@17:49:56 [System] previewPhotos 
+20170408@17:49:56 [System] ~/uploadedFiles/temp/pet/ID000//vintage-road-hd-wallpaper.jpg 
+20170408@17:49:58 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:49:58 [System] getShopInfo 
+20170408@17:49:58 [System] getShopTime 
+20170408@17:49:59 [System] getPhotoEntities 
+20170408@17:49:59 [System] updateAdoptInfo 
+20170408@17:49:59 [System] Record updated! 
+20170408@17:49:59 [System] updatePet 
+20170408@17:49:59 [System] Record updated! 
+20170408@17:49:59 [System] changePhotoPathToDatabaseFolder 
+20170408@17:49:59 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\pet\ID000\ 
+20170408@17:49:59 [System] ~/uploadedFiles/database/pet/37/Vintage-Road-HD-Wallpaper.jpg 
+20170408@17:49:59 [System] deletePhoto 
+20170408@17:49:59 [System] Record deleted! 
+20170408@17:49:59 [System] createPhoto 
+20170408@17:49:59 [System] Record created! 
+20170408@17:49:59 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:49:59 [System] filterAdoptionInfoData 
+20170408@17:49:59 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:50:08 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:50:08 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170408@17:50:08 [System] getAdoptInfoEntity 
+20170408@17:50:08 [System] getShopInfo 
+20170408@17:50:08 [System] getShopTime 
+20170408@17:50:08 [System] getPhotoEntities 
+20170408@17:50:08 [System] getPhotoEntities 
+20170408@17:50:08 [System] GVRowID: 37 
+20170408@17:50:08 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170408@17:50:15 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:50:15 [System] signOut 
+20170408@17:50:15 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:50:15 [System] signOut 
+20170408@17:50:24 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@17:50:24 [System] signOut 
+20170408@17:50:24 [System] signIn 
+20170408@17:50:24 [System] getPhotoEntities 
+20170408@17:50:24 [System] getShopInfo 
+20170408@17:50:24 [System] getShopTime 
+20170408@17:50:24 [System] getPhotoEntities 
+20170408@17:50:24 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170408@17:50:24 [System] GVPetInfoOverview_DataBound 
+20170408@17:50:24 [System] GVShopInfoOverview_DataBound 
+20170408@17:50:27 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:50:27 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:50:29 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:50:29 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170408@17:50:29 [System] getAdoptInfoEntity 
+20170408@17:50:29 [System] getShopInfo 
+20170408@17:50:29 [System] getShopTime 
+20170408@17:50:29 [System] getPhotoEntities 
+20170408@17:50:29 [System] getPhotoEntities 
+20170408@17:50:29 [System] GVRowID: 27 
+20170408@17:50:31 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:50:31 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170408@17:50:31 [System] getAdoptInfoEntity 
+20170408@17:50:32 [System] getShopInfo 
+20170408@17:50:32 [System] getShopTime 
+20170408@17:50:32 [System] getPhotoEntities 
+20170408@17:50:32 [System] getPhotoEntities 
+20170408@17:50:32 [System] GVRowID: 27 
+20170408@17:52:42 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:52:43 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:52:45 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:52:45 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170408@17:52:45 [System] getAdoptInfoEntity 
+20170408@17:52:45 [System] getShopInfo 
+20170408@17:52:45 [System] getShopTime 
+20170408@17:52:45 [System] getPhotoEntities 
+20170408@17:52:45 [System] getPhotoEntities 
+20170408@17:52:45 [System] GVRowID: 27 
+20170408@17:52:45 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170408@17:53:17 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:53:17 [System] BTNPreview_Click 
+20170408@17:53:17 [System] saveToTempFolder 
+20170408@17:53:17 [System] Check directory: ~/uploadedFiles/temp/pet/ID000/ Result: True 
+20170408@17:53:17 [System] Removing old files: ~/uploadedFiles/temp/pet/ID000/ 
+20170408@17:53:17 [System] Total files posted: 1 
+20170408@17:53:17 [System] previewPhotos 
+20170408@17:53:17 [System] ~/uploadedFiles/temp/pet/ID000//shihtzu001.jpg 
+20170408@17:53:19 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:53:19 [System] getShopInfo 
+20170408@17:53:19 [System] getShopTime 
+20170408@17:53:19 [System] getPhotoEntities 
+20170408@17:53:19 [System] updateAdoptInfo 
+20170408@17:53:19 [System] Record updated! 
+20170408@17:53:19 [System] updatePet 
+20170408@17:53:19 [System] Record updated! 
+20170408@17:53:19 [System] changePhotoPathToDatabaseFolder 
+20170408@17:53:19 [System] C:\Users\szean\Documents\GitHub\TheLittleOnes\WebSites\TheLittleOnes\uploadedFiles\temp\pet\ID000\ 
+20170408@17:53:19 [System] ~/uploadedFiles/database/pet/29/ShihTzu001.jpg 
+20170408@17:53:19 [System] deletePhoto 
+20170408@17:53:19 [System] Record deleted! 
+20170408@17:53:19 [System] createPhoto 
+20170408@17:53:19 [System] Record created! 
+20170408@17:53:19 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:53:19 [System] filterAdoptionInfoData 
+20170408@17:53:19 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:53:32 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:53:32 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:53:33 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:53:33 [System] GVAdoptInfoOverview_SelectedIndexChanging 
+20170408@17:53:33 [System] getAdoptInfoEntity 
+20170408@17:53:33 [System] getShopInfo 
+20170408@17:53:33 [System] getShopTime 
+20170408@17:53:33 [System] getPhotoEntities 
+20170408@17:53:34 [System] getPhotoEntities 
+20170408@17:53:34 [System] GVRowID: 27 
+20170408@17:53:34 [System] GVAdoptInfoOverview_SelectedIndexChanged 
+20170408@17:53:35 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@17:53:35 [System] getShopInfo 
+20170408@17:53:35 [System] getShopTime 
+20170408@17:53:35 [System] getPhotoEntities 
+20170408@17:53:36 [System] updateAdoptInfo 
+20170408@17:53:36 [System] Record updated! 
+20170408@17:53:36 [System] updatePet 
+20170408@17:53:36 [System] Record updated! 
+20170408@17:53:36 [System] GVAdoptInfoOverview_DataBound 
+20170408@17:53:36 [System] filterAdoptionInfoData 
+20170408@17:53:36 [System] GVAdoptInfoOverview_DataBound 
+20170408@18:08:22 [System] Page loaded: http://localhost:65063/adminadoptioninfoedit.aspx 
+20170408@18:08:22 [System] No account logged in 
+20170408@18:08:22 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@18:08:22 [System] signOut 
+20170408@18:08:58 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170408@18:08:58 [System] signOut 
+20170408@18:09:00 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:09:00 [System] No account logged in 
+20170408@18:09:29 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:09:29 [System] No account logged in 
+20170408@18:09:39 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:09:39 [System] No account logged in 
+20170408@18:10:05 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:10:05 [System] No account logged in 
+20170408@18:11:05 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:11:05 [System] No account logged in 
+20170408@18:11:11 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:11:11 [System] No account logged in 
+20170408@18:11:11 [System] BTNLogin_Click 
+20170408@18:11:11 [System] signIn 
+20170408@18:11:11 [System] MessageHandler : Either email or password is invalid 
+20170408@18:11:16 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:11:16 [System] No account logged in 
+20170408@18:11:16 [System] BTNLogin_Click 
+20170408@18:11:16 [System] signIn 
+20170408@18:11:16 [System] getPhotoEntities 
+20170408@18:11:16 [System] getShopInfo 
+20170408@18:11:16 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:11:19 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:11:19 [System] LKBTNSignOut_Click 
+20170408@18:11:19 [System] signOut 
+20170408@18:11:19 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:11:20 [System] No account logged in 
+20170408@18:40:48 [System] Page loaded: http://localhost:65063/register.aspx 
+20170408@18:40:48 [System] No account logged in 
+20170408@18:40:50 [System] Page loaded: http://localhost:65063/register.aspx 
+20170408@18:40:50 [System] No account logged in 
+20170408@18:40:50 [System] MessageHandler : Email - Cannot be empty! 
+20170408@18:40:50 [System] MessageHandler : Password - Cannot be empty! 
+20170408@18:40:50 [System] MessageHandler : Name - Cannot be empty! 
+20170408@18:40:50 [System] MessageHandler : Please ensure that all the fields are not empty 
+20170408@18:40:57 [System] Page loaded: http://localhost:65063/home.aspx 
+20170408@18:40:57 [System] No account logged in 

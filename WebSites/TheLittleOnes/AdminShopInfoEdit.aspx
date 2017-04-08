@@ -174,6 +174,7 @@
                                     <PagerStyle CssClass="pagination-G5" />
                                     <PagerSettings Mode="NumericFirstLast" PageButtonCount="5" FirstPageText="First" LastPageText="Last" NextPageText="Next" PreviousPageText="Previous" />
                                 </asp:GridView>
+                                <asp:HiddenField ID="HDFShopID" runat="server" />
                             </div>
                             <!-- div.dataTables_borderWrap -->
                         </div>
@@ -266,10 +267,10 @@
                                                 <div class="widget-main">
                                                     <asp:Label ID="Label1" runat="server" Text="Operating Hours" Font-Bold="True"></asp:Label>
                                                     <div class="form-inline">
-                                                        <asp:CheckBox ID="CHKBXCloseMonday" runat="server" CssClass=" checkbox-inline " Text="Close" />
+                                                        <asp:CheckBox ID="CHKBXCloseMonday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseMonday_CheckedChanged" />
                                                         <asp:Label ID="LBLMonday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Monday @"></asp:Label>
                                                         <div class="col-md-6 col-sm-5">
-                                                            <asp:DropDownList ID="DDLOpenTimeMonday" runat="server" CssClass="">
+                                                            <asp:DropDownList ID="DDLOpenTimeMonday" runat="server" CssClass=" disabled">
                                                                 <asp:ListItem Value="">Open Time</asp:ListItem>
                                                             </asp:DropDownList>
                                                             to
@@ -280,7 +281,7 @@
                                                     </div>
                                                     <br />
                                                     <div class="form-inline">
-                                                        <asp:CheckBox ID="CHKBXCloseTuesday" runat="server" CssClass=" checkbox-inline " Text="Close" />
+                                                        <asp:CheckBox ID="CHKBXCloseTuesday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseTuesday_CheckedChanged" />
                                                         <asp:Label ID="LBLTuesday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Tuesday @"></asp:Label>
                                                         <div class="col-md-6 col-sm-5">
                                                             <asp:DropDownList ID="DDLOpenTimeTuesday" runat="server" CssClass="">
@@ -294,7 +295,7 @@
                                                     </div>
                                                     <br />
                                                     <div class="form-inline">
-                                                        <asp:CheckBox ID="CHKBXCloseWednesday" runat="server" CssClass=" checkbox-inline " Text="Close" />
+                                                        <asp:CheckBox ID="CHKBXCloseWednesday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseWednesday_CheckedChanged" />
                                                         <asp:Label ID="LBLWednesday" runat="server" CssClass="col-md-3 col-sm-3 control-label no-padding-right" Text="Wednesday @"></asp:Label>
                                                         <div class="col-md-6 col-sm-5">
                                                             <asp:DropDownList ID="DDLOpenTimeWednesday" runat="server" CssClass="">
@@ -308,7 +309,7 @@
                                                     </div>
                                                     <br />
                                                     <div class="form-inline">
-                                                        <asp:CheckBox ID="CHKBXCloseThursday" runat="server" CssClass=" checkbox-inline " Text="Close" />
+                                                        <asp:CheckBox ID="CHKBXCloseThursday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseThursday_CheckedChanged" />
                                                         <asp:Label ID="Label5" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Thursday @"></asp:Label>
                                                         <div class="col-md-6 col-sm-5">
                                                             <asp:DropDownList ID="DDLOpenTimeThursday" runat="server" CssClass="">
@@ -322,7 +323,7 @@
                                                     </div>
                                                     <br />
                                                     <div class="form-inline">
-                                                        <asp:CheckBox ID="CHKBXCloseFriday" runat="server" CssClass=" checkbox-inline " Text="Close" />
+                                                        <asp:CheckBox ID="CHKBXCloseFriday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseFriday_CheckedChanged" />
                                                         <asp:Label ID="LBLFriday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Friday @"></asp:Label>
                                                         <div class="col-md-6 col-sm-5">
                                                             <asp:DropDownList ID="DDLOpenTimeFriday" runat="server" CssClass="">
@@ -336,7 +337,7 @@
                                                     </div>
                                                     <br />
                                                     <div class="form-inline">
-                                                        <asp:CheckBox ID="CHKBXCloseSaturday" runat="server" CssClass=" checkbox-inline " Text="Close" />
+                                                        <asp:CheckBox ID="CHKBXCloseSaturday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseSaturday_CheckedChanged"/>
                                                         <asp:Label ID="LBLSaturday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Saturday @"></asp:Label>
                                                         <div class="col-md-6 col-sm-5">
                                                             <asp:DropDownList ID="DDLOpenTimeSaturday" runat="server" CssClass="">
@@ -350,7 +351,7 @@
                                                     </div>
                                                     <br />
                                                     <div class="form-inline">
-                                                        <asp:CheckBox ID="CHKBXCloseSunday" runat="server" CssClass=" checkbox-inline " Text="Close" />
+                                                        <asp:CheckBox ID="CHKBXCloseSunday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseSunday_CheckedChanged" />
                                                         <asp:Label ID="LBLSunday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Sunday @"></asp:Label>
                                                         <div class="col-md-6 col-sm-5">
                                                             <asp:DropDownList ID="DDLOpenTimeSunday" runat="server" CssClass="">
@@ -426,7 +427,11 @@
                 <asp:SqlDataSource ID="SDSShopInfo" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT * FROM [ShopInfo] ORDER BY [shopInfoID] DESC,[shopInfoName] "></asp:SqlDataSource>
+                    SelectCommand="SELECT * FROM [ShopInfo] WHERE shopinfoID = ? ORDER BY [shopInfoID] DESC,[shopInfoName]  ">
+                    <SelectParameters>
+                        <asp:ControlParameter ControlID="HDFShopID" Name="?" PropertyName="Value" DefaultValue="0" />
+                    </SelectParameters>
+                </asp:SqlDataSource>
                 <asp:SqlDataSource ID="SDSPhoto" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"

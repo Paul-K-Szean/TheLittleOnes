@@ -29,6 +29,16 @@ public partial class AdminAdoptionInfoEdit : BasePageAdmin
         {
             // clear static data
             clearStaticData();
+            if (accountEntity.ShopInfoEntity != null)
+            {
+                HDFShopID.Value = accountEntity.ShopInfoEntity.ShopInfoID;
+            }
+            else
+            {
+                SDSAdoptInfo.SelectCommand = "SELECT AdoptInfo.shopInfoID, AdoptInfo.petID, AdoptInfo.adoptInfoID, AdoptInfo.adoptInfoStatus, Pet.petID AS Expr1, Pet.petBreed, Pet.petName, Pet.petGender, Pet.petWeight, Pet.petSize, Pet.petDesc, Pet.petEnergy, Pet.petFriendlyWithPet, Pet.petFriendlyWithPeople, Pet.petToiletTrained, Pet.petHealthInfo, ShopInfo.shopInfoID AS Expr2, ShopInfo.shopInfoName, ShopInfo.shopInfoContact, ShopInfo.shopInfoAddress, ShopInfo.shopInfoGrooming, ShopInfo.shopInfoType, ShopInfo.shopInfoDesc, ShopInfo.shopInfoCloseOnPublicHoliday FROM ((AdoptInfo INNER JOIN Pet ON AdoptInfo.petID = Pet.petID) INNER JOIN ShopInfo ON AdoptInfo.shopInfoID = ShopInfo.shopInfoID)  ORDER BY AdoptInfo.adoptInfoID DESC";
+                SDSAdoptInfo.DataBind();
+            }
+          
         }
     }
     #region Initialize UI Control Values
@@ -270,7 +280,7 @@ public partial class AdminAdoptionInfoEdit : BasePageAdmin
         string filterSize = DDLFilterSize.SelectedValue;
         string filterStatus = DDLFilterStatus.SelectedValue;
         string tbSearchValue = TBSearchAdoptInfo.Text;
-        dTableAdoptInfo = adoptInfoCtrler.filterAdoptionInfoData(filterGender, filterSize, filterStatus, tbSearchValue, LBLSearchResultAdoptInfo);
+        dTableAdoptInfo = adoptInfoCtrler.filterAdoptionInfoData(HDFShopID.Value, filterGender, filterSize, filterStatus, tbSearchValue, LBLSearchResultAdoptInfo);
         GVAdoptInfoOverview.DataSourceID = null;
         GVAdoptInfoOverview.DataSource = null;
         GVAdoptInfoOverview.DataSource = dTableAdoptInfo;

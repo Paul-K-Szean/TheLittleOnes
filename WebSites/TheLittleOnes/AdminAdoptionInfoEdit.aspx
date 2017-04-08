@@ -188,6 +188,7 @@
                                     <PagerSettings Mode="NumericFirstLast" PageButtonCount="5" FirstPageText="First" LastPageText="Last" NextPageText="Next" PreviousPageText="Previous" />
                                 </asp:GridView>
                                 <asp:HiddenField ID="HDFPetID" runat="server"></asp:HiddenField>
+                                <asp:HiddenField ID="HDFShopID" runat="server"></asp:HiddenField>
                             </div>
                             <!-- div.dataTables_borderWrap -->
                         </div>
@@ -286,7 +287,7 @@
                                         <div class=" space-6"></div>
                                         <div class="widget-box">
                                             <div class="widget-header">
-                                                <h4 class="widget-title">Organisation</h4>
+                                                <h4 class="widget-title">Adoption Info</h4>
                                             </div>
                                             <div class="widget-body">
                                                 <div class="widget-main">
@@ -296,7 +297,7 @@
                                                             <asp:TextBox ID="TBAdoptInfoID" runat="server" CssClass="form-control" ReadOnly="true"></asp:TextBox>
                                                         </div>
                                                         <br />
-                                                        <asp:Label ID="Label6" runat="server" Text="Organisation" Font-Bold="True"></asp:Label>
+                                                        <asp:Label ID="Label6" runat="server" Text="Adoption Status" Font-Bold="True"></asp:Label>
                                                         <asp:DropDownList ID="DDLAdoptInfoStatus" runat="server" CssClass="form-control" AutoPostBack="true">
                                                             <asp:ListItem Value="">Select Status</asp:ListItem>
                                                             <asp:ListItem Value="Adopted">Adopted</asp:ListItem>
@@ -327,7 +328,10 @@
                                                             AppendDataBoundItems="True" AutoPostBack="True">
                                                             <asp:ListItem Value="">Select Breed</asp:ListItem>
                                                         </asp:DropDownList>
-                                                        <asp:SqlDataSource ID="SDSBreed" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>" ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>" SelectCommand="SELECT * FROM [PetInfo]"></asp:SqlDataSource>
+                                                        <asp:SqlDataSource ID="SDSBreed" runat="server"
+                                                            ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
+                                                            ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
+                                                            SelectCommand="SELECT * FROM [PetInfo]"></asp:SqlDataSource>
                                                     </div>
                                                     <br />
                                                     <div>
@@ -481,7 +485,11 @@
                 <asp:SqlDataSource ID="SDSAdoptInfo" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
                     ProviderName="<%$ ConnectionStrings:ConnectionStringTheLittleOnes.ProviderName %>"
-                    SelectCommand="SELECT AdoptInfo.shopInfoID, AdoptInfo.petID, AdoptInfo.adoptInfoID, AdoptInfo.adoptInfoStatus, Pet.petID AS Expr1, Pet.petBreed, Pet.petName, Pet.petGender, Pet.petWeight, Pet.petSize, Pet.petDesc, Pet.petEnergy, Pet.petFriendlyWithPet, Pet.petFriendlyWithPeople, Pet.petToiletTrained, Pet.petHealthInfo, ShopInfo.shopInfoID AS Expr2, ShopInfo.shopInfoName, ShopInfo.shopInfoContact, ShopInfo.shopInfoAddress, ShopInfo.shopInfoGrooming, ShopInfo.shopInfoType, ShopInfo.shopInfoDesc, ShopInfo.shopInfoCloseOnPublicHoliday FROM ((AdoptInfo INNER JOIN Pet ON AdoptInfo.petID = Pet.petID) INNER JOIN ShopInfo ON AdoptInfo.shopInfoID = ShopInfo.shopInfoID) ORDER BY [adoptInfoId] DESC"></asp:SqlDataSource>
+                    SelectCommand="SELECT AdoptInfo.shopInfoID, AdoptInfo.petID, AdoptInfo.adoptInfoID, AdoptInfo.adoptInfoStatus, Pet.petID AS Expr1, Pet.petBreed, Pet.petName, Pet.petGender, Pet.petWeight, Pet.petSize, Pet.petDesc, Pet.petEnergy, Pet.petFriendlyWithPet, Pet.petFriendlyWithPeople, Pet.petToiletTrained, Pet.petHealthInfo, ShopInfo.shopInfoID AS Expr2, ShopInfo.shopInfoName, ShopInfo.shopInfoContact, ShopInfo.shopInfoAddress, ShopInfo.shopInfoGrooming, ShopInfo.shopInfoType, ShopInfo.shopInfoDesc, ShopInfo.shopInfoCloseOnPublicHoliday FROM ((AdoptInfo INNER JOIN Pet ON AdoptInfo.petID = Pet.petID) INNER JOIN ShopInfo ON AdoptInfo.shopInfoID = ShopInfo.shopInfoID) WHERE (AdoptInfo.shopInfoID = ?) ORDER BY AdoptInfo.adoptInfoID DESC">
+                    <SelectParameters>
+                        <asp:ControlParameter ControlID="HDFShopID" Name="?" PropertyName="Value"  DefaultValue="0"/>
+                    </SelectParameters>
+                </asp:SqlDataSource>
                 <asp:SqlDataSource ID="SDSPetInfo" runat="server"></asp:SqlDataSource>
                 <asp:SqlDataSource ID="SDSPhoto" runat="server"
                     ConnectionString="<%$ ConnectionStrings:ConnectionStringTheLittleOnes %>"
