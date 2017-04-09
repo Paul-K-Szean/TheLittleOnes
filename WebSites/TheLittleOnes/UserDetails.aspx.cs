@@ -9,9 +9,7 @@ using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Controllers;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.Handler;
-
 public partial class AccountProfile : BasePageTLO
-
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -24,9 +22,6 @@ public partial class AccountProfile : BasePageTLO
             }
         }
     }
-
-
-
     protected void BTNSave_Click(object sender, EventArgs e)
     {
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
@@ -38,14 +33,12 @@ public partial class AccountProfile : BasePageTLO
             string accountEmail = TLOAccountEntity.AccountEmail;
             string accountPassword = string.IsNullOrEmpty(TBAccountPasswordNew.Text) ? TLOAccountEntity.AccountPassword : TBAccountPasswordNew.Text.Trim();
             string accountType = TLOAccountEntity.AccountType;
-
             // create entity
             TLOEditProfileEntity = new ProfileEntity(TLOAccountEntity.ProfileEntity.ProfileID,profileName, profileContact, profileAddress, null);
             TLOEditAccountEntity = new AccountEntity(TLOAccountEntity.AccountID,accountEmail,accountPassword,accountType,TLOEditProfileEntity,null,TLOAccountEntity.DateJoined);
             // update into database
             TLOAccountEntity = accountCtrler.updateAccount(TLOEditAccountEntity);
             TLOAccountEntity.ProfileEntity = profileCtrler.updateProfile(TLOEditProfileEntity);
-
             if (TLOAccountEntity != null && TLOAccountEntity.ProfileEntity != null)
             {
                 MessageHandler.SuccessMessage(LBLErrorMsg,"User details updated successfully");
@@ -62,13 +55,10 @@ public partial class AccountProfile : BasePageTLO
         LogController.LogLine(MethodBase.GetCurrentMethod().Name);
         bool isProfileNameValid = true;
         bool isPasswordValid = true;
-
         string accountEmail = TBAccountEmail.Text.Trim();
         string accountPasswordOld = TBAccountPasswordOld.Text.Trim();
         string accountPasswordNew = TBAccountPasswordNew.Text.Trim();
         string profileName = TBProfileName.Text.Trim();
-
-
         if (string.IsNullOrEmpty(accountPasswordOld) && string.IsNullOrEmpty(accountPasswordNew))
         {
             // dont update password
@@ -88,7 +78,6 @@ public partial class AccountProfile : BasePageTLO
                 {
                     isPasswordValid = false;
                     MessageHandler.ErrorMessage(LBLPasswordNew, "New password cannot be the same as old password");
-
                 }
                 else
                 {
@@ -129,7 +118,5 @@ public partial class AccountProfile : BasePageTLO
         TBProfileContact.Text = TLOAccountEntity.ProfileEntity.ProfileContact;
         TBProfileAddress.Text = TLOAccountEntity.ProfileEntity.ProfileAddress;
     }
-
     #endregion
-
 }

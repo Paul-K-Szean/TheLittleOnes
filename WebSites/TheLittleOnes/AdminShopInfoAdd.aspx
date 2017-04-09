@@ -166,7 +166,7 @@
                                             <h4 class="widget-title">Operating Hours</h4>
                                         </div>
                                         <div class="widget-body">
-                                            <div class="widget-main">
+                                            <%--<div class="widget-main">
                                                 <asp:Label ID="Label1" runat="server" Text="Operating Hours" Font-Bold="True"></asp:Label>
                                                 <div class="form-group">
                                                     <asp:CheckBox ID="CHKBXCloseMonday" runat="server" CssClass=" checkbox checkbox-inline " Text="Close" />
@@ -234,7 +234,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <asp:CheckBox ID="CHKXBXCloseSaturday" runat="server" CssClass=" checkbox checkbox-inline " Text="Close" />
+                                                    <asp:CheckBox ID="CHKBXCloseSaturday" runat="server" CssClass=" checkbox checkbox-inline " Text="Close" />
                                                     <asp:Label ID="LBLSaturday" runat="server" CssClass="col-xs-2  control-label no-padding-right" Text="Saturday @"></asp:Label>
                                                     <div class="col-sm-5">
                                                         <asp:DropDownList ID="DDLOpenTimeSaturday" runat="server" CssClass="">
@@ -261,6 +261,110 @@
                                                 </div>
                                                 <div>
                                                     <asp:CheckBox ID="CHKBXCloseOnPublicHoliday" runat="server" CssClass="checkbox checkbox-inline" Text="Close on Public Holiday" Checked="true" />
+                                                </div>
+                                            </div>--%>
+                                            <div class="widget-main">
+                                                <asp:Label ID="Label1" runat="server" Text="Operating Hours" Font-Bold="True"></asp:Label>
+                                                <div class="form-inline">
+                                                    <asp:CheckBox ID="CHKBXCloseMonday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseMonday_CheckedChanged" />
+                                                    <asp:Label ID="LBLMonday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Monday @"></asp:Label>
+                                                    <div class="col-md-6 col-sm-5">
+                                                        <asp:DropDownList ID="DDLOpenTimeMonday" runat="server" CssClass=" disabled">
+                                                            <asp:ListItem Value="">Open Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                        to
+                                                        <asp:DropDownList ID="DDLCloseTimeMonday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Close Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                    </div>
+                                                </div>
+                                                <br />
+                                                <div class="form-inline">
+                                                    <asp:CheckBox ID="CHKBXCloseTuesday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseTuesday_CheckedChanged" />
+                                                    <asp:Label ID="LBLTuesday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Tuesday @"></asp:Label>
+                                                    <div class="col-md-6 col-sm-5">
+                                                        <asp:DropDownList ID="DDLOpenTimeTuesday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Open Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                        to
+                                                        <asp:DropDownList ID="DDLCloseTimeTuesday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Close Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                    </div>
+                                                </div>
+                                                <br />
+                                                <div class="form-inline">
+                                                    <asp:CheckBox ID="CHKBXCloseWednesday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseWednesday_CheckedChanged" />
+                                                    <asp:Label ID="LBLWednesday" runat="server" CssClass="col-md-3 col-sm-3 control-label no-padding-right" Text="Wednesday @"></asp:Label>
+                                                    <div class="col-md-6 col-sm-5">
+                                                        <asp:DropDownList ID="DDLOpenTimeWednesday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Open Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                        to
+                                                        <asp:DropDownList ID="DDLCloseTimeWednesday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Close Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                    </div>
+                                                </div>
+                                                <br />
+                                                <div class="form-inline">
+                                                    <asp:CheckBox ID="CHKBXCloseThursday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseThursday_CheckedChanged" />
+                                                    <asp:Label ID="Label5" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Thursday @"></asp:Label>
+                                                    <div class="col-md-6 col-sm-5">
+                                                        <asp:DropDownList ID="DDLOpenTimeThursday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Open Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                        to
+                                                        <asp:DropDownList ID="DDLCloseTimeThursday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Close Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                    </div>
+                                                </div>
+                                                <br />
+                                                <div class="form-inline">
+                                                    <asp:CheckBox ID="CHKBXCloseFriday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseFriday_CheckedChanged" />
+                                                    <asp:Label ID="LBLFriday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Friday @"></asp:Label>
+                                                    <div class="col-md-6 col-sm-5">
+                                                        <asp:DropDownList ID="DDLOpenTimeFriday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Open Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                        to
+                                                        <asp:DropDownList ID="DDLCloseTimeFriday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Close Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                    </div>
+                                                </div>
+                                                <br />
+                                                <div class="form-inline">
+                                                    <asp:CheckBox ID="CHKBXCloseSaturday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseSaturday_CheckedChanged" />
+                                                    <asp:Label ID="LBLSaturday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Saturday @"></asp:Label>
+                                                    <div class="col-md-6 col-sm-5">
+                                                        <asp:DropDownList ID="DDLOpenTimeSaturday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Open Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                        to
+                                                        <asp:DropDownList ID="DDLCloseTimeSaturday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Close Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                    </div>
+                                                </div>
+                                                <br />
+                                                <div class="form-inline">
+                                                    <asp:CheckBox ID="CHKBXCloseSunday" runat="server" CssClass=" checkbox-inline " Text="Close" AutoPostBack="true" OnCheckedChanged="CHKBXCloseSunday_CheckedChanged" />
+                                                    <asp:Label ID="LBLSunday" runat="server" CssClass="col-md-3 col-sm-3  control-label no-padding-right" Text="Sunday @"></asp:Label>
+                                                    <div class="col-md-6 col-sm-5">
+                                                        <asp:DropDownList ID="DDLOpenTimeSunday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Open Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                        to
+                                                        <asp:DropDownList ID="DDLCloseTimeSunday" runat="server" CssClass="">
+                                                            <asp:ListItem Value="">Close Time</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <asp:CheckBox ID="CHKBXCloseOnPublicHoliday" runat="server" CssClass="checkbox checkbox-inline"
+                                                        Text="Close on Public Holiday" />
                                                 </div>
                                             </div>
                                         </div>

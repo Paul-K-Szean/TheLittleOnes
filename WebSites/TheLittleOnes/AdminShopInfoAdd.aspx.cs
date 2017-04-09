@@ -141,6 +141,98 @@ public partial class AdminShopInfoAdd : BasePageAdmin
             CHKBXGroomingService.Checked = false;
         }
     }
+    // disable selection of time if the day is close
+    protected void CHKBXCloseMonday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseMonday.Checked)
+        {
+            DDLCloseTimeMonday.Enabled = false;
+            DDLOpenTimeMonday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeMonday.Enabled = true;
+            DDLOpenTimeMonday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseTuesday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseTuesday.Checked)
+        {
+            DDLCloseTimeTuesday.Enabled = false;
+            DDLOpenTimeTuesday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeTuesday.Enabled = true;
+            DDLOpenTimeTuesday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseWednesday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseWednesday.Checked)
+        {
+            DDLCloseTimeWednesday.Enabled = false;
+            DDLOpenTimeWednesday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeWednesday.Enabled = true;
+            DDLOpenTimeWednesday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseThursday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseThursday.Checked)
+        {
+            DDLCloseTimeThursday.Enabled = false;
+            DDLOpenTimeThursday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeThursday.Enabled = true;
+            DDLOpenTimeThursday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseFriday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseFriday.Checked)
+        {
+            DDLCloseTimeFriday.Enabled = false;
+            DDLOpenTimeFriday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeFriday.Enabled = true;
+            DDLOpenTimeFriday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseSaturday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseSaturday.Checked)
+        {
+            DDLCloseTimeSaturday.Enabled = false;
+            DDLOpenTimeSaturday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeSaturday.Enabled = true;
+            DDLOpenTimeSaturday.Enabled = true;
+        }
+    }
+    protected void CHKBXCloseSunday_CheckedChanged(object sender, EventArgs e)
+    {
+        if (CHKBXCloseSunday.Checked)
+        {
+            DDLCloseTimeSunday.Enabled = false;
+            DDLOpenTimeSunday.Enabled = false;
+        }
+        else
+        {
+            DDLCloseTimeSunday.Enabled = true;
+            DDLOpenTimeSunday.Enabled = true;
+        }
+    }
     #endregion
     #region Logical Methods
     private bool checkRequiredFields()
@@ -210,7 +302,7 @@ public partial class AdminShopInfoAdd : BasePageAdmin
             shopTimeEntity = new ShopTimeEntity("Friday", DDLOpenTimeFriday.SelectedValue, DDLCloseTimeFriday.SelectedValue);
             shopTimeEntities.Add(shopTimeEntity);
         }
-        if (!CHKXBXCloseSaturday.Checked)
+        if (!CHKBXCloseSaturday.Checked)
         {
             shopTimeEntity = new ShopTimeEntity("Saturday", DDLOpenTimeSaturday.SelectedValue, DDLCloseTimeSaturday.SelectedValue);
             shopTimeEntities.Add(shopTimeEntity);

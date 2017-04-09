@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterAdmin.master" AutoEventWireup="true" CodeFile="AdminAccount.aspx.cs" Inherits="AdminAccount" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHHeaderMasterAdmin" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHBodyMasterAdmin" runat="Server">
@@ -178,7 +177,6 @@
                                                     <asp:TextBox ID="TBShopInfoAddress" runat="server" CssClass="form-control" placeholder="Address" disabled="disabled"></asp:TextBox>
                                                 </div>
                                                 <br />
-
                                             </div>
                                         </div>
                                     </div>

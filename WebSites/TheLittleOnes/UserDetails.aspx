@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterTheLittleOnesUser.master" AutoEventWireup="true" CodeFile="UserDetails.aspx.cs" Inherits="AccountProfile" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHTLOHeadUser" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHTLOBodyUser" Runat="Server">
@@ -84,7 +83,6 @@
                                         <asp:TextBox ID="TBProfileAddress" runat="server" CssClass="form-control" placeholder="Address"></asp:TextBox>
                                     </div>
                                     <br />
-
                                 </div>
                             </div>
                         </div>

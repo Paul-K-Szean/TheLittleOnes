@@ -123,7 +123,6 @@
                     </asp:SqlDataSource>
                     <asp:DataList ID="DLEvents" runat="server" DataKeyField="eventID" DataSourceID="SDSEvents" Width="100%">
                         <ItemTemplate>
-
                             <div class="news-right-grid">
                                 <a href="single.html">
                                     <asp:Label ID="Label1" runat="server" Text='<%# Eval("eventTitle") %>' /></a>

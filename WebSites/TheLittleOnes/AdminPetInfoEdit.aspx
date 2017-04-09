@@ -114,7 +114,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="table-header">
-                                    <asp:Label ID="LBLSearchResult" runat="server" Text="Records for Pet info"></asp:Label>
+                                    <asp:Label ID="LBLSearchResult" runat="server" Text="Records for Pet info" ForeColor="White"></asp:Label>
                                     <asp:Label ID="LBLEntriesCount" runat="server" CssClass="pull-right"></asp:Label>
                                 </div>
                                 <!-- div.table-responsive -->
@@ -124,7 +124,8 @@
                                             <div class="col-xs-6">
                                                 <div class="dataTables_length" id="dynamic-table_length">
                                                     Display 
-                                                <asp:DropDownList ID="DDLDisplayRecordCount" runat="server" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="DDLDisplayRecordCount_SelectedIndexChanged">
+                                                <asp:DropDownList ID="DDLDisplayRecordCount" runat="server" CssClass="form-control" 
+                                                    AutoPostBack="true" OnSelectedIndexChanged="DDLDisplayRecordCount_SelectedIndexChanged">
                                                     <asp:ListItem Value="5">5</asp:ListItem>
                                                     <asp:ListItem Value="10">10</asp:ListItem>
                                                     <asp:ListItem Value="20">20</asp:ListItem>

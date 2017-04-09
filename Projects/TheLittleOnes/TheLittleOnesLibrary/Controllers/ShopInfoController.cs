@@ -239,10 +239,8 @@ namespace TheLittleOnesLibrary.Controllers
                     searchResult.Text += string.Concat("\"", "Grooming", "\" ");
                     sqlQuery += string.Concat(" AND (SHOPINFOGROOMING = TRUE) ");
                 }
-
                 if (!string.IsNullOrEmpty(userShopID))
                     sqlQuery += string.Concat(" AND (SHOPINFOID = ", userShopID, ") ");
-
                 oleDbCommand.CommandText = string.Concat(sqlQuery, " ORDER BY [SHOPINFOID] DESC, [SHOPINFONAME] ");
                 oleDbCommand.Parameters.AddWithValue("@SEARCHVALUE", string.Concat("%", tbSearchValue, "%"));
                 dataSet = dao.getRecord(oleDbCommand);

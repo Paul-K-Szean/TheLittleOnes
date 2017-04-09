@@ -133,38 +133,44 @@ public partial class AdminPetInfoEdit : BasePageAdmin
         desc = ((TextBox)e.Item.FindControl("TBDesc")).Text.Trim();
         personality = ((TextBox)e.Item.FindControl("TBPersonality")).Text.Trim();
         displayStatus = ((DropDownList)e.Item.FindControl("DDLStatus")).SelectedValue.Trim();
-        // create object to update
-        petInfoEntity = new PetInfoEntity(petInfoID, category, breed, lifeSpanMin, heightMin, weightMin, lifeSpanMax, heightMax, weightMax, desc, personality, displayStatus,
-            petCharEntity, photoEntities);
-        // update pet info
-        petInfoEntity = petInfoCtrler.updatePetInfo(petInfoEntity);
-        // update pet characteristic
-        if (petInfoEntity.PetCharEntity != null)
+        int indexCategory = ((DropDownList)e.Item.FindControl("DDLCategory")).SelectedIndex;
+        int indexStatus = ((DropDownList)e.Item.FindControl("DDLStatus")).SelectedIndex;
+        if (checkRequriedFields(indexCategory, breed, lifeSpanMin, lifeSpanMax, heightMin, heightMax, weightMin, weightMax, desc, personality, indexStatus))
         {
-            petInfoEntity.PetCharEntity = petInfoCtrler.updatePetChar(petCharEntity);
+            // valid inputs
+            // create object to update
+            petInfoEntity = new PetInfoEntity(petInfoID, category, breed, lifeSpanMin, heightMin, weightMin, lifeSpanMax, heightMax, weightMax, desc, personality, displayStatus,
+                petCharEntity, photoEntities);
+            // update pet info
+            petInfoEntity = petInfoCtrler.updatePetInfo(petInfoEntity);
+            // update pet characteristic
+            if (petInfoEntity.PetCharEntity != null)
+            {
+                petInfoEntity.PetCharEntity = petInfoCtrler.updatePetChar(petCharEntity);
+            }
+            // update pet photo
+            if (petInfoEntity.PhotoEntities != null)
+            {
+                // change photo path to database instead of using temp
+                petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, petInfoEntity.PetInfoID);
+                // remove old photos from database
+                photoCtrler.deletePhoto(petInfoEntity.PetInfoID, PhotoPurpose.PetInfo.ToString());
+                // create new photos into database
+                photoCtrler.createPhoto(photoEntities, petInfoEntity.PetInfoID);
+            }
+            if (petInfoEntity != null)
+                MessageHandler.SuccessMessage(LBLErrorMsg, "Pet info successfully updated");
+            else
+                MessageHandler.SuccessMessage(LBLErrorMsg, "Pet info was not successfully updated");
+            // disable the edit mode
+            DLPetInfoDetails.EditItemIndex = -1;
+            // update displays
+            SDSPhoto.DataBind();
+            DLPetInfoDetails.DataBind();
+            GVPetInfoOverview.DataBind();
+            // clear static data
+            clearStaticData();
         }
-        // update pet photo
-        if (petInfoEntity.PhotoEntities != null)
-        {
-            // change photo path to database instead of using temp
-            petInfoEntity.PhotoEntities = photoCtrler.changePhotoPathToDatabaseFolder(photoEntities, petInfoEntity.PetInfoID);
-            // remove old photos from database
-            photoCtrler.deletePhoto(petInfoEntity.PetInfoID, PhotoPurpose.PetInfo.ToString());
-            // create new photos into database
-            photoCtrler.createPhoto(photoEntities, petInfoEntity.PetInfoID);
-        }
-        if (petInfoEntity != null)
-            MessageHandler.SuccessMessage(LBLErrorMsg, "Pet info successfully updated");
-        else
-            MessageHandler.SuccessMessage(LBLErrorMsg, "Pet info was not successfully updated");
-        // disable the edit mode
-        DLPetInfoDetails.EditItemIndex = -1;
-        // update displays
-        SDSPhoto.DataBind();
-        DLPetInfoDetails.DataBind();
-        GVPetInfoOverview.DataBind();
-        // clear static data
-        clearStaticData();
     }
     protected void DLPetInfoDetails_CancelCommand(object source, DataListCommandEventArgs e)
     {
@@ -184,29 +190,7 @@ public partial class AdminPetInfoEdit : BasePageAdmin
     #region Dropdownlist Controls
     protected void DDLDisplayRecordCount_SelectedIndexChanged(object sender, EventArgs e)
     {
-        int selectedIndex = GVPetInfoOverview.SelectedIndex;
-        foreach (GridViewRow row in GVPetInfoOverview.Rows)
-        {
-            if (row.RowIndex == GVPetInfoOverview.SelectedIndex)
-            {
-                GVPetInfoOverview.Rows[GVPetInfoOverview.SelectedIndex].BackColor = Utility.getColorLightBlue();
-                GVPetInfoOverview.Rows[GVPetInfoOverview.SelectedIndex].ForeColor = Utility.getColorWhite();
-            }
-            else
-            {
-                if (row.RowIndex % 2 == 0)
-                {
-                    // even rows
-                    row.BackColor = Utility.getColorWhite();
-                }
-                else
-                {
-                    // odd rows
-                    row.BackColor = Utility.getColorLightGray();
-                }
-                GVPetInfoOverview.Rows[GVPetInfoOverview.SelectedIndex].ForeColor = Utility.getDefaultColor();
-            }
-        }
+        // nothing to implement 
     }
     protected void DDLCharAdaptToSurrounding_SelectedIndexChanged(object sender, EventArgs e)
     {
@@ -312,6 +296,25 @@ public partial class AdminPetInfoEdit : BasePageAdmin
     }
     #endregion
     #region Logical Methods
+    // check required fields
+    private bool checkRequriedFields(int category, string breed, string lifeSpanMin, string lifeSpanMax, string heightMin, string heightMax,
+                                    string weightMin, string weightMax, string desc, string personality, int displayStatus)
+    {
+        bool isRequiredFieldValid = true;
+        if (category <= 0 ||
+            string.IsNullOrEmpty(breed) ||
+            double.Parse(lifeSpanMin) <= 0 || double.Parse(lifeSpanMax) <= 0 ||
+            double.Parse(heightMin) <= 0 || double.Parse(heightMax) <= 0 ||
+            double.Parse(weightMin) <= 0 || double.Parse(weightMax) <= 0 ||
+            string.IsNullOrEmpty(desc) || string.IsNullOrEmpty(personality) ||
+            displayStatus <= 0
+            )
+        {
+            isRequiredFieldValid = false;
+            MessageHandler.ErrorMessage(LBLErrorMsg, "Please ensure all fields are not empty or contains any invalid values");
+        }
+        return isRequiredFieldValid;
+    }
     // get characteristic new values 
     protected void getEditedValues_Characteristics(object sender)
     {
@@ -465,10 +468,14 @@ public partial class AdminPetInfoEdit : BasePageAdmin
     // Update search result label
     private void loadLabelSearchResult()
     {
-        if (string.IsNullOrEmpty(TBSearchPetInfo.Text))
+        if (!string.IsNullOrEmpty(TBSearchPetInfo.Text))
         {
-            MessageHandler.DefaultMessage(LBLSearchResult, string.Concat("Result for \"", TBSearchPetInfo.Text.Trim(), "\""));
+            MessageHandler.DefaultMessage(LBLSearchResult, string.Concat("Records for Pet Info \"", TBSearchPetInfo.Text.Trim(), "\""));
         }
+        else {
+            MessageHandler.DefaultMessage(LBLSearchResult, string.Concat("Records for Pet Info "));
+        }
+        LBLSearchResult.ForeColor = System.Drawing.Color.White;
     }
     // Clear static data
     private void clearStaticData()

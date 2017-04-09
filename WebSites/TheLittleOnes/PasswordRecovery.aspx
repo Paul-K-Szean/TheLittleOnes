@@ -1,7 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="PasswordRecovery.aspx.cs" Inherits="PasswordRecovery" %>
-
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>TheLittleOnes</title>
@@ -26,7 +24,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" rel="stylesheet">
     <%--Group G5 Style--%>
     <link href="assetsG5/G5Style.css" rel="stylesheet" />
-
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300" rel="stylesheet" type="text/css">
@@ -63,7 +60,6 @@
                     </div>
                 </div>
                 <!-- /.row -->
-
                 <div class="space-6"></div>
                 <div class="row">
                     <%--account info--%>

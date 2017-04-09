@@ -90,20 +90,21 @@ public partial class MasterTheLittleOnes : System.Web.UI.MasterPage
         accountEntity = accountCtrler.getLoggedInAccountEntity(Enums.GetDescription(SiteType.FrontEnd));
         if (accountEntity != null)
         {
-            HYPLKAccountInfo.Text = accountEntity.ProfileEntity.ProfileName + "<span class=\"caret\"></span>";
-            HYPLKAccountInfo.Attributes["data-target"] = "";
-            HYPLKAccountInfo.Attributes["data-toggle"] = "dropdown";
-            loadAccountInfo();
+            // user logged in, show user area/actions
+            HYPLKAccountInfo01.Text = accountEntity.ProfileEntity.ProfileName + "<span class=\"caret\"></span>";
+            HYPLKAccountInfo02.Text = accountEntity.ProfileEntity.ProfileName;
+          // the below HYPLKAccountInfo02 will redirect to user details instead
+          HYPLKAccountInfo02.Attributes["data-toggle"] = HYPLKAccountInfo02.Attributes["data-target"] = HYPLKAccountInfo01.Attributes["data-target"] = "";
+            HYPLKAccountInfo01.Attributes["data-toggle"] = "dropdown";
+            HYPLKAccountInfo02.NavigateUrl = "UserDetails.aspx";
         }
         else
         {
-            HYPLKAccountInfo.Text = "Login";
-            HYPLKAccountInfo.Attributes["data-target"] = "#login";
-            HYPLKAccountInfo.Attributes["data-toggle"] = "modal";
+            // user not logged in, hide user area/actions
+            HYPLKAccountInfo02.Text = HYPLKAccountInfo01.Text = "Login";
+            HYPLKAccountInfo02.Attributes["data-target"] = HYPLKAccountInfo01.Attributes["data-target"] = "#login";
+            HYPLKAccountInfo02.Attributes["data-toggle"] = HYPLKAccountInfo01.Attributes["data-toggle"] = "modal";
         }
-    }
-    private void loadAccountInfo()
-    {
     }
     #endregion
 }

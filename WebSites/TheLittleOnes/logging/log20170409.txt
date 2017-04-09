@@ -1,0 +1,518 @@
+20170409@14:49:11 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170409@14:49:11 [System] No account logged in 
+20170409@14:49:17 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170409@14:49:17 [System] signOut 
+20170409@14:50:11 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170409@14:50:11 [System] signOut 
+20170409@14:50:12 [System] signIn 
+20170409@14:50:13 [System] getPhotoEntities 
+20170409@14:50:13 [System] getShopInfo 
+20170409@14:50:14 [System] getShopTime 
+20170409@14:50:14 [System] getPhotoEntities 
+20170409@14:50:14 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170409@14:50:14 [System] GVPetInfoOverview_DataBound 
+20170409@14:50:14 [System] GVShopInfoOverview_DataBound 
+20170409@14:50:18 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170409@14:50:18 [System] GVShopInfoOverview_DataBound 
+20170409@14:50:22 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170409@14:50:22 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170409@14:50:22 [System] initializeUIControlValues 
+20170409@14:50:22 [System] getShopInfo 
+20170409@14:50:22 [System] getShopTime 
+20170409@14:50:22 [System] getPhotoEntities 
+20170409@14:50:22 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170409@14:54:24 [System] Page loaded: http://localhost:65063/adminshopinfoadd.aspx 
+20170409@14:54:24 [System] initializeUIControlValues 
+20170409@14:56:57 [System] Page loaded: http://localhost:65063/adminshopinfoadd.aspx 
+20170409@14:56:57 [System] initializeUIControlValues 
+20170409@14:57:24 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170409@14:57:24 [System] GVShopInfoOverview_DataBound 
+20170409@14:57:27 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170409@14:57:27 [System] GVShopInfoOverview_SelectedIndexChanging 
+20170409@14:57:27 [System] initializeUIControlValues 
+20170409@14:57:27 [System] getShopInfo 
+20170409@14:57:27 [System] getShopTime 
+20170409@14:57:27 [System] getPhotoEntities 
+20170409@14:57:27 [System] GVShopInfoOverview_SelectedIndexChanged 
+20170409@15:00:08 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170409@15:00:09 [System] Page loaded: http://localhost:65063/adminshopinfoedit.aspx 
+20170409@15:00:12 [System] Page loaded: http://localhost:65063/adminshopinfoadd.aspx 
+20170409@15:00:12 [System] initializeUIControlValues 
+20170409@15:00:16 [System] Page loaded: http://localhost:65063/adminshopinfoadd.aspx 
+20170409@15:00:18 [System] Page loaded: http://localhost:65063/adminshopinfoadd.aspx 
+20170409@15:04:38 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170409@15:04:38 [System] No account logged in 
+20170409@15:04:38 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170409@15:04:38 [System] signOut 
+20170409@15:04:42 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170409@15:04:42 [System] signOut 
+20170409@15:04:42 [System] signIn 
+20170409@15:04:42 [System] getPhotoEntities 
+20170409@15:04:42 [System] getShopInfo 
+20170409@15:04:42 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170409@15:04:42 [System] GVPetInfoOverview_DataBound 
+20170409@15:04:43 [System] GVShopInfoOverview_DataBound 
+20170409@15:04:46 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170409@15:04:51 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:04:51 [System] GVPetInfoOverview_DataBound 
+20170409@15:04:53 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:04:53 [System] MessageHandler : Result for "" 
+20170409@15:04:55 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:04:55 [System] MessageHandler : Result for "" 
+20170409@15:04:57 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:04:57 [System] MessageHandler : Result for "" 
+20170409@15:04:59 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:04:59 [System] MessageHandler : Result for "" 
+20170409@15:05:01 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:05:01 [System] MessageHandler : Result for "" 
+20170409@15:05:09 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:05:09 [System] GVPetInfoOverview_DataBound 
+20170409@15:05:11 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:05:11 [System] MessageHandler : Result for "" 
+20170409@15:05:11 [System] GVPetInfoOverview_DataBound 
+20170409@15:05:12 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:05:12 [System] MessageHandler : Result for "" 
+20170409@15:05:12 [System] GVPetInfoOverview_DataBound 
+20170409@15:05:21 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:05:21 [System] MessageHandler : Result for "" 
+20170409@15:05:21 [System] GVPetInfoOverview_DataBound 
+20170409@15:06:00 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:06:00 [System] GVPetInfoOverview_DataBound 
+20170409@15:06:00 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:06:03 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:06:03 [System] MessageHandler : Result for "" 
+20170409@15:06:03 [System] GVPetInfoOverview_DataBound 
+20170409@15:06:45 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:06:45 [System] GVPetInfoOverview_DataBound 
+20170409@15:06:51 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:06:51 [System] MessageHandler : Result for "" 
+20170409@15:06:51 [System] GVPetInfoOverview_DataBound 
+20170409@15:11:06 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:11:06 [System] No account logged in 
+20170409@15:11:06 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170409@15:11:06 [System] signOut 
+20170409@15:13:46 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170409@15:13:46 [System] signOut 
+20170409@15:13:46 [System] signIn 
+20170409@15:13:46 [System] getPhotoEntities 
+20170409@15:13:46 [System] getShopInfo 
+20170409@15:13:46 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170409@15:13:46 [System] GVPetInfoOverview_DataBound 
+20170409@15:13:46 [System] GVShopInfoOverview_DataBound 
+20170409@15:13:51 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:13:51 [System] GVPetInfoOverview_DataBound 
+20170409@15:13:54 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:13:54 [System] MessageHandler : Result for "" 
+20170409@15:14:46 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:14:46 [System] GVPetInfoOverview_DataBound 
+20170409@15:14:49 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:14:49 [System] MessageHandler : Result for "" 
+20170409@15:14:49 [System] GVPetInfoOverview_DataBound 
+20170409@15:15:03 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:15:03 [System] MessageHandler : Result for "" 
+20170409@15:15:03 [System] GVPetInfoOverview_DataBound 
+20170409@15:15:11 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:15:11 [System] GVPetInfoOverview_DataBound 
+20170409@15:15:11 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:15:22 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:15:22 [System] MessageHandler : Result for "" 
+20170409@15:15:22 [System] GVPetInfoOverview_DataBound 
+20170409@15:15:32 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:15:32 [System] MessageHandler : Result for "" 
+20170409@15:15:32 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170409@15:15:33 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:15:33 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:15:33 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:15:33 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:23:05 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:23:05 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:05 [System] MessageHandler : Result for "" 
+20170409@15:23:05 [System] DLPetInfoDetails_EditCommand 
+20170409@15:23:05 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:05 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:23:10 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:23:10 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:10 [System] MessageHandler : Result for "" 
+20170409@15:23:10 [System] DLPetInfoDetails_UpdateCommand 
+20170409@15:23:10 [System] updatePetInfo 
+20170409@15:23:10 [System] Record updated! 
+20170409@15:23:10 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:10 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:23:10 [System] GVPetInfoOverview_DataBound 
+20170409@15:23:14 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:23:14 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:14 [System] MessageHandler : Result for "" 
+20170409@15:23:14 [System] DLPetInfoDetails_EditCommand 
+20170409@15:23:14 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:14 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:23:19 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:23:19 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:19 [System] MessageHandler : Result for "" 
+20170409@15:23:19 [System] DLPetInfoDetails_UpdateCommand 
+20170409@15:23:19 [System] updatePetInfo 
+20170409@15:23:19 [System] Record updated! 
+20170409@15:23:19 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:19 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:23:19 [System] GVPetInfoOverview_DataBound 
+20170409@15:23:22 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:23:22 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:22 [System] MessageHandler : Result for "" 
+20170409@15:23:22 [System] DLPetInfoDetails_EditCommand 
+20170409@15:23:22 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:22 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:23:28 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:23:28 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:28 [System] MessageHandler : Result for "" 
+20170409@15:23:28 [System] DLPetInfoDetails_UpdateCommand 
+20170409@15:23:28 [System] updatePetInfo 
+20170409@15:23:29 [System] Record updated! 
+20170409@15:23:29 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:23:29 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:23:29 [System] GVPetInfoOverview_DataBound 
+20170409@15:31:08 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:31:08 [System] GVPetInfoOverview_DataBound 
+20170409@15:31:10 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:31:10 [System] MessageHandler : Result for "" 
+20170409@15:31:10 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170409@15:31:10 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:31:10 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:31:10 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:31:10 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:31:12 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:31:12 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:31:12 [System] MessageHandler : Result for "" 
+20170409@15:31:12 [System] DLPetInfoDetails_EditCommand 
+20170409@15:31:12 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:31:12 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:31:15 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:31:15 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:31:15 [System] MessageHandler : Result for "" 
+20170409@15:31:18 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:31:18 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:31:18 [System] MessageHandler : Result for "" 
+20170409@15:31:20 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:31:21 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:31:21 [System] MessageHandler : Result for "" 
+20170409@15:31:21 [System] DLPetInfoDetails_UpdateCommand 
+20170409@15:31:21 [System] updatePetInfo 
+20170409@15:31:21 [System] Record updated! 
+20170409@15:31:21 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:31:21 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:31:21 [System] GVPetInfoOverview_DataBound 
+20170409@15:31:26 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:31:26 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:31:26 [System] MessageHandler : Result for "" 
+20170409@15:31:26 [System] DLPetInfoDetails_EditCommand 
+20170409@15:31:26 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:31:26 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:31:59 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:32:00 [System] GVPetInfoOverview_DataBound 
+20170409@15:32:02 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:32:02 [System] MessageHandler : Result for "" 
+20170409@15:32:02 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170409@15:32:02 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:32:02 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:32:02 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:32:02 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:32:04 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:32:04 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:32:04 [System] MessageHandler : Result for "" 
+20170409@15:32:04 [System] DLPetInfoDetails_EditCommand 
+20170409@15:32:04 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:32:04 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:38:43 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:38:43 [System] No account logged in 
+20170409@15:38:43 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170409@15:38:43 [System] signOut 
+20170409@15:38:48 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170409@15:38:48 [System] signOut 
+20170409@15:38:48 [System] signIn 
+20170409@15:38:48 [System] getPhotoEntities 
+20170409@15:38:48 [System] getShopInfo 
+20170409@15:38:48 [System] Page loaded: http://localhost:65063/admindashboard.aspx 
+20170409@15:38:48 [System] GVPetInfoOverview_DataBound 
+20170409@15:38:48 [System] GVShopInfoOverview_DataBound 
+20170409@15:38:51 [System] Page loaded: http://localhost:65063/adminpetinfoadd.aspx 
+20170409@15:38:53 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:38:53 [System] GVPetInfoOverview_DataBound 
+20170409@15:38:57 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:38:57 [System] MessageHandler : Result for "" 
+20170409@15:38:57 [System] GVPetInfoOverview_DataBound 
+20170409@15:38:59 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:38:59 [System] MessageHandler : Result for "" 
+20170409@15:38:59 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170409@15:38:59 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:38:59 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:38:59 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:38:59 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:39:01 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:01 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:01 [System] MessageHandler : Result for "" 
+20170409@15:39:01 [System] DLPetInfoDetails_EditCommand 
+20170409@15:39:01 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:01 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:39:05 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:05 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:05 [System] MessageHandler : Result for "" 
+20170409@15:39:05 [System] DLPetInfoDetails_UpdateCommand 
+20170409@15:39:05 [System] MessageHandler : Please ensure all fields are not empty or contains any invalid values 
+20170409@15:39:31 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:31 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:31 [System] MessageHandler : Result for "" 
+20170409@15:39:31 [System] DDLCharFriendWithFamily_SelectedIndexChanged 
+20170409@15:39:31 [System] getEditedValues_Characteristics 
+20170409@15:39:31 [System] petInfoID = 53 
+20170409@15:39:31 [System] petInfoCategory = Cat 
+20170409@15:39:31 [System] petInfoBreed = American Shorthair 
+20170409@15:39:31 [System] petInfoLifeSpanMin = 0 
+20170409@15:39:31 [System] petInfoHeightMin = 0 
+20170409@15:39:31 [System] petInfoWeightMin = 0 
+20170409@15:39:31 [System] petInfoLifeSpanMax = 0 
+20170409@15:39:31 [System] petInfoHeightMax = 0 
+20170409@15:39:31 [System] petInfoWeightMax = 0 
+20170409@15:39:31 [System] petInfoDesc = Little did you know about AmericanShorthair! The number of things to talk about them is just too many. Just put them all here! 
+20170409@15:39:31 [System] petInfoPersonality = You and AmericanShorthair may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170409@15:39:31 [System] petInfoDisplayStatus = Display 
+20170409@15:39:31 [System] charID = 44 
+20170409@15:39:31 [System] charOverallAdaptability = 3.8 
+20170409@15:39:31 [System] charOverallFriendliness = 3.5 
+20170409@15:39:31 [System] charOverallGrooming = 2.67 
+20170409@15:39:31 [System] charOverallTrainability = 2.8 
+20170409@15:39:31 [System] charOverallExercise = 3.33 
+20170409@15:39:31 [System] charAdaptToSurrounding = 4 
+20170409@15:39:31 [System] charAdaptToNovice = 4 
+20170409@15:39:31 [System] charAdaptToLoneliness = 3 
+20170409@15:39:31 [System] charAdaptToCold = 3 
+20170409@15:39:31 [System] charAdaptToHot = 5 
+20170409@15:39:31 [System] charFriendWithFamily = 0 
+20170409@15:39:31 [System] charFriendWithKids = 5 
+20170409@15:39:31 [System] charFriendWithStrangers = 1 
+20170409@15:39:31 [System] charFriendWithOtherPet = 4 
+20170409@15:39:31 [System] charGroomShedding = 1 
+20170409@15:39:31 [System] charGroomDrooling = 5 
+20170409@15:39:31 [System] charGroomLevel = 2 
+20170409@15:39:31 [System] charTrainLevel = 3 
+20170409@15:39:31 [System] charTrainIntelligence = 5 
+20170409@15:39:31 [System] charTrainMouthiness = 1 
+20170409@15:39:31 [System] charTrainPreyDrive = 2 
+20170409@15:39:31 [System] charTrainBarkHowl = 3 
+20170409@15:39:31 [System] charExerciseEnergyLevel = 1 
+20170409@15:39:31 [System] charExerciseNeeds = 4 
+20170409@15:39:31 [System] charExercisePlayfullness = 5 
+20170409@15:39:31 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:31 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:39:33 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:33 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:33 [System] MessageHandler : Result for "" 
+20170409@15:39:33 [System] DLPetInfoDetails_UpdateCommand 
+20170409@15:39:33 [System] MessageHandler : Please ensure all fields are not empty or contains any invalid values 
+20170409@15:39:35 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:35 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:35 [System] MessageHandler : Result for "" 
+20170409@15:39:35 [System] DLPetInfoDetails_UpdateCommand 
+20170409@15:39:35 [System] MessageHandler : Please ensure all fields are not empty or contains any invalid values 
+20170409@15:39:40 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:40 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:40 [System] MessageHandler : Result for "" 
+20170409@15:39:40 [System] DLPetInfoDetails_CancelCommand 
+20170409@15:39:40 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:40 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:39:43 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:43 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:43 [System] MessageHandler : Result for "" 
+20170409@15:39:43 [System] DLPetInfoDetails_EditCommand 
+20170409@15:39:43 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:43 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:39:48 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:48 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:49 [System] MessageHandler : Result for "" 
+20170409@15:39:49 [System] DLPetInfoDetails_UpdateCommand 
+20170409@15:39:49 [System] updatePetInfo 
+20170409@15:39:49 [System] Record updated! 
+20170409@15:39:49 [System] GVPetInfoOverview_DataBound 
+20170409@15:39:53 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:53 [System] MessageHandler : Result for "" 
+20170409@15:39:53 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170409@15:39:53 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:53 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:39:55 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:55 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:55 [System] MessageHandler : Result for "" 
+20170409@15:39:55 [System] DLPetInfoDetails_EditCommand 
+20170409@15:39:55 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:55 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:39:58 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:39:58 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:58 [System] MessageHandler : Result for "" 
+20170409@15:39:58 [System] DDLCharFriendWithFamily_SelectedIndexChanged 
+20170409@15:39:58 [System] getEditedValues_Characteristics 
+20170409@15:39:58 [System] petInfoID = 53 
+20170409@15:39:58 [System] petInfoCategory = Cat 
+20170409@15:39:58 [System] petInfoBreed = American Shorthair 
+20170409@15:39:58 [System] petInfoLifeSpanMin = 1 
+20170409@15:39:58 [System] petInfoHeightMin = 1 
+20170409@15:39:58 [System] petInfoWeightMin = 1 
+20170409@15:39:58 [System] petInfoLifeSpanMax = 1 
+20170409@15:39:59 [System] petInfoHeightMax = 1 
+20170409@15:39:59 [System] petInfoWeightMax = 1 
+20170409@15:39:59 [System] petInfoDesc = Little did you know about AmericanShorthair! The number of things to talk about them is just too many. Just put them all here! 
+20170409@15:39:59 [System] petInfoPersonality = You and AmericanShorthair may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170409@15:39:59 [System] petInfoDisplayStatus = Display 
+20170409@15:39:59 [System] charID = 44 
+20170409@15:39:59 [System] charOverallAdaptability = 3.8 
+20170409@15:39:59 [System] charOverallFriendliness = 3.5 
+20170409@15:39:59 [System] charOverallGrooming = 2.67 
+20170409@15:39:59 [System] charOverallTrainability = 2.8 
+20170409@15:39:59 [System] charOverallExercise = 3.33 
+20170409@15:39:59 [System] charAdaptToSurrounding = 4 
+20170409@15:39:59 [System] charAdaptToNovice = 4 
+20170409@15:39:59 [System] charAdaptToLoneliness = 3 
+20170409@15:39:59 [System] charAdaptToCold = 3 
+20170409@15:39:59 [System] charAdaptToHot = 5 
+20170409@15:39:59 [System] charFriendWithFamily = 0 
+20170409@15:39:59 [System] charFriendWithKids = 5 
+20170409@15:39:59 [System] charFriendWithStrangers = 1 
+20170409@15:39:59 [System] charFriendWithOtherPet = 4 
+20170409@15:39:59 [System] charGroomShedding = 1 
+20170409@15:39:59 [System] charGroomDrooling = 5 
+20170409@15:39:59 [System] charGroomLevel = 2 
+20170409@15:39:59 [System] charTrainLevel = 3 
+20170409@15:39:59 [System] charTrainIntelligence = 5 
+20170409@15:39:59 [System] charTrainMouthiness = 1 
+20170409@15:39:59 [System] charTrainPreyDrive = 2 
+20170409@15:39:59 [System] charTrainBarkHowl = 3 
+20170409@15:39:59 [System] charExerciseEnergyLevel = 1 
+20170409@15:39:59 [System] charExerciseNeeds = 4 
+20170409@15:39:59 [System] charExercisePlayfullness = 5 
+20170409@15:39:59 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:39:59 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:40:01 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:40:01 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:40:01 [System] MessageHandler : Result for "" 
+20170409@15:40:01 [System] DLPetInfoDetails_UpdateCommand 
+20170409@15:40:01 [System] updatePetInfo 
+20170409@15:40:01 [System] Record updated! 
+20170409@15:40:01 [System] updatePetChar 
+20170409@15:40:01 [System] Record updated! 
+20170409@15:40:01 [System] GVPetInfoOverview_DataBound 
+20170409@15:40:03 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:40:03 [System] MessageHandler : Result for "" 
+20170409@15:40:03 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170409@15:40:03 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:40:04 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:40:10 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:40:10 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:40:10 [System] MessageHandler : Result for "" 
+20170409@15:40:11 [System] DLPetInfoDetails_EditCommand 
+20170409@15:40:11 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:40:11 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:40:21 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:40:21 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:40:21 [System] MessageHandler : Result for "" 
+20170409@15:40:21 [System] DDLCharFriendWithFamily_SelectedIndexChanged 
+20170409@15:40:21 [System] getEditedValues_Characteristics 
+20170409@15:40:21 [System] petInfoID = 53 
+20170409@15:40:21 [System] petInfoCategory = Cat 
+20170409@15:40:21 [System] petInfoBreed = American Shorthair 
+20170409@15:40:21 [System] petInfoLifeSpanMin = 1 
+20170409@15:40:21 [System] petInfoHeightMin = 1 
+20170409@15:40:21 [System] petInfoWeightMin = 1 
+20170409@15:40:21 [System] petInfoLifeSpanMax = 1 
+20170409@15:40:22 [System] petInfoHeightMax = 1 
+20170409@15:40:22 [System] petInfoWeightMax = 1 
+20170409@15:40:22 [System] petInfoDesc = Little did you know about AmericanShorthair! The number of things to talk about them is just too many. Just put them all here! 
+20170409@15:40:22 [System] petInfoPersonality = You and AmericanShorthair may or may not be the perfect match! Their interesting personalities are astonishing. 
+20170409@15:40:22 [System] petInfoDisplayStatus = Display 
+20170409@15:40:22 [System] charID = 44 
+20170409@15:40:22 [System] charOverallAdaptability = 3.8 
+20170409@15:40:22 [System] charOverallFriendliness = 2.5 
+20170409@15:40:22 [System] charOverallGrooming = 2.67 
+20170409@15:40:22 [System] charOverallTrainability = 2.8 
+20170409@15:40:22 [System] charOverallExercise = 3.33 
+20170409@15:40:22 [System] charAdaptToSurrounding = 4 
+20170409@15:40:22 [System] charAdaptToNovice = 4 
+20170409@15:40:22 [System] charAdaptToLoneliness = 3 
+20170409@15:40:22 [System] charAdaptToCold = 3 
+20170409@15:40:22 [System] charAdaptToHot = 5 
+20170409@15:40:22 [System] charFriendWithFamily = 1 
+20170409@15:40:22 [System] charFriendWithKids = 5 
+20170409@15:40:22 [System] charFriendWithStrangers = 1 
+20170409@15:40:22 [System] charFriendWithOtherPet = 4 
+20170409@15:40:22 [System] charGroomShedding = 1 
+20170409@15:40:22 [System] charGroomDrooling = 5 
+20170409@15:40:22 [System] charGroomLevel = 2 
+20170409@15:40:22 [System] charTrainLevel = 3 
+20170409@15:40:22 [System] charTrainIntelligence = 5 
+20170409@15:40:22 [System] charTrainMouthiness = 1 
+20170409@15:40:22 [System] charTrainPreyDrive = 2 
+20170409@15:40:22 [System] charTrainBarkHowl = 3 
+20170409@15:40:22 [System] charExerciseEnergyLevel = 1 
+20170409@15:40:22 [System] charExerciseNeeds = 4 
+20170409@15:40:22 [System] charExercisePlayfullness = 5 
+20170409@15:40:22 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:40:22 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:41:40 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:41:40 [System] GVPetInfoOverview_DataBound 
+20170409@15:41:44 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:41:44 [System] MessageHandler : Result for Pet Info "" 
+20170409@15:41:44 [System] GVPetInfoOverview_DataBound 
+20170409@15:42:38 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:42:38 [System] GVPetInfoOverview_DataBound 
+20170409@15:42:39 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:42:39 [System] MessageHandler : Result for Pet Info  
+20170409@15:42:39 [System] GVPetInfoOverview_DataBound 
+20170409@15:42:40 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:42:40 [System] MessageHandler : Result for Pet Info  
+20170409@15:42:40 [System] GVPetInfoOverview_DataBound 
+20170409@15:43:57 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:43:57 [System] GVPetInfoOverview_DataBound 
+20170409@15:43:59 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:43:59 [System] MessageHandler : Result for Pet Info  
+20170409@15:43:59 [System] GVPetInfoOverview_DataBound 
+20170409@15:44:00 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:44:00 [System] MessageHandler : Result for Pet Info  
+20170409@15:44:00 [System] GVPetInfoOverview_DataBound 
+20170409@15:44:02 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:44:02 [System] GVPetInfoOverview_DataBound 
+20170409@15:44:12 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:44:12 [System] GVPetInfoOverview_DataBound 
+20170409@15:44:15 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:44:15 [System] MessageHandler : Records for Pet Info  
+20170409@15:44:15 [System] GVPetInfoOverview_DataBound 
+20170409@15:44:17 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:44:17 [System] MessageHandler : Records for Pet Info  
+20170409@15:44:17 [System] GVPetInfoOverview_DataBound 
+20170409@15:44:18 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:44:18 [System] MessageHandler : Records for Pet Info  
+20170409@15:44:18 [System] GVPetInfoOverview_SelectedIndexChanged 
+20170409@15:44:18 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:44:18 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:44:18 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:44:18 [System] DLPetInfoDetails_ItemDataBound 
+20170409@15:46:49 [System] Page loaded: http://localhost:65063/adminpetinfoedit.aspx 
+20170409@15:46:49 [System] DLPetInfoDetails_ItemCreated 
+20170409@15:46:49 [System] MessageHandler : Records for Pet Info  
+20170409@15:46:49 [System] signOut 
+20170409@15:46:49 [System] Page loaded: http://localhost:65063/adminlogin.aspx 
+20170409@15:46:49 [System] signOut 
+20170409@15:46:51 [System] Page loaded: http://localhost:65063/home.aspx 
+20170409@15:46:51 [System] No account logged in 
+20170409@15:55:48 [System] Page loaded: http://localhost:65063/home.aspx 
+20170409@15:55:48 [System] No account logged in 
+20170409@15:56:19 [System] Page loaded: http://localhost:65063/home.aspx 
+20170409@15:56:19 [System] No account logged in 
+20170409@15:56:49 [System] Page loaded: http://localhost:65063/home.aspx 
+20170409@15:56:49 [System] No account logged in 
+20170409@15:57:44 [System] Page loaded: http://localhost:65063/home.aspx 
+20170409@15:57:44 [System] No account logged in 
+20170409@15:58:03 [System] Page loaded: http://localhost:65063/home.aspx 
+20170409@15:58:03 [System] No account logged in 
+20170409@15:58:10 [System] Page loaded: http://localhost:65063/home.aspx 
+20170409@15:58:11 [System] No account logged in 
+20170409@15:58:11 [System] BTNLogin_Click 
+20170409@15:58:11 [System] signIn 
+20170409@15:58:11 [System] getPhotoEntities 
+20170409@15:58:11 [System] getShopInfo 
+20170409@15:58:11 [System] Page loaded: http://localhost:65063/home.aspx 
+20170409@15:58:14 [System] Page loaded: http://localhost:65063/userdetails.aspx 
+20170409@15:58:14 [System] loadUserDetails 

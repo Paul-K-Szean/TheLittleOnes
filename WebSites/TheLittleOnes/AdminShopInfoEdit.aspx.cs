@@ -26,7 +26,6 @@ public partial class AdminShopInfoEdit : BasePageAdmin
     private string shopType;
     private string shopDesc;
     private bool shopCloseOnPublicHoliday;
-
     protected void Page_Load(object sender, EventArgs e)
     {
         Page.Form.Attributes.Add("enctype", "multipart/form-data");
@@ -37,7 +36,6 @@ public partial class AdminShopInfoEdit : BasePageAdmin
         }
         else
         {
-
             // clear static data
             clearStaticData();
             if (accountEntity.ShopInfoEntity != null)
@@ -585,5 +583,4 @@ public partial class AdminShopInfoEdit : BasePageAdmin
         filterShopInfo();
     }
     #endregion
-
 }

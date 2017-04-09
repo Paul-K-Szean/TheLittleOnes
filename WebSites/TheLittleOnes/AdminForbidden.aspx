@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterAdmin.master" AutoEventWireup="true" CodeFile="AdminForbidden.aspx.cs" Inherits="AdminForbidden" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="CPHHeaderMasterAdmin" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHBodyMasterAdmin" Runat="Server">
@@ -16,7 +15,6 @@
                 <hr>
                 <h3 class="lighter smaller">You do not have the permission to view this directory/page or resource.
                 </h3>
-
                 <div class="space"></div>
                 <hr>
                 <div class=" space-18"></div>

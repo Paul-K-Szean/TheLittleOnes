@@ -4,15 +4,11 @@ using TheLittleOnesLibrary;
 using TheLittleOnesLibrary.Entities;
 using TheLittleOnesLibrary.EnumFolder;
 using TheLittleOnesLibrary.Handler;
-
 public partial class Register : BasePageTLO
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
     }
-
-
     #region Button Controls
     protected void BTNCreate_Click(object sender, EventArgs e)
     {
@@ -45,24 +41,20 @@ public partial class Register : BasePageTLO
             }
         }
     }
-
     protected void BTNGenerate_Click(object sender, EventArgs e)
     {
         int randomNum = Utility.getRandomNumber();
         string username = Utility.getName();
         TBAccountEmail.Text = Utility.getEmail();
         TBAccountPassword02.Text = TBAccountPassword01.Text = Utility.getPassword();
-
         TBProfileName.Text = username;
         TBProfileContact.Text = Utility.getRandomNumber(80000000, 90000000).ToString();
         TBProfileAddress.Text = string.Concat("LOCATION", Utility.getRandomNumber().ToString("00"));
-
     }
     #endregion
     #region Dropdownlist Controls
     protected void DDLOrangisation_SelectedIndexChanged(object sender, EventArgs e)
     {
-
     }
     #endregion
     #region Logical Methods
@@ -72,13 +64,10 @@ public partial class Register : BasePageTLO
         bool isAccountEmailValid = true;
         bool isAccountPasswordValid = true;
         bool isProfileNameValid = true;
-
         string accountEmail = TBAccountEmail.Text.Trim();
         string accountPassword01 = TBAccountPassword01.Text.Trim();
         string accountPassword02 = TBAccountPassword02.Text.Trim();
         string profileName = TBProfileName.Text.Trim();
-
-
         if (string.IsNullOrEmpty(accountEmail))
         {
             isProfileNameValid = false;
@@ -120,7 +109,6 @@ public partial class Register : BasePageTLO
         }
         else
             MessageHandler.DefaultMessage(LBLProfileName, "Name");
-
         // return condition
         if (isAccountEmailValid && isAccountPasswordValid && isProfileNameValid)
         {
